@@ -1,3 +1,7 @@
-2023/07/03-23:24:06.934 5a60 Recovering log #54
-2023/07/03-23:24:06.940 5a60 Delete type=0 #54
-2023/07/03-23:24:06.940 5a60 Delete type=3 #52
+2023/07/03-23:25:31.647 1208 Recovering log #59
+2023/07/03-23:25:31.654 1208 Delete type=0 #59
+2023/07/03-23:25:31.654 1208 Delete type=3 #58
+2023/07/03-23:25:47.810 3910 Level-0 table #63: started
+2023/07/03-23:25:47.810 3910 Level-0 table #63: 0 bytes OK
+2023/07/03-23:25:47.815 3910 Delete type=0 #61
+2023/07/03-23:25:47.832 3910 Manual compaction at level-0 from '!scenes!VbSQvsRJSqb4urq6' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!VbSQvsRJSqb4urq6.odWwEly9jdwoFksY.odWwEly9jdwoFksY' @ 0 : 0; will stop at (end)
