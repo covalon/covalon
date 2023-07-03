@@ -1,0 +1,301 @@
+{
+  "id": "covalon",
+  "title": "Covalon",
+  "description": "Contains compendiums for all Covalon related resources like deities, mentors, and expeditions.",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.0.0",
+          "verified": "5.1.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "label": "Ratchethallow Actors",
+      "name": "ratchethallow-actors",
+      "path": "packs/ratchethallow-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ratchethallow Journals",
+      "name": "ratchethallow-journals",
+      "path": "packs/ratchethallow-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ratchethallow Scenes",
+      "name": "ratchethallow-scenes",
+      "path": "packs/ratchethallow-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Pudersno Actors",
+      "name": "pudersno-actors",
+      "path": "packs/pudersno-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Pudersno Journals",
+      "name": "pudersno-journals",
+      "path": "packs/pudersno-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Pudersno Scenes",
+      "name": "pudersno-scenes",
+      "path": "packs/pudersno-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Middlemist Actors",
+      "name": "middlemist-actors",
+      "path": "packs/middlemist-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Middlemist Journals",
+      "name": "middlemist-journals",
+      "path": "packs/middlemist-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Middlemist Scenes",
+      "name": "middlemist-scenes",
+      "path": "packs/middlemist-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Primrose Actors",
+      "name": "primrose-actors",
+      "path": "packs/primrose-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Primrose Journals",
+      "name": "primrose-journals",
+      "path": "packs/primrose-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Primrose Scenes",
+      "name": "primrose-scenes",
+      "path": "packs/primrose-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Taltain Actors",
+      "name": "taltain-actors",
+      "path": "packs/taltain-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Taltain Journals",
+      "name": "taltain-journals",
+      "path": "packs/taltain-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Taltain Scenes",
+      "name": "taltain-scenes",
+      "path": "packs/taltain-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Gornlar Actors",
+      "name": "gornlar-actors",
+      "path": "packs/gornlar-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Gornlar Journals",
+      "name": "gornlar-journals",
+      "path": "packs/gornlar-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Gornlar Scenes",
+      "name": "gornlar-scenes",
+      "path": "packs/gornlar-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ikouga Actors",
+      "name": "ikouga-actors",
+      "path": "packs/ikouga-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ikouga Journals",
+      "name": "ikouga-journals",
+      "path": "packs/ikouga-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ikouga Scenes",
+      "name": "ikouga-scenes",
+      "path": "packs/ikouga-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Covalon Mentors",
+      "name": "covalon-mentors",
+      "path": "packs/covalon-mentors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Covalon Deities",
+      "name": "covalon-deities",
+      "path": "packs/covalon-deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Covalon",
+      "sorting": "a",
+      "folders": [
+        {
+          "name": "Deities", "sorting": "a", "packs": ["covalon-deities"]
+        },
+        {
+          "name": "Mentors", "sorting": "a", "packs": ["covalon-mentors"]
+        },
+        {
+          "name": "Expeditions",
+          "sorting": "a",
+          "folders": [
+            { "name": "Ratchethallow", "sorting": "a", "packs": ["ratchethallow-actors", "ratchethallow-journals", "ratchethallow-scenes"] },
+            { "name": "Pudersno", "sorting": "a", "packs": ["pudersno-actors", "pudersno-journals", "pudersno-scenes"] },
+            { "name": "Middlemist", "sorting": "a", "packs": ["middlemist-actors", "middlemist-journals", "middlemist-scenes"] },
+            { "name": "Primrose", "sorting": "a", "packs": ["primrose-actors", "primrose-journals", "primrose-scenes"] },
+            { "name": "Taltain", "sorting": "a", "packs": ["taltain-actors", "taltain-journals", "taltain-scenes"] },
+            { "name": "Gornlar", "sorting": "a", "packs": ["gornlar-actors", "gornlar-journals", "gornlar-scenes"] },
+            { "name": "Ikouga", "sorting": "a", "packs": ["ikouga-actors", "ikouga-journals", "ikouga-scenes"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
