@@ -20,7 +20,7 @@ Unlike adding new content to existing compendiums, creating new compendiums is a
 
 - Open the `module.json` and make the following edits:
 
-  - Immediately after the `packs` array starts, **between lines 26 and 27**, insert the following code, replacing the name with the appropriate location. Note the capitaliation.
+  - Immediately after the `packs` array starts, **between lines 26 and 27**, insert the following code, replacing all `location` with the appropriate name. Note the capitaliation.
   ```json
     {
       "label": "Location Actors",
@@ -57,11 +57,11 @@ Unlike adding new content to existing compendiums, creating new compendiums is a
     ```
   If you end up needing items other than the standard actor / journal / scene, you can copy and paste one of the blocks and replace all mentions of Actor to i.e. Item, noting capitalization.
 
-  - Find the `packFolders` array. Unfortunately, I cannot give you a line number, but it should be near the bottom of the json. Within it, find the section labeled like: `"name": "Expeditions"` and, after the `folders` array starts, add the following code between that line and the next:
+  - Find the `packFolders` array. Unfortunately, I cannot give you a line number, but it should be near the bottom of the json. Within it, find the section labeled like: `"name": "Expeditions"` and, after the `folders` array starts, add the following code between that line and the next, replacing all `location` with the appropriate name. Note the capitaliation:
   ```json
   { "name": "Location", "sorting": "a", "packs": ["location-actors", "location-journals", "location-scenes"] },
   ```
-  If you added any extra packs above that need to go into the folder, add their `name` into the `packs` array.
+  If you added any extra packs in the step above that need to go into the folder, add their `name` into the `packs` array.
 
 - Save the `module.json` and then go and open Foundry again. If you have the Covalon module activated in the world, you should now see this new folder and its Compendiums.
 
