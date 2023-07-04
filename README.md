@@ -4,28 +4,24 @@ This module contains compendiums for all Covalon related resources like deities,
 The README is still under construction!
 
 ## Getting Started
-Foundry sucks and made everything way more complicated so you're gonna need something called Git! Download it from https://git-scm.com/download/win and install it.
+Foundry sucks and made everything way more complicated so you're gonna need something called Git. Luckily, Github has made a program to help make this easier!! Go download https://desktop.github.com/ and login with the Github account you're gonna use for Covalon.
 
-Download the module locally - we're not using Foundry for this, but instead, go to your Foundry user module data (should look like `Users/yourusernamehere/AppData/Local/FoundryVTT/Data/Modules`). Shift right click in a blank space on the explorer and hit the **Open Powershell window here**.
+Clone a repository from the internet, go to the URL tab, and paste in `https://github.com/isabroch/covalon`. Set the local path to your Foundry modules folder (looks something like `C:/Users/yourusernamehere/AppData/Local/FoundryVTT/Data/Modules`) - it _SHOULD_ automatically append a /covalon at the end of the local path when you've properly selected it, but if it doesn't, add it. Then hit the clone button.
 
-When it opens a window, copy and paste this command in:
-`git clone https://github.com/isabroch/covalon.git`
-
-When it's done, you should now have a folder called **covalon** in your modules folder!
+When it's done, you should now have a folder called **covalon** in your modules folder, and have a window saying `no local changes`. You will want to open up Github Desktop whenever you're going to edit the module.
 
 When you are making content edits, please work on a local copy of Foundry so you can easily access your files. Make a world specifically for working on the Covalon module - it should be the only one active on that world.
 
-We currently have several images hosted on someone's Forge. Although we can continue doing this, we risk losing those images if Forge ever deletes them / that person deletes their Forge. That's why we work locally. All images used for the module should be uploaded into the modules/covalon/images folder.
+If you are ever uploading images, please make sure to upload them into `modules/covalon/images`
 
 ## DO THIS BEFORE YOU MAKE ANY CHANGES
-If the Covalon module has updated since you've last had it in your local Foundry, do the following:
 
-- With Foundry closed, navigate to your covalon module folder (should look like `Users/yourusernamehere/AppData/Local/FoundryVTT/Data/Modules/covalon`)
 
-- Open a Powershell window there, as per the instructions in **Getting Started** and run the command
-`git pull`
+- With Foundry closed, open up Github Desktop. Hit the button called `fetch origin`.
 
-- When it's done, proceed with the steps listed in the section relevant to you (this will usually be either **Editing existing compendiums** OR **Adding new compendiums**, and then followed up by **Finishing up and making a new release**)
+- When it's done, proceed with the steps listed in the section relevant to you. This will usually be either **Editing existing compendiums** OR **Adding new compendiums**, and then followed up by **Finishing up and making a new release**.
+
+- PS, you can use the `show in explorer` button to be linked straight to the module folder!
 
 ## Editing existing compendiums
 This is as simple as going into Foundry after you've pulled down the latest changes, and making your edits as needed.
@@ -97,7 +93,3 @@ In your local `module.json`:
 
     - Additionally, update the minimum compatibility the Foundry/PF2E version you're on. If Foundry broke things, change `minimum` on **line 10** to the Foundry version (`10 -> 11`). If PF2E broke things, change the `minimum` on **line 20** to the PF2E version (`4.0.0 -> 5.1.0`). If both of them broke things, change both.
 
-It's time to open the Powershell in the covalon module folder again!
-
-- Run the following command, replacing VERSIONHERE with whatever version you mentioned in module.json:
-`git add . && git commit -m "VERSIONHERE" && git push`
