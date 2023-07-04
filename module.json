@@ -27,6 +27,7 @@
     {
       "label": "Ratchethallow Actors",
       "name": "ratchethallow-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ratchethallow-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -38,6 +39,7 @@
     {
       "label": "Ratchethallow Journals",
       "name": "ratchethallow-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ratchethallow-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -48,6 +50,7 @@
     {
       "label": "Ratchethallow Scenes",
       "name": "ratchethallow-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ratchethallow-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -59,6 +62,7 @@
     {
       "label": "Pudersno Actors",
       "name": "pudersno-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/pudersno-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -70,6 +74,7 @@
     {
       "label": "Pudersno Journals",
       "name": "pudersno-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/pudersno-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -80,6 +85,7 @@
     {
       "label": "Pudersno Scenes",
       "name": "pudersno-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/pudersno-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -91,6 +97,7 @@
     {
       "label": "Middlemist Actors",
       "name": "middlemist-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/middlemist-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -102,6 +109,7 @@
     {
       "label": "Middlemist Journals",
       "name": "middlemist-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/middlemist-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -112,6 +120,7 @@
     {
       "label": "Middlemist Scenes",
       "name": "middlemist-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/middlemist-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -123,6 +132,7 @@
     {
       "label": "Primrose Actors",
       "name": "primrose-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/primrose-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -134,6 +144,7 @@
     {
       "label": "Primrose Journals",
       "name": "primrose-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/primrose-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -144,6 +155,7 @@
     {
       "label": "Primrose Scenes",
       "name": "primrose-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/primrose-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -155,6 +167,7 @@
     {
       "label": "Taltain Actors",
       "name": "taltain-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/taltain-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -166,6 +179,7 @@
     {
       "label": "Taltain Journals",
       "name": "taltain-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/taltain-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -176,6 +190,7 @@
     {
       "label": "Taltain Scenes",
       "name": "taltain-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/taltain-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -187,6 +202,7 @@
     {
       "label": "Gornlar Actors",
       "name": "gornlar-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/gornlar-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -198,6 +214,7 @@
     {
       "label": "Gornlar Journals",
       "name": "gornlar-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/gornlar-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -208,6 +225,7 @@
     {
       "label": "Gornlar Scenes",
       "name": "gornlar-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/gornlar-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -219,6 +237,7 @@
     {
       "label": "Ikouga Actors",
       "name": "ikouga-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ikouga-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -230,6 +249,7 @@
     {
       "label": "Ikouga Journals",
       "name": "ikouga-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ikouga-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -240,6 +260,7 @@
     {
       "label": "Ikouga Scenes",
       "name": "ikouga-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/ikouga-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -251,6 +272,7 @@
     {
       "label": "Covalon Mentors",
       "name": "covalon-mentors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/covalon-mentors",
       "type": "Actor",
       "system": "pf2e",
@@ -262,6 +284,7 @@
     {
       "label": "Covalon Deities",
       "name": "covalon-deities",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/covalon-deities",
       "type": "Item",
       "system": "pf2e",

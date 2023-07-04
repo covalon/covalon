@@ -38,6 +38,7 @@ The following instructions assume you are creating new expeditions:
     {
       "label": "Location Actors",
       "name": "location-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/location-actors",
       "type": "Actor",
       "system": "pf2e",
@@ -49,6 +50,7 @@ The following instructions assume you are creating new expeditions:
     {
       "label": "Location Journals",
       "name": "location-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/location-journals",
       "type": "JournalEntry",
       "ownership": {
@@ -59,6 +61,7 @@ The following instructions assume you are creating new expeditions:
     {
       "label": "Location Scenes",
       "name": "location-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/location-scenes",
       "type": "Scene",
       "system": "pf2e",
@@ -68,7 +71,7 @@ The following instructions assume you are creating new expeditions:
       }
     },
     ```
-  If you end up needing items other than the standard actor / journal / scene, you can copy and paste one of the blocks and replace all mentions of Actor to i.e. Item, noting capitalization.
+  If you end up needing items other than the standard actor / journal / scene, you can copy and paste one of the blocks and replace all mentions of Actor to i.e. Item, noting capitalization. See (https://gitlab.com/encounterlibrary/my-content-module/-/blob/main/module.json) for how to format the `type` field.
 
   - Find the `packFolders` array. Unfortunately, I cannot give you a line number, but it should be near the bottom of the json. Within it, find the section labeled like: `"name": "Expeditions"` and, after the `folders` array starts, add the following code between that line and the next, replacing all `location` with the appropriate name. Note the capitaliation:
   ```json
@@ -93,3 +96,16 @@ In your local `module.json`:
 
     - Additionally, update the minimum compatibility the Foundry/PF2E version you're on. If Foundry broke things, change `minimum` on **line 10** to the Foundry version (`10 -> 11`). If PF2E broke things, change the `minimum` on **line 20** to the PF2E version (`4.0.0 -> 5.1.0`). If both of them broke things, change both.
 
+Time to upload everything! Open up **Github Desktop**. You should see it say something like `160+ changed files`. It's a lot, I know.
+
+- In the `Summary (required)` field, type in the version number you wrote into module.json, prepending it with a v, like so: `v2.0`
+
+- Due to the new Foundry format, it's much harder at a glance to see what content has changed. I like to use the `description` field to write my changelogs, and then copy and paste that when I do my release too. This is optional.
+
+- Hit the `Commit to main` button!
+
+- When that's done, hit the `Push origin` button.
+
+- And when *that's* done, it's time to hit the `View on Github` button. You should see, once it's loaded, next to the README.md and packs folder, the text you put in `summary` i.e. `v2.0`
+
+-
