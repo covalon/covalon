@@ -14,10 +14,12 @@ When you are making content edits, please work on a local copy of Foundry so you
 
 If you are ever uploading images, please make sure to upload them into `modules/covalon/images`
 
-## DO THIS BEFORE YOU MAKE ANY CHANGES
+## DO THIS BEFORE YOU MAKE ANY CHANGES - EVEN BEFORE YOU OPEN YOUR FOUNDRY!!!
 
+Due to the nature of the databases, we should only ever have one person uploading changes at a time. That is to say if multiple people are creating actors or items, they should export the data and send it to someone to add to the compendium and upload to Github. It's still fine to have multiple people upload changes, but for example, if I'm working on something and Arto is working on something at the same time, we're going to run into issues when we try to upload.
 
-- With Foundry closed, open up Github Desktop. Hit the button called `fetch origin`.
+- With Foundry closed, open up Github Desktop. It should say No Local Changes. If it does, hit the button called `fetch origin`.
+  - If you *have* accidentally opened your Foundry world and find there's several changed files, go to Branch > Discard all changes, and confirm. This should reset things. *Then* hit the `fetch origin` button.
 
 - When it's done, proceed with the steps listed in the section relevant to you. This will usually be either **Editing existing compendiums** OR **Adding new compendiums**, and then followed up by **Finishing up and making a new release**.
 
@@ -88,24 +90,32 @@ The following instructions assume you are creating new expeditions:
 
 In your local `module.json`:
 
-- Update the version number, using the format `major.minor`, found on **line 8**
+- Update the version number, using the format `major.minor.patch`, found on **line 8**
 
-  - For almost everything - new content, changing existing content, etc., update the **minor version**. (`1.0 -> 1.1`)
+  - If you only had to edit existing compendums, update the **patch version**. (`1.0.4 -> 1.0.5`)
 
-  - If Foundry or PF2E gets a major update (i.e. v10 to v11) that completely breaks the module and we have to remake things in their new versions, update the **major version** and reset minor to 0. (`1.1 -> 2.0`)
+  - If you had to add a new compendium, update the **minor version** and reset **patch** to 0. (`1.0.5 -> 1.1.0`)
+
+  - If Foundry or PF2E gets a major update (i.e. v10 to v11) that completely breaks the module and we have to remake things in their new versions, update the **major version** and reset **minor** and **patch** to 0. (`1.1.6 -> 2.0.0`)
 
     - Additionally, update the minimum compatibility the Foundry/PF2E version you're on. If Foundry broke things, change `minimum` on **line 10** to the Foundry version (`10 -> 11`). If PF2E broke things, change the `minimum` on **line 20** to the PF2E version (`4.0.0 -> 5.1.0`). If both of them broke things, change both.
 
 Time to upload everything! Open up **Github Desktop**. You should see it say something like `160+ changed files`. It's a lot, I know.
 
-- In the `Summary (required)` field, type in the version number you wrote into module.json, prepending it with a v, like so: `v2.0`
+- In the `Summary (required)` field, type in the version number you wrote into module.json, prepending it with a v, like so: `v2.0.5`
 
-- Due to the new Foundry format, it's much harder at a glance to see what content has changed. I like to use the `description` field to write my changelogs, and then copy and paste that when I do my release too. This is optional.
+- Due to the new Foundry format, it's much harder at a glance to see what content has changed. I like to use the `description` field to wrhte my changelogs, and then copy and paste that when I do my release too. This is optional.
 
 - Hit the `Commit to main` button!
 
 - When that's done, hit the `Push origin` button.
 
-- And when *that's* done, it's time to hit the `View on Github` button. You should see, once it's loaded, next to the README.md and packs folder, the text you put in `summary` i.e. `v2.0`
+- And when *that's* done, it's time to hit the `View on Github` button. You should see, once it's loaded, next to the README.md and packs folder, the text you put in `summary` i.e. `v2.0.5`
 
--
+- Hit the `Create a new release` button
+  - Choose a tag (set the name with the name used in your Summary, i.e. `v2.0.5` and then create new tag)
+  - Make the `Release title` your version number, same as the tag
+  - Try to accurately describe every change you made in the `Description` field, as the new Foundry update makes it a lot harder to accurately track our changes
+  - Once you're ready, `Publish your release`!
+
+Hopefully this should cover everything...?
