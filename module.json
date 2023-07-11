@@ -4,7 +4,7 @@
   "description": "Contains compendiums for all Covalon related resources like deities, mentors, and expeditions.",
   "url": "https://github.com/TanglesTheHobbit/covalon",
   "manifest": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.json",
-  "download": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.zip",
+  "download": "https://github.com/TanglesTheHobbit/covalon/releases/download/v0.0.3/module.zip",
   "version": "0.0.3",
   "compatibility": {
     "minimum": "11",
@@ -34,7 +34,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Ratchethallow Journals",
@@ -45,7 +46,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Ratchethallow Scenes",
@@ -57,7 +60,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Pudersno Actors",
@@ -69,7 +73,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Pudersno Journals",
@@ -80,7 +85,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Pudersno Scenes",
@@ -92,7 +99,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Middlemist Actors",
@@ -104,7 +112,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Middlemist Journals",
@@ -115,7 +124,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Middlemist Scenes",
@@ -127,7 +138,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Primrose Actors",
@@ -139,7 +151,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Primrose Journals",
@@ -150,7 +163,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Primrose Scenes",
@@ -162,7 +177,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Taltain Actors",
@@ -174,7 +190,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Taltain Journals",
@@ -185,7 +202,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Taltain Scenes",
@@ -197,7 +216,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Gornlar Actors",
@@ -209,7 +229,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Gornlar Journals",
@@ -220,7 +241,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Gornlar Scenes",
@@ -232,7 +255,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Ikouga Actors",
@@ -244,7 +268,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Ikouga Journals",
@@ -255,7 +280,9 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "Ikouga Scenes",
@@ -267,7 +294,8 @@
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Covalon Mentors",
@@ -279,7 +307,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "label": "Covalon Deities",
@@ -291,7 +320,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -300,25 +330,100 @@
       "sorting": "a",
       "folders": [
         {
-          "name": "Deities", "sorting": "a", "packs": ["covalon-deities"]
+          "name": "Deities",
+          "sorting": "a",
+          "packs": [
+            "covalon-deities"
+          ],
+          "folders": []
         },
         {
-          "name": "Mentors", "sorting": "a", "packs": ["covalon-mentors"]
+          "name": "Mentors",
+          "sorting": "a",
+          "packs": [
+            "covalon-mentors"
+          ],
+          "folders": []
         },
         {
           "name": "Expeditions",
           "sorting": "a",
           "folders": [
-            { "name": "Ratchethallow", "sorting": "a", "packs": ["ratchethallow-actors", "ratchethallow-journals", "ratchethallow-scenes"] },
-            { "name": "Pudersno", "sorting": "a", "packs": ["pudersno-actors", "pudersno-journals", "pudersno-scenes"] },
-            { "name": "Middlemist", "sorting": "a", "packs": ["middlemist-actors", "middlemist-journals", "middlemist-scenes"] },
-            { "name": "Primrose", "sorting": "a", "packs": ["primrose-actors", "primrose-journals", "primrose-scenes"] },
-            { "name": "Taltain", "sorting": "a", "packs": ["taltain-actors", "taltain-journals", "taltain-scenes"] },
-            { "name": "Gornlar", "sorting": "a", "packs": ["gornlar-actors", "gornlar-journals", "gornlar-scenes"] },
-            { "name": "Ikouga", "sorting": "a", "packs": ["ikouga-actors", "ikouga-journals", "ikouga-scenes"] }
-          ]
+            {
+              "name": "Ratchethallow",
+              "sorting": "a",
+              "packs": [
+                "ratchethallow-actors",
+                "ratchethallow-journals",
+                "ratchethallow-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Pudersno",
+              "sorting": "a",
+              "packs": [
+                "pudersno-actors",
+                "pudersno-journals",
+                "pudersno-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Middlemist",
+              "sorting": "a",
+              "packs": [
+                "middlemist-actors",
+                "middlemist-journals",
+                "middlemist-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Primrose",
+              "sorting": "a",
+              "packs": [
+                "primrose-actors",
+                "primrose-journals",
+                "primrose-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Taltain",
+              "sorting": "a",
+              "packs": [
+                "taltain-actors",
+                "taltain-journals",
+                "taltain-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Gornlar",
+              "sorting": "a",
+              "packs": [
+                "gornlar-actors",
+                "gornlar-journals",
+                "gornlar-scenes"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Ikouga",
+              "sorting": "a",
+              "packs": [
+                "ikouga-actors",
+                "ikouga-journals",
+                "ikouga-scenes"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
         }
-      ]
+      ],
+      "packs": []
     }
   ]
 }
