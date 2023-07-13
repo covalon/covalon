@@ -1,3 +1,9 @@
-2023/07/11-19:00:39.226 e20 Recovering log #87
-2023/07/11-19:00:39.228 e20 Delete type=0 #87
-2023/07/11-19:00:39.228 e20 Delete type=3 #86
+2023/07/12-18:46:20.277 4a7c Recovering log #89
+2023/07/12-18:46:20.282 4a7c Delete type=0 #89
+2023/07/12-18:46:20.282 4a7c Delete type=3 #88
+2023/07/12-18:46:47.455 44fc Compacting 2@0 + 0@1 files
+2023/07/12-18:46:47.463 44fc Generated table #92@0: 124 keys, 39534 bytes
+2023/07/12-18:46:47.464 44fc Compacted 2@0 + 0@1 files => 39534 bytes
+2023/07/12-18:46:47.469 44fc compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/12-18:46:47.469 44fc Delete type=2 #75
+2023/07/12-18:46:47.469 44fc Delete type=2 #80
