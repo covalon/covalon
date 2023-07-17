@@ -5,7 +5,7 @@
   "url": "https://github.com/TanglesTheHobbit/covalon",
   "manifest": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.json",
   "download": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.zip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "11.305",
     "verified": "11.305"
@@ -24,6 +24,42 @@
     ]
   },
   "packs": [
+  {
+    "label": "Verndhelt Actors",
+    "name": "verndhelt-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/verndhelt-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Verndhelt Journals",
+    "name": "verndhelt-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/verndhelt-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Verndhelt Scenes",
+    "name": "verndhelt-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/verndhelt-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+
     {
       "label": "Ratchethallow Actors",
       "name": "ratchethallow-actors",
@@ -359,6 +395,16 @@
               ],
               "folders": []
             },
+            {
+              "name": "Verndhelt",
+              "sorting": "a",
+              "packs": [
+                "verndhelt-actors",
+                "verndhelt-journals",
+                "verndhelt-scenes"
+              ],
+		"folders":[]
+	    },
             {
               "name": "Pudersno",
               "sorting": "a",
