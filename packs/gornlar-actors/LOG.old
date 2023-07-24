@@ -1,24 +1,3 @@
-2023/07/24-17:04:05.043 14fc Recovering log #98
-2023/07/24-17:04:05.045 14fc Delete type=0 #98
-2023/07/24-17:04:05.045 14fc Delete type=3 #97
-2023/07/24-17:26:22.402 5f34 Level-0 table #102: started
-2023/07/24-17:26:22.402 5f34 Level-0 table #102: 0 bytes OK
-2023/07/24-17:26:22.403 5f34 Delete type=0 #100
-2023/07/24-17:26:22.405 5f34 Manual compaction at level-0 from '!actors!184uWJcV5yD7jmNK' @ 72057594037927935 : 1 .. '!folders!pv0FONiMyrSOhBFu' @ 0 : 0; will stop at '!folders!pv0FONiMyrSOhBFu' @ 1507 : 1
-2023/07/24-17:26:22.405 5f34 Compacting 3@0 + 1@1 files
-2023/07/24-17:26:22.411 5f34 Generated table #103@0: 680 keys, 413355 bytes
-2023/07/24-17:26:22.411 5f34 Compacted 3@0 + 1@1 files => 413355 bytes
-2023/07/24-17:26:22.411 5f34 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/07/24-17:26:22.412 5f34 Delete type=2 #75
-2023/07/24-17:26:22.412 5f34 Delete type=2 #81
-2023/07/24-17:26:22.412 5f34 Delete type=2 #84
-2023/07/24-17:26:22.412 5f34 Delete type=2 #89
-2023/07/24-17:26:22.421 5f34 Manual compaction at level-0 from '!folders!pv0FONiMyrSOhBFu' @ 1507 : 1 .. '!folders!pv0FONiMyrSOhBFu' @ 0 : 0; will stop at (end)
-2023/07/24-17:26:22.421 5f34 Manual compaction at level-1 from '!actors!184uWJcV5yD7jmNK' @ 72057594037927935 : 1 .. '!folders!pv0FONiMyrSOhBFu' @ 0 : 0; will stop at '!folders!pv0FONiMyrSOhBFu' @ 3608 : 1
-2023/07/24-17:26:22.421 5f34 Compacting 1@1 + 1@2 files
-2023/07/24-17:26:22.427 5f34 Generated table #104@1: 680 keys, 413355 bytes
-2023/07/24-17:26:22.427 5f34 Compacted 1@1 + 1@2 files => 413355 bytes
-2023/07/24-17:26:22.427 5f34 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/24-17:26:22.427 5f34 Delete type=2 #38
-2023/07/24-17:26:22.427 5f34 Delete type=2 #103
-2023/07/24-17:26:22.430 5f34 Manual compaction at level-1 from '!folders!pv0FONiMyrSOhBFu' @ 3608 : 1 .. '!folders!pv0FONiMyrSOhBFu' @ 0 : 0; will stop at (end)
+2023/07/24-21:10:15.470 439c Recovering log #108
+2023/07/24-21:10:15.472 439c Delete type=0 #108
+2023/07/24-21:10:15.473 439c Delete type=3 #107
