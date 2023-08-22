@@ -1,475 +1,512 @@
 {
-  "id": "covalon",
-  "title": "Covalon",
-  "description": "Contains compendiums for all Covalon related resources like deities, mentors, and expeditions.",
-  "url": "https://github.com/TanglesTheHobbit/covalon",
-  "manifest": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.json",
-  "download": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.zip",
-  "version": "1.1.2",
-  "compatibility": {
-    "minimum": "11.305",
-    "verified": "11.305"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "5.1.2",
-          "verified": "5.1.2"
-        }
-      }
-    ]
-  },
-  "packs": [
-  {
-    "label": "Verndhelt Actors",
-    "name": "verndhelt-actors",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/verndhelt-actors",
-    "type": "Actor",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "label": "Verndhelt Journals",
-    "name": "verndhelt-journals",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/verndhelt-journals",
-    "type": "JournalEntry",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "label": "Verndhelt Scenes",
-    "name": "verndhelt-scenes",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/verndhelt-scenes",
-    "type": "Scene",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-
-    {
-      "label": "Ratchethallow Actors",
-      "name": "ratchethallow-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ratchethallow-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+    "id": "covalon",
+    "title": "Covalon",
+    "description": "Contains compendiums for all Covalon related resources like deities, mentors, and expeditions.",
+    "url": "https://github.com/TanglesTheHobbit/covalon",
+    "manifest": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.json",
+    "download": "https://github.com/TanglesTheHobbit/covalon/releases/download/v1.1.3/module.zip",
+    "version": "1.1.4",
+    "compatibility": {
+        "minimum": "11.305",
+        "verified": "11.307"
     },
-    {
-      "label": "Ratchethallow Journals",
-      "name": "ratchethallow-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ratchethallow-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Ratchethallow Scenes",
-      "name": "ratchethallow-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ratchethallow-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Pudersno Actors",
-      "name": "pudersno-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/pudersno-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Pudersno Journals",
-      "name": "pudersno-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/pudersno-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Pudersno Scenes",
-      "name": "pudersno-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/pudersno-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Middlemist Actors",
-      "name": "middlemist-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/middlemist-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Middlemist Journals",
-      "name": "middlemist-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/middlemist-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Middlemist Scenes",
-      "name": "middlemist-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/middlemist-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Primrose Actors",
-      "name": "primrose-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/primrose-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Primrose Journals",
-      "name": "primrose-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/primrose-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Primrose Scenes",
-      "name": "primrose-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/primrose-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Taltain Actors",
-      "name": "taltain-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/taltain-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Taltain Journals",
-      "name": "taltain-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/taltain-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Taltain Scenes",
-      "name": "taltain-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/taltain-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Gornlar Actors",
-      "name": "gornlar-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/gornlar-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Gornlar Journals",
-      "name": "gornlar-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/gornlar-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Gornlar Scenes",
-      "name": "gornlar-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/gornlar-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Ikouga Actors",
-      "name": "ikouga-actors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ikouga-actors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Ikouga Journals",
-      "name": "ikouga-journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ikouga-journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    },
-    {
-      "label": "Ikouga Scenes",
-      "name": "ikouga-scenes",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/ikouga-scenes",
-      "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Covalon Mentors",
-      "name": "covalon-mentors",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon-mentors",
-      "type": "Actor",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Covalon Deities",
-      "name": "covalon-deities",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/covalon-deities",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Covalon",
-      "sorting": "a",
-      "folders": [
-        {
-          "name": "Deities",
-          "sorting": "a",
-          "packs": [
-            "covalon-deities"
-          ],
-          "folders": []
-        },
-        {
-          "name": "Mentors",
-          "sorting": "a",
-          "packs": [
-            "covalon-mentors"
-          ],
-          "folders": []
-        },
-        {
-          "name": "Expeditions",
-          "sorting": "a",
-          "folders": [
+    "relationships": {
+        "systems": [
             {
-              "name": "Ratchethallow",
-              "sorting": "a",
-              "packs": [
-                "ratchethallow-actors",
-                "ratchethallow-journals",
-                "ratchethallow-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Verndhelt",
-              "sorting": "a",
-              "packs": [
-                "verndhelt-actors",
-                "verndhelt-journals",
-                "verndhelt-scenes"
-              ],
-		"folders":[]
-	    },
-            {
-              "name": "Pudersno",
-              "sorting": "a",
-              "packs": [
-                "pudersno-actors",
-                "pudersno-journals",
-                "pudersno-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Middlemist",
-              "sorting": "a",
-              "packs": [
-                "middlemist-actors",
-                "middlemist-journals",
-                "middlemist-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Primrose",
-              "sorting": "a",
-              "packs": [
-                "primrose-actors",
-                "primrose-journals",
-                "primrose-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Taltain",
-              "sorting": "a",
-              "packs": [
-                "taltain-actors",
-                "taltain-journals",
-                "taltain-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Gornlar",
-              "sorting": "a",
-              "packs": [
-                "gornlar-actors",
-                "gornlar-journals",
-                "gornlar-scenes"
-              ],
-              "folders": []
-            },
-            {
-              "name": "Ikouga",
-              "sorting": "a",
-              "packs": [
-                "ikouga-actors",
-                "ikouga-journals",
-                "ikouga-scenes"
-              ],
-              "folders": []
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "5.3.0",
+                    "verified": "5.3.1"
+                }
             }
-          ],
-          "packs": []
+        ]
+    },
+    "packs": [
+        {
+            "label": "Elemental Convergence Journals",
+            "name": "elemental-convergence-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/elemental-convergence-journals",
+            "type": "JournalEntry",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        }, 
+        {
+            "label": "Elemental Convergence Items",
+            "name": "elemental-convergence-items",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/elemental-convergence-items",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },        
+{
+            "label": "Verndhelt Actors",
+            "name": "verndhelt-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/verndhelt-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "label": "Verndhelt Journals",
+            "name": "verndhelt-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/verndhelt-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "label": "Verndhelt Scenes",
+            "name": "verndhelt-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/verndhelt-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "label": "Ratchethallow Actors",
+            "name": "ratchethallow-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ratchethallow-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Ratchethallow Journals",
+            "name": "ratchethallow-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ratchethallow-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Ratchethallow Scenes",
+            "name": "ratchethallow-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ratchethallow-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Pudersno Actors",
+            "name": "pudersno-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/pudersno-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Pudersno Journals",
+            "name": "pudersno-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/pudersno-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Pudersno Scenes",
+            "name": "pudersno-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/pudersno-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Middlemist Actors",
+            "name": "middlemist-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/middlemist-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Middlemist Journals",
+            "name": "middlemist-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/middlemist-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Middlemist Scenes",
+            "name": "middlemist-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/middlemist-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Primrose Actors",
+            "name": "primrose-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/primrose-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Primrose Journals",
+            "name": "primrose-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/primrose-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Primrose Scenes",
+            "name": "primrose-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/primrose-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Taltain Actors",
+            "name": "taltain-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/taltain-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Taltain Journals",
+            "name": "taltain-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/taltain-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Taltain Scenes",
+            "name": "taltain-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/taltain-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Gornlar Actors",
+            "name": "gornlar-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/gornlar-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Gornlar Journals",
+            "name": "gornlar-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/gornlar-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Gornlar Scenes",
+            "name": "gornlar-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/gornlar-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Ikouga Actors",
+            "name": "ikouga-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ikouga-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Ikouga Journals",
+            "name": "ikouga-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ikouga-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "label": "Ikouga Scenes",
+            "name": "ikouga-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/ikouga-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Covalon Mentors",
+            "name": "covalon-mentors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/covalon-mentors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "label": "Covalon Deities",
+            "name": "covalon-deities",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/covalon-deities",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
         }
-      ],
-      "packs": []
-    }
-  ]
+    ],
+    "packFolders": [
+        {
+            "name": "Covalon",
+            "sorting": "a",
+            "folders": [
+                {
+                    "name": "Deities",
+                    "sorting": "a",
+                    "packs": [
+                        "covalon-deities"
+                    ],
+                    "folders": []
+                },
+                {
+                    "name": "Mentors",
+                    "sorting": "a",
+                    "packs": [
+                        "covalon-mentors"
+                    ],
+                    "folders": []
+                },
+                {
+                    "name": "Expeditions",
+                    "sorting": "a",
+                    "folders": [
+                        {
+                            "name": "Ratchethallow",
+                            "sorting": "a",
+                            "packs": [
+                                "ratchethallow-actors",
+                                "ratchethallow-journals",
+                                "ratchethallow-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Verndhelt",
+                            "sorting": "a",
+                            "packs": [
+                                "verndhelt-actors",
+                                "verndhelt-journals",
+                                "verndhelt-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Pudersno",
+                            "sorting": "a",
+                            "packs": [
+                                "pudersno-actors",
+                                "pudersno-journals",
+                                "pudersno-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Middlemist",
+                            "sorting": "a",
+                            "packs": [
+                                "middlemist-actors",
+                                "middlemist-journals",
+                                "middlemist-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Primrose",
+                            "sorting": "a",
+                            "packs": [
+                                "primrose-actors",
+                                "primrose-journals",
+                                "primrose-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Taltain",
+                            "sorting": "a",
+                            "packs": [
+                                "taltain-actors",
+                                "taltain-journals",
+                                "taltain-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Gornlar",
+                            "sorting": "a",
+                            "packs": [
+                                "gornlar-actors",
+                                "gornlar-journals",
+                                "gornlar-scenes"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Ikouga",
+                            "sorting": "a",
+                            "packs": [
+                                "ikouga-actors",
+                                "ikouga-journals",
+                                "ikouga-scenes"
+                            ],
+                            "folders": []
+                        }
+                    ],
+                    "packs": []
+                },
+            
+{
+                    "name": "Events",
+                    "sorting": "a",
+                    "folders": [
+                        {
+                            "name": "Elemental Convergence",
+                            "sorting": "a",
+                            "packs": [
+                                "elemental-convergence-items",
+                                "elemental-convergence-journals"
+                            ],
+                            "folders": []
+                        }]}
+ ],
+            "packs": []
+        }
+    ]
 }
