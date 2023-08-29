@@ -1,5 +1,15 @@
-2023/08/27-16:00:24.527 6210 Recovering log #39
-2023/08/27-16:00:24.528 6210 Level-0 table #41: started
-2023/08/27-16:00:24.528 6210 Level-0 table #41: 10772 bytes OK
-2023/08/27-16:00:24.531 6210 Delete type=0 #39
-2023/08/27-16:00:24.531 6210 Delete type=3 #38
+2023/08/27-13:50:23.524 764 Recovering log #45
+2023/08/27-13:50:23.532 764 Delete type=0 #45
+2023/08/27-13:50:23.532 764 Delete type=3 #43
+2023/08/27-13:51:00.998 3078 Level-0 table #49: started
+2023/08/27-13:51:00.998 3078 Level-0 table #49: 0 bytes OK
+2023/08/27-13:51:01.000 3078 Delete type=0 #47
+2023/08/27-13:51:01.011 3078 Manual compaction at level-0 from '!scenes!08dAtHOkrI29wjyf' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 0 : 0; will stop at '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 13 : 1
+2023/08/27-13:51:01.011 3078 Compacting 2@0 + 1@1 files
+2023/08/27-13:51:01.015 3078 Generated table #50@0: 51 keys, 10751 bytes
+2023/08/27-13:51:01.015 3078 Compacted 2@0 + 1@1 files => 10751 bytes
+2023/08/27-13:51:01.016 3078 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/08/27-13:51:01.016 3078 Delete type=2 #17
+2023/08/27-13:51:01.016 3078 Delete type=2 #41
+2023/08/27-13:51:01.017 3078 Delete type=2 #44
+2023/08/27-13:51:01.023 3078 Manual compaction at level-0 from '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 13 : 1 .. '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 0 : 0; will stop at (end)
