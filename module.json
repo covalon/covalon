@@ -5,7 +5,7 @@
     "url": "https://github.com/TanglesTheHobbit/covalon",
     "manifest": "https://github.com/TanglesTheHobbit/covalon/releases/latest/download/module.json",
     "download": "https://github.com/TanglesTheHobbit/covalon/releases/download/v1.1.3/module.zip",
-    "version": "1.1.10",
+    "version": "1.2.0",
     "compatibility": {
         "minimum": "11.305",
         "verified": "11.308"
@@ -25,6 +25,41 @@
     },
     "packs": [
         {
+            "label": "Drifthaven Actors",
+            "name": "drifthaven-actors",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/drifthaven-actors",
+            "type": "Actor",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "label": "Drifthaven Journals",
+            "name": "drifthaven-journals",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/drifthaven-journals",
+            "type": "JournalEntry",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "label": "Drifthaven Scenes",
+            "name": "drifthaven-scenes",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "path": "packs/drifthaven-scenes",
+            "type": "Scene",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "NONE",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
             "label": "Elemental Convergence Journals",
             "name": "elemental-convergence-journals",
             "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -35,7 +70,7 @@
                 "PLAYER": "NONE",
                 "ASSISTANT": "OWNER"
             }
-        }, 
+        },
         {
             "label": "Elemental Convergence Items",
             "name": "elemental-convergence-items",
@@ -47,8 +82,8 @@
                 "PLAYER": "NONE",
                 "ASSISTANT": "OWNER"
             }
-        },        
-{
+        },
+        {
             "label": "Verndhelt Actors",
             "name": "verndhelt-actors",
             "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -433,6 +468,15 @@
                     "sorting": "a",
                     "folders": [
                         {
+                            "name": "Drifthaven",
+                            "sorting": "a",
+                            "packs": [
+                                "drifthaven-actors",
+                                "drifthaven-journals",
+                                "drifthaven-scenes"
+                            ]
+                        },
+                        {
                             "name": "Ratchethallow",
                             "sorting": "a",
                             "packs": [
@@ -517,8 +561,7 @@
                     ],
                     "packs": []
                 },
-            
-{
+                {
                     "name": "Events",
                     "sorting": "a",
                     "folders": [
@@ -530,8 +573,10 @@
                                 "elemental-convergence-journals"
                             ],
                             "folders": []
-                        }]}
- ],
+                        }
+                    ]
+                }
+            ],
             "packs": []
         }
     ]
