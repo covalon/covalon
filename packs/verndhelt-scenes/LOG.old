@@ -1,14 +1,3 @@
-2023/11/04-10:41:52.252 2f38 Recovering log #59
-2023/11/04-10:41:52.255 2f38 Delete type=0 #59
-2023/11/04-10:41:52.255 2f38 Delete type=3 #58
-2023/11/04-10:42:26.040 33c4 Level-0 table #63: started
-2023/11/04-10:42:26.040 33c4 Level-0 table #63: 0 bytes OK
-2023/11/04-10:42:26.041 33c4 Delete type=0 #61
-2023/11/04-10:42:26.043 33c4 Manual compaction at level-0 from '!scenes!08dAtHOkrI29wjyf' @ 72057594037927935 : 1 .. '!scenes.tiles!zy3lyESx9q2ogruE.vHcsXVhIVyiDUAEZ' @ 0 : 0; will stop at '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 336 : 0
-2023/11/04-10:42:26.043 33c4 Compacting 1@0 + 1@1 files
-2023/11/04-10:42:26.044 33c4 Generated table #64@0: 45 keys, 8347 bytes
-2023/11/04-10:42:26.044 33c4 Compacted 1@0 + 1@1 files => 8347 bytes
-2023/11/04-10:42:26.044 33c4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2023/11/04-10:42:26.045 33c4 Delete type=2 #50
-2023/11/04-10:42:26.045 33c4 Delete type=2 #54
-2023/11/04-10:42:26.051 33c4 Manual compaction at level-0 from '!scenes.tokens.delta!zy3lyESx9q2ogruE.RoSA9JcGt0AVikqk.OdzcIG4157aqog7T' @ 336 : 0 .. '!scenes.tiles!zy3lyESx9q2ogruE.vHcsXVhIVyiDUAEZ' @ 0 : 0; will stop at (end)
+2023/11/04-10:44:24.830 ecc Recovering log #62
+2023/11/04-10:44:24.832 ecc Delete type=0 #62
+2023/11/04-10:44:24.832 ecc Delete type=3 #60
