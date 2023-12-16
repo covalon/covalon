@@ -6,7 +6,7 @@ The README is still under construction!
 ## Getting Started
 Foundry sucks and made everything way more complicated so you're gonna need something called Git. Luckily, Github has made a program to help make this easier!! Go download https://desktop.github.com/ and login with the Github account you're gonna use for Covalon.
 
-Clone a repository from the internet, go to the URL tab, and paste in `https://github.com/TanglesTheHobbit/covalon`. Set the local path to your Foundry modules folder (looks something like `C:/Users/yourusernamehere/AppData/Local/FoundryVTT/Data/Modules`) - it _SHOULD_ automatically append a /covalon at the end of the local path when you've properly selected it, but if it doesn't, add it. Then hit the clone button.
+Clone a repository from the internet, go to the URL tab, and paste in `https://github.com/covalon/covalon`. Set the local path to your Foundry modules folder (looks something like `C:/Users/yourusernamehere/AppData/Local/FoundryVTT/Data/Modules`) - it _SHOULD_ automatically append a /covalon at the end of the local path when you've properly selected it, but if it doesn't, add it. Then hit the clone button.
 
 When it's done, you should now have a folder called **covalon** in your modules folder, and have a window saying `no local changes`. You will want to open up Github Desktop whenever you're going to edit the module.
 
