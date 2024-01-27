@@ -1,5 +1,3 @@
-2023/12/30-14:11:43.599 b9c Recovering log #19
-2023/12/30-14:11:43.599 b9c Level-0 table #22: started
-2023/12/30-14:11:43.603 b9c Level-0 table #22: 31120 bytes OK
-2023/12/30-14:11:43.610 b9c Delete type=0 #19
-2023/12/30-14:11:43.610 b9c Delete type=3 #17
+2024/01/27-15:27:49.032 4d68 Recovering log #28
+2024/01/27-15:27:49.040 4d68 Delete type=0 #28
+2024/01/27-15:27:49.040 4d68 Delete type=3 #26
