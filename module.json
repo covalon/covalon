@@ -5,7 +5,7 @@
     "url": "https://github.com/covalon/covalon",
     "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
     "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "compatibility": {
         "minimum": "11.305",
         "verified": "11.315"
@@ -24,6 +24,29 @@
         ]
     },
     "packs": [
+    {
+    "label": "Astral Raiders Journals",
+    "name": "astral-raiders-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/astral-raiders-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Astral Raiders Items",
+    "name": "astral-raiders-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/astral-raiders-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
   {
     "label": "Covalon Basics Journals",
     "name": "covalon-basics-journals",
@@ -616,6 +639,15 @@
                             "packs": [
                                 "elemental-convergence-items",
                                 "elemental-convergence-journals"
+                            ],
+                            "folders": []
+                        },
+                        {
+                            "name": "Astral Raiders",
+                            "sorting": "a",
+                            "packs": [
+                                "astral-raiders-items",
+                                "astral-raiders-journals"
                             ],
                             "folders": []
                         }
