@@ -5,9 +5,9 @@
     "url": "https://github.com/covalon/covalon",
     "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
     "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-    "version": "2.0",
+    "version": "2.1",
     "compatibility": {
-        "minimum": "11.305",
+        "minimum": "12",
         "verified": "12"
     },
     "relationships": {
@@ -17,13 +17,60 @@
                 "type": "system",
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility": {
-                    "minimum": "5.3.0",
-                    "verified": "6"
+                    "minimum": "6.0",
+                    "verified": "6.2.1"
                 }
             }
         ]
     },
     "packs": [
+  {
+    "label": "Fey Courts Actors",
+    "name": "fey-courts-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/fey-courts-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+{
+    "label": "Fey Courts Items",
+    "name": "fey-courts-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/fey-courts-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Fey Courts Journals",
+    "name": "fey-courts-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/fey-courts-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Fey Courts Scenes",
+    "name": "fey-courts-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/fey-courts-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
     {
     "label": "Astral Raiders Journals",
     "name": "astral-raiders-journals",
@@ -542,6 +589,16 @@
 				"drifthaven-items",
                                 "drifthaven-journals",
                                 "drifthaven-scenes"
+                            ]
+                        },
+                        {
+                            "name": "Fey Courts",
+                            "sorting": "a",
+                            "packs": [
+                                "fey-courts-actors",
+				"fey-courts-items",
+                                "fey-courts-journals",
+                                "fey-courts-scenes"
                             ]
                         },
                         {
