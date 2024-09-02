@@ -1,3 +1,5 @@
-2024/08/18-11:14:32.194 185c Recovering log #3
-2024/08/18-11:14:32.201 185c Delete type=0 #3
-2024/08/18-11:14:32.201 185c Delete type=3 #2
+2024/09/02-17:13:42.877 a2c Recovering log #17
+2024/09/02-17:13:42.877 a2c Level-0 table #19: started
+2024/09/02-17:13:42.880 a2c Level-0 table #19: 10064 bytes OK
+2024/09/02-17:13:42.888 a2c Delete type=0 #17
+2024/09/02-17:13:42.888 a2c Delete type=3 #16
