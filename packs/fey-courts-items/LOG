@@ -1,3 +1,5 @@
-2024/09/16-18:21:36.183 2d20 Recovering log #29
-2024/09/16-18:21:36.190 2d20 Delete type=0 #29
-2024/09/16-18:21:36.191 2d20 Delete type=3 #28
+2024/09/17-20:30:36.778 4cbc Recovering log #31
+2024/09/17-20:30:36.778 4cbc Level-0 table #33: started
+2024/09/17-20:30:36.783 4cbc Level-0 table #33: 15706 bytes OK
+2024/09/17-20:30:36.790 4cbc Delete type=0 #31
+2024/09/17-20:30:36.790 4cbc Delete type=3 #30

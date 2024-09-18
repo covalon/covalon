@@ -1,6 +1,11 @@
-2024/09/16-18:00:13.981 12dc Recovering log #229
-2024/09/16-18:00:13.983 12dc Level-0 table #231: started
-2024/09/16-18:00:13.993 12dc Level-0 table #231: 323013 bytes OK
-2024/09/16-18:00:14.000 12dc Delete type=0 #229
-2024/09/16-18:00:14.000 12dc Delete type=3 #228
-2024/09/16-18:00:14.020 908 Moved #231 to level-1 323013 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2024/09/16-18:21:36.648 495c Recovering log #232
+2024/09/16-18:21:36.648 495c Level-0 table #234: started
+2024/09/16-18:21:36.659 495c Level-0 table #234: 2956 bytes OK
+2024/09/16-18:21:36.667 495c Delete type=0 #232
+2024/09/16-18:21:36.667 495c Delete type=3 #230
+2024/09/16-18:21:39.705 55a0 Compacting 1@0 + 1@1 files
+2024/09/16-18:21:39.717 55a0 Generated table #236@0: 584 keys, 322288 bytes
+2024/09/16-18:21:39.717 55a0 Compacted 1@0 + 1@1 files => 322288 bytes
+2024/09/16-18:21:39.719 55a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/16-18:21:39.720 55a0 Delete type=2 #231
+2024/09/16-18:21:39.720 55a0 Delete type=2 #234
