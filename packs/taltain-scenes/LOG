@@ -1,3 +1,7 @@
-2024/09/17-20:30:37.303 4cbc Recovering log #245
-2024/09/17-20:30:37.312 4cbc Delete type=0 #245
-2024/09/17-20:30:37.312 4cbc Delete type=3 #244
+2024/10/04-09:03:13.591 1efc Recovering log #257
+2024/10/04-09:03:13.596 1efc Delete type=0 #257
+2024/10/04-09:03:13.596 1efc Delete type=3 #256
+2024/10/04-09:16:29.525 1728 Level-0 table #261: started
+2024/10/04-09:16:29.525 1728 Level-0 table #261: 0 bytes OK
+2024/10/04-09:16:29.527 1728 Delete type=0 #259
+2024/10/04-09:16:29.527 1728 Manual compaction at level-0 from '!scenes!OfNozDEz9t1QBypZ' @ 72057594037927935 : 1 .. '!scenes.walls!OfNozDEz9t1QBypZ.yKd1KLkwLVtPfZPM' @ 0 : 0; will stop at (end)
