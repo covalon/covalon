@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.1.4",
+  "version": "2.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -18,7 +18,7 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "6.0",
-          "verified": "6.4"
+          "verified": "6.6.2"
         }
       }
     ]
@@ -337,6 +337,18 @@
       }
     },
     {
+      "name": "middlemist-items",
+      "label": "Middlemist Items",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/middlemist-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "middlemist-journals",
       "label": "Middlemist Journals",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -402,6 +414,18 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/taltain-actors",
       "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "taltain-items",
+      "label": "Taltain Items",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/taltain-items",
+      "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "NONE",
@@ -655,7 +679,8 @@
               "packs": [
                 "middlemist-actors",
                 "middlemist-journals",
-                "middlemist-scenes"
+                "middlemist-scenes",
+                "middlemist-items"
               ],
               "folders": [],
               "color": null
@@ -677,7 +702,8 @@
               "packs": [
                 "taltain-actors",
                 "taltain-journals",
-                "taltain-scenes"
+                "taltain-scenes",
+                "taltain-items"
               ],
               "folders": [],
               "color": null
