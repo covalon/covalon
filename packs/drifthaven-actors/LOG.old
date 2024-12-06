@@ -1,11 +1,3 @@
-2024/12/06-09:15:55.005 e3bc Recovering log #121
-2024/12/06-09:15:55.008 e3bc Level-0 table #123: started
-2024/12/06-09:15:55.014 e3bc Level-0 table #123: 265680 bytes OK
-2024/12/06-09:15:55.016 e3bc Delete type=0 #121
-2024/12/06-09:15:55.016 e3bc Delete type=3 #120
-2024/12/06-09:15:57.175 e280 Compacting 1@0 + 1@1 files
-2024/12/06-09:15:57.193 e280 Generated table #125@0: 488 keys, 335745 bytes
-2024/12/06-09:15:57.193 e280 Compacted 1@0 + 1@1 files => 335745 bytes
-2024/12/06-09:15:57.194 e280 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/12/06-09:15:57.194 e280 Delete type=2 #79
-2024/12/06-09:15:57.194 e280 Delete type=2 #123
+2024/12/06-09:16:32.868 7bd4 Recovering log #124
+2024/12/06-09:16:32.870 7bd4 Delete type=0 #124
+2024/12/06-09:16:32.870 7bd4 Delete type=3 #122
