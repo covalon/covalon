@@ -1,5 +1,3 @@
-2024/11/10-12:31:54.119 2e8c Recovering log #3
-2024/11/10-12:31:54.119 2e8c Level-0 table #5: started
-2024/11/10-12:31:54.125 2e8c Level-0 table #5: 1228 bytes OK
-2024/11/10-12:31:54.127 2e8c Delete type=0 #3
-2024/11/10-12:31:54.127 2e8c Delete type=3 #2
+2024/12/06-09:16:32.971 daf8 Recovering log #8
+2024/12/06-09:16:32.973 daf8 Delete type=0 #8
+2024/12/06-09:16:32.973 daf8 Delete type=3 #7
