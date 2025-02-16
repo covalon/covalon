@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -18,12 +18,60 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "6.0",
-          "verified": "6.8.4"
+          "verified": "6.9"
         }
       }
     ]
   },
   "packs": [
+  {
+      "name": "varceta-actors",
+      "label": "Varceta Actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/varceta-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "varceta-items",
+      "label": "Varceta Items",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/varceta-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "varceta-journals",
+      "label": "Varceta Journals",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/varceta-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "varceta-scenes",
+      "label": "Varceta Scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/varceta-scenes",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
     {
       "name": "fey-courts-actors",
       "label": "Fey Courts Actors",
@@ -647,6 +695,18 @@
                 "fey-courts-items",
                 "fey-courts-journals",
                 "fey-courts-scenes"
+              ],
+              "color": null,
+              "folders": []
+            },
+            {
+              "name": "Varceta",
+              "sorting": "a",
+              "packs": [
+                "varceta-actors",
+                "varceta-items",
+                "varceta-journals",
+                "varceta-scenes"
               ],
               "color": null,
               "folders": []
