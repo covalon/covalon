@@ -1,1 +1,5 @@
-2025/02/16-10:04:46.656 2654 Delete type=3 #1
+2025/02/23-15:29:38.368 4f7c Recovering log #3
+2025/02/23-15:29:38.370 4f7c Level-0 table #5: started
+2025/02/23-15:29:38.376 4f7c Level-0 table #5: 129773 bytes OK
+2025/02/23-15:29:38.384 4f7c Delete type=0 #3
+2025/02/23-15:29:38.384 4f7c Delete type=3 #2
