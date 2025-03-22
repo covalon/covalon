@@ -1,7 +1,3 @@
-2025/03/15-21:43:26.070 4bf8 Recovering log #189
-2025/03/15-21:43:26.077 4bf8 Delete type=0 #189
-2025/03/15-21:43:26.077 4bf8 Delete type=3 #188
-2025/03/15-21:43:55.992 552c Level-0 table #193: started
-2025/03/15-21:43:55.992 552c Level-0 table #193: 0 bytes OK
-2025/03/15-21:43:55.995 552c Delete type=0 #191
-2025/03/15-21:43:56.001 552c Manual compaction at level-0 from '!journal!nuli66eA9iiPjyqz' @ 72057594037927935 : 1 .. '!journal.pages!nuli66eA9iiPjyqz.yRVWIvc5afvCBY1s' @ 0 : 0; will stop at (end)
+2025/03/22-14:29:00.911 5450 Recovering log #197
+2025/03/22-14:29:00.919 5450 Delete type=0 #197
+2025/03/22-14:29:00.919 5450 Delete type=3 #196
