@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.4.3",
+  "version": "2.5.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -24,6 +24,41 @@
     ]
   },
   "packs": [
+  {
+    "label": "Secrets of the Heart Actors",
+    "name": "secrets-of-the-heart-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart Journals",
+    "name": "secrets-of-the-heart-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/location-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart Items",
+    "name": "secrets-of-the-heart-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
   {
       "name": "varceta-actors",
       "label": "Varceta Actors",
@@ -811,6 +846,17 @@
           "name": "Events",
           "sorting": "a",
           "folders": [
+            {
+              "name": "Secrets of the Heart",
+              "sorting": "a",
+              "packs": [
+                "secrets-of-the-heart-items",
+                "secrets-of-the-heart-journals",
+                "secrets-of-the-heart-actors"
+              ],
+              "folders": [],
+              "color": null
+            },
             {
               "name": "Elemental Convergence",
               "sorting": "a",
