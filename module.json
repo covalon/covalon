@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -28,8 +28,20 @@
     "label": "Secrets of the Heart Actors",
     "name": "secrets-of-the-heart-actors",
     "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/secrets-actors",
+    "path": "packs/secrets-of-the-heart-actors",
     "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Secrets of the Heart Scenes",
+    "name": "secrets-of-the-heart-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/secrets-of-the-heart-scenes",
+    "type": "Scene",
     "system": "pf2e",
     "ownership": {
       "PLAYER": "NONE",
@@ -40,7 +52,7 @@
     "label": "Secrets of the Heart Journals",
     "name": "secrets-of-the-heart-journals",
     "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/location-journals",
+    "path": "packs/secrets-of-the-heart-journals",
     "type": "JournalEntry",
     "ownership": {
       "PLAYER": "NONE",
@@ -852,7 +864,8 @@
               "packs": [
                 "secrets-of-the-heart-items",
                 "secrets-of-the-heart-journals",
-                "secrets-of-the-heart-actors"
+                "secrets-of-the-heart-actors",
+                "secrets-of-the-heart-scenes"
               ],
               "folders": [],
               "color": null
