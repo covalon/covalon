@@ -1,1 +1,5 @@
-2025/03/23-11:44:13.533 5f44 Delete type=3 #1
+2025/03/23-14:59:22.051 33dc Recovering log #3
+2025/03/23-14:59:22.052 33dc Level-0 table #5: started
+2025/03/23-14:59:22.059 33dc Level-0 table #5: 187593 bytes OK
+2025/03/23-14:59:22.066 33dc Delete type=0 #3
+2025/03/23-14:59:22.067 33dc Delete type=3 #2
