@@ -5,10 +5,10 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -396,6 +396,18 @@
       }
     },
     {
+      "name": "ratchethallow-items",
+      "label": "Ratchethallow Items",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/ratchethallow-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "ratchethallow-scenes",
       "label": "Ratchethallow Scenes",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -775,6 +787,7 @@
               "sorting": "a",
               "packs": [
                 "ratchethallow-actors",
+		"ratchethallow-items",
                 "ratchethallow-journals",
                 "ratchethallow-scenes"
               ],
