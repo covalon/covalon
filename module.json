@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.5.9",
+  "version": "2.6.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -17,13 +17,60 @@
         "type": "system",
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "6.0",
-          "verified": "6.11.1"
+          "minimum": "7.0",
+          "verified": "7.4.3"
         }
       }
     ]
   },
   "packs": [
+  {
+    "label": "Alatar Actors",
+    "name": "alatar-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/alatar-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Alatar Journals",
+    "name": "alatar-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/alatar-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Alatar Scenes",
+    "name": "alatar-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/alatar-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Alatar Items",
+    "name": "alatar-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/alatar-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
     {
       "name": "secrets-of-the-heart-rolltables",
       "label": "Secrets of the Heart Rolltables",
@@ -746,6 +793,8 @@
           "name": "Expeditions",
           "sorting": "a",
           "folders": [
+{ "name": "Alatar", "sorting": "a", "packs": ["alatar-actors", "alatar-journals", "alatar-scenes", "alatar-items"] },
+
             {
               "name": "Drifthaven",
               "sorting": "a",
