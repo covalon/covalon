@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -18,7 +18,7 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "7.0",
-          "verified": "7.6.3"
+          "verified": "7.7.4"
         }
       }
     ]
@@ -670,6 +670,19 @@
         "ASSISTANT": "OWNER"
       }
     },
+
+    {
+      "name": "gornlar-items",
+      "label": "Gornlar Items",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/gornlar-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
     {
       "name": "ikouga-actors",
       "label": "Ikouga Actors",
@@ -908,7 +921,8 @@
               "packs": [
                 "gornlar-actors",
                 "gornlar-journals",
-                "gornlar-scenes"
+                "gornlar-scenes", 
+		"gornlar-items"
               ],
               "folders": [],
               "color": null
