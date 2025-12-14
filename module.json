@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.6.5",
+  "version": "2.7.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -18,12 +18,59 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "7.0",
-          "verified": "7.7.4"
+          "verified": "7.8.0"
         }
       }
     ]
   },
   "packs": [
+  {
+    "label": "Briarmurk Actors",
+    "name": "briarmurk-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/briarmurk-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Briarmurk Journals",
+    "name": "briarmurk-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/briarmurk-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Briarmurk Scenes",
+    "name": "briarmurk-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/briarmurk-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Briarmurk Items",
+    "name": "briarmurk-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/briarmurk-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
   {
     "label": "Alatar Actors",
     "name": "alatar-actors",
@@ -802,12 +849,24 @@
           "folders": [],
           "color": null
         },
+
         {
           "name": "Expeditions",
           "sorting": "a",
           "folders": [
 { "name": "Alatar", "sorting": "a", "packs": ["alatar-actors", "alatar-journals", "alatar-scenes", "alatar-items"] },
-
+{
+              "name": "Briarmurk",
+              "sorting": "a",
+              "packs": [
+                "briarmurk-actors",
+                "briarmurk-items",
+                "briarmurk-journals",
+                "briarmurk-scenes"
+              ],
+              "color": null,
+              "folders": []
+            },
             {
               "name": "Drifthaven",
               "sorting": "a",
