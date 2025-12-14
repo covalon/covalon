@@ -1,3 +1,5 @@
-2025/12/14-14:47:57.685 97ec Recovering log #10
-2025/12/14-14:47:57.687 97ec Delete type=0 #10
-2025/12/14-14:47:57.687 97ec Delete type=3 #9
+2025/12/14-15:14:29.392 3a2c Recovering log #12
+2025/12/14-15:14:29.392 3a2c Level-0 table #14: started
+2025/12/14-15:14:29.400 3a2c Level-0 table #14: 1495 bytes OK
+2025/12/14-15:14:29.402 3a2c Delete type=0 #12
+2025/12/14-15:14:29.402 3a2c Delete type=3 #11
