@@ -1,3 +1,7 @@
-2025/12/20-14:58:18.553 43dc Recovering log #249
-2025/12/20-14:58:18.555 43dc Delete type=0 #249
-2025/12/20-14:58:18.555 43dc Delete type=3 #248
+2026/02/02-15:15:26.298 57d4 Recovering log #253
+2026/02/02-15:15:26.302 57d4 Delete type=0 #253
+2026/02/02-15:15:26.302 57d4 Delete type=3 #252
+2026/02/02-15:17:54.495 7ce8 Level-0 table #257: started
+2026/02/02-15:17:54.495 7ce8 Level-0 table #257: 0 bytes OK
+2026/02/02-15:17:54.496 7ce8 Delete type=0 #255
+2026/02/02-15:17:54.498 7ce8 Manual compaction at level-0 from '!scenes!vaepkuKD75nie5HQ' @ 72057594037927935 : 1 .. '!scenes!vaepkuKD75nie5HQ' @ 0 : 0; will stop at (end)

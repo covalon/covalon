@@ -1,3 +1,7 @@
-2025/12/20-14:58:18.675 43c8 Recovering log #271
-2025/12/20-14:58:18.677 43c8 Delete type=0 #271
-2025/12/20-14:58:18.677 43c8 Delete type=3 #270
+2026/02/02-15:15:26.382 16a0 Recovering log #275
+2026/02/02-15:15:26.385 16a0 Delete type=0 #275
+2026/02/02-15:15:26.386 16a0 Delete type=3 #274
+2026/02/02-15:17:54.498 7ce8 Level-0 table #279: started
+2026/02/02-15:17:54.498 7ce8 Level-0 table #279: 0 bytes OK
+2026/02/02-15:17:54.499 7ce8 Delete type=0 #277
+2026/02/02-15:17:54.500 7ce8 Manual compaction at level-0 from '!scenes!FjGV0X4eflHkCE47' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!n03DIu55JkaWZJJG.pJ5V9AFjmtdTakPj.Abjpay6oRM07ycZL' @ 0 : 0; will stop at (end)
