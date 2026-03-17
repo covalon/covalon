@@ -5,7 +5,7 @@
   "url": "https://github.com/covalon/covalon",
   "manifest": "https://github.com/covalon/covalon/releases/latest/download/module.json",
   "download": "https://github.com/covalon/covalon/releases/latest/download/module.zip",
-  "version": "2.7.11",
+  "version": "2.8",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -18,12 +18,59 @@
         "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
         "compatibility": {
           "minimum": "7.0",
-          "verified": "7.9.1"
+          "verified": "7.11.3"
         }
       }
     ]
   },
   "packs": [
+  {
+    "label": "Whitespire Actors",
+    "name": "whitespire-actors",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/whitespire-actors",
+    "type": "Actor",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Whitespire Journals",
+    "name": "whitespire-journals",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/whitespire-journals",
+    "type": "JournalEntry",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Whitespire Scenes",
+    "name": "whitespire-scenes",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/whitespire-scenes",
+    "type": "Scene",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
+  {
+    "label": "Whitespire Items",
+    "name": "whitespire-items",
+    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+    "path": "packs/whitespire-items",
+    "type": "Item",
+    "system": "pf2e",
+    "ownership": {
+      "PLAYER": "NONE",
+      "ASSISTANT": "OWNER"
+    }
+  },
   {
     "label": "Briarmurk Actors",
     "name": "briarmurk-actors",
@@ -111,65 +158,6 @@
     "name": "alatar-items",
     "banner": "systems/pf2e/assets/compendium-banner/red.webp",
     "path": "packs/alatar-items",
-    "type": "Item",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-    {
-      "name": "secrets-of-the-heart-rolltables",
-      "label": "Secrets of the Heart Rolltables",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/secrets-of-the-heart-rolltables",
-      "type": "RollTable",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-  {
-    "label": "Secrets of the Heart Actors",
-    "name": "secrets-of-the-heart-actors",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/secrets-of-the-heart-actors",
-    "type": "Actor",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "label": "Secrets of the Heart Scenes",
-    "name": "secrets-of-the-heart-scenes",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/secrets-of-the-heart-scenes",
-    "type": "Scene",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "label": "Secrets of the Heart Journals",
-    "name": "secrets-of-the-heart-journals",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/secrets-of-the-heart-journals",
-    "type": "JournalEntry",
-    "ownership": {
-      "PLAYER": "NONE",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "label": "Secrets of the Heart Items",
-    "name": "secrets-of-the-heart-items",
-    "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-    "path": "packs/secrets-of-the-heart-items",
     "type": "Item",
     "system": "pf2e",
     "ownership": {
@@ -274,30 +262,6 @@
       }
     },
     {
-      "name": "astral-raiders-journals",
-      "label": "Astral Raiders Journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/astral-raiders-journals",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "astral-raiders-items",
-      "label": "Astral Raiders Items",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/astral-raiders-items",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "name": "covalon-basics-journals",
       "label": "Covalon Basics Journals",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -375,30 +339,6 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "path": "packs/drifthaven-scenes",
       "type": "Scene",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "elemental-convergence-journals",
-      "label": "Elemental Convergence Journals",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/elemental-convergence-journals",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "elemental-convergence-items",
-      "label": "Elemental Convergence Items",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/elemental-convergence-items",
-      "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "NONE",
@@ -800,19 +740,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "pf2e"
-    },
-    {
-      "name": "covalon-event-importer",
-      "label": "Covalon Event Importer",
-      "path": "packs/covalon-event-importer",
-      "type": "Adventure",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
     }
-
   ],
   "packFolders": [
     {
@@ -855,6 +783,18 @@
           "sorting": "a",
           "folders": [
 { "name": "Alatar", "sorting": "a", "packs": ["alatar-actors", "alatar-journals", "alatar-scenes", "alatar-items"] },
+{
+              "name": "Whitespire",
+              "sorting": "a",
+              "packs": [
+                "whitespire-actors",
+                "whitespire-items",
+                "whitespire-journals",
+                "whitespire-scenes"
+              ],
+              "color": null,
+              "folders": []
+            },
 {
               "name": "Briarmurk",
               "sorting": "a",
@@ -1005,42 +945,8 @@
           "name": "Events",
           "sorting": "a",
           "folders": [
-            {
-              "name": "Secrets of the Heart",
-              "sorting": "a",
-              "packs": [
-                "secrets-of-the-heart-items",
-                "secrets-of-the-heart-journals",
-                "secrets-of-the-heart-actors",
-                "secrets-of-the-heart-scenes",
-		"secrets-of-the-heart-rolltables"
-              ],
-              "folders": [],
-              "color": null
-            },
-            {
-              "name": "Elemental Convergence",
-              "sorting": "a",
-              "packs": [
-                "elemental-convergence-items",
-                "elemental-convergence-journals"
-              ],
-              "folders": [],
-              "color": null
-            },
-            {
-              "name": "Astral Raiders",
-              "sorting": "a",
-              "packs": [
-                "astral-raiders-items",
-                "astral-raiders-journals"
-              ],
-              "folders": [],
-              "color": null
-            }
           ],
-          "color": null,
-          "packs": ["covalon-event-importer"]
+          "color": null
         }
       ],
       "packs": [],
