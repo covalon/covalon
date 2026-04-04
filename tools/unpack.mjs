@@ -4,7 +4,7 @@ import path from "path";
 
 const PACKAGE_ID = process.cwd();
 const yaml = true;
-const expandAdventures = true;
+const expandAdventures = false;
 const folders = true;
 
 const packs = await fs.readdir("./packs");
