@@ -91,7 +91,10 @@ system:
     version: 0.955
     previous: null
   traits:
-    value: []
+    value:
+      - magical
+      - primal
+      - earth
     rarity: common
     size:
       value: lg
@@ -115,17 +118,18 @@ system:
     description: >-
       <p>The Stonewyrm's mastery over the element of earth manifests as
       environmental effects that occur every round. This is <strong>not
-      </strong>a hazard that can be disabled, its an ongoing environmental
+      </strong>a hazard that can be disabled; it's an ongoing environmental
       effect that continues for the entire encounter.</p><p>Geokinetic Mastery's
       effects have the magical, primal, and earth traits, and are considered the
-      same level as the Stonewyrm. Its effects to not affect the Stonewyrm. </p>
+      same level as the Stonewyrm. Its effects do not affect the Stonewyrm.</p>
     level:
       value: 13
     isComplex: true
     disable: <p>Cannot be disabled. </p>
     routine: >-
       <p>On its initiative, use either Routine: No Modification or Routine
-      (Modification) Geokinetic Legend.</p>
+      (Modification) Geokinetic Legend.</p><p>You can use the effects on the
+      hazard's token to track how many times you've used a routine action.</p>
     reset: ''
     publication:
       title: ''
@@ -139,7 +143,6 @@ system:
       value: null
     will:
       value: null
-_id: jqH8NCkIWcgwY5id
 img: icons/environment/wilderness/terrain-rocks-brown.webp
 items:
   - type: action
@@ -194,11 +197,11 @@ items:
       exportSource: null
       coreVersion: '13.351'
       systemId: pf2e
-      systemVersion: 7.12.2
+      systemVersion: 7.12.1
       lastModifiedBy: null
     ownership:
       default: 0
-    _key: '!actors.items!jqH8NCkIWcgwY5id.CZI46RfGlx1zmGhP'
+    _key: '!actors.items!WSjJMULm0Mma1pqa.CZI46RfGlx1zmGhP'
   - type: action
     name: Level Adjustment (Don't Touch)
     system:
@@ -228,6 +231,7 @@ items:
           label: Weak Adjustment
           predicate:
             - pool-adjustment:10
+            - not: flat
           type: circumstance
         - key: FlatModifier
           selector:
@@ -236,6 +240,7 @@ items:
           label: Elite Adjustment
           predicate:
             - pool-adjustment:12
+            - not: flat
           type: circumstance
         - key: FlatModifier
           selector:
@@ -244,6 +249,7 @@ items:
           label: Elite Adjustment
           predicate:
             - pool-adjustment:12
+            - not: flat
         - key: FlatModifier
           selector:
             - damage
@@ -251,6 +257,7 @@ items:
           label: Weak Adjustment
           predicate:
             - pool-adjustment:10
+            - not: flat
           critical: false
       slug: null
       _migration:
@@ -288,11 +295,12 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101664520
     _id: Lz9JgkpcIx7Xs1iZ
     ownership:
       default: 0
-    _key: '!actors.items!jqH8NCkIWcgwY5id.Lz9JgkpcIx7Xs1iZ'
+    _key: '!actors.items!WSjJMULm0Mma1pqa.Lz9JgkpcIx7Xs1iZ'
   - type: action
     name: 'Routine: (Modification) Geokinetic Legend'
     system:
@@ -309,25 +317,22 @@ items:
           /><p><strong>Spike Stones </strong>The Stonewyrm conjures long, sharp
           spikes of solid rock in <strong>three</strong>
           @Template[burst|distance:15]s. These areas are difficult terrain and
-          hazardous terrain. A creature that moves on the ground through the
-          area takes <strong>3 piercing damage</strong> for every 5 feet it
-          moves (taken once, at the end of the creature's movement action).
-          (Damage buttons below for ease, click what you
-          need.)</p><p>@Damage[1[piercing]|options:area-damage],
-          @Damage[4[piercing]|options:area-damage],
-          @Damage[7[piercing]|options:area-damage],
-          @Damage[10[piercing]|options:area-damage],
-          @Damage[13[piercing]|options:area-damage]</p><p>@Damage[3[piercing]|options:area-damage],
-          @Damage[6[piercing]|options:area-damage],
-          @Damage[9[piercing]|options:area-damage],
-          @Damage[12[piercing]|options:area-damage],
-          @Damage[15[piercing]|options:area-damage]</p><p>@Damage[5[piercing]|options:area-damage],
-          @Damage[8[piercing]|options:area-damage],
-          @Damage[11[piercing]|options:area-damage],
-          @Damage[14[piercing]|options:area-damage],
-          @Damage[17[piercing]|options:area-damage]</p><hr /><p><strong>Earthen
-          Grasp </strong>Earthen claws erupt from the earth. <strong>All
-          creatures take</strong>
+          hazardous terrain.</p><p>Creatures on the ground take
+          <strong>@Damage[(@actor.flags.pf2e.spikeDamageMod*1)[piercing]|options:flat,area-damage,hazardous-terrain]</strong>
+          damage for each square of spiked stone they enter, combined and taken
+          once at the end of the creature's movement action.</p><p>(Damage
+          buttons below for ease, click what you
+          need.)</p><p>@Damage[(@actor.flags.pf2e.spikeDamageMod*1)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*2)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*3)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*4)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*5)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*6)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*7)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*8)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamageMod*9)[piercing]|options:flat,area-damage,hazardous-terrain]</p><hr
+          /><p><strong>Earthen Grasp </strong>Earthen claws erupt from the
+          earth. <strong>All creatures take</strong>
           <strong>@Damage[2d6[piercing]|options:area-damage] with a
           @Check[reflex|dc:30|basic|traits:primal,earth,magical]</strong>
           <strong>save. The creature also</strong> becomes
@@ -335,8 +340,9 @@ items:
           failure (or
           @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on
           a critical failure) until the start of Geokinetic Mastery's next turn.
-          Escape DC 26.</p><hr /><p><strong>Seismic Tremor </strong>The earth
-          trembles and roils. All creatures<strong> take</strong>
+          [[/act escape dc=26 traits=primal,earth,magical]]</p><hr
+          /><p><strong>Seismic Tremor </strong>The earth trembles and roils. All
+          creatures<strong> take</strong>
           <strong>@Damage[2d6[bludgeoning]|options:area-damage] with a
           @Check[reflex|dc:30|basic|traits:primal,earth,magical]. A creature is
           also</strong> knocked
@@ -355,7 +361,11 @@ items:
         authors: ''
         license: OGL
         remaster: false
-      rules: []
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: flags.pf2e.spikeDamageMod
+          value: '3'
       slug: null
       traits:
         otherTags: []
@@ -383,10 +393,11 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776099659907
     ownership:
       default: 0
-    _key: '!actors.items!jqH8NCkIWcgwY5id.Qm2jVjTMOFSHkYzj'
+    _key: '!actors.items!WSjJMULm0Mma1pqa.Qm2jVjTMOFSHkYzj'
   - type: action
     name: 'Routine: No Modification'
     system:
@@ -400,26 +411,26 @@ items:
           instance immediately end.</p><hr /><p><strong>Spike Stones
           </strong>The Stonewyrm conjures long, sharp spikes of solid rock in
           two @Template[burst|distance:15]s. These areas are difficult terrain
-          and hazardous terrain. A creature that moves on the ground through the
-          area takes 1 piercing damage for every 5 feet it moves (taken once, at
-          the end of the creature's movement action). (Damage buttons below for
-          ease, click what you
-          need.)</p><p>@Damage[-1[piercing]|options:area-damage],
-          @Damage[0[piercing]|options:area-damage],
-          @Damage[1[piercing]|options:area-damage],
-          @Damage[2[piercing]|options:area-damage],
-          @Damage[3[piercing]|options:area-damage],
-          @Damage[4[piercing]|options:area-damage],
-          @Damage[5[piercing]|options:area-damage],
-          @Damage[6[piercing]|options:area-damage],
-          @Damage[7[piercing]|options:area-damage]</p><hr /><p><strong>Earthen
-          Grasp </strong>Earthen claws erupt from the earth. All creatures must
-          succeed at a @Check[reflex|dc:30|traits:primal,earth,magical] save or
-          become @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}
-          (or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}
-          on a critical failure) until the start of Geokinetic Mastery's next
-          turn. Escape DC 26.</p><hr /><p><strong>Seismic Tremor </strong>The
-          earth trembles and roils. All creatures must succeed at a
+          and hazardous terrain.</p><p>Creatures on the ground take
+          @Damage[(@actor.flags.pf2e.spikeDamage*1)[piercing]|options:flat,area-damage,hazardous-terrain]
+          damage for each square of spiked stone they enter, combined and taken
+          once at the end of the creature's movement action.</p><p>(Damage
+          buttons below for ease, click what you
+          need.)</p><p>@Damage[(@actor.flags.pf2e.spikeDamage*1)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamage*2)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamage*3)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamage*4)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamage*5)[piercing]|options:flat,area-damage,hazardous-terrain]
+          @Damage[(@actor.flags.pf2e.spikeDamage*6)[piercing]|options:flat,area-damage,hazardous-terrain]</p><hr
+          /><p><strong>Earthen Grasp </strong>Earthen claws erupt from the
+          earth. All creatures must succeed at a
+          @Check[reflex|dc:30|traits:primal,earth,magical] save or become
+          @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} (or
+          @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on
+          a critical failure) until the start of Geokinetic Mastery's next turn.
+          [[/act escape dc=26 traits=primal,earth,magical]]</p><hr
+          /><p><strong>Seismic Tremor </strong>The earth trembles and roils. All
+          creatures must succeed at a
           @Check[reflex|dc:30|traits:primal,earth,magical] save or be knocked
           @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p><hr
           /><p><strong>Scouring Sand </strong>Dirt and dust fills the arena. All
@@ -436,7 +447,11 @@ items:
         authors: ''
         license: OGL
         remaster: false
-      rules: []
+      rules:
+        - key: ActiveEffectLike
+          mode: override
+          path: flags.pf2e.spikeDamage
+          value: '1'
       slug: null
       traits:
         otherTags: []
@@ -464,10 +479,259 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101614279
     ownership:
       default: 0
-    _key: '!actors.items!jqH8NCkIWcgwY5id.lRVDiYxQucZ6BH6b'
+    _key: '!actors.items!WSjJMULm0Mma1pqa.lRVDiYxQucZ6BH6b'
+  - name: Spike Stones
+    type: effect
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.948
+          foundry: '13.351'
+          system: 7.12.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      level:
+        value: 1
+      duration:
+        value: -1
+        unit: unlimited
+        expiry: null
+        sustained: false
+      tokenIcon:
+        show: false
+      unidentified: false
+      start:
+        value: 0
+        initiative: null
+      badge:
+        type: counter
+        value: 0
+        labels: null
+        loop: false
+        min: 0
+        max: null
+      fromSpell: false
+      context: null
+    img: icons/magic/earth/barrier-stone-explosion-debris.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      WhYzoVrwPaCrANkH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.1
+      lastModifiedBy: null
+    _id: NF2ZJcBZxKoOraKO
+    _key: '!actors.items!WSjJMULm0Mma1pqa.NF2ZJcBZxKoOraKO'
+  - name: Earthen Grasp
+    type: effect
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.948
+          foundry: '13.351'
+          system: 7.12.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      level:
+        value: 1
+      duration:
+        value: -1
+        unit: unlimited
+        expiry: null
+        sustained: false
+      tokenIcon:
+        show: false
+      unidentified: false
+      start:
+        value: 0
+        initiative: null
+      badge:
+        type: counter
+        value: 0
+        labels: null
+        loop: false
+        min: 0
+        max: null
+      fromSpell: false
+      context: null
+    img: icons/magic/earth/strike-fist-stone-light.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      WhYzoVrwPaCrANkH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.1
+      lastModifiedBy: null
+    _id: jOCHpwQomWML65vo
+    _key: '!actors.items!WSjJMULm0Mma1pqa.jOCHpwQomWML65vo'
+  - name: Seismic Terror
+    type: effect
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.948
+          foundry: '13.351'
+          system: 7.12.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      level:
+        value: 1
+      duration:
+        value: -1
+        unit: unlimited
+        expiry: null
+        sustained: false
+      tokenIcon:
+        show: false
+      unidentified: false
+      start:
+        value: 0
+        initiative: null
+      badge:
+        type: counter
+        value: 0
+        labels: null
+        loop: false
+        min: 0
+        max: null
+      fromSpell: false
+      context: null
+    img: icons/magic/earth/explosion-lava-stone-yellow.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      WhYzoVrwPaCrANkH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.1
+      lastModifiedBy: null
+    _id: fo8SXN0wfVcnhvhn
+    _key: '!actors.items!WSjJMULm0Mma1pqa.fo8SXN0wfVcnhvhn'
+  - name: Scouring Sand
+    type: effect
+    effects: []
+    system:
+      _migration:
+        version: 0.955
+        previous:
+          schema: 0.948
+          foundry: '13.351'
+          system: 7.12.1
+      description:
+        value: ''
+        gm: ''
+      publication:
+        title: ''
+        authors: ''
+        license: OGL
+        remaster: false
+      rules: []
+      slug: null
+      traits:
+        otherTags: []
+        value: []
+      level:
+        value: 1
+      duration:
+        value: -1
+        unit: unlimited
+        expiry: null
+        sustained: false
+      tokenIcon:
+        show: false
+      unidentified: false
+      start:
+        value: 0
+        initiative: null
+      badge:
+        type: counter
+        value: 0
+        labels: null
+        loop: false
+        min: 0
+        max: null
+      fromSpell: false
+      context: null
+    img: icons/magic/air/fog-gas-smoke-brown.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      WhYzoVrwPaCrANkH: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: pf2e
+      systemVersion: 7.12.1
+      lastModifiedBy: null
+    _id: hVAeF3LhuSvwkYFX
+    _key: '!actors.items!WSjJMULm0Mma1pqa.hVAeF3LhuSvwkYFX'
 flags:
   pf2e:
     editMode: true
@@ -478,10 +742,12 @@ _stats:
   coreVersion: '13.351'
   systemId: pf2e
   systemVersion: 7.12.2
-  createdTime: 1775757986608
-  modifiedTime: 1775760269348
-  lastModifiedBy: H9FXC8g0quO6QRgw
+  createdTime: 1776095200577
+  modifiedTime: 1776096727534
+  lastModifiedBy: WhYzoVrwPaCrANkH
 ownership:
   default: 0
-sort: 0
-_key: '!actors!jqH8NCkIWcgwY5id'
+  WhYzoVrwPaCrANkH: 3
+_id: WSjJMULm0Mma1pqa
+sort: 200000
+_key: '!actors!WSjJMULm0Mma1pqa'

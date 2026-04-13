@@ -15,10 +15,10 @@ system:
       or undead in Whitespire Expedition missions.</p><ul><li><p>Add the Dragon
       trait.</p></li><li><p>Add Darkvision.</p></li><li><p>If the creature
       speaks any languages, add Draconic.</p></li><li><p>Add the
-      @UUID[Compendium.covalon.whitespire-items.Item.vgC3BXsQFeqO3fQg]{Curse of the Stonewyrm}, adjusted for
-      tier..</p></li><li><p>The creature should act crazed, and visually look
-      Maw influenced; purpleish eyes, purple red veins, purple red haze to any
-      magical effects, etc.</p></li></ul><p></p>
+      @UUID[Compendium.covalon.whitespire-items.Item.vgC3BXsQFeqO3fQg]{Curse of
+      the Stonewyrm}, adjusted for tier..</p></li><li><p>The creature should act
+      crazed, and visually look Maw influenced; purpleish eyes, purple red
+      veins, purple red haze to any magical effects, etc.</p></li></ul><p></p>
     gm: ''
   publication:
     title: ''

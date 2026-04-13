@@ -163,8 +163,8 @@ items:
           <p><strong>Trigger </strong>The Stonewyrm enters its Maw
           Frenzy</p><p><strong>Effect </strong>The Den Mother recovers from the
           initial drill through the Stonewyrm's protective maw adamantine
-          carapace, ready to activate again. Add the Den Mother to the bottom of
-          the initiative order. Add the
+          carapace, ready to activate again. </p><p>Add the Den Mother to the
+          bottom of the initiative order. </p><p>Add the
           @UUID[Compendium.covalon.whitespire-items.Item.B1qFNjfOX1dACQpL]{Power
           the Den Mother} action to your PCs sheets.</p>
         gm: ''
@@ -201,7 +201,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101070099
     ownership:
       default: 0
     _key: '!actors.items!PWGNOSjOBcIt2Qvv.f50Ke8P5J3tFKiBv'
@@ -213,8 +214,8 @@ items:
       description:
         value: >-
           <p>The Den Mother moves forward 60 feet if a PC critically succeeded
-          at Power the Den Mother, or 30 feet if a PC succeeded (ignoring
-          difficult terrain).</p><p>If it impacts a wall, it deals
+          at Power the Den Mother, or 30 feet if a PC succeeded. This ignores
+          difficult terrain.</p><p>If it impacts a wall, it deals
           @Damage[35[piercing]] damage to that wall. If this is enough to
           destroy the wall, its movement is not interrupted.</p><p>For each
           subsequent wall the drill impacts, it deals 10 less damage.
@@ -258,8 +259,9 @@ items:
       exportSource: null
       coreVersion: '13.351'
       systemId: pf2e
-      systemVersion: 7.12.2
-      lastModifiedBy: null
+      systemVersion: 7.12.1
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776092615865
     ownership:
       default: 0
     _key: '!actors.items!PWGNOSjOBcIt2Qvv.XEZm88VMURPw5XyB'
@@ -271,9 +273,9 @@ items:
       description:
         value: >-
           <p>In order to punch through the Maw's defenses, the Den Mother has
-          been infused with magic from the Heart of Terra. This makes it immune
-          to being grappled or knocked prone, and immune to all forced movement
-          (including teleportation), including from spells.</p>
+          been infused with magic from the Heart of Terra. </p><p>This makes it
+          immune to being grappled or knocked prone, and immune to all forced
+          movement (including teleportation), including from spells.</p>
         gm: ''
       publication:
         title: ''
@@ -309,7 +311,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101091552
     ownership:
       default: 0
     _key: '!actors.items!PWGNOSjOBcIt2Qvv.DDdgSZXjiCu5LWKf'
@@ -326,10 +329,10 @@ _stats:
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1775757986608
-  modifiedTime: 1775760269348
-  lastModifiedBy: H9FXC8g0quO6QRgw
+  modifiedTime: 1776095200643
+  lastModifiedBy: WhYzoVrwPaCrANkH
 _id: PWGNOSjOBcIt2Qvv
 ownership:
   default: 0
-sort: 0
+sort: 400000
 _key: '!actors!PWGNOSjOBcIt2Qvv'

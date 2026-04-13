@@ -11,15 +11,15 @@ system:
       <p>Due to failing the Stonewyrm's breath weapon save, you are turning to
       stone and might become
       @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Petrified}.</p><p>You
-      must attempt a Fortitude save at the end of each of your turns. On a
-      failed save, your
+      must attempt a @Check[fortitude|traits:earth,poison,primal] save at the
+      end of each of your turns. </p><p>On a failed save, your
       @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} condition
-      increases by 1. A successful save decreases your Slowed condition by 1. If
-      you become fully unable to act due to the Slowed condition, you are
-      petrified permanently.</p><hr /><p><em>For automation purposes, this
-      effect applies Slowed equal to its value. Tick up or down as needed to
-      track Slowed. The level of this effect is equal to the Stonewyrm's
-      level.</em></p>
+      increases by 1. </p><p>A successful save decreases your Slowed condition
+      by 1. </p><p>If you become fully unable to act due to the Slowed
+      condition, you are petrified permanently.</p><hr /><p><em>For automation
+      purposes, this effect applies Slowed equal to its value. Tick up or down
+      as needed to track Slowed. The level of this effect is equal to the
+      Stonewyrm's level.</em></p>
     gm: ''
   publication:
     title: ''
@@ -127,10 +127,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: pf2e
-  systemVersion: 7.12.2
+  systemVersion: 7.12.1
   createdTime: 1775757996007
-  modifiedTime: 1775757996007
-  lastModifiedBy: H9FXC8g0quO6QRgw
+  modifiedTime: 1776094388995
+  lastModifiedBy: WhYzoVrwPaCrANkH
 ownership:
   default: 0
   H9FXC8g0quO6QRgw: 3

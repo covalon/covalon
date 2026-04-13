@@ -359,24 +359,25 @@ items:
       description:
         value: >-
           <p>The Stonewyrm exhales a poisonus gas that turns flesh to stone.
-          Creatures in an @Template[cone|distance:80] take
+          </p><p>Creatures in an @Template[cone|distance:80] take
           @Damage[11d6[poison]|options:area-damage]
           (@Check[fortitude|dc:32|basic|options:area-effect] save) with the
-          following additional effects. The Stonewyrm can't use this ability
-          again for [[/gmr 1d4 #Recharge Poisonous Exhalation]]{1d4
+          following additional effects. </p><p>The Stonewyrm can't use this
+          ability again for [[/gmr 1d4 #Recharge Poisonous Exhalation]]{1d4
           rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is
           unaffected.</p><p><strong>Success</strong> The creature takes half
           damage.</p><p><strong>Failure</strong> The creature takes full damage
           and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed
           1} and
           @UUID[Compendium.covalon.whitespire-items.Item.dW8603EhXd6F1tgY]{Turning
-          to Stone}. The target must attempt a @Check[fortitude|dc:29] save at
-          the end of each of its turns. On a failed save, the slowed condition
-          increases by 1 (or 2 on a critical failure). A successful save reduces
-          the slowed condition by 1. If a creature becomes fully unable to act
-          due to the slowed condition, they become petrified permanently as a
-          stone statue.</p><p><strong>Critical Failure</strong> The creature
-          takes double damage, and then as Failure, except it is initially
+          to Stone}.</p><p>The target must attempt a @Check[fortitude|dc:29]
+          save at the end of each of its turns. On a failed save, the slowed
+          condition increases by 1 (or 2 on a critical failure). A successful
+          save reduces the slowed condition by 1.</p><p>If a creature becomes
+          fully unable to act due to the slowed condition, they become petrified
+          permanently as a stone statue.</p><p><strong>Critical Failure</strong>
+          The creature takes double damage, and then as Failure, except it is
+          initially
           @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>
         gm: ''
       publication:
@@ -402,6 +403,7 @@ items:
         value: 2
       category: null
       deathNote: false
+      frequency: null
     effects: []
     _id: bvcOhAUR3BHyYcqx
     img: systems/pf2e/icons/default-icons/action.svg
@@ -414,8 +416,9 @@ items:
       exportSource: null
       coreVersion: '13.351'
       systemId: pf2e
-      systemVersion: 7.12.2
-      lastModifiedBy: null
+      systemVersion: 7.12.1
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776094405456
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.bvcOhAUR3BHyYcqx'
@@ -662,15 +665,21 @@ items:
           @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw
           Frenzy (T4)} effect. The Stonewyrm gains buffs and abilities as noted
           in the effect.</p></li><li><p>Every creature in the arena is exposed
-          to Curse of Decay (or Curse of Greater Decay, if that modification is
-          in effect).</p></li><li><p>Describe how the enchantments on
+          to
+          @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.sq9MApGhtk78pp5P]{Curse
+          of Decay} (or
+          @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.dKhBkulE7hkDaBOI]{Modification:
+          Curse of Greater Decay}, if that modification is in
+          effect).</p></li><li><p>Describe how the enchantments on
           @UUID[Compendium.covalon.whitespire-actors.Actor.PWGNOSjOBcIt2Qvv]{The
           Den Mother (T4)} drill whirr to life, recovering from the initial push
           through the Stonewyrm's maw-adamantine cocoon. Perform the Den
           Mother's reaction and add it to the initiative
           tracker.</p></li><li><p>Add
           @UUID[Compendium.covalon.whitespire-items.Item.B1qFNjfOX1dACQpL]{Power
-          the Den Mother} to your PC's sheets.</p></li></ul>
+          the Den Mother} to your PC's sheets. Remember to tell the players they
+          <em>must</em> use the drill to kill the Stonewyrm, as it cannot die
+          any other way.</p></li></ul>
         gm: ''
       publication:
         title: ''
@@ -692,7 +701,7 @@ items:
       actions:
         value: null
       category: null
-      deathNote: false
+      deathNote: true
     effects: []
     _id: fPtKCeaSkgayfAHA
     img: systems/pf2e/icons/default-icons/action.svg
@@ -706,7 +715,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776102133913
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.fPtKCeaSkgayfAHA'
@@ -719,11 +729,12 @@ items:
         value: >-
           <p><strong>Requirement </strong>The Stonewyrm must be in a
           @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw
-          Frenzy (T4)} (see Mawtouched Lifeforce)</p><hr /><p>The Stonewyrm
-          makes three Summon Earthen Spike attacks. Creatures hit by these
-          attacks are
+          Frenzy (T4)} (see
+          @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched
+          Lifeforce})</p><hr /><p>The Stonewyrm makes three Earthen Spike
+          attacks. Creatures hit by these attacks are
           @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}
-          (Escape DC 26).</p>
+          ([[/act escape dc=26]]).</p>
         gm: ''
       publication:
         title: ''
@@ -758,7 +769,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776102332403
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.gEoxaStnDV9CnjsF'
@@ -771,9 +783,10 @@ items:
         value: >-
           <p><strong>Requirement </strong>The Stonewyrm must be in a
           @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw
-          Frenzy (T4)} (see Mawtouched Lifeforce)</p><hr /><p>The Stonewyrm
-          roars, defying death. All creatures in the arena that are not already
-          afflicted by
+          Frenzy (T4)} (see
+          @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched
+          Lifeforce})</p><hr /><p>The Stonewyrm roars, defying death. All
+          creatures in the arena that are not already afflicted by
           @UUID[Compendium.covalon.whitespire-items.Item.EE6yzIBKSpyYxxTy]{Curse
           of Decay} (or
           @UUID[Compendium.covalon.whitespire-items.Item.SRRbA7aR6kOoWtrS]{Curse
@@ -822,7 +835,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776102388539
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.83ehnKlVYuKwnwpO'
@@ -836,9 +850,9 @@ items:
           <p>The Stonewyrm calls upon earthen magic, targetting a single magical
           effect with <strong>a duration and an area</strong>, or an ongoing
           <strong>magical effect or curse on itself,</strong> and attempts to
-          counteract it. It's counteract modifier for this is [[/r 1d20+25
+          counteract it.</p><p>Its counteract modifier for this is [[/r 1d20+25
           #Resilience of Mountains]]{+25}, and its counteract level is half its
-          creature level, rounded up.</p>
+          creature level, rounded up ([[/r ceil(@actor.level/2)]]).</p>
         gm: ''
       publication:
         title: ''
@@ -879,7 +893,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776102117603
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.E6LMTWBx9xTeBzGt'
@@ -890,23 +905,27 @@ items:
         value: action
       description:
         value: >-
-          <p>The Stonewyrm raises up to three walls from the earth anywhere in
-          the arena. Each wall is 1 inch thick, 30 feet long, and reaches from
-          the floor to the ceiling (60 ft up). Walls are placed on the border
-          between squares, must be conjured in an open space in a straight line,
-          and cannot pass through creatures or objects. You cannot form a closed
-          triangle with this ability (you can make three walls of a box). Each
-          wall has AC 10, Hardness 10, 35 Hit Points, is immune to critical hits
-          and precision damage, has weakness 10 to bludgeoning damage, and
-          automatically fails all saving throws.</p><p>When placed in parallel,
-          each wall must be at least 10 feet apart.</p><p>You can use the
-          drawing tool or the template below to mark the location of each wall,
-          and track each wall's HP using a separate
+          <p>The Stonewyrm raises up to three
           @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy]{Raise
-          Cliffs Wall (T4)} actor. When a wall is destroyed, it destroys the
-          entire 30 foot
-          segment.</p><p>@Template[line|distance:30|width:0.25]</p><p>If the
-          Stonewyrm uses this ability again, any previous walls disappear.</p>
+          Cliffs Wall (T4)} from the earth anywhere in the arena. Each wall is 1
+          inch thick, 30 feet long, and reaches from the floor to the ceiling
+          (60 ft up).</p><p>Walls are placed on the border between squares, must
+          be conjured in an open space in a straight line, and cannot pass
+          through creatures or objects. You cannot form a closed triangle with
+          this ability (you can make three walls of a box). When placed in
+          parallel, each wall must be at least 10 feet apart.</p><p>You can use
+          the drawing tool or a @Template[line|distance:30|width:0.25] template
+          to mark the location of each wall. Track each wall's HP using a
+          separate
+          @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy]{Raise
+          Cliffs Wall (T4)} actor.</p><p>Walls automatically fail their saving
+          throws. When a wall is destroyed, it destroys the entire 30 foot
+          segment.</p><div data-visibility="gm"><p>If using the Obsidian Spikes
+          modification: when a wall takes damage from a creature within 10 feet,
+          it deals piercing damage back. See
+          @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy.Item.ptZqTGRQ5BH0i7VM]{Modification:
+          Obsidian Spikes}.</p></div><p>If the Stonewyrm uses this ability
+          again, any previous walls disappear.</p>
         gm: ''
       publication:
         title: ''
@@ -943,7 +962,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776100628597
     ownership:
       default: 0
     _key: '!actors.items!GYh6QcGiPpdxLb76.Ceb5OAhtjwW9xjWt'
@@ -1253,11 +1273,11 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: pf2e
-  systemVersion: 7.12.2
+  systemVersion: 7.12.1
   createdTime: 1775757986608
-  modifiedTime: 1775760269348
-  lastModifiedBy: H9FXC8g0quO6QRgw
+  modifiedTime: 1776095200643
+  lastModifiedBy: WhYzoVrwPaCrANkH
 ownership:
   default: 0
-sort: 0
+sort: 300000
 _key: '!actors!GYh6QcGiPpdxLb76'

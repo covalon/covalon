@@ -345,10 +345,13 @@ pages:
         triggering action in their paired <strong>IF </strong>statement.</p><p
         dir="ltr"
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.85DosliujNsRNI8l]{Basic
-        Rules - IF Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.oU6zKAUO50NOzcuH]{Basic Rules
-        - THEN Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced Rules -
-        IF Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced Rules -
-        THEN Clauses}</p><p dir="ltr"
+        Rules - IF
+        Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.oU6zKAUO50NOzcuH]{Basic
+        Rules - THEN
+        Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced
+        Rules - IF
+        Clauses}</p><p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced
+        Rules - THEN Clauses}</p><p dir="ltr"
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">Where
         required, the DC for the Contract and its abilities is
         <strong>##DC+2##</strong></p><p dir="ltr"
@@ -356,7 +359,8 @@ pages:
         contract clauses in the tiles underneath the MAP as a reminder. These
         should be visible to players at all times.</p><p dir="ltr"
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">All players
-        gain access to the special @UUID[Compendium.covalon.verndhelt-items.Item.k9t36ZqXDVWCQfwO]{Litigation
+        gain access to the special
+        @UUID[Compendium.covalon.verndhelt-items.Item.k9t36ZqXDVWCQfwO]{Litigation
         Larceny} and
         @UUID[Compendium.covalon.verndhelt-actions.Item.P00pIth8tnEgJKy1]{Clausible
         Deniability} actions during this Finale. Add them to your players’
@@ -364,19 +368,21 @@ pages:
         Overview</h3><p dir="ltr"
         style="line-height:1.38;margin-top:14pt;margin-bottom:0pt">Yazeri is
         wily fighter ready to use every advantage. She uses
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.hebNWNWHwylH67FI]{Perish Post-It} at
-        the start of each of her turns, targeting a creature whose name she has
-        not yet captured and prioritizing those she intends to harm.</p><p
-        dir="ltr"
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.hebNWNWHwylH67FI]{Perish
+        Post-It} at the start of each of her turns, targeting a creature whose
+        name she has not yet captured and prioritizing those she intends to
+        harm.</p><p dir="ltr"
         style="line-height:1.38;margin-top:14pt;margin-bottom:0pt">Yazeri
         rerolls unfavorable or useless Contract clauses using
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.IMPd16pq4s0JCcmh]{Favourable Terms}
-        with the quickened action provided by
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.gNu6zeJlrYM5PF6i]{Quick Mind}. Yazeri
-        has great control of the contract and morphs its terms to her benefit.
-        If satisfied with the active contract clauses, she prefers to
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.gLUQ9rxBN4Wm69BT]{Castigate}. Yazeri
-        can cast @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.fuugsFyrctLkPtUY]{Suspended
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.IMPd16pq4s0JCcmh]{Favourable
+        Terms} with the quickened action provided by
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.gNu6zeJlrYM5PF6i]{Quick
+        Mind}. Yazeri has great control of the contract and morphs its terms to
+        her benefit. If satisfied with the active contract clauses, she prefers
+        to
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.gLUQ9rxBN4Wm69BT]{Castigate}.
+        Yazeri can cast
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.fuugsFyrctLkPtUY]{Suspended
         Retribution (Mythic)} and
         @UUID[Compendium.covalon.verndhelt-actors.Actor.kklC5AV3sLwD2O0I.Item.5LaIqQD1Qc0WbaUE]{Blistering
         Invective} twice each. She uses Blistering Invective early in the fight
@@ -389,14 +395,16 @@ pages:
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">Solarius uses
         @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.Li3xHz14r8EizmrA]{"Kneel,
         Interloper!"} at every available opportunity and will
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.GrmOR2zXOGwJcnqK]{Invoke Radiance}
-        whenever he can hit at least three creatures. He prioritizes using
-        @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.5NAlZJARTvGow0f5]{Blade of Justice},
-        especially against evil-aligned creatures.</p><p dir="ltr"
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.GrmOR2zXOGwJcnqK]{Invoke
+        Radiance} whenever he can hit at least three creatures. He prioritizes
+        using
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.5NAlZJARTvGow0f5]{Blade
+        of Justice}, especially against evil-aligned creatures.</p><p dir="ltr"
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">Encourage
         players to roleplay their action to remove the Fatigued condition
-        imposed by @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.IhUGfYdxuhnwYARx]{Weight of
-        Guilt}.</p><h3>Loot</h3><p dir="ltr"
+        imposed by
+        @UUID[Compendium.covalon.verndhelt-actors.Actor.zp3IByN8WlB3O3rr.Item.IhUGfYdxuhnwYARx]{Weight
+        of Guilt}.</p><h3>Loot</h3><p dir="ltr"
         style="line-height:1.38;margin-top:5pt;margin-bottom:5pt">The entirety
         of the treasure budget is given out in raw GP, paid by the NPC used for
         the hook. Additionally, players unlock the ability to customize their

@@ -941,10 +941,11 @@ items:
           <p>When Yazeri rolls initiative, add an active
           <strong>advanced</strong> contract clause.</p>
 
-          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced Rules - IF Clauses}</p>
+          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced
+          Rules - IF Clauses}</p>
 
-          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced Rules - THEN
-          Clauses}</p>
+          <p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced
+          Rules - THEN Clauses}</p>
       rules: []
       slug: null
       _migration:

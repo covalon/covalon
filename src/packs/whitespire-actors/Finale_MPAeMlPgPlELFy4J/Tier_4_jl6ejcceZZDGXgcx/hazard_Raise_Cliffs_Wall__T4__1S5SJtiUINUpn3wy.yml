@@ -129,9 +129,11 @@ system:
     emitsSound: encounter
   details:
     description: >-
-      <p>A 30 foot segment of wall conjured by the Stonewyrm. HP is tracked for
-      an entire 30 foot segment, and the entire segment is destroyed when the
-      wall reaches 0 HP. </p>
+      <p>A 1 inch thick, 30 feet long segment of wall, reaching from the floor
+      to the ceiling (60 ft up), conjured by the Stonewyrm.</p><p>HP is tracked
+      for an entire 30 foot segment, and the entire segment is destroyed when
+      the wall reaches 0 HP.</p><p>The wall automatically fails any saving throw
+      it makes.</p>
     level:
       value: 12
     isComplex: false
@@ -159,20 +161,38 @@ items:
         value: passive
       description:
         value: >-
-          <p>The walls from Raise Cliffs are covered in dangerous spikes.
-          Increase each wall's HP to 50 (instead of 35). If a creature deals
-          damage to a wall from within 10 feet, the spikes automatically deal
-          piercing damage back to that creature equal to its
-          hardness.</p><p>@Damage[10[piercing]]</p><p><strong>Note: Manually
-          change the wall's HP to 50 if you're using this
-          modification!!!</strong></p>
+          <p><em>The walls from Raise Cliffs are covered in dangerous
+          spikes.</em></p><p>Increase each wall's HP to 50 (instead of
+          35).</p><p>If a creature deals damage to a wall from within 10 feet,
+          the spikes automatically deal
+          @Damage[@actor.system.attributes.hardness[piercing]] damage back to
+          that creature equal to its hardness.</p><p><strong>Make sure to edit
+          the hazard's current health when using the toggle.</strong></p>
         gm: ''
       publication:
         title: ''
         authors: ''
         license: OGL
         remaster: false
-      rules: []
+      rules:
+        - key: RollOption
+          toggleable: true
+          domain: all
+          option: obsidian-spikes
+          label: Modification - Obsidian Spikes
+          value: false
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.hp.max
+          value: 50
+          predicate:
+            - obsidian-spikes
+        - key: ActiveEffectLike
+          mode: override
+          path: system.attributes.hp.max
+          value: 35
+          predicate:
+            - not: obsidian-spikes
       slug: null
       traits:
         otherTags: []
@@ -200,7 +220,8 @@ items:
       coreVersion: '13.351'
       systemId: pf2e
       systemVersion: 7.12.2
-      lastModifiedBy: null
+      lastModifiedBy: WhYzoVrwPaCrANkH
+      modifiedTime: 1776101053573
     ownership:
       default: 0
     _key: '!actors.items!1S5SJtiUINUpn3wy.ptZqTGRQ5BH0i7VM'
@@ -217,10 +238,10 @@ _stats:
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1775757986608
-  modifiedTime: 1775760269348
-  lastModifiedBy: H9FXC8g0quO6QRgw
+  modifiedTime: 1776101057507
+  lastModifiedBy: WhYzoVrwPaCrANkH
 _id: 1S5SJtiUINUpn3wy
 ownership:
   default: 0
-sort: 0
+sort: 100000
 _key: '!actors!1S5SJtiUINUpn3wy'

@@ -282,8 +282,8 @@ items:
           <p>The Masked Core invigorates an ally within 30 feet. The target
           gains temporary Hit Points, and its Strikes deal additional
           electricity damage. This effect lasts 1
-          round.</p><p>@UUID[Compendium.covalon.fey-courts-item.Item.0k80GpQBPLix2CA8]{Effect: Lightning
-          Strikes}</p>
+          round.</p><p>@UUID[Compendium.covalon.fey-courts-item.Item.0k80GpQBPLix2CA8]{Effect:
+          Lightning Strikes}</p>
       rules: []
       slug: null
       _migration:

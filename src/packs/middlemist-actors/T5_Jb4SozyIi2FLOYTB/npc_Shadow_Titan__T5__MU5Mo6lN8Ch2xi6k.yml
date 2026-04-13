@@ -666,7 +666,8 @@ items:
           <p>The light from the Ship's central device only lasts for 2 rounds.
           It must be re-ignited with a 2 action Interact activity. While the
           device is not lit, all non-shadow creatures gain Weakness 5 to
-          Void.</p><p>@UUID[Compendium.covalon.middlemist-items.Item.5kUiWMCG7tZC1Koc]{Oppressive Gloom}</p>
+          Void.</p><p>@UUID[Compendium.covalon.middlemist-items.Item.5kUiWMCG7tZC1Koc]{Oppressive
+          Gloom}</p>
       rules: []
       slug: null
       _migration:

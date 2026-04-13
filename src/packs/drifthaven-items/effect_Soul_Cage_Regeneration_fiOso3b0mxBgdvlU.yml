@@ -6,7 +6,8 @@ system:
   description:
     gm: ''
     value: >-
-      <p>Granted by @UUID[Compendium.covalon.drifthaven-actors.Actor.eeid3tMs4H8KKRCp.Item.SYJKNV2VjPn2ZuzT]{Soul
+      <p>Granted by
+      @UUID[Compendium.covalon.drifthaven-actors.Actor.eeid3tMs4H8KKRCp.Item.SYJKNV2VjPn2ZuzT]{Soul
       Cage Regeneration}.</p>
   rules:
     - deactivatedBy: []

@@ -8,8 +8,9 @@ system:
     previous: null
   description:
     value: >-
-      <p>Gain Temp HP for one minute. @UUID[Compendium.covalon.varceta-items.Item.U4neml3WvtnLHG6e]{Effect: Sonic
-      Damper}</p>
+      <p>Gain Temp HP for one minute.
+      @UUID[Compendium.covalon.varceta-items.Item.U4neml3WvtnLHG6e]{Effect:
+      Sonic Damper}</p>
     gm: ''
   publication:
     title: ''
