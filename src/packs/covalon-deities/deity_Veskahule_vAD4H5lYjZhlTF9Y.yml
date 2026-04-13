@@ -1,0 +1,89 @@
+folder: null
+name: Veskahule
+type: deity
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:BookInsanityRemake">A cave worm that was once
+      feared by many and consumed all without prejudice, Veskahule eventually
+      met its end. As its soul traversed its way into the Astral Plane, the
+      notion of its existence being fleeting and its hunger satiated was
+      detestable. Forcing its own dream to manifest, it began feasting on the
+      dreams and nightmares of others, along with the feelings associated with
+      them: hope, fear, aspirations. The endless torrent of creativity conjured
+      by the mind allowing insight and understanding for what most would
+      consider horrid. This new appetite transfigured it into a powerful and
+      knowledgeable being, the name of Veskahule spreading throughout the other
+      planes. Those who choose to worship them were gifted with the promise that
+      their dreams would be fulfilled, but perhaps nightmares if it was
+      beneficial. It’s appreciation for all creation draw in the outcasts of
+      society, shunned by their appearance or have a desire to create what
+      hasn’t existed before. Its appreciation for the mind and the capacity
+      within, grant Veskahule a relateability to
+      mortals.</span></p><p><strong>Edicts</strong> <span
+      style="font-family:BookInsanityRemake">To assist in making dreams or
+      nightmares become reality, encourage the creation of new lifeforms and the
+      evolution of all beings, appreciate the beauty even in the
+      monstrous.</span><br /><strong>Anathema</strong> <span
+      style="font-family:BookInsanityRemake">To cast judgement on others based
+      on appearance, stopping the pursuit of growth for you or your
+      surroundings, to dismiss dreams and nightmares as invaluable.</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.935
+    lastMigration: null
+    previous:
+      schema: 0.932
+      foundry: '12.331'
+      system: 6.7.2
+  traits:
+    otherTags: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  category: deity
+  sanctification: null
+  domains:
+    primary:
+      - abomination
+      - creation
+      - dreams
+      - nightmares
+    alternate:
+      - soul
+      - naga
+  font:
+    - harm
+    - heal
+  attribute: []
+  skill:
+    - occultism
+  weapons:
+    - urumi
+  spells:
+    '2': Compendium.pf2e.spells-srd.Item.siU9xRlqWXeKT0mH
+    '5': Compendium.pf2e.spells-srd.Item.d9sBzPOXX3KT8uTu
+    '7': Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs
+_id: vAD4H5lYjZhlTF9Y
+img: systems/pf2e/icons/spells/worms-repast.webp
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '13.346'
+  systemId: pf2e
+  systemVersion: 6.11.1
+  createdTime: 1725307134087
+  modifiedTime: 1744517912075
+  lastModifiedBy: H9FXC8g0quO6QRgw
+  exportSource: null
+sort: 0
+ownership:
+  default: 0
+  H9FXC8g0quO6QRgw: 3
+_key: '!items!vAD4H5lYjZhlTF9Y'

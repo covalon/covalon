@@ -1,0 +1,608 @@
+name: Investigate The Craters
+navigation: false
+navOrder: 0
+navName: ''
+background:
+  src: modules/covalon/images/icemap30.webp
+  scaleX: 1
+  scaleY: 1
+  offsetX: 0
+  offsetY: 0
+  rotation: 0
+  tint: '#ffffff'
+  anchorX: 0
+  anchorY: 0
+  fit: fill
+  alphaThreshold: 0
+foreground: null
+foregroundElevation: 20
+thumb: modules/covalon/assets/scenes/pudersno-scenes-jU8h3qcwKH5O3wCP-thumb.webp
+width: 2730
+height: 2730
+padding: 0.25
+initial:
+  x: null
+  'y': null
+  scale: null
+backgroundColor: '#999999'
+grid:
+  type: 1
+  size: 91
+  color: '#000000'
+  alpha: 0.2
+  distance: 5
+  units: ft
+  style: solidLines
+  thickness: 1
+tokenVision: true
+drawings: []
+tokens:
+  - displayName: 20
+    displayBars: 20
+    disposition: 1
+    sight:
+      enabled: true
+      angle: 360
+      range: 200
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      - id: basicSight
+        range: 0
+        enabled: true
+    flags:
+      wall-height:
+        tokenHeight: 0
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-little-details:
+        token-highlight: ''
+      core: {}
+    bar1:
+      attribute: attributes.hp
+    height: 1
+    width: 1
+    actorLink: true
+    name: Brooks
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.25
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        type: null
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    texture:
+      src: >-
+        https://assets.forge-vtt.com/603d269ac6b9dd0bbc8a3603/modules/covalon-mentors/images/barbarian_brooks.Token.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    actorId: 2nOw07aODxXDpg5F
+    x: 2093
+    'y': 2912
+    hidden: false
+    delta:
+      _id: y9HkDnqUvdWoO9Hw
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!jU8h3qcwKH5O3wCP.uG11te4ggJKngN9R.y9HkDnqUvdWoO9Hw'
+    _id: uG11te4ggJKngN9R
+    elevation: 0
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!jU8h3qcwKH5O3wCP.uG11te4ggJKngN9R'
+  - displayName: 20
+    displayBars: 20
+    disposition: 1
+    sight:
+      enabled: true
+      angle: 360
+      range: 500
+      brightness: 0
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      - id: basicSight
+        range: 0
+        enabled: true
+    flags:
+      wall-height:
+        tokenHeight: 0
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-little-details:
+        token-highlight: ''
+      core: {}
+    bar1:
+      attribute: attributes.hp
+    height: 1
+    width: 1
+    actorLink: true
+    name: Tavarik
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.25
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        type: null
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    texture:
+      src: >-
+        https://assets.forge-vtt.com/608d82d517318c2169c5dcfb/modules/covalon-mentors/images/monk_tavarik.Token.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    actorId: RgcWgXoKDYyuonqA
+    x: 2184
+    'y': 2912
+    hidden: false
+    delta:
+      _id: TiOR2Xbz7YK1pPxR
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!jU8h3qcwKH5O3wCP.JnfC6NImiLwZ9WZ5.TiOR2Xbz7YK1pPxR'
+    _id: JnfC6NImiLwZ9WZ5
+    elevation: 0
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!jU8h3qcwKH5O3wCP.JnfC6NImiLwZ9WZ5'
+  - displayName: 20
+    displayBars: 20
+    disposition: 1
+    sight:
+      enabled: true
+      angle: 360
+      range: 2.5
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes:
+      - id: basicSight
+        range: 0
+        enabled: true
+    flags:
+      wall-height:
+        tokenHeight: 0
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-little-details:
+        token-highlight: ''
+      core: {}
+    bar1:
+      attribute: attributes.hp
+    height: 1
+    width: 1
+    actorLink: true
+    name: Terry Von Riggard
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    bar2:
+      attribute: null
+    light:
+      alpha: 0.25
+      angle: 360
+      bright: 0
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        type: null
+        reverse: false
+      darkness:
+        min: 0
+        max: 1
+      color: null
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    texture:
+      src: >-
+        https://assets.forge-vtt.com/608d82d517318c2169c5dcfb/modules/covalon-mentors/images/fighter_terry_von_riggard.Token.webp
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    actorId: fiK7Q32Y7jXd0Jd0
+    x: 2275
+    'y': 2912
+    hidden: false
+    delta:
+      _id: TpPpNW9rCg5lmQK9
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!jU8h3qcwKH5O3wCP.lZPvrWFRP84u4KNR.TpPpNW9rCg5lmQK9'
+    _id: lZPvrWFRP84u4KNR
+    elevation: 0
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!jU8h3qcwKH5O3wCP.lZPvrWFRP84u4KNR'
+  - displayName: 20
+    displayBars: 20
+    flags:
+      pf2e:
+        linkToActorSize: true
+        autoscale: true
+      monks-little-details:
+        token-highlight: ''
+      perfect-vision:
+        visionRules: default
+        monoVisionColor: ''
+        sightLimit: null
+        light: {}
+      token-auras:
+        aura1:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+        aura2:
+          permission: all
+          colour: '#ffffff'
+          opacity: 0.5
+          distance: null
+          square: false
+      core: {}
+    height: 3
+    width: 3
+    disposition: -1
+    name: Facsimile of Ashgut
+    actorLink: false
+    lockRotation: false
+    rotation: 0
+    alpha: 1
+    light:
+      alpha: 0.5
+      angle: 360
+      bright: 0
+      color: null
+      coloration: 1
+      dim: 0
+      luminosity: 0.5
+      saturation: 0
+      contrast: 0
+      shadows: 0
+      animation:
+        speed: 5
+        intensity: 5
+        reverse: false
+        type: null
+      darkness:
+        min: 0
+        max: 1
+      attenuation: 0.5
+      negative: false
+      priority: 0
+    bar1:
+      attribute: attributes.hp
+    bar2:
+      attribute: null
+    texture:
+      src: >-
+        https://assets.forge-vtt.com/608d82d517318c2169c5dcfb/tokenizer/npc-images/blue_ashgut_t5_.Token.webp?1662233687869
+      tint: '#ffffff'
+      scaleX: 1
+      scaleY: 1
+      offsetX: 0
+      offsetY: 0
+      rotation: 0
+      anchorX: 0.5
+      anchorY: 0.5
+      fit: contain
+      alphaThreshold: 0.75
+    sight:
+      angle: 360
+      enabled: true
+      range: 500
+      brightness: 1
+      visionMode: basic
+      color: null
+      attenuation: 0.1
+      saturation: 0
+      contrast: 0
+    detectionModes: []
+    actorId: JuYxwSg765v9slMA
+    x: 1820
+    'y': 2457
+    hidden: false
+    delta:
+      _id: QKA9RWStSXLLR0K1
+      system: {}
+      items: []
+      effects: []
+      flags: {}
+      name: null
+      type: null
+      img: null
+      ownership: null
+      _key: '!scenes.tokens.delta!jU8h3qcwKH5O3wCP.HO8g6Xt2h6KrG8sz.QKA9RWStSXLLR0K1'
+    _id: HO8g6Xt2h6KrG8sz
+    elevation: 0
+    sort: 0
+    locked: false
+    occludable:
+      radius: 0
+    ring:
+      enabled: false
+      colors:
+        ring: null
+        background: null
+      effects: 1
+      subject:
+        scale: 1
+        texture: null
+    _regions: []
+    shape: 4
+    turnMarker:
+      mode: 1
+      animation: null
+      src: null
+      disposition: false
+    movementAction: null
+    _movementHistory: []
+    _key: '!scenes.tokens!jU8h3qcwKH5O3wCP.HO8g6Xt2h6KrG8sz'
+lights: []
+notes: []
+sounds: []
+templates: []
+tiles: []
+walls: []
+playlist: null
+playlistSound: null
+journal: null
+journalEntryPage: null
+weather: ''
+flags:
+  core: {}
+_stats:
+  systemId: pf2e
+  systemVersion: 5.1.2
+  coreVersion: '13.346'
+  createdTime: 1670791246261
+  modifiedTime: 1690215725011
+  lastModifiedBy: 03b8FhVXbluJN576
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+folder: null
+_id: jU8h3qcwKH5O3wCP
+active: false
+sort: 0
+ownership:
+  default: 0
+  pGJOYrzHQ5eIdrmI: 3
+regions: []
+environment:
+  globalLight:
+    luminosity: 0
+    enabled: false
+    darkness:
+      max: 1
+      min: 0
+    alpha: 0.5
+    bright: false
+    color: null
+    coloration: 1
+    saturation: 0
+    contrast: 0
+    shadows: 0
+  darknessLevel: 0
+  darknessLock: false
+  cycle: true
+  base:
+    hue: 0
+    intensity: 0
+    luminosity: 0
+    saturation: 0
+    shadows: 0
+  dark:
+    hue: 0.7138888888888889
+    intensity: 0
+    luminosity: -0.25
+    saturation: 0
+    shadows: 0
+fog:
+  exploration: true
+  reset: 1670791246240
+  overlay: null
+  colors:
+    explored: null
+    unexplored: null
+levels: []
+_key: '!scenes!jU8h3qcwKH5O3wCP'
