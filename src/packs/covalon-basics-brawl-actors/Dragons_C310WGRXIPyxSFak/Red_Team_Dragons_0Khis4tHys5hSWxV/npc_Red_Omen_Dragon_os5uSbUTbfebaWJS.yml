@@ -181,6 +181,7 @@ system:
     value:
       - dragon
       - occult
+      - magical
     rarity: common
     size:
       value: lg
@@ -636,6 +637,7 @@ items:
         value:
           - mental
           - occult
+          - magical
         otherTags: []
       _migration:
         version: 0.935

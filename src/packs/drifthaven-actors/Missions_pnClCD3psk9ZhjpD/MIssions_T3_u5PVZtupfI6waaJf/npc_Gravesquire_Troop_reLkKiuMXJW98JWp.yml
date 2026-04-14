@@ -502,6 +502,7 @@ items:
         value:
           - aura
           - divine
+          - magical
       publication:
         title: ''
         authors: ''

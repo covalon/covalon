@@ -328,6 +328,7 @@ tokens:
                 - aura
                 - electricity
                 - primal
+                - magical
               rarity: common
               custom: ''
             publication:
@@ -754,6 +755,7 @@ tokens:
                 - cold
                 - electricity
                 - primal
+                - magical
               rarity: common
               custom: ''
             publication:
@@ -1219,6 +1221,7 @@ tokens:
                 - beast
                 - polymorph
                 - primal
+                - magical
               rarity: common
               custom: ''
             publication:
@@ -1286,6 +1289,7 @@ tokens:
               otherTags: []
               value:
                 - primal
+                - magical
               rarity: common
               custom: ''
             publication:

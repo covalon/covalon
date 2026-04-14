@@ -523,6 +523,7 @@ items:
         value:
           - acid
           - primal
+          - magical
         otherTags: []
       _migration:
         version: 0.935

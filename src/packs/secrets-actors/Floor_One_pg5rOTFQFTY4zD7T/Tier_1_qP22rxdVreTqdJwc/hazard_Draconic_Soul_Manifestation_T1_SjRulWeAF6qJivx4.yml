@@ -207,6 +207,7 @@ items:
           - electricity
           - fire
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:

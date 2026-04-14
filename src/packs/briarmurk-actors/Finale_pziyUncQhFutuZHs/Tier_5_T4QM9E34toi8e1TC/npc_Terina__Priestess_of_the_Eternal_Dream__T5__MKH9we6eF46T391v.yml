@@ -185,6 +185,7 @@ system:
       - dream
       - humanoid
       - occult
+      - magical
     rarity: rare
     size:
       value: med
@@ -1073,6 +1074,7 @@ items:
           - concentrate
           - divine
           - occult
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -1151,6 +1153,7 @@ items:
           - mental
           - occult
           - sleep
+          - magical
       _migration:
         version: 0.955
         previous:

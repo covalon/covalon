@@ -186,6 +186,7 @@ system:
       - divine
       - dragon
       - holy
+      - magical
     rarity: common
     size:
       value: lg
@@ -443,6 +444,7 @@ items:
         value:
           - concentrate
           - divine
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -495,6 +497,7 @@ items:
           - divine
           - holy
           - spirit
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -1020,6 +1023,7 @@ items:
         value:
           - concentrate
           - divine
+          - magical
       _migration:
         version: 0.935
         previous:

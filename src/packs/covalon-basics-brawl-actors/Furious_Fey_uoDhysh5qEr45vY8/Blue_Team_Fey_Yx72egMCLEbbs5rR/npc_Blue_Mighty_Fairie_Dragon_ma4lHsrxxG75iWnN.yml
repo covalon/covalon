@@ -819,6 +819,7 @@ items:
         value:
           - arcane
           - poison
+          - magical
         otherTags: []
       _migration:
         version: 0.935

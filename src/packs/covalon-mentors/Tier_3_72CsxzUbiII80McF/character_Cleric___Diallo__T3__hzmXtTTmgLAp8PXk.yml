@@ -5822,6 +5822,7 @@ items:
           - divine
           - invested
           - light
+          - magical
         rarity: common
       publication:
         title: Pathfinder GM Core
@@ -6654,6 +6655,7 @@ items:
           - divine
           - general
           - skill
+          - magical
         otherTags: []
       slug: battle-prayer
       _migration:

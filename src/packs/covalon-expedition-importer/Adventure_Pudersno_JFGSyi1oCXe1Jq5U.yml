@@ -1415,6 +1415,7 @@ actors:
       traits:
         value:
           - primal
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -1872,6 +1873,7 @@ actors:
               - aura
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -2041,6 +2043,7 @@ actors:
               - cold
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -2366,6 +2369,7 @@ actors:
               - beast
               - polymorph
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -2422,6 +2426,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3637,6 +3642,7 @@ actors:
       traits:
         value:
           - primal
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -4092,6 +4098,7 @@ actors:
               - aura
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4261,6 +4268,7 @@ actors:
               - cold
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4586,6 +4594,7 @@ actors:
               - beast
               - polymorph
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4642,6 +4651,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5851,6 +5861,7 @@ actors:
       traits:
         value:
           - primal
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -6250,6 +6261,7 @@ actors:
               - aura
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -6419,6 +6431,7 @@ actors:
               - cold
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -6744,6 +6757,7 @@ actors:
               - beast
               - polymorph
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -6800,6 +6814,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8065,6 +8080,7 @@ actors:
       traits:
         value:
           - primal
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -8520,6 +8536,7 @@ actors:
               - aura
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8689,6 +8706,7 @@ actors:
               - cold
               - electricity
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9014,6 +9032,7 @@ actors:
               - beast
               - polymorph
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9070,6 +9089,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -10332,6 +10352,7 @@ scenes:
                     - aura
                     - electricity
                     - primal
+                    - magical
                   rarity: common
                   custom: ''
                 publication:
@@ -10745,6 +10766,7 @@ scenes:
                     - cold
                     - electricity
                     - primal
+                    - magical
                   rarity: common
                   custom: ''
                 publication:
@@ -11126,6 +11148,7 @@ scenes:
                     - beast
                     - polymorph
                     - primal
+                    - magical
                   rarity: common
                   custom: ''
                 publication:
@@ -11191,6 +11214,7 @@ scenes:
                   otherTags: []
                   value:
                     - primal
+                    - magical
                   rarity: common
                   custom: ''
                 publication:

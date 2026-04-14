@@ -739,6 +739,7 @@ items:
               value:
                 - divine
                 - lawful
+                - magical
         WauhCqYcyKai4UNP:
           _id: WauhCqYcyKai4UNP
           name: Divine Wrath (Evil)
@@ -752,6 +753,7 @@ items:
               value:
                 - divine
                 - evil
+                - magical
         kud3fWMPd9iifgSp:
           _id: kud3fWMPd9iifgSp
           name: Divine Wrath (Chaotic)
@@ -777,6 +779,7 @@ items:
               value:
                 - divine
                 - good
+                - magical
     type: spell
     effects: []
     folder: null

@@ -106,6 +106,7 @@ system:
       - arcane
       - divine
       - trap
+      - magical
     rarity: common
     size:
       value: lg
@@ -197,6 +198,7 @@ items:
         value:
           - arcane
           - divine
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -251,6 +253,7 @@ items:
           - arcane
           - divine
           - spirit
+          - magical
         config: {}
       action: strike
       area: null

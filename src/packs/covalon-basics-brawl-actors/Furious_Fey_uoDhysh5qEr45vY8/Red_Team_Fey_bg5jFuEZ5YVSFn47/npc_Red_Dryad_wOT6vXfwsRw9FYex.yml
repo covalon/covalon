@@ -1343,6 +1343,7 @@ items:
         value:
           - primal
           - wood
+          - magical
       _migration:
         version: 0.935
         previous:

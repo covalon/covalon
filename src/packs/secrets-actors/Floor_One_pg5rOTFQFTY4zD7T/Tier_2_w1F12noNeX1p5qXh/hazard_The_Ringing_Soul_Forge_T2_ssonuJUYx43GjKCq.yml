@@ -192,6 +192,7 @@ items:
           - fire
           - force
           - primal
+          - magical
       damageRolls:
         74sJs09ptu0ehLKa:
           damage: 2d10+10
@@ -355,6 +356,7 @@ items:
           - divine
           - fire
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:

@@ -458,6 +458,7 @@ items:
         value:
           - acid
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -515,6 +516,7 @@ items:
         value:
           - acid
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -773,6 +775,7 @@ items:
           - fear
           - primal
           - visual
+          - magical
       publication:
         title: ''
         authors: ''

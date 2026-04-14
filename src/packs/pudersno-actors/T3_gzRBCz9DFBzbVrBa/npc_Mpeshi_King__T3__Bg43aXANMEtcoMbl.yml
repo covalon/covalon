@@ -398,6 +398,7 @@ items:
           - aura
           - electricity
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -554,6 +555,7 @@ items:
           - cold
           - electricity
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -872,6 +874,7 @@ items:
         value:
           - beast
           - primal
+          - magical
       publication:
         title: ''
         authors: ''

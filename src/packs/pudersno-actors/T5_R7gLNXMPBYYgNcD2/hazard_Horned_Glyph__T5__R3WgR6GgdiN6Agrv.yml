@@ -143,6 +143,7 @@ system:
   traits:
     value:
       - primal
+      - magical
     rarity: uncommon
     size:
       value: med

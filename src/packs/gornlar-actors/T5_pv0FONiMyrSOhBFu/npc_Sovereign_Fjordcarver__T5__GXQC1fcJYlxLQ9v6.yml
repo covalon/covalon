@@ -390,6 +390,7 @@ items:
         value:
           - mental
           - occult
+          - magical
       publication:
         title: ''
         authors: ''
@@ -516,6 +517,7 @@ items:
         value:
           - mental
           - occult
+          - magical
       publication:
         title: ''
         authors: ''
@@ -574,6 +576,7 @@ items:
           - mental
           - occult
           - visual
+          - magical
       publication:
         title: ''
         authors: ''

@@ -392,6 +392,7 @@ items:
           - arcane
           - shadow
           - teleportation
+          - magical
       publication:
         title: ''
         authors: ''
@@ -460,6 +461,7 @@ items:
           - arcane
           - mental
           - shadow
+          - magical
       publication:
         title: ''
         authors: ''

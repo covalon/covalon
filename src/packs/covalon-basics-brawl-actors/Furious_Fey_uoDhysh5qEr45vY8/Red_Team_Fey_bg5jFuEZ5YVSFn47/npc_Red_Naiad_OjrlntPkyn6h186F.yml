@@ -1563,6 +1563,7 @@ items:
         value:
           - primal
           - water
+          - magical
         otherTags: []
       _migration:
         version: 0.935

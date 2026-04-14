@@ -333,6 +333,7 @@ items:
         value:
           - divine
           - mental
+          - magical
       publication:
         title: ''
         authors: ''
@@ -389,6 +390,7 @@ items:
         value:
           - divine
           - mental
+          - magical
       publication:
         title: ''
         authors: ''
@@ -490,6 +492,7 @@ items:
         otherTags: []
         value:
           - divine
+          - magical
       publication:
         title: ''
         authors: ''
@@ -841,6 +844,7 @@ items:
         otherTags: []
         value:
           - divine
+          - magical
       publication:
         title: ''
         authors: ''
@@ -1154,6 +1158,7 @@ items:
           - attack
           - divine
           - holy
+          - magical
       publication:
         title: ''
         authors: ''

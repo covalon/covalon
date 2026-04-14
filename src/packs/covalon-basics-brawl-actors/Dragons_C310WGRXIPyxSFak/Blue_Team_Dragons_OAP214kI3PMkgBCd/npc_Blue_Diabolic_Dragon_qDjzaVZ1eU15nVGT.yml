@@ -183,6 +183,7 @@ system:
       - divine
       - dragon
       - unholy
+      - magical
     rarity: common
     size:
       value: lg
@@ -528,6 +529,7 @@ items:
           - divine
           - mental
           - unholy
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -623,6 +625,7 @@ items:
           - divine
           - fire
           - unholy
+          - magical
         otherTags: []
       _migration:
         version: 0.935

@@ -985,6 +985,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -1040,6 +1041,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -1095,6 +1097,7 @@ actors:
             value:
               - air
               - primal
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -2844,6 +2847,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -2899,6 +2903,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -2954,6 +2959,7 @@ actors:
             value:
               - air
               - primal
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -4693,6 +4699,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -4748,6 +4755,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -4803,6 +4811,7 @@ actors:
             value:
               - air
               - primal
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -6369,6 +6378,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -6424,6 +6434,7 @@ actors:
             value:
               - primal
               - water
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken
@@ -6479,6 +6490,7 @@ actors:
             value:
               - air
               - primal
+              - magical
             rarity: common
           publication:
             title: Modification - Magical Kraken

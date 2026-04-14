@@ -523,6 +523,7 @@ items:
         value:
           - fire
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -580,6 +581,7 @@ items:
         value:
           - fire
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -838,6 +840,7 @@ items:
           - fire
           - primal
           - visual
+          - magical
       publication:
         title: ''
         authors: ''

@@ -214,6 +214,7 @@ items:
           - primal
           - vitality
           - void
+          - magical
       _migration:
         version: 0.935
         previous:

@@ -185,6 +185,7 @@ system:
       - divine
       - humanoid
       - primal
+      - magical
     rarity: rare
     size:
       value: med
@@ -2250,6 +2251,7 @@ items:
           - concentrate
           - divine
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -2304,6 +2306,7 @@ items:
           - divine
           - plant
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:

@@ -167,6 +167,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -498,6 +499,7 @@ actors:
               - fire
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -945,6 +947,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -1497,6 +1500,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -1830,6 +1834,7 @@ actors:
               - electricity
               - fear
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -2271,6 +2276,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3122,6 +3128,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3185,6 +3192,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3516,6 +3524,7 @@ actors:
               - fear
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4377,6 +4386,7 @@ actors:
             value:
               - earth
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4506,6 +4516,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4624,6 +4635,7 @@ actors:
               - earth
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5653,6 +5665,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5723,6 +5736,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5852,6 +5866,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5969,6 +5984,7 @@ actors:
               - arcane
               - cold
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -6939,6 +6955,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7069,6 +7086,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7187,6 +7205,7 @@ actors:
               - arcane
               - visual
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7618,6 +7637,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8225,6 +8245,7 @@ actors:
             value:
               - mental
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8353,6 +8374,7 @@ actors:
             otherTags: []
             value:
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8471,6 +8493,7 @@ actors:
               - mental
               - occult
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9564,6 +9587,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9627,6 +9651,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9957,6 +9982,7 @@ actors:
               - primal
               - visual
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11023,6 +11049,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11086,6 +11113,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11417,6 +11445,7 @@ actors:
               - fire
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12268,6 +12297,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12331,6 +12361,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12664,6 +12695,7 @@ actors:
               - electricity
               - fear
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -13582,6 +13614,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -13645,6 +13678,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -13976,6 +14010,7 @@ actors:
               - fear
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -14837,6 +14872,7 @@ actors:
             value:
               - earth
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -14966,6 +15002,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -15084,6 +15121,7 @@ actors:
               - earth
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -16112,6 +16150,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -16182,6 +16221,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -16311,6 +16351,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -16428,6 +16469,7 @@ actors:
               - arcane
               - cold
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -17398,6 +17440,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -17528,6 +17571,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -17646,6 +17690,7 @@ actors:
               - arcane
               - visual
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18077,6 +18122,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18684,6 +18730,7 @@ actors:
             value:
               - mental
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18812,6 +18859,7 @@ actors:
             otherTags: []
             value:
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18930,6 +18978,7 @@ actors:
               - mental
               - occult
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -19712,6 +19761,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -20042,6 +20092,7 @@ actors:
               - primal
               - visual
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -20482,6 +20533,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -21501,6 +21553,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -21564,6 +21617,7 @@ actors:
             value:
               - fire
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -21899,6 +21953,7 @@ actors:
               - fire
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -22753,6 +22808,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -22816,6 +22872,7 @@ actors:
             value:
               - arcane
               - electricity
+              - magical
             rarity: common
           publication:
             title: ''
@@ -23149,6 +23206,7 @@ actors:
               - electricity
               - fear
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -24067,6 +24125,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -24130,6 +24189,7 @@ actors:
             value:
               - acid
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -24461,6 +24521,7 @@ actors:
               - fear
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -25322,6 +25383,7 @@ actors:
             value:
               - earth
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -25451,6 +25513,7 @@ actors:
             otherTags: []
             value:
               - primal
+              - magical
             rarity: common
           publication:
             title: ''
@@ -25569,6 +25632,7 @@ actors:
               - earth
               - primal
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -26601,6 +26665,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -26671,6 +26736,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -26801,6 +26867,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -26919,6 +26986,7 @@ actors:
               - arcane
               - cold
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -27902,6 +27970,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -28032,6 +28101,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -28150,6 +28220,7 @@ actors:
               - arcane
               - visual
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -28589,6 +28660,7 @@ actors:
             value:
               - arcane
               - water
+              - magical
             rarity: common
           publication:
             title: ''
@@ -29196,6 +29268,7 @@ actors:
             value:
               - mental
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -29324,6 +29397,7 @@ actors:
             otherTags: []
             value:
               - occult
+              - magical
             rarity: common
           publication:
             title: ''
@@ -29442,6 +29516,7 @@ actors:
               - mental
               - occult
               - visual
+              - magical
             rarity: common
           publication:
             title: ''
@@ -30535,6 +30610,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -30598,6 +30674,7 @@ actors:
             value:
               - primal
               - void
+              - magical
             rarity: common
           publication:
             title: ''
@@ -30928,6 +31005,7 @@ actors:
               - primal
               - visual
               - void
+              - magical
             rarity: common
           publication:
             title: ''

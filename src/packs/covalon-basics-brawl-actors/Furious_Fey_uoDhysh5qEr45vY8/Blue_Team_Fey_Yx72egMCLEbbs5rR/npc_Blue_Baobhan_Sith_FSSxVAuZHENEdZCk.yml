@@ -305,6 +305,7 @@ items:
           - mental
           - primal
           - visual
+          - magical
         otherTags: []
       _migration:
         version: 0.935

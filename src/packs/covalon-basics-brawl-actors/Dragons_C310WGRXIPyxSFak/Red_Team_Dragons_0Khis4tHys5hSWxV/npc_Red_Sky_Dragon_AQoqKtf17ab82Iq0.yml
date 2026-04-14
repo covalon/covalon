@@ -504,6 +504,7 @@ items:
         value:
           - divine
           - electricity
+          - magical
         otherTags: []
       _migration:
         version: 0.935

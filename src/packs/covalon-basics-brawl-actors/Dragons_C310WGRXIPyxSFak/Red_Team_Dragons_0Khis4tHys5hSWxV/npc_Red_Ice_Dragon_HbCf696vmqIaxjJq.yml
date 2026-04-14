@@ -425,6 +425,7 @@ items:
         value:
           - cold
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:
@@ -770,6 +771,7 @@ items:
         value:
           - cold
           - primal
+          - magical
         otherTags: []
       _migration:
         version: 0.935

@@ -404,6 +404,7 @@ items:
         value:
           - primal
           - teleportation
+          - magical
       _migration:
         version: 0.953
         previous:
@@ -485,6 +486,7 @@ items:
         otherTags: []
         value:
           - primal
+          - magical
       _migration:
         version: 0.953
         previous:
@@ -558,6 +560,7 @@ items:
         value:
           - move
           - primal
+          - magical
       _migration:
         version: 0.953
         previous:
@@ -623,6 +626,7 @@ items:
         otherTags: []
         value:
           - primal
+          - magical
       _migration:
         version: 0.953
         previous:
@@ -696,6 +700,7 @@ items:
         value:
           - attack
           - primal
+          - magical
       _migration:
         version: 0.953
         previous:

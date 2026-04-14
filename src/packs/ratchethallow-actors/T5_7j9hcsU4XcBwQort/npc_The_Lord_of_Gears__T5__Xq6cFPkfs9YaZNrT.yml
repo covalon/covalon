@@ -508,6 +508,7 @@ items:
           - arcane
           - electricity
           - mechanical
+          - magical
       publication:
         title: ''
         authors: ''
@@ -574,6 +575,7 @@ items:
           - arcane
           - electricity
           - mechanical
+          - magical
       publication:
         title: ''
         authors: ''
@@ -656,6 +658,7 @@ items:
           - arcane
           - electricity
           - mechanical
+          - magical
       publication:
         title: ''
         authors: ''

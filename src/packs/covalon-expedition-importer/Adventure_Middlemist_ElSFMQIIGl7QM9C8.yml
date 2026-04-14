@@ -516,6 +516,7 @@ actors:
           - occult
           - shadow
           - void
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -3195,6 +3196,7 @@ actors:
           - occult
           - shadow
           - void
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -5874,6 +5876,7 @@ actors:
           - occult
           - shadow
           - void
+          - magical
         rarity: uncommon
         size:
           value: med
@@ -8553,6 +8556,7 @@ actors:
           - occult
           - shadow
           - void
+          - magical
         rarity: uncommon
         size:
           value: med

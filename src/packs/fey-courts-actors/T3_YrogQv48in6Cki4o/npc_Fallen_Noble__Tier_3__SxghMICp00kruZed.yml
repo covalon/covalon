@@ -327,6 +327,7 @@ items:
           - concentrate
           - metal
           - primal
+          - magical
       publication:
         title: ''
         authors: ''
@@ -381,6 +382,7 @@ items:
           - electricity
           - metal
           - primal
+          - magical
       publication:
         title: ''
         authors: ''

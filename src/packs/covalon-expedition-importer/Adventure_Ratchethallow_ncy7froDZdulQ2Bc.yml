@@ -2339,6 +2339,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -2411,6 +2412,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -3804,6 +3806,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -4151,6 +4154,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -4223,6 +4227,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -5893,6 +5898,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -5962,6 +5968,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''
@@ -6026,6 +6033,7 @@ actors:
               - arcane
               - electricity
               - mechanical
+              - magical
           publication:
             title: ''
             authors: ''

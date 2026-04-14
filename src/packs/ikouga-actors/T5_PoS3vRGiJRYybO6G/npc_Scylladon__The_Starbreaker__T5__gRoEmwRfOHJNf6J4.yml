@@ -669,6 +669,7 @@ items:
         value:
           - primal
           - water
+          - magical
       publication:
         title: ''
         authors: ''
@@ -733,6 +734,7 @@ items:
         value:
           - primal
           - water
+          - magical
       publication:
         title: ''
         authors: ''
@@ -791,6 +793,7 @@ items:
         value:
           - air
           - primal
+          - magical
       publication:
         title: ''
         authors: ''

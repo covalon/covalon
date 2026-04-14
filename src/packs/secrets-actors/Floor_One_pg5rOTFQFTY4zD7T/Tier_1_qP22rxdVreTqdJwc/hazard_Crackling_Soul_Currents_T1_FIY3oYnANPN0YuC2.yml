@@ -192,6 +192,7 @@ items:
           - divine
           - electricity
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:

@@ -418,6 +418,7 @@ items:
         otherTags: []
         value:
           - occult
+          - magical
       publication:
         title: ''
         authors: ''
@@ -467,6 +468,7 @@ items:
         otherTags: []
         value:
           - occult
+          - magical
       publication:
         title: ''
         authors: ''
@@ -570,6 +572,7 @@ items:
         value:
           - cold
           - occult
+          - magical
         otherTags: []
       damageRolls:
         uitAwTE41NKH9ZRX:
@@ -631,6 +634,7 @@ items:
         value:
           - fire
           - occult
+          - magical
         otherTags: []
       damageRolls:
         i5VjalSZAnNjUWvU:
@@ -807,6 +811,7 @@ items:
         otherTags: []
         value:
           - occult
+          - magical
       publication:
         title: ''
         authors: ''
@@ -864,6 +869,7 @@ items:
         otherTags: []
         value:
           - occult
+          - magical
       publication:
         title: ''
         authors: ''

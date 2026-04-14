@@ -394,6 +394,7 @@ items:
         value:
           - arcane
           - shadow
+          - magical
       publication:
         title: ''
         authors: ''
@@ -571,6 +572,7 @@ items:
           - arcane
           - shadow
           - teleportation
+          - magical
       publication:
         title: ''
         authors: ''

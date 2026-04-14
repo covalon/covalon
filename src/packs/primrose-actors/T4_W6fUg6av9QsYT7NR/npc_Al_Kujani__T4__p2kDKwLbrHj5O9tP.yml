@@ -201,6 +201,7 @@ items:
           - arcane
           - curse
           - incapacitation
+          - magical
         rarity: common
       publication:
         title: ''
@@ -436,6 +437,7 @@ items:
         value:
           - air
           - arcane
+          - magical
         rarity: common
       publication:
         title: ''
@@ -499,6 +501,7 @@ items:
         value:
           - air
           - arcane
+          - magical
         rarity: common
       publication:
         title: ''
@@ -888,6 +891,7 @@ items:
           - air
           - arcane
           - aura
+          - magical
         rarity: common
       publication:
         title: ''
@@ -1145,6 +1149,7 @@ items:
           - air
           - arcane
           - polymorph
+          - magical
         rarity: common
       publication:
         title: ''

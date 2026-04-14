@@ -459,6 +459,7 @@ items:
         value:
           - primal
           - void
+          - magical
       publication:
         title: ''
         authors: ''
@@ -516,6 +517,7 @@ items:
         value:
           - primal
           - void
+          - magical
       publication:
         title: ''
         authors: ''
@@ -773,6 +775,7 @@ items:
           - primal
           - visual
           - void
+          - magical
       publication:
         title: ''
         authors: ''

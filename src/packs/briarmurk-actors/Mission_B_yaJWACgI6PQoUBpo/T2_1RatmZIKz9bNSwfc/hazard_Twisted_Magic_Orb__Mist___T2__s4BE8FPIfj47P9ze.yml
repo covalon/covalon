@@ -103,6 +103,7 @@ system:
       - divine
       - trap
       - water
+      - magical
     rarity: common
     size:
       value: lg
@@ -191,6 +192,7 @@ items:
           - divine
           - occult
           - water
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -247,6 +249,7 @@ items:
           - divine
           - occult
           - water
+          - magical
       _migration:
         version: 0.955
         previous:

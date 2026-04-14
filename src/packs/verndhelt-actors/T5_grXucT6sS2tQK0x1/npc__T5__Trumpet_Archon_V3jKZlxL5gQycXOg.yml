@@ -1946,6 +1946,7 @@ items:
           - emotion
           - linguistic
           - mental
+          - magical
       publication:
         title: ''
         authors: ''
@@ -2018,6 +2019,7 @@ items:
           - divine
           - emotion
           - mental
+          - magical
       publication:
         title: ''
         authors: ''

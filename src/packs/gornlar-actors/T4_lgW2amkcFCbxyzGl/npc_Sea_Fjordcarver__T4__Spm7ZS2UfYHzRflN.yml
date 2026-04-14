@@ -391,6 +391,7 @@ items:
         value:
           - arcane
           - water
+          - magical
       publication:
         title: ''
         authors: ''
@@ -518,6 +519,7 @@ items:
         value:
           - arcane
           - water
+          - magical
       publication:
         title: ''
         authors: ''
@@ -576,6 +578,7 @@ items:
           - arcane
           - visual
           - water
+          - magical
       publication:
         title: ''
         authors: ''
@@ -858,6 +861,7 @@ items:
         value:
           - arcane
           - water
+          - magical
       publication:
         title: ''
         authors: ''

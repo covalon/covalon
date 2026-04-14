@@ -1,5 +1,15 @@
-2026/04/13-20:10:37.483 6b4c Delete type=3 #1
-2026/04/13-20:10:37.510 547c Level-0 table #5: started
-2026/04/13-20:10:37.529 547c Level-0 table #5: 1232 bytes OK
-2026/04/13-20:10:37.565 547c Delete type=0 #3
-2026/04/13-20:10:37.565 547c Manual compaction at level-0 from '!items!5kUiWMCG7tZC1Koc' @ 72057594037927935 : 1 .. '!items!o62cwnQXZqx2M8MA' @ 0 : 0; will stop at (end)
+2026/04/14-20:54:38.326 6240 Recovering log #7
+2026/04/14-20:54:38.394 6240 Delete type=0 #7
+2026/04/14-20:54:38.394 6240 Delete type=3 #6
+2026/04/14-20:54:38.423 58f8 Level-0 table #11: started
+2026/04/14-20:54:38.449 58f8 Level-0 table #11: 1232 bytes OK
+2026/04/14-20:54:38.484 58f8 Delete type=0 #9
+2026/04/14-20:54:38.484 58f8 Manual compaction at level-0 from '!items!5kUiWMCG7tZC1Koc' @ 72057594037927935 : 1 .. '!items!o62cwnQXZqx2M8MA' @ 0 : 0; will stop at (end)
+2026/04/14-20:54:38.485 58f8 Manual compaction at level-1 from '!items!5kUiWMCG7tZC1Koc' @ 72057594037927935 : 1 .. '!items!o62cwnQXZqx2M8MA' @ 0 : 0; will stop at '!items!o62cwnQXZqx2M8MA' @ 3 : 1
+2026/04/14-20:54:38.485 58f8 Compacting 1@1 + 1@2 files
+2026/04/14-20:54:38.530 58f8 Generated table #12@1: 2 keys, 1232 bytes
+2026/04/14-20:54:38.530 58f8 Compacted 1@1 + 1@2 files => 1232 bytes
+2026/04/14-20:54:38.605 58f8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/04/14-20:54:38.605 58f8 Delete type=2 #5
+2026/04/14-20:54:38.605 58f8 Delete type=2 #11
+2026/04/14-20:54:38.605 58f8 Manual compaction at level-1 from '!items!o62cwnQXZqx2M8MA' @ 3 : 1 .. '!items!o62cwnQXZqx2M8MA' @ 0 : 0; will stop at (end)

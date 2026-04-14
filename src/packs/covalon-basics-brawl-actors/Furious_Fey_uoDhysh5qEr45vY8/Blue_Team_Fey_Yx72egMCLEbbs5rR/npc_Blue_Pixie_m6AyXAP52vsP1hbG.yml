@@ -1332,6 +1332,7 @@ items:
         value:
           - manipulate
           - primal
+          - magical
         otherTags: []
       _migration:
         version: 0.935

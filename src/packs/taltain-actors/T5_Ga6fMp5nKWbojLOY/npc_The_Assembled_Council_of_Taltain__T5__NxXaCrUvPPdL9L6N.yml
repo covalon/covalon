@@ -483,6 +483,7 @@ items:
         otherTags: []
         value:
           - arcane
+          - magical
       publication:
         title: ''
         authors: ''

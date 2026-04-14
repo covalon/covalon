@@ -458,6 +458,7 @@ items:
         value:
           - arcane
           - electricity
+          - magical
       publication:
         title: ''
         authors: ''
@@ -515,6 +516,7 @@ items:
         value:
           - arcane
           - electricity
+          - magical
       publication:
         title: ''
         authors: ''
@@ -772,6 +774,7 @@ items:
           - arcane
           - electricity
           - visual
+          - magical
       publication:
         title: ''
         authors: ''

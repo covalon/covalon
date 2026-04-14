@@ -1805,6 +1805,7 @@ items:
           - concentrate
           - divine
           - polymorph
+          - magical
         otherTags: []
       _migration:
         version: 0.935

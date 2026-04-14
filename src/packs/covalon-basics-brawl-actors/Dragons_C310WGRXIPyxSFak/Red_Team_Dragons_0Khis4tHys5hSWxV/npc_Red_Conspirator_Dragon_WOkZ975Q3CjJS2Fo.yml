@@ -183,6 +183,7 @@ system:
     value:
       - dragon
       - occult
+      - magical
     rarity: common
     size:
       value: lg
@@ -291,6 +292,7 @@ items:
           - manipulate
           - occult
           - polymorph
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -611,6 +613,7 @@ items:
       traits:
         value:
           - occult
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -666,6 +669,7 @@ items:
           - manipulate
           - occult
           - polymorph
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -717,6 +721,7 @@ items:
         value:
           - occult
           - poison
+          - magical
         otherTags: []
       _migration:
         version: 0.935
@@ -1121,6 +1126,7 @@ items:
         otherTags: []
         value:
           - occult
+          - magical
       _migration:
         version: 0.935
         previous:

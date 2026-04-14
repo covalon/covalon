@@ -201,6 +201,7 @@ items:
         value:
           - divine
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:

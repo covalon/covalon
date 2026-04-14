@@ -178,6 +178,7 @@ system:
     value:
       - dragon
       - primal
+      - magical
     rarity: common
     size:
       value: grg
@@ -684,6 +685,7 @@ items:
       traits:
         value:
           - primal
+          - magical
         otherTags: []
       _migration:
         version: 0.935

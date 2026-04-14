@@ -491,6 +491,7 @@ system:
       - occult
       - shadow
       - void
+      - magical
     rarity: uncommon
     size:
       value: med

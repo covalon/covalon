@@ -1121,6 +1121,7 @@ actors:
                   value:
                     - divine
                     - lawful
+                    - magical
             WauhCqYcyKai4UNP:
               _id: WauhCqYcyKai4UNP
               name: Divine Wrath (Evil)
@@ -1134,6 +1135,7 @@ actors:
                   value:
                     - divine
                     - evil
+                    - magical
             kud3fWMPd9iifgSp:
               _id: kud3fWMPd9iifgSp
               name: Divine Wrath (Chaotic)
@@ -1159,6 +1161,7 @@ actors:
                   value:
                     - divine
                     - good
+                    - magical
         type: spell
         effects: []
         folder: null
@@ -4042,6 +4045,7 @@ actors:
             value:
               - aura
               - divine
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4260,6 +4264,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4645,6 +4650,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -4704,6 +4710,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -4813,6 +4820,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -4945,6 +4953,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -5244,6 +5253,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -5881,6 +5891,7 @@ actors:
             value:
               - divine
               - evil
+              - magical
           publication:
             title: ''
             authors: ''
@@ -8718,6 +8729,7 @@ actors:
               - emotion
               - fear
               - mental
+              - magical
             rarity: common
           publication:
             title: ''
@@ -10192,6 +10204,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
             rarity: common
           publication:
             title: ''
@@ -10511,6 +10524,7 @@ actors:
             value:
               - aura
               - divine
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11131,6 +11145,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -11190,6 +11205,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -11299,6 +11315,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -11431,6 +11448,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -11731,6 +11749,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -12368,6 +12387,7 @@ actors:
             value:
               - divine
               - evil
+              - magical
           publication:
             title: ''
             authors: ''
@@ -15385,6 +15405,7 @@ actors:
               - concentrate
               - divine
               - polymorph
+              - magical
             rarity: common
           publication:
             title: Pathfinder Bestiary
@@ -15967,6 +15988,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -16026,6 +16048,7 @@ actors:
             value:
               - divine
               - mental
+              - magical
           publication:
             title: ''
             authors: ''
@@ -16135,6 +16158,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -16267,6 +16291,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -16566,6 +16591,7 @@ actors:
             otherTags: []
             value:
               - divine
+              - magical
           publication:
             title: ''
             authors: ''
@@ -18824,6 +18850,7 @@ actors:
               - emotion
               - linguistic
               - mental
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18904,6 +18931,7 @@ actors:
               - divine
               - emotion
               - mental
+              - magical
             rarity: common
           publication:
             title: ''
@@ -19308,6 +19336,7 @@ actors:
             value:
               - divine
               - evil
+              - magical
           publication:
             title: ''
             authors: ''

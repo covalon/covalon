@@ -270,6 +270,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -332,6 +333,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -519,6 +521,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -779,6 +782,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -914,6 +918,7 @@ actors:
               - arcane
               - curse
               - incapacitation
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3054,6 +3059,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3116,6 +3122,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3303,6 +3310,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -3563,6 +3571,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4441,6 +4450,7 @@ actors:
               - arcane
               - curse
               - incapacitation
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4672,6 +4682,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -4734,6 +4745,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5122,6 +5134,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -5375,6 +5388,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -6958,6 +6972,7 @@ actors:
             value:
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7462,6 +7477,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7524,6 +7540,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -7912,6 +7929,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8165,6 +8183,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8696,6 +8715,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -8758,6 +8778,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9146,6 +9167,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9406,6 +9428,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -9541,6 +9564,7 @@ actors:
               - arcane
               - curse
               - incapacitation
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11291,6 +11315,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11353,6 +11378,7 @@ actors:
             value:
               - air
               - arcane
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11741,6 +11767,7 @@ actors:
               - air
               - arcane
               - aura
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12001,6 +12028,7 @@ actors:
               - air
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12063,6 +12091,7 @@ actors:
             value:
               - arcane
               - polymorph
+              - magical
             rarity: common
           publication:
             title: ''

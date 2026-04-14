@@ -79,7 +79,8 @@ function processFile(filepath) {
                     result.push(curr);
                     i++;
 
-                    let hasPrimal      = false;
+                    const TRADITIONS = new Set(['primal', 'arcane', 'divine', 'occult']);
+                    let hasTradition = false;
                     let hasMagical     = false;
                     let lastListIndent = null;
 
@@ -96,7 +97,7 @@ function processFile(filepath) {
                         const m = item.match(/^(\s*)-\s+(\S.*?)\s*$/);
                         if (m) {
                             const tag = m[2].trim();
-                            if (tag === 'primal')  hasPrimal  = true;
+                            if (TRADITIONS.has(tag))  hasTradition  = true;
                             if (tag === 'magical') hasMagical = true;
                             lastListIndent = m[1];
                             result.push(item);
@@ -107,7 +108,7 @@ function processFile(filepath) {
                     }
 
                     // Insert `- magical` if primal present and magical absent
-                    if (hasPrimal && !hasMagical && lastListIndent !== null) {
+                    if (hasTradition && !hasMagical && lastListIndent !== null) {
                         inserted.add(result.length);
                         result.push(`${lastListIndent}- magical`);
                         changed = true;

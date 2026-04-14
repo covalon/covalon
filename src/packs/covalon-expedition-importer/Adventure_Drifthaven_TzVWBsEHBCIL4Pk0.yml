@@ -10342,6 +10342,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -10406,6 +10407,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -11217,6 +11219,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -12425,6 +12428,7 @@ actors:
             otherTags: []
             value:
               - arcane
+              - magical
           publication:
             title: ''
             authors: ''
@@ -12490,6 +12494,7 @@ actors:
             value:
               - arcane
               - concentrate
+              - magical
           publication:
             title: ''
             authors: ''
@@ -12573,6 +12578,7 @@ actors:
               - arcane
               - concentrate
               - manipulate
+              - magical
           publication:
             title: ''
             authors: ''
@@ -17908,6 +17914,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -17972,6 +17979,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -18791,6 +18799,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -19998,6 +20007,7 @@ actors:
             otherTags: []
             value:
               - arcane
+              - magical
           publication:
             title: ''
             authors: ''
@@ -20063,6 +20073,7 @@ actors:
             value:
               - arcane
               - concentrate
+              - magical
           publication:
             title: ''
             authors: ''
@@ -20146,6 +20157,7 @@ actors:
               - arcane
               - concentrate
               - manipulate
+              - magical
           publication:
             title: ''
             authors: ''
@@ -25475,6 +25487,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -25539,6 +25552,7 @@ actors:
             value:
               - arcane
               - cold
+              - magical
             rarity: common
           publication:
             title: ''
@@ -26359,6 +26373,7 @@ actors:
               - aura
               - divine
               - evil
+              - magical
             rarity: common
           publication:
             title: ''
@@ -27566,6 +27581,7 @@ actors:
             otherTags: []
             value:
               - arcane
+              - magical
           publication:
             title: ''
             authors: ''
@@ -27631,6 +27647,7 @@ actors:
             value:
               - arcane
               - concentrate
+              - magical
           publication:
             title: ''
             authors: ''
@@ -27714,6 +27731,7 @@ actors:
               - arcane
               - concentrate
               - manipulate
+              - magical
           publication:
             title: ''
             authors: ''

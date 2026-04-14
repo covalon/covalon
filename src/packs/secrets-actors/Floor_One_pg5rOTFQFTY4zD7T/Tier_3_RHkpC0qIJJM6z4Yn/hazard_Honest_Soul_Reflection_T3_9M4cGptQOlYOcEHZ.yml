@@ -307,6 +307,7 @@ items:
           - divine
           - emotion
           - primal
+          - magical
       _migration:
         version: 0.935
         previous:

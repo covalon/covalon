@@ -182,6 +182,7 @@ system:
       - arcane
       - divine
       - humanoid
+      - magical
     rarity: rare
     size:
       value: lg
@@ -1398,6 +1399,7 @@ items:
           - arcane
           - concentrate
           - divine
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -1454,6 +1456,7 @@ items:
           - arcane
           - darkness
           - divine
+          - magical
       _migration:
         version: 0.955
         previous:

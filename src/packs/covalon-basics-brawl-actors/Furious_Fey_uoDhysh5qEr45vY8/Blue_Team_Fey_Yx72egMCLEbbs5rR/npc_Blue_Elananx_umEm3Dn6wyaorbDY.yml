@@ -362,6 +362,7 @@ items:
         value:
           - fire
           - primal
+          - magical
         otherTags: []
       _migration:
         version: 0.935

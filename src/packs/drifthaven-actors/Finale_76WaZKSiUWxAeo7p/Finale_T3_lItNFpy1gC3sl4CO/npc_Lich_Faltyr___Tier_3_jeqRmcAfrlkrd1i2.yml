@@ -840,6 +840,7 @@ items:
         otherTags: []
         value:
           - arcane
+          - magical
       publication:
         title: ''
         authors: ''
@@ -900,6 +901,7 @@ items:
         value:
           - arcane
           - concentrate
+          - magical
       publication:
         title: ''
         authors: ''

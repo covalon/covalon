@@ -393,6 +393,7 @@ items:
         value:
           - arcane
           - cold
+          - magical
       publication:
         title: ''
         authors: ''
@@ -455,6 +456,7 @@ items:
         value:
           - arcane
           - cold
+          - magical
       publication:
         title: ''
         authors: ''
@@ -582,6 +584,7 @@ items:
         value:
           - arcane
           - cold
+          - magical
       publication:
         title: ''
         authors: ''
@@ -640,6 +643,7 @@ items:
           - arcane
           - cold
           - visual
+          - magical
       publication:
         title: ''
         authors: ''

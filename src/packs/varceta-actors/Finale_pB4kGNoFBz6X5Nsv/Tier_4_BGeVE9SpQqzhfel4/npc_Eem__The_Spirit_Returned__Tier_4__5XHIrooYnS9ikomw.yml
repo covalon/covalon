@@ -556,6 +556,7 @@ items:
         value:
           - divine
           - poison
+          - magical
       _migration:
         version: 0.935
         previous:
@@ -822,6 +823,7 @@ items:
         otherTags: []
         value:
           - divine
+          - magical
       _migration:
         version: 0.935
         previous:
@@ -890,6 +892,7 @@ items:
           - emotion
           - fear
           - mental
+          - magical
       _migration:
         version: 0.935
         previous:
@@ -949,6 +952,7 @@ items:
           - cold
           - divine
           - water
+          - magical
       _migration:
         version: 0.935
         previous:
@@ -1004,6 +1008,7 @@ items:
         value:
           - attack
           - divine
+          - magical
       _migration:
         version: 0.935
         previous:

@@ -1221,6 +1221,7 @@ items:
         value:
           - aura
           - divine
+          - magical
       publication:
         title: ''
         authors: ''
@@ -1417,6 +1418,7 @@ items:
         otherTags: []
         value:
           - divine
+          - magical
       publication:
         title: ''
         authors: ''
