@@ -735,7 +735,7 @@ items:
           Frenzy (T4)} (see
           @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched
           Lifeforce})</p><hr /><p>The Stonewyrm makes three Earthen Spike
-          attacks. Each attack increments MAP. Creatures hit by these attacks are
+          attacks. Apply multiple attack penalty to the Strikes as normal. Creatures hit by these attacks are
           @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}
           ([[/act escape dc=26]]).</p>
         gm: ''
