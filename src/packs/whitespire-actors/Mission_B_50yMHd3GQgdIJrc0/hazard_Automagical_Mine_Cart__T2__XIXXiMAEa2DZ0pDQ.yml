@@ -132,7 +132,7 @@ system:
       its own, and has been enchanted to provide protection from the Stonewyrm’s
       Breath effect.</p><p>Stonewyrm's Breath is listed here for ease of
       reference.</p><hr /><p><strong>Stonewyrm’s
-      Breath</strong></p><p><em>[Environmental][Primal][Poison]</em></p><p>Poisonous
+      Breath</strong></p><p><em>[Environmental][Primal][Magical][Poison]</em></p><p>Poisonous
       gas wells up from the bottom of the catacombs. Creatures that end their
       turn within the area of the hazard must attempt a <strong>#DC#</strong>
       (@Check[type:fortitude|dc:XX]) Fortitude Save or become

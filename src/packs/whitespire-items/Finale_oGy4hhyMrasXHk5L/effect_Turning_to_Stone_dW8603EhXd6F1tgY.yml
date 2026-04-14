@@ -11,7 +11,7 @@ system:
       <p>Due to failing the Stonewyrm's breath weapon save, you are turning to
       stone and might become
       @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Petrified}.</p><p>You
-      must attempt a @Check[fortitude|traits:earth,poison,primal] save at the
+      must attempt a @Check[fortitude|traits:earth,poison,primal,magical] save at the
       end of each of your turns. </p><p>On a failed save, your
       @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed} condition
       increases by 1. </p><p>A successful save decreases your Slowed condition

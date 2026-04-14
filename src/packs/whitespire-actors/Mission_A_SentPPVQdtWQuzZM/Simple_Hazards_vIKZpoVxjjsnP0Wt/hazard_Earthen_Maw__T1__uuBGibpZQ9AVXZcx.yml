@@ -95,6 +95,7 @@ system:
       - earth
       - primal
       - trap
+      - magical
     rarity: common
     size:
       value: lg
@@ -235,6 +236,7 @@ items:
           - earth
           - primal
           - reach-10
+          - magical
         config: {}
       action: strike
       area: null

@@ -324,6 +324,7 @@ items:
           - curse
           - earth
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -393,6 +394,7 @@ items:
           - earth
           - poison
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -692,6 +694,7 @@ items:
         otherTags: []
         value:
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -732,7 +735,7 @@ items:
           Frenzy (T4)} (see
           @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched
           Lifeforce})</p><hr /><p>The Stonewyrm makes three Earthen Spike
-          attacks. Creatures hit by these attacks are
+          attacks. Each attack increments MAP. Creatures hit by these attacks are
           @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized}
           ([[/act escape dc=26]]).</p>
         gm: ''
@@ -867,6 +870,7 @@ items:
           - concentrate
           - earth
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -939,6 +943,7 @@ items:
         value:
           - earth
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
@@ -1239,6 +1244,7 @@ items:
           - curse
           - earth
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:

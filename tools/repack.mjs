@@ -5,9 +5,12 @@ const PACKAGE_ID = process.cwd();
 const yaml = true;
 const folders = true;
 
+const filter = process.argv[2] ?? null;
+
 const packs = await fs.readdir('./src/packs');
 for (const pack of packs) {
   if (pack.startsWith(".")) continue;
+  if (filter && !pack.startsWith(filter)) continue;
   console.log('Packing ' + pack);
   await compilePack(
     `${PACKAGE_ID}/src/packs/${pack}`,

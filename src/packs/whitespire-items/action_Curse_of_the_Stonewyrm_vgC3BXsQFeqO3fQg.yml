@@ -57,6 +57,7 @@ system:
       - curse
       - earth
       - primal
+      - magical
   actionType:
     value: passive
   actions:

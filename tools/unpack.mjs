@@ -7,9 +7,12 @@ const yaml = true;
 const expandAdventures = false;
 const folders = true;
 
+const filter = process.argv[2] ?? null;
+
 const packs = await fs.readdir("./packs");
 for (const pack of packs) {
   if (pack.startsWith(".")) continue;
+  if (filter && !pack.startsWith(filter)) continue;
   console.log("Unpacking " + pack);
   await extractPack(
     `${PACKAGE_ID}/packs/${pack}`,

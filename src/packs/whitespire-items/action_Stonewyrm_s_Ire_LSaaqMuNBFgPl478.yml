@@ -48,6 +48,7 @@ system:
     value:
       - concentrate
       - primal
+      - magical
   actionType:
     value: free
   actions:

@@ -95,6 +95,7 @@ system:
       - primal
       - earth
       - trap
+      - magical
     rarity: common
     size:
       value: lg
@@ -276,6 +277,7 @@ items:
         value:
           - earth
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:

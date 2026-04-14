@@ -95,6 +95,7 @@ system:
       - poison
       - environmental
       - primal
+      - magical
     rarity: common
     size:
       value: lg
@@ -139,13 +140,13 @@ system:
     routine: >-
       <p>(1 action) Poison continues to spew from the remaining vents. Creatures
       in the area must attempt a
-      @Check[fortitude|dc:18|traits:inhaled,poison,primal] save. The DC is
+      @Check[fortitude|dc:18|traits:inhaled,poison,primal,magical] save. The DC is
       lowered by 2 for each vent successfully disabled (or broken). As noted in
       the inhaled trait, a creature can use an action on its turn to hold its
       breath and gain a +2 circumstance bonus to this save.</p><p>One vent
-      disabled: @Check[fortitude|dc:16|traits:inhaled,poison,primal], Two vents
+      disabled: @Check[fortitude|dc:16|traits:inhaled,poison,primal,magical], Two vents
       disabled:
-      @Check[fortitude|dc:14|traits:inhaled,poison,primal]</p><hr><p><strong>Critical
+      @Check[fortitude|dc:14|traits:inhaled,poison,primal,magical]</p><hr><p><strong>Critical
       Success</strong> The creature is
       unaffected.</p><p><strong>Success</strong> The creature takes half of
       @Damage[(2d4)[poison]] damage.</p><p><strong>Failure</strong> The creature
@@ -183,7 +184,7 @@ items:
           one of the hidden vents.</p><p><strong>Effect</strong> The stone
           cracks, and poisonous air blasts from the three vents. All creatures
           in the area take @Damage[(1d6+2)[poison]] damage
-          (@Check[fortitude|dc:18|basic|traits:inhaled,poison,primal] save).</p>
+          (@Check[fortitude|dc:18|basic|traits:inhaled,poison,primal,magical] save).</p>
         gm: ''
       publication:
         title: ''
@@ -198,6 +199,7 @@ items:
           - inhaled
           - poison
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:

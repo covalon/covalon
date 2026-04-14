@@ -96,6 +96,7 @@ system:
       - primal
       - poison
       - environmental
+      - magical
     rarity: common
     size:
       value: lg
@@ -291,6 +292,7 @@ items:
           - inhaled
           - poison
           - primal
+          - magical
       _migration:
         version: 0.955
         previous:
