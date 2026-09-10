@@ -20,14 +20,14 @@ system:
       option: damage:material:inubrix
       predicate:
         - or:
-            - item:id:{item|flags.pf2e.rulesSelections.weapon}
+            - item:slug:{item|flags.pf2e.rulesSelections.weapon}
             - item:category:{item|flags.pf2e.rulesSelections.weapon}
     - key: RollOption
       domain: strike-damage
       option: damage:material:orichalcum
       predicate:
         - or:
-            - item:id:{item|flags.pf2e.rulesSelections.weapon}
+            - item:slug:{item|flags.pf2e.rulesSelections.weapon}
             - item:category:{item|flags.pf2e.rulesSelections.weapon}
     - key: Note
       title: '{item|name}'

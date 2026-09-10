@@ -20,7 +20,7 @@ system:
       option: damage:material:adamantine
       predicate:
         - or:
-            - item:id:{item|flags.pf2e.rulesSelections.weapon}
+            - item:slug:{item|flags.pf2e.rulesSelections.weapon}
             - item:category:{item|flags.pf2e.rulesSelections.weapon}
     - key: Note
       title: '{item|name}'
