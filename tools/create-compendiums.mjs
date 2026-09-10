@@ -123,7 +123,7 @@ function parseText(text) {
   let prefix = "";
 
   lines.forEach((line) => {
-    const regex = /^(?<depth>[^\S\r\n]*)(?<comment>#?)(?<folder>\/?)(?<observer>\*?)(?<folderName>(?<=\/)\w*)?(?<type>(?<!\/)\w*):? ?"?(?<label>(?<=").*?(?="))?"?/gi;
+    const regex = /^(?<depth>[^\S\r\n]*)(?<comment>#?)(?<folder>\/?)(?<observer>\*?)(?<folderName>(?<=\/)[\w ]*)?(?<type>(?<!\/)\w*):? ?"?(?<label>(?<=").*?(?="))?"?/gi;
 
     let obj = regex.exec(line).groups;
     let { depth, comment, folder, observer, folderName, type, label } = obj;

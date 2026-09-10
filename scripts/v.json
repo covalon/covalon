@@ -1,5 +1,5 @@
 {
-  "SCHEMA_VERSION": 2,
+  "SCHEMA_VERSION": 4,
   "folders": {
     "Covalon": {
       "name": "Covalon",
@@ -52,7 +52,7 @@
         "Alatar",
         "Briarmurk",
         "Drifthaven",
-        "Feycourts",
+        "Fey Courts",
         "Varceta",
         "Ratchethallow",
         "Verndhelt",
@@ -112,15 +112,15 @@
       ],
       "folders": []
     },
-    "Feycourts": {
-      "name": "Feycourts",
+    "Fey Courts": {
+      "name": "Fey Courts",
       "sorting": "a",
       "color": "#473624",
       "packs": [
-        "feycourts-actors",
-        "feycourts-items",
-        "feycourts-journals",
-        "feycourts-scenes"
+        "fey-courts-actors",
+        "fey-courts-items",
+        "fey-courts-journals",
+        "fey-courts-scenes"
       ],
       "folders": []
     },

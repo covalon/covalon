@@ -270,10 +270,10 @@
       }
     },
     {
-      "label": "Feycourts Actors",
-      "name": "feycourts-actors",
+      "label": "Fey Courts Actors",
+      "name": "fey-courts-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "path": "packs/feycourts-actors",
+      "path": "packs/fey-courts-actors",
       "type": "Actor",
       "system": "pf2e",
       "ownership": {
@@ -282,10 +282,10 @@
       }
     },
     {
-      "label": "Feycourts Items",
-      "name": "feycourts-items",
+      "label": "Fey Courts Items",
+      "name": "fey-courts-items",
       "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
-      "path": "packs/feycourts-items",
+      "path": "packs/fey-courts-items",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -294,10 +294,10 @@
       }
     },
     {
-      "label": "Feycourts Journals",
-      "name": "feycourts-journals",
+      "label": "Fey Courts Journals",
+      "name": "fey-courts-journals",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
-      "path": "packs/feycourts-journals",
+      "path": "packs/fey-courts-journals",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
@@ -305,10 +305,10 @@
       }
     },
     {
-      "label": "Feycourts Scenes",
-      "name": "feycourts-scenes",
+      "label": "Fey Courts Scenes",
+      "name": "fey-courts-scenes",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "path": "packs/feycourts-scenes",
+      "path": "packs/fey-courts-scenes",
       "type": "Scene",
       "ownership": {
         "PLAYER": "NONE",

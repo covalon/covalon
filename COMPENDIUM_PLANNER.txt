@@ -47,7 +47,7 @@
       journals
       scenes
 
-    /Feycourts
+    /Fey Courts
       actors
       items
       journals
