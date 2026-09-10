@@ -19,31 +19,71 @@ const MAX_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB
 const MAX_DIMENSION = 4000;              // longest edge
 const IMAGE_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp'];
 
+const VERBOSE = process.argv.includes('-v') || process.argv.includes('--verbose');
+const vlog = (...args) => { VERBOSE && console.log(...args) }
+
 function getMaxBytesForImage(width, height) {
   const area = width * height;
   const target = area * BYTES_PER_PIXEL;
   return Math.max(MIN_SIZE_BYTES, Math.min(MAX_SIZE_BYTES, target));
 }
 
-// Have we already optimized this image in a previous run? Match by basename rather than exact filename, since the very thing that gets backed up to images_original/ (e.g. foo.png) has a different extension than what's left behind in images/ afterwards (foo.webp) — so a plain existsSync on the same filename would never catch the case that matters: re-scanning our own previous output and treating it as a brand new file to compress again.
-function findExistingOriginal(relativeInImages) {
+// Key used to identify "the same image" regardless of which extension it currently
+// has (foo.png before compression vs foo.webp after). dir + basename-without-ext.
+function keyFor(relativeInImages) {
   const dir = path.dirname(relativeInImages);
   const base = path.basename(relativeInImages, path.extname(relativeInImages));
-
-  for (const ext of IMAGE_EXTENSIONS) {
-    const candidate = path.join(ORIGINALS_DIR, dir, `${base}.${ext}`);
-    if (fs.existsSync(candidate)) {
-      return candidate;
-    }
-  }
-  return null;
+  return path.join(dir, base);
 }
+
+// image-comparison.csv is git-tracked, unlike images_original/, so it's the
+// source of truth for "have we already optimized this image" across a fresh
+// clone / CI run where images_original/ won't exist.
+function readComparisonCsv(csvPath) {
+  if (!fs.existsSync(csvPath)) return [];
+
+  const content = fs.readFileSync(csvPath, 'utf8');
+  const lines = content.split('\n').filter(line => line.trim().length > 0);
+
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) { // skip header
+    const fields = lines[i].split(',');
+    if (fields.length < 7) continue;
+
+    // File paths shouldn't contain commas, but just in case, treat the last
+    // 6 fields as the numeric columns and everything before that as the path.
+    const numeric = fields.slice(-6).map(Number);
+    const filePath = fields.slice(0, fields.length - 6).join(',');
+
+    rows.push({
+      path: filePath,
+      originalSize: numeric[0],
+      newSize: numeric[1],
+    });
+  }
+  return rows;
+}
+
+function findExistingOriginal(relativeInImages) {
+  return alreadyHandled.has(keyFor(relativeInImages));
+}
+
+const CSV_PATH = path.join(__dirname, '..', 'image-comparison.csv');
+
+// Module-level so processImage/findExistingOriginal can see it without
+// threading it through every call.
+let alreadyHandled;
+let previousRowsByKey;
 
 async function main() {
   if (!fs.existsSync(IMAGES_DIR)) {
     console.log('No images/ folder found – nothing to do.');
     return;
   }
+
+  const previousRows = readComparisonCsv(CSV_PATH);
+  previousRowsByKey = new Map(previousRows.map(row => [keyFor(row.path.replace(/^images[\\/]/, '')), row]));
+  alreadyHandled = new Set(previousRowsByKey.keys());
 
   const patterns = IMAGE_EXTENSIONS.map(ext => `images/**/*.${ext}`);
   const files = await globby(patterns, { cwd: path.join(__dirname, '..') });
@@ -75,13 +115,12 @@ async function processImage(relativePath) {
   const repoRoot = path.join(__dirname, '..');
   const inputPath = path.join(repoRoot, relativePath);
 
-  console.log(`Processing: ${relativePath}`);
+  vlog(`Processing: ${relativePath}`);
 
   const relativeInImages = relativePath.replace(/^images[\\/]/, '');
 
-  const existingOriginal = findExistingOriginal(relativeInImages);
-  if (existingOriginal) {
-    console.log(`  Skipping: already optimized previously (found ${path.relative(repoRoot, existingOriginal)})`);
+  if (findExistingOriginal(relativeInImages)) {
+    vlog(`  Skipping: already recorded in image-comparison.csv`);
     return null;
   }
 
@@ -161,7 +200,7 @@ async function processImage(relativePath) {
     fs.copyFileSync(originalPath, webpPath);
     newSize = originalSize;
 
-    console.log(
+    vlog(
       `  Skipped: recompressed webp was larger than original ` +
       `(${(outputBuffer.length / 1024).toFixed(1)} KB > ${(originalSize / 1024).toFixed(1)} KB). ` +
       `Kept original at: ${path.relative(repoRoot, webpPath)}`
@@ -170,7 +209,7 @@ async function processImage(relativePath) {
     fs.writeFileSync(webpPath, outputBuffer);
     newSize = outputBuffer.length;
 
-    console.log(
+    vlog(
       `  Created: ${path.relative(repoRoot, webpPath)} ` +
       `(${(newSize / 1024).toFixed(1)} KB, max: ${(maxBytes / 1024).toFixed(1)} KB)`
     );
@@ -269,10 +308,20 @@ function printComparisonTable(stats) {
 
 function writeComparisonCsv(stats) {
   const repoRoot = path.join(__dirname, '..');
-  const csvPath = path.join(repoRoot, 'image-comparison.csv');
+  const csvPath = CSV_PATH;
+
+  // Start from everything already on record, then layer this run's results
+  // on top (a re-processed file overwrites its old row; everything skipped
+  // this run is carried forward unchanged) so the CSV keeps accumulating
+  // history instead of shrinking to just this run's files.
+  const merged = new Map(previousRowsByKey);
+  for (const s of stats) {
+    merged.set(keyFor(s.path.replace(/^images[\\/]/, '')), s);
+  }
+  const allStats = [...merged.values()].sort((a, b) => a.path.localeCompare(b.path));
 
   const header = 'File,OriginalBytes,NewBytes,OriginalKB,NewKB,SavedKB,SavedPercent\n';
-  const lines = stats.map(s => {
+  const lines = allStats.map(s => {
     const originalKB = s.originalSize / 1024;
     const newKB = s.newSize / 1024;
     const savedKB = (s.originalSize - s.newSize) / 1024;
