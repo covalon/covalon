@@ -15,12 +15,9 @@ prototypeToken:
     src: icons/magic/movement/portal-vortex-orange.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -64,7 +61,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -85,6 +82,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 0.5
 effects: []
 system:
   attributes:
@@ -231,10 +229,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!SOuEaNWK8QzOEF6u.e20ymH6ZGO9do2BK'
@@ -286,10 +286,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: QbFDoo2KoL7WmC3C
     ownership:
       default: 0
@@ -347,10 +349,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: IpocSsO9kBYrLYEi
     ownership:
       default: 0
@@ -433,10 +437,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: d7F0BXSMZp5McXc3
     ownership:
       default: 0
@@ -478,7 +484,7 @@ items:
           selection: '5'
         - key: FlatModifier
           selector: fly-speed
-          value: '-@item.flags.pf2e.rulesSelections.elementalFreedom'
+          value: -@item.flags.pf2e.rulesSelections.elementalFreedom
           predicate:
             - elemental-freedom
       slug: null
@@ -509,10 +515,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: wciZvb6lgMwwoBQc
     ownership:
       default: 0
@@ -591,10 +599,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: zmnODyf9jMbT7k6t
     ownership:
       default: 0
@@ -657,10 +667,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: cMItSfwnOD4OfCZE
     ownership:
       default: 0
@@ -731,10 +743,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: 4zjF7IEIOj7FMS0s
     ownership:
       default: 0
@@ -806,10 +820,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: hAHXg2EbJfVtH4Km
     ownership:
       default: 0
@@ -819,7 +835,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.8.0
   createdTime: 1754849235877

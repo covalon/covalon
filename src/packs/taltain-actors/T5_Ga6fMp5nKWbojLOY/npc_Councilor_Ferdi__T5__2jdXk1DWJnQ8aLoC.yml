@@ -64,9 +64,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -81,7 +78,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -101,6 +98,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Ferdi (T5)
 type: npc
 img: modules/covalon/images/Taltain/councilor_ferdi.Token.webp
@@ -155,7 +153,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677727081455
       lastModifiedBy: aNDEqRNv3n6sqn54
@@ -167,8 +165,7 @@ items:
   - _id: qi9szvVFWiPMEI4H
     name: Inquisitor's Rifle
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -219,7 +216,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -230,8 +227,7 @@ items:
   - _id: HsnbNHNhGKi2QmDd
     name: Claw
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -281,7 +277,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -292,8 +288,7 @@ items:
   - _id: snUEP3T6fEpoA5VV
     name: Chameleon Skin
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 0
@@ -331,7 +326,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -342,8 +337,7 @@ items:
   - _id: QifxziQC575DrR46
     name: Hunt Heretic
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 0
@@ -388,7 +382,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -399,8 +393,7 @@ items:
   - _id: BPuZsps6AA7LgKkm
     name: Hatred of Heretics
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 0
@@ -437,7 +430,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -457,15 +450,15 @@ system:
       temp: 0
       max: 255
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 33
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     adjustment: null
   initiative:
     statistic: perception
@@ -556,7 +549,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818822870
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

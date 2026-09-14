@@ -35,9 +35,6 @@ prototypeToken:
     src: modules/covalon/images/Verndhelt/erinys.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -83,7 +80,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -102,6 +99,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: 4XX7EZa6J6RHdD8a
 name: (T3) Erinys
 type: npc
@@ -113,17 +111,17 @@ system:
       temp: 0
       max: 120
       details: ''
+    ac:
+      value: 27
+      details: ''
+    allSaves:
+      value: +1 status to all saves vs. magic
     speed:
       value: 25
       otherSpeeds:
         - type: fly
           value: 40
       details: ''
-    ac:
-      value: 27
-      details: ''
-    allSaves:
-      value: +1 status to all saves vs. magic
     immunities:
       - type: fire
     resistances:
@@ -358,7 +356,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -437,7 +435,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -526,7 +524,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -615,7 +613,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -788,7 +786,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -869,7 +867,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -978,7 +976,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1080,7 +1078,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1171,7 +1169,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1262,7 +1260,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1354,8 +1352,10 @@ items:
         value: 0
       range: 100
       expend: null
+      ammo: null
       reload:
         value: '0'
+      grade: null
       runes:
         potency: 1
         striking: 1
@@ -1381,7 +1381,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1466,8 +1466,10 @@ items:
         value: 0
       range: null
       expend: null
+      ammo: null
       reload:
         value: ''
+      grade: null
       runes:
         potency: 0
         striking: 0
@@ -1493,7 +1495,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1572,6 +1574,7 @@ items:
       dexCap: 1
       checkPenalty: -2
       speedPenalty: -5
+      grade: null
       runes:
         potency: 0
         resilient: 0
@@ -1585,7 +1588,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1663,7 +1666,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1741,8 +1744,8 @@ items:
       damage: null
       usage:
         value: held-in-one-hand
-      stackGroup: arrows
       spell: null
+      stackGroup: arrows
     type: consumable
     effects: []
     folder: null
@@ -1751,7 +1754,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1803,7 +1806,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1858,7 +1861,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1908,7 +1911,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -1956,7 +1959,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2006,7 +2009,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2054,7 +2057,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2102,7 +2105,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2161,7 +2164,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2218,7 +2221,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2269,7 +2272,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2334,7 +2337,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -2350,7 +2353,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.4
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1692627692517
   modifiedTime: 1737840385175
   lastModifiedBy: H9FXC8g0quO6QRgw

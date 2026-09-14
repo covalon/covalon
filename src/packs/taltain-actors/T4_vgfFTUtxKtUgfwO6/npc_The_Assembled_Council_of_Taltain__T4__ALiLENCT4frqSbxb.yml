@@ -64,9 +64,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -81,7 +78,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -101,6 +98,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 name: The Assembled Council of Taltain (T4)
 type: npc
 img: modules/covalon/images/Taltain/the_assembled_council_of_taltain.Token.webp
@@ -146,7 +144,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677758995776
       modifiedTime: 1677758995776
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -158,8 +156,7 @@ items:
   - _id: kiP6TmfcQdElR2th
     name: Slam
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -208,7 +205,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1677726974287
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -219,8 +216,7 @@ items:
   - _id: QgnUKsnjlGPyga5R
     name: Flesh Spike
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -269,7 +265,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -317,7 +313,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1677727474917
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -403,7 +399,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.SHKjq98tzuaKtCaP
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.SHKjq98tzuaKtCaP
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -414,8 +410,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.64BZO4CeY5OrsJqf'
   - name: 'Shadowcaller Form: Swirling Darkness'
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 975000
@@ -464,7 +459,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.WEs3UZHb4VrVg0wz
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.WEs3UZHb4VrVg0wz
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -551,7 +546,7 @@ items:
     _stats:
       compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.ePJ0zpe2z8VSwApH
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -621,7 +616,7 @@ items:
     _stats:
       compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.UQuqbW0pxh12wtGW
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -679,7 +674,7 @@ items:
     _stats:
       compendiumSource: Actor.DIuI8j0qKx9KRcYG.Item.Td5KPvlVZxBoWW2q
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -736,7 +731,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.k2JlLsde7DBEIYUG
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.k2JlLsde7DBEIYUG
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -793,7 +788,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.d48UJmqtnfjT2dmy
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.d48UJmqtnfjT2dmy
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -804,8 +799,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.cwbb6wXVLtIAjcDE'
   - name: 'Duelist Form: Not Your Line!'
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
     effects: []
     folder: W0zWBlVxRe5GKnta
     sort: 800000
@@ -851,7 +845,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.n4zp1Bx6gkBj3uB9
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.n4zp1Bx6gkBj3uB9
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -862,8 +856,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.vgOOTiRHS79dqWzN'
   - name: 'Duelist Form: Fumble Fury'
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
     effects: []
     folder: W0zWBlVxRe5GKnta
     sort: 700000
@@ -909,7 +902,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.nc93VAABOal4yXez
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.nc93VAABOal4yXez
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -920,8 +913,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.JFXIzZb737G6BnGR'
   - name: 'Duelist Form: Duelist Dance'
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/FreeAction.webp
+    img: systems/pf2e/assets/icons/actions/FreeAction.webp
     effects: []
     folder: W0zWBlVxRe5GKnta
     sort: 650000
@@ -974,7 +966,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.xGTH1hhnUHibIyln
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.xGTH1hhnUHibIyln
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -985,8 +977,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.Pr0oapFVeGZfmVGC'
   - name: 'Bomber Form: Mega-Bomb Barrage'
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 625000
@@ -1034,7 +1025,7 @@ items:
     _stats:
       compendiumSource: Actor.pVZepBoTlU6MS3Ea.Item.Y1izvEiI6iwXkqxq
       duplicateSource: Actor.pVZepBoTlU6MS3Ea.Item.Y1izvEiI6iwXkqxq
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1082,7 +1073,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1100,8 +1091,7 @@ items:
     _key: '!actors.items!ALiLENCT4frqSbxb.Q7mpwqeEuqPzHq5A'
   - name: Modification - Strong Personalities
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 400000
@@ -1152,7 +1142,7 @@ items:
     _stats:
       compendiumSource: Actor.iHBhhUxrlrmSG9iv.Item.teaMr61usFgt2S2o
       duplicateSource: Actor.iHBhhUxrlrmSG9iv.Item.teaMr61usFgt2S2o
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1173,15 +1163,15 @@ system:
       temp: 0
       max: 300
       details: ''
-    speed:
-      value: 50
-      otherSpeeds: []
-      details: ''
     ac:
       value: 33
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 50
+      otherSpeeds: []
+      details: ''
     adjustment: null
   initiative:
     statistic: perception
@@ -1274,7 +1264,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818837526
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

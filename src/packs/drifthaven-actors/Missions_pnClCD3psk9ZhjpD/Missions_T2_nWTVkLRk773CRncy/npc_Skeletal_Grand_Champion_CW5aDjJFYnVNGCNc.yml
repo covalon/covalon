@@ -15,9 +15,6 @@ prototypeToken:
     src: systems/pf2e/icons/default-icons/npc.svg
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -63,7 +60,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: nWTVkLRk773CRncy
 name: Skeletal Grand Champion
 type: npc
@@ -93,15 +91,15 @@ system:
       temp: 0
       max: 59
       details: negative healing
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 23
       details: (25 with shield raised)
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: death-effects
       - type: disease
@@ -306,8 +304,10 @@ items:
         value: 0
       range: null
       expend: null
+      ammo: null
       reload:
         value: ''
+      grade: null
       runes:
         potency: 0
         striking: 0
@@ -333,7 +333,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.OPMzQdM9rZznMGhW
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -418,8 +418,10 @@ items:
         value: 0
       range: null
       expend: null
+      ammo: null
       reload:
         value: ''
+      grade: null
       runes:
         potency: 0
         striking: 0
@@ -445,7 +447,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.LJdbVTOZog39EEbi
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -525,6 +527,7 @@ items:
       dexCap: 1
       checkPenalty: -2
       speedPenalty: -5
+      grade: null
       runes:
         potency: 0
         resilient: 0
@@ -538,7 +541,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.Kf4eJEXnFPuAsseP
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -642,6 +645,7 @@ items:
               value: ''
         misidentified: {}
       acBonus: 2
+      grade: null
       runes:
         reinforcing: 0
         potency: 0
@@ -658,7 +662,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.Yr9yCuJiAlFh3QEB
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -711,7 +715,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -762,7 +766,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -817,7 +821,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -865,7 +869,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -917,7 +921,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -965,7 +969,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1013,7 +1017,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1069,7 +1073,7 @@ items:
     _stats:
       compendiumSource: Actor.hS7DFKexUgDBTLGV.Item.P6598RFBKiJvtHiI
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1086,7 +1090,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.8.4
   createdTime: 1737840149390

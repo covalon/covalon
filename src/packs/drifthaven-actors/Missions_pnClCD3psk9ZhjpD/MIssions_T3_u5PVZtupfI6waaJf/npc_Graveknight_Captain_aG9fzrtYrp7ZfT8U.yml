@@ -15,9 +15,6 @@ prototypeToken:
     src: systems/pf2e/icons/default-icons/npc.svg
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -63,7 +60,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: u5PVZtupfI6waaJf
 name: Graveknight-Captain
 type: npc
@@ -93,15 +91,15 @@ system:
       temp: 0
       max: 165
       details: negative healing, rejuvenation
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 28
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: cold
       - type: death-effects
@@ -283,8 +281,10 @@ items:
         value: 0
       range: 100
       expend: null
+      ammo: null
       reload:
         value: '0'
+      grade: null
       runes:
         potency: 0
         striking: 0
@@ -310,7 +310,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -396,8 +396,10 @@ items:
         value: 0
       range: null
       expend: null
+      ammo: null
       reload:
         value: ''
+      grade: null
       runes:
         potency: 0
         striking: 0
@@ -423,7 +425,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.UX71GkWBL9g41VwM
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -503,6 +505,7 @@ items:
       dexCap: 0
       checkPenalty: -3
       speedPenalty: -10
+      grade: null
       runes:
         potency: 1
         resilient: 1
@@ -516,7 +519,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -594,8 +597,8 @@ items:
       damage: null
       usage:
         value: held-in-one-hand
-      stackGroup: arrows
       spell: null
+      stackGroup: arrows
     type: consumable
     effects: []
     folder: null
@@ -604,7 +607,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -663,7 +666,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -720,7 +723,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -783,7 +786,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -831,7 +834,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -883,7 +886,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -931,7 +934,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -996,7 +999,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-family-ability-glossary.Item.bTJnxBQjr7G8yr30
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1053,7 +1056,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1104,7 +1107,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-family-ability-glossary.Item.6isn9nqnvfRrC1wW
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1150,7 +1153,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1206,7 +1209,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1258,7 +1261,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1274,7 +1277,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.8.4
   createdTime: 1737840149390

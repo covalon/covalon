@@ -36,8 +36,7 @@ system:
     value: null
   deathNote: false
 _id: byMG0CFrYSNwPrvv
-img: >-
-  systems/pf2e/assets/icons/actions/FreeAction.webp
+img: systems/pf2e/assets/icons/actions/FreeAction.webp
 flags:
   LocknKey:
     IDKeysFlag: ''

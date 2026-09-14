@@ -13,9 +13,6 @@ prototypeToken:
     src: modules/covalon/images/Pudersno/horned_glyph_t5_.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -61,7 +58,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Horned Glyph (T5)
 type: hazard
 img: modules/covalon/images/Pudersno/horned_glyph_t5_.Avatar.webp
@@ -171,7 +169,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.1
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1673492020255
   modifiedTime: 1736019552967
   lastModifiedBy: H9FXC8g0quO6QRgw

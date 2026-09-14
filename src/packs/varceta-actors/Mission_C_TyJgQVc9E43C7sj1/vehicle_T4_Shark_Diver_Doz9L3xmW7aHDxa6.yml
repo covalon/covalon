@@ -21,12 +21,9 @@ prototypeToken:
     src: modules/covalon/images/Varceta/Shark%20Diver%20Token.webp
     anchorX: 0.5
     anchorY: 0.4
-    offsetX: 0
-    offsetY: 0
     fit: height
     scaleX: 2.4
     scaleY: 2.4
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -88,6 +85,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 4
 folder: TyJgQVc9E43C7sj1
 name: T4 Shark Diver
 type: vehicle
@@ -211,7 +209,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -263,7 +261,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -319,7 +317,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -376,7 +374,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -441,7 +439,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -497,7 +495,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -552,7 +550,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -605,7 +603,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -665,7 +663,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -723,7 +721,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -774,7 +772,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -827,7 +825,7 @@ items:
     _stats:
       compendiumSource: Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv
       duplicateSource: Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -887,7 +885,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -943,7 +941,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -955,7 +953,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1739725312442

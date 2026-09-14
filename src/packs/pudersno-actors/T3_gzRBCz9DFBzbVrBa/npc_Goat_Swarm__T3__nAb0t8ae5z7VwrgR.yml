@@ -13,9 +13,6 @@ prototypeToken:
     src: modules/covalon/images/Pudersno/goat_swarm.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -61,7 +58,7 @@ prototypeToken:
     brightness: 1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Goat Swarm (T3)
 type: npc
 img: modules/covalon/images/Pudersno/Goat_Swarm.webp
@@ -92,17 +90,17 @@ system:
       temp: 0
       max: 100
       details: Regeneration 50
+    ac:
+      value: 25
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 10
       otherSpeeds:
         - type: fly
           value: 40
       details: ''
-    ac:
-      value: 25
-      details: ''
-    allSaves:
-      value: ''
     immunities:
       - type: precision
       - type: swarm-mind
@@ -238,7 +236,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1674922903646
       modifiedTime: 1675006759982
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -247,8 +245,7 @@ items:
       exportSource: null
     _key: '!actors.items!nAb0t8ae5z7VwrgR.3UyUqSgF1admAwp7'
   - _id: B5cFXl5CIucCzoy0
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Launch Goat
     sort: 100000
     system:
@@ -296,7 +293,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1675006601982
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -307,8 +304,7 @@ items:
   - _id: 6hgXjCxuZTwCxmFa
     flags:
       core: {}
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Darkvision
     sort: 200000
     system:
@@ -345,7 +341,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -392,7 +388,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1674922444281
       lastModifiedBy: hcWh9kuYosSIErIR
@@ -403,8 +399,7 @@ items:
   - _id: KZhlld4EKQcCTBjw
     flags:
       core: {}
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Swarm Mind
     sort: 400000
     system:
@@ -441,7 +436,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -504,7 +499,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1675006675140
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -552,7 +547,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1674924647387
       modifiedTime: 1674924674248
       lastModifiedBy: hcWh9kuYosSIErIR
@@ -566,7 +561,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.1
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1674922078438
   modifiedTime: 1736019552967
   lastModifiedBy: H9FXC8g0quO6QRgw

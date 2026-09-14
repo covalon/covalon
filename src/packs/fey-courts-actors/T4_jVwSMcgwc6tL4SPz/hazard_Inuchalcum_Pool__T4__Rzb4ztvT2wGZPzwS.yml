@@ -40,12 +40,9 @@ prototypeToken:
     src: icons/magic/water/vortex-water-whirlpool.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 0.85
     scaleY: 0.85
-    rotation: 0
     tint: '#893727'
     alphaThreshold: 0.75
   lockRotation: false
@@ -89,7 +86,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 100
       enabled: true
   occludable:
@@ -110,6 +107,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 folder: jVwSMcgwc6tL4SPz
 name: Inuchalcum Pool (T4)
 type: hazard
@@ -304,7 +302,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -322,7 +320,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1726532065246

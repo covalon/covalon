@@ -2,7 +2,6 @@ name: Ocean Basin
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/ikouga-scenes-Q2OyTozVDz55AjkF-thumb.webp
 width: 1080
 height: 1080
@@ -11,7 +10,6 @@ initial:
   x: 754
   'y': 700
   scale: 1.14
-backgroundColor: '#3b434e'
 grid:
   size: 72
   type: 1
@@ -27,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -41,24 +38,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Ikouga/Ocean%20Basin%20Small_v2.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405828753
   modifiedTime: 1689265685587
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -103,11 +87,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: false
   reset: 1644015366210
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 0
+levels:
+  - _id: defaultLevel0000
+    name: Ocean Basin
+    background:
+      color: '#3b434e'
+      src: modules/covalon/images/Ikouga/Ocean%20Basin%20Small_v2.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!Q2OyTozVDz55AjkF.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!Q2OyTozVDz55AjkF'
+templates: []

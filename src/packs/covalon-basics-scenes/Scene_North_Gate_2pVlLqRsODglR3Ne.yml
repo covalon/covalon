@@ -3,19 +3,6 @@ name: North Gate
 _id: 2pVlLqRsODglR3Ne
 navigation: false
 navName: ''
-background:
-  src: modules/covalon/images/Covalon%20Basics/NorthGate.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  tint: '#ffffff'
-  alphaThreshold: 0
-foregroundElevation: 20
 width: 7680
 height: 5120
 padding: 0.25
@@ -23,7 +10,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 256
@@ -39,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -54,13 +39,12 @@ _stats:
   compendiumSource: Compendium.covalon.covalon-basics-scenes.Scene.2pVlLqRsODglR3Ne
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1788224017373
   modifiedTime: 1788224323097
   lastModifiedBy: H9FXC8g0quO6QRgw
-foreground: null
 thumb: modules/covalon/assets/scenes/2pVlLqRsODglR3Ne-thumb.webp
 weather: ''
 regions: []
@@ -94,16 +78,53 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1706387873186
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 ownership:
   default: 0
 active: false
 navOrder: 0
 sort: 0
+levels:
+  - _id: defaultLevel0000
+    name: North Gate
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Covalon%20Basics/NorthGate.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!2pVlLqRsODglR3Ne.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!2pVlLqRsODglR3Ne'
-levels: []
+templates: []

@@ -44,9 +44,6 @@ prototypeToken:
     src: systems/pf2e/icons/default-icons/hazard.svg
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -62,7 +59,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Marid Summoning Sigil (T5)
 type: hazard
 img: systems/pf2e/icons/default-icons/hazard.svg
@@ -139,7 +137,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -233,7 +231,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.4.0
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405806550
   modifiedTime: 1726524501153
   lastModifiedBy: H9FXC8g0quO6QRgw

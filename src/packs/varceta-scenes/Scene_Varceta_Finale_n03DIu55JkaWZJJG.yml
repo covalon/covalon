@@ -3,21 +3,6 @@ name: Varceta Finale
 _id: n03DIu55JkaWZJJG
 navigation: true
 navName: ''
-background:
-  src: >-
-    modules/covalon/images/Varceta/Varceta%20Finale.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/n03DIu55JkaWZJJG-thumb.webp
 width: 6000
 height: 3000
@@ -26,7 +11,6 @@ initial:
   x: null
   'y': null
   scale: 0.5
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 100
@@ -38,11 +22,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -109,6 +92,7 @@ drawings:
           fontVariant: small-caps
           dropShadow: false
           fontWeight: bold
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.9PmK8piYbmXa8hrx'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -147,6 +131,7 @@ drawings:
           fontWeight: bold
           align: center
     _id: 794xPuAboxbnTdJV
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.794xPuAboxbnTdJV'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -185,6 +170,7 @@ drawings:
           fontWeight: bold
           align: center
     _id: aKFphw5E2WtrsCHu
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.aKFphw5E2WtrsCHu'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -222,6 +208,7 @@ drawings:
           dropShadow: false
           fontWeight: bold
     _id: 1VsTrTVG4dX4EPrk
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.1VsTrTVG4dX4EPrk'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -259,6 +246,7 @@ drawings:
           dropShadow: false
           fontWeight: bold
     _id: U5Eo6njNBcWUdle2
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.U5Eo6njNBcWUdle2'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -296,6 +284,7 @@ drawings:
           dropShadow: false
           fontWeight: bold
     _id: cZfPFvFW8KFOTtlP
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.cZfPFvFW8KFOTtlP'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -333,6 +322,7 @@ drawings:
           dropShadow: false
           fontWeight: bold
     _id: 5SxsiCjkoi2dLoQc
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.5SxsiCjkoi2dLoQc'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -370,6 +360,7 @@ drawings:
           dropShadow: false
           fontWeight: bold
     _id: FidU6dfaTEhFzWRF
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.FidU6dfaTEhFzWRF'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -408,6 +399,7 @@ drawings:
           fontWeight: bold
           align: center
     _id: ihttUAfyj2tvQcyA
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.ihttUAfyj2tvQcyA'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -446,6 +438,7 @@ drawings:
           fontWeight: bold
           align: center
     _id: vNzg11mwov0333Zz
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.vNzg11mwov0333Zz'
   - author: wIOTBCOlihhXbUqQ
     shape:
@@ -484,6 +477,7 @@ drawings:
           fontWeight: bold
           align: center
     _id: k7TvBMEDL1tUX1NY
+    levels: []
     _key: '!scenes.drawings!n03DIu55JkaWZJJG.k7TvBMEDL1tUX1NY'
 tokens:
   - displayName: 20
@@ -519,16 +513,12 @@ tokens:
     name: Fascimile of  Traseem, The Great Seabird
     actorLink: true
     texture:
-      src: >-
-        modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
+      src: modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
       anchorX: 0.5
       anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
       fit: contain
       scaleX: 1.2
       scaleY: 1.2
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     lockRotation: false
@@ -572,7 +562,7 @@ tokens:
       saturation: 0
       contrast: 0
     detectionModes:
-      - id: basicSight
+      basicSight:
         range: 500
         enabled: true
     occludable:
@@ -614,6 +604,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!n03DIu55JkaWZJJG.StdiqVL8BMStqJqM'
   - displayName: 20
     displayBars: 20
@@ -648,16 +640,12 @@ tokens:
     name: Fascimile of  Traseem, The Great Seabird
     actorLink: true
     texture:
-      src: >-
-        modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
+      src: modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
       anchorX: 0.5
       anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
       fit: contain
       scaleX: 1.2
       scaleY: 1.2
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     lockRotation: false
@@ -701,7 +689,7 @@ tokens:
       saturation: 0
       contrast: 0
     detectionModes:
-      - id: basicSight
+      basicSight:
         range: 500
         enabled: true
     occludable:
@@ -743,6 +731,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!n03DIu55JkaWZJJG.csQ5GF7IQrynq4Gc'
   - displayName: 20
     displayBars: 20
@@ -787,16 +777,12 @@ tokens:
       contrast: 0
     name: Paltry Trinkets
     texture:
-      src: >-
-        modules/covalon/images/Varceta/paltry_trinkets.Token.webp
+      src: modules/covalon/images/Varceta/paltry_trinkets.Token.webp
       anchorX: 0.5
       anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
       fit: contain
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     lockRotation: false
@@ -830,7 +816,7 @@ tokens:
         min: 0
         max: 1
     detectionModes:
-      - id: basicSight
+      basicSight:
         range: 500
         enabled: true
     occludable:
@@ -872,24 +858,21 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!n03DIu55JkaWZJJG.C9Jk4kAdIB0qpbpR'
 lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles:
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Open%20Scroll.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Open%20Scroll.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 3941
@@ -899,8 +882,8 @@ tiles:
     elevation: 0
     sort: 0
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     _id: P7HVkmJSXt3XokdH
     rotation: 0
     alpha: 1
@@ -914,18 +897,15 @@ tiles:
       autoplay: true
       volume: 0
     flags: {}
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.P7HVkmJSXt3XokdH'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4300
@@ -935,8 +915,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     _id: m2sNn4oZZCqSbgIt
     rotation: 0
     alpha: 1
@@ -950,18 +930,15 @@ tiles:
       autoplay: true
       volume: 0
     flags: {}
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.m2sNn4oZZCqSbgIt'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4800
@@ -971,8 +948,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -986,18 +963,15 @@ tiles:
       volume: 0
     flags: {}
     _id: 7kHpqv3HGZWucx2s
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.7kHpqv3HGZWucx2s'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4100
@@ -1007,8 +981,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1022,18 +996,15 @@ tiles:
       volume: 0
     flags: {}
     _id: jUr0ADpzDZ1roEWp
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.jUr0ADpzDZ1roEWp'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4600
@@ -1043,8 +1014,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1058,18 +1029,15 @@ tiles:
       volume: 0
     flags: {}
     _id: wEpt1NjE2ZK3ZcsR
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.wEpt1NjE2ZK3ZcsR'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4200
@@ -1079,8 +1047,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1094,18 +1062,15 @@ tiles:
       volume: 0
     flags: {}
     _id: uprfiLiXKP8KqKGc
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.uprfiLiXKP8KqKGc'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4700
@@ -1115,8 +1080,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1130,18 +1095,15 @@ tiles:
       volume: 0
     flags: {}
     _id: JayUFmgKxWjX7493
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.JayUFmgKxWjX7493'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Open%20Scroll.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Open%20Scroll.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 3900
@@ -1151,8 +1113,8 @@ tiles:
     elevation: 0
     sort: 0
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1166,18 +1128,15 @@ tiles:
       volume: 0
     flags: {}
     _id: pqaxlowrJMhNV7mR
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.pqaxlowrJMhNV7mR'
   - texture:
-      src: >-
-        modules/covalon/images/Varceta/Black%20X.webp
-      anchorX: 0.5
-      anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
+      src: modules/covalon/images/Varceta/Black%20X.webp
+      anchorX: 0
+      anchorY: 0
       fit: fill
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     x: 4450
@@ -1187,8 +1146,8 @@ tiles:
     elevation: 0
     sort: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     rotation: 0
     alpha: 1
     hidden: false
@@ -1202,6 +1161,7 @@ tiles:
       volume: 0
     flags: {}
     _id: Dzelmp80rfCEml08
+    levels: []
     _key: '!scenes.tiles!n03DIu55JkaWZJJG.Dzelmp80rfCEml08'
 walls: []
 playlist: null
@@ -1217,7 +1177,7 @@ flags:
 _stats:
   compendiumSource: Compendium.covalon.varceta-scenes.Scene.n03DIu55JkaWZJJG
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1742662296704
@@ -1235,5 +1195,43 @@ ownership:
 active: true
 navOrder: 0
 sort: 0
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Varceta Finale
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Varceta/Varceta%20Finale.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!n03DIu55JkaWZJJG.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!n03DIu55JkaWZJJG'
+templates: []

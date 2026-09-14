@@ -2,20 +2,6 @@ name: Investigate The Craters
 navigation: false
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Pudersno/icemap30.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/pudersno-scenes-jU8h3qcwKH5O3wCP-thumb.webp
 width: 2730
 height: 2730
@@ -24,7 +10,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 91
@@ -40,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -53,7 +37,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1670791246261
   modifiedTime: 1690215725011
   lastModifiedBy: 03b8FhVXbluJN576
@@ -98,11 +82,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1670791246240
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Investigate The Craters
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Pudersno/icemap30.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!jU8h3qcwKH5O3wCP.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!jU8h3qcwKH5O3wCP'
+templates: []

@@ -66,9 +66,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -83,7 +80,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -103,6 +100,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 3
 name: Fjordcarver (T3)
 type: npc
 img: modules/covalon/images/Gornlar/fjordcarver.Avatar.webp
@@ -147,7 +145,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676916775937
       modifiedTime: 1676916775937
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -215,7 +213,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -279,7 +277,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -342,7 +340,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -407,7 +405,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -470,7 +468,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -539,7 +537,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -597,7 +595,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -656,7 +654,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -711,7 +709,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -769,7 +767,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -833,7 +831,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 7.7.4
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1763940491804
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -892,7 +890,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -945,7 +943,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -999,13 +997,15 @@ items:
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
     _stats:
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     _id: VCPRKRkBA6SEc2Jk
     ownership:
       default: 0
@@ -1173,7 +1173,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 7.8.0
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1688405783923
   modifiedTime: 1765844761331
   lastModifiedBy: H9FXC8g0quO6QRgw

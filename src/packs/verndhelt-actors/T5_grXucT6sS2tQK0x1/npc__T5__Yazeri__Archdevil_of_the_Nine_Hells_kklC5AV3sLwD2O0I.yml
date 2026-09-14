@@ -15,9 +15,6 @@ prototypeToken:
     src: modules/covalon/images/Verndhelt/Yazeri_Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -63,7 +60,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: grXucT6sS2tQK0x1
 name: (T5) Yazeri, Archdevil of the Nine Hells
 type: npc
@@ -93,17 +91,17 @@ system:
       temp: 0
       max: 390
       details: ''
+    ac:
+      value: 37
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 25
       otherSpeeds:
         - type: fly
           value: 60
       details: ''
-    ac:
-      value: 37
-      details: ''
-    allSaves:
-      value: ''
     adjustment: null
     immunities:
       - type: fire
@@ -252,7 +250,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1691331554261
       modifiedTime: 1693160402201
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -321,7 +319,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1691331612430
       modifiedTime: 1693160412408
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -429,7 +427,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692034895305
       modifiedTime: 1693160872516
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -544,7 +542,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.2.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692034948407
       modifiedTime: 1692035044988
       lastModifiedBy: 03b8FhVXbluJN576
@@ -625,7 +623,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.2.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692035116654
       modifiedTime: 1692044199445
       lastModifiedBy: 03b8FhVXbluJN576
@@ -671,7 +669,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692035281791
       modifiedTime: 1692545625717
       lastModifiedBy: 03b8FhVXbluJN576
@@ -718,7 +716,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692037605292
       modifiedTime: 1693148811840
       lastModifiedBy: 03b8FhVXbluJN576
@@ -768,7 +766,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692169668064
       modifiedTime: 1693164769748
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -815,7 +813,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692169833459
       modifiedTime: 1693160218837
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -862,7 +860,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692540555418
       modifiedTime: 1692726316387
       lastModifiedBy: 03b8FhVXbluJN576
@@ -913,7 +911,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692540660285
       modifiedTime: 1693160309629
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -968,7 +966,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693148863582
       modifiedTime: 1693148970054
       lastModifiedBy: 03b8FhVXbluJN576
@@ -1046,7 +1044,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693151138319
       modifiedTime: 1693151141080
       lastModifiedBy: 03b8FhVXbluJN576
@@ -1155,7 +1153,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693151729646
       modifiedTime: 1693160869802
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1253,7 +1251,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693151740459
       modifiedTime: 1693152386729
       lastModifiedBy: 03b8FhVXbluJN576
@@ -1302,7 +1300,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693153808052
       modifiedTime: 1693153936638
       lastModifiedBy: 03b8FhVXbluJN576
@@ -1350,7 +1348,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693161491104
       modifiedTime: 1693161517511
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1416,7 +1414,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693162494954
       modifiedTime: 1693162494954
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1492,7 +1490,7 @@ items:
     _stats:
       compendiumSource: Actor.zPCvTvxqKw9EpcI9.Item.hebNWNWHwylH67FI
       duplicateSource: Actor.zPCvTvxqKw9EpcI9.Item.hebNWNWHwylH67FI
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1506,7 +1504,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.4
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1690821115331
   modifiedTime: 1737840385175
   lastModifiedBy: H9FXC8g0quO6QRgw

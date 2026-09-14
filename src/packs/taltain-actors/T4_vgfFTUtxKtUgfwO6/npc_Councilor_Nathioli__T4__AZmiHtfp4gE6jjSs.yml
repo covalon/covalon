@@ -21,9 +21,6 @@ prototypeToken:
     src: modules/covalon/images/Taltain/councilor_trislyr.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -90,6 +87,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Nathioli (T4)
 type: npc
 img: modules/covalon/images/Taltain/councilor_trislyr.Token.webp
@@ -100,17 +98,17 @@ system:
       temp: 0
       max: 165
       details: ''
+    ac:
+      value: 28
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 25
       otherSpeeds:
         - type: fly
           value: 25
       details: ''
-    ac:
-      value: 28
-      details: ''
-    allSaves:
-      value: ''
     resistances:
       - type: fire
         value: 10
@@ -244,7 +242,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677556034788
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -307,7 +305,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555646753
       modifiedTime: 1677723096954
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -357,7 +355,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556036069
       modifiedTime: 1677723109259
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -417,7 +415,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556639103
       modifiedTime: 1677724286626
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -480,7 +478,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556763377
       modifiedTime: 1677726913355
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -543,7 +541,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556800651
       modifiedTime: 1677726923190
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -652,7 +650,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677557067204
       modifiedTime: 1677724371553
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -660,8 +658,7 @@ items:
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!AZmiHtfp4gE6jjSs.12R6BECx4a9AAirX'
-  - img: >-
-      systems/pf2e/assets/icons/spells/heat-metal.webp
+  - img: systems/pf2e/assets/icons/spells/heat-metal.webp
     name: Heat Metal
     system:
       description:
@@ -785,7 +782,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677557457539
       modifiedTime: 1677723165633
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -844,7 +841,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677631880010
       modifiedTime: 1677723049101
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -902,7 +899,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677631957296
       modifiedTime: 1677724323060
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -1014,7 +1011,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1110,7 +1107,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1199,7 +1196,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1293,7 +1290,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1379,7 +1376,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1458,7 +1455,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1550,7 +1547,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1649,7 +1646,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1765,7 +1762,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1865,7 +1862,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1887,7 +1884,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818900788
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

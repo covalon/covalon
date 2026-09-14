@@ -2,7 +2,6 @@ name: Ikouga Outpost
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/ikouga-scenes-2FUvgW1DjApOD7Ar-thumb.webp
 width: 5760
 height: 4320
@@ -11,7 +10,6 @@ initial:
   x: 4260
   'y': 3670
   scale: 0.3
-backgroundColor: '#999999'
 grid:
   size: 100
   type: 1
@@ -27,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -36,24 +33,11 @@ journal: null
 weather: ''
 flags:
   core: {}
-background:
-  src: modules/covalon/images/Ikouga/Ikouga_Outpost.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405828752
   modifiedTime: 1689265685587
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -98,11 +82,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1660676664362
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Ikouga Outpost
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Ikouga/Ikouga_Outpost.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!2FUvgW1DjApOD7Ar.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!2FUvgW1DjApOD7Ar'
+templates: []

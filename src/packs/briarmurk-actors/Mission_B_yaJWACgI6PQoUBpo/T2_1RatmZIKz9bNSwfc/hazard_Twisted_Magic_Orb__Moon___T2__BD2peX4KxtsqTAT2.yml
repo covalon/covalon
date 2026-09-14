@@ -24,16 +24,12 @@ prototypeToken:
   displayName: 30
   actorLink: false
   texture:
-    src: >-
-      modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Token.webp
+    src: modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: true
@@ -67,7 +63,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -88,6 +84,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 1
 effects: []
 system:
   _migration:
@@ -160,8 +157,7 @@ system:
       value: 9
     will:
       value: null
-img: >-
-  modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Avatar.webp
+img: modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Avatar.webp
 items:
   - type: action
     name: Bloody Radiance
@@ -214,10 +210,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.8.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!BD2peX4KxtsqTAT2.goXBMPcxcIARWgvk'
@@ -277,10 +275,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.8.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!BD2peX4KxtsqTAT2.ra6D9KHYyIyDQKrq'
@@ -362,14 +362,15 @@ items:
       scene-packer:
         hash: 450afc37bbfc9c8776e95a374691a3a884f3608b
     _stats:
-      compendiumSource: >-
-        Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS
+      compendiumSource: Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS
       duplicateSource: Item.hRuXj5e6JJT5jR4B
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.8.0
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: Zf0hpBaGURFcg0eB
     ownership:
       default: 0
@@ -383,7 +384,7 @@ _stats:
   compendiumSource: null
   duplicateSource: Actor.g7JckaXtplunsVKE
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.10.1
   createdTime: 1765569741864

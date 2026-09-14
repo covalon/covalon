@@ -2,20 +2,6 @@ name: Pudersno Summit
 navigation: false
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Pudersno/Mpeshi%20lair2%20b.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/pudersno-scenes-oZUlr7XttzBNK3ek-thumb.webp
 width: 2100
 height: 2100
@@ -24,7 +10,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 70
@@ -47,13 +32,9 @@ tokens:
     displayName: 20
     actorLink: false
     texture:
-      src: >-
-        modules/covalon/images/Pudersno/mpeshi_king_t5_.Token.webp
+      src: modules/covalon/images/Pudersno/mpeshi_king_t5_.Token.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -100,7 +81,7 @@ tokens:
       brightness: 1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: mYHfLmV3AqzjnfIQ
     x: 1470
     'y': 770
@@ -110,8 +91,7 @@ tokens:
     delta:
       items:
         - _id: fjpsuop0jg66vui3
-          img: >-
-            systems/pf2e/assets/icons/default-icons/melee.svg
+          img: systems/pf2e/assets/icons/default-icons/melee.svg
           name: King's Horns
           sort: 100000
           system:
@@ -162,18 +142,16 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673487783714
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fjpsuop0jg66vui3
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fjpsuop0jg66vui3'
         - _id: 7i2lutnzetfoeoal
-          img: >-
-            systems/pf2e/assets/icons/default-icons/melee.svg
+          img: systems/pf2e/assets/icons/default-icons/melee.svg
           name: Tail
           sort: 200000
           system:
@@ -220,20 +198,18 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673485591254
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.7i2lutnzetfoeoal
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.7i2lutnzetfoeoal'
         - _id: Iceo8lRDkdq75Yoj
           flags:
             core: {}
-          img: >-
-            systems/pf2e/assets/icons/actions/Passive.webp
+          img: systems/pf2e/assets/icons/actions/Passive.webp
           name: Darkvision
           sort: 300000
           system:
@@ -287,15 +263,14 @@ tokens:
           _stats:
             systemId: null
             systemVersion: null
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: null
             lastModifiedBy: null
             compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.Iceo8lRDkdq75Yoj
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.Iceo8lRDkdq75Yoj'
         - _id: h9g99u8hu6fx5pgu
           img: systems/pf2e/icons/actions/Passive.webp
           name: Thunder Aura
@@ -369,15 +344,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1674940490310
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.h9g99u8hu6fx5pgu
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.h9g99u8hu6fx5pgu'
         - _id: ysjstn1162a1nei5
           img: systems/pf2e/icons/actions/TwoActions.webp
           name: Sleipner Breaker
@@ -439,15 +413,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.5
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673491478675
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.ysjstn1162a1nei5
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.ysjstn1162a1nei5'
         - _id: g9wmcilhs6jr9xln
           img: systems/pf2e/icons/actions/Passive.webp
           name: King of the Clouds
@@ -504,18 +477,16 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673485150805
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.g9wmcilhs6jr9xln
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.g9wmcilhs6jr9xln'
         - _id: 30656b6fplm9fszk
-          img: >-
-            systems/pf2e/assets/icons/default-icons/lore.svg
+          img: systems/pf2e/assets/icons/default-icons/lore.svg
           name: Athletics
           sort: 800000
           system:
@@ -560,18 +531,16 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673484711135
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.30656b6fplm9fszk
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.30656b6fplm9fszk'
         - _id: yqssnlu9o3i96q2j
-          img: >-
-            systems/pf2e/assets/icons/default-icons/lore.svg
+          img: systems/pf2e/assets/icons/default-icons/lore.svg
           name: Nature
           sort: 900000
           system:
@@ -616,18 +585,16 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673484711135
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.yqssnlu9o3i96q2j
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.yqssnlu9o3i96q2j'
         - _id: d1npcgbaip9169u7
-          img: >-
-            systems/pf2e/assets/icons/default-icons/lore.svg
+          img: systems/pf2e/assets/icons/default-icons/lore.svg
           name: Stealth
           sort: 1000000
           system:
@@ -672,15 +639,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: null
             modifiedTime: 1673484711135
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.d1npcgbaip9169u7
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.d1npcgbaip9169u7'
         - name: Acrobatics
           type: lore
           system:
@@ -728,15 +694,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.3
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673484730078
             modifiedTime: 1673484905128
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.L34laV9qUem4eAeW
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.L34laV9qUem4eAeW'
         - type: action
           img: systems/pf2e/icons/actions/TwoActions.webp
           name: Modification - Baaah of Ages
@@ -796,15 +761,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673485785668
             modifiedTime: 1674940475233
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.9uINer4k92JPXNw8
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.9uINer4k92JPXNw8'
         - type: action
           img: systems/pf2e/icons/actions/Passive.webp
           name: Modification - Summon the Mpeshi
@@ -860,15 +824,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673487007046
             modifiedTime: 1674204183685
             lastModifiedBy: 7RtLbrlfn9D7fL4K
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.3lUN2BtWmqmAKrBI
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.3lUN2BtWmqmAKrBI'
         - type: action
           img: systems/pf2e/icons/actions/Reaction.webp
           name: Long Live the King
@@ -939,16 +902,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673490432336
             modifiedTime: 1674923421099
             lastModifiedBy: hcWh9kuYosSIErIR
-            compendiumSource: >-
-              Scene.VOGOvSrf593I8j55.Token.XjVYwH7rYjqfVMuP.Item.2CZS4OL73JjPrztQ
+            compendiumSource: Scene.VOGOvSrf593I8j55.Token.XjVYwH7rYjqfVMuP.Item.2CZS4OL73JjPrztQ
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.2CZS4OL73JjPrztQ
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.2CZS4OL73JjPrztQ'
         - type: action
           img: systems/pf2e/icons/actions/Reaction.webp
           name: Tail of Opportunity
@@ -1004,15 +965,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.5
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673490903448
             modifiedTime: 1673491034578
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.nHoIx01Ue8B7i45q
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.nHoIx01Ue8B7i45q'
         - type: action
           img: systems/pf2e/icons/actions/Passive.webp
           name: Royal Decree
@@ -1070,15 +1030,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.5
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1673491038205
             modifiedTime: 1673491176678
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.WTgn6vSM1XdQMaq6
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.WTgn6vSM1XdQMaq6'
         - type: action
           img: systems/pf2e/icons/actions/FreeAction.webp
           name: Second Crucible of Capra Rex
@@ -1194,15 +1153,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1674191129092
             modifiedTime: 1674425519821
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.aVhMdE80gQtYihOx
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.aVhMdE80gQtYihOx'
         - type: action
           img: systems/pf2e/icons/actions/Passive.webp
           name: Modification - You're Gonna Have a Baaad Time
@@ -1264,15 +1222,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1674204129881
             modifiedTime: 1674940526954
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.vDMXl4IUKDxWbk6S
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.vDMXl4IUKDxWbk6S'
         - type: action
           img: systems/pf2e/icons/actions/OneAction.webp
           name: Retake the Throne
@@ -1330,15 +1287,14 @@ tokens:
           _stats:
             systemId: pf2e
             systemVersion: 4.6.8
-            coreVersion: '13.346'
+            coreVersion: '14.367'
             createdTime: 1674940332504
             modifiedTime: 1674940417438
             lastModifiedBy: hcWh9kuYosSIErIR
             compendiumSource: null
             duplicateSource: null
             exportSource: null
-          _key: >-
-            !scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fbhuOlH3MtahMSaI
+          _key: '!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fbhuOlH3MtahMSaI'
       _id: XjVYwH7rYjqfVMuP
       name: null
       type: null
@@ -1370,6 +1326,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP'
   - flags:
       pf2e:
@@ -1381,13 +1339,9 @@ tokens:
     displayName: 20
     actorLink: false
     texture:
-      src: >-
-        modules/covalon/images/Pudersno/goat_swarm.Token.webp
+      src: modules/covalon/images/Pudersno/goat_swarm.Token.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -1434,7 +1388,7 @@ tokens:
       brightness: 1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: o7GUIN5g4QfjJ3rm
     x: 1120
     'y': 980
@@ -1474,6 +1428,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!oZUlr7XttzBNK3ek.qYfW6PVIMsi5Eyqw'
   - flags:
       pf2e:
@@ -1485,13 +1441,9 @@ tokens:
     displayName: 20
     actorLink: false
     texture:
-      src: >-
-        modules/covalon/images/Pudersno/goat_swarm.Token.webp
+      src: modules/covalon/images/Pudersno/goat_swarm.Token.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -1538,7 +1490,7 @@ tokens:
       brightness: 1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: o7GUIN5g4QfjJ3rm
     x: 1820
     'y': 980
@@ -1578,23 +1530,20 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!oZUlr7XttzBNK3ek.dzkF5zyTusqHracX'
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles:
   - texture:
-      src: >-
-        modules/covalon/images/Pudersno/Mpeshi%20lair%20b.webp
+      src: modules/covalon/images/Pudersno/Mpeshi%20lair%20b.webp
       scaleX: 1
       scaleY: 1
       tint: '#ffffff'
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     x: 560
@@ -1604,8 +1553,8 @@ tiles:
     rotation: 0
     alpha: 1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     flags:
       perfect-vision:
         lighting: ''
@@ -1621,6 +1570,7 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!oZUlr7XttzBNK3ek.WM0iTAzxTs8ZGSxZ'
 walls: []
 playlist: null
@@ -1637,7 +1587,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1674597256649
   modifiedTime: 1690215725011
   lastModifiedBy: 03b8FhVXbluJN576
@@ -1687,11 +1637,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1674597254813
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Pudersno Summit
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Pudersno/Mpeshi%20lair2%20b.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!oZUlr7XttzBNK3ek.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!oZUlr7XttzBNK3ek'
+templates: []

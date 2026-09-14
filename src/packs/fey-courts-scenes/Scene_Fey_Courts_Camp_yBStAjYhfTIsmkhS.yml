@@ -4,20 +4,6 @@ _id: yBStAjYhfTIsmkhS
 navigation: true
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Fey%20Courts/Fey%20Courts%20Camp.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/yBStAjYhfTIsmkhS-thumb.webp
 width: 5120
 height: 5120
@@ -25,8 +11,7 @@ padding: 0.25
 initial:
   x: 4437
   'y': 3989
-  scale: 0.17901503030110813
-backgroundColor: '#999999'
+  scale: 0.179
 grid:
   type: 1
   size: 256
@@ -38,11 +23,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -78,7 +62,6 @@ lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -94,7 +77,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1725151909695
@@ -106,5 +89,43 @@ sort: 0
 ownership:
   default: 0
   H9FXC8g0quO6QRgw: 3
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Fey Courts Camp
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Fey%20Courts/Fey%20Courts%20Camp.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!yBStAjYhfTIsmkhS.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!yBStAjYhfTIsmkhS'
+templates: []

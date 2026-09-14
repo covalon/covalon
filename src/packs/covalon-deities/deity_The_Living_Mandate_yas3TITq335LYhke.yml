@@ -71,14 +71,14 @@ flags: {}
 _stats:
   systemId: pf2e
   systemVersion: 7.12.2
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1691431522212
-  modifiedTime: 1781457429476
+  modifiedTime: 1789406807537
   lastModifiedBy: H9FXC8g0quO6QRgw
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-sort: 0
+sort: 5300000
 ownership:
   default: 0
 _key: '!items!yas3TITq335LYhke'

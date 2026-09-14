@@ -50,12 +50,9 @@ prototypeToken:
     src: modules/covalon/images/Fey%20Courts/fallen_noble_token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.1
     scaleY: 1.1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -99,7 +96,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 100
       enabled: true
   occludable:
@@ -120,6 +117,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: OFjEypxiZdRmnqUH
 name: Fallen Noble (Tier 1)
 type: npc
@@ -131,17 +129,17 @@ system:
       temp: 0
       max: 55
       details: ''
+    ac:
+      value: 18
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 20
       otherSpeeds:
         - type: fly
           value: 30
       details: ''
-    ac:
-      value: 18
-      details: ''
-    allSaves:
-      value: ''
     weaknesses:
       - type: cold-iron
         value: 3
@@ -266,7 +264,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -327,7 +325,7 @@ items:
     _stats:
       compendiumSource: Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -381,7 +379,7 @@ items:
     _stats:
       compendiumSource: Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -441,7 +439,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -516,7 +514,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -626,7 +624,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -719,7 +717,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -869,7 +867,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.iYRDFxeVpJ5KIjmr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -959,7 +957,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.fHawnhOHwzr4Mwr7
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -1048,7 +1046,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.24U1b9K4Lj94cgaj
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -1134,7 +1132,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.fkUCvynklBGb4LaI
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -1217,7 +1215,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -1362,7 +1360,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.2.2
       createdTime: null
@@ -1376,7 +1374,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1723994655442

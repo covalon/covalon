@@ -14,13 +14,9 @@ prototypeToken:
   name: The Lord of Gears
   actorLink: false
   texture:
-    src: >-
-      modules/covalon/images/Ratchethallow/TheLordOfGears.webp
+    src: modules/covalon/images/Ratchethallow/TheLordOfGears.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -66,7 +62,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -87,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 3
 name: The Lord of Gears (T4)
 type: npc
 effects: []
@@ -97,15 +94,15 @@ system:
       temp: 0
       max: 255
       details: Regeneration (level*pillars)
-    speed:
-      value: 40
-      otherSpeeds: []
-      details: 50 when in Energetic Overload
     ac:
       value: 34
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 40
+      otherSpeeds: []
+      details: 50 when in Energetic Overload
     immunities:
       - type: electricity
         exceptions: []
@@ -203,12 +200,10 @@ system:
     rarity: rare
     size:
       value: huge
-img: >-
-  modules/covalon/images/Ratchethallow/TheLordOfGears.webp
+img: modules/covalon/images/Ratchethallow/TheLordOfGears.webp
 items:
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Energy Siphon
     system:
       description:
@@ -256,7 +251,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676133327724
       modifiedTime: 1677976777755
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -266,8 +261,7 @@ items:
     _id: qIsmMV8bPcr5sy9u
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.qIsmMV8bPcr5sy9u'
   - type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Fist
     system:
       description:
@@ -311,7 +305,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676130263385
       modifiedTime: 1678553714080
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -319,8 +313,7 @@ items:
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.PC9SkpvZ6ZkaINZZ'
-  - img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+  - img: systems/pf2e/assets/icons/actions/Reaction.webp
     name: Attack of Opportunity
     system:
       description:
@@ -371,7 +364,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.7.4
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676130585691
       modifiedTime: 1676852355848
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -381,8 +374,7 @@ items:
     _id: Yie9cfOGm0m9NQYZ
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.Yie9cfOGm0m9NQYZ'
   - type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Grappling Hook
     system:
       description:
@@ -438,7 +430,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676130333569
       modifiedTime: 1678553681511
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -448,8 +440,7 @@ items:
     _id: RdotPDpmxPSCcV39
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.RdotPDpmxPSCcV39'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     name: Blast Off (Overdrive Only)
     system:
       description:
@@ -506,7 +497,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676212641460
       modifiedTime: 1678560334969
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -516,8 +507,7 @@ items:
     _id: GD5wTGLfVf6zF17S
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.GD5wTGLfVf6zF17S'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Energetic Overload
     system:
       description:
@@ -598,7 +588,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 7.3.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676135869646
       modifiedTime: 1754841424167
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -607,8 +597,7 @@ items:
       exportSource: null
     _id: 2vaZj8JFsXs5YJH4
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.2vaZj8JFsXs5YJH4'
-  - img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+  - img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Steam Vision
     sort: 700000
     system:
@@ -651,7 +640,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.7.4
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676130530418
       modifiedTime: 1676212974888
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -661,8 +650,7 @@ items:
     _id: tavb5OSS6yfdllNs
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.tavb5OSS6yfdllNs'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     name: Hydraulic Punch
     system:
       description:
@@ -717,7 +705,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676852353738
       modifiedTime: 1678553756598
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -726,8 +714,7 @@ items:
       exportSource: null
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.btWghaEKVbU7OIzi'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Shocking Siphon
     system:
       description:
@@ -785,7 +772,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676135493107
       modifiedTime: 1678560502155
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -795,8 +782,7 @@ items:
     _id: 20Kh4DCh75j42ETu
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.20Kh4DCh75j42ETu'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     name: Vent Steam
     system:
       description:
@@ -855,7 +841,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676159179733
       modifiedTime: 1678554009701
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -865,16 +851,12 @@ items:
     _id: cTk3vD9ETrBhbthL
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.cTk3vD9ETrBhbthL'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Modification - Secure Power Source
     system:
       description:
         gm: ''
-        value: "<p>There are stone walls around each pillar, blocking them from being
-          directly attacked. These walls are 10 feet tall, and are placed 5 feet
-          away from the Pillars. Each wall is crit immune, has hardness 12, AC
-          10, and 40 hp. </p>"
+        value: "<p>There are stone walls around each pillar, blocking them from being directly attacked. These walls are 10 feet tall, and are placed 5 feet away from the Pillars. Each wall is crit immune, has hardness 12, AC 10, and 40 hp.\_</p>"
       rules: []
       slug: null
       _migration:
@@ -908,7 +890,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676855707222
       modifiedTime: 1678554187473
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -917,8 +899,7 @@ items:
       exportSource: null
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.AeSE1UzliS4V8cQo'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Modification - Enhanced Hook
     system:
       description:
@@ -969,7 +950,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676855819795
       modifiedTime: 1678554132540
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -978,8 +959,7 @@ items:
       exportSource: null
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.JOE9fQB2lDn3VhTh'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Modification - Shifting Floors
     system:
       description:
@@ -1026,7 +1006,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677976397198
       modifiedTime: 1678491011734
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -1035,8 +1015,7 @@ items:
       exportSource: null
     _key: '!actors.items!u5rLqYoJ4xjbo9hB.ySnvzZESzGBivKec'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Healing Siphon
     system:
       description:
@@ -1103,13 +1082,15 @@ items:
     flags:
       core: {}
     _stats:
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     _id: jNvVlWWZkEwaUrwi
     ownership:
       default: 0
@@ -1119,7 +1100,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 7.3.1
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676129775628
   modifiedTime: 1754840791034
   lastModifiedBy: H9FXC8g0quO6QRgw

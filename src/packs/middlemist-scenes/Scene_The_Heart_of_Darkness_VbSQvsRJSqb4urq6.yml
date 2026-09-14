@@ -2,7 +2,6 @@ name: The Heart of Darkness
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/middlemist-scenes-VbSQvsRJSqb4urq6-thumb.webp
 width: 3000
 height: 7000
@@ -11,7 +10,6 @@ initial:
   x: 1998
   'y': 6080
   scale: 0.32
-backgroundColor: '#999999'
 grid:
   size: 100
   type: 1
@@ -53,6 +51,7 @@ drawings:
     interface: false
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!VbSQvsRJSqb4urq6.lFmQpXqds2tq9ev6'
   - _id: 1kD4NG9XAzqXjgCZ
     author: GlvvIehDY7BHTmwu
@@ -84,6 +83,7 @@ drawings:
     interface: false
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!VbSQvsRJSqb4urq6.1kD4NG9XAzqXjgCZ'
 tokens:
   - _id: 99pQZEdydQZVmMxx
@@ -137,9 +137,6 @@ tokens:
       tint: '#ffffff'
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -154,7 +151,7 @@ tokens:
       attenuation: 0.1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     delta:
       system:
         traits:
@@ -191,6 +188,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 2
+    level: defaultLevel0000
     _key: '!scenes.tokens!VbSQvsRJSqb4urq6.99pQZEdydQZVmMxx'
   - _id: 1MqhkuCfxnbfyCra
     name: Wretched Hand of Darkness
@@ -243,9 +242,6 @@ tokens:
       tint: '#ffffff'
       scaleX: -1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -260,7 +256,7 @@ tokens:
       attenuation: 0.1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     delta:
       system:
         traits:
@@ -297,6 +293,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 2
+    level: defaultLevel0000
     _key: '!scenes.tokens!VbSQvsRJSqb4urq6.1MqhkuCfxnbfyCra'
   - _id: odWwEly9jdwoFksY
     name: Shadow Titan
@@ -349,9 +347,6 @@ tokens:
       tint: '#ffffff'
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       anchorX: 0.5
       anchorY: 0.5
       fit: contain
@@ -366,7 +361,7 @@ tokens:
       attenuation: 0.1
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     delta:
       _id: odWwEly9jdwoFksY
       name: null
@@ -400,6 +395,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 7
+    level: defaultLevel0000
     _key: '!scenes.tokens!VbSQvsRJSqb4urq6.odWwEly9jdwoFksY'
 lights:
   - _id: gdK2Drw5JFnDixwb
@@ -433,10 +430,11 @@ lights:
     hidden: false
     flags: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!VbSQvsRJSqb4urq6.gdK2Drw5JFnDixwb'
 notes: []
 sounds: []
-templates: []
 tiles:
   - _id: QFiD64jWauILUtHr
     width: 1700
@@ -448,8 +446,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -460,11 +458,8 @@ tiles:
       tint: '#ffffff'
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     sort: 100
@@ -472,6 +467,7 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!VbSQvsRJSqb4urq6.QFiD64jWauILUtHr'
 walls: []
 playlist: null
@@ -480,24 +476,11 @@ journal: null
 weather: ''
 flags:
   core: {}
-background:
-  src: modules/covalon/images/Middlemist/Middlemist_-_Darkness_Filter_Vertical2.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405830748
   modifiedTime: 1689265691438
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -542,11 +525,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1661800618407
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: The Heart of Darkness
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Middlemist/Middlemist_-_Darkness_Filter_Vertical2.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!VbSQvsRJSqb4urq6.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!VbSQvsRJSqb4urq6'
+templates: []

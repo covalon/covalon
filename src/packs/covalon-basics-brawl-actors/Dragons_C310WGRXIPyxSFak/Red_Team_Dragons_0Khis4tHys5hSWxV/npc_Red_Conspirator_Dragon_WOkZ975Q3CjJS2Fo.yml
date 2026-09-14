@@ -16,16 +16,12 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: >-
-      modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20RED.webp
+    src: modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20RED.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.2
     scaleY: 1.2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -68,7 +64,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -87,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: 0Khis4tHys5hSWxV
 name: Red Conspirator Dragon
 type: npc
@@ -98,17 +95,17 @@ system:
       temp: 0
       max: 220
       details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 50
       otherSpeeds:
         - type: fly
           value: 100
       details: ''
-    ac:
-      value: 33
-      details: ''
-    allSaves:
-      value: ''
     resistances:
       - type: mental
         value: 10
@@ -227,7 +224,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -271,8 +268,7 @@ items:
           toggleable: true
           value: true
         - key: TokenImage
-          value: >-
-            modules/covalon/images/Dragon%20Brawl/Conspirator%20Human%201-3%20RED.webp
+          value: modules/covalon/images/Dragon%20Brawl/Conspirator%20Human%201-3%20RED.webp
           scale: 1.3
           ring: null
           predicate:
@@ -302,7 +298,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -361,7 +357,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -413,7 +409,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -463,7 +459,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -520,7 +516,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -566,7 +562,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -623,7 +619,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -679,7 +675,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -731,7 +727,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -791,7 +787,7 @@ items:
     _stats:
       compendiumSource: Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ
       duplicateSource: Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -852,7 +848,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -954,7 +950,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1031,7 +1027,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.OOMQ8Z6EIrGt5NJ6
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1094,7 +1090,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1148,7 +1144,7 @@ items:
     _stats:
       compendiumSource: Actor.aVabDWqcbOeAvYjT.Item.GHD5Iu2MfBJSS80f
       duplicateSource: Actor.aVabDWqcbOeAvYjT.Item.GHD5Iu2MfBJSS80f
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1162,7 +1158,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

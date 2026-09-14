@@ -4,20 +4,6 @@ _id: wgCl2J9JzCL9s0SL
 navigation: true
 navOrder: 0
 navName: ''
-background:
-  src: >-
-    modules/covalon/images/Drifthaven/Drifthaven_Finale.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  tint: '#ffffff'
-  alphaThreshold: 0
-foregroundElevation: 20
 width: 6300
 height: 11400
 padding: 0
@@ -25,7 +11,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 300
@@ -70,6 +55,8 @@ lights:
     flags: {}
     _id: LM6h1G2KgmzlilBv
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.LM6h1G2KgmzlilBv'
   - x: 2250
     'y': 6750
@@ -102,6 +89,8 @@ lights:
     flags: {}
     _id: PSDwkk78wJn99kwj
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.PSDwkk78wJn99kwj'
   - x: 2250
     'y': 5850
@@ -134,6 +123,8 @@ lights:
     flags: {}
     _id: uONK8sDzbOLgfBkj
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.uONK8sDzbOLgfBkj'
   - x: 4050
     'y': 7650
@@ -166,6 +157,8 @@ lights:
     flags: {}
     _id: 6Z0BzTEgQWNQCyNQ
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.6Z0BzTEgQWNQCyNQ'
   - x: 4050
     'y': 5850
@@ -198,6 +191,8 @@ lights:
     flags: {}
     _id: voTtcdxy7dvt2uVS
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.voTtcdxy7dvt2uVS'
   - x: 2700
     'y': 4350
@@ -230,6 +225,8 @@ lights:
     flags: {}
     _id: S4GqAybAS7FLUr09
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.S4GqAybAS7FLUr09'
   - x: 3600
     'y': 4350
@@ -262,6 +259,8 @@ lights:
     flags: {}
     _id: zwnj7ntIKLlEbJX9
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.zwnj7ntIKLlEbJX9'
   - x: 2550
     'y': 4050
@@ -294,6 +293,8 @@ lights:
     flags: {}
     _id: vMXARy0Aj1jXxelL
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.vMXARy0Aj1jXxelL'
   - x: 3750
     'y': 4050
@@ -326,6 +327,8 @@ lights:
     flags: {}
     _id: pN3r8n0zSPnO7xtP
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.pN3r8n0zSPnO7xtP'
   - x: 1050
     'y': 2400
@@ -358,6 +361,8 @@ lights:
     flags: {}
     _id: Z8GmrbKUjPSNHvYx
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.Z8GmrbKUjPSNHvYx'
   - x: 2550
     'y': 1050
@@ -390,6 +395,8 @@ lights:
     flags: {}
     _id: Hpj7DWFS7yUKzHJw
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.Hpj7DWFS7yUKzHJw'
   - x: 3750
     'y': 1050
@@ -422,6 +429,8 @@ lights:
     flags: {}
     _id: ed3JpFVRSWXfklpn
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.ed3JpFVRSWXfklpn'
   - x: 5250
     'y': 2550
@@ -454,6 +463,8 @@ lights:
     flags: {}
     _id: YQhhTOdWKSFGwvCU
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.YQhhTOdWKSFGwvCU'
   - x: 1200
     'y': 4050
@@ -495,6 +506,8 @@ lights:
       tagger: {}
     _id: 0tAsHCc22O3J55AX
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.0tAsHCc22O3J55AX'
   - _id: xgg80PKdfoy8HzDX
     x: 1950
@@ -536,6 +549,8 @@ lights:
         solarAngle: null
       tagger: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.xgg80PKdfoy8HzDX'
   - x: 3150
     'y': 1650
@@ -577,6 +592,8 @@ lights:
       tagger: {}
     _id: BEy2U49qJ2euYvE7
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.BEy2U49qJ2euYvE7'
   - x: 4350
     'y': 2250
@@ -618,6 +635,8 @@ lights:
       tagger: {}
     _id: 2c26twyE3PQhwivq
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.2c26twyE3PQhwivq'
   - x: 3750
     'y': 9750
@@ -650,6 +669,8 @@ lights:
     flags: {}
     _id: n2zc0OvbB9IADEN6
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.n2zc0OvbB9IADEN6'
   - x: 2550
     'y': 9750
@@ -682,21 +703,19 @@ lights:
     flags: {}
     _id: ozQ8MYteBXXCZksJ
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!wgCl2J9JzCL9s0SL.ozQ8MYteBXXCZksJ'
 notes: []
 sounds: []
-templates: []
 tiles:
   - texture:
       src: core/ui/parchment-white.jpg
       scaleX: 1
       scaleY: 1
       tint: '#04ff00'
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     x: 2100
@@ -706,8 +725,8 @@ tiles:
     rotation: 0
     alpha: 0.1
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -721,17 +740,15 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!wgCl2J9JzCL9s0SL.VPScZjHLNL5L2sKB'
   - texture:
       src: core/ui/parchment-white.jpg
       scaleX: 1
       scaleY: 1
       tint: '#ff0000'
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     x: 2100
@@ -741,8 +758,8 @@ tiles:
     rotation: 0
     alpha: 0.15
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -756,6 +773,7 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!wgCl2J9JzCL9s0SL.00N5yDsn7exO4HAb'
 walls:
   - light: 20
@@ -778,6 +796,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.8Z2K5SU0Gkf0g3rY'
   - light: 20
     sight: 20
@@ -799,6 +818,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.eNWbqU7vAVLLGMML'
   - light: 20
     sight: 20
@@ -820,6 +840,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.H4oAsTErKvnLccGv'
   - light: 20
     sight: 20
@@ -841,6 +862,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.qynhKP80k0WXcsHJ'
   - light: 20
     sight: 20
@@ -862,6 +884,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.PEJ3TLXRwfbdzRLL'
   - light: 20
     sight: 20
@@ -883,6 +906,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.ZOpVNX6NMZTRkaN2'
   - light: 20
     sight: 20
@@ -904,6 +928,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.h4nzN5vvigtrTjLf'
   - light: 20
     sight: 20
@@ -925,6 +950,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.TfDZMCgBJxXye4dV'
   - light: 20
     sight: 20
@@ -946,6 +972,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.bfAEDKhQWtJIAIrJ'
   - light: 20
     sight: 20
@@ -967,6 +994,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.cARG6TJnzKHV6yEO'
   - light: 20
     sight: 20
@@ -988,6 +1016,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.M5dR0uOqiEU8ud4y'
   - light: 20
     sight: 20
@@ -1009,6 +1038,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.9hRcZgbnZTmSWr9b'
   - light: 20
     sight: 20
@@ -1030,6 +1060,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.H7C7EbYIznfMN3iW'
   - light: 20
     sight: 20
@@ -1051,6 +1082,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.xGQ6dqvaI6dK0iec'
   - light: 20
     sight: 20
@@ -1072,6 +1104,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.eDxu8aQScZdIbd0T'
   - light: 20
     sight: 20
@@ -1093,6 +1126,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.EYL5oWZM35HEpykz'
   - light: 20
     sight: 20
@@ -1114,6 +1148,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.o6Tv3wGw1ocJntUj'
   - light: 20
     sight: 20
@@ -1135,6 +1170,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.f2Lt9KqGyZu2EqMW'
   - light: 20
     sight: 20
@@ -1156,6 +1192,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.RSstCmFh7qishNtH'
   - light: 20
     sight: 20
@@ -1177,6 +1214,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.4IqCJoe5l3yNAt1Q'
   - light: 20
     sight: 20
@@ -1198,6 +1236,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.F8NNRDMRq0UomCxI'
   - light: 20
     sight: 20
@@ -1219,6 +1258,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.rCO38MSxjKZbkgPc'
   - light: 20
     sight: 20
@@ -1240,6 +1280,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.8UVHaruvE1g3ARmL'
   - light: 20
     sight: 20
@@ -1261,6 +1302,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.uFnF3teakvDDsla8'
   - light: 20
     sight: 20
@@ -1282,6 +1324,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.7NNh0h3gfgIfUBqC'
   - light: 20
     sight: 20
@@ -1303,6 +1346,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.3WfvlJN41of6o2u9'
   - light: 20
     sight: 20
@@ -1324,6 +1368,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.eePdYYmk0oMZU4L4'
   - light: 20
     sight: 20
@@ -1345,6 +1390,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.3aKt7WsIwmCnHM9n'
   - light: 20
     sight: 20
@@ -1366,6 +1412,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.K97MCLuKm4dLNBRM'
   - light: 20
     sight: 20
@@ -1387,6 +1434,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.BufJIMK4wOc9Pffr'
   - light: 20
     sight: 20
@@ -1408,6 +1456,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.tqYH7ynQpcqkD7cs'
   - light: 20
     sight: 20
@@ -1429,6 +1478,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.NiOn34b6t8HHqbPs'
   - light: 30
     sight: 30
@@ -1450,6 +1500,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.5suIawIPqOckawv0'
   - light: 30
     sight: 30
@@ -1471,6 +1522,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.vGifHib0RaZRuQ4B'
   - light: 30
     sight: 30
@@ -1492,6 +1544,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.bz8ERR1fi7Mcovpd'
   - light: 30
     sight: 30
@@ -1513,6 +1566,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.PCH0UtdGDpQgoeRJ'
   - light: 30
     sight: 30
@@ -1534,6 +1588,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.72MMGk0rUWuaqiWt'
   - light: 30
     sight: 30
@@ -1555,6 +1610,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.VGulJZh7GNgdUKex'
   - light: 30
     sight: 30
@@ -1576,6 +1632,7 @@ walls:
     ds: 0
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!wgCl2J9JzCL9s0SL.TInBw5kbYRDdHuju'
 playlist: null
 playlistSound: null
@@ -1597,7 +1654,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 5.11.5
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1702779403517
   modifiedTime: 1704385641844
   lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1609,8 +1666,6 @@ _stats:
     coreVersion: '11.315'
     systemId: pf2e
     systemVersion: 5.11.5
-foreground: >-
-  modules/covalon/images/Drifthaven/Drifthaven_Finale%20(overhead%20walls).webp
 thumb: modules/covalon/assets/scenes/drifthaven-scenes-wgCl2J9JzCL9s0SL-thumb.webp
 weather: ''
 active: false
@@ -1649,11 +1704,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1702779403515
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Drifthaven Finale
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Drifthaven/Drifthaven_Finale.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    foreground:
+      src: modules/covalon/images/Drifthaven/Drifthaven_Finale%20(overhead%20walls).webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!wgCl2J9JzCL9s0SL.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!wgCl2J9JzCL9s0SL'
+templates: []

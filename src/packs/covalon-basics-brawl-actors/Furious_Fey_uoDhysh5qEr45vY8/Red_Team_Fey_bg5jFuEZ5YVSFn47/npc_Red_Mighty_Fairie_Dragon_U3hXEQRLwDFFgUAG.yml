@@ -21,12 +21,9 @@ prototypeToken:
     src: modules/covalon/images/Furious%20Fey/red_mighty_fairie_dragon.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 2
     scaleY: 2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -88,6 +85,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: bg5jFuEZ5YVSFn47
 name: Red Mighty Fairie Dragon
 type: npc
@@ -99,15 +97,15 @@ system:
       temp: 0
       max: 95
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 24
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: paralyzed
       - type: sleep
@@ -326,7 +324,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -343,7 +341,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -423,7 +421,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -504,7 +502,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -602,7 +600,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -729,7 +727,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -746,7 +744,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -829,7 +827,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -883,7 +881,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -934,7 +932,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -983,7 +981,7 @@ items:
     _stats:
       compendiumSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
       duplicateSource: Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1021,7 +1019,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1042,7 +1040,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

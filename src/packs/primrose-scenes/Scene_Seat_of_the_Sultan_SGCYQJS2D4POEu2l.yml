@@ -2,7 +2,6 @@ name: Seat of the Sultan
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/primrose-scenes-SGCYQJS2D4POEu2l-thumb.webp
 width: 4608
 height: 4608
@@ -11,7 +10,6 @@ initial:
   x: 3668
   'y': 3567
   scale: 0.32
-backgroundColor: '#999999'
 grid:
   size: 297
   type: 1
@@ -27,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls:
   - _id: I0Q3znh1SVoGRTLD
@@ -50,6 +47,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.I0Q3znh1SVoGRTLD'
   - _id: UnagsAAjuzQ41ugV
     c:
@@ -71,6 +69,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.UnagsAAjuzQ41ugV'
   - _id: vAoJmK4271afSMGR
     c:
@@ -92,6 +91,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.vAoJmK4271afSMGR'
   - _id: 9KxSsy6NXzMtWUkX
     c:
@@ -113,6 +113,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.9KxSsy6NXzMtWUkX'
   - _id: sVTlZJJMswMN2SKY
     c:
@@ -134,6 +135,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.sVTlZJJMswMN2SKY'
   - _id: v0NsTUd8SIJn1qPj
     c:
@@ -155,6 +157,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.v0NsTUd8SIJn1qPj'
   - _id: kemijlEqGLhLetVL
     c:
@@ -176,6 +179,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.kemijlEqGLhLetVL'
   - _id: q8M9FNzQTQr5RXlv
     c:
@@ -197,6 +201,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!SGCYQJS2D4POEu2l.q8M9FNzQTQr5RXlv'
 playlist: null
 playlistSound: null
@@ -210,24 +215,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Primrose/Seat%20of%20the%20Sultan_v2.webp
-  offsetX: -78
-  offsetY: -78
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405832602
   modifiedTime: 1689265696523
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -272,11 +264,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1656012704134
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Seat of the Sultan
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Primrose/Seat%20of%20the%20Sultan_v2.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!SGCYQJS2D4POEu2l.defaultLevel0000'
+shiftX: -78
+shiftY: -78
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!SGCYQJS2D4POEu2l'
+templates: []

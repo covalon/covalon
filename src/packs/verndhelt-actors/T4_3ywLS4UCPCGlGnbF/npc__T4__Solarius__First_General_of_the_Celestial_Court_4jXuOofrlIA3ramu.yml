@@ -15,9 +15,6 @@ prototypeToken:
     src: modules/covalon/images/Verndhelt/Solarius_Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -63,7 +60,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: 3ywLS4UCPCGlGnbF
 name: (T4) Solarius, First General of the Celestial Court
 type: npc
@@ -93,17 +91,17 @@ system:
       temp: 0
       max: 310
       details: ''
+    ac:
+      value: 34
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 25
       otherSpeeds:
         - type: fly
           value: 60
       details: ''
-    ac:
-      value: 34
-      details: ''
-    allSaves:
-      value: ''
     immunities:
       - type: controlled
         exceptions: []
@@ -238,12 +236,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1690874432168
       modifiedTime: 1693163672386
       lastModifiedBy: H9FXC8g0quO6QRgw
-      compendiumSource: >-
-        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.S2VcdgtgiFTs8cr4
+      compendiumSource: Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.S2VcdgtgiFTs8cr4
       duplicateSource: null
       exportSource: null
     _id: maFVJMI5pWEFCt4x
@@ -301,12 +298,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1690874433457
       modifiedTime: 1693163689548
       lastModifiedBy: H9FXC8g0quO6QRgw
-      compendiumSource: >-
-        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.k9TckhI867TA8CnW
+      compendiumSource: Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.k9TckhI867TA8CnW
       duplicateSource: null
       exportSource: null
     _id: 1g8wKM7AksZTwZjV
@@ -357,12 +353,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1690873488378
       modifiedTime: 1693163835460
       lastModifiedBy: H9FXC8g0quO6QRgw
-      compendiumSource: >-
-        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.wfS6ryHPZkCDiicQ
+      compendiumSource: Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.wfS6ryHPZkCDiicQ
       duplicateSource: null
       exportSource: null
     _id: Li3xHz14r8EizmrA
@@ -409,12 +404,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1690880886124
       modifiedTime: 1693163848036
       lastModifiedBy: H9FXC8g0quO6QRgw
-      compendiumSource: >-
-        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.IW1kI68EuviK4dao
+      compendiumSource: Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.IW1kI68EuviK4dao
       duplicateSource: null
       exportSource: null
     _id: IhUGfYdxuhnwYARx
@@ -458,12 +452,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1690874237432
       modifiedTime: 1693161296549
       lastModifiedBy: H9FXC8g0quO6QRgw
-      compendiumSource: >-
-        Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.qT0OPxVxPe5l1Ayg
+      compendiumSource: Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.qT0OPxVxPe5l1Ayg
       duplicateSource: null
       exportSource: null
     _id: ZH6k0WnXS7TQiCmx
@@ -517,7 +510,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692194196372
       modifiedTime: 1693164041946
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -566,7 +559,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692544039662
       modifiedTime: 1692544236866
       lastModifiedBy: 03b8FhVXbluJN576
@@ -620,7 +613,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1692544883026
       modifiedTime: 1692726319701
       lastModifiedBy: 03b8FhVXbluJN576
@@ -728,7 +721,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693151129214
       modifiedTime: 1693164887642
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -806,7 +799,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693151131442
       modifiedTime: 1693164483830
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -860,7 +853,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693152794027
       modifiedTime: 1693163808077
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -907,7 +900,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693153808052
       modifiedTime: 1693154778051
       lastModifiedBy: 03b8FhVXbluJN576
@@ -970,7 +963,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693161333345
       modifiedTime: 1693161476614
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1026,7 +1019,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693161577228
       modifiedTime: 1693163697957
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1091,7 +1084,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 5.3.2
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1693162466283
       modifiedTime: 1693162466283
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -1176,7 +1169,7 @@ items:
     _stats:
       compendiumSource: Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5
       duplicateSource: Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.1
       createdTime: null
@@ -1190,7 +1183,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.4
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1690821344866
   modifiedTime: 1737840385175
   lastModifiedBy: H9FXC8g0quO6QRgw

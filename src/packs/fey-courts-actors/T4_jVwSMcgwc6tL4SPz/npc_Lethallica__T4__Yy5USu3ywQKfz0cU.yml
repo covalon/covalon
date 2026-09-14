@@ -40,12 +40,9 @@ prototypeToken:
     src: modules/covalon/images/Fey%20Courts/lethallica_token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.15
     scaleY: 1.15
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -89,7 +86,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 100
       enabled: true
   occludable:
@@ -110,6 +107,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: jVwSMcgwc6tL4SPz
 name: Lethallica (T4)
 type: npc
@@ -121,17 +119,17 @@ system:
       temp: 0
       max: 85
       details: super regeneration 50
+    ac:
+      value: 32
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 30
       otherSpeeds:
         - type: fly
           value: 30
       details: ''
-    ac:
-      value: 32
-      details: ''
-    allSaves:
-      value: ''
     immunities:
       - type: bleed
         exceptions: []
@@ -299,7 +297,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -361,7 +359,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -422,7 +420,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -461,7 +459,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -511,7 +509,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -575,7 +573,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -614,7 +612,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -681,7 +679,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -737,7 +735,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -804,7 +802,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -869,7 +867,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -925,7 +923,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1206,7 +1204,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1265,7 +1263,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1319,7 +1317,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1390,7 +1388,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1447,11 +1445,9 @@ items:
       scene-packer:
         hash: 96b39b8228499f07b696c79e01d09c0380c394af
     _stats:
-      compendiumSource: >-
-        Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ
-      duplicateSource: >-
-        Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ
-      coreVersion: '13.346'
+      compendiumSource: Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ
+      duplicateSource: Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1503,11 +1499,9 @@ items:
       scene-packer:
         hash: 5a71fdfcf729ba6ec0e6ae2aebd9996a6b9615bb
     _stats:
-      compendiumSource: >-
-        Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM
-      duplicateSource: >-
-        Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM
-      coreVersion: '13.346'
+      compendiumSource: Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM
+      duplicateSource: Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.4.0
       createdTime: null
@@ -1523,7 +1517,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1726532065246

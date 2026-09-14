@@ -5,20 +5,6 @@ active: false
 navigation: false
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Varceta/Varceta%20Camp%20Final.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/aIiPJTmwZrnPTBh5-thumb.webp
 width: 3000
 height: 2800
@@ -27,7 +13,6 @@ initial:
   x: null
   'y': null
   scale: 0.5
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 100
@@ -39,11 +24,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -79,7 +63,6 @@ lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -99,12 +82,50 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1739718580347
   modifiedTime: 1742667816849
   lastModifiedBy: H9FXC8g0quO6QRgw
   exportSource: null
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Varceta Camp
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Varceta/Varceta%20Camp%20Final.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!aIiPJTmwZrnPTBh5.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!aIiPJTmwZrnPTBh5'
+templates: []

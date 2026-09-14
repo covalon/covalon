@@ -21,9 +21,6 @@ prototypeToken:
     src: modules/covalon/images/Taltain/councilor_rodney.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -90,6 +87,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Rodney (T4)
 type: npc
 img: modules/covalon/images/Taltain/councilor_rodney.Token.webp
@@ -100,15 +98,15 @@ system:
       temp: 0
       max: 165
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 28
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     resistances:
       - type: void
         value: 10
@@ -241,7 +239,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556639103
       modifiedTime: 1677724570789
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -301,7 +299,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677556763377
       modifiedTime: 1677724561518
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -351,7 +349,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677559109542
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -528,7 +526,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677559638561
       modifiedTime: 1677724680508
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -537,8 +535,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.yPYTtDlRnAVnLnsQ'
   - _id: s1inR0jutqdXYfbD
-    img: >-
-      systems/pf2e/assets/icons/spells/eclipse-burst.webp
+    img: systems/pf2e/assets/icons/spells/eclipse-burst.webp
     name: Eclipse Burst
     system:
       description:
@@ -655,7 +652,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677559754451
       modifiedTime: 1677634679365
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -664,8 +661,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.s1inR0jutqdXYfbD'
   - _id: 8NnOjK2NwKLgFrtA
-    img: >-
-      systems/pf2e/assets/icons/spells/tempest-of-shades.webp
+    img: systems/pf2e/assets/icons/spells/tempest-of-shades.webp
     name: Tempest of Shades
     system:
       description:
@@ -784,7 +780,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677633473086
       modifiedTime: 1677634679365
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -793,8 +789,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.8NnOjK2NwKLgFrtA'
   - _id: LWTmDDBjiqcRvHW5
-    img: >-
-      systems/pf2e/assets/icons/spells/true-target.webp
+    img: systems/pf2e/assets/icons/spells/true-target.webp
     name: True Target
     system:
       description:
@@ -867,7 +862,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677633480198
       modifiedTime: 1677634679365
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -925,7 +920,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677633681940
       modifiedTime: 1677724617221
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -1011,7 +1006,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1101,7 +1096,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1117,8 +1112,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.tLxxeQgreQAYEI3v'
   - _id: dkXExOIQI3XShCrt
-    img: >-
-      systems/pf2e/assets/icons/spells/disapperance.webp
+    img: systems/pf2e/assets/icons/spells/disapperance.webp
     name: Torturous Trauma
     system:
       description:
@@ -1212,7 +1206,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.zHSp4PzoOE72DV4o
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1295,7 +1289,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1311,8 +1305,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.RntknS3zMldrdZYe'
   - _id: DtWFywu5llaMlVoa
-    img: >-
-      systems/pf2e/assets/icons/spells/acid-splash.webp
+    img: systems/pf2e/assets/icons/spells/acid-splash.webp
     name: Acid Splash
     system:
       description:
@@ -1474,7 +1467,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1554,7 +1547,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1658,7 +1651,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1674,8 +1667,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.4egUcKKBZf5kb4sk'
   - _id: mBYUmI4jmJOb9Mlg
-    img: >-
-      systems/pf2e/assets/icons/spells/friendfetch.webp
+    img: systems/pf2e/assets/icons/spells/friendfetch.webp
     name: Friendfetch
     system:
       description:
@@ -1741,7 +1733,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.TjrZGl8z2INgf3vi
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1810,7 +1802,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1887,7 +1879,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2001,7 +1993,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2017,8 +2009,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.uxPoQmu5VEe4cdhu'
   - _id: RehAlTXQ99vhPv50
-    img: >-
-      systems/pf2e/assets/icons/spells/final-sacrifice.webp
+    img: systems/pf2e/assets/icons/spells/final-sacrifice.webp
     name: Final Sacrifice
     system:
       description:
@@ -2118,7 +2109,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.x0rWq0wS06dns4G2
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2127,8 +2118,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.RehAlTXQ99vhPv50'
   - _id: HcSGhyrCcCParP9d
-    img: >-
-      systems/pf2e/assets/icons/spells/horrifying-blood-loss.webp
+    img: systems/pf2e/assets/icons/spells/horrifying-blood-loss.webp
     name: Horrifying Blood Loss
     system:
       description:
@@ -2227,7 +2217,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.LrRyNA2bo5UwBxud
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2309,7 +2299,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2384,7 +2374,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2400,8 +2390,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.mfRpKRxylgm4kCxz'
   - _id: tJqpGcX0CoAzvTkK
-    img: >-
-      systems/pf2e/assets/icons/spells/stinking-cloud.webp
+    img: systems/pf2e/assets/icons/spells/stinking-cloud.webp
     name: Stinking Cloud
     system:
       description:
@@ -2497,7 +2486,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.GKpEcy9WId6NJvtx
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2506,8 +2495,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.tJqpGcX0CoAzvTkK'
   - _id: PCnowBm0vO7jw89s
-    img: >-
-      systems/pf2e/assets/icons/spells/time-jump.webp
+    img: systems/pf2e/assets/icons/spells/time-jump.webp
     name: Time Jump
     system:
       description:
@@ -2588,7 +2576,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2666,7 +2654,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.qJQADktwD0x8kLAy
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2682,8 +2670,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.FjDuR0vKARgMjsMn'
   - _id: xeYBaVhZzcCilXsZ
-    img: >-
-      systems/pf2e/assets/icons/spells/enervation.webp
+    img: systems/pf2e/assets/icons/spells/enervation.webp
     name: Enervation
     system:
       description:
@@ -2794,7 +2781,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.eexkxcqnkXazsGfK
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2866,7 +2853,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -2882,8 +2869,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.XzLnqms15gEhRDq0'
   - _id: FBz41LZJrjQhdPJy
-    img: >-
-      systems/pf2e/assets/icons/spells/vampiric-maiden.webp
+    img: systems/pf2e/assets/icons/spells/vampiric-maiden.webp
     name: Vampiric Maiden
     system:
       description:
@@ -3002,7 +2988,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.07xYlmGX32XtHGEt
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3011,8 +2997,7 @@ items:
       exportSource: null
     _key: '!actors.items!CV3bU6P1Z66fgEqf.FBz41LZJrjQhdPJy'
   - _id: c5bkWPGJ8hfmCeGw
-    img: >-
-      systems/pf2e/assets/icons/spells/shadow-siphon.webp
+    img: systems/pf2e/assets/icons/spells/shadow-siphon.webp
     name: Shadow Siphon
     system:
       description:
@@ -3087,7 +3072,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3205,7 +3190,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.xFp4EwVcYwSG336t
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3289,7 +3274,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3388,7 +3373,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3404,8 +3389,7 @@ items:
     flags: {}
     _key: '!actors.items!CV3bU6P1Z66fgEqf.Kb6RKKswv8vs80Oo'
   - _id: nLsseH5a2MNSJgJV
-    img: >-
-      systems/pf2e/assets/icons/spells/necrotize.webp
+    img: systems/pf2e/assets/icons/spells/necrotize.webp
     name: Necrotize
     system:
       description:
@@ -3533,7 +3517,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.6lO6uMQxbqmYho0e
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -3547,7 +3531,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818925823
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

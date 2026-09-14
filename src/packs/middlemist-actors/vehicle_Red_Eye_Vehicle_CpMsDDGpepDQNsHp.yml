@@ -65,9 +65,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     fit: height
     anchorX: 0.5
     anchorY: 0.5
@@ -82,7 +79,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -102,6 +99,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 3
 name: Red-Eye Vehicle
 type: vehicle
 img: modules/covalon/images/Middlemist/Red_Eye_Vehicle.webp
@@ -146,7 +144,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -194,7 +192,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -248,7 +246,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -317,7 +315,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405802708
   modifiedTime: 1731258488208
   lastModifiedBy: H9FXC8g0quO6QRgw

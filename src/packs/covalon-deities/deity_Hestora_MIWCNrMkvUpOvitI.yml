@@ -60,16 +60,16 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 7.12.2
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1680084531015
-  modifiedTime: 1781457429476
+  modifiedTime: 1789406807531
   lastModifiedBy: H9FXC8g0quO6QRgw
   compendiumSource: Compendium.covalon.covalon-deities.Item.MIWCNrMkvUpOvitI
   duplicateSource: null
   exportSource: null
 folder: null
 _id: MIWCNrMkvUpOvitI
-sort: 0
+sort: 1700000
 ownership:
   default: 0
 _key: '!items!MIWCNrMkvUpOvitI'

@@ -66,9 +66,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -83,7 +80,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -103,6 +100,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Darkscale (T4)
 type: npc
 img: modules/covalon/images/Taltain/councilor_darkscale.Token.webp
@@ -110,8 +108,7 @@ items:
   - _id: HfJYtzLDw3L4gILm
     name: Shadow Flail
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -162,7 +159,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -173,8 +170,7 @@ items:
   - _id: cfhC81naAS3gtoiW
     name: Shadow Claw
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -223,7 +219,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -234,8 +230,7 @@ items:
   - _id: 4vsnxOEW6KORsNt7
     name: Shadow Bolt
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -284,7 +279,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -295,8 +290,7 @@ items:
   - _id: eROGIOUmsKcdOuFb
     name: Shadow Jump
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 0
@@ -351,21 +345,18 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: >-
-        Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
-      duplicateSource: >-
-        Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
+      compendiumSource: Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
+      duplicateSource: Scene.DDx74rgV7jR0R3zy.Token.FyUYDQlgCpjdGHDq.Actor.nRQxp1kA4L3ht5qm.Item.eROGIOUmsKcdOuFb
       exportSource: null
     _key: '!actors.items!bJD1dtlCPY3o0MRH.eROGIOUmsKcdOuFb'
   - _id: 0dSKv04dzk4ojugg
     name: Agitating Shadows
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 0
@@ -421,7 +412,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -432,8 +423,7 @@ items:
   - _id: bno0h8VtWl5K0De7
     name: Arcane Innate Spells
     type: spellcastingEntry
-    img: >-
-      systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
     effects: []
     folder: null
     sort: 100000
@@ -533,7 +523,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -591,7 +581,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677727043699
       lastModifiedBy: aNDEqRNv3n6sqn54
@@ -639,7 +629,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -667,15 +657,15 @@ system:
       temp: 0
       max: 195
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 29
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
   initiative:
     statistic: perception
   details:
@@ -760,7 +750,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818810669
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

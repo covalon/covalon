@@ -22,7 +22,7 @@ system:
       selector: con-based
       slug: drained
       type: status
-      value: '-1 * @item.badge.value'
+      value: -1 * @item.badge.value
       label: Drained
     - key: FlatModifier
       selector: hp

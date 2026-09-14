@@ -13,9 +13,6 @@ prototypeToken:
     src: modules/covalon/images/Pudersno/goat_guard_t5_.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -61,7 +58,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Goat Guard (T5)
 type: npc
 img: modules/covalon/images/Pudersno/goat_guard_t5_.Avatar.webp
@@ -92,15 +90,15 @@ system:
       temp: 0
       max: 45
       details: ''
-    speed:
-      value: 30
-      otherSpeeds: []
-      details: ''
     ac:
       value: 33
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: electricity
     resistances: []
@@ -199,8 +197,7 @@ system:
       value: sm
 items:
   - _id: fjpsuop0jg66vui3
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Horn
     sort: 100000
     system:
@@ -244,7 +241,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.5
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1673490077262
       lastModifiedBy: hcWh9kuYosSIErIR
@@ -255,8 +252,7 @@ items:
   - _id: Iceo8lRDkdq75Yoj
     flags:
       core: {}
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Darkvision
     sort: 300000
     system:
@@ -293,7 +289,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -344,7 +340,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.5
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1673490406788
       lastModifiedBy: hcWh9kuYosSIErIR
@@ -358,7 +354,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.8.1
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1673484179608
   modifiedTime: 1736019552967
   lastModifiedBy: H9FXC8g0quO6QRgw

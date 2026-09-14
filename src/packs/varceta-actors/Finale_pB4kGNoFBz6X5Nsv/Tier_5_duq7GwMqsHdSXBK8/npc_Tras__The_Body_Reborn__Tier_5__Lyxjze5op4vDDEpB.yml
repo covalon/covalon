@@ -34,16 +34,12 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: >-
-      modules/covalon/images/Varceta/tras_the_body_reborn.Token.webp
+    src: modules/covalon/images/Varceta/tras_the_body_reborn.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -87,7 +83,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 500
       enabled: true
   occludable:
@@ -108,6 +104,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: duq7GwMqsHdSXBK8
 name: Tras, The Body Reborn (Tier 5)
 type: npc
@@ -119,15 +116,15 @@ system:
       temp: 0
       max: 330
       details: ''
-    speed:
-      value: 0
-      otherSpeeds: []
-      details: Stationary
     ac:
       value: 37
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Stationary
     immunities:
       - type: prone
         exceptions: []
@@ -218,8 +215,7 @@ system:
     rarity: uncommon
     size:
       value: grg
-img: >-
-  modules/covalon/images/Varceta/tras_the_body_reborn.Avatar.webp
+img: modules/covalon/images/Varceta/tras_the_body_reborn.Avatar.webp
 items:
   - type: action
     name: Phaselocked - Material Plane
@@ -263,7 +259,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -316,7 +312,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -384,7 +380,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -440,7 +436,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -495,7 +491,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -546,7 +542,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -591,11 +587,9 @@ items:
       wIOTBCOlihhXbUqQ: 3
     flags: {}
     _stats:
-      compendiumSource: >-
-        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
-      duplicateSource: >-
-        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
-      coreVersion: '13.346'
+      compendiumSource: Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      duplicateSource: Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -657,7 +651,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -713,7 +707,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -782,7 +776,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -838,7 +832,7 @@ items:
     _stats:
       compendiumSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
       duplicateSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -901,7 +895,7 @@ items:
     _stats:
       compendiumSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
       duplicateSource: Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -913,7 +907,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1742091082139

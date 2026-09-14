@@ -2,7 +2,6 @@ name: Gornlar Outpost
 navigation: false
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/gTWYA528CeYjv8lc-thumb.webp
 width: 3600
 height: 3600
@@ -11,7 +10,6 @@ initial:
   x: 1789
   'y': 1856
   scale: 0.34
-backgroundColor: '#999999'
 grid:
   size: 100
   type: 1
@@ -27,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -41,24 +38,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Gornlar/Gornlar%20Outpost.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1688405826838
   modifiedTime: 1763940057588
   lastModifiedBy: H9FXC8g0quO6QRgw
@@ -102,11 +86,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: false
   reset: 1645811284859
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 0
+levels:
+  - _id: defaultLevel0000
+    name: Gornlar Outpost
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Gornlar/Gornlar%20Outpost.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!gTWYA528CeYjv8lc.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!gTWYA528CeYjv8lc'
+templates: []

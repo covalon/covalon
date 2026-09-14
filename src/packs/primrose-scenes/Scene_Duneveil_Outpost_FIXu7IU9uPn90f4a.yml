@@ -2,7 +2,6 @@ name: Duneveil Outpost
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/primrose-scenes-FIXu7IU9uPn90f4a-thumb.webp
 width: 2160
 height: 2160
@@ -11,7 +10,6 @@ initial:
   x: 957
   'y': 1102
   scale: 0.59
-backgroundColor: '#999999'
 grid:
   size: 72
   type: 1
@@ -27,7 +25,6 @@ tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -42,24 +39,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Primrose/Duneveil%20Outpost.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405832604
   modifiedTime: 1689265696523
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -104,11 +88,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1656012513666
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Duneveil Outpost
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Primrose/Duneveil%20Outpost.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!FIXu7IU9uPn90f4a.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!FIXu7IU9uPn90f4a'
+templates: []

@@ -2,21 +2,6 @@ folder: null
 name: Dungeoneering Society
 navigation: true
 navOrder: 0
-background:
-  src: >-
-    modules/covalon/images/Covalon%20Basics/Updated_Dungeoneering_Society_with_Archive_Gridless.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: null
 thumb: modules/covalon/assets/scenes/7LDtEGhbG4aQ8Kyh-thumb.webp
 width: 3500
 height: 3000
@@ -25,7 +10,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 100
@@ -37,11 +21,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -77,7 +60,6 @@ lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -95,7 +77,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1788224323133
@@ -108,5 +90,43 @@ ownership:
 _id: 7LDtEGhbG4aQ8Kyh
 active: false
 sort: 0
+levels:
+  - _id: defaultLevel0000
+    name: Dungeoneering Society
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Covalon%20Basics/Updated_Dungeoneering_Society_with_Archive_Gridless.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!7LDtEGhbG4aQ8Kyh.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!7LDtEGhbG4aQ8Kyh'
-levels: []
+templates: []

@@ -40,12 +40,9 @@ prototypeToken:
     src: icons/commodities/gems/gem-rough-ball-purple.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 0.65
     scaleY: 0.65
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -89,7 +86,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 100
       enabled: true
   occludable:
@@ -110,6 +107,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: null
 name: Modification - Orbing Time
 type: hazard
@@ -186,7 +184,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1726525732338

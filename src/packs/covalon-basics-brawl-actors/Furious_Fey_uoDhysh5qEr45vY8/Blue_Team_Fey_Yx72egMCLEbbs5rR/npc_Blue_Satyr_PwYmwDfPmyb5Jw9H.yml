@@ -21,12 +21,9 @@ prototypeToken:
     src: modules/covalon/images/Furious%20Fey/blue_satyr.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 2
     scaleY: 2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -88,6 +85,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: Yx72egMCLEbbs5rR
 name: Blue Satyr
 type: npc
@@ -99,15 +97,15 @@ system:
       temp: 0
       max: 115
       details: ''
-    speed:
-      value: 30
-      otherSpeeds: []
-      details: ''
     ac:
       value: 22
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 30
+      otherSpeeds: []
+      details: ''
     weaknesses:
       - type: cold-iron
         value: 5
@@ -316,7 +314,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -333,7 +331,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.c8R2fpk88fBwJ1ie
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -407,7 +405,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -482,7 +480,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -586,7 +584,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -665,7 +663,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.equipment-srd.Item.MPv5Yx4w7scZGj2Y
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -774,7 +772,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -831,7 +829,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -938,7 +936,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1058,7 +1056,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1152,7 +1150,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1275,7 +1273,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.1hLxZznnA2kvXlIt
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1379,7 +1377,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1481,7 +1479,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.iG1USiSRXMjCDGAr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1577,7 +1575,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.cB17yFc9456Pyfec
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1635,7 +1633,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1647,7 +1645,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

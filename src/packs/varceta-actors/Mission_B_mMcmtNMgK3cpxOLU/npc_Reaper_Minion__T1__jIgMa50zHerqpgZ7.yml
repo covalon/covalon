@@ -30,12 +30,9 @@ prototypeToken:
     src: modules/covalon/images/Varceta/reaper%20minion%20token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -78,7 +75,7 @@ prototypeToken:
     brightness: 1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -97,6 +94,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: mMcmtNMgK3cpxOLU
 name: Reaper Minion (T1)
 type: npc
@@ -108,17 +106,17 @@ system:
       temp: 0
       max: 30
       details: ''
+    ac:
+      value: 15
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 40
       otherSpeeds:
         - type: fly
           value: 40
       details: ''
-    ac:
-      value: 15
-      details: ''
-    allSaves:
-      value: ''
     weaknesses:
       - type: fire
         value: 5
@@ -253,7 +251,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -314,7 +312,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -374,7 +372,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -423,7 +421,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -488,7 +486,7 @@ items:
     _stats:
       compendiumSource: Actor.mrqCBHdcpEaX6CRF.Item.YMJT0YeH6QZkQpPX
       duplicateSource: Actor.mrqCBHdcpEaX6CRF.Item.YMJT0YeH6QZkQpPX
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.9.0
       createdTime: null
@@ -502,7 +500,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1739725312442

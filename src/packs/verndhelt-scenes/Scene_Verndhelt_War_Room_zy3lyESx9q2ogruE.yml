@@ -4,19 +4,6 @@ _id: zy3lyESx9q2ogruE
 navigation: true
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Verndhelt/Vernheldt_Finale.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  tint: '#ffffff'
-  alphaThreshold: 0
-foregroundElevation: 20
 width: 5120
 height: 7680
 padding: 0.3
@@ -24,7 +11,6 @@ initial:
   x: 2962
   'y': 3730
   scale: 0.25
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 256
@@ -66,6 +52,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!zy3lyESx9q2ogruE.mfbBWs9EV0WpiARe'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -97,6 +84,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!zy3lyESx9q2ogruE.t8XCtYGio6bybhGZ'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -128,6 +116,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!zy3lyESx9q2ogruE.NZAx3PO6dIponkef'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -159,23 +148,20 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!zy3lyESx9q2ogruE.CNJEhV0W8qG9ZHyD'
 tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles:
   - texture:
       src: modules/covalon/images/Verndhelt/BASIC2.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     x: 1024
@@ -188,8 +174,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -200,17 +186,15 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.YWQBXDqkj2JFRPA5'
   - texture:
       src: modules/covalon/images/Verndhelt/ADVANCED2.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       alphaThreshold: 0.75
     x: 3584
@@ -223,8 +207,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -235,17 +219,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.r404nxLvDYApkkj8'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youActivateanItem.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youActivateanItem.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -259,8 +240,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -271,17 +252,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.YPHFexdNyO6hYDXy'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youattemptaskillcheck.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youattemptaskillcheck.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -295,8 +273,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -307,17 +285,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.V7vJgezl5fg4Ah5u'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youCastaSpell.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youCastaSpell.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -331,8 +306,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -343,17 +318,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.dU1I8iIoMfAhnOwC'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youcriticallysucceed.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youcriticallysucceed.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -367,8 +339,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -379,17 +351,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.FovoPaIwGGVKgbbq'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youInteract.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youInteract.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -403,8 +372,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -415,17 +384,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.EMQNiUWnkaXsgHNT'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/yourecievehealing.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/yourecievehealing.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -439,8 +405,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -451,17 +417,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.SS5Ux2mV2Nx1jeog'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youStrike.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youStrike.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -475,8 +438,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -487,17 +450,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.ecG6UQUR2QrkTb9P'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/IgainacircimstancebonustoAC.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/IgainacircimstancebonustoAC.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -511,8 +471,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -523,17 +483,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.WSewO3spT59JTnbU'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/Iheal.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/Iheal.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -547,8 +504,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -559,17 +516,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.LpsY1czLzpTfDeh8'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/ImeleeStrike.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/ImeleeStrike.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -583,8 +537,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -595,17 +549,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.KM1uri0jhtmQZhKV'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youareaffectedbytanglefoot.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youareaffectedbytanglefoot.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -619,8 +570,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -631,17 +582,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.0TEZOMYDUGJ0r98B'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomeoffguard.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomeoffguard.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -655,8 +603,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -667,17 +615,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.aB34ebJsgEsO6YwT'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomesickened.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomesickened.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -691,8 +636,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -703,17 +648,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.EWYubmiUB40pMONc'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youtaketierdamage.webp
+      src: modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youtaketierdamage.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -727,8 +669,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -739,17 +681,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.Q8eWRLej2UIIYCZh'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youeatordrinksomething.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youeatordrinksomething.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -763,8 +702,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -775,17 +714,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.UBnZH63UcXbskLnv'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youendyourturnadjacent.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youendyourturnadjacent.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -799,8 +735,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -811,17 +747,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.MLdoxFzOSjVlhvrs'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealoneofmyotherenemies.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealoneofmyotherenemies.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -835,8 +768,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -847,17 +780,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.LhNuftKDDdcXVaYQ'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealyourself.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealyourself.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -871,8 +801,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -883,17 +813,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.93MEkkBfWgzcrSef'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youkilloneofmyallies.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youkilloneofmyallies.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -907,8 +834,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -919,17 +846,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.5asqEEnb0xkMIGYw'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youoryoureffectcausemetobecomegrabbed.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youoryoureffectcausemetobecomegrabbed.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -943,8 +867,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -955,17 +879,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.lcfAEFNXcydveoHh'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youstartandendyourturn.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youstartandendyourturn.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -979,8 +900,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -991,17 +912,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.VpcJ6jC1HUxza43I'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youuseareaction.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youuseareaction.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1015,8 +933,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1027,17 +945,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.igF3Wwxaj7g1O0nj'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/igainsanctuary.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/igainsanctuary.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1051,8 +966,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1063,17 +978,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.czgezMmjGfHE0eYu'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ihealandremovenegativeeffects.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ihealandremovenegativeeffects.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1087,8 +999,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1099,17 +1011,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.vHcsXVhIVyiDUAEZ'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ImayteleportthenStrike.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ImayteleportthenStrike.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1123,8 +1032,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1135,17 +1044,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.q1GQeUqLslREG4GX'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/Isummonanally.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/Isummonanally.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1159,8 +1065,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1171,17 +1077,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.iY4wpLsUBAjQePtS'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youandallofmyenemiesadjacenttoyoutakedamage.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youandallofmyenemiesadjacenttoyoutakedamage.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1195,8 +1098,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1207,17 +1110,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.CMtPur7ZVW2nAtPl'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youareeffectedbyboneshaker.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youareeffectedbyboneshaker.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1231,8 +1131,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1243,17 +1143,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.NIjoZckCavAwoL56'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomeconfused.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomeconfused.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1267,8 +1164,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1279,17 +1176,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.0wts4OrrYfrj748g'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomefleeing.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomefleeing.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1303,8 +1197,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1315,17 +1209,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.YU3tzmwCC5oRGtra'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougainnegativehealing.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougainnegativehealing.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1339,8 +1230,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1351,17 +1242,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.IYX0JAYAjROitkVO'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougaintheeffectofpestform.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougaintheeffectofpestform.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1375,8 +1263,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1387,17 +1275,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.tPPgVQnAvRcbAiiW'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yourspeedsarereduced.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yourspeedsarereduced.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1411,8 +1296,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1423,17 +1308,14 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.8YjcbRfHc94THnMm'
   - texture:
-      src: >-
-        modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youtakepersistentbleed.webp
+      src: modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youtakepersistentbleed.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
-      anchorX: 0.5
-      anchorY: 0.5
+      anchorX: 0
+      anchorY: 0
       fit: fill
       tint: '#ffffff'
       alphaThreshold: 0.75
@@ -1447,8 +1329,8 @@ tiles:
     hidden: false
     locked: false
     occlusion:
-      mode: 0
       alpha: 0
+      modes: []
     video:
       loop: true
       autoplay: true
@@ -1459,6 +1341,7 @@ tiles:
       light: false
       weather: false
     elevation: 0
+    levels: []
     _key: '!scenes.tiles!zy3lyESx9q2ogruE.3wErD8IUR5BIzxnZ'
 walls: []
 playlist: null
@@ -1470,14 +1353,13 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 5.3.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1692540212368
   modifiedTime: 1693167894014
   lastModifiedBy: H9FXC8g0quO6QRgw
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-foreground: null
 thumb: modules/covalon/assets/scenes/verndhelt-scenes-zy3lyESx9q2ogruE-thumb.webp
 weather: ''
 active: false
@@ -1515,11 +1397,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1692540212367
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Verndhelt War Room
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Verndhelt/Vernheldt_Finale.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!zy3lyESx9q2ogruE.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!zy3lyESx9q2ogruE'
+templates: []

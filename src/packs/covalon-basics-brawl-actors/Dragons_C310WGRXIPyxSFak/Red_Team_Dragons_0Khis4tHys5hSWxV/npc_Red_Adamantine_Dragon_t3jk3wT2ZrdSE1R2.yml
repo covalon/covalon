@@ -19,12 +19,9 @@ prototypeToken:
     src: modules/covalon/images/Dragon%20Brawl/Adamantine%20Dragon%201-2%20RED.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.2
     scaleY: 1.2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -67,7 +64,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -86,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: 0Khis4tHys5hSWxV
 name: Red Adamantine Dragon
 type: npc
@@ -97,17 +95,17 @@ system:
       temp: 0
       max: 250
       details: ''
+    ac:
+      value: 32
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 30
       otherSpeeds:
         - type: fly
           value: 60
       details: ''
-    ac:
-      value: 32
-      details: ''
-    allSaves:
-      value: ''
     resistances: []
   initiative:
     statistic: perception
@@ -244,7 +242,7 @@ items:
     _stats:
       compendiumSource: Actor.agbioLNU12MsjHfr.Item.eiF3caXCeUyEeCyp
       duplicateSource: Actor.agbioLNU12MsjHfr.Item.eiF3caXCeUyEeCyp
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -303,7 +301,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -354,7 +352,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -405,7 +403,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -455,7 +453,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -501,7 +499,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -546,7 +544,7 @@ items:
     _stats:
       compendiumSource: Actor.agbioLNU12MsjHfr.Item.Bd6m642VMIE5yoVM
       duplicateSource: Actor.agbioLNU12MsjHfr.Item.Bd6m642VMIE5yoVM
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -598,7 +596,7 @@ items:
     _stats:
       compendiumSource: Actor.agbioLNU12MsjHfr.Item.Nsq37LYvx8Gc8M1O
       duplicateSource: Actor.agbioLNU12MsjHfr.Item.Nsq37LYvx8Gc8M1O
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -644,7 +642,7 @@ items:
     _stats:
       compendiumSource: Actor.agbioLNU12MsjHfr.Item.HCxDD7AHLDXLnBaG
       duplicateSource: Actor.agbioLNU12MsjHfr.Item.HCxDD7AHLDXLnBaG
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -695,7 +693,7 @@ items:
     _stats:
       compendiumSource: Actor.agbioLNU12MsjHfr.Item.S1Ztj3jcXHNboSRl
       duplicateSource: Actor.agbioLNU12MsjHfr.Item.S1Ztj3jcXHNboSRl
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -713,7 +711,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -757,7 +755,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -801,7 +799,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -849,7 +847,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.a0tx6exmB9v9CUsj
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -984,7 +982,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1086,7 +1084,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.qTzvVnAMWL05VitC
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1106,7 +1104,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

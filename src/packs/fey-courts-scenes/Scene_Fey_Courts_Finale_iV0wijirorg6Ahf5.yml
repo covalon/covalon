@@ -4,20 +4,6 @@ _id: iV0wijirorg6Ahf5
 navigation: true
 navOrder: 0
 navName: Fey Courts Throne Room
-background:
-  src: modules/covalon/images/Fey%20Courts/feycourts-finale-throne-room.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/iV0wijirorg6Ahf5-thumb.webp
 width: 2016
 height: 2304
@@ -26,7 +12,6 @@ initial:
   x: null
   'y': null
   scale: 0.5
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 72
@@ -38,11 +23,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -109,6 +93,8 @@ lights:
       levels:
         rangeTop: null
       tagger: {}
+    levels: []
+    locked: false
     _key: '!scenes.lights!iV0wijirorg6Ahf5.UwpZrXKckDvfYMEY'
   - x: 824
     'y': 1630
@@ -144,11 +130,12 @@ lights:
       levels:
         rangeTop: null
       tagger: {}
+    levels: []
+    locked: false
     _key: '!scenes.lights!iV0wijirorg6Ahf5.bKxTXGA7QpQFWQck'
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls:
   - c:
@@ -171,6 +158,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.UoDL9K20OGrTpnUm'
   - c:
       - 266
@@ -192,6 +180,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.a7AAdrGTXlRUkWaB'
   - c:
       - 266
@@ -213,6 +202,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.lp6DRZth6dgpQTAf'
   - c:
       - 266
@@ -234,6 +224,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.cKUhraJPXMACTo35'
   - c:
       - 266
@@ -255,6 +246,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.7Z6QLkoQTxvR9iun'
   - c:
       - 414
@@ -276,6 +268,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.dAi3FVslqsJMpyEP'
   - c:
       - 563
@@ -297,6 +290,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.4XpqfXBGZqZwNPy0'
   - c:
       - 785
@@ -318,6 +312,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.MvXXRJFtSqZJeroB'
   - c:
       - 785
@@ -339,6 +334,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.yXbTIyLCpN6kmNhM'
   - c:
       - 1082
@@ -360,6 +356,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.JC8aqC7gLDq63s1T'
   - c:
       - 1231
@@ -381,6 +378,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.VNBQU3TLTkCrvbOp'
   - c:
       - 1231
@@ -402,6 +400,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.kNWjiA6cbIvo3L4q'
   - c:
       - 1453
@@ -423,6 +422,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.59sCcn4x4QjOceUS'
   - c:
       - 1602
@@ -444,6 +444,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.1fWcamfC9VFiLOMb'
   - c:
       - 1750
@@ -465,6 +466,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.bWckwMKC4PpgZfon'
   - c:
       - 1750
@@ -486,6 +488,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.6Q50U2RX8juSoFQ1'
   - c:
       - 1750
@@ -507,6 +510,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.9aMBO3OgQxRlz1gt'
   - c:
       - 1498
@@ -528,6 +532,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.DPuSvtJKAP0PuKXo'
   - c:
       - 1492
@@ -549,6 +554,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.aplIEZIMdaqBaggr'
   - c:
       - 1485
@@ -570,6 +576,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.Io6NXIdV8KKTRuiM'
   - c:
       - 1482
@@ -591,6 +598,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.3ZxrVw8x2IN0E73c'
   - c:
       - 1483
@@ -612,6 +620,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.e7a50XJpxDi5ce48'
   - c:
       - 1489
@@ -633,6 +642,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.YHoII4YSAXUXRpck'
   - c:
       - 1496
@@ -654,6 +664,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.upakS8C2bxhJ4yeF'
   - c:
       - 1499
@@ -675,6 +686,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.E7rWAS6dXdJddfDR'
   - c:
       - 533
@@ -696,6 +708,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.zCXIXkCKctOJyD9I'
   - c:
       - 527
@@ -717,6 +730,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.1OmQpB9qDeLGZhlv'
   - c:
       - 520
@@ -738,6 +752,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.qu5gDGcA8NI52c33'
   - c:
       - 517
@@ -759,6 +774,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.Po66xsCHB54ThOCc'
   - c:
       - 518
@@ -780,6 +796,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.zkHGclF1TQo2Hyj0'
   - c:
       - 524
@@ -801,6 +818,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.T10icFJTdUAqzmpy'
   - c:
       - 531
@@ -822,6 +840,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.YuxSn7fdzUJFQpz5'
   - c:
       - 534
@@ -843,6 +862,7 @@ walls:
       attenuation: false
     flags: {}
     animation: null
+    levels: []
     _key: '!scenes.walls!iV0wijirorg6Ahf5.mFsNOttCCqdGOuH4'
 playlist: null
 playlistSound: null
@@ -866,7 +886,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.4.0
   createdTime: 1726525753709
@@ -883,5 +903,43 @@ sort: 0
 ownership:
   default: 0
   H9FXC8g0quO6QRgw: 3
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Fey Courts Finale
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Fey%20Courts/feycourts-finale-throne-room.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!iV0wijirorg6Ahf5.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!iV0wijirorg6Ahf5'
+templates: []

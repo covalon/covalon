@@ -21,12 +21,9 @@ prototypeToken:
     src: modules/covalon/images/Furious%20Fey/red_dryad.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 2
     scaleY: 2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -88,6 +85,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: bg5jFuEZ5YVSFn47
 name: Red Dryad
 type: npc
@@ -99,15 +97,15 @@ system:
       temp: 0
       max: 115
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 23
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     weaknesses:
       - type: cold-iron
         value: 5
@@ -322,7 +320,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -339,7 +337,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -425,7 +423,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -557,7 +555,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -602,7 +600,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -697,7 +695,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.9I8mp7RkjeXbkYfx
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -836,7 +834,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1021,7 +1019,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1114,7 +1112,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Bc6QqTmFV4q7G7L0
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1201,7 +1199,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1292,7 +1290,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.iohRnd4gUCmJlh54
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1366,7 +1364,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1416,7 +1414,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1518,7 +1516,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1586,7 +1584,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.nnSipUPNd3sm5vYL
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1678,7 +1676,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -1699,7 +1697,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

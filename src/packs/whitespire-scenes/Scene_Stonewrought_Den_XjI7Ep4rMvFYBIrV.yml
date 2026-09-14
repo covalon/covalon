@@ -3,20 +3,6 @@ name: Stonewrought Den
 _id: XjI7Ep4rMvFYBIrV
 navigation: false
 navOrder: 0
-background:
-  src: modules/covalon/images/Whitespire/stonewrought%20den%20final.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: null
 thumb: modules/covalon/assets/scenes/XjI7Ep4rMvFYBIrV-thumb.webp
 width: 3360
 height: 4480
@@ -25,7 +11,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 140
@@ -37,11 +22,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -102,6 +86,7 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.YDehr2XSlJHlRxf0'
   - _id: 9aQMmLWbbetrHSLV
     author: NEpKBfKv6jRU1Lvu
@@ -133,6 +118,7 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.9aQMmLWbbetrHSLV'
   - _id: TVWX3FPft4uxrTNn
     author: H9FXC8g0quO6QRgw
@@ -164,6 +150,7 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.TVWX3FPft4uxrTNn'
   - _id: 58Rc2yRtWCkr4aj9
     author: H9FXC8g0quO6QRgw
@@ -195,6 +182,7 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.58Rc2yRtWCkr4aj9'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -226,6 +214,7 @@ drawings:
     interface: false
     flags: {}
     _id: rFOtwTxmwqSJKeUo
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.rFOtwTxmwqSJKeUo'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -257,6 +246,7 @@ drawings:
     interface: false
     flags: {}
     _id: FwUXTrytyZ9syoMX
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.FwUXTrytyZ9syoMX'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -288,6 +278,7 @@ drawings:
     interface: false
     flags: {}
     _id: 1wQFlYKkDajCUrNs
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.1wQFlYKkDajCUrNs'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -319,6 +310,7 @@ drawings:
     interface: false
     flags: {}
     _id: 71E1xV9Z3tFXaU8w
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.71E1xV9Z3tFXaU8w'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -350,6 +342,7 @@ drawings:
     interface: false
     flags: {}
     _id: XXiu1iiyR9k1OvWZ
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.XXiu1iiyR9k1OvWZ'
   - author: H9FXC8g0quO6QRgw
     shape:
@@ -381,13 +374,13 @@ drawings:
     interface: false
     flags: {}
     _id: 1iTJc0t4zOdhIU7n
+    levels: []
     _key: '!scenes.drawings!XjI7Ep4rMvFYBIrV.1iTJc0t4zOdhIU7n'
 tokens: []
 lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls:
   - light: 10
@@ -410,6 +403,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.wnZyn5Bz271iVh5Z'
   - light: 10
     sight: 10
@@ -431,6 +425,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.eAeozbi5oSPKrDIb'
   - light: 10
     sight: 10
@@ -452,6 +447,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.fiF05fXBEkRL0wK4'
   - light: 10
     sight: 10
@@ -473,6 +469,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.6td3X2IBuEcRNxES'
   - light: 10
     sight: 10
@@ -494,6 +491,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.8SiaTemRKBx8RzR0'
   - light: 10
     sight: 10
@@ -515,6 +513,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.DkPcQJnmVV854t8a'
   - light: 10
     sight: 10
@@ -536,6 +535,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.MmHYU1nEXdOjo8eq'
   - light: 10
     sight: 10
@@ -557,6 +557,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!XjI7Ep4rMvFYBIrV.mDjNtIaUrZO4tfI2'
 playlist: null
 playlistSound: null
@@ -592,7 +593,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1775760290847
@@ -604,5 +605,43 @@ ownership:
   H9FXC8g0quO6QRgw: 3
 active: false
 sort: 0
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Stonewrought Den
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Whitespire/stonewrought%20den%20final.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!XjI7Ep4rMvFYBIrV.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!XjI7Ep4rMvFYBIrV'
+templates: []

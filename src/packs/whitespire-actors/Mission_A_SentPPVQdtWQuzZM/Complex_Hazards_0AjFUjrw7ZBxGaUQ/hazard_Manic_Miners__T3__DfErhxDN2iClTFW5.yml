@@ -25,12 +25,9 @@ prototypeToken:
     src: icons/tools/hand/pickaxe-worn-steel-grey.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: true
@@ -64,7 +61,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -85,6 +82,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 1
 effects: []
 system:
   _migration:
@@ -246,10 +244,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.11.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!DfErhxDN2iClTFW5.kNGWVkbLaC15jCqN'
@@ -328,8 +328,7 @@ items:
         value: null
       deathNote: false
     effects: []
-    img: >-
-      systems/pf2e/assets/icons/default-icons/action.svg
+    img: systems/pf2e/assets/icons/default-icons/action.svg
     folder: HBrMkhSgQHASo1pW
     sort: 100000
     flags:
@@ -339,10 +338,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.11.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: otN6iRv6InmvrP6y
     ownership:
       default: 0
@@ -354,7 +355,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1773786819893

@@ -1,7 +1,6 @@
 name: Dichotomous Valley
 navigation: false
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/qrcxPBJijzT4WowP-thumb.webp
 width: 2548
 height: 1080
@@ -10,7 +9,6 @@ initial:
   x: 1495
   'y': 582
   scale: 0.56
-backgroundColor: '#999999'
 grid:
   size: 100
   type: 1
@@ -52,6 +50,7 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!qrcxPBJijzT4WowP.S2xxDeWeCYwUBBMe'
   - _id: zlWokOMcAHV9YIyt
     author: mqymE3yW5E90IiHw
@@ -83,12 +82,12 @@ drawings:
     locked: false
     interface: false
     flags: {}
+    levels: []
     _key: '!scenes.drawings!qrcxPBJijzT4WowP.zlWokOMcAHV9YIyt'
 tokens: []
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls:
   - _id: cA532EsLVmF0x5Ct
@@ -111,6 +110,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!qrcxPBJijzT4WowP.cA532EsLVmF0x5Ct'
   - _id: lDieuKy6nJlnTXNw
     c:
@@ -132,6 +132,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!qrcxPBJijzT4WowP.lDieuKy6nJlnTXNw'
   - _id: lgtnFudRtfZslrVE
     c:
@@ -153,6 +154,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!qrcxPBJijzT4WowP.lgtnFudRtfZslrVE'
   - _id: Zobbchel768OixgT
     c:
@@ -174,6 +176,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!qrcxPBJijzT4WowP.Zobbchel768OixgT'
 playlist: null
 playlistSound: null
@@ -203,25 +206,12 @@ flags:
     opacityGM: 0.7
     opacityPlayer: 1
     schemaVersion: 2.1.0
-background:
-  src: modules/covalon/images/Gornlar/Dichotomous%20Valley_Small.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: 20
 journalEntryPage: null
 _stats:
   compendiumSource: Compendium.covalon.gornlar-scenes.Scene.qrcxPBJijzT4WowP
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.7.4
   createdTime: 1763939527646
@@ -240,10 +230,14 @@ regions:
         height: 500
         rotation: 0
         hole: false
+        anchorX: 0
+        anchorY: 0
+        gridBased: false
     _id: drbwpOtI8ZMuJOwJ
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     behaviors:
       - name: Environment
         type: environment
@@ -258,15 +252,29 @@ regions:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.367'
           systemId: pf2e
           systemVersion: 7.7.4
           lastModifiedBy: null
-        _key: >-
-          !scenes.regions.behaviors!qrcxPBJijzT4WowP.drbwpOtI8ZMuJOwJ.8qnbaLbFtHnHPiXc
+          createdTime: null
+          modifiedTime: null
+        _key: '!scenes.regions.behaviors!qrcxPBJijzT4WowP.drbwpOtI8ZMuJOwJ.8qnbaLbFtHnHPiXc'
     visibility: 0
     locked: true
     flags: {}
+    levels: []
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    ownership:
+      default: 0
+    _shapeConstraints: null
     _key: '!scenes.regions!qrcxPBJijzT4WowP.drbwpOtI8ZMuJOwJ'
   - name: Fjordcarver Zone
     color: '#2850cc'
@@ -278,10 +286,14 @@ regions:
         height: 500
         rotation: 0
         hole: false
+        anchorX: 0
+        anchorY: 0
+        gridBased: false
     _id: xWENAnhOAhIZcJal
     elevation:
       bottom: null
       top: null
+      topInclusive: false
     behaviors:
       - name: Environment
         type: environment
@@ -296,15 +308,29 @@ regions:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.351'
+          coreVersion: '14.367'
           systemId: pf2e
           systemVersion: 7.7.4
           lastModifiedBy: null
-        _key: >-
-          !scenes.regions.behaviors!qrcxPBJijzT4WowP.xWENAnhOAhIZcJal.m4wmL4Anf6FQsihb
+          createdTime: null
+          modifiedTime: null
+        _key: '!scenes.regions.behaviors!qrcxPBJijzT4WowP.xWENAnhOAhIZcJal.m4wmL4Anf6FQsihb'
     visibility: 0
     locked: true
     flags: {}
+    levels: []
+    restriction:
+      enabled: false
+      type: move
+      priority: 0
+    attachment:
+      token: null
+    highlightMode: shapes
+    displayMeasurements: false
+    hidden: false
+    ownership:
+      default: 0
+    _shapeConstraints: null
     _key: '!scenes.regions!qrcxPBJijzT4WowP.xWENAnhOAhIZcJal'
 environment:
   globalLight:
@@ -336,16 +362,53 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: false
   reset: 1647375014990
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 0
 ownership:
   default: 0
 active: false
 navOrder: 0
 sort: 0
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Dichotomous Valley
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Gornlar/Dichotomous%20Valley_Small.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!qrcxPBJijzT4WowP.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!qrcxPBJijzT4WowP'
+templates: []

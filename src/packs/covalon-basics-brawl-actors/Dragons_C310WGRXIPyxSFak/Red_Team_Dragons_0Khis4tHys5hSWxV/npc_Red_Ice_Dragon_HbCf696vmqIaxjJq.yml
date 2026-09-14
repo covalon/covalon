@@ -19,12 +19,9 @@ prototypeToken:
     src: modules/covalon/images/Dragon%20Brawl/Ice%20Dragon%201-6%20RED.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.6
     scaleY: 1.6
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -67,7 +64,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -86,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: 0Khis4tHys5hSWxV
 name: Red Ice Dragon
 type: npc
@@ -97,17 +95,17 @@ system:
       temp: 0
       max: 220
       details: ''
+    ac:
+      value: 35
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 30
       otherSpeeds:
         - type: fly
           value: 80
       details: ''
-    ac:
-      value: 35
-      details: ''
-    allSaves:
-      value: ''
     weaknesses:
       - type: fire
         value: 10
@@ -233,7 +231,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -284,7 +282,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -340,7 +338,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -391,7 +389,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -448,7 +446,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -459,7 +457,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -531,7 +529,7 @@ items:
     _stats:
       compendiumSource: Actor.O6lT5tLJzVL6MV1s.Item.XJ5wfV6LNdfMn7EH
       duplicateSource: Actor.O6lT5tLJzVL6MV1s.Item.XJ5wfV6LNdfMn7EH
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -640,7 +638,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -728,7 +726,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.g4MAIQodRDVfNp1B
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -781,7 +779,7 @@ items:
     _stats:
       compendiumSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
       duplicateSource: Actor.O6lT5tLJzVL6MV1s.Item.7qULZEHZX6JmtrVP
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -799,7 +797,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -847,7 +845,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

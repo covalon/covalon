@@ -45,9 +45,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -62,7 +59,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Clinging Shadows (T3)
 type: npc
 img: modules/covalon/images/Middlemist/ClingingShadows.webp
@@ -129,7 +127,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -190,7 +188,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -245,7 +243,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -293,7 +291,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -342,7 +340,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -399,7 +397,7 @@ items:
     _stats:
       compendiumSource: Actor.gmoYmL9PR7qLIzi9.Item.YMJT0YeH6QZkQpPX
       duplicateSource: Actor.gmoYmL9PR7qLIzi9.Item.YMJT0YeH6QZkQpPX
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -418,17 +416,17 @@ system:
       temp: 0
       max: 30
       details: shadow dispersal
+    ac:
+      value: 25
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 40
       otherSpeeds:
         - type: climb
           value: 40
       details: ''
-    ac:
-      value: 25
-      details: ''
-    allSaves:
-      value: ''
   initiative:
     statistic: perception
   details:
@@ -500,7 +498,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405802691
   modifiedTime: 1731258488208
   lastModifiedBy: H9FXC8g0quO6QRgw

@@ -12,16 +12,12 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: >-
-      modules/covalon/images/Drifthaven/Quick%20Soul%20Cage.webp
+    src: modules/covalon/images/Drifthaven/Quick%20Soul%20Cage.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -64,7 +60,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -83,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: UKELYnse7pHB934T
 name: Faltyr's Soul Cage | Tier 4
 type: npc
@@ -94,15 +91,15 @@ system:
       temp: 0
       max: 85
       details: ''
-    speed:
-      value: 0
-      otherSpeeds: []
-      details: ''
     ac:
       value: 31
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
     hardness:
       value: 21
     immunities: []
@@ -260,7 +257,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -324,7 +321,7 @@ items:
     _stats:
       compendiumSource: Actor.koriZocDpR1r7LzW.Item.yOkfoSFgMi8vJ0lm
       duplicateSource: Actor.koriZocDpR1r7LzW.Item.yOkfoSFgMi8vJ0lm
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -382,7 +379,7 @@ items:
     _stats:
       compendiumSource: Actor.koriZocDpR1r7LzW.Item.Ul2hBxrD7lArX0GM
       duplicateSource: Actor.koriZocDpR1r7LzW.Item.Ul2hBxrD7lArX0GM
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -443,7 +440,7 @@ items:
     _stats:
       compendiumSource: Actor.MZy4BGI70ovZAziR.Item.IkVU6q3F0nWm7azp
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -456,7 +453,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.8.4
   createdTime: 1737840149390

@@ -18,16 +18,12 @@ prototypeToken:
   displayName: 30
   actorLink: true
   texture:
-    src: >-
-      tokenizer/npc-images/alekin_governor_of_alatar_nova.Token.xXH6pRnH7z0wmSdx.webp?1758151086647
+    src: tokenizer/npc-images/alekin_governor_of_alatar_nova.Token.xXH6pRnH7z0wmSdx.webp?1758151086647
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: true
@@ -71,7 +67,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -92,6 +88,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 2
 effects: []
 system:
   attributes:
@@ -229,10 +226,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.gRm4Sw9nCqs92O7g'
@@ -401,10 +400,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: LaXu6kLr5qeo7eRc
     ownership:
       default: 0
@@ -458,10 +459,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.2jHItLsLIlDBvsJY'
@@ -525,10 +528,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.wxhbZXSTwha4jByd'
@@ -576,10 +581,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.788NOGGp7Tj50pzK'
@@ -628,10 +635,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.zRLiwjIZNrlnRiDu'
@@ -699,10 +708,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.fqJqiNVBAOuP2PRA'
@@ -750,10 +761,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.qpj94TKPe5vQgTL1'
@@ -813,10 +826,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.B1IFSHbUJ8eSZoUS'
@@ -863,10 +878,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 700000
@@ -924,10 +941,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.VRziPGNScij3Q5lr'
@@ -1006,10 +1025,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.2CBqJgal0XuijaE6'
@@ -1109,10 +1130,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.92w3brwnaQ4M0Mfj'
@@ -1208,10 +1231,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -1274,10 +1299,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.CXG5Ki8d8psBzfPu'
@@ -1325,10 +1352,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.6.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!Avy0a1tXJgnKmNMl.J4R8q0on1AgjTOzY'
@@ -1372,13 +1401,15 @@ items:
     sort: 375000
     flags: {}
     _stats:
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     _id: 6BZyR0zCXNmKPwNg
     ownership:
       default: 0
@@ -1390,7 +1421,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.7.3
   createdTime: 1761068469943

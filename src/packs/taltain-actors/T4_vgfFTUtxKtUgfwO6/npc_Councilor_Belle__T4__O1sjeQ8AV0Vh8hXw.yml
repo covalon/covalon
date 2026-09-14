@@ -64,9 +64,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -81,7 +78,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -101,6 +98,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Belle (T4)
 type: npc
 img: modules/covalon/images/Taltain/councilor_belle.Token.webp
@@ -155,7 +153,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677726967706
       lastModifiedBy: aNDEqRNv3n6sqn54
@@ -167,8 +165,7 @@ items:
   - _id: phS8YQ2qBkgMZlXD
     name: Whip
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -219,7 +216,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1677725503821
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -230,8 +227,7 @@ items:
   - _id: AHmwatHucjzSq9bL
     name: Whip Into Shape!
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 0
@@ -279,7 +275,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -290,8 +286,7 @@ items:
   - _id: jTMHoOu5fnBcAikg
     name: Fumble Fury
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
     effects: []
     folder: null
     sort: 0
@@ -335,7 +330,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -346,8 +341,7 @@ items:
   - _id: h142g7AYah5oJqg4
     name: Quick Reactions
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 0
@@ -384,7 +378,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -395,8 +389,7 @@ items:
   - _id: PbD5jt9qPbputv32
     name: Not Your Line!
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+    img: systems/pf2e/assets/icons/actions/Reaction.webp
     effects: []
     folder: null
     sort: 0
@@ -433,7 +426,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -453,15 +446,15 @@ system:
       temp: 0
       max: 200
       details: ''
-    speed:
-      value: 50
-      otherSpeeds: []
-      details: ''
     ac:
       value: 28
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 50
+      otherSpeeds: []
+      details: ''
   initiative:
     statistic: perception
   details:
@@ -541,7 +534,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818796949
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

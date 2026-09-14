@@ -35,16 +35,12 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: >-
-      modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
+    src: modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.2
     scaleY: 1.2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -88,7 +84,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
   detectionModes:
-    - id: basicSight
+    basicSight:
       range: 500
       enabled: true
   occludable:
@@ -109,6 +105,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: BGeVE9SpQqzhfel4
 name: Traseem, The Great Seabird (Tier 4)
 type: npc
@@ -120,15 +117,15 @@ system:
       temp: 0
       max: 345
       details: ''
-    speed:
-      value: 0
-      otherSpeeds: []
-      details: Stationary
     ac:
       value: 35
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: Stationary
     immunities:
       - type: prone
         exceptions: []
@@ -412,8 +409,7 @@ system:
     rarity: uncommon
     size:
       value: grg
-img: >-
-  modules/covalon/images/Varceta/traseem_the_great_seabird.Avatar.webp
+img: modules/covalon/images/Varceta/traseem_the_great_seabird.Avatar.webp
 items:
   - type: action
     name: The Reaper's Blade
@@ -461,7 +457,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -531,7 +527,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -581,7 +577,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -632,7 +628,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -700,7 +696,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -755,7 +751,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -819,7 +815,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -870,7 +866,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -938,7 +934,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -994,7 +990,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -1063,7 +1059,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -1124,7 +1120,7 @@ items:
     _stats:
       compendiumSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
       duplicateSource: Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -1180,7 +1176,7 @@ items:
     _stats:
       compendiumSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
       duplicateSource: Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -1227,11 +1223,9 @@ items:
       NEpKBfKv6jRU1Lvu: 3
     flags: {}
     _stats:
-      compendiumSource: >-
-        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
-      duplicateSource: >-
-        Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
-      coreVersion: '13.346'
+      compendiumSource: Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      duplicateSource: Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.10.2
       createdTime: null
@@ -1244,7 +1238,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1742091082139

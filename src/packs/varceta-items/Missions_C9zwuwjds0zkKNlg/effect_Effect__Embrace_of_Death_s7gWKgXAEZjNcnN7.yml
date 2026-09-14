@@ -9,7 +9,7 @@ system:
   rules:
     - key: FlatModifier
       selector: speed
-      value: '-10*@item.badge.value'
+      value: -10*@item.badge.value
   slug: null
   _migration:
     version: 0.935

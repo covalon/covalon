@@ -14,13 +14,9 @@ prototypeToken:
   name: Pillar
   actorLink: false
   texture:
-    src: >-
-      modules/covalon/images/Ratchethallow/RatchetPillar.webp
+    src: modules/covalon/images/Ratchethallow/RatchetPillar.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -66,7 +62,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -87,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 name: Pillars (T5)
 type: npc
 effects: []
@@ -97,15 +94,15 @@ system:
       temp: 0
       max: 80
       details: ''
-    speed:
-      value: 0
-      otherSpeeds: []
-      details: ''
     ac:
       value: 34
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 0
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: electricity
         exceptions: []
@@ -179,12 +176,10 @@ system:
     rarity: rare
     size:
       value: lg
-img: >-
-  modules/covalon/images/Ratchethallow/RatchetPillar.webp
+img: modules/covalon/images/Ratchethallow/RatchetPillar.webp
 items:
   - type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Boiling Burst
     system:
       description:
@@ -241,7 +236,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676128908119
       modifiedTime: 1677977320749
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -251,8 +246,7 @@ items:
     _id: unNUoZYsolpD3I6G
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.unNUoZYsolpD3I6G'
   - type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Shocking Burst
     system:
       description:
@@ -309,7 +303,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676128967531
       modifiedTime: 1677977327013
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -319,8 +313,7 @@ items:
     _id: q6N4OMdihXwOLBjX
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.q6N4OMdihXwOLBjX'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Steam Aura
     system:
       description:
@@ -384,7 +377,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676129491702
       modifiedTime: 1678593888357
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -393,28 +386,12 @@ items:
       exportSource: null
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.WgF0hodp8uDY5C3v'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Disable
     system:
       description:
         gm: ''
-        value: "<p>On a successful disable, the Pillar is deactivated for two rounds.
-          This is the same disable effect as The Lord of Gears' Shocking Siphon
-          ability.</p>
-
-          <p>All hardness is removed until reactivation, and the steam aura and
-          burst attacks don't occur.</p>
-
-          <p> </p>
-
-          <p>To disable a Pillar, 1 success is required on either a
-          @Check[type:crafting|dc:36|name:Disable
-          Pillar|traits:action:disable-a-device] (expert),
-          @Check[type:arcana|dc:36|name:Disable Pillar
-          2|traits:action:disable-a-device] (expert), or
-          @Check[type:thievery|dc:36|name:Disable Pillar
-          2|traits:action:disable-a-device] (expert) check.</p>"
+        value: "<p>On a successful disable, the Pillar is deactivated for two rounds. This is the same disable effect as The Lord of Gears' Shocking Siphon ability.</p>\n<p>All hardness is removed until reactivation, and the steam aura and burst attacks don't occur.</p>\n<p>\_</p>\n<p>To disable a Pillar, 1 success is required on either a @Check[type:crafting|dc:36|name:Disable Pillar|traits:action:disable-a-device] (expert), @Check[type:arcana|dc:36|name:Disable Pillar 2|traits:action:disable-a-device] (expert), or @Check[type:thievery|dc:36|name:Disable Pillar 2|traits:action:disable-a-device] (expert) check.</p>"
       rules: []
       slug: null
       _migration:
@@ -448,7 +425,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676855478328
       modifiedTime: 1677977220537
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -457,8 +434,7 @@ items:
       exportSource: null
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.xuhxCwwnYUSmKbwd'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Clockwork Core
     system:
       description:
@@ -499,7 +475,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677977362360
       modifiedTime: 1677977394996
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -507,8 +483,7 @@ items:
       duplicateSource: null
       exportSource: null
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.ujjp4W2r5nAhiku5'
-  - img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+  - img: systems/pf2e/assets/icons/actions/Passive.webp
     name: All-Around Vision
     system:
       description:
@@ -552,7 +527,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1678060918904
       modifiedTime: 1678060918904
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -562,8 +537,7 @@ items:
     _id: WkY0WAkyIH8D8UQ7
     _key: '!actors.items!Y5TsWwtmcL7y8WJL.WkY0WAkyIH8D8UQ7'
   - type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Solid Construction
     system:
       description:
@@ -604,7 +578,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1678491124232
       modifiedTime: 1678491166619
       lastModifiedBy: oqapokMmSpkCEHw7
@@ -652,13 +626,15 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     _id: eKOFaWKAoifX38xA
     ownership:
       default: 0
@@ -668,7 +644,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 7.3.1
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676129216886
   modifiedTime: 1754840791034
   lastModifiedBy: H9FXC8g0quO6QRgw

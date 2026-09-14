@@ -62,14 +62,10 @@ prototypeToken:
     negative: false
     priority: 0
   texture:
-    src: >-
-      modules/covalon/images/Ikouga/scylladon_the_starbreaker.Token.webp
+    src: modules/covalon/images/Ikouga/scylladon_the_starbreaker.Token.webp
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -84,7 +80,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -104,16 +100,15 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 4
 name: Scylladon, The Starbreaker (T5)
 type: npc
-img: >-
-  modules/covalon/images/Ikouga/scylladon_the_starbreaker.Avatar.webp
+img: modules/covalon/images/Ikouga/scylladon_the_starbreaker.Avatar.webp
 items:
   - _id: loRF30uO3e2NCO7U
     effects: []
     flags: {}
-    img: >-
-      systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
+    img: systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg
     name: Primal Innate Spells
     sort: 100000
     type: spellcastingEntry
@@ -215,7 +210,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -234,8 +229,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Arm
     sort: 500000
     type: melee
@@ -280,7 +274,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -300,8 +294,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Constrict
     sort: 900000
     type: action
@@ -342,7 +335,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -353,8 +346,7 @@ items:
   - _id: 95k2q11INtOhFqCd
     effects: []
     flags: {}
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Double Attack
     sort: 1000000
     type: action
@@ -396,7 +388,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -415,8 +407,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Ink Cloud
     sort: 1200000
     type: action
@@ -424,26 +415,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>Scylladon emits a cloud of black, venomous ink in a
-          @Template[type:burst|distance:10] within 120 feet. This cloud has no
-          effect outside water. Creatures inside the ink cloud are exposed to
-          Scylladon Kraken Ink at the start of their turn and are
-          @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to all
-          observers. Creatures outside the Ink Cloud are also
-          @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to
-          creatures inside it. This is a visual effect, so alternative means of
-          perception are not blocked.</p><p>Creatures in the initial burst of
-          the Ink Cloud (not the lingering effect) must make a
-          @Check[type:fortitude|dc:36] save or suffer the following
-          effects:</p><p><strong>Success:</strong> The creature is unaffected by
-          the ink.</p><p><strong>Failure:</strong> The creature is
-          @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1
-          round.</p><p><strong>Critical Failure:</strong> The creature is
-          @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 3
-          rounds.</p><p>The Ink created by Scylladon's Ink Cloud ability is also
-          considered Difficult Terrain. </p><p>Scylladon can't use Ink Cloud
-          again until the start of its next turn, and the cloud dissipates after
-          1 minute.</p>"
+        value: "<p>Scylladon emits a cloud of black, venomous ink in a @Template[type:burst|distance:10] within 120 feet. This cloud has no effect outside water. Creatures inside the ink cloud are exposed to Scylladon Kraken Ink at the start of their turn and are @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to all observers. Creatures outside the Ink Cloud are also @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to creatures inside it. This is a visual effect, so alternative means of perception are not blocked.</p><p>Creatures in the initial burst of the Ink Cloud (not the lingering effect) must make a @Check[type:fortitude|dc:36] save or suffer the following effects:</p><p><strong>Success:</strong> The creature is unaffected by the ink.</p><p><strong>Failure:</strong> The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p><p><strong>Critical Failure:</strong> The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 3 rounds.</p><p>The Ink created by Scylladon's Ink Cloud ability is also considered Difficult Terrain.\_</p><p>Scylladon can't use Ink Cloud again until the start of its next turn, and the cloud dissipates after 1 minute.</p>"
       rules: []
       slug: null
       _migration:
@@ -475,7 +447,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -494,8 +466,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     name: Kraken Ink
     sort: -500000
     type: action
@@ -503,18 +474,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>Scylladon and its Tentacles are immune to this poison. The sickened
-          condition from this poison disappears on successfully reducing the
-          stage of the poison to 1. It can also be removed by retching, but is
-          reapplied when the poison deals damage if still on the respective
-          stage.</p><p><strong>Saving
-          Throw</strong> @Check[type:fortitude|dc:37] save; Maximum Duration 10
-          rounds.</p><p><strong>Stage 1</strong> @Damage[4d6[acid]] damage (1
-          round).</p><p><strong>Stage 2</strong> @Damage[5d6[acid]] damage and
-          @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1
-          round).</p><p><strong>Stage 3</strong> @Damage[6d6[acid]] damage and
-          @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1
-          round).</p>"
+        value: "<p>Scylladon and its Tentacles are immune to this poison. The sickened condition from this poison disappears on successfully reducing the stage of the poison to 1. It can also be removed by retching, but is reapplied when the poison deals damage if still on the respective stage.</p><p><strong>Saving Throw</strong>\_@Check[type:fortitude|dc:37] save; Maximum Duration 10 rounds.</p><p><strong>Stage 1</strong> @Damage[4d6[acid]] damage (1 round).</p><p><strong>Stage 2</strong> @Damage[5d6[acid]] damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 round).</p><p><strong>Stage 3</strong> @Damage[6d6[acid]] damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 round).</p>"
       rules: []
       slug: null
       _migration:
@@ -543,7 +503,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -554,8 +514,7 @@ items:
   - _id: rFT4cRD1oc9kqvWB
     name: Tentacular Surprise
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: -362500
@@ -571,10 +530,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>At the start of each of Scylladon's turns, Scylladon summons one
-          tentacle up to a maximum of six tentacles at any one time. Scylladon
-          may choose any unoccupied space in Scylladon's Lair to place a
-          tentacle. </p>"
+        value: "<p>At the start of each of Scylladon's turns, Scylladon summons one tentacle up to a maximum of six tentacles at any one time. Scylladon may choose any unoccupied space in Scylladon's Lair to place a tentacle.\_</p>"
       rules: []
       slug: null
       _migration:
@@ -602,7 +558,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -613,8 +569,7 @@ items:
   - _id: yJqaoyTvBedB734F
     name: Modification - Magical Kraken
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 300000
@@ -660,7 +615,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -671,8 +626,7 @@ items:
   - _id: JSqoHxaC0cLN94bD
     name: Magical Kraken - Whirlpool
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 0
@@ -688,20 +642,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>Scylladon creates a sphere 30-foot radius sphere of swirling water
-          within 120 feet. All creatures and unsecured objects in the area move
-          towards the center, depending on their @Check[type:reflex|dc:37]
-          saving throws. This follows the rules for <span
-          style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\
-          \">forced movement.</span> Creatures that are Grabbed by a tentacle
-          automatically critically succeed. If there’s not enough space near the
-          center of the sphere, creatures and objects nearer to the center move
-          first, and others move as far as they can without being blocked, up to
-          the amount set by their saving throw outcomes.</p><p><br />Critical
-          Success: The creature is unaffected.<br />Success: The creature moves
-          5 feet toward the center.<br />Failure: The creature moves 15 feet
-          toward the center.<br />Critical Failure: The creature moves 30 feet
-          toward the center.</p>"
+        value: "<p>Scylladon creates a sphere 30-foot radius sphere of swirling water within 120 feet. All creatures and unsecured objects in the area move towards the center, depending on their\_@Check[type:reflex|dc:37] saving throws. This follows the rules for <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">forced movement.</span> Creatures that are Grabbed by a tentacle automatically critically succeed. If there’s not enough space near the center of the sphere, creatures and objects nearer to the center move first, and others move as far as they can without being blocked, up to the amount set by their saving throw outcomes.</p><p><br />Critical Success:\_The creature is unaffected.<br />Success:\_The creature moves 5 feet toward the center.<br />Failure:\_The creature moves 15 feet toward the center.<br />Critical Failure:\_The creature moves 30 feet toward the center.</p>"
       rules: []
       slug: null
       _migration:
@@ -732,7 +673,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -743,8 +684,7 @@ items:
   - _id: 6EICEk1z4ZiNLXqv
     name: Magical Kraken - Water Jet
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 0
@@ -797,7 +737,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -808,8 +748,7 @@ items:
   - _id: AHJyKThevpzZ3heV
     name: Magical Kraken - Air Bubble
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/TwoActions.webp
+    img: systems/pf2e/assets/icons/actions/TwoActions.webp
     effects: []
     folder: null
     sort: 0
@@ -825,34 +764,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>A bubble of air 10 feet in diameter forms in an unoccupied space
-          within 120 feet. This bubble of air must form underwater and remain
-          underwater for the duration. When Scylladon first uses this ability,
-          and each time they
-          @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} it on
-          subsequent turns, Scylladon can roll the orb up to 10 feet in any
-          direction. The bubble can move through the spaces of any creatures or
-          obstacles that can fit inside it.</p><p>The bubbles collects creatures
-          it moves through, using the rules of
-          @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.zU3Ovaet4xQ5Gmvy]\
-          {Engulf}. Any Large or smaller creature whose space the bubble tries
-          to move through can attempt a @Check[type:reflex|dc:37] save to avoid
-          being engulfed. If a creature succeeds at this save, it can either let
-          the orb pass (remaining in its space or moving out of the bubble's
-          path into a space of the creature's choice) or allow itself to be
-          pushed in front of the bubble to the end of the bubble's movement. The
-          bubble can try to Engulf a creature only once per
-          turn. </p><p> </p><p>A creature that fails its save is pulled into the
-          bubble. It becomes
-          @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, moves
-          along with the orb and can breath normally. An engulfed creasture can
-          get free either by Swimming with a successful
-          @Check[type:athletics|dc:35] check or by
-          @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping}, against
-          the same DC as the Engulf. A creature that critically failed its
-          initial Reflex Save is stuck and can <strong>not</strong> attempt to
-          escape using a Swim check. The orb can contain as many creatures as
-          can fit in its space. </p>"
+        value: "<p>A bubble of air 10 feet in diameter forms in an unoccupied space within 120 feet. This bubble of air must form underwater and remain underwater for the duration. When Scylladon first uses this ability, and each time they @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} it on subsequent turns, Scylladon can roll the orb up to 10 feet in any direction. The bubble can move through the spaces of any creatures or obstacles that can fit inside it.</p><p>The bubbles collects creatures it moves through, using the rules of @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.zU3Ovaet4xQ5Gmvy]{Engulf}. Any Large or smaller creature whose space the bubble tries to move through can attempt a @Check[type:reflex|dc:37] save to avoid being engulfed. If a creature succeeds at this save, it can either let the orb pass (remaining in its space or moving out of the bubble's path into a space of the creature's choice) or allow itself to be pushed in front of the bubble to the end of the bubble's movement. The bubble can try to Engulf a creature only once per turn.\_</p><p>\_</p><p>A creature that fails its save is pulled into the bubble. It becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, moves along with the orb and can breath normally. An engulfed creasture can get free either by Swimming with a successful @Check[type:athletics|dc:35] check or by @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping}, against the same DC as the Engulf. A creature that critically failed its initial Reflex Save is stuck and can <strong>not</strong> attempt to escape using a Swim check. The orb can contain as many creatures as can fit in its space.\_</p>"
       rules: []
       slug: null
       _migration:
@@ -883,7 +795,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -894,8 +806,7 @@ items:
   - _id: ij8JDB5TbCV4uvkR
     name: Ink Jet
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -949,7 +860,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -959,8 +870,7 @@ items:
     _key: '!actors.items!gRoEmwRfOHJNf6J4.ij8JDB5TbCV4uvkR'
   - name: Modification - Shipwreck Armour
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: -100000
@@ -1028,20 +938,18 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.12.9
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1687630677591
       modifiedTime: 1687907464037
       lastModifiedBy: jKtQ3yoc8rnYa4Xt
-      compendiumSource: >-
-        Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7
+      compendiumSource: Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7
       duplicateSource: null
       exportSource: null
     _id: KYu5kjVSoAcqWQQx
     _key: '!actors.items!gRoEmwRfOHJNf6J4.KYu5kjVSoAcqWQQx'
   - name: Siege Attacker
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: -375000
@@ -1058,9 +966,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>Scylladon does double damage to objects, such as walls created
-          by <em>wall of stone</em> (but does not include shields being used to
-          Shield Block).</p>"
+        value: "<p>Scylladon does double damage to objects, such as walls created by\_<em>wall of stone</em> (but does not include shields being used to Shield Block).</p>"
       rules: []
       slug: null
       _migration:
@@ -1088,12 +994,11 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.12.9
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1687630682000
       modifiedTime: 1687630682000
       lastModifiedBy: jKtQ3yoc8rnYa4Xt
-      compendiumSource: >-
-        Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.DFT3Z9H8DKM5gGGp
+      compendiumSource: Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.DFT3Z9H8DKM5gGGp
       duplicateSource: null
       exportSource: null
     _id: 45sRYOKTy4INOgXV
@@ -1133,8 +1038,7 @@ items:
       deathNote: false
     effects: []
     _id: jB53RBwZY832VaA4
-    img: >-
-      systems/pf2e/assets/icons/default-icons/action.svg
+    img: systems/pf2e/assets/icons/default-icons/action.svg
     folder: null
     sort: -350000
     ownership:
@@ -1151,7 +1055,7 @@ items:
     _stats:
       compendiumSource: Actor.OfwDLyEIWiCFuJM6.Item.jB53RBwZY832VaA4
       duplicateSource: Actor.OfwDLyEIWiCFuJM6.Item.jB53RBwZY832VaA4
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -1212,18 +1116,19 @@ items:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.8.0
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!gRoEmwRfOHJNf6J4.zyCAbEEmUg8xeoeC'
-  - img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+  - img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Grab
     system:
       actionType:
@@ -1252,13 +1157,15 @@ items:
           system: 7.7.4
     type: action
     _stats:
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.8.0
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 1100000
@@ -1306,16 +1213,7 @@ system:
     level:
       value: 16
     blurb: ''
-    publicNotes: "<p>Scylladon is a maw-cursed Kraken that roams the waters around
-      the isles of Ikouga. Scylladon has been worshipped and feared for
-      centuries as a mythical creature. What cursed power could corrupt such a
-      powerful beast? </p>
-
-      <p> </p>
-
-      <p>Scylladon wears the hull of a shipwreck as armour. On one particularly
-      large piece, you can see scraps of a purple and blue flag covered in
-      stars.</p>"
+    publicNotes: "<p>Scylladon is a maw-cursed Kraken that roams the waters around the isles of Ikouga. Scylladon has been worshipped and feared for centuries as a mythical creature. What cursed power could corrupt such a powerful beast?\_</p>\n<p>\_</p>\n<p>Scylladon wears the hull of a shipwreck as armour. On one particularly large piece, you can see scraps of a purple and blue flag covered in stars.</p>"
     privateNotes: ''
     publication:
       title: Covalon Expeditions - Ikouga
@@ -1399,7 +1297,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 7.8.0
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1688405798526
   modifiedTime: 1768088306373
   lastModifiedBy: H9FXC8g0quO6QRgw

@@ -45,9 +45,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: -1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -62,7 +59,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -82,6 +79,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 name: Wretched Hand of Darkness (T5)
 type: npc
 img: modules/covalon/images/Middlemist/hand_scaryleft.webp
@@ -135,7 +133,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -190,7 +188,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -243,7 +241,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -299,7 +297,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -348,7 +346,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -412,7 +410,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -470,7 +468,7 @@ items:
     _stats:
       compendiumSource: Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7
       duplicateSource: Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -527,7 +525,7 @@ items:
     _stats:
       compendiumSource: Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu
       duplicateSource: Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -546,17 +544,17 @@ system:
       temp: 0
       max: 350
       details: ''
+    ac:
+      value: 38
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 100
       otherSpeeds:
         - type: fly
           value: 100
       details: Titan-bound
-    ac:
-      value: 38
-      details: ''
-    allSaves:
-      value: ''
     immunities:
       - type: death-effects
       - type: disease
@@ -639,7 +637,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405802693
   modifiedTime: 1731258488208
   lastModifiedBy: H9FXC8g0quO6QRgw

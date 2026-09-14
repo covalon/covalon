@@ -21,12 +21,9 @@ prototypeToken:
     src: modules/covalon/images/Whitespire/stonewyrm%20token%20final.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 2
     scaleY: 2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: true
@@ -70,7 +67,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -91,6 +88,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 8
 effects: []
 system:
   attributes:
@@ -245,10 +243,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.1PagXAM2GUizfPnr'
@@ -345,10 +345,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.dKhBkulE7hkDaBOI'
@@ -417,11 +419,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776101897667
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.bvcOhAUR3BHyYcqx'
@@ -471,10 +474,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.zziu60RgR2Vko3EX'
@@ -536,10 +541,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.TKZTVLerWfXgURdD'
@@ -601,15 +608,16 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.Or5viI37SXWGohng'
-  - img: >-
-      systems/pf2e/assets/icons/actions/Reaction.webp
+  - img: systems/pf2e/assets/icons/actions/Reaction.webp
     name: Reactive Strike (Earthen Spike Only)
     system:
       actionType:
@@ -642,10 +650,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: -100000
@@ -715,11 +725,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776102268770
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.fPtKCeaSkgayfAHA'
@@ -770,11 +781,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776102321982
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.gEoxaStnDV9CnjsF'
@@ -836,11 +848,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776102430574
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.83ehnKlVYuKwnwpO'
@@ -895,11 +908,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776102113205
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.E6LMTWBx9xTeBzGt'
@@ -965,11 +979,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: WhYzoVrwPaCrANkH
       modifiedTime: 1776102024802
+      createdTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.Ceb5OAhtjwW9xjWt'
@@ -1065,16 +1080,17 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!cuHSAU5WNyEtmWnr.vsXEnUPtB7kcZrPw'
   - folder: lPzcDrjGDFbzuF2r
-    img: >-
-      core/icons/tools/smithing/furnace-fire-metal-orange.webp
+    img: core/icons/tools/smithing/furnace-fire-metal-orange.webp
     name: Mythic Heat Metal
     system:
       description:
@@ -1164,10 +1180,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -1265,10 +1283,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.12.2
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _id: sq9MApGhtk78pp5P
     ownership:
       default: 0
@@ -1278,7 +1298,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1775757986608

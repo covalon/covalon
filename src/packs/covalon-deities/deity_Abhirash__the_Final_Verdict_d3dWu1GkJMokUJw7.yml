@@ -72,14 +72,14 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1781457429625
-  modifiedTime: 1781457429625
+  modifiedTime: 1789406807533
   lastModifiedBy: H9FXC8g0quO6QRgw
 ownership:
   default: 0
   H9FXC8g0quO6QRgw: 3
-sort: 0
+sort: 3400000
 _key: '!items!d3dWu1GkJMokUJw7'

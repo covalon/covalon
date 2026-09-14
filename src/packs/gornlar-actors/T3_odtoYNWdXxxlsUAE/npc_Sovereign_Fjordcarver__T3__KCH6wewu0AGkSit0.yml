@@ -66,9 +66,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -83,7 +80,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -103,6 +100,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 3
 name: Sovereign Fjordcarver (T3)
 type: npc
 img: modules/covalon/images/Gornlar/DragonImperial_Sovereign.webp
@@ -155,7 +153,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.6.8
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676916724991
       modifiedTime: 1676916724991
       lastModifiedBy: GlvvIehDY7BHTmwu
@@ -174,8 +172,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Jaws
     sort: 400000
     type: melee
@@ -223,7 +220,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -242,8 +239,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Claw
     sort: 500000
     type: melee
@@ -288,7 +284,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -307,8 +303,7 @@ items:
         LBFormulaFlag: ''
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     name: Tail
     sort: 600000
     type: melee
@@ -352,7 +347,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -415,7 +410,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -426,8 +421,7 @@ items:
   - _id: 5f91Xz8RNeMhFyI4
     name: Telekinetic Toss
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -484,7 +478,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -542,7 +536,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -601,7 +595,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -648,7 +642,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -706,7 +700,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -762,7 +756,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 7.7.4
-      coreVersion: '13.351'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: 1763940850342
       lastModifiedBy: H9FXC8g0quO6QRgw
@@ -822,7 +816,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -875,7 +869,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -931,7 +925,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -985,13 +979,15 @@ items:
         LBFormulaOverrideFlag: false
         ReplacementItemFlag: ''
     _stats:
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.3.1
       lastModifiedBy: null
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+      createdTime: null
+      modifiedTime: null
     _id: dVNI5h2oxYZu2IzY
     ownership:
       default: 0
@@ -1161,7 +1157,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 7.8.0
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1688405783873
   modifiedTime: 1765844761331
   lastModifiedBy: H9FXC8g0quO6QRgw

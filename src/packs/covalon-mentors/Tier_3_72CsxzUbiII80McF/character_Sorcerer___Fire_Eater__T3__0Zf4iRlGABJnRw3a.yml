@@ -25,12 +25,9 @@ prototypeToken:
     src: modules/covalon/images/Mentors/sorcerer_fire_eater.Avatar.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: true
@@ -64,7 +61,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -85,6 +82,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 1
 effects: []
 system:
   attributes:
@@ -285,10 +283,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -340,10 +340,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -392,10 +394,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -599,10 +603,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -729,10 +735,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 300
@@ -900,8 +908,7 @@ items:
             damageType: fire
             slug: fire
         - key: RollOption
-          option: >-
-            feature:bloodline:elemental:{item|flags.pf2e.rulesSelections.elementalBloodline.slug}
+          option: feature:bloodline:elemental:{item|flags.pf2e.rulesSelections.elementalBloodline.slug}
         - itemType: spell
           key: ItemAlteration
           mode: add
@@ -1001,8 +1008,7 @@ items:
           priority: 121
           property: description
           value:
-            - text: >-
-                PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Elemental
+            - text: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Elemental
               title: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Elemental
             - text: >-
                 @UUID[Compendium.pf2e.feat-effects.Item.3gGBZHcUFsHLJeQH]{Effect:
@@ -1022,8 +1028,7 @@ items:
           priority: 121
           property: description
           value:
-            - text: >-
-                PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Elemental
+            - text: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.Elemental
               title: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicLabel.Elemental
             - text: >-
                 @UUID[Compendium.pf2e.feat-effects.Item.3gGBZHcUFsHLJeQH]{Effect:
@@ -1075,10 +1080,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -1282,16 +1289,12 @@ items:
           mode: override
           property: description
           value:
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree
+            - text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne
+            - text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo
+            - text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree
             - divider: true
               text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.SpellSwapping
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping
+            - text: PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping
         - itemId: '{item|id}'
           key: ItemAlteration
           mode: add
@@ -1322,10 +1325,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -1399,10 +1404,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 100
@@ -1490,10 +1497,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 200
@@ -1592,10 +1601,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 400
@@ -1669,10 +1680,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -1753,10 +1766,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -1815,10 +1830,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -1857,10 +1874,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!0Zf4iRlGABJnRw3a.m66RvKMwI0wYH3gi'
@@ -1957,10 +1976,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!0Zf4iRlGABJnRw3a.a4JYI8DbtKcUck0A'
@@ -2037,10 +2058,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 100000
     flags: {}
@@ -2141,10 +2164,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!0Zf4iRlGABJnRw3a.54zHIyvPQNPlXUF3'
@@ -2254,10 +2279,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2343,10 +2370,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2433,10 +2462,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2523,10 +2554,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2659,10 +2692,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2746,10 +2781,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -2929,10 +2966,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -3023,10 +3062,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -3084,10 +3125,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -3162,10 +3205,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3232,10 +3277,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3304,10 +3351,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3380,10 +3429,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3455,10 +3506,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3531,10 +3584,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3655,10 +3710,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3725,10 +3782,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3795,10 +3854,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3882,10 +3943,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -3952,10 +4015,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4054,10 +4119,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4156,10 +4223,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4231,10 +4300,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4315,10 +4386,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4387,10 +4460,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -4463,10 +4538,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4540,10 +4617,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4609,10 +4688,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4654,8 +4735,7 @@ items:
           mode: override
           property: description
           value:
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.MagicalFortitude.{actor|class.slug}.Description
+            - text: PF2E.SpecificRule.ClassFeatures.MagicalFortitude.{actor|class.slug}.Description
         - itemId: '{item|id}'
           key: ItemAlteration
           mode: add
@@ -4688,10 +4768,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -4762,10 +4844,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -4841,8 +4925,7 @@ items:
           property: description
           value:
             - divider: true
-              text: >-
-                PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.PropellingSorcery
+              text: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.PropellingSorcery
               title: '{item|name}'
         - itemType: feat
           key: ItemAlteration
@@ -4860,8 +4943,7 @@ items:
           property: description
           value:
             - divider: true
-              text: >-
-                PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.PropellingSorcery
+              text: PF2E.SpecificRule.Sorcerer.Bloodline.BloodMagicDescription.PropellingSorcery
               title: '{item|name}'
       traits:
         rarity: common
@@ -4884,10 +4966,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -4946,10 +5030,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5004,10 +5090,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5093,10 +5181,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 300000
     flags: {}
@@ -5184,10 +5274,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5286,10 +5378,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5358,10 +5452,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 350000
     flags: {}
@@ -5450,10 +5546,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 400000
     flags: {}
@@ -5546,10 +5644,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 325000
     flags: {}
@@ -5629,10 +5729,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5726,10 +5828,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -5816,10 +5920,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -5921,10 +6027,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     ownership:
       default: 0
     _key: '!actors.items!0Zf4iRlGABJnRw3a.vKR29IryohTMyytx'
@@ -5988,10 +6096,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6170,10 +6280,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6223,10 +6335,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -6303,8 +6417,7 @@ items:
           mode: override
           property: description
           value:
-            - text: >-
-                PF2E.SpecificRule.ClassFeatures.Spellcaster.{actor|class.slug}.Expert
+            - text: PF2E.SpecificRule.ClassFeatures.Spellcaster.{actor|class.slug}.Expert
         - itemId: '{item|id}'
           key: ItemAlteration
           mode: add
@@ -6343,10 +6456,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -6403,10 +6518,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6472,10 +6589,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6549,10 +6668,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6624,10 +6745,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6689,10 +6812,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -6767,10 +6892,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 300000
     flags: {}
@@ -6847,10 +6974,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 300000
     flags: {}
@@ -6963,10 +7092,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 200000
     flags: {}
@@ -7073,10 +7204,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 400000
     flags: {}
@@ -7166,10 +7299,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 500000
     flags: {}
@@ -7290,10 +7425,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: -100000
@@ -7388,10 +7525,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -7570,10 +7709,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -7665,10 +7806,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -7746,10 +7889,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -7928,10 +8073,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     sort: 0
     flags: {}
@@ -8018,10 +8165,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -8106,10 +8255,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 7.7.3
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     effects: []
     folder: null
     sort: 0
@@ -8123,7 +8274,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.7.3
   createdTime: 1763937217434

@@ -19,12 +19,9 @@ prototypeToken:
     src: modules/covalon/images/Dragon%20Brawl/Omen%20Dragon%201-2%20BLUE.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.2
     scaleY: 1.2
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -67,7 +64,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -86,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: OAP214kI3PMkgBCd
 name: Blue Omen Dragon
 type: npc
@@ -97,17 +95,17 @@ system:
       temp: 0
       max: 230
       details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 40
       otherSpeeds:
         - type: fly
           value: 90
       details: ''
-    ac:
-      value: 33
-      details: ''
-    allSaves:
-      value: ''
     weaknesses:
       - type: mental
         value: 10
@@ -226,7 +224,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -280,7 +278,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -334,7 +332,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -388,7 +386,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -442,7 +440,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -487,7 +485,7 @@ items:
     _stats:
       compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.NcECPJpz8Y3Qd9BE
       duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.NcECPJpz8Y3Qd9BE
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -545,7 +543,7 @@ items:
     _stats:
       compendiumSource: Actor.0GjsYlVC5om6iAGk.Item.3Fn7wuVzeuI4kT5H
       duplicateSource: Actor.0GjsYlVC5om6iAGk.Item.3Fn7wuVzeuI4kT5H
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -591,7 +589,7 @@ items:
     _stats:
       compendiumSource: Actor.0GjsYlVC5om6iAGk.Item.Iv8LMCTGw5NLD5aD
       duplicateSource: Actor.0GjsYlVC5om6iAGk.Item.Iv8LMCTGw5NLD5aD
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -648,7 +646,7 @@ items:
     _stats:
       compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.I2kJG5snUvdVtlrm
       duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.I2kJG5snUvdVtlrm
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -694,7 +692,7 @@ items:
     _stats:
       compendiumSource: Actor.RrOcKB02kAr9dWVO.Item.m1wESAZSSsfNS2AF
       duplicateSource: Actor.RrOcKB02kAr9dWVO.Item.m1wESAZSSsfNS2AF
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -803,7 +801,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -814,7 +812,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.6ZIKB0151LUR19Rw
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -963,7 +961,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -984,7 +982,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

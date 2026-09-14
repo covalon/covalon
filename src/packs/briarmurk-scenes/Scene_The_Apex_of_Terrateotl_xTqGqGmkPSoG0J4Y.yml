@@ -1,20 +1,6 @@
 name: The Apex of Terrateotl
 navigation: false
 navOrder: 0
-background:
-  src: modules/covalon/images/Briarmurk/The%20Apex%20of%20Terrateotl.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: null
 thumb: worlds/covalon-moduling/assets/scenes/OZnUTM5rtwIXGwwT-thumb.webp
 width: 2400
 height: 2400
@@ -23,7 +9,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 100
@@ -35,11 +20,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -75,7 +59,6 @@ lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -97,7 +80,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.9.1
   createdTime: 1770065012011
@@ -107,5 +90,43 @@ navName: ''
 _id: xTqGqGmkPSoG0J4Y
 active: false
 sort: 0
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: The Apex of Terrateotl
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Briarmurk/The%20Apex%20of%20Terrateotl.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!xTqGqGmkPSoG0J4Y.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!xTqGqGmkPSoG0J4Y'
+templates: []

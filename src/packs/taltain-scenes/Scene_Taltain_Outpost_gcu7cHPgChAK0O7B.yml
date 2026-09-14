@@ -2,7 +2,6 @@ name: Taltain Outpost
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/taltain-scenes-gcu7cHPgChAK0O7B-thumb.webp
 width: 5120
 height: 5120
@@ -11,7 +10,6 @@ initial:
   x: 2689
   'y': 2496
   scale: 0.27
-backgroundColor: '#999999'
 grid:
   size: 200
   type: 0
@@ -58,6 +56,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.kYZMuJzK6iM3dBZq'
   - _id: Aj7csLE3M6bZhbS2
     x: 4200
@@ -92,6 +92,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.Aj7csLE3M6bZhbS2'
   - _id: cvbkVhWet2xmF1WE
     x: 4800
@@ -126,6 +128,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.cvbkVhWet2xmF1WE'
   - _id: ZOALClvocyxKPfKx
     x: 4363
@@ -160,6 +164,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.ZOALClvocyxKPfKx'
   - _id: 19Lhib3GWjEdAc4D
     x: 4752
@@ -194,6 +200,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.19Lhib3GWjEdAc4D'
   - _id: Vb71MDDWN6yZ0lJE
     x: 943
@@ -228,6 +236,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.Vb71MDDWN6yZ0lJE'
   - _id: B2oGdbjJRxY1Dp7k
     x: 471
@@ -262,6 +272,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.B2oGdbjJRxY1Dp7k'
   - _id: qleZ3G8KwCeDSoKu
     x: 2178
@@ -296,6 +308,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.qleZ3G8KwCeDSoKu'
   - _id: 6XrPf0awjPtFriNG
     x: 2317
@@ -330,6 +344,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.6XrPf0awjPtFriNG'
   - _id: U90G9w1FIDjUpbZ6
     x: 3200
@@ -364,10 +380,11 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!gcu7cHPgChAK0O7B.U90G9w1FIDjUpbZ6'
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -381,24 +398,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Taltain/Taltain%20Outpost.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405838384
   modifiedTime: 1689265715649
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -443,11 +447,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: false
   reset: 1646425998014
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 0
+levels:
+  - _id: defaultLevel0000
+    name: Taltain Outpost
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Taltain/Taltain%20Outpost.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!gcu7cHPgChAK0O7B.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!gcu7cHPgChAK0O7B'
+templates: []

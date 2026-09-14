@@ -3,20 +3,6 @@ name: Throne Room of Alatar Nova
 _id: kdq2TTg0UcBC6z83
 navigation: false
 navOrder: 0
-background:
-  src: modules/covalon/images/Alatar/alatar_throne.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: null
 thumb: modules/covalon/assets/scenes/kdq2TTg0UcBC6z83-thumb.webp
 width: 1750
 height: 1000
@@ -25,7 +11,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 50
@@ -37,11 +22,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -92,12 +76,9 @@ tokens:
       src: modules/covalon/images/Alatar/Alekin_Neutral.webp
       anchorX: 0.5
       anchorY: 0.5
-      offsetX: 0
-      offsetY: 0
       fit: contain
       scaleX: 1
       scaleY: 1
-      rotation: 0
       tint: '#ffffff'
       alphaThreshold: 0.75
     lockRotation: true
@@ -141,7 +122,7 @@ tokens:
       brightness: 0
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     occludable:
       radius: 0
     ring:
@@ -181,6 +162,8 @@ tokens:
     locked: false
     _movementHistory: []
     _regions: []
+    depth: 2
+    level: defaultLevel0000
     _key: '!scenes.tokens!kdq2TTg0UcBC6z83.NGQjYRb09CreOQs7'
 lights:
   - _id: TN9nrAilCnqYHsAw
@@ -216,6 +199,8 @@ lights:
     flags:
       levels:
         rangeTop: null
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.TN9nrAilCnqYHsAw'
   - x: 750
     'y': 250
@@ -250,6 +235,8 @@ lights:
       levels:
         rangeTop: null
     _id: ls8tkKe602Ty0yEd
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.ls8tkKe602Ty0yEd'
   - x: 1400
     'y': 250
@@ -284,6 +271,8 @@ lights:
       levels:
         rangeTop: null
     _id: 1mDYnFd6ma2g0HKM
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.1mDYnFd6ma2g0HKM'
   - x: 1700
     'y': 250
@@ -318,6 +307,8 @@ lights:
       levels:
         rangeTop: null
     _id: hvK1UwhmuIYlJ9OU
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.hvK1UwhmuIYlJ9OU'
   - x: 1400
     'y': 950
@@ -352,6 +343,8 @@ lights:
       levels:
         rangeTop: null
     _id: D5cMktM1tyOQ7jcs
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.D5cMktM1tyOQ7jcs'
   - x: 1700
     'y': 950
@@ -386,6 +379,8 @@ lights:
       levels:
         rangeTop: null
     _id: VNs5xCBlouDMvQ98
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.VNs5xCBlouDMvQ98'
   - x: 750
     'y': 950
@@ -420,6 +415,8 @@ lights:
       levels:
         rangeTop: null
     _id: bgRVT2HtNq4Qvho1
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.bgRVT2HtNq4Qvho1'
   - x: 450
     'y': 950
@@ -454,6 +451,8 @@ lights:
       levels:
         rangeTop: null
     _id: 1fQShK9y06ANAXRt
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.1fQShK9y06ANAXRt'
   - x: 1075
     'y': 125
@@ -488,11 +487,12 @@ lights:
       levels:
         rangeTop: null
     _id: eLmz2tjEpZ8P0oDI
+    levels: []
+    locked: false
     _key: '!scenes.lights!kdq2TTg0UcBC6z83.eLmz2tjEpZ8P0oDI'
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls:
   - light: 10
@@ -515,6 +515,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.8CD0Pt2xl8PjuWOi'
   - light: 10
     sight: 10
@@ -536,6 +537,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.tFb31BEOBfgeiFc7'
   - light: 10
     sight: 10
@@ -557,6 +559,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.JByMqY3MBHK0eUyM'
   - light: 10
     sight: 10
@@ -578,6 +581,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.erkd88N8yssxHvJl'
   - light: 10
     sight: 10
@@ -599,6 +603,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.xFbxb16fNIemkTuX'
   - light: 10
     sight: 10
@@ -620,6 +625,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.oqUmCKtYVHqRmVVc'
   - light: 10
     sight: 10
@@ -641,6 +647,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.ZNCy6UAE5FcFYyjp'
   - light: 10
     sight: 10
@@ -662,6 +669,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.s0CjHWZ3g3TRvlBC'
   - light: 10
     sight: 10
@@ -683,6 +691,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.ehCbSrlVNIFP2IvY'
   - light: 10
     sight: 10
@@ -704,6 +713,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.xJrDDYxp6PxUAqPE'
   - light: 10
     sight: 10
@@ -725,6 +735,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.ceA8HWNzmppobPTQ'
   - light: 10
     sight: 10
@@ -746,6 +757,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.fUHoUVsbR8atP7p2'
   - light: 10
     sight: 10
@@ -767,6 +779,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.EsR4soEKFLDd4y33'
   - light: 10
     sight: 10
@@ -788,6 +801,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.aLRb9CdkKToP7vZL'
   - light: 10
     sight: 10
@@ -809,6 +823,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.cCqflkG7IC6DfHOV'
   - light: 10
     sight: 10
@@ -830,6 +845,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.LDMOVatMSCegrStg'
   - light: 10
     sight: 10
@@ -851,6 +867,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.JqrlYUFXA7aElTRf'
   - light: 10
     sight: 10
@@ -872,6 +889,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.FSHmvtBCbx08fLgG'
   - light: 10
     sight: 10
@@ -893,6 +911,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.sA1WYrLH3kfeocMq'
   - light: 10
     sight: 10
@@ -914,6 +933,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.wA65m2sXm726Ciwv'
   - light: 10
     sight: 10
@@ -935,6 +955,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.qBtMbFfOhZTPv1dV'
   - light: 10
     sight: 10
@@ -956,6 +977,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.g7JL6NzPKuNVN4SW'
   - light: 10
     sight: 10
@@ -977,6 +999,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.KUFZcW8HARcZjjFq'
   - light: 10
     sight: 10
@@ -998,6 +1021,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.DfMt8hJWVrBuzihb'
   - light: 10
     sight: 10
@@ -1019,6 +1043,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.cb486PZq20ur7cIy'
   - light: 10
     sight: 10
@@ -1040,6 +1065,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.uWYLGwsVipwfTsjp'
   - light: 10
     sight: 10
@@ -1061,6 +1087,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.Yp8XSdEM9zppWE7Z'
   - light: 10
     sight: 10
@@ -1082,6 +1109,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.GqK1MEZlnl5QVZ6k'
   - light: 10
     sight: 10
@@ -1103,6 +1131,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.qEhKc9Npn40gT042'
   - light: 10
     sight: 10
@@ -1124,6 +1153,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.zOKanxSPNPML5oiH'
   - light: 10
     sight: 10
@@ -1145,6 +1175,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.f04EzP79478Iaobd'
   - light: 10
     sight: 10
@@ -1166,6 +1197,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.d8NTAHQnokeBxyIg'
   - light: 20
     sight: 20
@@ -1187,6 +1219,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.HPv4ITiwSRsmzyDa'
   - light: 20
     sight: 20
@@ -1208,6 +1241,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.9ThWYHixSDRQLL9C'
   - light: 20
     sight: 20
@@ -1229,6 +1263,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.5jJja1wTBdmy46IV'
   - light: 20
     sight: 20
@@ -1250,6 +1285,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.6w9fi8O7iRYUvkKE'
   - light: 20
     sight: 20
@@ -1271,6 +1307,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.tYMvfwHmZ5LdNvYk'
   - light: 20
     sight: 20
@@ -1292,6 +1329,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.N9VapvsXgoyJEt0X'
   - light: 20
     sight: 20
@@ -1313,6 +1351,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.8LbMZxnofDioULb2'
   - light: 20
     sight: 20
@@ -1334,6 +1373,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
+    levels: []
     _key: '!scenes.walls!kdq2TTg0UcBC6z83.N5DhcXbU41xD4rKS'
 playlist: null
 playlistSound: null
@@ -1365,7 +1405,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.6.3
   createdTime: 1761068452993
@@ -1377,5 +1417,43 @@ ownership:
   H9FXC8g0quO6QRgw: 3
 active: false
 sort: 0
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Throne Room of Alatar Nova
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Alatar/alatar_throne.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!kdq2TTg0UcBC6z83.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!kdq2TTg0UcBC6z83'
+templates: []

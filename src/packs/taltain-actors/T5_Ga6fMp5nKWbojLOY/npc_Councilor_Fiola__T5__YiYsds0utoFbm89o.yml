@@ -21,9 +21,6 @@ prototypeToken:
     src: modules/covalon/images/Taltain/councilor_fiola.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -69,7 +66,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   appendNumber: false
   prependAdjective: false
@@ -90,6 +87,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Fiola (T5)
 type: npc
 img: modules/covalon/images/Taltain/councilor_fiola.Token.webp
@@ -100,15 +98,15 @@ system:
       temp: 0
       max: 245
       details: ''
-    speed:
-      value: 50
-      otherSpeeds: []
-      details: ''
     ac:
       value: 24
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 50
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: poison
         exceptions: []
@@ -236,7 +234,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.7.4
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676819768968
       modifiedTime: 1676851290470
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -299,7 +297,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676819788566
       modifiedTime: 1677635490371
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -359,7 +357,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676819797172
       modifiedTime: 1677562281248
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -407,7 +405,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676819807800
       modifiedTime: 1677560644569
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -496,7 +494,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.1
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676850229981
       modifiedTime: 1677556614621
       lastModifiedBy: aNDEqRNv3n6sqn54
@@ -553,7 +551,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.7.4
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1676850780492
       modifiedTime: 1676850791966
       lastModifiedBy: NEpKBfKv6jRU1Lvu
@@ -568,7 +566,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818887420
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

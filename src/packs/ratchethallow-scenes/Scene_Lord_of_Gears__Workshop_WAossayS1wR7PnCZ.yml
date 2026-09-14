@@ -2,20 +2,6 @@ name: Lord of Gears' Workshop
 navigation: false
 navOrder: 0
 navName: ''
-background:
-  src: modules/covalon/images/Ratchethallow/TheLordOfGearsWorkshop.webp
-  scaleX: 1
-  scaleY: 1
-  offsetX: 0
-  offsetY: 0
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: 20
 thumb: modules/covalon/assets/scenes/ratchethallow-scenes-WAossayS1wR7PnCZ-thumb.webp
 width: 3000
 height: 3000
@@ -24,7 +10,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 150
@@ -55,9 +40,6 @@ tokens:
       src: modules/covalon/images/Ratchethallow/RatchetPillar.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -103,7 +85,7 @@ tokens:
       brightness: 0
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: lJX0YNfoV3KExvO9
     x: 1350
     'y': 1800
@@ -143,6 +125,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!WAossayS1wR7PnCZ.S5Ste1LIDlDHOFY5'
   - displayName: 20
     displayBars: 20
@@ -162,9 +146,6 @@ tokens:
       src: modules/covalon/images/Ratchethallow/RatchetPillar.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -210,7 +191,7 @@ tokens:
       brightness: 0
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: lJX0YNfoV3KExvO9
     x: 2850
     'y': 1800
@@ -250,6 +231,8 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!WAossayS1wR7PnCZ.j3P4AWUs76fHEFdD'
   - displayName: 20
     displayBars: 20
@@ -269,9 +252,6 @@ tokens:
       src: modules/covalon/images/Ratchethallow/RatchetPillar.webp
       scaleX: 1
       scaleY: 1
-      offsetX: 0
-      offsetY: 0
-      rotation: 0
       tint: '#ffffff'
       anchorX: 0.5
       anchorY: 0.5
@@ -317,7 +297,7 @@ tokens:
       brightness: 0
       saturation: 0
       contrast: 0
-    detectionModes: []
+    detectionModes: {}
     actorId: lJX0YNfoV3KExvO9
     x: 2100
     'y': 3000
@@ -357,11 +337,12 @@ tokens:
       disposition: false
     movementAction: null
     _movementHistory: []
+    depth: 1
+    level: defaultLevel0000
     _key: '!scenes.tokens!WAossayS1wR7PnCZ.hJ7rPPwHYForeGMt'
 lights: []
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls:
   - _id: IZyDdyJ0Nk0c85hv
@@ -384,6 +365,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.IZyDdyJ0Nk0c85hv'
   - _id: CgbQeZxjvG9dAaCp
     c:
@@ -405,6 +387,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.CgbQeZxjvG9dAaCp'
   - _id: BcK1K4rfxWdmXqQ4
     c:
@@ -426,6 +409,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.BcK1K4rfxWdmXqQ4'
   - _id: mRg9Zhb1mX3i3BsL
     c:
@@ -447,6 +431,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.mRg9Zhb1mX3i3BsL'
   - _id: GE3stY9KjuIDVPAZ
     c:
@@ -468,6 +453,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.GE3stY9KjuIDVPAZ'
   - _id: PRWWVY5J6iHPHVmf
     c:
@@ -489,6 +475,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.PRWWVY5J6iHPHVmf'
   - _id: vKRbWFSKWZG8Bmij
     c:
@@ -510,6 +497,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.vKRbWFSKWZG8Bmij'
   - _id: zEreEEi13yY00ufT
     c:
@@ -531,6 +519,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.zEreEEi13yY00ufT'
   - _id: 0iU9nhzJyDr6A6om
     c:
@@ -552,6 +541,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.0iU9nhzJyDr6A6om'
   - _id: 9uaMuqJkb6CmrspI
     c:
@@ -573,6 +563,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.9uaMuqJkb6CmrspI'
   - _id: t8DJkkmCeXvSCWpR
     c:
@@ -594,6 +585,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.t8DJkkmCeXvSCWpR'
   - _id: rbWRwQDUwDLf0cp5
     c:
@@ -615,6 +607,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.rbWRwQDUwDLf0cp5'
   - _id: dAOGk9hyQXsdxyMW
     c:
@@ -636,6 +629,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.dAOGk9hyQXsdxyMW'
   - _id: Ey6cLyVuymLeJCss
     c:
@@ -657,6 +651,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.Ey6cLyVuymLeJCss'
   - _id: 4OljkbhyBNudlYxp
     c:
@@ -678,6 +673,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.4OljkbhyBNudlYxp'
   - _id: jKInBD9OQYrPa9KA
     c:
@@ -699,6 +695,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.jKInBD9OQYrPa9KA'
   - _id: lAIo8wcUCP5CVZwn
     c:
@@ -720,6 +717,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.lAIo8wcUCP5CVZwn'
   - _id: YpwrdaRs0XHXVIa1
     c:
@@ -741,6 +739,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.YpwrdaRs0XHXVIa1'
   - _id: 6jM4a90gpqeSFmxR
     c:
@@ -762,6 +761,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.6jM4a90gpqeSFmxR'
   - _id: lsEoQSL7gdpiZhV9
     c:
@@ -783,6 +783,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.lsEoQSL7gdpiZhV9'
   - _id: KzqdcZ9BpOyJqrHV
     c:
@@ -804,6 +805,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.KzqdcZ9BpOyJqrHV'
   - _id: RUtnxGe62X5LiG2H
     c:
@@ -825,6 +827,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.RUtnxGe62X5LiG2H'
   - _id: 6FwklOgh4MQZguo9
     c:
@@ -846,6 +849,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.6FwklOgh4MQZguo9'
   - _id: E2o1Nz7HLLUgrFpn
     c:
@@ -867,6 +871,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.E2o1Nz7HLLUgrFpn'
   - _id: gptzkcsKtlPNFWIg
     c:
@@ -888,6 +893,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.gptzkcsKtlPNFWIg'
   - _id: i7z7mDhmueSr2L2v
     c:
@@ -909,6 +915,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.i7z7mDhmueSr2L2v'
   - _id: rwjO0AIyKYgp6rEC
     c:
@@ -930,6 +937,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.rwjO0AIyKYgp6rEC'
   - _id: e05fDBbbMfDO1MxZ
     c:
@@ -951,6 +959,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.e05fDBbbMfDO1MxZ'
   - _id: 0Ce3dECsNleCyhnE
     c:
@@ -972,6 +981,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!WAossayS1wR7PnCZ.0Ce3dECsNleCyhnE'
 playlist: null
 playlistSound: null
@@ -990,7 +1000,7 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1681584970970
   modifiedTime: 1690215794902
   lastModifiedBy: 03b8FhVXbluJN576
@@ -1040,11 +1050,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1681584971064
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: Lord of Gears' Workshop
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Ratchethallow/TheLordOfGearsWorkshop.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      top: 20
+      bottom: 0
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!WAossayS1wR7PnCZ.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!WAossayS1wR7PnCZ'
+templates: []

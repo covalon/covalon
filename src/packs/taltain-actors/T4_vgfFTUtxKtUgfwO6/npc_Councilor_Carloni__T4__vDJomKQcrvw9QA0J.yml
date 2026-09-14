@@ -69,9 +69,6 @@ prototypeToken:
     tint: '#ffffff'
     scaleX: 0.8
     scaleY: 0.8
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -86,7 +83,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -106,6 +103,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Councilor Carloni (T4)
 type: npc
 img: modules/covalon/images/Taltain/councilor_carloni.Token.webp
@@ -113,8 +111,7 @@ items:
   - _id: BRA0OLZFBKk70qvI
     name: Scalpel
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -163,7 +160,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -174,8 +171,7 @@ items:
   - _id: NTsjbfUnrtGt75Vj
     name: Thunder-Thrower
     type: melee
-    img: >-
-      systems/pf2e/assets/icons/default-icons/melee.svg
+    img: systems/pf2e/assets/icons/default-icons/melee.svg
     effects: []
     folder: null
     sort: 0
@@ -224,7 +220,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -235,8 +231,7 @@ items:
   - _id: WLXVo5zfxlcuo8WP
     name: Battle Graft
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 0
@@ -283,7 +278,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -294,8 +289,7 @@ items:
   - _id: SV5yWpPeodhVRB2s
     name: Ultravolt!
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/ThreeActions.webp
+    img: systems/pf2e/assets/icons/actions/ThreeActions.webp
     effects: []
     folder: null
     sort: 0
@@ -344,7 +338,7 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -402,7 +396,7 @@ items:
     _stats:
       systemId: pf2e
       systemVersion: 4.8.3
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       createdTime: 1677555583245
       modifiedTime: 1677727009833
       lastModifiedBy: aNDEqRNv3n6sqn54
@@ -423,15 +417,15 @@ system:
       temp: 0
       max: 195
       details: ''
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 28
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     adjustment: null
   initiative:
     statistic: perception
@@ -510,7 +504,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 6.6.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1676818803894
   modifiedTime: 1731258602895
   lastModifiedBy: H9FXC8g0quO6QRgw

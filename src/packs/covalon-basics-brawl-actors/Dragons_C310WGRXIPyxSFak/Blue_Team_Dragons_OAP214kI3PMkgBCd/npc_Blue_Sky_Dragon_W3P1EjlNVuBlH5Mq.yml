@@ -19,12 +19,9 @@ prototypeToken:
     src: modules/covalon/images/Dragon%20Brawl/Sky%20Dragon%201-4%20BLUE.webp
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1.4
     scaleY: 1.4
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -67,7 +64,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -86,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: OAP214kI3PMkgBCd
 name: Blue Sky Dragon
 type: npc
@@ -97,17 +95,17 @@ system:
       temp: 0
       max: 230
       details: ''
+    ac:
+      value: 33
+      details: ''
+    allSaves:
+      value: ''
     speed:
       value: 30
       otherSpeeds:
         - type: fly
           value: 120
       details: ''
-    ac:
-      value: 33
-      details: ''
-    allSaves:
-      value: ''
   initiative:
     statistic: perception
   details:
@@ -221,7 +219,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -272,7 +270,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -326,7 +324,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -377,7 +375,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -419,7 +417,7 @@ items:
     _stats:
       compendiumSource: Actor.YNVCvNZ8jorm4mr7.Item.8GuVI0hREIK9sjQW
       duplicateSource: Actor.YNVCvNZ8jorm4mr7.Item.8GuVI0hREIK9sjQW
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -437,7 +435,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -515,7 +513,7 @@ items:
     _stats:
       compendiumSource: Actor.YNVCvNZ8jorm4mr7.Item.sOt6KDS7Y34upG7G
       duplicateSource: Actor.YNVCvNZ8jorm4mr7.Item.sOt6KDS7Y34upG7G
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -533,7 +531,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -608,7 +606,7 @@ items:
     _stats:
       compendiumSource: Actor.YNVCvNZ8jorm4mr7.Item.WD4ykPiVOX7xRtgI
       duplicateSource: Actor.YNVCvNZ8jorm4mr7.Item.WD4ykPiVOX7xRtgI
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -717,7 +715,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -728,7 +726,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -809,7 +807,7 @@ items:
   - _stats:
       compendiumSource: Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -919,7 +917,7 @@ items:
     _stats:
       compendiumSource: Actor.nB0KDEW4u7cBw16j.Item.R8f6nx9jMnFB03qP
       duplicateSource: Actor.nB0KDEW4u7cBw16j.Item.R8f6nx9jMnFB03qP
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -939,7 +937,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.10.2
   createdTime: 1737838381156

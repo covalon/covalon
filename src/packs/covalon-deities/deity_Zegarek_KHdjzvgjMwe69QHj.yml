@@ -69,11 +69,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.12.2
   createdTime: 1742668568307
-  modifiedTime: 1781457429476
+  modifiedTime: 1789406807531
   lastModifiedBy: H9FXC8g0quO6QRgw
   exportSource:
     worldId: covalon
@@ -81,7 +81,7 @@ _stats:
     coreVersion: '12.331'
     systemId: pf2e
     systemVersion: 6.10.2
-sort: 0
+sort: 1600000
 ownership:
   default: 0
 _key: '!items!KHdjzvgjMwe69QHj'

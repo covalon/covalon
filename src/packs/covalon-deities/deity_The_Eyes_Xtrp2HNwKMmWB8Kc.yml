@@ -65,16 +65,16 @@ flags:
 _stats:
   systemId: pf2e
   systemVersion: 7.12.2
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1680104078883
-  modifiedTime: 1781457429476
+  modifiedTime: 1789406807533
   lastModifiedBy: H9FXC8g0quO6QRgw
   compendiumSource: Compendium.covalon.covalon-deities.Item.Xtrp2HNwKMmWB8Kc
   duplicateSource: null
   exportSource: null
 folder: null
 _id: Xtrp2HNwKMmWB8Kc
-sort: 0
+sort: 3100000
 ownership:
   default: 0
 _key: '!items!Xtrp2HNwKMmWB8Kc'

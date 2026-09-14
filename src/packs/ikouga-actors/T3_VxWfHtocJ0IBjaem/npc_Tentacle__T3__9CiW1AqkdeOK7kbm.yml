@@ -62,14 +62,10 @@ prototypeToken:
     negative: false
     priority: 0
   texture:
-    src: >-
-      modules/covalon/images/Ikouga/tentacle.Token.webp
+    src: modules/covalon/images/Ikouga/tentacle.Token.webp
     tint: '#ffffff'
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -84,7 +80,7 @@ prototypeToken:
     attenuation: 0.1
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   appendNumber: false
   prependAdjective: false
   occludable:
@@ -104,14 +100,13 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 name: Tentacle (T3)
 type: npc
-img: >-
-  modules/covalon/images/Ikouga/tentacle.Avatar.webp
+img: modules/covalon/images/Ikouga/tentacle.Avatar.webp
 items:
   - folder: 0Z6sKp3ActW2pM2e
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     name: Grapple
     system:
       actionType:
@@ -165,7 +160,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -189,8 +184,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.tv5f9HHdLnmymnkc'
   - name: Crushing Grip
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/OneAction.webp
+    img: systems/pf2e/assets/icons/actions/OneAction.webp
     effects: []
     folder: null
     sort: 200000
@@ -241,7 +235,7 @@ items:
     _stats:
       compendiumSource: Actor.zttNlCk6WPt1ctSu.Item.PXLOGGKqtC3D3yjC
       duplicateSource: Actor.zttNlCk6WPt1ctSu.Item.PXLOGGKqtC3D3yjC
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -252,8 +246,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.okegV22lEbwUoy31'
   - name: Immovable
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 200000
@@ -298,7 +291,7 @@ items:
     _stats:
       compendiumSource: Item.fde9ARUNvKD50jCh
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -309,8 +302,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.HyborxFxkpj7WELk'
   - name: Modification - Shipwreck Armour
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 350000
@@ -376,10 +368,9 @@ items:
     ownership:
       default: 0
     _stats:
-      compendiumSource: >-
-        Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7
+      compendiumSource: Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -390,8 +381,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.74BKoZJiyOSuYnf5'
   - name: Impossible Grip
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 450000
@@ -407,25 +397,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>When a creature is Grabbed by a Tentacle, that creature can
-          <strong>not</strong> attempt to Escape using the basic
-          @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} action. A
-          creature that is Restrained by a Tentacle can attempt to Escape, but a
-          successful Escape results in the creature being Grabbed, not
-          freed.</p><p>When a tentacle is brought to half HP, any creature
-          currently grabbed by it can attempt to make a single special Escape
-          check as a free action. The ally who brought the tentacle to the HP
-          threshold is considered to have taken sufficient preparation to use
-          their reaction to Aid.</p><p>Allies of a grabbed player can help them
-          escape by Shoving the grabbed player, as a grabbed player affected by
-          forced movement will break the grab as normal.</p><p>If a Tentacle has
-          a creature Grabbed, it does not lose the Grabbed condition at the end
-          of the Tentacle's next turn. It remains Grabbed until it Escapes or
-          the Tentacle is destroyed. If a Tentacle has a creature Restrained,
-          the Restrained condition is reduced to Grabbed at the end of the
-          Tentacle's next turn.</p><p data-visibility=\"gm\">You should allow
-          abilities such as Liberating Command or Freedom of Movement to allow
-          characters to Escape as normal.</p>"
+        value: "<p>When a creature is Grabbed by a Tentacle, that creature can <strong>not</strong> attempt to Escape using the basic @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} action. A creature that is Restrained by a Tentacle can attempt to Escape, but a successful Escape results in the creature being Grabbed, not freed.</p><p>When a tentacle is brought to half HP, any creature currently grabbed by it can attempt to make a single special Escape check as a free action. The ally who brought the tentacle to the HP threshold is considered to have taken sufficient preparation to use their reaction to Aid.</p><p>Allies of a grabbed player can help them escape by Shoving the grabbed player, as a grabbed player affected by forced movement will break the grab as normal.</p><p>If a Tentacle has a creature Grabbed, it does not lose the Grabbed condition at the end of the Tentacle's next turn. It remains Grabbed until it Escapes or the Tentacle is destroyed.\_If a Tentacle has a creature Restrained, the Restrained condition is reduced to Grabbed at the end of the Tentacle's next turn.</p><p data-visibility=\"gm\">You should allow abilities such as Liberating Command or Freedom of Movement to allow characters to Escape as normal.</p>"
       rules: []
       slug: null
       _migration:
@@ -453,7 +425,7 @@ items:
     _stats:
       compendiumSource: Actor.zttNlCk6WPt1ctSu.Item.MnUR5Wd1VojjjNAa
       duplicateSource: Actor.zttNlCk6WPt1ctSu.Item.MnUR5Wd1VojjjNAa
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -464,8 +436,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.Ekgw4SZbobRDV9yh'
   - name: A Greater Whole
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 550000
@@ -481,9 +452,7 @@ items:
     system:
       description:
         gm: ''
-        value: "<p>The Tentacle is connected to the Kraken. When the Tentacle dies, the
-          Kraken takes [[30]] damage. This damage is not reduced by any
-          means. </p>"
+        value: "<p>The Tentacle is connected to the Kraken. When the Tentacle dies, the Kraken takes [[30]] damage. This damage is not reduced by any means.\_</p>"
       rules: []
       slug: null
       _migration:
@@ -511,7 +480,7 @@ items:
     _stats:
       compendiumSource: Actor.zttNlCk6WPt1ctSu.Item.CRqln9CZlOwOHbJo
       duplicateSource: Actor.zttNlCk6WPt1ctSu.Item.CRqln9CZlOwOHbJo
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -522,8 +491,7 @@ items:
     _key: '!actors.items!9CiW1AqkdeOK7kbm.StGUEwVJspKjqBd0'
   - name: Independent
     type: action
-    img: >-
-      systems/pf2e/assets/icons/actions/Passive.webp
+    img: systems/pf2e/assets/icons/actions/Passive.webp
     effects: []
     folder: null
     sort: 600000
@@ -581,7 +549,7 @@ items:
     _stats:
       compendiumSource: Actor.zttNlCk6WPt1ctSu.Item.VHVtAB6vYtYv1TLi
       duplicateSource: Actor.zttNlCk6WPt1ctSu.Item.VHVtAB6vYtYv1TLi
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.6.2
       createdTime: null
@@ -696,7 +664,7 @@ system:
 _stats:
   systemId: pf2e
   systemVersion: 7.8.0
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   createdTime: 1688405798513
   modifiedTime: 1768088306373
   lastModifiedBy: H9FXC8g0quO6QRgw

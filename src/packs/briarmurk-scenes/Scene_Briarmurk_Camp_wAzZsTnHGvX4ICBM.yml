@@ -3,20 +3,6 @@ _id: wAzZsTnHGvX4ICBM
 active: false
 navigation: true
 navOrder: 0
-background:
-  src: modules/covalon/images/Briarmurk/Briarmurk%20Camp.webp
-  anchorX: 0
-  anchorY: 0
-  offsetX: 0
-  offsetY: 0
-  fit: fill
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  alphaThreshold: 0
-foreground: null
-foregroundElevation: null
 thumb: modules/covalon/assets/scenes/wAzZsTnHGvX4ICBM-thumb.webp
 width: 1250
 height: 1250
@@ -25,7 +11,6 @@ initial:
   x: null
   'y': null
   scale: null
-backgroundColor: '#999999'
 grid:
   type: 1
   size: 50
@@ -37,11 +22,10 @@ grid:
   units: ft
 tokenVision: true
 fog:
-  exploration: true
-  overlay: null
   colors:
     explored: null
     unexplored: null
+  mode: 1
 environment:
   darknessLevel: 0
   darknessLock: false
@@ -77,7 +61,6 @@ lights: []
 notes: []
 sounds: []
 regions: []
-templates: []
 tiles: []
 walls: []
 playlist: null
@@ -100,12 +83,50 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 7.8.0
   createdTime: 1765743710515
   modifiedTime: 1765896000300
   lastModifiedBy: CsHicX4uI0fz4nW6
 navName: ''
-levels: []
+levels:
+  - _id: defaultLevel0000
+    name: Briarmurk Camp
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Briarmurk/Briarmurk%20Camp.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!wAzZsTnHGvX4ICBM.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!wAzZsTnHGvX4ICBM'
+templates: []

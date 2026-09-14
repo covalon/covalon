@@ -2,7 +2,6 @@ name: The Quinate
 navigation: true
 navOrder: 0
 navName: ''
-foreground: null
 thumb: modules/covalon/assets/scenes/taltain-scenes-OfNozDEz9t1QBypZ-thumb.webp
 width: 2250
 height: 2250
@@ -11,7 +10,6 @@ initial:
   x: 1754
   'y': 1706
   scale: 0.6
-backgroundColor: '#999999'
 grid:
   size: 75
   type: 1
@@ -59,6 +57,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.Gya0SPxHj3eyMO5Y'
   - _id: qgbJuxTrejlMur89
     author: 7RtLbrlfn9D7fL4K
@@ -96,6 +95,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.qgbJuxTrejlMur89'
   - _id: upTfJl7o0PjveVwQ
     author: 7RtLbrlfn9D7fL4K
@@ -127,6 +127,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.upTfJl7o0PjveVwQ'
   - _id: Pv3R3t7chLdu9BfL
     author: 7RtLbrlfn9D7fL4K
@@ -158,6 +159,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.Pv3R3t7chLdu9BfL'
   - _id: 58oOAf3VLecu469Z
     author: 7RtLbrlfn9D7fL4K
@@ -189,6 +191,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.58oOAf3VLecu469Z'
   - _id: cH2UPkODTOrmxucR
     author: 7RtLbrlfn9D7fL4K
@@ -226,6 +229,7 @@ drawings:
     interface: true
     elevation: 0
     sort: 0
+    levels: []
     _key: '!scenes.drawings!OfNozDEz9t1QBypZ.cH2UPkODTOrmxucR'
 tokens: []
 lights:
@@ -262,6 +266,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.r7UDNn9ZFXvFU9kt'
   - _id: x46dR8qtckzPWN1c
     x: 563
@@ -296,6 +302,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.x46dR8qtckzPWN1c'
   - _id: WtIWwIVsbWgk80dy
     x: 841
@@ -330,6 +338,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.WtIWwIVsbWgk80dy'
   - _id: eL1cQFFjHxr9ejfR
     x: 1414
@@ -364,6 +374,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.eL1cQFFjHxr9ejfR'
   - _id: xYVbeHrprGM3XUzr
     x: 1694
@@ -398,6 +410,8 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.xYVbeHrprGM3XUzr'
   - _id: PuMNjkTgxM1Eu29E
     x: 1416
@@ -432,10 +446,11 @@ lights:
       core: {}
       perfect-vision: {}
     elevation: 0
+    levels: []
+    locked: false
     _key: '!scenes.lights!OfNozDEz9t1QBypZ.PuMNjkTgxM1Eu29E'
 notes: []
 sounds: []
-templates: []
 tiles: []
 walls:
   - _id: NjkzW5x5zlXwA9H5
@@ -458,6 +473,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.NjkzW5x5zlXwA9H5'
   - _id: MFJkfLQWA3L3WNp0
     c:
@@ -479,6 +495,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.MFJkfLQWA3L3WNp0'
   - _id: VSVMX4WeqIHw9MST
     c:
@@ -500,6 +517,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.VSVMX4WeqIHw9MST'
   - _id: H1ZEanpWYoGRwd5g
     c:
@@ -521,6 +539,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.H1ZEanpWYoGRwd5g'
   - _id: sJchHXdZUVSWy0Sv
     c:
@@ -542,6 +561,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.sJchHXdZUVSWy0Sv'
   - _id: 6iQnKcWsnemNcdR5
     c:
@@ -563,6 +583,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.6iQnKcWsnemNcdR5'
   - _id: hAKiVbBUbKN6gsRe
     c:
@@ -584,6 +605,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.hAKiVbBUbKN6gsRe'
   - _id: g4DkxcCCBbxkZGVS
     c:
@@ -605,6 +627,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.g4DkxcCCBbxkZGVS'
   - _id: 5yEXKMq23PgQmVSc
     c:
@@ -626,6 +649,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.5yEXKMq23PgQmVSc'
   - _id: M7R5DwjZJ54Js3TX
     c:
@@ -647,6 +671,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.M7R5DwjZJ54Js3TX'
   - _id: WKRueZHtEPqcSsAq
     c:
@@ -668,6 +693,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.WKRueZHtEPqcSsAq'
   - _id: NFOhtNFeY2GY0qM0
     c:
@@ -689,6 +715,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.NFOhtNFeY2GY0qM0'
   - _id: MNh3nNbPJY29QgQy
     c:
@@ -710,6 +737,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.MNh3nNbPJY29QgQy'
   - _id: NJvOcxkmL1zwwIDu
     c:
@@ -731,6 +759,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.NJvOcxkmL1zwwIDu'
   - _id: jyppGjSjX5PR6Sqe
     c:
@@ -752,6 +781,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.jyppGjSjX5PR6Sqe'
   - _id: OTWqVM4FHPyzFE50
     c:
@@ -773,6 +803,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.OTWqVM4FHPyzFE50'
   - _id: 2KIwzKh52AAk7V2i
     c:
@@ -794,6 +825,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.2KIwzKh52AAk7V2i'
   - _id: Q4bUP0KlaldLZ5ht
     c:
@@ -815,6 +847,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.Q4bUP0KlaldLZ5ht'
   - _id: EKlnmA5TDouivHE5
     c:
@@ -836,6 +869,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.EKlnmA5TDouivHE5'
   - _id: xcF3fviviHaxJGST
     c:
@@ -857,6 +891,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.xcF3fviviHaxJGST'
   - _id: b1vQOqD1EryRe3bu
     c:
@@ -878,6 +913,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.b1vQOqD1EryRe3bu'
   - _id: aM8QVl7MRm6P6apa
     c:
@@ -899,6 +935,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.aM8QVl7MRm6P6apa'
   - _id: BW1iTVH8k9u5XoVg
     c:
@@ -920,6 +957,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.BW1iTVH8k9u5XoVg'
   - _id: lkIUosVFuPWwjCmt
     c:
@@ -941,6 +979,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.lkIUosVFuPWwjCmt'
   - _id: ZwIm0qquye9gX8Ro
     c:
@@ -962,6 +1001,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ZwIm0qquye9gX8Ro'
   - _id: JldSFo3AnkHLmI66
     c:
@@ -983,6 +1023,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.JldSFo3AnkHLmI66'
   - _id: gF2KMUCjE2k9XCGQ
     c:
@@ -1004,6 +1045,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.gF2KMUCjE2k9XCGQ'
   - _id: YTqoOyM48DIjAYhJ
     c:
@@ -1025,6 +1067,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.YTqoOyM48DIjAYhJ'
   - _id: HsBzuzmMlOliyynD
     c:
@@ -1046,6 +1089,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.HsBzuzmMlOliyynD'
   - _id: F2wU9OnLupgzSCtB
     c:
@@ -1067,6 +1111,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.F2wU9OnLupgzSCtB'
   - _id: dyAP5Be9ut3MIhX4
     c:
@@ -1088,6 +1133,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.dyAP5Be9ut3MIhX4'
   - _id: 7RtdOcmRvm4thwMq
     c:
@@ -1109,6 +1155,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.7RtdOcmRvm4thwMq'
   - _id: gi21pSDMLz1zsI5z
     c:
@@ -1130,6 +1177,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.gi21pSDMLz1zsI5z'
   - _id: SdS0HL2as3I6n0Cj
     c:
@@ -1151,6 +1199,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.SdS0HL2as3I6n0Cj'
   - _id: 7iiUEY6pXQq8QoTJ
     c:
@@ -1172,6 +1221,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.7iiUEY6pXQq8QoTJ'
   - _id: a4wdstUwDavSnYQr
     c:
@@ -1193,6 +1243,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.a4wdstUwDavSnYQr'
   - _id: VqYh0mcO5IxpS0Qa
     c:
@@ -1214,6 +1265,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.VqYh0mcO5IxpS0Qa'
   - _id: EtcAsjzm24a7XrGG
     c:
@@ -1235,6 +1287,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.EtcAsjzm24a7XrGG'
   - _id: uKtXjFjw63ErbSPY
     c:
@@ -1256,6 +1309,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.uKtXjFjw63ErbSPY'
   - _id: PEULrlhpVUMUhx0P
     c:
@@ -1277,6 +1331,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.PEULrlhpVUMUhx0P'
   - _id: Nas7gKHxXdp7r0QY
     c:
@@ -1298,6 +1353,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.Nas7gKHxXdp7r0QY'
   - _id: qJqhkp2CUQtK9qLB
     c:
@@ -1319,6 +1375,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.qJqhkp2CUQtK9qLB'
   - _id: JuMr6y1tjaCA6lzx
     c:
@@ -1340,6 +1397,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.JuMr6y1tjaCA6lzx'
   - _id: a5dNuyIVO9HZiuln
     c:
@@ -1361,6 +1419,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.a5dNuyIVO9HZiuln'
   - _id: ribavHcbFuSleomK
     c:
@@ -1382,6 +1441,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ribavHcbFuSleomK'
   - _id: yKd1KLkwLVtPfZPM
     c:
@@ -1403,6 +1463,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.yKd1KLkwLVtPfZPM'
   - _id: HkQhoIwYkDbeWajP
     c:
@@ -1424,6 +1485,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.HkQhoIwYkDbeWajP'
   - _id: wFjmGGI8xEOdjZSM
     c:
@@ -1445,6 +1507,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.wFjmGGI8xEOdjZSM'
   - _id: tBCqMqDQWNXWG3f6
     c:
@@ -1466,6 +1529,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.tBCqMqDQWNXWG3f6'
   - _id: CHxdoFei5IqRFIzM
     c:
@@ -1487,6 +1551,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.CHxdoFei5IqRFIzM'
   - _id: pZLHL3Mbf2i7XkdM
     c:
@@ -1508,6 +1573,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.pZLHL3Mbf2i7XkdM'
   - _id: D8ZN4r4fIlALENJz
     c:
@@ -1529,6 +1595,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.D8ZN4r4fIlALENJz'
   - _id: JbJVsgprfsCxcGL1
     c:
@@ -1550,6 +1617,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.JbJVsgprfsCxcGL1'
   - _id: aiviBzG6VVMcBmHK
     c:
@@ -1571,6 +1639,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.aiviBzG6VVMcBmHK'
   - _id: 9glr9gidH4gRcFGY
     c:
@@ -1592,6 +1661,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.9glr9gidH4gRcFGY'
   - _id: RyvEx9sH6IJX1uuO
     c:
@@ -1613,6 +1683,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.RyvEx9sH6IJX1uuO'
   - _id: ePE7rLAeGbeacGQN
     c:
@@ -1634,6 +1705,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ePE7rLAeGbeacGQN'
   - _id: 9XIV8XfZf1SEVs3V
     c:
@@ -1655,6 +1727,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.9XIV8XfZf1SEVs3V'
   - _id: eNmz4Vv73TzgvOii
     c:
@@ -1676,6 +1749,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.eNmz4Vv73TzgvOii'
   - _id: olPPzzgzVA7P1gmg
     c:
@@ -1697,6 +1771,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.olPPzzgzVA7P1gmg'
   - _id: 7DPTBp4Ywdq4VfcC
     c:
@@ -1718,6 +1793,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.7DPTBp4Ywdq4VfcC'
   - _id: nBWWqS6GeMQ1zhIU
     c:
@@ -1739,6 +1815,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.nBWWqS6GeMQ1zhIU'
   - _id: SOWGK7ckFwlRgyYT
     c:
@@ -1760,6 +1837,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.SOWGK7ckFwlRgyYT'
   - _id: pySO1ICaI4jL10zQ
     c:
@@ -1781,6 +1859,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.pySO1ICaI4jL10zQ'
   - _id: 2rvzpnlBu42fiMYa
     c:
@@ -1802,6 +1881,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.2rvzpnlBu42fiMYa'
   - _id: RuO53GkwqDMgquqN
     c:
@@ -1823,6 +1903,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.RuO53GkwqDMgquqN'
   - _id: ggOHU9i7OjrY9S2Q
     c:
@@ -1844,6 +1925,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ggOHU9i7OjrY9S2Q'
   - _id: LHEojLpCJdqUYG0C
     c:
@@ -1865,6 +1947,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.LHEojLpCJdqUYG0C'
   - _id: esA9D5DxGY1i2The
     c:
@@ -1886,6 +1969,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.esA9D5DxGY1i2The'
   - _id: f8NITmZfsokjHyuP
     c:
@@ -1907,6 +1991,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.f8NITmZfsokjHyuP'
   - _id: ZCHhQgNNkGaMERoE
     c:
@@ -1928,6 +2013,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ZCHhQgNNkGaMERoE'
   - _id: GcL22SbFIveEVwNI
     c:
@@ -1949,6 +2035,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.GcL22SbFIveEVwNI'
   - _id: 343xvNAsCsLbaum8
     c:
@@ -1970,6 +2057,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.343xvNAsCsLbaum8'
   - _id: 11tcdf9cAU5JDVyi
     c:
@@ -1991,6 +2079,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.11tcdf9cAU5JDVyi'
   - _id: CJ3kiVD6B2p6zjKZ
     c:
@@ -2012,6 +2101,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.CJ3kiVD6B2p6zjKZ'
   - _id: ZmELNfByeGiGbh3e
     c:
@@ -2033,6 +2123,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.ZmELNfByeGiGbh3e'
   - _id: g3PCPig1FRe39tch
     c:
@@ -2054,6 +2145,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.g3PCPig1FRe39tch'
   - _id: YSfPTq8YryTdq5GA
     c:
@@ -2075,6 +2167,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.YSfPTq8YryTdq5GA'
   - _id: DguswIlvDvHleGcc
     c:
@@ -2096,6 +2189,7 @@ walls:
       sound: null
       attenuation: false
     animation: null
+    levels: []
     _key: '!scenes.walls!OfNozDEz9t1QBypZ.DguswIlvDvHleGcc'
 playlist: null
 playlistSound: null
@@ -2108,24 +2202,11 @@ flags:
     darknessColor: ''
     saturation: null
   core: {}
-background:
-  src: modules/covalon/images/Taltain/The%20Quinate%20Small.webp
-  offsetX: 0
-  offsetY: 0
-  scaleX: 1
-  scaleY: 1
-  rotation: 0
-  tint: '#ffffff'
-  anchorX: 0
-  anchorY: 0
-  fit: fill
-  alphaThreshold: 0
-foregroundElevation: null
 journalEntryPage: null
 _stats:
   systemId: pf2e
   systemVersion: 5.1.2
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   createdTime: 1688405838379
   modifiedTime: 1689265715649
   lastModifiedBy: pGJOYrzHQ5eIdrmI
@@ -2170,11 +2251,48 @@ environment:
     saturation: 0
     shadows: 0
 fog:
-  exploration: true
   reset: 1650590957714
-  overlay: null
   colors:
     explored: null
     unexplored: null
-levels: []
+  mode: 1
+levels:
+  - _id: defaultLevel0000
+    name: The Quinate
+    background:
+      color: '#999999'
+      src: modules/covalon/images/Taltain/The%20Quinate%20Small.webp
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    elevation:
+      bottom: 0
+      top: 20
+    foreground:
+      src: null
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    fog:
+      src: null
+    textures:
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+    visibility:
+      levels: []
+    sort: 0
+    flags: {}
+    _key: '!scenes.levels!OfNozDEz9t1QBypZ.defaultLevel0000'
+shiftX: 0
+shiftY: 0
+initialLevel: defaultLevel0000
+transition:
+  type: null
+  duration: 1500
+  activeOnly: false
 _key: '!scenes!OfNozDEz9t1QBypZ'
+templates: []

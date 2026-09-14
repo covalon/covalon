@@ -16,13 +16,9 @@ prototypeToken:
   appendNumber: false
   prependAdjective: false
   texture:
-    src: >-
-      modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
+    src: modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     tint: '#ffffff'
     anchorX: 0.5
     anchorY: 0.5
@@ -68,7 +64,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   randomImg: false
   occludable:
     radius: 0
@@ -87,6 +83,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 name: Skeleton Sorcerer Troop | Tier 5
 type: npc
 effects: []
@@ -97,15 +94,15 @@ system:
       temp: 0
       max: 240
       details: troop defenses 160/80
-    speed:
-      value: 25
-      otherSpeeds: []
-      details: ''
     ac:
       value: 33
       details: ''
     allSaves:
       value: ''
+    speed:
+      value: 25
+      otherSpeeds: []
+      details: ''
     immunities:
       - type: death-effects
         exceptions: []
@@ -208,8 +205,7 @@ system:
     rarity: common
     size:
       value: med
-img: >-
-  modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
+img: modules/covalon/images/Drifthaven/skeleton_sorcerer_troop_tier_5.Token.webp
 items:
   - flags:
       core: {}
@@ -251,7 +247,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -303,7 +299,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -352,7 +348,7 @@ items:
     _stats:
       compendiumSource: Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -406,7 +402,7 @@ items:
     _stats:
       compendiumSource: Actor.apeqQ7OCbq3BP8HO.Item.ck37LN0pcQmPLf0a
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -459,7 +455,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -511,7 +507,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -563,7 +559,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.367'
       systemId: pf2e
       systemVersion: 6.8.4
       createdTime: null
@@ -576,7 +572,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.367'
   systemId: pf2e
   systemVersion: 6.8.4
   createdTime: 1737840149390
