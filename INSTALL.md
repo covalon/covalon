@@ -4,19 +4,19 @@ This is the one-time setup guide for anyone helping maintain the Covalon Foundry
 
 If you get stuck anywhere in this guide, hit @nelizzy (Ateia) up in #pogchamp-tech-support.
 
-> **Already have the old `covalon/covalon` set up on your computer? Read this first.** The old repo is getting fully replaced by this one — same name, but a completely different history underneath. That means your existing local copy can't just "pull" its way onto the new version; trying will likely just error out or leave things in a confusing state. Instead, do this once before following the rest of the guide:
+> **Already have the old `covalon/covalon` set up on your computer?.** The old repo is getting fully replaced by this one which means your existing local copy can't just "pull" its way onto the new version. So we gotta fully replace it or else it'll cause issues.
+> 1. If you've made any specific changes to the module that _aren't_ in the live module yet, make sure to import them to keep a local copy of them.
+> 2. Fully quit Foundry VTT if it's open.
+> 3. In Foundry, delete the old `covalon` folder from your `Data/modules` folder entirely (see [section 3a](#3a-find-your-foundry-data-folder) if you're not sure where that is).
+> 4. In **GitHub Desktop**, find the old Covalon repository in the repo list (top-left dropdown), right-click it, and choose **Remove** — this only removes it from GitHub Desktop's list, it doesn't delete anything else (you already did that in step 2).
+> 5. Now you can start fresh!
 >
-> 1. Fully quit Foundry VTT if it's open.
-> 2. In Foundry, delete the old `covalon` folder from your `Data/modules` folder entirely (see [section 3a](#3a-find-your-foundry-data-folder) if you're not sure where that is). Nothing needs to be kept from it — all its content already lives in the new repo. (If you've made local edits you haven't pushed anywhere and aren't sure about, check with nelizzy before deleting.)
-> 3. In **GitHub Desktop**, find the old Covalon repository in the repo list (top-left dropdown), right-click it, and choose **Remove** — this only removes it from GitHub Desktop's list, it doesn't delete anything else (you already did that in step 2).
-> 4. Now you can start fresh!
->
-> If this is your first time setting anything up at all, ignore this box and start from the top as normal.
+> If this is your first time setting anything up at all, ignore this box.
 
 ## Contents
 
 1. [Prerequisites](#1-prerequisites)
-2. [One-time computer setup](#2-one-time-computer-setup)
+2. [Setup](#2-setup)
 3. [Getting the project files](#3-getting-the-project-files)
 4. [First-time project setup](#4-first-time-project-setup)
 
@@ -30,7 +30,7 @@ If you get stuck anywhere in this guide, hit @nelizzy (Ateia) up in #pogchamp-te
 
 ---
 
-## 2. One-time computer setup
+## 2. Setup
 
 You only need to do everything in this section once per computer. If you already installed GitHub Desktop for the old module, you can skip step 2a and jump to 2b.
 
@@ -40,7 +40,7 @@ You only need to do everything in this section once per computer. If you already
 > 
 > **Git** is the system that keeps track of every change ever made to this project — who changed what, when, and lets everyone's changes get combined together without overwriting each other. **GitHub** is just the website that hosts the project's Git history online (`github.com/covalon/covalon`), so everyone's copy can sync through it.
 > 
-> **GitHub Desktop** is a handy dandy application with buttons, not a command line — it gives you a visual way to download everyone else's latest changes ("pull"), see exactly what you've changed, and upload your own changes ("push"), without ever having to type a Git command. It also comes bundled with Git itself and with Git LFS (used below for images), so installing it covers all three.
+> **GitHub Desktop** is a handy dandy application with buttons, not a command line — it gives you a visual way to download everyone else's latest changes ("pull"), see exactly what you've changed, and upload your own changes ("push"), without ever having to type a Git command. It also comes bundled with Git and Git LFS (used below for images), so installing it covers all three.
 
 If you already installed GitHub Desktop for the old module, you can skip straight to confirming you're signed in below.
 
@@ -52,25 +52,7 @@ If you already installed GitHub Desktop for the old module, you can skip straigh
 
 If you already have GitHub Desktop installed from before, just open it and confirm you're signed in.
 
-### 2b. Confirm Git LFS is set up
-
-This project stores every image (`.png`, `.jpg`, `.webp`, etc.) through **Git LFS**, a Git extension for handling large files efficiently. GitHub Desktop installs Git LFS automatically, but it needs to be switched on once per computer.
-
-1. Open **GitHub Desktop**.
-2. Go to the menu bar: **File → Options** (Windows) or **GitHub Desktop → Preferences** (Mac).
-3. Under the **Git** tab, you'll typically see LFS already configured. If GitHub Desktop ever prompts you with something like *"This repository uses Git LFS, initialize it now?"* when you open the Covalon repo later on, click **Yes/Initialize**.
-
-You can sanity-check this later (after cloning the repo) by opening a terminal in the project folder and running:
-
-```
-git lfs install
-```
-
-It should print something like `Git LFS initialized.` — that's a good sign either way, so it's safe to run even if it's already set up.
-
-**Mac only — a one-time popup the first time you run any `git` command.** If this is the first time you've ever typed a `git` command in Terminal on this Mac, you'll get a system popup saying something like *"'git' requires the Command Line Tools. Would you like to install them now?"* This is normal and expected — click **Install**, wait for it to finish (a few minutes, needs internet), then run the `git lfs install` command again. You only ever see this once per Mac.
-
-### 2c. Install Node.js
+### 2b. Install Node.js
 
 Node.js runs the small helper scripts this project uses to convert content back and forth (the "repack"/"unpack" steps — more on those in the [main README](README.md#1-how-it-works)), and to optimize images.
 
@@ -78,7 +60,6 @@ Node.js runs the small helper scripts this project uses to convert content back 
 
 1. Open **Settings → Privacy & Security → For developers** (or search "Developer Mode" in the Start menu).
 2. Toggle **Developer Mode** on.
-
 
 **Windows and Mac:**
 
@@ -95,7 +76,7 @@ node -v
 
 You should see a version number like `v22.x.x` or higher. If you instead get an error like "command not found" or "not recognized," restart your computer and try again; if it still fails, the installer likely needs to be re-run.
 
-### 2d. Install Visual Studio Code (VS Code)
+### 2c. Install Visual Studio Code (VS Code)
 
 VS Code is a free code/text editor. You'll mostly use it for opening a terminal that's already pointed at the right folder, and occasionally peeking at a file.
 
@@ -108,7 +89,7 @@ VS Code is a free code/text editor. You'll mostly use it for opening a terminal 
 
 You now have everything installed: GitHub Desktop (+ Git + Git LFS), Node.js, and VS Code. Yippee! 🥳
 
-### 2e. Get comfortable opening a terminal in VS Code
+### 2d. Get comfortable opening a terminal in VS Code
 
 You'll be opening a terminal a lot in this guide, so it's worth getting used to it now. A "terminal" is just a text-based way to type commands instead of clicking buttons. Super handy when you get used to it!
 
@@ -139,6 +120,7 @@ Inside that `Data` folder you should see folders named `worlds`, `systems`, and 
 ### 3b. Clone the repository straight into `Data/modules`
 
 "Cloning" just means downloading a full copy of the repository, connected to GitHub so you can pull updates and push your changes.
+> It will say something like *"This repository uses Git LFS, initialize it now?"* when you load the repo. Click **Yes/Initialize**.
 
 1. Open **GitHub Desktop**.
 2. Go to **File → Clone Repository**.
@@ -148,7 +130,9 @@ Inside that `Data` folder you should see folders named `worlds`, `systems`, and 
 
 This will take a little while the first time, since it also has to download every image through Git LFS.
 
-**How to check it worked:** inside `Data/modules` you should now have a `covalon` folder, and inside *that*, files like `module.json`, `package.json`, and folders like `images`, `src`, `scripts`. Open a couple of files under `images/` — they should open as actual pictures, not tiny text files. (If they *are* tiny text files full of gibberish, see [Troubleshooting in the main README](README.md#7-troubleshooting) — that means Git LFS didn't download the real images.)
+**How to check it worked:** Inside `Data/modules` you should now have a `covalon` folder, and inside *that*, files like `module.json`, `package.json`, and folders like `images`, `src`, `scripts`. Open a couple of files under `images/` — they should open as actual pictures, not tiny text files. 
+
+(If they *are* tiny text files full of gibberish, see [Troubleshooting in the main README](README.md#7-troubleshooting) — that means Git LFS didn't download the real images.)
 
 ---
 
@@ -179,6 +163,6 @@ Now that the files are on your computer, you need to install the project's own s
 
 6. Launch **Foundry VTT** itself (the desktop app), go to **Add-on Modules**, and confirm **Covalon** appears in the list and is enabled for your world. Load your world and check that the Covalon compendiums show up with content in them.
 
-7. **Lock the module — important, don't skip this.** While you're on the **Add-on Modules** screen, right-click **Covalon** and choose **Lock Module**. Foundry occasionally shows an "Update" button next to modules when a newer version exists on GitHub (see [Making a new release](README.md#5-making-a-new-release) in the main README) — but for you, this folder *is* your Git clone, not something Foundry should manage. If you ever click that Update button, Foundry will download and overwrite the whole folder with a release build, silently wiping out your local Git history and any uncommitted work in it. Locking the module removes the Update button entirely and stops that from happening by accident. You only need to do this once — it stays locked from here on.
+7. **Lock the module — THIS IS VERY IMPORTANT, DO NOT SKIP.** While you're on the **Add-on Modules** screen, right-click **Covalon** and choose **Lock Module**. Foundry occasionally shows an "Update" button next to modules when a newer version exists on GitHub (see [Making a new release](README.md#5-making-a-new-release) in the main README) — but for you, this folder *is* your Git clone, not something Foundry should manage. If you ever click that Update button, Foundry will download and overwrite the whole folder with a release build, obliterating the development setup and any of your uncommitted work in it. Locking the module removes the Update button entirely and stops that from happening by accident. You only need to do this once — it stays locked from here on.
 
 If all that worked, you're fully set up! You don't need to repeat anything in this guide again — from here on, everything you do day to day lives in the **[main README](README.md#2-your-everyday-editing-workflow)**.
