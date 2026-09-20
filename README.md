@@ -3,7 +3,7 @@ Foundry module with compendiums for all Covalon-related resources — deities, m
 
 > **New to this project, or migrating from the old `covalon/covalon`?** Head to **[INSTALL.md](INSTALL.md)** first. It's all the one time setup steps needed to get your computer ready. Come back here once that's done; this file covers everything you'll actually use day to day. 
 
-If you get stuck anywhere, hit @nelizzy (Ateia) up in #pogchamp-tech-support. :)
+If you get stuck anywhere, hit @nelizzy (Ateia) up in #pogchamp-tech-support. 
 
 ## Contents
 
