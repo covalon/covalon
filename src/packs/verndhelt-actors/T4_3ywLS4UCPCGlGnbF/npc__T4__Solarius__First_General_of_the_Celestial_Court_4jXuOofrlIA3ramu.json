@@ -1,0 +1,1506 @@
+{
+  "_id": "4jXuOofrlIA3ramu",
+  "_key": "!actors!4jXuOofrlIA3ramu",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1690821344866,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.7.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840385175,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "3ywLS4UCPCGlGnbF",
+  "img": "modules/covalon/images/Verndhelt/Solarius_Angel_Red.webp",
+  "items": [
+    {
+      "_id": "maFVJMI5pWEFCt4x",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.maFVJMI5pWEFCt4x",
+      "_stats": {
+        "compendiumSource": "Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.S2VcdgtgiFTs8cr4",
+        "coreVersion": "14.367",
+        "createdTime": 1690874432168,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163672386,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Unyielding Blade",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "eLauopmIbzVBwsOj": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "forceful",
+            "holy",
+            "magical",
+            "reach-10",
+            "sweep",
+            "versatile-p"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "1g8wKM7AksZTwZjV",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.1g8wKM7AksZTwZjV",
+      "_stats": {
+        "compendiumSource": "Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.k9TckhI867TA8CnW",
+        "coreVersion": "14.367",
+        "createdTime": 1690874433457,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163689548,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Radiant Blast",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "HFeIZhyDCNuve3vu": {
+            "category": null,
+            "damage": "3d6+11",
+            "damageType": "spirit"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "holy",
+            "magical",
+            "range-100"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Li3xHz14r8EizmrA",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.Li3xHz14r8EizmrA",
+      "_stats": {
+        "compendiumSource": "Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.wfS6ryHPZkCDiicQ",
+        "coreVersion": "14.367",
+        "createdTime": 1690873488378,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163835460,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "\"Kneel, Interloper!\"",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within 30 feet damages Solarius.</p>\n<p><strong>Effect</strong> Solarius focuses his divine ire on a single creature, forcing them to kneel. The triggering creature must make a @Check[type:will|dc:32|basic:false] with the following effects:</p>\n<p><strong>Critical Success</strong> The triggering creature is unaffected and is immune to \"Kneel, Interloper!\" for 24 hours. </p>\n<p><strong>Success</strong> The triggering creature resists the urge to kneel, but is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. </p>\n<p><strong>Failure </strong>The triggering creature kneels in forced deference to Solarius. The creature is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Critical Failure</strong> The triggering creature prostrates themselves before Solarius' divine glory. The triggering creature is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and cannot Stand until the end of their next turn. </p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "mental",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "IhUGfYdxuhnwYARx",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.IhUGfYdxuhnwYARx",
+      "_stats": {
+        "compendiumSource": "Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.IW1kI68EuviK4dao",
+        "coreVersion": "14.367",
+        "createdTime": 1690880886124,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163848036,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Weight of Guilt",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius targets one creature within 30 feet, materialising the spiritual weight of their guilt. The creature must make a @Check[type:fortitude|dc:30|basic:false] saving throw. On a failure, the target is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} and all of their speeds are reduced by 10 feet. The creature may spend an action verbalising their guilt to lift the weight, ending the effect. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "mental",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ZH6k0WnXS7TQiCmx",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.ZH6k0WnXS7TQiCmx",
+      "_stats": {
+        "compendiumSource": "Scene.Ddzq9UWHiEDJNWbR.Token.AkAN2bIfS2x89S31.Actor.zp3IByN8WlB3O3rr.Item.qT0OPxVxPe5l1Ayg",
+        "coreVersion": "14.367",
+        "createdTime": 1690874237432,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693161296549,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Contract Usurper",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius has wrestled control of the Verndhelt Contract and is affected by its magic. While Solarius remains in control of the Contract they benefit from its effects. </p>\n<p>Solarius immediately takes control of the contract when he first enters the battlefield. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "GrmOR2zXOGwJcnqK",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.GrmOR2zXOGwJcnqK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1692194196372,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693164041946,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Invoke Radiance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 250000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius slams his sword into the ground, causing fractures of radiant energy to burst from the ground. </p><p>Non-celestial creatures within a @Template[type:emanation|distance:25] must make a @Check[type:fortitude|dc:33|basic:true] or take @Damage[7d8[spirit]] damage. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. On a critical failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round. </p><p> </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wDJz7NSNUN8p1V6J",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.wDJz7NSNUN8p1V6J",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1692544039662,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "03b8FhVXbluJN576",
+        "modifiedTime": 1692544236866,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Reactive Prowess",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius gains an additional reaction that can be used only to use \"Kneel, Interloper!\"</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "z3rQZDWQYgfFF6Iq",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.z3rQZDWQYgfFF6Iq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1692544883026,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "03b8FhVXbluJN576",
+        "modifiedTime": 1692726319701,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Swift Retribution",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius' desire to strike down that which he perceives as evil is absolute and empowering. Solarius is permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}. He may use this additional action to @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}, @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} or use Weight of Guilt</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "HT7BGdOxqVu7ES0n",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.HT7BGdOxqVu7ES0n",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1693151129214,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693164887642,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 33,
+          "value": 25
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "IOUhyINJ9d152hdz",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.IOUhyINJ9d152hdz",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki",
+        "coreVersion": "14.367",
+        "createdTime": 1693151131442,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693164483830,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/true-seeing.webp",
+      "name": "True Seeing (Constant)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": true,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You see things within 60 feet as they actually are. The GM rolls a secret counteract check against any illusion or transmutation in the area, but only for the purpose of determining whether you see through it (for instance, if the check succeeds against a polymorph spell, you can see the creature's true form, but you don't end the polymorph spell).</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 7
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "HT7BGdOxqVu7ES0n"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "true-seeing",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "revelation"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "MQGD05FWaJ6Vtmpo",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.MQGD05FWaJ6Vtmpo",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1693152794027,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163808077,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Stunning Entrance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Solarius enters initiative. </p>\n<p>Solarius bursts through the roof with the stunning radiance of the Celestial Court. All creatures other than Solarius must make a @Check[type:fortitude|dc:30|basic:true]. </p>\n<p><strong>Critical Success </strong>The creature is unaffected</p>\n<p><strong>Success </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}</p>\n<p><strong>Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds</p>\n<p><strong>Critical Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "day",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "weipJzmgZbGlLNav",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.weipJzmgZbGlLNav",
+      "_stats": {
+        "compendiumSource": "Actor.kklC5AV3sLwD2O0I.Item.Jo5xajOA6ZrIMTqO",
+        "coreVersion": "14.367",
+        "createdTime": 1693153808052,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "03b8FhVXbluJN576",
+        "modifiedTime": 1693154778051,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Eternal Warriors",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Yazeri gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t]{Improved Knockdown} on her Infernal Whip strikes. </p>\n<p> </p>\n<p>Solarius gains the @UUID[Compendium.pf2e.feats-srd.Item.dF1HR6TqyMz03o6F]{Combat Grab} feat.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wY0t4ujnXaTWmd6s",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.wY0t4ujnXaTWmd6s",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1693161333345,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693161476614,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Eternal Warriors: Combat Grab",
+      "ownership": {
+        "H9FXC8g0quO6QRgw": 3,
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You have one hand free, and your target is within reach of that hand</p>\n<hr />\n<p>You swipe at your opponent and grab at them.</p>\n<p>Make a melee Strike while keeping one hand free. If the Strike hits, you grab the target using your free hand. The creature remains @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn or until it @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}, whichever comes first.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "press"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "A2Crgy94zvWRNuQT",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.A2Crgy94zvWRNuQT",
+      "_stats": {
+        "compendiumSource": "Actor.zp3IByN8WlB3O3rr.Item.A2Crgy94zvWRNuQT",
+        "coreVersion": "14.367",
+        "createdTime": 1693161577228,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693163697957,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist of Justice",
+      "ownership": {
+        "H9FXC8g0quO6QRgw": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "WZpj7ZlkdyNzlBak": {
+            "category": null,
+            "damage": "3d4+11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "holy",
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "giGPtpcRZJqjjUdF",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.giGPtpcRZJqjjUdF",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl",
+        "coreVersion": "14.367",
+        "createdTime": 1693162466283,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1693162466283,
+        "systemId": "pf2e",
+        "systemVersion": "5.3.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/conditions/quickened.webp",
+      "name": "Quickened",
+      "ownership": {
+        "H9FXC8g0quO6QRgw": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You gain 1 additional action at the start of your turn each round. Many effects that make you quickened specify the types of actions you can use with this additional action. If you become quickened from multiple sources, you can use the extra action you've been granted for any single action allowed by any of the effects that made you quickened. Because quickened has its effect at the start of your turn, you don't immediately gain actions if you become quickened during your turn.</p>"
+        },
+        "duration": {
+          "expiry": null,
+          "unit": "unlimited",
+          "value": 0
+        },
+        "group": null,
+        "overrides": [],
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "references": {
+          "children": [],
+          "immunityFrom": [],
+          "overriddenBy": [],
+          "overrides": []
+        },
+        "rules": [],
+        "slug": "quickened",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "value": {
+          "isValued": false,
+          "value": null
+        }
+      },
+      "type": "condition"
+    },
+    {
+      "_id": "9SXNbidqDN3Ss0i8",
+      "_key": "!actors.items!4jXuOofrlIA3ramu.9SXNbidqDN3Ss0i8",
+      "_stats": {
+        "compendiumSource": "Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.nPo2LsMSRJ6JxukQ.Item.5NAlZJARTvGow0f5",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Blade of Justice",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Solarius calls upon the divine power of the Celestial Court and makes a weapon or unarmed Strike against a foe he considers to be an interloper (every enemy is an interloper). </p><p>The Strike deals an additional 3d12 spirit damage on a success.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "justice",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "damageType": "spirit",
+            "dieSize": "d12",
+            "key": "DamageDice",
+            "predicate": [
+              "justice"
+            ],
+            "selector": "strike-damage",
+            "value": {
+              "brackets": [
+                {
+                  "end": 11,
+                  "start": 1,
+                  "value": {
+                    "diceNumber": 2
+                  }
+                },
+                {
+                  "end": 14,
+                  "start": 12,
+                  "value": {
+                    "diceNumber": 3
+                  }
+                },
+                {
+                  "end": 20,
+                  "start": 15,
+                  "value": {
+                    "diceNumber": 4
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "divine",
+            "holy",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "(T4) Solarius, First General of the Celestial Court",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Solarius, First General of the Celestial Court",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Verndhelt/Solarius_Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.854,
+        "system": "6.7.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 8
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 8
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 34
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 310,
+        "temp": 0,
+        "value": 310
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "controlled"
+        },
+        {
+          "exceptions": [],
+          "type": "petrified"
+        },
+        {
+          "exceptions": [],
+          "type": "sleep"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 60
+          }
+        ],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "empyrean"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 26,
+      "senses": [
+        {
+          "acuity": "precise",
+          "range": 60,
+          "type": "truesight"
+        },
+        {
+          "type": "greater-darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 26
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 23
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 27
+      },
+      "intimidation": {
+        "base": 27
+      },
+      "religion": {
+        "base": 27
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "angel",
+        "celestial",
+        "good",
+        "holy",
+        "lawful"
+      ]
+    }
+  },
+  "type": "npc"
+}

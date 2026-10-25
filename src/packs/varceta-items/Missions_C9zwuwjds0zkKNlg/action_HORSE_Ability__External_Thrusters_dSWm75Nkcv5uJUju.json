@@ -1,0 +1,121 @@
+{
+  "_id": "dSWm75Nkcv5uJUju",
+  "_key": "!items!dSWm75Nkcv5uJUju",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1739734029787,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742091548361,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "C9zwuwjds0zkKNlg",
+  "img": "systems/pf2e/icons/spells/flame-wisp.webp",
+  "name": "HORSE Ability: External Thrusters",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p>Stride twice, then Strike against up to one enemy within reach, dealing additional Fire damage on a hit. This damage is doubled on a critical hit.</p><p>(Use External Thrusters toggle to automatically add the damage to a Strike)</p>"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day",
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "external-thrusters",
+        "toggleable": true
+      },
+      {
+        "damageType": "fire",
+        "diceNumber": {
+          "brackets": [
+            {
+              "end": 6,
+              "start": 4,
+              "value": 1
+            },
+            {
+              "end": 9,
+              "start": 7,
+              "value": 2
+            },
+            {
+              "end": 12,
+              "start": 10,
+              "value": 3
+            },
+            {
+              "start": 11,
+              "value": 4
+            }
+          ]
+        },
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "external-thrusters"
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "damageType": "fire",
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              3
+            ]
+          },
+          "external-thrusters"
+        ],
+        "selector": "strike-damage",
+        "value": 1
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    }
+  },
+  "type": "action"
+}

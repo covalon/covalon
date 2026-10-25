@@ -1,0 +1,668 @@
+{
+  "_id": "WxYioESZll8C6The",
+  "_key": "!actors!WxYioESZll8C6The",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1739725312442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "mMcmtNMgK3cpxOLU",
+  "img": "modules/covalon/images/Varceta/Reaper.webp",
+  "items": [
+    {
+      "_id": "R3VZmIi6K1HkWZIg",
+      "_key": "!actors.items!WxYioESZll8C6The.R3VZmIi6K1HkWZIg",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Reaper's Scythe",
+      "ownership": {
+        "default": 0,
+        "eOhwjmuSmnQW6tJL": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "improved-knockdown"
+          ]
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "GcrwXdI1gyN6nnit": {
+            "category": null,
+            "damage": "1d12",
+            "damageType": "cold"
+          },
+          "mgg8F660svEDlI2X": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "spirit"
+          },
+          "strikeDamageID": {
+            "category": null,
+            "damage": "2d12+18",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach",
+            "trip"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "EwKuWmcX8hwvPC8q",
+      "_key": "!actors.items!WxYioESZll8C6The.EwKuWmcX8hwvPC8q",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.LbnsT8yXchHMQT3t",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Knockdown",
+      "ownership": {
+        "default": 0,
+        "eOhwjmuSmnQW6tJL": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "improved-knockdown",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "KcxrNeFcnKYSn8Bn",
+      "_key": "!actors.items!WxYioESZll8C6The.KcxrNeFcnKYSn8Bn",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Aura of Despair",
+      "ownership": {
+        "default": 0,
+        "eOhwjmuSmnQW6tJL": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The mere presence of the Reaper causes all living creatures in their vicinity to shiver in fear. Any living creature within 30 feet of the Reaper has to make a @Check[type:will|dc:33] save the first time they are exposed to Aura of Despair.</p><p>No matter the result of the check, affected creatures are immune to Aura of Despair for 1 minute.</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} and @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} for 1 turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "level": "@actor.level",
+            "radius": 30
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "emotion",
+            "fear",
+            "mental"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "q4eR1LupiWVMlLP5",
+      "_key": "!actors.items!WxYioESZll8C6The.q4eR1LupiWVMlLP5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Reaper's Harvest",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Reaper viciously swings its scythe, reaping the souls of the damned.</p><p>It makes a Reaper's Scythe Strike against every Prone, Grabbed, or Restrained creature within its reach, not increasing its MAP until after all attacks have been resolved.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "1DPrN5dmXtGVNmwK",
+      "_key": "!actors.items!WxYioESZll8C6The.1DPrN5dmXtGVNmwK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "You Are Mine!",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within the Reaper's reach uses a Move action to Stand, or attempts to Escape from the Grabbed condition.</p><hr /><p>The Reaper attacks the triggering creature with a Reaper's Scythe Strike, interrupting the triggering action on a critical success.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Reaper (T4)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Reaper",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "src": "modules/covalon/images/Varceta/reaper%20token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.934,
+        "system": "6.7.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 4
+      },
+      "str": {
+        "mod": 9
+      },
+      "wis": {
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 31
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 294,
+        "temp": 0,
+        "value": 294
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "cold",
+          "value": 8
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "value": 25
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "fire",
+          "value": 8
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "requian",
+          "common"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [
+        {
+          "acuity": "precise",
+          "range": 60,
+          "type": "lifesense"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 26
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 26
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 27,
+        "special": []
+      },
+      "intimidation": {
+        "base": 27,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "incorporeal",
+        "monitor"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "EUxtFqlkTTeEPKzs",
+  "_key": "!items!EUxtFqlkTTeEPKzs",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1773786613483,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775757995989,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Stonewyrm Touched",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p>This adjustment can be applied to dragons, animals, beasts, elementals, or undead in Whitespire Expedition missions.</p><ul><li><p>Add the Dragon trait.</p></li><li><p>Add Darkvision.</p></li><li><p>If the creature speaks any languages, add Draconic.</p></li><li><p>Add the @UUID[Compendium.covalon.whitespire-items.Item.vgC3BXsQFeqO3fQg]{Curse of the Stonewyrm}, adjusted for tier..</p></li><li><p>The creature should act crazed, and visually look Maw influenced; purpleish eyes, purple red veins, purple red haze to any magical effects, etc.</p></li></ul><p></p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "add": [
+          "dragon"
+        ],
+        "key": "ActorTraits"
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "draconic"
+        }
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    }
+  },
+  "type": "action"
+}

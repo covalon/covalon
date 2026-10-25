@@ -1,0 +1,741 @@
+{
+  "_id": "Bmn7K9hEpCsapAy2",
+  "_key": "!actors!Bmn7K9hEpCsapAy2",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405806540,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726524501153,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "W6fUg6av9QsYT7NR",
+  "img": "modules/covalon/images/Primrose/crystal_elemental.Avatar.webp",
+  "items": [
+    {
+      "_id": "b0CZ1TMWNNWhztYK",
+      "_key": "!actors.items!Bmn7K9hEpCsapAy2.b0CZ1TMWNNWhztYK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.4.0"
+          },
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "eorzqgvjy4i68y4d2s0m": {
+            "category": null,
+            "damage": "2d12+11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-20"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "a9UivdapXwh89X3a",
+      "_key": "!actors.items!Bmn7K9hEpCsapAy2.a9UivdapXwh89X3a",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Rock",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.4.0"
+          },
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "vrkuqclzi2wsw9dm27y0": {
+            "category": null,
+            "damage": "2d12+7",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "brutal",
+            "range-increment-80"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "q0Md652kB4awIFj1",
+      "_key": "!actors.items!Bmn7K9hEpCsapAy2.q0Md652kB4awIFj1",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.4.0"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xlEh7Hz3HcY47r4R",
+      "_key": "!actors.items!Bmn7K9hEpCsapAy2.xlEh7Hz3HcY47r4R",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Tremorsense (Imprecise) 90 feet",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.4.0"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": "tremorsense",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Crystal Elemental (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 3,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "core": {
+        "priority": null
+      },
+      "monks-little-details": {
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 3,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Crystal Elemental",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Primrose/crystal_elemental.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 3
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.4.0"
+      },
+      "version": 0.932
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": -1,
+        "value": 10
+      },
+      "con": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      },
+      "dex": {
+        "min": 3,
+        "mod": -1,
+        "value": 10
+      },
+      "int": {
+        "min": 3,
+        "mod": 0,
+        "value": 10
+      },
+      "str": {
+        "min": 3,
+        "mod": 7,
+        "value": 10
+      },
+      "wis": {
+        "min": 3,
+        "mod": 3,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "check": 0,
+        "details": "",
+        "dex": 0,
+        "item": 0,
+        "min": 0,
+        "value": 32
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "flatbonushp": 0,
+      "flatbonussp": 0,
+      "hp": {
+        "details": "",
+        "max": 215,
+        "min": 0,
+        "temp": 0,
+        "tempmax": 0,
+        "value": 215
+      },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "sleep"
+        }
+      ],
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "levelbonushp": 0,
+      "levelbonussp": 0,
+      "resolve": {
+        "value": 0
+      },
+      "sp": {
+        "details": "",
+        "max": 0,
+        "min": 0,
+        "value": 0
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "special": "",
+        "value": 25
+      }
+    },
+    "currency": {
+      "cp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "pp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "ancestry": {
+        "value": ""
+      },
+      "biography": {
+        "public": "",
+        "value": ""
+      },
+      "blurb": "",
+      "class": {
+        "value": ""
+      },
+      "creatureType": "Elemental",
+      "deity": {
+        "image": "systems/pf2e/assets/sheet/deity.png",
+        "value": ""
+      },
+      "flavourText": "",
+      "heritage": {
+        "value": ""
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "languages": {
+        "details": "",
+        "value": [
+          "petran"
+        ]
+      },
+      "level": {
+        "min": 1,
+        "value": 11
+      },
+      "nethysUrl": "",
+      "privateNotes": "",
+      "publicNotes": "<p>Stubborn and ponderous, elemental avalanches are massive beings of living rock and dirt.</p>\n<hr />\n<p>Earth elementals make excellent bodyguards for adventuresome spelunkers and are ideal protectors of important subterranean locations such as vaults and treasuries.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary"
+      },
+      "recallKnowledgeText": "",
+      "sidebarText": ""
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "martial": {
+      "advanced": {
+        "rank": 0,
+        "value": 0
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0
+      },
+      "light": {
+        "rank": 0,
+        "value": 0
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0
+      },
+      "unarmored": {
+        "rank": 0,
+        "value": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 24,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 90,
+          "type": "tremorsense"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "ability": "con",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 26
+      },
+      "reflex": {
+        "ability": "dex",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "ability": "wis",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 21
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 24
+      },
+      "stealth": {
+        "base": 14
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "earth",
+        "elemental"
+      ]
+    }
+  },
+  "type": "npc"
+}

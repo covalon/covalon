@@ -1,0 +1,82 @@
+{
+  "_id": "4FoDg2ZhIsSJAbSs",
+  "_key": "!items!4FoDg2ZhIsSJAbSs",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1770064250684,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "CsHicX4uI0fz4nW6",
+    "modifiedTime": 1770064250684,
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "nNfukLcvj9CG3Zdx",
+  "img": "systems/pf2e/icons/spells/veil-of-confidence.webp",
+  "name": "The Moon's Eye Upon You",
+  "ownership": {
+    "CsHicX4uI0fz4nW6": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.953,
+        "system": "7.9.1"
+      },
+      "version": 0.954
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>You are @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}, which cannot be reduced.</p>"
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 12
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Moon's Eye",
+        "selector": [
+          "all"
+        ],
+        "type": "status",
+        "value": -1
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

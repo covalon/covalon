@@ -1,0 +1,22 @@
+{
+  "_id": "BGeVE9SpQqzhfel4",
+  "_key": "!folders!BGeVE9SpQqzhfel4",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1742091081591,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219543,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "pB4kGNoFBz6X5Nsv",
+  "name": "Tier 4",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

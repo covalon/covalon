@@ -1,0 +1,2164 @@
+{
+  "_id": "4WtqUOY2TpDrYvtU",
+  "_key": "!actors!4WtqUOY2TpDrYvtU",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1692627722553,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.307",
+      "systemId": "pf2e",
+      "systemVersion": "5.3.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840385175,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "e7f986abcdc3b3f8b5a91c2397005b5d87a95e8e",
+      "sourceId": "Actor.Nw4xQNCTRDUnwdr3"
+    }
+  },
+  "folder": "3ywLS4UCPCGlGnbF",
+  "img": "modules/covalon/images/Verndhelt/shield_archon.Avatar.webp",
+  "items": [
+    {
+      "_id": "2bECIomVCBjAE2ET",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.2bECIomVCBjAE2ET",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 27,
+          "mod": 0,
+          "value": 19
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "qc6ELk3InJa6GZ8u",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.qc6ELk3InJa6GZ8u",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/tongues.webp",
+      "name": "Tongues (Constant)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>The target can understand all words regardless of language and also speak the languages of other creatures. When in a mixed group of creatures, each time the target speaks, it can choose a creature and speak in a language that creature understands, even if the target doesn't know what language that is.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The duration is 8 hours.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 hour"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "2bECIomVCBjAE2ET"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "tongues",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "VdlSAnqSKP3luZC0",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.VdlSAnqSKP3luZC0",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/dimension-door.webp",
+      "name": "Dimension Door (At Will)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Opening a door that bypasses normal space, you instantly transport yourself and any items you're wearing and holding from your current space to a clear space within range you can see. If this would bring another creature with you-even if you're carrying it in an extradimensional container-the spell is lost.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The range increases to 1 mile. You don't need to be able to see your destination, as long as you have been there in the past and know its relative location and distance from you. You are temporarily immune for 1 hour.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "levels": {
+            "5": {
+              "range": {
+                "value": "1 mile"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "2bECIomVCBjAE2ET"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dimension-door",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "teleportation"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "BJVcneUdvXYD3P4b",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.BJVcneUdvXYD3P4b",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/shield-other.webp",
+      "name": "Shield Other",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You forge a temporary link between the target's life essence and your own. The target takes half damage from all effects that deal Hit Point damage, and you take the remainder of the damage. When you take damage through this link, you don't apply any resistances, weaknesses, or other abilities you have to that damage; you simply take that amount of damage. The spell ends if the target is ever more than 30 feet away from you. If either you or the target is reduced to 0 Hit Points, any damage from this spell is resolved and then the spell ends.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "uses": {
+            "max": 3,
+            "value": 3
+          },
+          "value": "2bECIomVCBjAE2ET"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "shield-other",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "EcKRM8FLZW0HwTUb",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.EcKRM8FLZW0HwTUb",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/message.webp",
+      "name": "Message",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You mouth words quietly, but instead of coming out of your mouth, they're transferred directly to the ears of the target. While others can't hear your words any better than if you normally mouthed them, the target can hear your words as if they were standing next to you.</p>\n<p>The target can give a brief response as a reaction, or as a free action on their next turn if they wish, but they must be able to see you and be within range to do so. If they respond, their response is delivered directly to your ear, just like the original message.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The spell's range increases to 500 feet.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "see below"
+        },
+        "heightening": {
+          "levels": {
+            "3": {
+              "range": {
+                "value": "500 feet"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "2bECIomVCBjAE2ET"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "message",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "auditory",
+            "cantrip",
+            "concentrate",
+            "illusion",
+            "linguistic",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "alzCCQuIn1PgTjD8",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.alzCCQuIn1PgTjD8",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/true-strike.webp",
+      "name": "True Strike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell Effect: True Strike}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the end of your turn"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 1,
+          "uses": {
+            "max": 3,
+            "value": 3
+          },
+          "value": "2bECIomVCBjAE2ET"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "true-strike",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "fortune"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "oyPqohzoJUH8UsHV",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.oyPqohzoJUH8UsHV",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tOhoGvmCMw4JpWcS",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/weapons/spear.webp",
+      "name": "Spear",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "spear",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 1
+        },
+        "category": "simple",
+        "containerId": null,
+        "damage": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d6",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>If a shield archon is slain, its weapon can be taken, but it fades into nothingness after 24 hours.</p>\n<p>A long metal shaft ending with a metal spike, a spear can be used one‑handed as a melee weapon and can be thrown.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "spear",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 11
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 501
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+          "value": "-"
+        },
+        "rules": [],
+        "runes": {
+          "potency": 1,
+          "property": [
+            "holy"
+          ],
+          "striking": 1
+        },
+        "size": "lg",
+        "slug": "spear",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "thrown-20"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "SB4qHGggtBKdeqj4",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.SB4qHGggtBKdeqj4",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment//armor/fullplate.webp",
+      "name": "+1 Full Plate",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "acBonus": 6,
+        "baseItem": "full-plate",
+        "bulk": {
+          "value": 4
+        },
+        "category": "heavy",
+        "checkPenalty": -3,
+        "containerId": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
+        },
+        "dexCap": 0,
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true,
+          "invested": false
+        },
+        "grade": null,
+        "group": "plate",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 5
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 190
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "rules": [],
+        "runes": {
+          "potency": 1,
+          "property": [],
+          "resilient": 0
+        },
+        "size": "lg",
+        "slug": "full-plate",
+        "speedPenalty": -10,
+        "strength": 4,
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "bulwark"
+          ]
+        }
+      },
+      "type": "armor"
+    },
+    {
+      "_id": "ezXz3Iob9w6dAvQe",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.ezXz3Iob9w6dAvQe",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.nDZX25OwoN0Imrq6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/shields/specific-shields/sturdy-shield.webp",
+      "name": "Sturdy Shield (Lesser)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "acBonus": 2,
+        "baseItem": "steel-shield",
+        "bulk": {
+          "value": 1
+        },
+        "containerId": null,
+        "description": {
+          "gm": "",
+          "value": "<p>If a shield archon is slain, its shield can be taken, but it fades into nothingness after 24 hours.</p>\n<p>With a superior design and excellent craftsmanship, this steel shield has higher Hardness than its non-magical counterparts, making it harder to break and destroy.</p>\n<p>The shield has Hardness 10, HP 80, and BT 40.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "grade": null,
+        "hardness": 10,
+        "hp": {
+          "max": 80,
+          "value": 80
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 7
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 360
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "reinforcing": 0,
+          "resilient": 0
+        },
+        "size": "lg",
+        "slug": "sturdy-shield-lesser",
+        "specific": {
+          "integrated": null,
+          "material": {
+            "grade": null,
+            "type": null
+          },
+          "runes": {
+            "reinforcing": 0
+          }
+        },
+        "speedPenalty": 0,
+        "subitems": [],
+        "traits": {
+          "integrated": null,
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "shield"
+    },
+    {
+      "_id": "kczBdJyhIgiqjlNI",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.kczBdJyhIgiqjlNI",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-effects.Item.2YgXoHvJfrDHucMr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/shields/steel-shield.webp",
+      "name": "Effect: Raise a Shield",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "badge": null,
+        "context": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
+        },
+        "duration": {
+          "expiry": "turn-start",
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "level": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "Raised Shield",
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-raise-a-shield",
+        "start": {
+          "initiative": null,
+          "value": 0
+        },
+        "tokenIcon": {
+          "show": true
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        }
+      },
+      "type": "effect"
+    },
+    {
+      "_id": "Nu3jevz0ikfeGuLs",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.Nu3jevz0ikfeGuLs",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "oyPqohzoJUH8UsHV"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Holy Striking Spear",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {},
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "holy",
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "x0anEXm5LMDe02cY",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.x0anEXm5LMDe02cY",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "tMGdCYYP6CA506om",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.tMGdCYYP6CA506om",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Morphic Hands",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A shield archon's hands can change into a <em>+1 @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{Holy} @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Striking} spear</em> and a <em>@UUID[Compendium.pf2e.equipment-srd.Item.nDZX25OwoN0Imrq6]{Lesser Sturdy Shield}</em> or back into hands.</p>\n<p>Transforming does not restore any HP to the items, and if either the weapon or shield is fully destroyed, the archon loses that hand until it receives a <em>@UUID[Compendium.pf2e.spells-srd.Item.2Vkd1IxylPceUAAF]{Regenerate}</em> spell or similar magic.</p>\n<p>If a shield archon is slain, its weapon and shield can be taken, but they fade into nothingness after 24 hours.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "target:trait:evil"
+            ],
+            "selector": "holy-striking-spear-attack",
+            "text": "PF2E.WeaponPropertyRune.holy.Note.criticalSuccess",
+            "title": "{item|name}",
+            "visibility": "gm"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "p1rNOTBScTO9LxBR",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.p1rNOTBScTO9LxBR",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "at-will-spells",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "v7vwMkZTAxAiZu1m",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.v7vwMkZTAxAiZu1m",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kakyXBG5WA8c6Zfd",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Constant Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "constant-spells",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Eng6Mv69WWeKb4Wq",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.Eng6Mv69WWeKb4Wq",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "magical",
+                  "arcane",
+                  "divine",
+                  "primal",
+                  "occult"
+                ]
+              }
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "3HPvO9ipnRupy7G0",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.3HPvO9ipnRupy7G0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Living Shield",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A shield archon's shield is the focal point of its courage and soul. It always has its shield raised without needing to @UUID[Compendium.pf2e.action-macros.Macro.4hfQEMiEOBbqelAh]{Raise a Shield}, and it can use @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{Shield Block} as a free action instead of a reaction (Hardness 10, HP 80). A shield archon can trigger its Shield Block free action when an ally within 10 feet is the target of an attack, reducing damage to that ally instead of itself but otherwise following the normal rules of Shield Block.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RKCbcbBugZzIrxdw",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.RKCbcbBugZzIrxdw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Menacing Guardian",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:30]{30 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>Enemies that start their turn in the area or enter it must attempt a @Check[type:will|dc:27] save.</p>\n<p>On a failure, they take a -1 status penalty to attack rolls, spell rolls, and damage rolls against any other target while in the aura for 24 hours or until they damage the archon, whichever comes first. On a critical failure, they can't use hostile actions against any other target while in the area for 24 hours or until they damage the archon, whichever comes first.</p>\n<p>Regardless of the result, a creature is then temporarily immune to further menacing guardian auras for 24 hours.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 30,
+            "slug": "menacing-guardian",
+            "traits": [
+              "aura",
+              "divine"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "UgyxwE6dj48w1zhM",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.UgyxwE6dj48w1zhM",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Retributive Strike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1900000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Damage Reduction</strong> 12</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.RetributiveStrike]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "retributive-strike",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "DzWzbp1qMJwPTy0T",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.DzWzbp1qMJwPTy0T",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Shield Block",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 2000000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "shield-block",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "UemgQLIDasOGrvNC",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.UemgQLIDasOGrvNC",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Archon's Door",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 2100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Once per day, if an archon sees another creature cast <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em>, it can cast an innate <em>dimension door</em> (heightened to 5th level) within 1 round to attempt to follow that creature to the maximum distance of the archon's <em>dimension door</em>.</p>\n<p>If the archon's <em>dimension door</em> has enough distance, the archon appears the same distance and direction from the creature as before either used <em>dimension door</em>.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wAPCN756UU6AV2AN",
+      "_key": "!actors.items!4WtqUOY2TpDrYvtU.wAPCN756UU6AV2AN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Courageous Switch",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 2200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When a shield archon uses its <em>@UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate}</em> innate spell, it can choose to move into the space of a willing ally it can see within range. If it does so, the ally switches places with the archon, appearing in the space the archon just vacated, as if it too had cast Dimension Door.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "(T4) Shield Archon",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Holy Raider",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Verndhelt/shield_archon.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.854,
+        "system": "6.8.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 7
+      },
+      "dex": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 2
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 31
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic"
+      },
+      "hp": {
+        "details": "",
+        "max": 125,
+        "temp": 0,
+        "value": 125
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 60
+          }
+        ],
+        "value": 30
+      },
+      "weaknesses": [
+        {
+          "type": "unholy",
+          "value": 10
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "Celestial",
+      "languages": {
+        "details": "tongues",
+        "value": [
+          "diabolic",
+          "draconic",
+          "empyrean"
+        ]
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Shield archons defend the fortresses of Heaven against fiendish incursions. They wield their spears and shields in massive formations capable of withstanding any onslaught. Beneath their armor, they are sheathed in skin of steel. Given their tremendous strength and imposing stature, shield archons are ideal guardians of the meek and are sometimes summoned to the Material Plane to ward off the attacks of great numbers of evildoers.</p>\n<hr />\n<p>Archons are guardians of Heaven and enemies of chaos and evil. They openly fight back the spread of fiends but also quietly nurture the seeds of virtue within mortals, teaching the denizens of the Material Plane how to act with honor and integrity, enact just laws, and cast off sin and temptation.</p>\n<p>Archons live in the immense seven-tiered mountain of Heaven. They manifest in the Garden at the mountain's peak from mortal souls who answer a mysterious voice. There they swear to forever serve the cause of justice and transform into their new archon forms. Intensely orderly in their metamorphosis, new archons begin as lantern archons or other lesser forms, transforming into ever-greater archons as their virtue and achievements grow. Each archon represents a particular virtue, such as hope, charity, justice, or courage, and they gain strength in the presence of mortals who exemplify this virtue. Due to their extremely lawful nature, archons sometimes find themselves at odds with azatas.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 23
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 19
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 21
+      },
+      "diplomacy": {
+        "base": 19
+      },
+      "intimidation": {
+        "base": 19
+      },
+      "religion": {
+        "base": 19
+      },
+      "survival": {
+        "base": 17
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "archon",
+        "celestial",
+        "good",
+        "holy",
+        "lawful"
+      ]
+    }
+  },
+  "type": "npc"
+}

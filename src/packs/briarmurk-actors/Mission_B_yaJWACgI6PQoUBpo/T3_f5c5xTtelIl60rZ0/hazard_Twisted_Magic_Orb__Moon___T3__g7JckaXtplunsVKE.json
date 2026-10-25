@@ -1,0 +1,480 @@
+{
+  "_id": "g7JckaXtplunsVKE",
+  "_key": "!actors!g7JckaXtplunsVKE",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1765569741864,
+    "duplicateSource": "Actor.nsm2r6toXy5rN4gy",
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175134615,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    }
+  },
+  "folder": "f5c5xTtelIl60rZ0",
+  "img": "modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Avatar.webp",
+  "items": [
+    {
+      "_id": "goXBMPcxcIARWgvk",
+      "_key": "!actors.items!g7JckaXtplunsVKE.goXBMPcxcIARWgvk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Bloody Radiance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.953,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Two hostile living creatures come within 90ft of the hazard.</p><hr /><p><strong>Effect</strong> The hazard glows brightly as it activates, blasting lances of blood red moonlight at the two triggering creatures. Those affected must do a @Check[fortitude|dc:26|basic] save. Those who fail are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (Enfeebled 2 and Clumsy 2 on a Critical Fail) This effect lasts for 10 minutes. The Hazard rolls initiative.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ra6D9KHYyIyDQKrq",
+      "_key": "!actors.items!g7JckaXtplunsVKE.ra6D9KHYyIyDQKrq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Bloody Wrath",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.953,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "fMZA2TeVxc7q4k6U": {
+            "category": null,
+            "damage": "2d6+5",
+            "damageType": "spirit"
+          },
+          "njzl4qB5iPXdjdzG": {
+            "category": null,
+            "damage": "4d4+3",
+            "damageType": "acid"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 90
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "acid",
+            "arcane",
+            "divine",
+            "spirit",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "GmB3TujnPpJYOgms",
+      "_key": "!actors.items!g7JckaXtplunsVKE.GmB3TujnPpJYOgms",
+      "_stats": {
+        "compendiumSource": "Scene.ECCc8HvV2dbWwlew.Token.BhogHvn7RnhcgISo.Actor.uamS9O8EDQsMvNWK.Item.sQI3sV2Zecat0gTS",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Item.LqnIdX6DCnFyWdTH",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T3",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.953,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "8",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "8"
+              },
+              {
+                "label": "Level 7",
+                "value": "7"
+              },
+              {
+                "label": "Level 9",
+                "value": "9"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:7"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": -1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:7"
+            ],
+            "selector": "damage",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Twisted Magic Orb (Moon) (T3)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Twisted Magic Orb (Moon)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 100000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.953,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 24
+      },
+      "emitsSound": false,
+      "hardness": 15,
+      "hp": {
+        "details": "No BT",
+        "max": 66,
+        "temp": 0,
+        "value": 66
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 18
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p><span style=\"font-size:11pt;font-family:Arial, sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"><strong style=\"font-weight:normal\" id=\"docs-internal-guid-086be5c0-7fff-773a-f58a-4a9903ae8a16\">An orb containing brilliant white light rests atop an altar.</strong></span></p>",
+      "disable": "<p>@Check[arcana|dc:28|traits:action:disable-a-device]{Arcana}, @Check[crafting|dc:28|traits:action:disable-a-device]{Crafting}, @Check[religion|dc:28|traits:action:disable-a-device]{Religion}, @Check[thievery|dc:28|traits:action:disable-a-device]{Thievery}.<br>3 Successes are required to disable this hazard. Each success reduces the number of actions in the routine by 1 (Critical Successes count as 2).</p>",
+      "isComplex": true,
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "authors": "Locke",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Covalon - Briarmurk"
+      },
+      "reset": "<p>The orb is dormant for 24 hours.</p>",
+      "routine": "<p>(3 actions) The hazard spends each of its actions on Bloody Wrath. It prioritizes the closest enemy to it that it has not already struck this round and will not strike the same create twice each round. The hazard does not increment MAP.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19
+      },
+      "reflex": {
+        "value": 13
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "arcane",
+        "divine",
+        "trap",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

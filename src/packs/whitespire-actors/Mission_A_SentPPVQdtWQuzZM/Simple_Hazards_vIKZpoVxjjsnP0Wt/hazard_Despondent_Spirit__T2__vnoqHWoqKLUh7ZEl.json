@@ -1,0 +1,379 @@
+{
+  "_id": "vnoqHWoqKLUh7ZEl",
+  "_key": "!actors!vnoqHWoqKLUh7ZEl",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "vIKZpoVxjjsnP0Wt",
+  "img": "icons/creatures/magical/spirit-undead-masked-blue.webp",
+  "items": [
+    {
+      "_id": "kNGWVkbLaC15jCqN",
+      "_key": "!actors.items!vnoqHWoqKLUh7ZEl.kNGWVkbLaC15jCqN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Share Pain",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature fails to disable the haunt, speaks to it in a language other than dwarven, or otherwise takes some action that upsets the spirit.</p><p><strong>Effect</strong> The spirit lashes out in anger, wanting to share its burden. The triggering creature (or the closest creature) must attempt a @Check[will|dc:22|traits:emotion,mental] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half of @Damage[(4d8+7)[mental]] damage.</p><p><strong>Failure</strong> The creature takes full damage and begins to sob uncontrollably. It is unable to take reactions for 1 round.</p><p><strong>Critical Failure</strong> The creature takes double damage and can't use reactions for a minute.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "mental"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "7hvTKvINBNfT7OAu",
+      "_key": "!actors.items!vnoqHWoqKLUh7ZEl.7hvTKvINBNfT7OAu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T2",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.935,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "5",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "5"
+              },
+              {
+                "label": "Level 4",
+                "value": "4"
+              },
+              {
+                "label": "Level 6",
+                "value": "6"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:4"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": -1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:6"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:6"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:4"
+            ],
+            "selector": "damage",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Despondent Spirit (T2)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Despondent Spirit",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/creatures/magical/spirit-undead-masked-blue.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>A dwarven ghost sobs quietly as it lingers over the bones of their deceased loved ones. </p>",
+      "disable": "<p>@Check[religion|dc:22|traits:action:disable-a-device]{Religion} or @Check[occultism|dc:22|traits:action:disable-a-device]{Occultism} to exorcise the spirit.</p><p>@Check[diplomacy|dc:22|traits:action:disable-a-device]{Diplomacy}, @Check[deception|dc:22|traits:action:disable-a-device]{Deception}, @Check[performance|dc:22|traits:action:disable-a-device]{Performance} or another skill (at the GM's discretion) to soothe the spirit.</p>",
+      "isComplex": false,
+      "level": {
+        "value": 5
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Covalon: Whitespire Expedition"
+      },
+      "reset": "<p>After 1 day, the spirit returns, unless the bones of their loved ones are properly buried (or some other action is taken to properly lay the spirit to rest, at the GM’s discretion). </p>",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "haunt"
+      ]
+    }
+  },
+  "type": "hazard"
+}

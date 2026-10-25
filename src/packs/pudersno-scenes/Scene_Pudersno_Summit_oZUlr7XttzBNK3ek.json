@@ -1,0 +1,2007 @@
+{
+  "_id": "oZUlr7XttzBNK3ek",
+  "_key": "!scenes!oZUlr7XttzBNK3ek",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1674597256649,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.6.8",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "03b8FhVXbluJN576",
+    "modifiedTime": 1690215725011,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "active": false,
+  "drawings": [],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {},
+    "perfect-vision": {
+      "darknessColor": "",
+      "daylightColor": "",
+      "fogRevealed": false
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1,
+    "reset": 1674597254813
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 70,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 2100,
+  "initial": {
+    "scale": null,
+    "x": null,
+    "y": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!oZUlr7XttzBNK3ek.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Pudersno/Mpeshi%20lair2%20b.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Pudersno Summit",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Pudersno Summit",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": false,
+  "notes": [],
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "padding": 0.25,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/pudersno-scenes-oZUlr7XttzBNK3ek-thumb.webp",
+  "tiles": [
+    {
+      "_id": "WM0iTAzxTs8ZGSxZ",
+      "_key": "!scenes.tiles!oZUlr7XttzBNK3ek.WM0iTAzxTs8ZGSxZ",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {
+        "perfect-vision": {
+          "lighting": ""
+        }
+      },
+      "height": 2100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Pudersno/Mpeshi%20lair%20b.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 2100,
+      "x": 560,
+      "y": 560
+    }
+  ],
+  "tokenVision": true,
+  "tokens": [
+    {
+      "_id": "XjVYwH7rYjqfVMuP",
+      "_key": "!scenes.tokens!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "mYHfLmV3AqzjnfIQ",
+      "actorLink": false,
+      "alpha": 1,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "XjVYwH7rYjqfVMuP",
+        "_key": "!scenes.tokens.delta!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [
+          {
+            "_id": "fjpsuop0jg66vui3",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fjpsuop0jg66vui3",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673487783714,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+            "name": "King's Horns",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 100000,
+            "system": {
+              "attack": {
+                "value": ""
+              },
+              "attackEffects": {
+                "custom": "",
+                "value": []
+              },
+              "bonus": {
+                "value": 33
+              },
+              "damageRolls": {
+                "HChwZViaKSQKxx6q": {
+                  "damage": "2d12+10",
+                  "damageType": "bludgeoning"
+                },
+                "eh4z0jddg1criubzyw7c": {
+                  "damage": "1d12+9",
+                  "damageType": "electricity"
+                }
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "rarity": "common",
+                "value": [
+                  "electricity",
+                  "reach-10",
+                  "versatile-p"
+                ]
+              },
+              "weaponType": {
+                "value": "melee"
+              }
+            },
+            "type": "melee"
+          },
+          {
+            "_id": "7i2lutnzetfoeoal",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.7i2lutnzetfoeoal",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673485591254,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+            "name": "Tail",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 200000,
+            "system": {
+              "attack": {
+                "value": ""
+              },
+              "attackEffects": {
+                "custom": "",
+                "value": []
+              },
+              "bonus": {
+                "value": 33
+              },
+              "damageRolls": {
+                "5e72oF643vhEnYPj": {
+                  "damage": "3d10+16",
+                  "damageType": "bludgeoning"
+                }
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "rarity": "common",
+                "value": [
+                  "agile",
+                  "reach-15"
+                ]
+              },
+              "weaponType": {
+                "value": "melee"
+              }
+            },
+            "type": "melee"
+          },
+          {
+            "_id": "Iceo8lRDkdq75Yoj",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.Iceo8lRDkdq75Yoj",
+            "_stats": {
+              "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6",
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": null,
+              "modifiedTime": null,
+              "systemId": null,
+              "systemVersion": null
+            },
+            "effects": [],
+            "flags": {
+              "core": {}
+            },
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+            "name": "Darkvision",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 300000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "interaction"
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": "darkvision",
+              "source": {
+                "value": "Pathfinder Bestiary"
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              },
+              "weapon": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "h9g99u8hu6fx5pgu",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.h9g99u8hu6fx5pgu",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674940490310,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Thunder Aura",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 400000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "defensive"
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>@Template[type:emanation|distance:20]{20 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr>\n<p>A buzzing static electricity surrounds the Mpeshi King. When a creature within the aura takes electricity damage, the damage arcs to the closest enemy of the mpeshi within the aura, dealing [[/r 2d6+3[sonic]]] sonic damage with no save. A creature can only receive arcing damage once from each attack or effect. Where two creatures are the same distance, the creature with more metal on their person is affected. Otherwise, determine targets randomly.</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": [
+                  "aura",
+                  "electricity",
+                  "primal",
+                  "magical"
+                ]
+              },
+              "trigger": {
+                "value": ""
+              },
+              "weapon": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "ysjstn1162a1nei5",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.ysjstn1162a1nei5",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673491478675,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.5"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Sleipner Breaker",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 600000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "offensive"
+              },
+              "actionType": {
+                "value": "action"
+              },
+              "actions": {
+                "value": 2
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>The king mpeshi becomes lightning and leaps up to 40 feet in any direction, including straight up. The mpeshi makes up to two horn Strikes at any point during this leap to any two seperate targets. This does not have the Move trait and the Mpeshi King can move through enemies without being impeded.</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              },
+              "weapon": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "g9wmcilhs6jr9xln",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.g9wmcilhs6jr9xln",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673485150805,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "King of the Clouds",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 700000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "offensive"
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>The mpeshi king can tread on air as though on solid ground. If the mpeshi king were to fall, it can be supported by the air under it if it choses. </p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              },
+              "weapon": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "30656b6fplm9fszk",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.30656b6fplm9fszk",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673484711135,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/default-icons/lore.svg",
+            "name": "Athletics",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 800000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "mod": {
+                "value": 36
+              },
+              "proficient": {
+                "value": 0
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              }
+            },
+            "type": "lore"
+          },
+          {
+            "_id": "yqssnlu9o3i96q2j",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.yqssnlu9o3i96q2j",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673484711135,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/default-icons/lore.svg",
+            "name": "Nature",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 900000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "mod": {
+                "value": 33
+              },
+              "proficient": {
+                "value": 0
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              }
+            },
+            "type": "lore"
+          },
+          {
+            "_id": "d1npcgbaip9169u7",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.d1npcgbaip9169u7",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": null,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673484711135,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/assets/icons/default-icons/lore.svg",
+            "name": "Stealth",
+            "ownership": {
+              "default": 0
+            },
+            "sort": 1000000,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "mod": {
+                "value": 30
+              },
+              "proficient": {
+                "value": 0
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              }
+            },
+            "type": "lore"
+          },
+          {
+            "_id": "L34laV9qUem4eAeW",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.L34laV9qUem4eAeW",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1673484730078,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673484905128,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.3"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Acrobatics",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "description": {
+                "gm": "",
+                "value": ""
+              },
+              "mod": {
+                "value": 30
+              },
+              "proficient": {
+                "value": 0
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              }
+            },
+            "type": "lore"
+          },
+          {
+            "_id": "9uINer4k92JPXNw8",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.9uINer4k92JPXNw8",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1673485785668,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674940475233,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Modification - Baaah of Ages",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "offensive"
+              },
+              "actionType": {
+                "value": "action"
+              },
+              "actions": {
+                "value": 2
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">A shockingly cold breath pushes out of the King, affecting all creatures in a 100 ft line originating from the King with a (@Check[type:reflex|dc:38|basic:false] save).</span></p>\n<p>The breath deals [[/r (10d10)[cold]]] cold and [[/r (10d10)[electricity]]] electricity damage. </p>\n<p>Mepeshi King cannot use Baaah of Ages again for [[/r 1d3]] rounds.</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": [
+                  "cold",
+                  "electricity",
+                  "primal",
+                  "magical"
+                ]
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "3lUN2BtWmqmAKrBI",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.3lUN2BtWmqmAKrBI",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1673487007046,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "7RtLbrlfn9D7fL4K",
+              "modifiedTime": 1674204183685,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Modification - Summon the Mpeshi",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": ""
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>Use the Horned Glyph hazard. It rolls it's own initiative. </p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "2CZS4OL73JjPrztQ",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.2CZS4OL73JjPrztQ",
+            "_stats": {
+              "compendiumSource": "Scene.VOGOvSrf593I8j55.Token.XjVYwH7rYjqfVMuP.Item.2CZS4OL73JjPrztQ",
+              "coreVersion": "14.367",
+              "createdTime": 1673490432336,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674923421099,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {
+              "core": {}
+            },
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Long Live the King",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "defensive"
+              },
+              "actionType": {
+                "value": "reaction"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p><strong>Trigger</strong> The Mpeshi King would take damage.</p>\n<p><strong>Requirements&nbsp;</strong>A goat guard or goat swarm is within 30 ft of the Mpeshi King.</p>\n<p>A goat guard leaps in the way of the incoming damage and takes all of the damage instead of the Mpeshi King.&nbsp;</p>\n<p>Or a single goat from the goat swarm will leap in the way of the incoming damage instead of the Mpeshi King. The swarm takes damage equal to the triggering effect to represent the goat loss. This loss of hp to the swarm can't be blocked in any way.&nbsp;</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "nHoIx01Ue8B7i45q",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.nHoIx01Ue8B7i45q",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1673490903448,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673491034578,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.5"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Tail of Opportunity",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "offensive"
+              },
+              "actionType": {
+                "value": "reaction"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p><strong>Trigger</strong> A creature within your reach uses a <a href=\"https://2e.aonprd.com/Traits.aspx?ID=104\">manipulate</a> action or a <a href=\"https://2e.aonprd.com/Traits.aspx?ID=114\">move</a> action, makes a ranged attack, or leaves a square during a move action it’s using.</p>\n<p>Make a melee Tail Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you <a href=\"https://2e.aonprd.com/Rules.aspx?ID=394\">disrupt</a> that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike. </p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "WTgn6vSM1XdQMaq6",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.WTgn6vSM1XdQMaq6",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1673491038205,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1673491176678,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.5"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Royal Decree",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": ""
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>The Mpeshi King gains an extra reaction each turn that it can only use for Long Live the King.</p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T20:42:30.423-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": 0.813,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "aVhMdE80gQtYihOx",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.aVhMdE80gQtYihOx",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1674191129092,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674425519821,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {
+              "scene-packer": {
+                "hash": "d8664ad5f7308f0840b3fe92fb82ff456880f8ac"
+              }
+            },
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/FreeAction.webp",
+            "name": "Second Crucible of Capra Rex",
+            "ownership": {
+              "7RtLbrlfn9D7fL4K": 3,
+              "default": 0
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": ""
+              },
+              "actionType": {
+                "value": "free"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p><strong>Trigger&nbsp;</strong>Mpeshi King is reduced to half HP or less.</p>\n<p><strong>Frequency&nbsp;</strong>once per day</p>\n<p><strong>Special&nbsp;</strong>The Mpeshi King can use this ability even if he is afflicted with conditions that would normally prevent him from acting (such as stunned).</p>\n<hr>\n<p>With an ear-shattering \"baa!,\" the Mpeshi King launches himself into the sky, rupturing the ground beneath him. The Mpeshi King temporarily leaves the battle; adjust his position in initiative to directly before the current turn. All creatures touching the ground must attempt a <span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">@Check[type:reflex|dc:33|basic:false] save), falling prone on a failure. As a result of the ground rupturing, blue metal shards fly out of the ground, including a large piece of blue metal about the size of a club.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">At the beginning of his next turn, the Mpeshi King slams from the sky into the square containing the blue metal club. The explosion deals [[/r (18d6)[electricity]]] electricity damage to all creatures in the encounter with a @Check[type:reflex|dc:33|basic:true] save, and any creatures within 30 feet of the explosion treats their save as one degree worse. Lastly, a massive crater is created as a result of the impact; the floor of the arena descends 100 feet and all creatures touching the ground (except for the Mpeshi King) slide down the rubble dealing [[/r (25)[bludgeoning]]] damage and they become prone. This is not a fall, and flying creatures remain 100 feet above the new ground level. Afterwards, the Mpeshi King takes his turn as normal.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">If a creature is holding the metal club when the Mpeshi King returns to the battlefield, Mpeshi King aims at that player's square instead. The player can use a reaction to attempt to deflect the Mpeshi King with the club by succeeding at a @Check[type:athletics|dc:42|basic:false] check or succeeding at an attack roll against the Mpeshi King's AC (treat the club as a simple weapon in the club weapon group for the purposes of determining proficiency). If the deflection fails, the Mpeshi King slams into the ground as normal, centered on the player holding the club. If the deflection succeeds, the Mpeshi King is instead launched into a nearby mountain, crashing into it in a crackling explosion of electricity. If this occurs, the Mpeshi King loses hit points equal to half of its remaining hit points, and must use Sleipner Breaker as its first action on its turn in order to return to the battlefield, ignoring the normal leap distance of the ability.</span></p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-19T21:05:29.082-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": null,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": []
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "vDMXl4IUKDxWbk6S",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.vDMXl4IUKDxWbk6S",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1674204129881,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674940526954,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {
+              "scene-packer": {
+                "hash": "fe011d8bbffc3f50436bb53317d4374b8c514fe1"
+              }
+            },
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Modification - You're Gonna Have a Baaad Time",
+            "ownership": {
+              "7RtLbrlfn9D7fL4K": 3,
+              "default": 0
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": ""
+              },
+              "actionType": {
+                "value": "passive"
+              },
+              "actions": {
+                "value": null
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>Whenever a creature critically fails an attempt to take a hostile action against the Mpeshi King, or when the Mpeshi King critically succeeds on a save against a hostile effect originating from a creature, the creature that attempted the action or created the effect must attempt a @Check[type:will|dc:38|basic:false] save.</p>\n<p> </p>\n<p><strong>Critical Success </strong>The creature is unaffected.</p>\n<p><strong>Success </strong>The creature begins to feel sheepish about fighting. They take a -1 status penalty to all checks and DCs until the beginning of their next turn.</p>\n<p><strong>Failure </strong>For a moment, the creature believes that they are actually a goat instead of a heroic adventurer. They drop any items they are currently holding. Until the end of their current turn, they can only perform basic actions (such as a Stride or Step), and they can't perform any actions with the manipulate or linguistic traits. At the end of their turn, they suffer the same effects as are listed in the success entry.</p>\n<p><strong>Critical Failure</strong> The creature so strongly believes that they are actually a goat that they momentarily transform into one. As failure, but the effect lasts until the end of their next turn, and they also physically transform into a goat (this does not change their statistics aside from the penalty listed in the success entry).</p>\n<div data-visibility=\"gm\">\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">As this is a polymorph effect, it can only affect creatures who are already under a polymorph effect by counteracting the existing one. Its counteract modifier is +30. [[/r 1d20+30]]</span></p>\n</div>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-20T00:42:09.870-08:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": null,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": [
+                  "beast",
+                  "polymorph",
+                  "primal",
+                  "magical"
+                ]
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          },
+          {
+            "_id": "fbhuOlH3MtahMSaI",
+            "_key": "!scenes.tokens.delta.items!oZUlr7XttzBNK3ek.XjVYwH7rYjqfVMuP.XjVYwH7rYjqfVMuP.fbhuOlH3MtahMSaI",
+            "_stats": {
+              "compendiumSource": null,
+              "coreVersion": "14.367",
+              "createdTime": 1674940332504,
+              "duplicateSource": null,
+              "exportSource": null,
+              "lastModifiedBy": "hcWh9kuYosSIErIR",
+              "modifiedTime": 1674940417438,
+              "systemId": "pf2e",
+              "systemVersion": "4.6.8"
+            },
+            "effects": [],
+            "flags": {},
+            "folder": null,
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Retake the Throne",
+            "ownership": {
+              "default": 0,
+              "hcWh9kuYosSIErIR": 3
+            },
+            "sort": 0,
+            "system": {
+              "_migration": {
+                "lastMigration": null,
+                "version": null
+              },
+              "actionCategory": {
+                "value": "offensive"
+              },
+              "actionType": {
+                "value": "action"
+              },
+              "actions": {
+                "value": 1
+              },
+              "category": null,
+              "deathNote": false,
+              "description": {
+                "gm": "",
+                "value": "<p>If the Mpeshi King is under the effect of a Maze spell, it can use this single action to teleport itself to 40 feet above the person who cast the spell. </p>"
+              },
+              "publication": {
+                "authors": "",
+                "license": "OGL",
+                "remaster": false,
+                "title": ""
+              },
+              "requirements": {
+                "value": ""
+              },
+              "rules": [],
+              "schema": {
+                "lastMigration": {
+                  "datetime": "2023-01-28T15:12:10.775-06:00",
+                  "version": {
+                    "foundry": "10.291",
+                    "schema": null,
+                    "system": "4.6.8"
+                  }
+                },
+                "version": 0.815
+              },
+              "slug": null,
+              "source": {
+                "value": ""
+              },
+              "traits": {
+                "custom": "",
+                "otherTags": [],
+                "rarity": "common",
+                "value": [
+                  "primal",
+                  "magical"
+                ]
+              },
+              "trigger": {
+                "value": ""
+              }
+            },
+            "type": "action"
+          }
+        ],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {},
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "pf2e": {
+          "autoscale": true,
+          "linkToActorSize": true
+        }
+      },
+      "height": 1,
+      "hidden": false,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Mpeshi King",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 1,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 1,
+        "color": null,
+        "contrast": 0,
+        "enabled": true,
+        "range": 200,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 0,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Pudersno/mpeshi_king_t5_.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 1470,
+      "y": 770
+    },
+    {
+      "_id": "qYfW6PVIMsi5Eyqw",
+      "_key": "!scenes.tokens!oZUlr7XttzBNK3ek.qYfW6PVIMsi5Eyqw",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "o7GUIN5g4QfjJ3rm",
+      "actorLink": false,
+      "alpha": 1,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "qYfW6PVIMsi5Eyqw",
+        "_key": "!scenes.tokens.delta!oZUlr7XttzBNK3ek.qYfW6PVIMsi5Eyqw.qYfW6PVIMsi5Eyqw",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {},
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "pf2e": {
+          "autoscale": true,
+          "linkToActorSize": true
+        }
+      },
+      "height": 1,
+      "hidden": false,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Goat Swarm",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 1,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 1,
+        "color": null,
+        "contrast": 0,
+        "enabled": true,
+        "range": 200,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 0,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Pudersno/goat_swarm.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 1120,
+      "y": 980
+    },
+    {
+      "_id": "dzkF5zyTusqHracX",
+      "_key": "!scenes.tokens!oZUlr7XttzBNK3ek.dzkF5zyTusqHracX",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "o7GUIN5g4QfjJ3rm",
+      "actorLink": false,
+      "alpha": 1,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "dzkF5zyTusqHracX",
+        "_key": "!scenes.tokens.delta!oZUlr7XttzBNK3ek.dzkF5zyTusqHracX.dzkF5zyTusqHracX",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {},
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "pf2e": {
+          "autoscale": true,
+          "linkToActorSize": true
+        }
+      },
+      "height": 1,
+      "hidden": false,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Goat Swarm",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 1,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 1,
+        "color": null,
+        "contrast": 0,
+        "enabled": true,
+        "range": 200,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 0,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Pudersno/goat_swarm.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 1820,
+      "y": 980
+    }
+  ],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 2100
+}

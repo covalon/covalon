@@ -1,0 +1,245 @@
+{
+  "_id": "HG5wf8SGpcDYhfga",
+  "_key": "!tables!HG5wf8SGpcDYhfga",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1692056796093,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.307",
+      "systemId": "pf2e",
+      "systemVersion": "5.3.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "03b8FhVXbluJN576",
+    "modifiedTime": 1693155276626,
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2"
+  },
+  "description": "<p>At specific intervals during the battle, the Contract will create new advanced rules by randomly rolling one IF clause and one THEN clause. Advanced rules do not have a limit on the number of times they can trigger per turn, and the effects trigger after the triggering action is complete. \"I\" and \"me\" always refer to the creature controlling the Contract. \"You\" refers to the triggering creature. Any effects that reference spells use a version of that spell heightened to the highest rank of spell that the Contract would be able to cast.</p>",
+  "displayRoll": false,
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "formula": "1d8",
+  "img": "icons/svg/d20-grey.svg",
+  "name": "Advanced Rules - IF Clauses",
+  "ownership": {
+    "default": 0
+  },
+  "replacement": true,
+  "results": [
+    {
+      "_id": "SpdW6OSEe2Bc8V10",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.SpdW6OSEe2Bc8V10",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you kill one of my allies,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "i1TgkLwu4S1AyLzx",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.i1TgkLwu4S1AyLzx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you use a reaction,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "wOBVgms9wpX3hgE3",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.wOBVgms9wpX3hgE3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you heal one of my other enemies,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "ViUpF3OwqMrBpV5D",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.ViUpF3OwqMrBpV5D",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you end your turn adjacent to one of my enemies,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "3wMzFFfnh43r5mMZ",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.3wMzFFfnh43r5mMZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you heal yourself,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "hAKx9MoRL4q4NW0D",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.hAKx9MoRL4q4NW0D",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you start and end your turn in the same square,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "2l8jqwsnFsTIvJK9",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.2l8jqwsnFsTIvJK9",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you or your effect cause me to become grabbed, restrained, or prone,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        8,
+        8
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "Dput6j5F7Gm2MLKE",
+      "_key": "!tables.results!HG5wf8SGpcDYhfga.Dput6j5F7Gm2MLKE",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you eat or drink something,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        1,
+        1
+      ],
+      "type": "text",
+      "weight": 1
+    }
+  ],
+  "sort": 0
+}

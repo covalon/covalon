@@ -1,0 +1,670 @@
+{
+  "_id": "nSdBnoE7HKsQ3lNY",
+  "_key": "!actors!nSdBnoE7HKsQ3lNY",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838669870,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "yPgXDqnZ0pETqhrz",
+  "img": "modules/covalon/images/Dino%20Brawl/Triceratops.webp",
+  "items": [
+    {
+      "_id": "tJF3MvlHvCalGkXk",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.tJF3MvlHvCalGkXk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Horns",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "knockdown"
+          ]
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "e5loy978dhskrcrw866t": {
+            "category": null,
+            "damage": "2d10+11",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "FtCodDvKYE5srIOI",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.FtCodDvKYE5srIOI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Foot",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "lue3dikontduvvzuegvr": {
+            "category": null,
+            "damage": "2d6+11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "OW9KKx3Offpslmah",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.OW9KKx3Offpslmah",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Lumbering Charge",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>The triceratops Strides up to 10 feet and then makes a Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "OKzqL9XBxnlVikDo",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.OKzqL9XBxnlVikDo",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/ThreeActions.webp",
+      "name": "Trample",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Any size, foot, @Check[reflex|dc:29|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "trample",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bWfE1BR1kz8fIanF",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.bWfE1BR1kz8fIanF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Vicious Gore",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>A triceratops deals 2d6 extra persistent bleed damage to @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} targets it hits with its horns.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "damageType": "bleed",
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "target:condition:prone"
+            ],
+            "selector": "horns-damage"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "target:condition:prone"
+            ],
+            "selector": "horns-damage",
+            "text": "{item|description}",
+            "title": "{item|name}"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bcl3zcX6TOOupNt9",
+      "_key": "!actors.items!nSdBnoE7HKsQ3lNY.bcl3zcX6TOOupNt9",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Knockdown",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "knockdown",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Blue Triceratops",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Triceratops",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Dino%20Brawl/triceratops.Token.Blue.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": -1,
+        "value": 8
+      },
+      "con": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "min": 3,
+        "mod": 0,
+        "value": 10
+      },
+      "int": {
+        "min": 3,
+        "mod": -4,
+        "value": 2
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 29
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 180,
+        "temp": 0,
+        "value": 180
+      },
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Triceratopses are muscular quadrupeds with powerful short legs, thick necks, and heads crowned by a wide, bony frill. Though they bear three large horns, they use these bony protrusions only to defend themselves or fight for dominance. Short-tempered and obstinate, triceratopses are unlikely to back down from a fight unless they are hopelessly outmatched, and the creatures are known to fight to the death for no apparent reason beyond stubbornness. Triceratopses often serve as mounts for humanoids, particularly giants, who can comfortably ride behind the dinosaurs' protective bone frills. A triceratops is 30 feet long and weighs as much as 10 tons.</p>\n<hr />\n<p>Remnants from the world's primeval era, these enormous reptilian animals still exist in large numbers in remote wildernesses or underground in magical Darklands caverns. Lizardfolk, orcs, giants, and other humanoids who live near dinosaurs use the animals as mounts, guards, or hunting beasts. Occasionally, rich nobles will collect dinosaurs to display them in menageries, which almost inevitably leads to cast-offs being nursed back to health by druids and other champions of nature. When dinosaurs establish themselves in regions outside their normal habitats, it's often the result of a large collection being released.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "athletics": {
+        "attribute": "str",
+        "base": 25,
+        "breakdown": "Modifier +21",
+        "dc": 31,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 25,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 21,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 21,
+        "value": 25,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "animal",
+        "dinosaur"
+      ]
+    }
+  },
+  "type": "npc"
+}

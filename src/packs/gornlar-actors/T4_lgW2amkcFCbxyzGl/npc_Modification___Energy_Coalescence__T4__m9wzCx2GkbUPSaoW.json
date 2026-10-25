@@ -1,0 +1,891 @@
+{
+  "_id": "m9wzCx2GkbUPSaoW",
+  "_key": "!actors!m9wzCx2GkbUPSaoW",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1754849235877,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1765844761331,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "lgW2amkcFCbxyzGl",
+  "img": "icons/magic/movement/portal-vortex-orange.webp",
+  "items": [
+    {
+      "_id": "g1h7wTaXH9EWdUAS",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.g1h7wTaXH9EWdUAS",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Elemental Attraction",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Being attracted to energy of the same attunement, the Coalescence unerringly moves towards the dragon it is attuned to.</p><p>The Coalescence loses all movement-impairing effects and then flies 25 feet toward the dragon it is currently attuned to. As a being of pure energy, it can move through the space of other creatures and Fjordcarver's stalactites, but it can not pass through any other physical barriers.</p><p>This movement ignores Difficult Terrain and similar effects that would increase the movement cost of a square it passed through, and does not count as a Move action for the purpose of triggering reactions.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "GmMWeUWe6UwNagAK",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.GmMWeUWe6UwNagAK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Ley-Line Immunity",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>As a being made from the same energies as Ashgut and Fjordcarver, the Energy Coalescence is immune to all of their attacks and abilities.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "PDOFvsv30gqudgE0",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.PDOFvsv30gqudgE0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Ley-Line Resonance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -150000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The energy of the Coalescence resonates with Ashgut and Fjordcarver. Regardless of its initiative roll, it always acts immediately before Ashgut. If another creature delays their turn to go in between the Coalescence and Ashgut, Ashgut takes her turn first and that creature's initiative is delayed until after Ashgut (And Fjordcarver). If a player's initiative would change to force them between the Coalescence and Ashgut (such as from being knocked unconscious) the player should move above the Coalescence instead.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "EyjlWwreYNjEYpL6",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.EyjlWwreYNjEYpL6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Slam Dunk",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 250000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The Coalescence shares a square with a dragon it is not attuned to.</p><hr /><p>The opposing primal energies of the Coalescence and the dragon clash violently, dealing @Damage[2d12+15] untyped damage to the dragon with a Basic Reflex Save. On a failure, they are also @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p>The clash of energies then rebounds on the Coalescence, immediately triggering Elemental Attunement.</p><p><strong>Special:</strong> The DC of this save depends on how Slam Dunk was triggered.</p><p>If it was moved with an Athletics check, use the Athletics DC of the creature moving it.</p><p>If it was moved by a spell, use the appropriate Spell DC.</p><p>If it was moved by a different effect, use an appropriate statistic of the responsible creature, or the Reflex DC of the Energy Coalescence otherwise.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "yrNMGe5iHan5fRGr",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.yrNMGe5iHan5fRGr",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Draconic Resonance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 225000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The Coalescence shares a square with a dragon it is attuned to.</p><hr /><p>The matching primal energies of the Coalescence empower the triggering dragon and heal their wounds.</p><p>The dragon becomes @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for one round and gains 30 Temporary Hit Points that last for one minute.</p><p>They can use their Quickened action only to Stride, Strike, or use their gaze attack.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "t8sC9I3xp86nffz2",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.t8sC9I3xp86nffz2",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "pf2e": {
+          "itemGrants": {
+            "slowed": {
+              "id": "tMMwZpUifOV2izhh",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Metaphysical Form",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>As a being of pure energy, the Energy Coalescence is neither dead nor alive.</p><p>It is permanently @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed}, can only use its actions for Elemental Freedom and Elemental Attraction in this order, and it is immune to any effects that would further alter the number of actions it receives at the start of its turn.</p><p>It can be considered to be an object or a creature for the purpose of targeting, whichever would be more beneficial for the creature targeting it. At the GM's discretion, it may also be considered a willing creature for the purpose of targeting.</p><p>It is immune to all damage, death effects, and the Prone condition.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Immunity",
+            "predicate": [
+              {
+                "not": "assimilation"
+              }
+            ],
+            "type": [
+              "physical",
+              "energy"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "axUagyYzqxuszSW0",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.axUagyYzqxuszSW0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Elemental Freedom",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 150000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Coalesence purifies its essence, cleansing itself from all negative effects (Except Slowed from Metaphysical Form).</p><p>If the Coalescence was @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} before using this ability, reduce its speeds by 5 feet for the remainder of this turn.</p><p>If the Coalesence was @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} before using this ability, reduce its speeds by 10 feet for the remainder of this turn.</p><p>Other movement-impairing effects may reduce the movement speed by up to 10 feet at the GM's discretion.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "turn"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "elemental-freedom",
+            "selection": "5",
+            "suboptions": [
+              {
+                "label": "Immobilized",
+                "value": "5"
+              },
+              {
+                "label": "Restrained",
+                "value": "10"
+              }
+            ],
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "elemental-freedom"
+            ],
+            "selector": "fly-speed",
+            "value": "-@item.flags.pf2e.rulesSelections.elementalFreedom"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "SJcGTMnT6UlCQyO9",
+      "_key": "!actors.items!m9wzCx2GkbUPSaoW.SJcGTMnT6UlCQyO9",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Elemental Attunement",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The Coalescence rolls for Initiative, Ashgut uses Landwaster, Ashgut or Fjordcarver dies, or the Coalescence uses Draconic Resonance or Slam Dunk.</p><hr /><p>Absorbing the opposing magical energies of both Ashgut and Fjordcarver, the polarity of the Coalescence is inverted.</p><p>The attunement of the Coalescence changes (Or is set to a value of its choice if this ability is triggered by rolling Initiative), and it teleports to the middle of the arena, 35 feet away from the dragon it attuned itself to (As long as neither Ashgut nor Fjordcarver move, this places the Coalescence at the center of the arena, on the side of the respective dragon).</p><p>The Coalescence is then immune to all effects of Elemental Attunement until the start of its next turn.</p><p>Whenever Elemental Attunement triggers, the Coalescence should be described as changing its looks to match the dragon it attuned itself to.</p><p><strong>Special</strong> When Ashgut or Fjordcarver dies, the Coalescence permantly sets its attumenent to whichever dragon is still alive, and Landwaster no longer triggers Elemental Attunement.</p>"
+        },
+        "frequency": null,
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "key": "RollOption",
+            "option": "attunement",
+            "priority": 40,
+            "selection": "ashgut",
+            "suboptions": [
+              {
+                "label": "Ashgut",
+                "value": "ashgut"
+              },
+              {
+                "label": "Fjordcarver",
+                "value": "fjordcarver"
+              }
+            ],
+            "toggleable": true
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "teleportation",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Modification - Energy Coalescence (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 0.5,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 0.5,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Energy Coalescence",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/magic/movement/portal-vortex-orange.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 0.5
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.941,
+        "system": "7.7.4"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 30
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 200,
+        "temp": 0,
+        "value": 200
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 25
+          }
+        ],
+        "value": 0
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 11
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 18,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 18
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 18
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 18
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 21,
+        "special": []
+      },
+      "deception": {
+        "base": 21,
+        "special": []
+      },
+      "intimidation": {
+        "base": 21,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "tiny"
+      },
+      "value": [
+        "elemental"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,523 @@
+{
+  "_id": "ndmI1QuJoruHmj0U",
+  "_key": "!actors!ndmI1QuJoruHmj0U",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838669870,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "qMWIARdtOM0Rg8Bl",
+  "img": "modules/covalon/images/Dino%20Brawl/Pachycephalosaurus.webp",
+  "items": [
+    {
+      "_id": "WpPQsA9BHFxmr54k",
+      "_key": "!actors.items!ndmI1QuJoruHmj0U.WpPQsA9BHFxmr54k",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Skull",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "0": {
+            "category": null,
+            "damage": "2d12+13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "forceful",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "uAKDE9WbARcraQJx",
+      "_key": "!actors.items!ndmI1QuJoruHmj0U.uAKDE9WbARcraQJx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Clobbering Charge",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>The pachycephalosaurus Strides up to its Speed. If it ends its movement within melee reach of a target, it can make a skull Strike against that target. If the pachycephalosaurus critically hits with this Strike, the creature hit is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "aFiPts0pbbuzRaLf",
+      "_key": "!actors.items!ndmI1QuJoruHmj0U.aFiPts0pbbuzRaLf",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Sudden Shove",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The pachycephalosaurus damages a Medium or smaller (or a fucking dinosaur) foe with its skull Strike</p><hr /><p><strong>Effect</strong> The pachycephalosaurus digs in and flings its head up, shoving its foe away. It attempts an @Check[athletics|defense:fortitude] check against the target's Fortitude DC.</p><hr /><p><strong>Critical Success</strong> The pachycephalosaurus pushes the opponent up to 10 feet away from itself and knocks the target @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><p><strong>Success</strong> The pachycephalosaurus pushes the opponent back 5 feet.</p><p><strong>Failure</strong> The pachycephalosaurus fails to push the opponent.</p><p><strong>Critical Failure</strong> As failure, but the failed attempt leaves the pachycephalosaurus @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Pachycephalosaurus",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Pachycephalosaurus",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Dino%20Brawl/pachycephalosaurus.Token.Red.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "dex": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "int": {
+        "min": 3,
+        "mod": -4,
+        "value": 2
+      },
+      "str": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "wis": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 28
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 231,
+        "temp": 0,
+        "value": 231
+      },
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 35
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Pachycephalosauruses are normally peaceful, herbivorous dinosaurs, but they grow much more violent during mating season, when they fight one another to win over mates and warn away interlopers. They also defend themselves vehemently if potential predators stray too close to their herd. The pachycephalosaurus's skull has a distinctive dome-shaped crown surrounded by numerous blunt, bony horns. This feature, combined with the dinosaur's powerful, compact neck, allows it to make battering-ramlike charges capable of inflicting great damage.</p>\n<p>Some humanoid groups have successfully trained pachycephalosauruses as mounts, but the creatures aren't particularly well suited to the task.</p>\n<p>Pachycephalosauruses grow to a length of 15 feet and weigh 1,400 pounds.</p>\n<hr />\n<p>Remnants from the world's primeval era, these enormous reptilian animals still exist in large numbers in remote wildernesses or underground in magical Darklands caverns. Lizardfolk, orcs, giants, and other humanoids who live near dinosaurs use the animals as mounts, guards, or hunting beasts. Occasionally, rich nobles will collect dinosaurs to display them in menageries, which almost inevitably leads to cast-offs being nursed back to health by druids and other champions of nature. When dinosaurs establish themselves in regions outside their normal habitats, it's often the result of a large collection being released.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 22,
+        "special": []
+      },
+      "athletics": {
+        "attribute": "str",
+        "base": 23,
+        "breakdown": "Modifier +11",
+        "dc": 21,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 23,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 11,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 11,
+        "value": 23,
+        "visible": true
+      },
+      "intimidation": {
+        "attribute": "cha",
+        "base": 17,
+        "breakdown": "Modifier +7",
+        "dc": 17,
+        "itemId": null,
+        "label": "Intimidation",
+        "lore": false,
+        "mod": 17,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "intimidation",
+              "cha-based",
+              "skill-check",
+              "cha-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 7,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "intimidation",
+        "special": [],
+        "totalModifier": 7,
+        "value": 17,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "animal",
+        "dinosaur"
+      ]
+    }
+  },
+  "type": "npc"
+}

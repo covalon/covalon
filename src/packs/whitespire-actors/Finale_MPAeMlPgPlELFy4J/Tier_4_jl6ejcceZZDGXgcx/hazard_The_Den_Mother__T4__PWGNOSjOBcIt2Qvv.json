@@ -1,0 +1,396 @@
+{
+  "_id": "PWGNOSjOBcIt2Qvv",
+  "_key": "!actors!PWGNOSjOBcIt2Qvv",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1775757986608,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "WhYzoVrwPaCrANkH",
+    "modifiedTime": 1776095200643,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      },
+      "editMode": true
+    }
+  },
+  "folder": "jl6ejcceZZDGXgcx",
+  "img": "icons/commodities/tech/transmission.webp",
+  "items": [
+    {
+      "_id": "f50Ke8P5J3tFKiBv",
+      "_key": "!actors.items!PWGNOSjOBcIt2Qvv.f50Ke8P5J3tFKiBv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776101070099,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Activate",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>The Stonewyrm enters its Maw Frenzy</p><p><strong>Effect </strong>The Den Mother recovers from the initial drill through the Stonewyrm's protective maw adamantine carapace, ready to activate again. </p><p>Add the Den Mother to the bottom of the initiative order. </p><p>Add the @UUID[Compendium.covalon.whitespire-items.Item.B1qFNjfOX1dACQpL]{Power the Den Mother} action to your PCs sheets.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "XEZm88VMURPw5XyB",
+      "_key": "!actors.items!PWGNOSjOBcIt2Qvv.XEZm88VMURPw5XyB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776092615865,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Drill Forward",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Den Mother moves forward 60 feet if a PC critically succeeded at Power the Den Mother, or 30 feet if a PC succeeded. This ignores difficult terrain.</p><p>If it impacts a wall, it deals @Damage[35[piercing]] damage to that wall. If this is enough to destroy the wall, its movement is not interrupted.</p><p>For each subsequent wall the drill impacts, it deals 10 less damage. @Damage[25[piercing]], @Damage[15[piercing]]</p><p>If the drill impacts a wall and the damage it deals to that wall is not enough to destroy the wall, its movement stops.</p><p>If the drill would impact a PC, that PC is harmlessly pushed out of the way and the drill continues its movement.</p><p>If the Den Mother impacts with the Stonewyrm, the Stonewyrm is immediately slain, bypassing its Maw Frenzy via Heart of Terra infused power.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "DDdgSZXjiCu5LWKf",
+      "_key": "!actors.items!PWGNOSjOBcIt2Qvv.DDdgSZXjiCu5LWKf",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776101091552,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Solid Construction",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>In order to punch through the Maw's defenses, the Den Mother has been infused with magic from the Heart of Terra. </p><p>This makes it immune to being grappled or knocked prone, and immune to all forced movement (including teleportation), including from spells.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "The Den Mother (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": 0,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-combat-details": {
+        "targets": []
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 3,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "The Den Mother (T5)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 30,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.51,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.55,
+      "scaleY": 1.55,
+      "src": "modules/covalon/images/Whitespire/Drill_topDownGigaMetalFinal.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 400000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 34
+      },
+      "emitsSound": "encounter",
+      "hardness": 20,
+      "hp": {
+        "details": "",
+        "max": 80,
+        "temp": 0,
+        "value": 80
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>A creation of Covalon's finest crafters, capable of drilling through mountains.</p><p>The combat begins with the Den Mother drilling through the Stonewyrm's maw infused adamantine shell, after which it goes into recharging state until the Stonewyrm enters its Maw Frenzy. </p>",
+      "disable": "",
+      "isComplex": true,
+      "level": {
+        "value": 11
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>On its initiative, the drill uses Drill Forward.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 26
+      },
+      "reflex": {
+        "value": 24
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

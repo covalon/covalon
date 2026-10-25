@@ -1,0 +1,1984 @@
+{
+  "_id": "L6WeFZdYjZxzM6VM",
+  "_key": "!actors!L6WeFZdYjZxzM6VM",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1692627699496,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.307",
+      "systemId": "pf2e",
+      "systemVersion": "5.3.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840385175,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "e7618f8363b017fc0a801972bfd8c0dae869eaa2",
+      "sourceId": "Actor.DycS4T7FGUQQKjU7"
+    }
+  },
+  "folder": "3ywLS4UCPCGlGnbF",
+  "img": "modules/covalon/images/Verndhelt/hamatula.Avatar.webp",
+  "items": [
+    {
+      "_id": "Nbea4sMv3ZuYKikA",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.Nbea4sMv3ZuYKikA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 27,
+          "mod": 0,
+          "value": 21
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "55BqVP2MXMWDAZ4J",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.55BqVP2MXMWDAZ4J",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/dimension-door.webp",
+      "name": "Dimension Door",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Opening a door that bypasses normal space, you instantly transport yourself and any items you're wearing and holding from your current space to a clear space within range you can see. If this would bring another creature with you-even if you're carrying it in an extradimensional container-the spell is lost.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The range increases to 1 mile. You don't need to be able to see your destination, as long as you have been there in the past and know its relative location and distance from you. You are temporarily immune for 1 hour.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dimension-door",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "teleportation"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "g0gdzzzvux4ApSD5",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.g0gdzzzvux4ApSD5",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/glyph-of-warding.webp",
+      "name": "Glyph of Warding (At will)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You craft a trap by binding a hostile spell into a symbol. While Casting this Spell, you also Cast a Spell of a lower spell level to store in the glyph. The stored spell must take 3 actions or fewer to cast, have a hostile effect, and target one creature or have an area. You can set a password, a trigger, or both for the glyph. Any creature that moves, opens, or touches the target container or enters the target area that doesn't speak the password or that matches the trigger activates the glyph, releasing the harmful spell within.</p>\n<p>Once a spell is stored in the glyph, the glyph gains all the traits of that spell. If the stored spell targets one or more creatures, it targets the creature that set off the glyph. If it has an area, that area is centered on the creature that set off the glyph. Glyph of warding's duration ends when the glyph is triggered. The glyph counts as a magical trap, using your spell DC for both the Perception check to notice it and the Thievery check to disable it; both checks require the creature attempting them to be trained in order to succeed.</p>\n<p>You can Dismiss glyph of warding. The maximum number of glyphs of warding you can have active at a time is equal to your spellcasting ability modifier.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "unlimited"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "glyph-of-warding",
+        "target": {
+          "value": "1 container or a 10-foot-by-10-foot area"
+        },
+        "time": {
+          "value": "10 minutes"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "y8TePj5x2rTRtyMK",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.y8TePj5x2rTRtyMK",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/dimension-door.webp",
+      "name": "Dimension Door (At will)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Opening a door that bypasses normal space, you instantly transport yourself and any items you're wearing and holding from your current space to a clear space within range you can see. If this would bring another creature with you-even if you're carrying it in an extradimensional container-the spell is lost.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The range increases to 1 mile. You don't need to be able to see your destination, as long as you have been there in the past and know its relative location and distance from you. You are temporarily immune for 1 hour.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dimension-door",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "teleportation"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "9YJxKhab6P3T91Ly",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.9YJxKhab6P3T91Ly",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/paralyze.webp",
+      "name": "Paralyze",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "uses": {
+            "max": 2,
+            "value": 2
+          },
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "paralyze",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "hORrBVjOQUdtm6GW",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.hORrBVjOQUdtm6GW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/harm.webp",
+      "name": "Harm",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage",
+              "healing"
+            ],
+            "materials": [],
+            "type": "void"
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You channel negative energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 negative damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"pf2-icon\">1</span> <strong>(somatic)</strong> The spell has a range of touch.</p>\n<p><span class=\"pf2-icon\">2</span> <strong>(verbal, somatic)</strong> The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"pf2-icon\">3</span> <strong>(material, verbal, somatic)</strong> You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "overlays": {
+          "4gyp3qlsv5ywdyjq": {
+            "_id": "4gyp3qlsv5ywdyjq",
+            "name": "Harm (vs. Undead)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "1d8+8",
+                  "kinds": [
+                    "healing"
+                  ]
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "0": "1d8+8"
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 willing undead creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "pq7cxntbz4s8g5ik": {
+            "_id": "pq7cxntbz4s8g5ik",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "range": {
+                "value": "touch"
+              },
+              "time": {
+                "value": "1"
+              }
+            }
+          },
+          "rvhoa43rqqqp8izn": {
+            "_id": "rvhoa43rqqqp8izn",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              },
+              "range": {
+                "value": ""
+              },
+              "target": {
+                "value": "all living and undead creatures"
+              },
+              "time": {
+                "value": "3"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          },
+          "z04svm1cvfcxtplb": {
+            "_id": "z04svm1cvfcxtplb",
+            "name": "Harm (vs. Living)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "kinds": [
+                    "damage"
+                  ]
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 living creature"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "manipulate",
+                  "void"
+                ]
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "varies"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "harm",
+        "target": {
+          "value": "1 living creature or 1 willing undead creature"
+        },
+        "time": {
+          "value": "1 to 3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "manipulate",
+            "void"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "jjKRsrJ25ItiuiCt",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.jjKRsrJ25ItiuiCt",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.30BBep9U4BDV0EgQ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/infernal-pact.webp",
+      "name": "Infernal Pact",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You make an appeal to a powerful devil, asking it to bind some of its subordinates to your service. If you succeed, the devil sends you its choice of one devil whose level is no more than double <em>infernal pact's</em> level, two devils whose levels are each at least 2 less than double the spell level, or three devils whose levels are each at least 3 less than double the spell level.</p>\n<hr />\n<p><strong>Critical Success</strong> The devils are sent to you and serve you for [[/r 1d4 #weeks]]{1d4 weeks}.</p>\n<p><strong>Success</strong> The devils are sent to you and serve you for [[/r 1d4 #days]]{1d4 days}.</p>\n<p><strong>Failure</strong> Your request is denied.</p>\n<p><strong>Critical Failure</strong> Not only is your request denied, but the powerful devil sends word of its displeasure to your master.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": null
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "ritual": {
+          "primary": {
+            "check": "Religion (expert; you must be a devil)"
+          },
+          "secondary": {
+            "casters": 0,
+            "checks": ""
+          }
+        },
+        "rules": [],
+        "slug": "infernal-pact",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1 day"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [],
+          "value": []
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "0DumWoVcnIDTiRBZ",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.0DumWoVcnIDTiRBZ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/produce-flame.webp",
+      "name": "Produce Flame",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.854,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": true,
+            "category": null,
+            "formula": "1d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>A small ball of flame appears in the palm of your hand, and you lash out with it either in melee or at range. Make a spell attack roll against your target's AC. This is normally a ranged attack, but you can also make a melee attack against a creature in your unarmed reach.</p>\n<p>On a success, you deal 1d4 fire damage plus your spellcasting ability modifier. On a critical success, the target takes double damage and @Damage[1d4[persistent,fire]] damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1d4 and the @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Damage} on a critical hit by 1d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "Nbea4sMv3ZuYKikA"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "produce-flame",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "nuV1GkHwu5pqVXnI",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.nuV1GkHwu5pqVXnI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Barb",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "bloodletting"
+          ]
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {},
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "unholy"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "jICQ6Y5JgzCUZXC3",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.jICQ6Y5JgzCUZXC3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Hurled Barb",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "bloodletting"
+          ]
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {},
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "range-increment-60",
+            "unholy"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "t8ToZMzymYUk47az",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.t8ToZMzymYUk47az",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Greater Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "greater-darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "v6WETOqHL0U4nwur",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.v6WETOqHL0U4nwur",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Telepathy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "telepathy",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RF4DrP2dezs9NRn8",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.RF4DrP2dezs9NRn8",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "At-Will Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AtWillSpells]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "at-will-spells",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WJHihy42QBNSUonW",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.WJHihy42QBNSUonW",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "or": [
+                  "magical",
+                  "arcane",
+                  "primal",
+                  "occult",
+                  "divine"
+                ]
+              }
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nQuUyJS1AvKyFrA0",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.nQuUyJS1AvKyFrA0",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Attack of Opportunity (Special)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Barb only. A hamatula gains an extra reaction at the start of each of its turns that it can use only to make an Attack of Opportunity. It can't use more than one Attack of Opportunity triggered by the same action. In addition to the normal trigger, a hamatula can make an Attack of Opportunity against a creature that touches it or an adjacent creature that attempts a melee Strike against it.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BVXX982lJiCTVido",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.BVXX982lJiCTVido",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Bloodletting",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>On a critical hit, the hamatula's barbs deal @Damage[3d6[bleed]].</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "critical": true,
+            "damageType": "bleed",
+            "diceNumber": 3,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              {
+                "or": [
+                  "item:slug:barb",
+                  "item:slug:hurled-barb"
+                ]
+              }
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": "bloodletting",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "UuUlz5A5IwoGhe6n",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.UuUlz5A5IwoGhe6n",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Frightful Strike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The hamatula hits a creature with a barb Strike</p>\n<hr />\n<p><strong>Effect</strong> The creature struck must succeed at a @Check[type:will|dc:27] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical failure). Regardless of the result of its saving throw, the creature is then temporarily immune to Frightful Strike for 24 hours.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "emotion",
+            "fear",
+            "mental",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vMYnNlSJnYJepYe8",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.vMYnNlSJnYJepYe8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Impaling Barb",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The hamatula makes a barb Strike, then Strides up to half its Speed without triggering reactions. If the Strike hits, the hamatula impales the target with one of its barbs and snaps the barb free as it moves away from the target. This deals an additional @Damage[2d8[piercing]] damage to the target and pins it to an adjacent surface, rendering it @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} (Escape DC 29).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QK7BnQXUv5A7jm84",
+      "_key": "!actors.items!L6WeFZdYjZxzM6VM.QK7BnQXUv5A7jm84",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Warden of Erebus",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1900000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A hamatula's <em>@UUID[Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW]{Glyph of Warding}</em> innate spell can contain any common spell from the Core Rulebook that meets the criteria in glyph of warding; the hamatula doesn't need to provide the spell.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "(T4) Hamatula",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Devilish Guard",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Verndhelt/hamatula.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.854,
+        "system": "6.8.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 1
+      },
+      "str": {
+        "mod": 7
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 31
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic"
+      },
+      "hp": {
+        "details": "",
+        "max": 165,
+        "temp": 0,
+        "value": 165
+      },
+      "immunities": [
+        {
+          "type": "fire"
+        }
+      ],
+      "resistances": [
+        {
+          "exceptions": [
+            "silver"
+          ],
+          "type": "physical",
+          "value": 10
+        },
+        {
+          "type": "poison",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "value": 25
+      },
+      "weaknesses": [
+        {
+          "type": "holy",
+          "value": 10
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "Fiend",
+      "languages": {
+        "details": "telepathy 100 feet",
+        "value": [
+          "diabolic",
+          "draconic",
+          "empyrean"
+        ]
+      },
+      "level": {
+        "value": 11
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Hamatulas are forged in Erebus to protect infernal vaults from those foolish enough to try to rob the archdevil Mammon. In case the vicious spines protruding from their bodies and ability to teleport weren't deadly enough, they are also clever wielders of warding glyphs. They are effective conjured guardians, though they resent being pulled away from their duties in Hell. Unlike most fiends, hamatulas are formed from several souls that lack any features distinctive enough to merit another role.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary 2"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 24,
+      "senses": [
+        {
+          "type": "greater-darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 23
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 23
+      },
+      "arcana": {
+        "base": 18
+      },
+      "intimidation": {
+        "base": 21
+      },
+      "religion": {
+        "base": 20
+      },
+      "stealth": {
+        "base": 23
+      },
+      "survival": {
+        "base": 22
+      }
+    },
+    "spellcasting": {
+      "rituals": {
+        "dc": 27
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "devil",
+        "evil",
+        "fiend",
+        "lawful",
+        "unholy"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "pziyUncQhFutuZHs",
+  "_key": "!folders!pziyUncQhFutuZHs",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1770065032142,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175134315,
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Finale",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

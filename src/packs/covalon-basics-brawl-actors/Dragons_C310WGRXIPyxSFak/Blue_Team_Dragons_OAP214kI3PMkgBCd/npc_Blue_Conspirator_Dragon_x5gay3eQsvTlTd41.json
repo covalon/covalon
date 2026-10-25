@@ -1,0 +1,1429 @@
+{
+  "_id": "x5gay3eQsvTlTd41",
+  "_key": "!actors!x5gay3eQsvTlTd41",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "OAP214kI3PMkgBCd",
+  "img": "modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20BLUE.webp",
+  "items": [
+    {
+      "_id": "wKwcNIHf4mDec2Ui",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.wKwcNIHf4mDec2Ui",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Dragon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 25
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "WWHOsUMxSpmM7gjg",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.WWHOsUMxSpmM7gjg",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "Ak65HMn39whdn7Uy": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "backstabber",
+            "magical",
+            "venomous"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "PB7Ra6DkEpPgnMcq",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.PB7Ra6DkEpPgnMcq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "D6SYgW45oo8HUSm7": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fatal-d12",
+            "magical",
+            "reach-10",
+            "venomous"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "5eEKBqOc2420CHOZ",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.5eEKBqOc2420CHOZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "iUmjCbqqQihoeUnT": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "YMG0L9jlydGhuKLX",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.YMG0L9jlydGhuKLX",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.IUwmirxfv4K0PcJf",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Draconic Frenzy",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "gGd7mcM8KLsDnV1i",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.gGd7mcM8KLsDnV1i",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.kK41S41L533fMggZ",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Detonate Disguise",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The dragon is wearing their conjured disguise</p><hr /><p><strong>Effect</strong> The dragon erupts from the disguise, destroying it. The explosive revelation deals @Damage[13d6[bludgeoning]] damage to creatures in a @Template[emanation|distance:5] with a @Check[reflex|dc:32|basic] save. A creature that fails its save is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round as it becomes covered in scraps from the disguise.</p><p>Any creature sharing a space with the dragon after they erupt is pushed into the nearest empty space.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "29KgDhmvOyQZ7eTE",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.29KgDhmvOyQZ7eTE",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.uyo6N99p8gLhdfCs",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Rushed Transformation",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1800000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Effect</strong> Using the aid of magic and an exhausting amount of effort, the dragon quickly reshapes their body into the form of a generic humanoid figure. This has the effects of @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{Humanoid Form} except that it lasts only 1 minute.The dragon can Dismiss the effect.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "occult",
+            "polymorph",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "zx6LxU8wG8VBEpEj",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.zx6LxU8wG8VBEpEj",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.ab0Z4gMjfbVX1DVf",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Poison Breath",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1450000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon unleashes a noxious cloud of smoke that deals @Damage[11d6[poison]] damage in a @Template[cone|distance:50] (@Check[fortitude|dc:29|basic] save).</p><p>The dragon can't use Smoke Breath again for 2 rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "poison",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "voQFQig32ULPSXHa",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.voQFQig32ULPSXHa",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.lhnqwfK5RkPmG7XJ",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Sneak Attack",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 2000000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon's Strikes deal an additional 2d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} targets.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+            "option": "target:condition:off-guard",
+            "toggleable": "totm"
+          },
+          {
+            "category": "precision",
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "target:condition:off-guard"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bRIXVObeiJXm2YVV",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.bRIXVObeiJXm2YVV",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Psychic Warp",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "1s7vVWdr1SuG4aCV": {
+            "category": "persistent",
+            "damage": "2d6",
+            "damageType": "mental"
+          },
+          "may2Uo5vx2df41AB": {
+            "category": null,
+            "damage": "3d6+6",
+            "damageType": "mental"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "range-100"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "kfdriDBDSAe9iIIK",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.kfdriDBDSAe9iIIK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Innate Spells",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 32,
+          "value": 24
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "rCd4sxa2qke7V77H",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.rCd4sxa2qke7V77H",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.OOMQ8Z6EIrGt5NJ6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/unexpected-transposition.webp",
+      "name": "Unexpected Transposition",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> You are targeted with an enemy's Strike.</p>\n<hr />\n<p>When attacked, you attempt to quickly swap your own position with that of another creature. A creature that is unwilling to swap places with you must attempt a Will save. Willing creatures automatically fail. If you successfully switch places with the target, the triggering attack is resolved against that creature as if it had been the original target of the attack. After the swap, you and the target are both temporarily immune to unexpected transposition spells for 1 minute. You automatically switch places if the target is willing. If it's unwilling, it can attempt a Will save. Neither of you teleports if the target succeeds at its save.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "kfdriDBDSAe9iIIK"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Secrets of Magic"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "unexpected-transposition",
+        "target": {
+          "value": "1 creature other than the triggering enemy"
+        },
+        "time": {
+          "value": "reaction"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "teleportation"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "UQOMf5NVRkpee0Ki",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.UQOMf5NVRkpee0Ki",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.mVB17TASKITmaKOR",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Conjure Disguise",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Special</strong> The conspirator dragon spawns in Humanoid Form. While in Humanoid Form the conspirator dragon can strike with Poisoned Dagger and Psychic Warp.</p><hr /><p><strong>Effect</strong> The dragon conjures a perfect flesh-suit replica of a humanoid they've seen of their size or smaller and compresses themself into it, along with generating appropriate clothing for the humanoid. Once the process is complete, the dragon can remain in this disguise indefinitely.</p><p>If the dragon is critically hit while wearing the disguise, the suit is destroyed and immediately explodes. This has the effects of Detonate Disguise, except that creatures use the outcome one degree of success better than they rolled on their save.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "Humanoid Form",
+            "option": "change-shape",
+            "selection": "humanoid-medium",
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "change-shape"
+            ],
+            "ring": null,
+            "scale": 1.3,
+            "value": "modules/covalon/images/Dragon%20Brawl/Conspirator%20Human%201-3%20BLUE.webp"
+          },
+          {
+            "key": "CreatureSize",
+            "predicate": [
+              "change-shape"
+            ],
+            "resizeEquipment": true,
+            "value": "medium"
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "change-shape"
+            ],
+            "value": "Regular Human"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate",
+            "occult",
+            "polymorph",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "mvpv9v2gKcyUXoAJ",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.mvpv9v2gKcyUXoAJ",
+      "_stats": {
+        "compendiumSource": "Actor.oTsztEQh3FaGn0Vy.Item.n3H0V4VU1VLWVoYw",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.oTsztEQh3FaGn0Vy.Item.n3H0V4VU1VLWVoYw",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Poisoned Dagger (Humanoid Form Only)",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "okvEs3i7q4fzTfWf": {
+            "category": null,
+            "damage": "3d6+10",
+            "damageType": "piercing"
+          },
+          "qVcWsbmD38HyMaP3": {
+            "category": null,
+            "damage": "1d10",
+            "damageType": "poison"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "deadly-d10",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Vn21msO8rk5ef2HM",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.Vn21msO8rk5ef2HM",
+      "_stats": {
+        "compendiumSource": "Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I4j3hBd2EzQHPA6X.Item.OpdWoyPywj7o3f4N",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Retract Body",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The dragon is hit or critically hit by an attack made by a creature the dragon can see</p>\n<hr />\n<p><strong>Effect</strong> The dragon retracts the targeted body part or twists away to avoid the attack, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "option": "retract-body",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "retract-body"
+            ],
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "GHD5Iu2MfBJSS80f",
+      "_key": "!actors.items!x5gay3eQsvTlTd41.GHD5Iu2MfBJSS80f",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Remove Disguise",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1750000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The dragon is wearing their conjured disguise</p><hr /><p><strong>Effect</strong> The dragon removes their disguise, turning into their dragon form. </p><p>Any creature sharing a space with the dragon after they erupt is pushed into the nearest empty space.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Blue Conspirator Dragon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Conspirator Dragon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "src": "modules/covalon/images/Dragon%20Brawl/Conspirator%20Dragon%201-2%20BLUE.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 7
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 220,
+        "temp": 0,
+        "value": 220
+      },
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "mental",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 100
+          }
+        ],
+        "value": 50
+      }
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "draconic"
+        ]
+      },
+      "level": {
+        "value": 12
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "darkvision",
+      "mod": 25,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 25
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 25,
+        "special": []
+      },
+      "athletics": {
+        "base": 18,
+        "special": []
+      },
+      "deception": {
+        "base": 25,
+        "special": []
+      },
+      "intimidation": {
+        "base": 22,
+        "special": []
+      },
+      "stealth": {
+        "base": 25,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "dragon",
+        "occult",
+        "magical"
+      ]
+    }
+  },
+  "type": "npc"
+}

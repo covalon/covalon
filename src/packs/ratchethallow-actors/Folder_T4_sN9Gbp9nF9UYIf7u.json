@@ -1,0 +1,23 @@
+{
+  "_id": "sN9Gbp9nF9UYIf7u",
+  "_key": "!folders!sN9Gbp9nF9UYIf7u",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1689334472318,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840790998,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "T4",
+  "sort": 400000,
+  "sorting": "a",
+  "type": "Actor"
+}

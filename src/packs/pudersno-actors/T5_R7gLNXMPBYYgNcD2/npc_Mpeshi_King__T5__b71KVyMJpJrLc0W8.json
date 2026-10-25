@@ -1,0 +1,1144 @@
+{
+  "_id": "b71KVyMJpJrLc0W8",
+  "_key": "!actors!b71KVyMJpJrLc0W8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1673484179608,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.7.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1736019552967,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "defaultPermission": 1,
+      "sourceId": "Actor.REJW8cx2veeryrdI"
+    }
+  },
+  "folder": "R7gLNXMPBYYgNcD2",
+  "img": "modules/covalon/images/Pudersno/Mpeshi_King.webp",
+  "items": [
+    {
+      "_id": "fjpsuop0jg66vui3",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.fjpsuop0jg66vui3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673487783714,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "King's Horns",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 33
+        },
+        "damageRolls": {
+          "HChwZViaKSQKxx6q": {
+            "category": null,
+            "damage": "2d12+10",
+            "damageType": "bludgeoning"
+          },
+          "eh4z0jddg1criubzyw7c": {
+            "category": null,
+            "damage": "1d12+9",
+            "damageType": "electricity"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "reach-10",
+            "versatile-p"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "7i2lutnzetfoeoal",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.7i2lutnzetfoeoal",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675002978412,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 33
+        },
+        "damageRolls": {
+          "5e72oF643vhEnYPj": {
+            "category": null,
+            "damage": "3d10+16",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Iceo8lRDkdq75Yoj",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.Iceo8lRDkdq75Yoj",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "h9g99u8hu6fx5pgu",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.h9g99u8hu6fx5pgu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675003085413,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Thunder Aura",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:20]{20 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p><hr /><p>A buzzing static electricity surrounds the Mpeshi King. When a creature within the aura takes electricity damage, the damage arcs to the closest enemy of the mpeshi within the aura, dealing @Damage[(3d6)[sonic]] damage with no save. A creature can only receive arcing damage once from each attack or effect. Where two creatures are the same distance, the creature with more metal on their person is affected. Otherwise, determine targets randomly.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "electricity",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ysjstn1162a1nei5",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.ysjstn1162a1nei5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673491478675,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.5"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Sleipner Breaker",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The king mpeshi becomes lightning and leaps up to 40 feet in any direction, including straight up. The mpeshi makes up to two horn Strikes at any point during this leap to any two seperate targets. This does not have the Move trait and the Mpeshi King can move through enemies without being impeded.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "g9wmcilhs6jr9xln",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.g9wmcilhs6jr9xln",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673485150805,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "King of the Clouds",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The mpeshi king can tread on air as though on solid ground. If the mpeshi king were to fall, it can be supported by the air under it if it choses. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "9uINer4k92JPXNw8",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.9uINer4k92JPXNw8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1673485785668,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1674940475233,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Modification - Baaah of Ages",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><span style=\"font-family:var(--font-primary)\">A shockingly cold breath pushes out of the King, affecting all creatures in a 100 ft line originating from the King with a (@Check[type:reflex|dc:38|basic:false] save).</span></p><p>The breath deals @Damage[(10d10)[cold],(10d10)[electricity]] damage. </p><p>Mepeshi King cannot use Baaah of Ages again for [[/br 1d3 #rounds]] rounds.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "turn",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "electricity",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "3lUN2BtWmqmAKrBI",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.3lUN2BtWmqmAKrBI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1673487007046,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "7RtLbrlfn9D7fL4K",
+        "modifiedTime": 1674204183685,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Summon the Mpeshi",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Use the Horned Glyph hazard. It rolls it's own initiative. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2CZS4OL73JjPrztQ",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.2CZS4OL73JjPrztQ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1673490432336,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675003039475,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Long Live the King",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The Mpeshi King would take damage.</p>\n<p><strong>Requirements </strong>A goat guard or goat swarm is within 30 ft of the Mpeshi King.</p>\n<p>A goat guard leaps in the way of the incoming damage and takes all of the damage instead of the Mpeshi King. </p>\n<p>Or a single goat from the goat swarm will leap in the way of the incoming damage instead of the Mpeshi King. The swarm takes damage equal to the triggering effect to represent the goat loss. This loss of hp to the swarm can't be blocked in any way. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nHoIx01Ue8B7i45q",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.nHoIx01Ue8B7i45q",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1673490903448,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673491034578,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.5"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Tail of Opportunity",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a <a href=\"https://2e.aonprd.com/Traits.aspx?ID=104\">manipulate</a> action or a <a href=\"https://2e.aonprd.com/Traits.aspx?ID=114\">move</a> action, makes a ranged attack, or leaves a square during a move action it’s using.</p>\n<p>Make a melee Tail Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you <a href=\"https://2e.aonprd.com/Rules.aspx?ID=394\">disrupt</a> that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WTgn6vSM1XdQMaq6",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.WTgn6vSM1XdQMaq6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1673491038205,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673491176678,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.5"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Royal Decree",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Mpeshi King gains an extra reaction each turn that it can only use for Long Live the King.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "aVhMdE80gQtYihOx",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.aVhMdE80gQtYihOx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1674191129092,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675003009174,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "scene-packer": {
+          "hash": "d8664ad5f7308f0840b3fe92fb82ff456880f8ac"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Second Crucible of Capra Rex",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Mpeshi King is reduced to half HP or less.</p><p><strong>Special </strong>The Mpeshi King can use this ability even if he is afflicted with conditions that would normally prevent him from acting (such as stunned).</p><hr /><p>With an ear-shattering \"baa!,\" the Mpeshi King launches himself into the sky, rupturing the ground beneath him. The Mpeshi King temporarily leaves the battle; adjust his position in initiative to directly before the current turn. All creatures touching the ground must attempt a <span style=\"font-family:var(--font-primary)\">@Check[type:reflex|dc:33|basic:false] save), falling prone on a failure. As a result of the ground rupturing, blue metal shards fly out of the ground, including a large piece of blue metal about the size of a club.</span></p><p> </p><p><span style=\"font-family:var(--font-primary)\">At the beginning of his next turn, the Mpeshi King slams from the sky into the square containing the blue metal club. The explosion deals [[/r (18d6)[electricity]]] electricity damage to all creatures in the encounter with a @Check[type:reflex|dc:33|basic:true] save, and any creatures within 30 feet of the explosion treats their save as one degree worse. Lastly, a massive crater is created as a result of the impact; the floor of the arena descends 100 feet and all creatures touching the ground (except for the Mpeshi King) slide down the rubble dealing [[/r (25)[bludgeoning]]] damage and they become prone. This is not a fall, and flying creatures remain 100 feet above the new ground level. Afterwards, the Mpeshi King takes his turn as normal. </span></p><p> </p><p><span style=\"font-family:var(--font-primary)\">If a creature is holding the metal club when the Mpeshi King returns to the battlefield, Mpeshi King aims at that player's square instead. The player can use a reaction to attempt to deflect the Mpeshi King with the club by succeeding at a @Check[type:athletics|dc:42|basic:false] check or succeeding at an attack roll against the Mpeshi King's AC (treat the club as a simple weapon in the club weapon group for the purposes of determining proficiency). If the deflection fails, the Mpeshi King slams into the ground as normal, centered on the player holding the club. If the deflection succeeds, the Mpeshi King is instead launched into a nearby mountain, crashing into it in a crackling explosion of electricity. If this occurs, the Mpeshi King loses hit points equal to half of its remaining hit points, and must use Sleipner Breaker as its first action on its turn in order to return to the battlefield, ignoring the normal leap distance of the ability.</span></p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "day",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vDMXl4IUKDxWbk6S",
+      "_key": "!actors.items!b71KVyMJpJrLc0W8.vDMXl4IUKDxWbk6S",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1674204129881,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1674940526954,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "scene-packer": {
+          "hash": "fe011d8bbffc3f50436bb53317d4374b8c514fe1"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - You're Gonna Have a Baaad Time",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Whenever a creature critically fails an attempt to take a hostile action against the Mpeshi King, or when the Mpeshi King critically succeeds on a save against a hostile effect originating from a creature, the creature that attempted the action or created the effect must attempt a @Check[type:will|dc:38|basic:false] save.</p><p> </p><p><strong>Critical Success </strong>The creature is unaffected.</p><p><strong>Success </strong>The creature begins to feel sheepish about fighting. They take a -1 status penalty to all checks and DCs until the beginning of their next turn.</p><p><strong>Failure </strong>For a moment, the creature believes that they are actually a goat instead of a heroic adventurer. They drop any items they are currently holding. Until the end of their current turn, they can only perform basic actions (such as a Stride or Step), and they can't perform any actions with the manipulate or linguistic traits. At the end of their turn, they suffer the same effects as are listed in the success entry.</p><p><strong>Critical Failure</strong> The creature so strongly believes that they are actually a goat that they momentarily transform into one. As failure, but the effect lasts until the end of their next turn, and they also physically transform into a goat (this does not change their statistics aside from the penalty listed in the success entry). This is a Polymorph effect.</p><div data-visibility=\"gm\"><p><span style=\"font-family:var(--font-primary)\">As this is a polymorph effect, it can only affect creatures who are already under a polymorph effect by counteracting the existing one. Its counteract modifier is +30. [[/r 1d20+30]]</span></p></div>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "beast",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Mpeshi King (T5)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Mpeshi King",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 200,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Pudersno/mpeshi_king_t5_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.7.2"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "str": {
+        "mod": 6,
+        "value": 22
+      },
+      "wis": {
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 39
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 400,
+        "temp": 0,
+        "value": 400
+      },
+      "immunities": [
+        {
+          "type": "electricity"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "sonic",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "mpeshi",
+        "value": []
+      },
+      "level": {
+        "value": 17
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>In the heights of the world, where the hills and mountains reach up to touch the clouds, mpeshis fall to the earth in flashes of lightning and thunder. Most return to the heavens on the gossamer strands of web on which they descend, but those few that remain cry out, lamenting their inability to return to their homes in the sky.</p>\n<p>A mpeshi appears to be a monstrous goat with the foreclaws, hindquarters, and tail of a crocodile. Electricity arcs around its sharp horns, which it can use to both batter and gore with equal facility. Although mpeshis are always seeking methods to return to their homes in the clouds, they aggressively defend their earthbound lairs from outsiders.</p>\n<p>Mpeshis are generally solitary, though some congregate as pairs or small groups that watch cloud movements together. They can sometimes be seen trying to join reach the storm clouds, leaping from high places such as hills, mountains, or cliffs. Though these attempts are rarely successful, the mpeshis always resolve to try again-and some do manage succeed at returning to their mysterious homes amongst the clouds.</p>\n<p>Mpeshis are utterly unafraid of rocs, dragons, or other monstrous flying creatures, usually seeing them as competition. Mpeshis are crafty, though, and sometimes try to negotiate transportation back to the clouds from flying creatures larger than they are.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder #170: Spoken on the Song Wind"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 32,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 32
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 27
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 32
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 30
+      },
+      "athletics": {
+        "base": 36
+      },
+      "nature": {
+        "base": 33
+      },
+      "stealth": {
+        "base": 30
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "beast",
+        "electricity"
+      ]
+    }
+  },
+  "type": "npc"
+}

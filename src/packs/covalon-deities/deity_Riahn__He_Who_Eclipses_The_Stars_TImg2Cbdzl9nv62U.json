@@ -1,0 +1,88 @@
+{
+  "_id": "TImg2Cbdzl9nv62U",
+  "_key": "!items!TImg2Cbdzl9nv62U",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.YQz8jVEoJYcjwGJL",
+    "coreVersion": "14.367",
+    "createdTime": 1725307134087,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807532,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/blanket-of-stars.webp",
+  "name": "Riahn, He Who Eclipses The Stars",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 2500000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p><span style=\"font-family:BookInsanityRemake\">Riahn, twin deity to Trella, was once known as the God of the South Star. His role in the sky was to offer alternate paths of travel to Trella, but over time people viewed Trella as the guiding star, causing him to be viewed as the star that would lead travellers astray. One day, the South Star no longer gave its light, leaving a void in the sky. Riahn is still there, watching, but as he moves through the sky, he sometimes eclipses the light of the other stars, going unnoticed by many but for the few who worship him this is seen as a good omen. Worshippers of Riahn typically involve those who act unseen, but are most definitely there, doing backdoor deals and looking for that which is hidden in the dark.</span></p><p><strong>Edicts</strong> find hidden secrets, make and uphold deals, hide your worship, help those in need.<br /><strong>Anathema</strong> stealing from those with little wealth, selling secrets, not upholding a deal, giving up on your comrades.</p></div></div>"
+    },
+    "domains": {
+      "alternate": [
+        "dreams"
+      ],
+      "primary": [
+        "cities",
+        "cold",
+        "darkness",
+        "wealth"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "thievery"
+    ],
+    "slug": "riahn",
+    "spells": {
+      "2": "Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB",
+      "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+      "6": "Compendium.pf2e.spells-srd.Item.m34WOIGZCEg1h76G"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "dagger"
+    ]
+  },
+  "type": "deity"
+}

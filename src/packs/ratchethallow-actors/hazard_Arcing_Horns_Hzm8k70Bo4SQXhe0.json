@@ -1,0 +1,339 @@
+{
+  "_id": "Hzm8k70Bo4SQXhe0",
+  "_key": "!actors!Hzm8k70Bo4SQXhe0",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1679535027824,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840791034,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    }
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "krtYx7Qv5tDWLpuL",
+      "_key": "!actors.items!Hzm8k70Bo4SQXhe0.krtYx7Qv5tDWLpuL",
+      "_stats": {
+        "compendiumSource": "Actor.MltKgjEZtp2yngAd.Item.6VBfT7rZH4nZJBTn",
+        "coreVersion": "14.367",
+        "createdTime": 1679432223801,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "jKtQ3yoc8rnYa4Xt",
+        "modifiedTime": 1687865898884,
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Arc Lightning",
+      "ownership": {
+        "default": 0,
+        "pc8bXOzEQL218kyT": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.932,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature enters a space within 10 feet of the Arcing Horn;</p>\n<p><strong>Effect</strong> The Arcing Horns make a ranged attack against the target dealing electricty damage.</p>\n<p>The attack is listed as \"Arc Lightning\" in the Attacks Section of the Stat Block.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ucxrgs0GZlONwt24",
+      "_key": "!actors.items!Hzm8k70Bo4SQXhe0.Ucxrgs0GZlONwt24",
+      "_stats": {
+        "compendiumSource": "Actor.nCLV08TacL3IncNP.Item.fe3l5D54EwTGGn5q",
+        "coreVersion": "14.367",
+        "createdTime": 1676128967531,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "jKtQ3yoc8rnYa4Xt",
+        "modifiedTime": 1687865818274,
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Arc Lightning",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3,
+        "pc8bXOzEQL218kyT": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.932,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 11
+        },
+        "damageRolls": {
+          "BO55ekBnNGQsOq0Q": {
+            "category": null,
+            "damage": "2d6+3",
+            "damageType": "electricity"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-30"
+          ]
+        }
+      },
+      "type": "melee"
+    }
+  ],
+  "name": "Arcing Horns",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Arcing Horns",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.346",
+        "schema": 0.932,
+        "system": "7.3.1"
+      },
+      "version": 0.941
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 7
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>A conducting pole with electricity arcing off of it. Any creature that comes within 10 feet of it is struck by a lightning attack that arcs to another creature so long as it is within 30 feet of the pole.</p>",
+      "disable": "<p>On a successful disable, the Arcing Horn is disabled.</p>\n<p>To disable the Hazard, 1 success is required on either a @Check[type:Arcana|dc:17|name:Disable Arcing Horns|traits:action:disable-a-device] (trained), @Check[type:crafting|dc:17|name:Arcing Horns|traits:action:disable-a-device] (trained), or @Check[type:Theivery|dc:17|name:Disable Arcing Horns|traits:action:disable-a-device] (trained) check.</p>",
+      "isComplex": false,
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0
+      },
+      "reflex": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

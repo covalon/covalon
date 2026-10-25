@@ -1,0 +1,217 @@
+{
+  "_id": "85DosliujNsRNI8l",
+  "_key": "!tables!85DosliujNsRNI8l",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1692055695476,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.307",
+      "systemId": "pf2e",
+      "systemVersion": "5.3.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "03b8FhVXbluJN576",
+    "modifiedTime": 1693155276626,
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2"
+  },
+  "description": "<p>At the beginning of the battle, the Contract will create a new basic rule by randomly rolling one IF clause and one THEN clause. Basic rules only trigger once per turn, and the effects trigger after the triggering action is complete. \"I\" and \"me\" always refer to the creature controlling the Contract. \"You\" refers to the triggering creature. Any effects that reference spells use a version of that spell heightened to the highest rank of spell that the Contract would be able to cast.</p>",
+  "displayRoll": false,
+  "flags": {},
+  "folder": null,
+  "formula": "1d7",
+  "img": "icons/svg/d20-grey.svg",
+  "name": "Basic Rules - IF Clauses",
+  "ownership": {
+    "default": 0
+  },
+  "replacement": true,
+  "results": [
+    {
+      "_id": "cVNC0clLH07hKtaL",
+      "_key": "!tables.results!85DosliujNsRNI8l.cVNC0clLH07hKtaL",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you Strike,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        1,
+        1
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "VM1SjD6Ym1i91XBI",
+      "_key": "!tables.results!85DosliujNsRNI8l.VM1SjD6Ym1i91XBI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you Interact,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        2,
+        2
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "1rqOBQHwG0RxNYFS",
+      "_key": "!tables.results!85DosliujNsRNI8l.1rqOBQHwG0RxNYFS",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you Cast a Spell,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        3,
+        3
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "PlKUdXuI9BtlvpXu",
+      "_key": "!tables.results!85DosliujNsRNI8l.PlKUdXuI9BtlvpXu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you Activate an Item,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        4,
+        4
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "sHcb5Szn6ENsDR4T",
+      "_key": "!tables.results!85DosliujNsRNI8l.sHcb5Szn6ENsDR4T",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you receive healing,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        5,
+        5
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "QW0x9qYcoN5CPwM1",
+      "_key": "!tables.results!85DosliujNsRNI8l.QW0x9qYcoN5CPwM1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you critically succeed at a check against me, or if I critically fail a save against your effect,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        6,
+        6
+      ],
+      "type": "text",
+      "weight": 1
+    },
+    {
+      "_id": "nlcsnIiyb5JehJrP",
+      "_key": "!tables.results!85DosliujNsRNI8l.nlcsnIiyb5JehJrP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "13.346",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "description": "IF you attempt a skill check,",
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d20-black.svg",
+      "name": "",
+      "range": [
+        7,
+        7
+      ],
+      "type": "text",
+      "weight": 1
+    }
+  ],
+  "sort": 0
+}

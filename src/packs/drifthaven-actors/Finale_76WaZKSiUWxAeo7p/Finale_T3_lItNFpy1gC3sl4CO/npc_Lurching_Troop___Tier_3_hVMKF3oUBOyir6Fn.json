@@ -1,0 +1,889 @@
+{
+  "_id": "hVMKF3oUBOyir6Fn",
+  "_key": "!actors!hVMKF3oUBOyir6Fn",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737840149390,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.7.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840149390,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "lItNFpy1gC3sl4CO",
+  "img": "modules/covalon/images/Drifthaven/lurching_troop_tier_5.Token.webp",
+  "items": [
+    {
+      "_id": "emEhVwHHlKEflWTh",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.emEhVwHHlKEflWTh",
+      "_stats": {
+        "compendiumSource": "Actor.apeqQ7OCbq3BP8HO.Item.yQzN4wExqO58Ssdr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Slow",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A shambler troop is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "rCyhSLmiT3R64oBy",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.rCyhSLmiT3R64oBy",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Form Up",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary 3"
+        },
+        "rules": [],
+        "slug": "form-up",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2IFzvekOPrWeSO9U",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.2IFzvekOPrWeSO9U",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "v9XW7L2IU9VSqClg",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.v9XW7L2IU9VSqClg",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Troop Defenses",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Thresholds</strong> 160 (12 squares), 80 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary 3"
+        },
+        "rules": [],
+        "slug": "troop-defenses",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QoUs1A8vsR36Zrai",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.QoUs1A8vsR36Zrai",
+      "_stats": {
+        "compendiumSource": "Actor.apeqQ7OCbq3BP8HO.Item.xb36ZcB5nu2McDrU",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Grave Tide",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The lurching troop is less organized than most troops. It can move into other creatures' spaces, and other creatures can move into its spaces. Its spaces are difficult terrain to other creatures.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "dwUa3ilQGkEcyypn",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.dwUa3ilQGkEcyypn",
+      "_stats": {
+        "compendiumSource": "Actor.apeqQ7OCbq3BP8HO.Item.ck37LN0pcQmPLf0a",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Troop Movement",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "I9LFC1pp9ZLFCxat",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.I9LFC1pp9ZLFCxat",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Boney Onslaught",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">2</span></p><p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The troop lashes out with its bone and flesh to bludgeon and tear at any enemies within @Template[type:emanation|distance:5]{5 feet} (@Check[type:reflex|dc:23|basic:true] save). The damage depends on the number of actions.</p><p><span class=\"action-glyph\">1 </span>@Damage[(2d8+8)[bludgeoning]]</p><p><span class=\"action-glyph\">2 </span>@Damage[(2d8+11)[bludgeoning]] </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "8FPunrCDILzCnLCv",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.8FPunrCDILzCnLCv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Grasp of the Grave",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The lurching troop reaches out to grab thir foes and drag them to their graves. Each enemy within @Template[type:emanation|distance:5]{5 feet} must succeed at a @Check[type:reflex|dc:23] save or be @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the lurching troop (or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} on a critical failure).</p>\n<p>Lurching troops are concidered to have maintained @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} each turn. All creatures that a lurching troop have grabbed when an HP threshold is hit are concidered to have @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaped}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "lc5EFkvoyFDrLkrb",
+      "_key": "!actors.items!hVMKF3oUBOyir6Fn.lc5EFkvoyFDrLkrb",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/conditions/slowed.webp",
+      "name": "Slowed",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
+        },
+        "duration": {
+          "expiry": null,
+          "unit": "unlimited",
+          "value": 0
+        },
+        "group": null,
+        "overrides": [],
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "references": {
+          "children": [],
+          "immunityFrom": [],
+          "overriddenBy": [],
+          "overrides": []
+        },
+        "rules": [],
+        "slug": "slowed",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "value": {
+          "isValued": true,
+          "value": null
+        }
+      },
+      "type": "condition"
+    }
+  ],
+  "name": "Lurching Troop | Tier 3",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Lurching Troop",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Drifthaven/lurching_troop_tier_5.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.934,
+        "system": "6.8.4"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 22
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "troop defenses 160/80",
+        "max": 240,
+        "temp": 0,
+        "value": 240
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "cold",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "electricity",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "slashing",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "fire",
+          "value": 5
+        }
+      ],
+      "speed": {
+        "details": "troop movement",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "area-damage",
+          "value": 10
+        },
+        {
+          "exceptions": [],
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 7
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 15,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 18
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 12
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 10
+      }
+    },
+    "skills": {},
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "evil",
+        "mindless",
+        "skeleton",
+        "troop",
+        "undead",
+        "unholy"
+      ]
+    }
+  },
+  "type": "npc"
+}

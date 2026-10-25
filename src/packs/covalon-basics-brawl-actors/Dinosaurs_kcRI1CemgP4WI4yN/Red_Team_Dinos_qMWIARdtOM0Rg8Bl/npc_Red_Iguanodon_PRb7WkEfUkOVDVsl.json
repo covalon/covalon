@@ -1,0 +1,504 @@
+{
+  "_id": "PRb7WkEfUkOVDVsl",
+  "_key": "!actors!PRb7WkEfUkOVDVsl",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838669870,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "qMWIARdtOM0Rg8Bl",
+  "img": "modules/covalon/images/Dino%20Brawl/Iguanodon.webp",
+  "items": [
+    {
+      "_id": "R4jXbSxWyqNtYJyp",
+      "_key": "!actors.items!PRb7WkEfUkOVDVsl.R4jXbSxWyqNtYJyp",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Thumb Spike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "0": {
+            "category": null,
+            "damage": "2d12+13",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "9tmJIJ6vy9JEPaL3",
+      "_key": "!actors.items!PRb7WkEfUkOVDVsl.9tmJIJ6vy9JEPaL3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "gy0dvqgndgshz9pzxbo5": {
+            "category": null,
+            "damage": "2d12+13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "tail",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "filzxUgupqvL1ZQq",
+      "_key": "!actors.items!PRb7WkEfUkOVDVsl.filzxUgupqvL1ZQq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Gouging Lunge",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The iguanodon makes a thumb spike Strike at an adjacent foe and then Strides up to 15 feet, dragging its thumb spike across the foe to gouge out a brutal wound. If this Strike hits, it deals an extra @Damage[4d8[slashing]] damage and the following Stride does not trigger reactions from the creature struck. This thumb spike Strike counts as two attacks when calculating the iguanodon's multiple attack penalty.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "gouging-lunge",
+            "toggleable": true
+          },
+          {
+            "damageType": "slashing",
+            "diceNumber": 1,
+            "dieSize": "d8",
+            "key": "DamageDice",
+            "predicate": [
+              "gouging-lunge"
+            ],
+            "selector": "thumb-spike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Iguanodon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Iguanodon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Dino%20Brawl/iguanodon.Token.Red.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "int": {
+        "min": 3,
+        "mod": -4,
+        "value": 2
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 30
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 175,
+        "temp": 0,
+        "value": 175
+      },
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Iguanodons are large, herbivorous dinosaurs that inhabit swamps and forests where they browse on the abundant vegetation. The iguanodon is capable of moving on two feet or on four, quickly switching from one stance to the other depending on whether it needs to move through dense foliage or to reach delectable morsels hanging up in the canopy.</p>\n<p>Although iguanodons are herbivores, they are notoriously quick to anger. Their thumb spikes make their claws particularly devastating weapons. A well-placed blow from one of these claws can turn a hungry predator into a cowering beast with one swift strike. Iguanodons are 30 feet long and weigh 6,000 pounds.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary 2"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 19
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 22,
+        "special": []
+      },
+      "athletics": {
+        "attribute": "str",
+        "base": 22,
+        "breakdown": "Modifier +15",
+        "dc": 25,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 22,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 15,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 15,
+        "value": 22,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "animal",
+        "dinosaur"
+      ]
+    }
+  },
+  "type": "npc"
+}

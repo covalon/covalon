@@ -1,0 +1,88 @@
+{
+  "_id": "N2lCO79umYuPI203",
+  "_key": "!items!N2lCO79umYuPI203",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.N2lCO79umYuPI203",
+    "coreVersion": "14.367",
+    "createdTime": 1680087568473,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807531,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/heartbond.webp",
+  "name": "Kujani",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1800000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>One of the eldest gods known to civilization, Kujani believes that he and his fellow divines have no more authority over souls than mortals do. Although he participated in the creation of mortal life, Kujani abandoned his children shortly after, leaving them with nothing but a decree that they should live to improve themselves for their own sakes, and a promise that he would free them in the afterlife for doing so. Kujani has never answered a prayer, performed any miracles, or attempted to reach out to his followers in any way (beyond his last decree), believing mortal autonomy to be more sacred than his own power and influence. His clerics do not draw their powers directly from Kujani, but from a wellspring inside themselves that Kujanite philosophy unlocks. It is said than when a mortal dies, their soul stands before Kujani as he administers final judgment. Souls who dedicated their lives to the development of mortalkind are awarded eternal freedom from the whims of the gods, while souls who consigned themselves to divine enslavement are abandoned by Kujani, to be fought over by the other deities.</p><p><br /><strong>Edicts</strong> pursue self-improvement, cooperate with others, uphold promises and responsibilities<br /><strong>Anathema</strong> cheat agreed-upon rules or trust, enslave someone against their will, invoke Kujani's name for vanity or influence</p>"
+    },
+    "domains": {
+      "alternate": [
+        "dust"
+      ],
+      "primary": [
+        "ambition",
+        "duty",
+        "freedom",
+        "perfection"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "society"
+    ],
+    "slug": "kujani",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.4c1c6eNzU1PFGkAy",
+      "4": "Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt",
+      "7": "Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "fist"
+    ]
+  },
+  "type": "deity"
+}

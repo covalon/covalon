@@ -1,0 +1,23 @@
+{
+  "_id": "TcVbqynNYD6E30aT",
+  "_key": "!folders!TcVbqynNYD6E30aT",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.350",
+    "createdTime": 1763937214923,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763937214923,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Tier 2",
+  "sort": 200000,
+  "sorting": "a",
+  "type": "Actor"
+}

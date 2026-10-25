@@ -1,0 +1,297 @@
+{
+  "_id": "HX2maDs3GEuvwQWd",
+  "_key": "!actors!HX2maDs3GEuvwQWd",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1674600941994,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.6.8",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1736019552967,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "modules/covalon/images/Pudersno/metal_shards.AvatarphCknxnmPjHsTU1U.webp",
+  "items": [
+    {
+      "_id": "PC4kbZJRf8Pi6hiH",
+      "_key": "!actors.items!HX2maDs3GEuvwQWd.PC4kbZJRf8Pi6hiH",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.c58wczIzH2gzeXQL",
+        "coreVersion": "14.367",
+        "createdTime": 1674600970330,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1674601111177,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/equipment/weapons/club.webp",
+      "name": "Blue Metal Club",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "club",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 1
+        },
+        "category": "simple",
+        "containerId": null,
+        "damage": {
+          "damageType": "bludgeoning",
+          "dice": 1,
+          "die": "d6",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This is a piece of metal is similar to the others found in Pudersno and is known to attract lightning. Oddly, this club is perfectly weighted for swinging. </p>"
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "club",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "name": "Unusual Club"
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {}
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+          "value": "-"
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "club",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "thrown-10"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "weapon"
+    }
+  ],
+  "name": "Metal Shards",
+  "ownership": {
+    "default": 1,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Metal Shards",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Pudersno/metal_shards.TokenphCknxnmPjHsTU1U.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": null,
+        "system": "6.8.1"
+      },
+      "version": 0.935
+    },
+    "details": {
+      "description": "",
+      "level": {
+        "value": 0
+      }
+    },
+    "hiddenWhenEmpty": false,
+    "lootSheetType": "Loot"
+  },
+  "type": "loot"
+}

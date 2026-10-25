@@ -1,0 +1,23 @@
+{
+  "_id": "nNfukLcvj9CG3Zdx",
+  "_key": "!folders!nNfukLcvj9CG3Zdx",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1770064235788,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "CsHicX4uI0fz4nW6",
+    "modifiedTime": 1770064235788,
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Briarmurk Finale",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Item"
+}

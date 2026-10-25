@@ -1,0 +1,1009 @@
+{
+  "_id": "F6ghnaUTIzweyMRJ",
+  "_key": "!actors!F6ghnaUTIzweyMRJ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1758949337765,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939424938,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "AJEY5WcykBmkREJy",
+  "img": "modules/covalon/images/Alatar/queen_of_alatar.Avatar.webp",
+  "items": [
+    {
+      "_id": "oq0ouXbsnrWmnD8a",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.oq0ouXbsnrWmnD8a",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Emotional Blast",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "strikeDamageID": {
+            "category": null,
+            "damage": "1d6+2",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar focuses her emotions into a powerful blast, firing a bolt of energy at her target. The damage type depends on her emotion.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": 30,
+          "max": null
+        },
+        "rules": [],
+        "slug": "emotional-blast",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "dATTmTluFFOaLqy4",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.dATTmTluFFOaLqy4",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Spellcasting",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 33,
+          "value": 25
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "IBBkqc0cHWekv7ZD",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.IBBkqc0cHWekv7ZD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotionally Unstable",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar is heavily influenced by the energy of emotions Governor Alekin has been absorbing from the citizens of Alatar. Upon placing the Queen of Alatar on the map, choose or randomly select an emotion for her, which alters the damage type and secondary effects of her abilities.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "option": "emotion",
+            "selection": "fire",
+            "suboptions": [
+              {
+                "label": "Happiness",
+                "value": "fire"
+              },
+              {
+                "label": "Sadness",
+                "value": "cold"
+              },
+              {
+                "label": "Fear",
+                "value": "mental"
+              },
+              {
+                "label": "Disgust",
+                "value": "acid"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "override",
+            "property": "damage-type",
+            "selectors": [
+              "inline-damage",
+              "strike-damage"
+            ],
+            "value": "{item|flags.pf2e.rulesSelections.emotion}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#ffaaaa",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:acid"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#aaffaa",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:cold"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#aaaaff",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:mental"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#ffaaff",
+            "value": "{actor|prototypeToken.texture.src}"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "FgD6gphFW85rTMhV",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.FgD6gphFW85rTMhV",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "En Passant",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar Strides up to half her speed. Once during this movement, if she leaves a square adjacent to an enemy, she may attempt to @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} them with a +2 Circumstance Bonus as a part of this action.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "en-passant",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "en-passant"
+            ],
+            "selector": "athletics",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish",
+            "move"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "pCPUofYK2wpOzxmU",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.pCPUofYK2wpOzxmU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Check",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar Strikes one target using her Emotional Blast with a +2 Circumstance Bonus to the attack roll. For this attack, Emotional Blast gains Knockdown.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "check",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "check"
+            ],
+            "selector": "attack-roll",
+            "type": "circumstance",
+            "value": "+2"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success"
+            ],
+            "predicate": [
+              "check"
+            ],
+            "selector": "emotional-blast-damage",
+            "text": "@Embed[Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu inline]",
+            "title": "Check!"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "s7VZh39ruM80le9Q",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.s7VZh39ruM80le9Q",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Trip",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You have at least one hand free. Your target can't be more than one size larger than you.</p><hr /><p>You try to knock a creature to the ground. Attempt an [[/act trip]]{Athletics} check against the target's Reflex DC.</p><hr /><p><strong>Critical Success</strong> The target falls, lands @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and takes @Damage[1d6[bludgeoning]] damage.</p>\n<p><strong>Success</strong> The target falls and lands prone.</p>\n<p><strong>Critical Failure</strong> You lose your balance, fall, and land prone.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "slug": "trip",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "71nANTkScLltz7RJ",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.71nANTkScLltz7RJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Knockdown",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "knockdown",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "MJJpAkLe6OYWyEci",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.MJJpAkLe6OYWyEci",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "And Mate",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar deals additional Precision damage to Prone targets.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "target:condition:prone"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "NEGHQoKXmhthuAru",
+      "_key": "!actors.items!F6ghnaUTIzweyMRJ.NEGHQoKXmhthuAru",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Emotional Strike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "xYUh5CwThfqv7DOP": {
+            "category": null,
+            "damage": "1d4+2",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Queen of Alatar manifests her emotions, wrapping her fists into chaotic energy to strike. The damage type depends on her emotion.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        }
+      },
+      "type": "melee"
+    }
+  ],
+  "name": "Queen of Alatar (T1)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Queen of Alatar",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": true,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Alatar/queen_of_alatar.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.947,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 3
+      },
+      "str": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 15
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 20,
+        "temp": 0,
+        "value": 20
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 1
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 7,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 7
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 7
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 10
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 6,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "humanoid"
+      ]
+    }
+  },
+  "type": "npc"
+}

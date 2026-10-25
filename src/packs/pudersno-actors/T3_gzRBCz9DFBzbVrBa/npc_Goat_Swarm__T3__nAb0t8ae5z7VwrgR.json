@@ -1,0 +1,744 @@
+{
+  "_id": "nAb0t8ae5z7VwrgR",
+  "_key": "!actors!nAb0t8ae5z7VwrgR",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1674922078438,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.7.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1736019552967,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "gzRBCz9DFBzbVrBa",
+  "img": "modules/covalon/images/Pudersno/Goat_Swarm.webp",
+  "items": [
+    {
+      "_id": "3UyUqSgF1admAwp7",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.3UyUqSgF1admAwp7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1674922903646,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675006759982,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Regeneration 50 (Deactivated by Blue Metal Club)",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>This monster regains the listed number of Hit Points each round at the beginning of its turn. Its <a class=\"content-link\" draggable=\"true\" data-uuid=\"Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1\" data-id=\"yZRUzMqrMmfLu0V1\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\">Dying</a> condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "B5cFXl5CIucCzoy0",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.B5cFXl5CIucCzoy0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675006601982,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Launch Goat",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "0": {
+            "category": null,
+            "damage": "4d6",
+            "damageType": "bludgeoning"
+          },
+          "cqmmnrqjk5x1pllk1hsx": {
+            "category": null,
+            "damage": "1d6+2",
+            "damageType": "electricity"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "magical",
+            "range-120"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "6hgXjCxuZTwCxmFa",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.6hgXjCxuZTwCxmFa",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QJZgoLZp0BfuvxvJ",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.QJZgoLZp0BfuvxvJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1674922444281,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Echolocation (Precise) 120 feet",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The swarm can use hearing as a precise sense at the listed range. The Baaahing is awful. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "KZhlld4EKQcCTBjw",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.KZhlld4EKQcCTBjw",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.baA0nSMhQyFyJIia",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Swarm Mind",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "swarm-mind",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "MIgppLmIY2AofKTC",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.MIgppLmIY2AofKTC",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675006675140,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Swarming Goats",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The swarm deals @Damage[2d6[slashing],(1d6+2)[sonic]] damage to each enemy in the swarm's space (@Check[type:fortitude|dc:27|basic:true] save). On a critical failure, the enemy is also @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute as the sound of \"BAAAH\" rings in their ears.</p><p>If the swarm was not at 0 hit points at the start of its turn, the damage for the basic save is @Damage[3d6[slashing],2d6[sonic]].</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nqXAtWBRyQoslYcj",
+      "_key": "!actors.items!nAb0t8ae5z7VwrgR.nqXAtWBRyQoslYcj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1674924647387,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1674924674248,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Kip Up",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You stand up. This movement doesn’t trigger reactions.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Goat Swarm (T3)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Goat Swarm",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 200,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Pudersno/goat_swarm.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.7.2"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 6
+      },
+      "con": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -2
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 25
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "Regeneration 50",
+        "max": 100,
+        "temp": 0,
+        "value": 100
+      },
+      "immunities": [
+        {
+          "type": "precision"
+        },
+        {
+          "type": "swarm-mind"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "bludgeoning",
+          "value": 5
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "piercing",
+          "value": 10
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "slashing",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "value": 10
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "area-damage",
+          "value": 5
+        },
+        {
+          "exceptions": [],
+          "type": "splash-damage",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "baaah",
+        "value": []
+      },
+      "level": {
+        "value": 8
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary 3"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "precise",
+          "range": 120,
+          "type": "echolocation"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 16
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 15
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 18
+      },
+      "performance": {
+        "base": 20
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "beast",
+        "electricity",
+        "sonic",
+        "swarm"
+      ]
+    }
+  },
+  "type": "npc"
+}

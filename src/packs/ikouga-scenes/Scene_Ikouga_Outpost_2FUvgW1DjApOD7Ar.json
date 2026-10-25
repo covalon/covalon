@@ -1,0 +1,153 @@
+{
+  "_id": "2FUvgW1DjApOD7Ar",
+  "_key": "!scenes!2FUvgW1DjApOD7Ar",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405828752,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "pGJOYrzHQ5eIdrmI",
+    "modifiedTime": 1689265685587,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "active": true,
+  "drawings": [],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {}
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1,
+    "reset": 1660676664362
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 4320,
+  "initial": {
+    "scale": 0.3,
+    "x": 4260,
+    "y": 3670
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!2FUvgW1DjApOD7Ar.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Ikouga/Ikouga_Outpost.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Ikouga Outpost",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Ikouga Outpost",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "padding": 0.25,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/ikouga-scenes-2FUvgW1DjApOD7Ar-thumb.webp",
+  "tiles": [],
+  "tokenVision": true,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 5760
+}

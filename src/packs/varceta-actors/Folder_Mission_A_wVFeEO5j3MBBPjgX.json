@@ -1,0 +1,22 @@
+{
+  "_id": "wVFeEO5j3MBBPjgX",
+  "_key": "!folders!wVFeEO5j3MBBPjgX",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1739725312205,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219543,
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Mission A",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

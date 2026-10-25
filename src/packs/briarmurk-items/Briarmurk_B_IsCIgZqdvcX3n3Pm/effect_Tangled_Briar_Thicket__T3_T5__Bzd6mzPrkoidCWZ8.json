@@ -1,0 +1,93 @@
+{
+  "_id": "Bzd6mzPrkoidCWZ8",
+  "_key": "!items!Bzd6mzPrkoidCWZ8",
+  "_stats": {
+    "compendiumSource": "Item.Bzd6mzPrkoidCWZ8",
+    "coreVersion": "13.351",
+    "createdTime": 1765569721372,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "CsHicX4uI0fz4nW6",
+    "modifiedTime": 1770064206406,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "IsCIgZqdvcX3n3Pm",
+  "img": "systems/pf2e/icons/spells/rangers-bramble.webp",
+  "name": "Tangled Briar Thicket (T3-T5)",
+  "ownership": {
+    "CsHicX4uI0fz4nW6": 3,
+    "default": 0
+  },
+  "sort": 200000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.952,
+        "system": "7.7.2"
+      },
+      "version": 0.953
+    },
+    "badge": {
+      "labels": [
+        "90ft",
+        "60ft",
+        "30ft"
+      ],
+      "loop": false,
+      "max": null,
+      "min": null,
+      "type": "counter",
+      "value": 1
+    },
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "Locke",
+      "license": "ORC",
+      "remaster": true,
+      "title": "Covalon - Briarmurk"
+    },
+    "rules": [
+      {
+        "appearance": {
+          "border": {
+            "color": "#2bc545"
+          }
+        },
+        "key": "Aura",
+        "radius": "120-@item.badge.value*30"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

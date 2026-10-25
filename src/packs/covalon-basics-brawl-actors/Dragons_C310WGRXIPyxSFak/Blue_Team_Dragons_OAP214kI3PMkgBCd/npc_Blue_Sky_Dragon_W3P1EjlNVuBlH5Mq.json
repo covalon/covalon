@@ -1,0 +1,1167 @@
+{
+  "_id": "W3P1EjlNVuBlH5Mq",
+  "_key": "!actors!W3P1EjlNVuBlH5Mq",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "OAP214kI3PMkgBCd",
+  "img": "modules/covalon/images/Dragon%20Brawl/Sky%20Dragon%201-4%20BLUE.webp",
+  "items": [
+    {
+      "_id": "EBTj2BTpBPfSuqXy",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.EBTj2BTpBPfSuqXy",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Dragon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "qrinSZGFXXvk6bNP",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.qrinSZGFXXvk6bNP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "bBpUfYJJmK2HaN78": {
+            "category": null,
+            "damage": "3d8+12",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "5dCmeky7ia9ZeeBI",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.5dCmeky7ia9ZeeBI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "W3vURv4lyxDMQQ8y": {
+            "category": null,
+            "damage": "1d12",
+            "damageType": "electricity"
+          },
+          "ZbWtsyFdXWIaMmLE": {
+            "category": null,
+            "damage": "3d10+12",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "dWw83Fy5BX2cadEU",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.dWw83Fy5BX2cadEU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "Fee5FizA9zBJ30iD": {
+            "category": null,
+            "damage": "3d10+12",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "rT1bv9j2AZUTK3QJ",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.rT1bv9j2AZUTK3QJ",
+      "_stats": {
+        "compendiumSource": "Actor.YNVCvNZ8jorm4mr7.Item.8GuVI0hREIK9sjQW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.YNVCvNZ8jorm4mr7.Item.8GuVI0hREIK9sjQW",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Coiling Frenzy",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon makes one claw Strike and one tail Strike in either order, each against the same target. If either Strike hits, the dragon automatically @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} the target.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "YHy4lvV5OYtscAU3",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.YHy4lvV5OYtscAU3",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 2000000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "6zHaPKCFgtDkdVLs",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.6zHaPKCFgtDkdVLs",
+      "_stats": {
+        "compendiumSource": "Actor.YNVCvNZ8jorm4mr7.Item.sOt6KDS7Y34upG7G",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.YNVCvNZ8jorm4mr7.Item.sOt6KDS7Y34upG7G",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Breath Weapon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon shoots a ball of electricity that deals @Damage[8d12[electricity]] damage in a @Template[burst|distance:25] within 50 feet (@Check[reflex|dc:29|basic] save).</p><p>They can't use Breath Weapon again for 2 rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "electricity",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RKqP5VkMZufF2yLA",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.RKqP5VkMZufF2yLA",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.OmV6E3aELvq9CkK1",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 2100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Damage[(3d10+12)[bludgeoning]], @Check[fortitude|dc:32|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rules": [],
+        "slug": "greater-constrict",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "TLBWmasUl0NVCIjS",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.TLBWmasUl0NVCIjS",
+      "_stats": {
+        "compendiumSource": "Actor.YNVCvNZ8jorm4mr7.Item.WD4ykPiVOX7xRtgI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.YNVCvNZ8jorm4mr7.Item.WD4ykPiVOX7xRtgI",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Perfected Flight",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1900000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A sky dragon can hover in place without spending an action.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "jnNnOH8HJKGoAvBu",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.jnNnOH8HJKGoAvBu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 32,
+          "value": 24
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "NRNaTXRaNfNK4sEt",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.NRNaTXRaNfNK4sEt",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+      "name": "Invisibility",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Cloaked in illusion, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "value": "jnNnOH8HJKGoAvBu"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "invisibility",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "illusion",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "QswLf55DsgSrfuUK",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.QswLf55DsgSrfuUK",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.TTwOKGqmZeKSyNMH",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/commodities/materials/feather-damaged-brown.webp",
+      "name": "Feather Fall",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> a creature within range is falling</p>\n<hr />\n<p>You cause the air itself to arrest a fall. The target's fall slows to 60 feet per round, and the portion of the fall during the spell's duration doesn't count when calculating falling damage. If the target reaches the ground while the spell is in effect, it takes no damage from the fall. The spell ends as soon as the target lands.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 1,
+          "uses": {
+            "max": 3,
+            "value": 3
+          },
+          "value": "jnNnOH8HJKGoAvBu"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "feather-fall",
+        "target": {
+          "value": "1 falling creature"
+        },
+        "time": {
+          "value": "reaction"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "uZkyTvvTZCddn8BZ",
+      "_key": "!actors.items!W3P1EjlNVuBlH5Mq.uZkyTvvTZCddn8BZ",
+      "_stats": {
+        "compendiumSource": "Actor.nB0KDEW4u7cBw16j.Item.R8f6nx9jMnFB03qP",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.nB0KDEW4u7cBw16j.Item.R8f6nx9jMnFB03qP",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Savage",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by the dragon fails a skill check to Escape.</p><hr /><p><strong>Effect</strong> The dragon makes a jaws Strike against the triggering creature.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Blue Sky Dragon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Sky Dragon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "src": "modules/covalon/images/Dragon%20Brawl/Sky%20Dragon%201-4%20BLUE.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 7
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 230,
+        "temp": 0,
+        "value": 230
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 120
+          }
+        ],
+        "value": 30
+      }
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "draconic"
+        ]
+      },
+      "level": {
+        "value": 12
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "darkvision",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 25
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 22
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 25,
+        "special": []
+      },
+      "athletics": {
+        "base": 22,
+        "special": []
+      },
+      "deception": {
+        "base": 22,
+        "special": []
+      },
+      "intimidation": {
+        "base": 18,
+        "special": []
+      },
+      "stealth": {
+        "base": 20,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "dragon",
+        "electricity"
+      ]
+    }
+  },
+  "type": "npc"
+}

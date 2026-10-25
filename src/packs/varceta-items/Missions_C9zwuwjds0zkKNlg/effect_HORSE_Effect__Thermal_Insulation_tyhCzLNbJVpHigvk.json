@@ -1,0 +1,79 @@
+{
+  "_id": "tyhCzLNbJVpHigvk",
+  "_key": "!items!tyhCzLNbJVpHigvk",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1739734029787,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742091548361,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "C9zwuwjds0zkKNlg",
+  "img": "systems/pf2e/icons/spells/thermal-stasis.webp",
+  "name": "HORSE Effect: Thermal Insulation",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.935
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>You gain Resistance to Fire equal to your level / 2 (Rounded down, minimum 1).</p>"
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "max(1, floor(@actor.level / 2))"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

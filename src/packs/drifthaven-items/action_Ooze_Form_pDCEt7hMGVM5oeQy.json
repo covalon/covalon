@@ -1,0 +1,78 @@
+{
+  "_id": "pDCEt7hMGVM5oeQy",
+  "_key": "!items!pDCEt7hMGVM5oeQy",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1699316664950,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.11.3",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1704386038216,
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "name": "Ooze Form",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "11.315",
+        "schema": 0.898,
+        "system": "5.11.3"
+      },
+      "version": 0.911
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Lich Faltyr would be hit with a Strike that is a critical hit.</p>\n<hr />\n<p><strong>Effect</strong> Lich Faltyr’s bones mold like ooze, granting him immunity to critical hits, precision damage, and visual effects until the beginning of his next turn.</p>\n<p>@UUID[Compendium.covalon.drifthaven-items.Item.XCesvSp9TLT57gdb]{Spell Effect: Ooze Form}</p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "requirements": {
+      "value": ""
+    },
+    "rules": [],
+    "slug": "ooze-form",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "polymorph"
+      ]
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "type": "action"
+}

@@ -1,0 +1,1405 @@
+{
+  "_id": "jLI9NIR5xT2GLbDV",
+  "_key": "!actors!jLI9NIR5xT2GLbDV",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "0Khis4tHys5hSWxV",
+  "img": "modules/covalon/images/Dragon%20Brawl/Diabolic%20Dragon%201-3%20RED.webp",
+  "items": [
+    {
+      "_id": "NExG5uJey8gCRll3",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.NExG5uJey8gCRll3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "CxW06RFh1ip9tgWn": {
+            "category": null,
+            "damage": "3d8+12",
+            "damageType": "slashing"
+          },
+          "OQbLbe79KzdEH9oY": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "fire",
+            "magical",
+            "unholy"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "sTlRhFOWDtL6s9Ph",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.sTlRhFOWDtL6s9Ph",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "0Ol0swZU55yMGDRu": {
+            "category": null,
+            "damage": "3d10+12",
+            "damageType": "piercing"
+          },
+          "O5P0QHKHI5aoNvSL": {
+            "category": null,
+            "damage": "2d6",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "magical",
+            "reach-10",
+            "unholy"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "gdNmkNmXK6uuotfH",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.gdNmkNmXK6uuotfH",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "knockdown"
+          ]
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "JNxClLSQ45PTPzPL": {
+            "category": null,
+            "damage": "3d10+12",
+            "damageType": "bludgeoning"
+          },
+          "nlyxymnCxhdXIxzL": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "magical",
+            "reach-15",
+            "unholy"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "mLnYsG0ZNvDXXmLN",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.mLnYsG0ZNvDXXmLN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Dragon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "XiJIBCcu2CEsHOap",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.XiJIBCcu2CEsHOap",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "FPE4LMA28ybK5Ycn",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.FPE4LMA28ybK5Ycn",
+      "_stats": {
+        "compendiumSource": "Actor.nMJgCUY5pnEazkbB.Item.Biez8RunTRAB4NCV",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.nMJgCUY5pnEazkbB.Item.Biez8RunTRAB4NCV",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Draconic Frenzy",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "EorKhhnJ1N6W4bZI",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.EorKhhnJ1N6W4bZI",
+      "_stats": {
+        "compendiumSource": "Actor.nMJgCUY5pnEazkbB.Item.yDArgwXwN85q97A7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.nMJgCUY5pnEazkbB.Item.yDArgwXwN85q97A7",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Hell's Sting",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The dragon is critically hit with a melee attack</p>\n<hr />\n<p><strong>Effect</strong> The dragon channels the rancor of Hell back through the body of their foe, overwhelming it with an infernal assault on the mind. The triggering creature takes @Damage[6d6[mental]] damage with a @Check[will|dc:30|basic] save. Holy creatures use an outcome one degree of success worse than they roll on their saving throw.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "mental",
+            "unholy",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "pcsbhoWeSJBztUZn",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.pcsbhoWeSJBztUZn",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Knockdown",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1800000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "knockdown",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Bdh4eqWIOv7uxQTa",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.Bdh4eqWIOv7uxQTa",
+      "_stats": {
+        "compendiumSource": "Actor.nMJgCUY5pnEazkbB.Item.2SfnAmO0wAMNDsit",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.nMJgCUY5pnEazkbB.Item.2SfnAmO0wAMNDsit",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Hellfire Breath",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon unleashes a blast of infernal fire that deals @Damage[11d6[fire]] damage in a @Template[cone|distance:40] (@Check[reflex|dc:29|basic] save).</p><p>The dragon can't use Hellfire Breath again for 2 rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "fire",
+            "unholy",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "tuXRfD2Lvuph9V5s",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.tuXRfD2Lvuph9V5s",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Distressing Presence",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>40 feet.</p><p>The mere sight of a diabolic dragon spreads fear into lesser beings. Enemies within the aura take a -1 status pentaly to AC.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "effects": [
+              {
+                "affects": "enemies",
+                "uuid": "Compendium.pf2e.spell-effects.Item.1jX8W0eyMPJ0MFKY"
+              }
+            ],
+            "key": "Aura",
+            "radius": 40,
+            "traits": [
+              "emotion",
+              "mental"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "emotion",
+            "mental"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "T1FGRpiZeKFUay4F",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.T1FGRpiZeKFUay4F",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Divine Innate Spells",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 32,
+          "value": 24
+        },
+        "tradition": {
+          "value": "divine"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "7cd9oBVQbN5KYWrW",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.7cd9oBVQbN5KYWrW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.A16eFTRh82xIjMu8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/fire/explosion-embers-orange.webp",
+      "name": "Divine Immolation",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "b9dAiWfV57lyCWpP": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Divine flames scour creatures within the area. Creatures take 6d6 fire damage and @Damage[(@item.level -3)d6[persistent,fire]] damage. The divine power within the flames scorches the spirit as well; a creature takes spirit damage instead of fire damage from divine immolation if that would be more detrimental to the creature (as determined by the GM).</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and no persistent damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and persistent damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and double persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6 and persistent damage increases by 1d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "b9dAiWfV57lyCWpP": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "uses": {
+            "max": 2,
+            "value": 2
+          },
+          "value": "T1FGRpiZeKFUay4F"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "divine-immolation",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate",
+            "sanctified",
+            "spirit"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "YMijrkAwuB5tXwCw",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.YMijrkAwuB5tXwCw",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "name": "Ignition",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "cQDyW0QpjJ38MlSi": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.level)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.level)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "cQDyW0QpjJ38MlSi": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "T1FGRpiZeKFUay4F"
+        },
+        "overlays": {
+          "eOCNn2ohYAvsYZjn": {
+            "_id": "eOCNn2ohYAvsYZjn",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          },
+          "xYyA7CV1GaFTRjBQ": {
+            "_id": "xYyA7CV1GaFTRjBQ",
+            "name": "Ignition (Melee)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "cQDyW0QpjJ38MlSi": {
+                  "formula": "2d6"
+                }
+              },
+              "heightening": {
+                "damage": {
+                  "cQDyW0QpjJ38MlSi": "1d6"
+                }
+              },
+              "range": {
+                "value": "touch"
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "ignition",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "Cq9UH1B4absZKO5x",
+      "_key": "!actors.items!jLI9NIR5xT2GLbDV.Cq9UH1B4absZKO5x",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/light/projectile-beam-yellow.webp",
+      "name": "Divine Wrath",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "4d10",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "spirit"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You channel the fury of divinity against your foes. You deal 4d10 spirit damage to enemies in the area, depending on their Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}; while it's sickened, it's also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d10"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "T1FGRpiZeKFUay4F"
+        },
+        "overlays": {},
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "divine-wrath",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "sanctified",
+            "spirit"
+          ]
+        }
+      },
+      "type": "spell"
+    }
+  ],
+  "name": "Red Diabolic Dragon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Diabolic Dragon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "src": "modules/covalon/images/Dragon%20Brawl/Diabolic%20Dragon%201-3%20RED.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 6
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 32
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 230,
+        "temp": 0,
+        "value": 230
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 100
+          }
+        ],
+        "value": 40
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "holy",
+          "value": 10
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "draconic"
+        ]
+      },
+      "level": {
+        "value": 12
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "darkvision",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 25
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 22
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 22,
+        "special": []
+      },
+      "athletics": {
+        "base": 22,
+        "special": []
+      },
+      "deception": {
+        "base": 20,
+        "special": []
+      },
+      "intimidation": {
+        "base": 25,
+        "special": []
+      },
+      "stealth": {
+        "base": 18,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "divine",
+        "dragon",
+        "unholy",
+        "magical"
+      ]
+    }
+  },
+  "type": "npc"
+}

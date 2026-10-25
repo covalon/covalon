@@ -1,0 +1,159 @@
+{
+  "_id": "Q2OyTozVDz55AjkF",
+  "_key": "!scenes!Q2OyTozVDz55AjkF",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405828753,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "pGJOYrzHQ5eIdrmI",
+    "modifiedTime": 1689265685587,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "active": true,
+  "drawings": [],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0.2,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {},
+    "perfect-vision": {
+      "darknessColor": "",
+      "daylightColor": "",
+      "saturation": null,
+      "sightLimit": null
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 0,
+    "reset": 1644015366210
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 72,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 1080,
+  "initial": {
+    "scale": 1.14,
+    "x": 754,
+    "y": 700
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!Q2OyTozVDz55AjkF.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#3b434e",
+        "src": "modules/covalon/images/Ikouga/Ocean%20Basin%20Small_v2.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Ocean Basin",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Ocean Basin",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "padding": 0.1,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/ikouga-scenes-Q2OyTozVDz55AjkF-thumb.webp",
+  "tiles": [],
+  "tokenVision": false,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 1080
+}

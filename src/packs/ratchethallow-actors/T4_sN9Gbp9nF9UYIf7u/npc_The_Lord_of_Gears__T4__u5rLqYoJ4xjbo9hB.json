@@ -1,0 +1,1342 @@
+{
+  "_id": "u5rLqYoJ4xjbo9hB",
+  "_key": "!actors!u5rLqYoJ4xjbo9hB",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1676129775628,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840791034,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "sN9Gbp9nF9UYIf7u",
+  "img": "modules/covalon/images/Ratchethallow/TheLordOfGears.webp",
+  "items": [
+    {
+      "_id": "qIsmMV8bPcr5sy9u",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.qIsmMV8bPcr5sy9u",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.Soa11TTg8WkWr5rQ",
+        "coreVersion": "14.367",
+        "createdTime": 1676133327724,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1677976777755,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Energy Siphon",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears draws energy from the magical Pillars around the room. It starts out the fight @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened 1}. Each time a pillar is destroyed, it loses Quickened for 1 round.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "electricity",
+            "mechanical",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "PC9SkpvZ6ZkaINZZ",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.PC9SkpvZ6ZkaINZZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676130263385,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678553714080,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "dQw7SFoGOXIP6XKo": {
+            "category": null,
+            "damage": "3d10+16",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "forceful",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Yie9cfOGm0m9NQYZ",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.Yie9cfOGm0m9NQYZ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT",
+        "coreVersion": "14.367",
+        "createdTime": 1676130585691,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1676852355848,
+        "systemId": "pf2e",
+        "systemVersion": "4.7.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Attack of Opportunity",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p>\n<hr />\n<p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RdotPDpmxPSCcV39",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.RdotPDpmxPSCcV39",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.dpDZWsdoENPEsjIm",
+        "coreVersion": "14.367",
+        "createdTime": 1676130333569,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678553681511,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Grappling Hook",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": [
+            "improved-grab"
+          ]
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "6Xg1eAimajNbEq4F": {
+            "category": null,
+            "damage": "0",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears wraps hit grappling hook around the target, grabbing them (@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}) and pulling a flying target to it, or a target on the ground up to 20 feet closer. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p><p>If Grappling Hook is immediately followed by Hydraulic Punch, only increase multi-attack penalty once, after the Hydraulic Punch. Hydraulic Punch releases the grab if it hits, as it pushes the target away.</p><p>The Lord of Gears can move while it has a target grabbed this way. If the target is adjacent to it, the target is dragged along with it.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-60"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "GD5wTGLfVf6zF17S",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.GD5wTGLfVf6zF17S",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.a9RCYavnIJocfUSW",
+        "coreVersion": "14.367",
+        "createdTime": 1676212641460,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678560334969,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Blast Off (Overdrive Only)",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears launches itself up to twice its speed in any direction, then makes a Fist strike when it lands. This strike deals an additional 2d10 bludgeoning damage on a hit (doubled on a crit).</p><p>This movement doesn't trigger reactions, and can be taken while prone. However, if it is taken while prone, the Lord of Gears still lands prone, which applies to the attack.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "blast-off",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "diceNumber": 2,
+            "key": "DamageDice",
+            "predicate": [
+              "melee",
+              "blast-off"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mechanical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2vaZj8JFsXs5YJH4",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.2vaZj8JFsXs5YJH4",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.gEdidEk30a6Uo8WY",
+        "coreVersion": "14.367",
+        "createdTime": 1676135869646,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1754841424167,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Energetic Overload",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When all 3 pillars are destroyed, a shockwave of electricity explodes throughout the room, dealing @Damage[14d6[electricity]] damage on a @Check[type:reflex|dc:32|basic:true] save.</p><p>After that occurs, The Lord of Gears goes into an overdrive. It becomes quickened 2, gains +10 to its speeds, and gains a +4 status bonus to damage rolls from strikes. From the start of its next turn, The Lord of Gears gains 2 levels of @UUID[Compendium.covalon.ratchethallow-items.Item.V3gTkeaXbFu6RF6b]{Drained (Lord of Gears)}  at the end of its turn every round.</p><p>The destruction of all of the Pillars also sends a regenerating pulse of energy into The Lord of Gears as they fall, causing it to regain 25% of its maximum HP.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "label": "Energetic Overload is active",
+            "option": "energetic-overload",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "damageType": "bludgeoning",
+            "key": "FlatModifier",
+            "predicate": [
+              "energetic-overload"
+            ],
+            "selector": "strike-damage",
+            "type": "status",
+            "value": 4
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "energetic-overload"
+            ],
+            "selector": "land-speed",
+            "value": 10
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "electricity",
+            "mechanical",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "tavb5OSS6yfdllNs",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.tavb5OSS6yfdllNs",
+      "_stats": {
+        "compendiumSource": "Actor.X72Gs9Tn6AV8zLei.Item.O5Hb34r44xT4xQZB",
+        "coreVersion": "14.367",
+        "createdTime": 1676130530418,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1676212974888,
+        "systemId": "pf2e",
+        "systemVersion": "4.7.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Steam Vision",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Steam doesn't impair The Lord of Gears vision; it ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition from steam.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "btWghaEKVbU7OIzi",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.btWghaEKVbU7OIzi",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676852353738,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678553756598,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Hydraulic Punch",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears makes a normal Fist strike but its arm shoots out into the target mid-punch. The strike deals an additional 2d10 bludgeoning damage and on a successful strike launches the target 20 feet backwards. On a critical hit, the target lands prone.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "hydraulic-punch",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "diceNumber": 2,
+            "key": "DamageDice",
+            "predicate": [
+              "melee",
+              "hydraulic-punch"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mechanical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "20Kh4DCh75j42ETu",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.20Kh4DCh75j42ETu",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.ejOufrF0GuRI6ofn",
+        "coreVersion": "14.367",
+        "createdTime": 1676135493107,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678560502155,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Shocking Siphon",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears can siphon energy from one of the pillars, sending out a massive arc of electricity. This targets all characters that The Lord of Gears can see (tremorsense is still enough to target). All targets make a @Check[type:reflex|dc:33|basic:true] or take @Damage[12d6[electricity]] damage.</p><p>Using this temporarily deactivates the aura of steam around the pillar and the pillars boiling and shocking burst attacks for 1 round. While deactivated, the pillar loses its hardness.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "flourish",
+            "mechanical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "cTk3vD9ETrBhbthL",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.cTk3vD9ETrBhbthL",
+      "_stats": {
+        "compendiumSource": "Actor.2cqRlxovLpFh1FNb.Item.JdJnK5xOQpbTG4gl",
+        "coreVersion": "14.367",
+        "createdTime": 1676159179733,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678554009701,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Vent Steam",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Boiling steam erupts from The Lord of Gears in a @Template[type:burst|distance:20] from any corner around the middle of its token. Creatures starting their turn in the area or moving into the area need to make a @Check[type:fortitude|dc:33|basic:true] save or take @Damage[8d8[fire]] damage. Everything in the area also becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} while the steam is present. The steam persists for 2 rounds, and this ability can be used once every [[/br 1d4 #rounds]]{1d4 rounds}.</p><p>The Lord of Gears is immune to damage from Vent Steam.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "mechanical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "AeSE1UzliS4V8cQo",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.AeSE1UzliS4V8cQo",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676855707222,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678554187473,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Secure Power Source",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>There are stone walls around each pillar, blocking them from being directly attacked. These walls are 10 feet tall, and are placed 5 feet away from the Pillars. Each wall is crit immune, has hardness 12, AC 10, and 40 hp. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "JOE9fQB2lDn3VhTh",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.JOE9fQB2lDn3VhTh",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676855819795,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678554132540,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Enhanced Hook",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When the Lord of Gears hits a target with its grappling hook, it can choose to use a second action to pull itself to the target instead of pulling the target towards it, as long as the target is within the first range increment. The targeted creature must succeed on a @Check[type:reflex|dc:33|basic:true] save or take Fist Strike damage as the Lord of Gears slams into them. This movement does not trigger reactions.</p><p>This can move through creatures, but cannot end in the same space as one. The Lord of Gears can choose which space it ends up in around its target. For the purposes of multi-attack penalty, this counts as a normal Grappling Hook attack (and so still doesn't increase the penalty until after a follow-up Hydraulic Punch).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ySnvzZESzGBivKec",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.ySnvzZESzGBivKec",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677976397198,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678491011734,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Shifting Floors",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>There are platforms built into the floors around the workshop that The Lord of Gears can control. At the end of its turn, The Lord of Gears can move any 3x3 (15 foot by 15 foot) section of floor up to 30 feet in any horizontal direction, pulling creatures standing on it along with it. This doesn't leave a hole in the floor.</p><p>As this is forced movement, it doesn't trigger reactions. It shifts the floor throughout the workshop, and so can move terrain through other creatures, but cannot move through the pillars.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "jNvVlWWZkEwaUrwi",
+      "_key": "!actors.items!u5rLqYoJ4xjbo9hB.jNvVlWWZkEwaUrwi",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Healing Siphon",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 250000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Pillars heal The Lord of Gears as time passes. The Lord of Gears has Regeneration equal to (its level*remaining pillars). Note - Deactivated pillars still count towards this ability.</p><p>The Lord of Gears can’t die until all 3 pillars are destroyed. If it would go unconscious, it instead becomes paralyzed until the start of its next turn. It doesn't go prone, and its initiative doesn't get moved.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "deactivatedBy": [],
+            "key": "FastHealing",
+            "predicate": [
+              {
+                "not": "pillars-remaining:0"
+              }
+            ],
+            "type": "regeneration",
+            "value": "@actor.level*@item.flags.pf2e.rulesSelections.pillarsRemaining"
+          },
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Pillars Remaining",
+            "option": "pillars-remaining",
+            "selection": "3",
+            "suboptions": [
+              {
+                "label": "0",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          }
+        ],
+        "slug": "regeneration",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "electricity",
+            "mechanical",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "The Lord of Gears (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 3,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 3,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "The Lord of Gears",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Ratchethallow/TheLordOfGears.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 3
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.346",
+        "schema": 0.94,
+        "system": "7.3.1"
+      },
+      "version": 0.941
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 7
+      },
+      "wis": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 34
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "Regeneration (level*pillars)",
+        "max": 255,
+        "temp": 0,
+        "value": 255
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "electricity"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        },
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "healing"
+        },
+        {
+          "exceptions": [],
+          "type": "nonlethal-attacks"
+        },
+        {
+          "exceptions": [],
+          "type": "polymorph"
+        },
+        {
+          "exceptions": [],
+          "type": "doomed"
+        },
+        {
+          "exceptions": [],
+          "type": "fatigued"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "sickened"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "fire",
+          "value": 12
+        }
+      ],
+      "speed": {
+        "details": "50 when in Energetic Overload",
+        "otherSpeeds": [],
+        "value": 40
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 25,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "precise",
+          "range": 80,
+          "type": "tremorsense"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 28
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 23
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 26
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 27
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "clockwork",
+        "construct"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,472 @@
+{
+  "_id": "3J97fE8GVCZ25lmC",
+  "_key": "!actors!3J97fE8GVCZ25lmC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1770065079772,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175134615,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      },
+      "editMode": false
+    }
+  },
+  "folder": "GHmGSJ98ek88Z7gf",
+  "img": "modules/covalon/images/Briarmurk/twisted_magic_orb_bramble_.Avatar.webp",
+  "items": [
+    {
+      "_id": "vlgOHX4VYrnfC0tL",
+      "_key": "!actors.items!3J97fE8GVCZ25lmC.vlgOHX4VYrnfC0tL",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Briars Writhe",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Asira becomes the Ritual Leader.</p><p><strong>Effect</strong> The hazard rolls initiative.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "plant",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "EvdY70B2SMhFd3vP",
+      "_key": "!actors.items!3J97fE8GVCZ25lmC.EvdY70B2SMhFd3vP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Tangled Briar Thicket",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Briars grow and twist from the ground surrounding the Bramble Orb. This effect does not harm Asira, Terina, or Rashai. Creatures in a 45 foot emanation (or smaller, if any successes have been achieved towards disabling this hazard) within 15 feet of the ground take @Damage[(2d12+13)[piercing]|options:primal,divine,plant] (@Check[reflex|dc:28|basic|options:primal,divine,plant]).</p><p>Track the radius of this ability using the @UUID[Compendium.covalon.briarmurk-items.Item.RhbCvt6mp4f7seCQ]{Tangled Briar Thicket} effect, apply it to the hazard and left click the effect once to reduce the area by 15 feet.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "plant",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QJZFAWjIzsHslj13",
+      "_key": "!actors.items!3J97fE8GVCZ25lmC.QJZFAWjIzsHslj13",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T4",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "11",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "10"
+              },
+              {
+                "label": "Level 9",
+                "value": "9"
+              },
+              {
+                "label": "Level 11",
+                "value": "11"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:11"
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:11"
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Twisted Magic Orb (Bramble) (T4 Finale)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Twisted Magic Orb (Bramble)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/twisted_magic_orb_bramble_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 27
+      },
+      "emitsSound": false,
+      "hardness": 17,
+      "hp": {
+        "details": "BT counts as 1 disable.",
+        "max": 70,
+        "temp": 0,
+        "value": 70
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 22
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>An orb of twisting primal thorns and magic appears atop the altar in the center of the Apex.</p>",
+      "disable": "<p>The orb can be disabled using @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} with @Check[athletics|dc:28|traits:action:disable-a-device]{Athletics}, @Check[nature|dc:28|traits:action:disable-a-device]{Nature}, @Check[religion|dc:28|traits:action:disable-a-device]{Religion}, or @Check[thievery|dc:28|traits:action:disable-a-device]{Thievery}.</p><p>Three successes are required to completely disable this hazard. Each success reduces the radius of the hazard's Tangled Briar Thicket by 15ft (a Critical Success to Disable counts as two successes, reducing the radius it by 30ft).</p><p>The hazard can also be disabled by a creature casting a prepared or spontaneous spell with the Void trait while adjacent to the orb. The spell rank must be at least APL/2 -1 (round up), and this causes the spell to be consumed entirely by the orb. The spell has none of its usual effects. The caster attempts a Counteract check with the same DC as the Disable DC for the Religion skill, but they get one degree of success higher than they roll.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 10
+      },
+      "publication": {
+        "authors": "Locke",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Covalon - Briarmurk"
+      },
+      "reset": "<p>The orb is dormant for 24 hours.</p>",
+      "routine": "<p>(1 action) The hazard uses Tangled Briar Thicket.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22
+      },
+      "reflex": {
+        "value": 16
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "primal",
+        "divine",
+        "trap",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

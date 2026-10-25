@@ -1,0 +1,1179 @@
+{
+  "_id": "qA8goemtfhSSTI4Z",
+  "_key": "!actors!qA8goemtfhSSTI4Z",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "OAP214kI3PMkgBCd",
+  "img": "modules/covalon/images/Dragon%20Brawl/Brine%20Dragon%201-4%20BLUE.webp",
+  "items": [
+    {
+      "_id": "mlqOyZZdzLraB2L1",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.mlqOyZZdzLraB2L1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Dragon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 20
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "x8d8UpmmPHNsBfan",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.x8d8UpmmPHNsBfan",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "jHrkhYpEpDhdNK26": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "v1cDst37RkMrFXfe",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.v1cDst37RkMrFXfe",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "E0QhVFIiXUBCHkjQ": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "piercing"
+          },
+          "YZ3nStDB2i2IaGKy": {
+            "category": null,
+            "damage": "3d4",
+            "damageType": "acid"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "magical",
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "eok8HGCcLTlJvDlq",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.eok8HGCcLTlJvDlq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "improved-push"
+          ]
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "q8ZGSLpabkHx7Kp4": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-20"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "0nqk0JxCAMybu0dZ",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.0nqk0JxCAMybu0dZ",
+      "_stats": {
+        "compendiumSource": "Actor.6cmCysAC0EJaWcw4.Item.uJuFK46gaxSPryGB",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.6cmCysAC0EJaWcw4.Item.uJuFK46gaxSPryGB",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Brine Spit",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature the brine dragon observes within 30 feet uses a concentrate action</p>\n<hr />\n<p><strong>Effect</strong> The dragon spits a glob of caustic salt water at the creature. The creature takes @Damage[5d6[acid]] damage (@Check[reflex|dc:30|basic] save). On a failure, the concentrate action is disrupted.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "eK2vG3SIZ9NzEPPC",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.eK2vG3SIZ9NzEPPC",
+      "_stats": {
+        "compendiumSource": "Actor.6cmCysAC0EJaWcw4.Item.ax8IJyIaesSgfUVD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.6cmCysAC0EJaWcw4.Item.ax8IJyIaesSgfUVD",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Draconic Frenzy",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "pvoXugw9viWH6KS5",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.pvoXugw9viWH6KS5",
+      "_stats": {
+        "compendiumSource": "Actor.6cmCysAC0EJaWcw4.Item.h68Rp5GCPIpGGeyq",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.6cmCysAC0EJaWcw4.Item.h68Rp5GCPIpGGeyq",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Breath Weapon",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon breathes a spray of acidic salt water that deals @Damage[13d6[acid]] damage in a @Template[line|distance:100] (@Check[reflex|dc:29|basic] save).</p><p>They can't use Breath Weapon again for 2 rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "33bO4u1lMZbE9T15",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.33bO4u1lMZbE9T15",
+      "_stats": {
+        "compendiumSource": "Actor.6cmCysAC0EJaWcw4.Item.GcxVApKgeD5WO9Wh",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.6cmCysAC0EJaWcw4.Item.GcxVApKgeD5WO9Wh",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Desiccating Bite",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragon makes a jaws Strike. On a hit, the target takes @Damage[4d6[persistent,acid]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} from the pain of salt and brine in its wounds.</p><p>@Check[fortitude|dc:30] to retch.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "geFbWfXhzLo4I44w",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.geFbWfXhzLo4I44w",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 32,
+          "value": 24
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "wMsao1Efo3aDEtD7",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.wMsao1Efo3aDEtD7",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
+      "name": "Hydraulic Torrent",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "line",
+          "value": 60
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>A swirling torrent of water manifests along a straight line, battering creatures and unattended objects in its path and possibly pushing them away from you. The torrent deals 8d6 bludgeoning damage. Each creature in the area must attempt a basic Fortitude save; unattended objects automatically fail. Creatures and objects that fail are also knocked back 5 feet (10 feet on a critical failure).</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "uses": {
+            "max": 2,
+            "value": 2
+          },
+          "value": "geFbWfXhzLo4I44w"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "hydraulic-torrent",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "7Scfm5ecADlkmYq5",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.7Scfm5ecADlkmYq5",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Push",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "improved-push",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "p1x3z03BUT3BVHVQ",
+      "_key": "!actors.items!qA8goemtfhSSTI4Z.p1x3z03BUT3BVHVQ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/hydraulic-push.webp",
+      "name": "Hydraulic Push",
+      "ownership": {
+        "T6kAW44h2k8o4IjB": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "category": null,
+            "formula": "7d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 14d6 bludgeoning damage and is knocked back 10 feet.</p>\n<p><strong>Success</strong> The target takes 7d6 bludgeoning damage and is knocked back 5 feet.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "uses": {
+            "max": 1,
+            "value": 1
+          },
+          "value": "geFbWfXhzLo4I44w"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "hydraulic-push",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    }
+  ],
+  "name": "Blue Brine Dragon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Brine Dragon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "src": "modules/covalon/images/Dragon%20Brawl/Brine%20Dragon%201-4%20BLUE.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 6
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 230,
+        "temp": 0,
+        "value": 230
+      },
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "fire",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 80
+          }
+        ],
+        "value": 35
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "cold",
+          "value": 10
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "draconic"
+        ]
+      },
+      "level": {
+        "value": 12
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "darkvision",
+      "mod": 22,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 24
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 22,
+        "special": []
+      },
+      "athletics": {
+        "base": 22,
+        "special": []
+      },
+      "deception": {
+        "base": 18,
+        "special": []
+      },
+      "intimidation": {
+        "base": 25,
+        "special": []
+      },
+      "stealth": {
+        "base": 20,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "dragon",
+        "elemental",
+        "water"
+      ]
+    }
+  },
+  "type": "npc"
+}

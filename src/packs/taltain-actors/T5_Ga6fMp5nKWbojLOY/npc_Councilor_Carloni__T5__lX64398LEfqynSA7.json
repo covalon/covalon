@@ -1,0 +1,663 @@
+{
+  "_id": "lX64398LEfqynSA7",
+  "_key": "!actors!lX64398LEfqynSA7",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1676818805504,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.4.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258602895,
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "folder": "Ga6fMp5nKWbojLOY",
+  "img": "modules/covalon/images/Taltain/councilor_carloni.Token.webp",
+  "items": [
+    {
+      "_id": "x8kN4MiRuWc24GnH",
+      "_key": "!actors.items!lX64398LEfqynSA7.x8kN4MiRuWc24GnH",
+      "_stats": {
+        "compendiumSource": "Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA",
+        "coreVersion": "14.367",
+        "createdTime": 1677555583245,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "aNDEqRNv3n6sqn54",
+        "modifiedTime": 1677727015950,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Coagulating Council",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "NEpKBfKv6jRU1Lvu": 3,
+        "aNDEqRNv3n6sqn54": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.6.2"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BRA0OLZFBKk70qvI",
+      "_key": "!actors.items!lX64398LEfqynSA7.BRA0OLZFBKk70qvI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Scalpal",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.6.2"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "ovcstq9oz8urd9tmzzal": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "free-hand"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "NTsjbfUnrtGt75Vj",
+      "_key": "!actors.items!lX64398LEfqynSA7.NTsjbfUnrtGt75Vj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Thunder-Thrower",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.6.2"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "82md2o2n0pf3gnesudm8": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "sonic"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-80"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "WLXVo5zfxlcuo8WP",
+      "_key": "!actors.items!lX64398LEfqynSA7.WLXVo5zfxlcuo8WP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Battle Graft",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.6.2"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Ratfolk Doctor deals [[/r 2d8]] slashing damage to an adjacent creature and grafts a horrific composite of machinery and flesh to their body.</p><p> </p><p>The creature gains @Damage[6d8] temporary hitpoints, and their next Strike deals an additional 3d8 electricity damage. The target is then temporarily immune to Battle Graft for 1 day.</p><p>@UUID[Compendium.covalon.taltain-items.Item.FhqmgRsLb9fSbN24]{Effect: Battle Graft}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "SV5yWpPeodhVRB2s",
+      "_key": "!actors.items!lX64398LEfqynSA7.SV5yWpPeodhVRB2s",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677633938668,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Ultravolt!",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.6.2"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency </strong>once per day</p><hr /><p>Carloni's eyes gleam with menace and madness... and lightning. She shoots a 120ft line of lightning. Creatures caught in the bolt take @Damage[14d6[electricity]] damage with a @Check[type:reflex|dc:31|basic:true]. Allies of the Ratfolk Doctor caught in the bolt gain @Damage[5d8+10] temporary hit points. </p><p> </p><p>If the bolt collides with a pillar of the arena, the pillar creates a 10 foot emanation with the same effect. A creature may only be affected by Ultravolt! once per use of the ability.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Councilor Carloni (T5)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-little-details": {
+        "bloodsplat-colour": "",
+        "token-highlight": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Facsimile of Councilor Carloni",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 0.8,
+      "scaleY": 0.8,
+      "src": "modules/covalon/images/Taltain/councilor_carloni.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.932,
+        "system": "6.6.2"
+      },
+      "version": 0.933
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 7
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 7
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 245,
+        "temp": 0,
+        "value": 245
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "ysoki"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "<p>Carloni uses her Thunder-Thrower to target enemies that her fellow councilors are attacking while she uses Battle Graft to nimbly \"heal\" her allies. If the opportunity presents itself to where she can hit a decent number of allies and/or enemies with Ultravolt!, she should take it, especially if it can also hit a pillar.</p>",
+      "publicNotes": "<p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols'\">A Maw aberration based on Covalon's former Head Doctor, Kelani Snowdrop (ysoki inventor), Carloni prefers grafting machinery and other experimental treatments instead of traditional medicine.</span></p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 24,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 24
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 26
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 23,
+        "special": []
+      },
+      "crafting": {
+        "base": 27,
+        "special": []
+      },
+      "medicine": {
+        "base": 27,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "sm"
+      },
+      "value": [
+        "aberration",
+        "evil",
+        "humanoid",
+        "ratfolk"
+      ]
+    }
+  },
+  "type": "npc"
+}

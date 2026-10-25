@@ -1,0 +1,553 @@
+{
+  "_id": "PgTgMfZ1rDMOoCsC",
+  "_key": "!actors!PgTgMfZ1rDMOoCsC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838669870,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "qMWIARdtOM0Rg8Bl",
+  "img": "modules/covalon/images/Dino%20Brawl/Stegosaurus.webp",
+  "items": [
+    {
+      "_id": "Lt7N9rIlyS76DtRj",
+      "_key": "!actors.items!PgTgMfZ1rDMOoCsC.Lt7N9rIlyS76DtRj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "r2dhgrtdklpa0762j5ak": {
+            "category": null,
+            "damage": "2d10+12",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "tail",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15",
+            "sweep"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "VbE9aK6V1gA4Fbv9",
+      "_key": "!actors.items!PgTgMfZ1rDMOoCsC.VbE9aK6V1gA4Fbv9",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Foot",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "ti4gsypmejpm0txb8i9t": {
+            "category": null,
+            "damage": "2d10+12",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "sSd80IXHhedyt6q5",
+      "_key": "!actors.items!PgTgMfZ1rDMOoCsC.sSd80IXHhedyt6q5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Dorsal Deflection",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The stegosaurus is targeted with a melee attack.</p>\n<hr />\n<p><strong>Effect</strong> The stegosaurus leans its dorsal plates into the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the stegosaurus Steps after the attack.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "option": "dorsal-deflection",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "dorsal-deflection"
+            ],
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "GoUIra7KXFd9kUhH",
+      "_key": "!actors.items!PgTgMfZ1rDMOoCsC.GoUIra7KXFd9kUhH",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.UNah0bxXxkcZjxO3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/ThreeActions.webp",
+      "name": "Trample",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Any size, foot, @Check[reflex|dc:29|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "trample",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Stegosaurus",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Stegosaurus",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Dino%20Brawl/stegosaurus.Token.Red.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 1,
+        "value": 12
+      },
+      "con": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "min": 3,
+        "mod": -4,
+        "value": 2
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 28
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 185,
+        "temp": 0,
+        "value": 185
+      },
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>The stegosaurus is easily recognized by its twin rows of diamond-shaped dorsal plates that run down its spine and thick tail adorned with four large spikes. This configuration protects the herbivore, the plates deflecting attacks while it gores predators with its tail.</p>\n<p>The stegosaurus is generally even-tempered and gentle, despite its size. This combination makes it even more popular as a trained pet or guard, but even then one should take care to not annoy the dinosaur—an angry stegosaurus can lash out with little warning.</p>\n<hr />\n<p>Remnants from the world's primeval era, these enormous reptilian animals still exist in large numbers in remote wildernesses or underground in magical Darklands caverns. Lizardfolk, orcs, giants, and other humanoids who live near dinosaurs use the animals as mounts, guards, or hunting beasts. Occasionally, rich nobles will collect dinosaurs to display them in menageries, which almost inevitably leads to cast-offs being nursed back to health by druids and other champions of nature. When dinosaurs establish themselves in regions outside their normal habitats, it's often the result of a large collection being released.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "athletics": {
+        "attribute": "str",
+        "base": 25,
+        "breakdown": "Modifier +20",
+        "dc": 30,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 25,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 20,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 20,
+        "value": 25,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "animal",
+        "dinosaur"
+      ]
+    }
+  },
+  "type": "npc"
+}

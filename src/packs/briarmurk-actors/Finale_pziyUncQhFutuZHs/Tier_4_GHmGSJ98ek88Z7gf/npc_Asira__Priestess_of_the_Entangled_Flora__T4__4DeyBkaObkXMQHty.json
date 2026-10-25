@@ -1,0 +1,2239 @@
+{
+  "_id": "4DeyBkaObkXMQHty",
+  "_key": "!actors!4DeyBkaObkXMQHty",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1771175135196,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175135196,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "GHmGSJ98ek88Z7gf",
+  "img": "modules/covalon/images/Briarmurk/asira_priestess_of_the_entangled_flora.Avatar.webp",
+  "items": [
+    {
+      "_id": "Kr0QjIi1gB7CcEUx",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.Kr0QjIi1gB7CcEUx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:magical"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "mHOLIFYsQkLHwje8",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.mHOLIFYsQkLHwje8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Your Magic Enhances Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 18750,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nutrients for the Briars, Premonitions of a Dark Future, and A Pleasant Dream Taken can store spells for longer periods. Instead of losing the mimicked spell at the end of their next turn, the mimicked spell is stored indefinitely until cast. Additionally, up to two mimicked spells can be stored at once (though each priestess still only has one reaction).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ApRZ2xPeEih4qwYt",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.ApRZ2xPeEih4qwYt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Corpseroot Longbow",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "YfjF2n4IFBa0UhKo": {
+            "category": "persistent",
+            "damage": "1d6",
+            "damageType": "bleed"
+          },
+          "icbVrKhBibZ9Eshu": {
+            "category": null,
+            "damage": "2d8+10",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 120
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "deadly-d8",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "aeZhcWKmITAkcCn6",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.aeZhcWKmITAkcCn6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shiv Bracer",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "kiTknA1fCu9yAWJC": {
+            "category": null,
+            "damage": "2d6+10",
+            "damageType": "piercing"
+          },
+          "qauCEgJNaWAtTsUP": {
+            "category": "persistent",
+            "damage": "1d6",
+            "damageType": "bleed"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "B977UaR7OU9aXhm5",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.B977UaR7OU9aXhm5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 30,
+          "value": 22
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "q3dS7eRu3tSSo48n",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.q3dS7eRu3tSSo48n",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "7cyoYPoPYA01mErU",
+      "img": "systems/pf2e/assets/icons/spells/life-draining-roots.webp",
+      "name": "Life-Draining Roots",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "line",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "tjnUaEqiXvjlMzf3": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Thorny roots erupt from your hands in a tangled cascade, puncturing creatures in the way of their growth and revitalizing you. You deal 8d6 piercing damage to creatures in the line (basic Reflex save). You gain 1d4 temporary Hit Points for every living creature in the line, as the roots transfer nutrients from those damaged into you. The temporary Hit Points last for 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "tjnUaEqiXvjlMzf3": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "life-draining-roots",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "plant",
+            "wood"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "r2Uqd7yfb1ZR7JeF",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.r2Uqd7yfb1ZR7JeF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "zDlxATrLAlbYA2Mv",
+      "img": "systems/pf2e/assets/icons/spells/roses-thorns.webp",
+      "name": "Erimia's Ire",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "G3HdXE0YaAVaevwg": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Rose's Thorns</strong></p><p>Rose bushes with razor-sharp thorns sprout from the ground in the area. The rose bushes deal 8d8 piercing damage to each creature that's in the area when the spell is cast or that ends its turn in the area (basic Reflex save). A creature that critically fails its saving throw also takes @Damage[(ternary(gte(@item.rank,9),2,1))d8[persistent,bleed]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round or until the creature @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (against your spell DC), whichever comes first. The area is difficult terrain and hazardous terrain. A creature that moves through the area takes @Damage[(ternary(gte(@item.rank,9),8,5))[piercing]] damage for every square of that area it moves into. Each time you sustain this spell, the radius of the burst increases by 5 feet.</p><hr /><p><strong>Heightened (9th)</strong> The initial damage increases to 12d8, the persistent bleed damage increases to 2d8, and the hazardous terrain damage increases to 8.</p>"
+        },
+        "duration": {
+          "sustained": true,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "levels": {
+            "9": {
+              "damage": {
+                "G3HdXE0YaAVaevwg": {
+                  "applyMod": false,
+                  "category": null,
+                  "formula": "12d8",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Lost Omens Firebrands"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "roses-thorns",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "plant"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "zqVtFY0qvcxyAf5e",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.zqVtFY0qvcxyAf5e",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "core/icons/magic/acid/dissolve-arm-flesh.webp",
+      "name": "Blister",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "7d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "acid"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You point at a target in range, and its skin grows searing blisters filled with caustic fluid. The target must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target grows one blister. You can spend a single action, which has the concentrate trait, to pop a blister. The target and each creature in a @Template[cone|distance:15] originating from the target takes 7d6 acid damage (basic Fortitude save). You choose the direction of the cone, which can't include the target. When no blisters are left, the spell ends.</p>\n<p><strong>Failure</strong> As success, but the target grows two blisters.</p>\n<p><strong>Critical Failure</strong> As success, but the target grows four blisters.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage of a popped blister increases by 1d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "blister",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "CmGHhvMy5rlmURyj",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.CmGHhvMy5rlmURyj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "core/icons/magic/acid/pouring-gas-smoke-liquid.webp",
+      "name": "Corrosive Muck",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "yNkEZ8qT669NMhzN": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "acid"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Area</strong> all squares in two @Template[burst|distance:10]{10-foot bursts}.</p><hr /><p>You create two puddles of acidic slime that hinders the movement of anyone who walks through them. The area of each pool becomes greater difficult terrain. Each round that a creature starts its turn in one of the pools or enters a pool during a move action it's using, it takes 8d6 acid damage with a basic Reflex save. A creature that critically fails its saving throw also takes @Damage[1d6[acid,persistent]]. As normal, if a Large or larger creature starts its turn in both pools, it takes the damage only once.</p><hr /><p><strong>Heightened (+2)</strong> Create an additional 10-foot burst.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "corrosive-muck",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "acid",
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "lPu9rdsXdsIRmVqN",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.lPu9rdsXdsIRmVqN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "7cyoYPoPYA01mErU",
+      "img": "core/icons/magic/nature/root-vine-entwined-thorns.webp",
+      "name": "Murderous Vine",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d6",
+            "kinds": [
+              "damage"
+            ],
+            "type": "bludgeoning"
+          },
+          "1": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "passive": {
+            "statistic": "fortitude-dc"
+          },
+          "save": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You summon a slithering, thorny vine that attempts to constrict and crush a foe against a wall or other surface. Make a spell attack roll against the target's Fortitude DC. On a success, the creature is grabbed and takes 3d6 bludgeoning damage and 2d8 piercing damage. At the end of that creature's turn, if it's still grabbed by the vine, it takes @Damage[(floor(@item.level/2))d6[bludgeoning]] damage.</p>\n<p>The vine's Escape DC is equal to your spell DC. A creature can attack the vine in an attempt to break its grip. The vine's AC is equal to your spell DC, and the vine is destroyed if it takes 20 or more damage. Destroying or escaping from the vines ends the spell. You can Dismiss the spell.</p><hr /><p><strong>Heightened (+2)</strong> The initial bludgeoning damage increases by 1d6, the initial piercing damage increases by 1d8, and the damage a creature takes for ending its turn grabbed by the vine increases by 1d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6",
+            "1": "1d8"
+          },
+          "interval": 2,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "murderous-vine",
+        "target": {
+          "value": "1 creature adjacent to a flat surface"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "concentrate",
+            "manipulate",
+            "plant",
+            "wood"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "3ockg1eEsHOXRAAz",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.3ockg1eEsHOXRAAz",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "core/icons/magic/acid/projectile-glowing-bubbles.webp",
+      "name": "Blister Bomb",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 5
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You launch a small bomb enchanted with a fast-acting skin disease at your foes, causing their skin to break out in horrible bleeding sores. All creatures in the area of the burst must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected and is immune to blister pox for 1 week.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>\n<p><strong>Failure</strong> The creature is afflicted with blister pox at stage 1.</p>\n<p><strong>Critical Failure</strong> The creature is afflicted with blister pox at stage 2.</p><hr /><p><strong>Blister Pox</strong> (disease) Level 5; A creature can't reduce its sickened value below 1 while it's taking persistent bleed damage from blister pox</p>\n<p><strong>Stage 1</strong> sickened 2 (1 round)</p>\n<p><strong>Stage 2</strong> sickened 2 and 1d6 persistent bleed damage (1 round)</p>\n<p><strong>Stage 3</strong> sickened 2 and 2d6 persistent bleed damage (1 round)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} and 2d6 persistent bleed damage (1 day)</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Battlecry!"
+        },
+        "range": {
+          "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "blister-bomb",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "disease",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "RrYc9DnEsyPtPuBZ",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.RrYc9DnEsyPtPuBZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "core/icons/magic/acid/dissolve-arm-flesh.webp",
+      "name": "Acid Grip",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "YBeTuItHduzXElD5": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "acid"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>An ephemeral, taloned hand grips the target, burning it with magical acid. The target takes 2d8 acid damage plus @Damage[floor(@item.level/2)d6[persistent,acid]] damage depending on its Reflex save. A creature taking persistent damage from this spell takes a –10-foot status penalty to its Speeds. @UUID[Compendium.pf2e.spell-effects.Item.6TGcfVyzzVHEo7ke]{Spell Effect: Acid Grip}</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and no persistent damage, and the claw moves it up to 5 feet in a direction of your choice.</p>\n<p><strong>Failure</strong> The creature takes full damage and persistent damage, and the claw moves it up to 10 feet in a direction of your choice.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and full persistent damage, and the claw moves it up to 20 feet in a direction of your choice.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "YBeTuItHduzXElD5": "2d8"
+          },
+          "interval": 2,
+          "type": "interval"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "acid-grip",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "acid",
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "gVyid3NZR74mVS3g",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.gVyid3NZR74mVS3g",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "systems/pf2e/assets/icons/spells/dispel-magic.webp",
+      "name": "Dispel Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": true,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, the item becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an artifact or similar item, you automatically fail.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dispel-magic",
+        "target": {
+          "value": "1 spell effect or unattended magic item"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "Ck2ykZiHrDgQIcrK",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.Ck2ykZiHrDgQIcrK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Nutrients for the Briars",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature casts a primal spell anywhere atop the Apex of Terrateotl, or casts a divine spell within Asira's third of the apex.</p><p><strong>Effect </strong>The plants whisper secrets to their master. Asira attempts to counteract the spell cast by the triggering creature. If the spell would be counteracted, Asira instead gains the ability to Cast that Spell without expending a slot. On her next turn, she can spend the same number of actions to Cast the Spell as the triggering creature, but chooses the targets (if any) and uses her spell attack modifier or spell DC as appropriate. The spell is heightened to 6th rank. The mimicked spell is primal and divine. If the mimicked spell is not used by the end of Asira's next turn, it is lost.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "MOyV41BfuWBSqs2B",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.MOyV41BfuWBSqs2B",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Ritual Leader - Boughbringer",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>While Asira is the Ritual Leader, thorns and briars grow from the ground all around the ziggurat's apex. The entire map is hazardous terrain. A creature that moves on the ground will take 1 piercing damage per 5 feet moved (taken at the end of the movement action as one instance of damage). Creatures larger than medium do not take additional damage from this ability.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "plant",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nnvNpTOu5xzrUR64",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.nnvNpTOu5xzrUR64",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Unflinching Spellcasting",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>If a reaction would disrupt Asira's spellcasting action, Asira attempts a @Check[flat|dc:11]. On a success, the action isn't disrupted.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "D2DByl3J9sBB9Aa5",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.D2DByl3J9sBB9Aa5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Immobile",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Priestesses can not be moved by any means, and can not move beyond standing.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WUvbBvzEn0hyIa3d",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.WUvbBvzEn0hyIa3d",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "core/icons/magic/nature/tree-animated-smile.webp",
+      "name": "Protector Tree",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>A Medium tree suddenly grows in an unoccupied square within range. The tree has AC 10 and 10 Hit Points. Whenever an ally adjacent to the tree is hit by a Strike, the tree interposes its branches and takes the damage first. Any additional damage beyond what it takes to reduce the tree to 0 Hit Points is dealt to the original target. The tree isn't large enough to impede movement through its square. If the tree is in soil and survives to the end of the spell's duration, it remains as an ordinary, non-magical tree and continues to grow and thrive. The GM might determine that the tree disappears immediately in certain inhospitable situations.</p><p></p><p>(AC 10, HP 70)</p><hr /><p><strong>Heightened (+1)</strong> The tree has an additional 10 Hit Points.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "B977UaR7OU9aXhm5"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "protector-tree",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "plant",
+            "wood"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "VRiF6ZTU2jw13Azg",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.VRiF6ZTU2jw13Azg",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Nutrients for the Briars",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": 8
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 30,
+          "value": 22
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "2Br3Yg1LLZt1MNb8",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.2Br3Yg1LLZt1MNb8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - The Blood Protects Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 9375,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The lines of blood separating the three sections of the Apex of Terrateotl shimmer with magic. These lines block line of effect for any creature that is not Asira, Rashai, or Terina, nor does it affect the three orbs.</p><p>Line of Effect can be a complicated rule. For the purposes of this combat, pretend the blood line is a solid wall for any and all abilities, such as Battle Medicine, Haste, Area of Effect Spells, or ranged attacks. Players can only affect creatures in the same third of the battlemap as them. Creatures can still move through the lines normally.</p><p>At your discretion, you can allow certain abilities that do not need line of sight (such as @UUID[Compendium.pf2e.spells-srd.bfdiKEZQLVvslcDi]{Take Your Places} or Amped Message) to cross the blood lines.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "esz0mE2uGxQGdWTW",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.esz0mE2uGxQGdWTW",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Our Ritual Maintains Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 159375,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The three Twisted Magic Orbs hazards cannot be fully disabled. After two successful disable checks (or one critical success), the hazard persists with only one action in its routine, or reduced to minimum radius for the Bramble Orb. A success or critical success to disable any of the hazards at this point only causes them to skip their routine for one round. The hazards recover to half HP (The BT) when they skip their routine.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "9GPYZfQE851sEf8V",
+      "_key": "!actors.items!4DeyBkaObkXMQHty.9GPYZfQE851sEf8V",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Our Bond Maintains Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Asira, Rashai, and Terina are bonded by magic and share a life force. Each priestess has an HP threshold at 66% and 33% HP. The first time a priestess would take damage past a threshold, she becomes immune to all damage until her sisters also reach the same threshold (66% HP or 33% HP), at which point they all can take damage as normal again.</p><p>The priestesses are using their shared energy to power a ritual atop the apex. When combat begins, designate one priestess as the Ritual Leader, which activates her associated Ritual Leader effect (Boughbringer, Sleepwalker, or Moonrise), and Twisted Magic Orb (Bramble, Mist, or Moon). The two priestesses who are not the RItual Leader can use the leader as the point of origin for any of their spells.</p><p>When the priestesses all pass an HP threshold and can take damage again, the Ritual Leader changes, ending the current Ritual Leader effect and swapping to the new Ritual Leader's associated Ritual Leader effect and activating the associated Twisted Magic Orb hazard. Each priestess is the Ritual Leader for one HP section of the fight (100% HP to 66% HP, 66% HP to 33% HP, and 33% HP to death.)</p><p></p><p>In short:</p><ul><li><p>All 3 have their HP hit an immunity threshold</p></li><li><p>Apply a new Ritual Leader effect, remove the old one</p></li><li><p>Activate a new hazard (do not remove an old one)</p></li><li><p>Remove damage immunities</p></li><li><p>The current leader can now be the origin of any of the 3's spells</p></li></ul>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "Our Bond Maintains Us (damage immunity)",
+            "option": "our-bond",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "Resistance",
+            "predicate": [
+              "our-bond"
+            ],
+            "type": "all-damage",
+            "value": 999
+          },
+          {
+            "key": "TokenLight",
+            "predicate": [
+              "our-bond"
+            ],
+            "value": {
+              "alpha": 0.25,
+              "animation": {
+                "intensity": 1,
+                "speed": 2,
+                "type": "wave"
+              },
+              "bright": 1,
+              "color": "#00ff2a",
+              "dim": 0
+            }
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Asira, Priestess of the Entangled Flora (T4)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Asira, Priestess of the Entangled Flora",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/asira_priestess_of_the_entangled_flora.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "abilities": {
+      "cha": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 8
+      },
+      "int": {
+        "mod": 3
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 30
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": "+1 Status to All Saves vs. Magic"
+      },
+      "hp": {
+        "details": "66%, 33% Our Bond Maintains Us",
+        "max": 160,
+        "temp": 0,
+        "value": 160
+      },
+      "speed": {
+        "details": "Immobile",
+        "otherSpeeds": [],
+        "value": 0
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common"
+        ]
+      },
+      "level": {
+        "value": 11
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "Locke",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Covalon - Briarmurk"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "Precise Tremorsense 120ft ",
+      "mod": 24,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 23
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 23,
+        "special": []
+      },
+      "intimidation": {
+        "base": 20,
+        "special": []
+      },
+      "medicine": {
+        "base": 22,
+        "special": []
+      },
+      "nature": {
+        "base": 23,
+        "special": []
+      },
+      "religion": {
+        "base": 23,
+        "special": []
+      },
+      "survival": {
+        "base": 22,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "divine",
+        "humanoid",
+        "primal",
+        "magical"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,86 @@
+{
+  "_id": "pb82Kqv6QFg7d8CV",
+  "_key": "!items!pb82Kqv6QFg7d8CV",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.pb82Kqv6QFg7d8CV",
+    "coreVersion": "14.367",
+    "createdTime": 1680031308370,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807536,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/summon-dragon.webp",
+  "name": "Derelis",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 4500000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Derelis was a very ancient, powerful dragon that died many years ago. Stories tell of his crusade for justice, peace, and honor among men and dragons alike. He is a patron to good dragons and any others commited to doing the right thing.</p><p><br /><strong>Edicts</strong> better yourself and the world around you, protect the weak, help others fend for themselves<br /><strong>Anathema</strong> attack an innocent, use vile or cruel language<br /></p>"
+    },
+    "domains": {
+      "alternate": [
+        "duty"
+      ],
+      "primary": [
+        "wyrmkin",
+        "zeal",
+        "ambition",
+        "protection"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "diplomacy"
+    ],
+    "slug": "derelis",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh",
+      "4": "Compendium.pf2e.spells-srd.Item.Mv5L4201uk8hnAtD",
+      "7": "Compendium.pf2e.spells-srd.Item.4nEY2BcV85wavKLO"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "longsword"
+    ]
+  },
+  "type": "deity"
+}

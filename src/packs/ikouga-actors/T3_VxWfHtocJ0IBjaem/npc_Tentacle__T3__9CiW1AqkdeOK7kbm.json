@@ -1,0 +1,808 @@
+{
+  "_id": "9CiW1AqkdeOK7kbm",
+  "_key": "!actors!9CiW1AqkdeOK7kbm",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405798513,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.5.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1768088306373,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "folder": "VxWfHtocJ0IBjaem",
+  "img": "modules/covalon/images/Ikouga/tentacle.Avatar.webp",
+  "items": [
+    {
+      "_id": "tv5f9HHdLnmymnkc",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.tv5f9HHdLnmymnkc",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": "0Z6sKp3ActW2pM2e",
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Grapple",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You have at least one free hand and your target is no more than one size larger than you.</p><hr /><p>You attempt to grab a creature or object with your free hand. Attempt an [[/act grapple]]{Athletics} check against the target's Fortitude DC. You can grapple a target you already have @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} without having a hand free.</p><hr /><p><strong>Critical Success</strong> Your target is restrained until the end of your next turn unless you move or your target Escapes.</p><p><strong>Success</strong> Your target is grabbed until the end of your next turn unless you move or your target Escapes.</p><p><strong>Failure</strong> You fail to grab your target. If you already had the target grabbed or restrained using a Grapple, those conditions on the target end.</p><p><strong>Critical Failure</strong> If you already had the target grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "slug": "grapple",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "skill"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "okegV22lEbwUoy31",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.okegV22lEbwUoy31",
+      "_stats": {
+        "compendiumSource": "Actor.zttNlCk6WPt1ctSu.Item.PXLOGGKqtC3D3yjC",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.zttNlCk6WPt1ctSu.Item.PXLOGGKqtC3D3yjC",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Crushing Grip",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Tentacle deals @Damage[(1d10+6)[bludgeoning]] damage to all grabbed or restrained creatures with a @Check[type:fortitude|dc:26|basic] save.</p><p>Anyone targeted by Crushing Grip then becomes @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "HyborxFxkpj7WELk",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.HyborxFxkpj7WELk",
+      "_stats": {
+        "compendiumSource": "Item.fde9ARUNvKD50jCh",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Immovable",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Tentacle is immune to all types of forced movement.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "74BKoZJiyOSuYnf5",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.74BKoZJiyOSuYnf5",
+      "_stats": {
+        "compendiumSource": "Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Shipwreck Armour",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 350000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon is covered in the trophies of its past kills, and thick shipwreck armor covers many of its weak points. Scylladon and her tentacles have Construct Armor until damaged by a critical hit or falling below 50% health. Use the Construct Armour active toggle to turn it on.</p><p>Scylladon and her tentacles also have Hardness 8 as long as Construct Armor is active. To enable it, add the Construct trait to Scylladon and all tentacles, set the Hardness stat to 8, and remove the Construct trait.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "label": "Construct Armour active",
+            "option": "construct-armor",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "and": [
+                  "construct-armor",
+                  {
+                    "gt": [
+                      "hp-percent",
+                      50
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": "ac",
+            "value": 4
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ekgw4SZbobRDV9yh",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.Ekgw4SZbobRDV9yh",
+      "_stats": {
+        "compendiumSource": "Actor.zttNlCk6WPt1ctSu.Item.MnUR5Wd1VojjjNAa",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.zttNlCk6WPt1ctSu.Item.MnUR5Wd1VojjjNAa",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Impossible Grip",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 450000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When a creature is Grabbed by a Tentacle, that creature can <strong>not</strong> attempt to Escape using the basic @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} action. A creature that is Restrained by a Tentacle can attempt to Escape, but a successful Escape results in the creature being Grabbed, not freed.</p><p>When a tentacle is brought to half HP, any creature currently grabbed by it can attempt to make a single special Escape check as a free action. The ally who brought the tentacle to the HP threshold is considered to have taken sufficient preparation to use their reaction to Aid.</p><p>Allies of a grabbed player can help them escape by Shoving the grabbed player, as a grabbed player affected by forced movement will break the grab as normal.</p><p>If a Tentacle has a creature Grabbed, it does not lose the Grabbed condition at the end of the Tentacle's next turn. It remains Grabbed until it Escapes or the Tentacle is destroyed. If a Tentacle has a creature Restrained, the Restrained condition is reduced to Grabbed at the end of the Tentacle's next turn.</p><p data-visibility=\"gm\">You should allow abilities such as Liberating Command or Freedom of Movement to allow characters to Escape as normal.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "StGUEwVJspKjqBd0",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.StGUEwVJspKjqBd0",
+      "_stats": {
+        "compendiumSource": "Actor.zttNlCk6WPt1ctSu.Item.CRqln9CZlOwOHbJo",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.zttNlCk6WPt1ctSu.Item.CRqln9CZlOwOHbJo",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "A Greater Whole",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 550000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>The Tentacle is connected to the Kraken. When the Tentacle dies, the Kraken takes [[30]] damage. This damage is not reduced by any means. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WTLqhEgLD7kKKGBT",
+      "_key": "!actors.items!9CiW1AqkdeOK7kbm.WTLqhEgLD7kKKGBT",
+      "_stats": {
+        "compendiumSource": "Actor.zttNlCk6WPt1ctSu.Item.VHVtAB6vYtYv1TLi",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.zttNlCk6WPt1ctSu.Item.VHVtAB6vYtYv1TLi",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Independent",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.933,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Tentacles do not get their own turn, they act at the end of Scylladon's turn, similar to minions with the Independent feat.</p><p>Each Tentacle gains two actions per round.</p><p>Its first action can only be used to Swim higher or lower if it isn't in reach of a creature.</p><p>Its second action can only be used to make an Athletics check to Grapple a creature within 10 feet, or, if it already has a creature grabbed, it uses this second action to use Crushing Grip instead.</p><p>Because Tentacles extend from the floor, they can be attacked from any square beneath them while they are \"swimming\" at a higher elevation.</p><p>If a Tentacle is holding an unconscious target at the start of its turn, it will release that target.</p><p>Only one Tentacle at a time may grapple a target; if the only available target is already in another Tentacles grasp, the Tentacle does nothing.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Tentacle (T3)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-little-details": {
+        "token-highlight": ""
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Tentacle",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Ikouga/tentacle.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.933,
+        "system": "7.7.4"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "dex": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "min": 3,
+        "mod": -5,
+        "value": 16
+      },
+      "str": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "wis": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 26
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 85,
+        "temp": 0,
+        "value": 85
+      },
+      "speed": {
+        "details": "vertical only",
+        "otherSpeeds": [],
+        "value": 10
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "thalassic"
+        ]
+      },
+      "level": {
+        "value": 8
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "wavesense (precise)",
+      "mod": 17,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 13
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 16
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 20,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "aquatic",
+        "beast",
+        "evil",
+        "mindless"
+      ]
+    }
+  },
+  "type": "npc"
+}

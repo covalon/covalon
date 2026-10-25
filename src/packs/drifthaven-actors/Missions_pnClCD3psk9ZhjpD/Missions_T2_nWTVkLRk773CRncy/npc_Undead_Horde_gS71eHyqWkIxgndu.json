@@ -1,0 +1,811 @@
+{
+  "_id": "gS71eHyqWkIxgndu",
+  "_key": "!actors!gS71eHyqWkIxgndu",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737840149390,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.313",
+      "systemId": "pf2e",
+      "systemVersion": "5.7.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840149390,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "c5a71e9008363831746a81913dc3451160eb8254",
+      "sourceId": "Actor.GQajvJlvyEJ66nIn"
+    }
+  },
+  "folder": "nWTVkLRk773CRncy",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "_id": "D6Ppw4NFZBG4ZW2b",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.D6Ppw4NFZBG4ZW2b",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/conditions/slowed.webp",
+      "name": "Slowed",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You have fewer actions. Slowed always includes a value. When you regain your actions at the start of your turn, reduce the number of actions you regain by your slowed value. Because slowed has its effect at the start of your turn, you don't immediately lose actions if you become slowed during your turn.</p>"
+        },
+        "duration": {
+          "expiry": null,
+          "unit": "unlimited",
+          "value": 0
+        },
+        "group": null,
+        "overrides": [],
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "references": {
+          "children": [],
+          "immunityFrom": [],
+          "overriddenBy": [],
+          "overrides": []
+        },
+        "rules": [],
+        "slug": "slowed",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "value": {
+          "isValued": true,
+          "value": 1
+        }
+      },
+      "type": "condition"
+    },
+    {
+      "_id": "YAt3ohXujxgfi1dY",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.YAt3ohXujxgfi1dY",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "VE0UqyozDof75tsl",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.VE0UqyozDof75tsl",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Form Up",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "form-up",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "j3YK3rYte4HUEXXX",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.j3YK3rYte4HUEXXX",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.RJbI07QSiYp0SF9A",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Troop Defenses",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Thresholds</strong> 68 (12 squares), 34 (8 squares)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "troop-defenses",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xb36ZcB5nu2McDrU",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.xb36ZcB5nu2McDrU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Grave Tide",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The undead horde is less organized than most troops. It can move into other creatures' spaces, and other creatures can move into its spaces. Its spaces are difficult terrain to other creatures.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "YNpN5FwvZ27Zfviz",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.YNpN5FwvZ27Zfviz",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Dead Man's Onslaught",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The troop lashes out at any enemies in their squares or within @Template[type:emanation|distance:5]{5 feet} (@Check[type:reflex|dc:22|basic:true] save). The effect depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(3d6+3)[bludgeoning]] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+4)[bludgeoning]] damage, creatures that fail their save are forcibly moved 5 ft towards the center of the horde.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+4)[bludgeoning]] damage, creatures that fail their save are forcibly moved 10 ft towards the center of the horde.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ck37LN0pcQmPLf0a",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.ck37LN0pcQmPLf0a",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Troop Movement",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "5m56skpvdewVaorw",
+      "_key": "!actors.items!gS71eHyqWkIxgndu.5m56skpvdewVaorw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "5e05e2189badde47fd97b15e8b8724a2c8b9775a"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Here Comes the Horde",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.879,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The undead horde is so vast and numerous that it seemingly has no end. This effectively makes it immune to all damage. If the undead horde is targeted with a Strike from a hacked Unshaper, the Strike automatically succeeds, the horde loses its immunity to damage from this ability (as its members are culled in uncountable numbers), and then the hacked Unshaper is destroyed after the Strike is resolved.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Undead Horde",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Shambler Troop",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.879,
+        "system": "6.8.4"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": -2,
+        "value": 6
+      },
+      "con": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      },
+      "int": {
+        "min": 3,
+        "mod": -5,
+        "value": 0
+      },
+      "str": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "wis": {
+        "min": 3,
+        "mod": 1,
+        "value": 12
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 21
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "troop defenses",
+        "max": 102,
+        "temp": 0,
+        "value": 102
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [],
+      "speed": {
+        "details": "troop movement",
+        "otherSpeeds": [],
+        "value": 25
+      },
+      "vulnerabilities": [
+        {
+          "exceptions": [],
+          "label": "area damage 9",
+          "type": "area-damage",
+          "value": "6"
+        },
+        {
+          "exceptions": [],
+          "label": "splash damage 9",
+          "type": "splash-damage",
+          "value": "6"
+        }
+      ],
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "area-damage",
+          "value": 6
+        },
+        {
+          "exceptions": [],
+          "type": "splash-damage",
+          "value": 6
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 5
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>This shuffling mass of decaying flesh moves with dull but singular focus.</p>\n<hr />\n<p>Necromancers most often create these mindless undead as obedient, expendable servitors. Left to its own devices, a zombie seeks only to consume the living, stopping only when its rotting body can no longer hold together.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 11,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 13
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 10
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 10
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 12
+      },
+      "athletics": {
+        "base": 12
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "evil",
+        "mindless",
+        "troop",
+        "undead",
+        "unholy"
+      ]
+    }
+  },
+  "type": "npc"
+}

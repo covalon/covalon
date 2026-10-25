@@ -1,0 +1,82 @@
+{
+  "_id": "h9kJvtuN9cjkkR9a",
+  "_key": "!items!h9kJvtuN9cjkkR9a",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1789406807409,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807535,
+    "systemId": "pf2e",
+    "systemVersion": "8.5.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/magic/death/weapon-scythe-rune-green.webp",
+  "name": "The Cabal of Everlasting Rest",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 4400000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.959
+    },
+    "attribute": [],
+    "category": "pantheon",
+    "description": {
+      "gm": "",
+      "value": "<p>Followers of the Cabal know well the inevitability of life, death, and undeath, each a valuable moment in a soul’s journey towards its final resting place. This pantheon was originally formed by worshippers of various deities working together to handle undead related strife and unrest in their communities. The Cabal’s beliefs have expanded beyond its founding, with undeath seen as an additional step along a soul’s pathway, sometimes taken willingly, sometimes forced, or skipped entirely. Followers of the Cabal see it as their duty to guide souls in all stages of life along their individual path towards peace. The Cabal’s followers include grief counselors, funeral attendants, gravekeepers, and undertakers just as often as it includes holy warriors and priests.</p><p><strong>Edicts </strong>Guide the living and the dead towards peace, Provide counsel to those affected by death and undeath, Free unwilling sentient undead from servitude</p><p><strong>Anathema </strong>Willingly allow malevolent or mindless undead to attack your community, Disrespect the dead</p><p><strong>Pantheon Members </strong>Aelia, Golgolgoss, The Gray Ocean, The Path of Great Spirits, Unmortis</p>"
+    },
+    "domains": {
+      "alternate": [
+        "vigil",
+        "introspection"
+      ],
+      "primary": [
+        "death",
+        "repose",
+        "soul",
+        "undeath"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "occultism"
+    ],
+    "slug": null,
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.Z2oSFY2fT8zLkK4P",
+      "3": "Compendium.pf2e.spells-srd.Item.xabHqik5SoyDc5Db",
+      "4": "Compendium.pf2e.spells-srd.Item.CgekONDD5jIxL8oM"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "scythe"
+    ]
+  },
+  "type": "deity"
+}

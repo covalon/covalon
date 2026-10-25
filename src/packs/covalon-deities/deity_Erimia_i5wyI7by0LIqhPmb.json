@@ -1,0 +1,83 @@
+{
+  "_id": "i5wyI7by0LIqhPmb",
+  "_key": "!items!i5wyI7by0LIqhPmb",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.i5wyI7by0LIqhPmb",
+    "coreVersion": "14.367",
+    "createdTime": 1680031874293,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807534,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/protector-tree.webp",
+  "name": "Erimia",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 3800000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Erimia, The Wild Mother, Mother Nature, she has been called many names. She protects all that grows and all that is born from the earth.</p><p><br /><strong>Edicts</strong> guide civilization to grow in harmony with nature, live sustainably and according to natural cycles, preserve areas of natural wilderness, protect the balance of nature, protect endangered species<br /><strong>Anathema</strong> cause damage to natural settings, kill animals for reasons other than self-defense or sustenance, remove an element or indigenous species from a natural area, encourage imbalance in nature, allow abuse of natural resources</p>"
+    },
+    "domains": {
+      "alternate": [
+        "air",
+        "fire"
+      ],
+      "primary": [
+        "earth",
+        "nature",
+        "water",
+        "wood"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": null,
+    "skill": [
+      "nature"
+    ],
+    "slug": "erimia",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.4YnON9JHYqtLzccu",
+      "3": "Compendium.pf2e.spells-srd.Item.KsWhliKfUs3IpW3c",
+      "6": "Compendium.pf2e.spells-srd.Item.gBJtUhewnihlqxm7"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "staff"
+    ]
+  },
+  "type": "deity"
+}

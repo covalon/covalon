@@ -1,0 +1,537 @@
+{
+  "_id": "IeVhgAGbRlb8gAgf",
+  "_key": "!actors!IeVhgAGbRlb8gAgf",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/BaobhanSith.webp",
+  "items": [
+    {
+      "_id": "E5KXLULpkukpqygI",
+      "_key": "!actors.items!IeVhgAGbRlb8gAgf.E5KXLULpkukpqygI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "0": {
+            "category": null,
+            "damage": "2d6+6",
+            "damageType": "slashing"
+          },
+          "1": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "bleed"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "fxZztiCJybeYYeOI",
+      "_key": "!actors.items!IeVhgAGbRlb8gAgf.fxZztiCJybeYYeOI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Captivating Dance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The baobhan sith sways rhythmically and Strides up to their Speed. Each enemy creature within 30 feet of the baobhan sith at the end of their movement must attempt a @Check[will|dc:24] save. No matter the result of the save, the creature is then immune to Captivating Dance until they die.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p><p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until it ends a turn adjacent to the Baobhan Sith, or the Baobhan Sith dies.</p><p><strong>Critical Failure</strong> As failure, but the creature is also @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "primal",
+            "visual",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bJUTz62klSlUEuTo",
+      "_key": "!actors.items!IeVhgAGbRlb8gAgf.bJUTz62klSlUEuTo",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Drink Blood",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> A bleeding creature is within the baobhan sith's reach</p><hr /><p><strong>Effect</strong> The baobhan sith tries to Drink the Blood from the bleeding creature's wounds. The baobhan sith attempts an @Check[athletics|defense:fortitude] check against the victim's Fortitude DC. On a success, the victim becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} and the baobhan sith regains @Damage[10[healing]] HP, gaining any Hit Points in excess of their maximum Hit Points as temporary Hit Points.</p><p>Drinking Blood from a victim that's already drained doesn't restore any Hit Points to the baobhan sith but increases the victim's drained value by 1.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "HJf1jOmYhdWkklZd",
+      "_key": "!actors.items!IeVhgAGbRlb8gAgf.HJf1jOmYhdWkklZd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Clinch Strike",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature you had @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} successfully Escapes.</p><p><strong>Effect </strong>Your opponents can't slip your grasp without receiving further punishment. Make an unarmed melee Strike against the triggering creature.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Baobhan Sith",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Baobhan Sith",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Furious%20Fey/red_baobhan_sith.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 2
+      },
+      "str": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 105,
+        "temp": 0,
+        "value": 105
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      },
+      "weaknesses": [
+        {
+          "type": "cold-iron",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "aklo",
+          "common",
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Undeath is rare in the fey realm of the First World, for that plane's infusion with the raw power of life makes undead uncomfortable at best. Yet a few fey have adopted the vile practices and habits of notorious undead while still being living themselves, as seen in the blood-drinking habits of the murderous baobhan sith.</p>\n<p>A baobhan sith avoids confrontations when outnumbered, and although territorial, they won't reveal their true nature to larger groups. They prefer to drink blood from victims they find attractive, and they avoid drinking blood from animals and beasts entirely, as they consider such activities to be uncultured.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary 2"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 12,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 12
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 14
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16,
+        "special": []
+      },
+      "athletics": {
+        "base": 15,
+        "special": []
+      },
+      "deception": {
+        "base": 15,
+        "special": []
+      },
+      "nature": {
+        "base": 12,
+        "special": []
+      },
+      "performance": {
+        "base": 15,
+        "special": [
+          {
+            "base": 17,
+            "label": "when dancing",
+            "predicate": [
+              "action:perform:dance"
+            ]
+          }
+        ]
+      },
+      "stealth": {
+        "base": 15,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "chaotic",
+        "evil",
+        "fey"
+      ]
+    }
+  },
+  "type": "npc"
+}

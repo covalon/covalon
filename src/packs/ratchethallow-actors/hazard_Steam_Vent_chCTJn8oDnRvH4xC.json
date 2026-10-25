@@ -1,0 +1,332 @@
+{
+  "_id": "chCTJn8oDnRvH4xC",
+  "_key": "!actors!chCTJn8oDnRvH4xC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1679535069345,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840791034,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "K7t4g2FEuxdN9AXg",
+      "_key": "!actors.items!chCTJn8oDnRvH4xC.K7t4g2FEuxdN9AXg",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1679535217778,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "jKtQ3yoc8rnYa4Xt",
+        "modifiedTime": 1687905411290,
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Steam Blast",
+      "ownership": {
+        "default": 0,
+        "pc8bXOzEQL218kyT": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.932,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:10]{10 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p><strong>Trigger</strong> A creature enters a space occupied by the hazard;</p>\n<p><strong>Effect</strong> Any creature starting their turn in or entering the area must make a @Check[type:reflex|dc:16|basic:true] and takes fire damage (as noted in the attack listed in the actions section).</p>\n<p>Creatures inside the Steam Aura are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to all creatures outside of the steam and all creatures outside the steam are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to all creatures inside the steam.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "9UVbNYqupW9VZaX2",
+      "_key": "!actors.items!chCTJn8oDnRvH4xC.9UVbNYqupW9VZaX2",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1679535283019,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "pc8bXOzEQL218kyT",
+        "modifiedTime": 1679535326841,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Steam Blast (Damage Only)",
+      "ownership": {
+        "default": 0,
+        "pc8bXOzEQL218kyT": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.932,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 0
+        },
+        "damageRolls": {
+          "cWHCAtXr18izRsBZ": {
+            "category": null,
+            "damage": "1d6+2",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "melee"
+    }
+  ],
+  "name": "Steam Vent",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Steam Vent",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.346",
+        "schema": 0.932,
+        "system": "7.3.1"
+      },
+      "version": 0.941
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 6
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>A vent in the floor nearly indistinguishable from any other vent, when a creature stands on it releases a 10x10 burst of steam, dealing fire damage and concealing the area for one turn.</p>",
+      "disable": "<p>On a successful disable, the Steam Vent is disabled.</p>\n<p>To disable the Hazard, 2 successes are required on either a @Check[type:Nature|dc:16|name:Disable Arcing Horns|traits:action:disable-a-device] (trained), @Check[type:crafting|dc:16|name:Arcing Horns|traits:action:disable-a-device] (trained), or @Check[type:Theivery|dc:16|name:Disable Arcing Horns|traits:action:disable-a-device] (trained) check.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 0
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>The Aura increases in diameter by 5 feet up to a maximum of 20 feet total aura, any creature that is in the increased aura size must make a @Check[type:reflex|dc:16|basic:true] and takes fire damage (as noted in the attack listed in the attacks section).</p>\n<p>Creatures inside the Steam Aura are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to all creatures outside of the steam and all creatures outside the steam are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to all creatures inside the steam.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0
+      },
+      "reflex": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

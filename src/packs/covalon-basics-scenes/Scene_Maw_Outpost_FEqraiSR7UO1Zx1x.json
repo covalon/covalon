@@ -1,0 +1,155 @@
+{
+  "_id": "FEqraiSR7UO1Zx1x",
+  "_key": "!scenes!FEqraiSR7UO1Zx1x",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-basics-scenes.Scene.FEqraiSR7UO1Zx1x",
+    "coreVersion": "14.367",
+    "createdTime": 1788224017373,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1788224323097,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "active": false,
+  "drawings": [],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "pf2e": {
+      "hearingRange": null,
+      "rulesBasedVision": null
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1,
+    "reset": 1706387808102
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#ffffff",
+    "distance": 5,
+    "size": 256,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 5120,
+  "initial": {
+    "scale": null,
+    "x": null,
+    "y": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!FEqraiSR7UO1Zx1x.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Covalon%20Basics/MawOutpost.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Maw Outpost",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Maw Outpost",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": false,
+  "notes": [],
+  "ownership": {
+    "default": 0
+  },
+  "padding": 0.25,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/FEqraiSR7UO1Zx1x-thumb.webp",
+  "tiles": [],
+  "tokenVision": true,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 10240
+}

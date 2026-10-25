@@ -1,0 +1,89 @@
+{
+  "_id": "JWBe4Qiul6o9KpEi",
+  "_key": "!items!JWBe4Qiul6o9KpEi",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1726525710474,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619787857,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "45803667d145017d87b717256468dac7b49e91f9",
+      "sourceId": "Item.PNqg2Dh8dLC42S5b"
+    }
+  },
+  "folder": "jyExZxJ5qxTEMF27",
+  "img": "icons/magic/fire/barrier-wall-flame-ring-blue.webp",
+  "name": "Effect: Siccatite Weakness (T5)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.932
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>You gain weakness 10 to cold and fire for 3 rounds.</p>"
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 3
+    },
+    "level": {
+      "value": 14
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "Weakness",
+        "type": "fire",
+        "value": 10
+      },
+      {
+        "key": "Weakness",
+        "type": "cold",
+        "value": 10
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

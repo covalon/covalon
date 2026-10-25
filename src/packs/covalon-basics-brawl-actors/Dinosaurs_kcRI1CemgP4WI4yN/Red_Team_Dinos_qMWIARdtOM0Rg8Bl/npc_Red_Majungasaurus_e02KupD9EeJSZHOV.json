@@ -1,0 +1,796 @@
+{
+  "_id": "e02KupD9EeJSZHOV",
+  "_key": "!actors!e02KupD9EeJSZHOV",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838669870,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.1",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "qMWIARdtOM0Rg8Bl",
+  "img": "modules/covalon/images/Dino%20Brawl/Majungasaurus.webp",
+  "items": [
+    {
+      "_id": "QsoK6ikMwruuDxoU",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.QsoK6ikMwruuDxoU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "x1iXk8tYnDnXqMX1": {
+            "category": null,
+            "damage": "2d10+9",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "SXAJ0LMHbQon3HLb",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.SXAJ0LMHbQon3HLb",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Foot",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "fIy2x5CZFR3z0QLU": {
+            "category": null,
+            "damage": "2d6+9",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "prvIYvpPajDhdKWU",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.prvIYvpPajDhdKWU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Frightened Prey",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "gm": "",
+          "value": "<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} creatures are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to a majungasaurus.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "EphemeralEffect",
+            "predicate": [
+              "target:condition:frightened"
+            ],
+            "selectors": [
+              "strike-attack-roll",
+              "spell-attack-roll",
+              "strike-damage",
+              "attack-spell-damage"
+            ],
+            "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "saTF5z3Vo6RIF4hX",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.saTF5z3Vo6RIF4hX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Crack Bones",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> The majungasaurus has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p><hr /><p><strong>Effect</strong> The majungasaurus deals that creature @Damage[6d6[bludgeoning]] damage (@Check[fortitude|dc:29|basic] save). A creature that fails this save is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until it recovers to full Hit Points.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "10VwspYtnkxH3NXu",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.10VwspYtnkxH3NXu",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wW4cVGv4ZLkNaQlz",
+      "_key": "!actors.items!e02KupD9EeJSZHOV.wW4cVGv4ZLkNaQlz",
+      "_stats": {
+        "compendiumSource": "Actor.1QBjHTwpu4QpgiEt.Item.19Hk9yB4fksq7w1P",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.1QBjHTwpu4QpgiEt.Item.19Hk9yB4fksq7w1P",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Startling Roar",
+      "ownership": {
+        "default": 0,
+        "hcWh9kuYosSIErIR": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When the majungasaurus rolls initiative using Stealth (or a player respawns into this dino), it can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} each enemy within @Template[emanation|distance:300]{300 feet} as a free action. Regardless of the effect, each creature is then temporarily immune to Startling Roar for 1 hour. <br />This only will work if the player roars like a dino.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "predicate": [
+              "check:statistic:base:stealth"
+            ],
+            "selector": "initiative",
+            "text": "{item|system.description.value}",
+            "title": "{item|name}",
+            "visibility": "owner"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Majungasaurus",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Majungasaurus",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Dino%20Brawl/majungasaurus.Token.Red.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "dex": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "int": {
+        "min": 3,
+        "mod": -4,
+        "value": 2
+      },
+      "str": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "wis": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 29
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 220,
+        "temp": 0,
+        "value": 220
+      },
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>The majungasaurus prowls in a crouched posture, carrying its bulk so low to the ground it is eye-to-eye with its prey. Unlike most carnivorous dinosaurs, the majungasaurus is primarily an ambush predator, patiently lying in wait for quarry to come within reach before bursting from cover with a signature cry to attack.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Howl of the Wild"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "low-light vision, scent (imprecise) 30 feet",
+      "mod": 17,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "attribute": "dex",
+        "base": 22,
+        "breakdown": "Modifier +15",
+        "dc": 25,
+        "itemId": null,
+        "label": "Acrobatics",
+        "lore": false,
+        "mod": 22,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "acrobatics",
+              "dex-based",
+              "skill-check",
+              "dex-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 15,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "acrobatics",
+        "special": [],
+        "totalModifier": 15,
+        "value": 22,
+        "visible": true
+      },
+      "athletics": {
+        "attribute": "str",
+        "base": 23,
+        "breakdown": "Modifier +16",
+        "dc": 26,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 23,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 16,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 16,
+        "value": 23,
+        "visible": true
+      },
+      "intimidation": {
+        "attribute": "cha",
+        "base": 21,
+        "breakdown": "Modifier +14",
+        "dc": 24,
+        "itemId": null,
+        "label": "Intimidation",
+        "lore": false,
+        "mod": 21,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "intimidation",
+              "cha-based",
+              "skill-check",
+              "cha-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 14,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "intimidation",
+        "special": [],
+        "totalModifier": 14,
+        "value": 21,
+        "visible": true
+      },
+      "stealth": {
+        "attribute": "dex",
+        "base": 23,
+        "breakdown": "Modifier +16",
+        "dc": 26,
+        "itemId": null,
+        "label": "Stealth",
+        "lore": false,
+        "mod": 23,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "stealth",
+              "dex-based",
+              "skill-check",
+              "dex-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 16,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "stealth",
+        "special": [],
+        "totalModifier": 16,
+        "value": 23,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "animal",
+        "dinosaur"
+      ]
+    }
+  },
+  "type": "npc"
+}

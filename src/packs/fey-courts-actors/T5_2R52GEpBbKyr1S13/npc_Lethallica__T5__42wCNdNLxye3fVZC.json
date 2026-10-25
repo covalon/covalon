@@ -1,0 +1,1840 @@
+{
+  "_id": "42wCNdNLxye3fVZC",
+  "_key": "!actors!42wCNdNLxye3fVZC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1726525732338,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "716661855ca7f9819521cecc0d365e124d097c69",
+      "sourceId": "Actor.9qqz1LvHXPiucoOc"
+    }
+  },
+  "folder": "2R52GEpBbKyr1S13",
+  "img": "modules/covalon/images/Fey%20Courts/Lethallica-web.webp",
+  "items": [
+    {
+      "_id": "Wy1yS0kpF9yYUg5D",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.Wy1yS0kpF9yYUg5D",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "b4db0be6ac0e5929cc44783c595a4c944af387cc"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Plane of Metal Lore",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 33
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "YWwTiL2FIc2JcP68",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.YWwTiL2FIc2JcP68",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "8e7c3780258b4bc5bca4468409c13adbdbcfb256"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Super Regeneration 50 (Deactivated by Mask’s Metal)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>As long as they wear a mask, Lethallica <span style=\"font-family:Roboto, sans-serif\">regains [[/r 50[healing]]] Hit Points each round at the beginning of their turn. <strong>Their Hit Points can never go below 1 as long as their regeneration is active.</strong></span></p><p><span style=\"font-family:Roboto, sans-serif\">However, if they take damage from a weapon or effect matching the metal of their worn mask, the regeneration deactivates until the end of their next turn. For example, an adamantine weapon or spell would deactive the regeneration if Lethallica was wearing their adamantine mask. </span></p><p><span style=\"font-family:Roboto, sans-serif\">Deactivate the regeneration before applying any damage from an appropriate effect.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "deactivatedBy": [],
+            "key": "FastHealing",
+            "predicate": [
+              {
+                "not": "seven-masks:rust"
+              }
+            ],
+            "type": "regeneration",
+            "value": 50
+          }
+        ],
+        "slug": "super-regeneration",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "iPcRfmZFzi17GXfu",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.iPcRfmZFzi17GXfu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "aa459e13a4d791508a56504fa29a69ad23c38331"
+        }
+      },
+      "folder": null,
+      "img": "icons/weapons/fist/claws-engraved-grey.webp",
+      "name": "Skymetal Claw",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": [
+            "improved-grab"
+          ]
+        },
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "Me7V9MhnsEO0PvRC": {
+            "category": null,
+            "damage": "3d8+13",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "grapple",
+            "reach",
+            "unarmed"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "hLO628KNs7pmW5VN",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.hLO628KNs7pmW5VN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.6l7e7CHQLESlI57U",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "713f2c39afcea3e0743b829b452c741fa10b6fd6"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Push",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "improved-push",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Tqd9epAOua7yjU0x",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.Tqd9epAOua7yjU0x",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "96ee9bbfb2352654a57e34db8031381b547dcd2c"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Grab",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "improved-grab",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xG8k0lOIqiEWrqCN",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.xG8k0lOIqiEWrqCN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "aa459e13a4d791508a56504fa29a69ad23c38331"
+        }
+      },
+      "folder": null,
+      "img": "icons/weapons/staves/staff-crescent-purple.webp",
+      "name": "Sky Cane",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": [
+            "improved-push"
+          ]
+        },
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "xFtnQwFRRPSVATu5": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-15",
+            "shove"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "zeM39Wft8VJyOHJw",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.zeM39Wft8VJyOHJw",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "4f39bf6d5a0f1b068f86ed7c660db131e9a4d27d"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 75000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "edBzD8inhLXSdfDu",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.edBzD8inhLXSdfDu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "8f587a29e7b00eb0df24dbcf19b652624a36c225"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Rock You!",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 50000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> Lethallica has a creature grabbed or restrained</p><hr /><p>Lethallica pushes a grabbed creature into the air, up to 35 feet overhead and up to 30 feet away, or up to 60 feet away if the creature was restrained (it takes damage from the fall as normal).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Dqtw0YbgGfW2Uvo8",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.Dqtw0YbgGfW2Uvo8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "2983df0ef715e242341f8c4f2699ee493cc26769"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Masked Reaction (Only while wearing a mask)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>While wearing a mask, Lethallica gains an extra reaction each round, which they can use only for Reactive Strike. They can't use more than 1 reaction on the same triggering action. </p><p>If an effect would prevent Lethallica from gaining or using reactions, it only applies to the extra reaction granted by Masked Reaction.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WOmD2NDgEahGk3uX",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.WOmD2NDgEahGk3uX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "8f587a29e7b00eb0df24dbcf19b652624a36c225"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Dazzling Smile",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Lethallica says <em>cheese</em>! Creatures in a @Template[type:cone|distance:45] must attempt a @Check[fortitude|dc:33].</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round or until it uses an Interact action to wipe its eyes.</p><p><strong>Failure</strong> As success, but the creature is dazzled for 3 rounds and @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} while dazzled.</p><p><strong>Critical Failure</strong> The creature is dazzled for 1 minute and @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round. It can end the blinded condition early by using an Interact action to wipe its eyes.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "light",
+            "visual"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "dU0c2phTrLFYPUwK",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.dU0c2phTrLFYPUwK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "8f587a29e7b00eb0df24dbcf19b652624a36c225"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Magnetic Personality (On turn start)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Lethallica's turn begins.</p><hr /><p>Lethallica focuses their magnetism on one creature they can sense within 60 feet. The target must attempt a @Check[will|dc:35].</p><p><strong>Success </strong>The creature is unaffected.</p><p><strong>Failure </strong>The creature immediately uses a single action (Stride, Fly, Activating an item, etc.) to move as far as possible either toward or away from Lethallica (Lethallica chooses), avoiding obvious dangers as it does so. This movement doesn't trigger reactions.</p><p><strong>Critical Failure </strong>As failure, but the creature doesn’t avoid obvious dangers (such as Skymetal pools).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "metal",
+            "visual"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "abYpwrDj3eVFEgPI",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.abYpwrDj3eVFEgPI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "2983df0ef715e242341f8c4f2699ee493cc26769"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Metalligrasp",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Lethallica’s attacks can easily reach the Skymetal Pools through the metal floor and walls. On their turn, Lethallica can calculate their reach (for Strikes and Athletics actions) from their own space and from the Skymetal Pools’ spaces.</p><p>Once a Skymetal Pool is disabled or destroyed, it can't be used for Metalligrasp.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vLWm1X8UQF7KnTqJ",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.vLWm1X8UQF7KnTqJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "2983df0ef715e242341f8c4f2699ee493cc26769"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Beneath the Seven Masks",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>Lethallica has 7 masks that they can wear, each made of a different skymetal. They begin the finale wearing a mask of your choice.</p><p>Each mask acts as a \"lifebar\", providing bonuses to saves and extra effects on Strikes. When Lethallica is reduced to 0 HP, their worn mask is destroyed and immediately replaced by one of the remaining hung masks (which you remove from the map). They're also fully healed and become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. All negative effects and conditions are removed.</p><p><em>Remember that Lethallica can't be reduced to 0 HP while their Super Regeneration is active!</em></p><p>When their last worn mask is destroyed, Lethallica reveals their true, <strong>rusted form</strong>. They're fully healed one last time, become Quickened for 1 minute, gain 100 temporary Hit Points and all negative effects and conditions are removed. They then activate their Corrosion of the Metal Plane ability.</p><hr /><p>See the Notes tab on Lethallica's sheet for more details on each mask's passive effects. They're all automated via the Worn Mask entry at the top of the Main tab.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Worn Mask",
+            "option": "seven-masks",
+            "selection": "rust",
+            "suboptions": [
+              {
+                "label": "Abysium",
+                "value": "abysium"
+              },
+              {
+                "label": "Adamantine",
+                "value": "adamantine"
+              },
+              {
+                "label": "Djezet",
+                "value": "djezet"
+              },
+              {
+                "label": "Inubrix",
+                "value": "inubrix"
+              },
+              {
+                "label": "Noqual",
+                "value": "noqual"
+              },
+              {
+                "label": "Orichalcum",
+                "value": "orichalcum"
+              },
+              {
+                "label": "Siccatite",
+                "value": "siccatite"
+              },
+              {
+                "label": "Rust Form (Maskless)",
+                "value": "rust"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Mask (Abysium or Adamantine)",
+            "predicate": [
+              {
+                "or": [
+                  "seven-masks:abysium",
+                  "seven-masks:adamantine"
+                ]
+              }
+            ],
+            "selector": "fortitude",
+            "value": 6
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Mask (Inubrix, Orichalcum or Siccatite)",
+            "predicate": [
+              {
+                "or": [
+                  "seven-masks:inubrix",
+                  "seven-masks:orichalcum",
+                  "seven-masks:siccatite"
+                ]
+              }
+            ],
+            "selector": "reflex",
+            "value": 6
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Mask (Djezet or Noqual)",
+            "predicate": [
+              {
+                "or": [
+                  "seven-masks:djezet",
+                  "seven-masks:noqual"
+                ]
+              }
+            ],
+            "selector": "will",
+            "value": 6
+          },
+          {
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              {
+                "or": [
+                  "seven-masks:djezet",
+                  "seven-masks:noqual",
+                  "seven-masks:orichalcum"
+                ]
+              }
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "seven-masks:inubrix"
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "diceNumber": 3,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "seven-masks:adamantine"
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "seven-masks:abysium"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "On a hit, the target must succeed at a @Check[fortitude|dc:33] or become @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure). On a critical hit, the target gets one degree of success worse than it rolled on its save.",
+            "title": "Abysium Strikes",
+            "visibility": "owner"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "seven-masks:djezet"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "On a hit, the target must succeed at a @Check[will|dc:33] or become @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} (@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure) for 1 round. On a critical hit, the target gets one degree of success worse than it rolled on its save.",
+            "title": "Djezet Strikes",
+            "visibility": "owner"
+          },
+          {
+            "key": "Note",
+            "predicate": [
+              "seven-masks:inubrix"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "This special inubrix passes through most defenses. The Strike can't trigger Shield Block. If the target has any circumstance bonus to AC, reduce that bonus by 2 for this attack.",
+            "title": "Inubrix Strikes",
+            "visibility": "owner"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "seven-masks:noqual"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "Lethallica can produce the effects of an 8th-rank <i>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</i> spell against the target, with a +25 counteract modifier. [[/r 1d20+25 #Counteract]]",
+            "title": "Noqual Strikes",
+            "visibility": "owner"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "seven-masks:orichalcum"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "On a hit, the target must succeed at a @Check[fortitude|dc:33] or become @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} (Clumsy 1 and @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} on a critical failure) for 1 round. On a critical hit, the target gets one degree of success worse than it rolled on its save.",
+            "title": "Orichalcum Strikes",
+            "visibility": "owner"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "seven-masks:siccatite"
+            ],
+            "selector": "strike-attack-roll",
+            "text": "The Strike deals either @Damage[3d6[persistent,fire]] or  @Damage[3d6[persistent,cold]].",
+            "title": "Siccatite Strikes",
+            "visibility": "owner"
+          },
+          {
+            "category": "persistent",
+            "damageType": "poison",
+            "diceNumber": 2,
+            "dieSize": "d12",
+            "key": "DamageDice",
+            "predicate": [
+              "seven-masks:rust"
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "exceptions": [
+              "siccatite"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:siccatite"
+            ],
+            "type": [
+              "cold",
+              "fire"
+            ],
+            "value": "11"
+          },
+          {
+            "exceptions": [
+              "noqual"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:noqual"
+            ],
+            "type": "spells",
+            "value": "11"
+          },
+          {
+            "exceptions": [
+              "djezet"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:djezet"
+            ],
+            "type": "magical",
+            "value": "5"
+          },
+          {
+            "exceptions": [
+              "adamantine"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:adamantine"
+            ],
+            "type": "physical",
+            "value": "5"
+          },
+          {
+            "exceptions": [
+              "orichalcum"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:orichalcum"
+            ],
+            "type": "all-damage",
+            "value": "3"
+          },
+          {
+            "exceptions": [
+              "abysium"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "seven-masks:abysium"
+            ],
+            "type": "void",
+            "value": "11"
+          },
+          {
+            "key": "EphemeralEffect",
+            "predicate": [
+              "seven-masks:inubrix"
+            ],
+            "selectors": [
+              "strike-attack-roll"
+            ],
+            "uuid": "Compendium.pf2e.spell-effects.Item.ZVPlFsk5Zimd8Mc9"
+          }
+        ],
+        "slug": "beneath-the-seven-masks",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "C95k60Wn7rlPC6hk",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.C95k60Wn7rlPC6hk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "76381d3c24fe275a17a002e1aa6085250fcb6dbf"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Corrosion of the Metal Plane (Only while in rust form)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Using their own body as a conduit, Lethallica unleashes the rust that plagues their home plane, causing themself as well as all creatures within 100 feet @Damage[(4d12+10)[persistent,slashing]] damage.</p><p><strong>It is impossible to recover from this persistent damage as long as the creature is in the area and Lethallica is alive.<br /></strong>As soon as Lethallica dies, the persistent damage ends.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "metal"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "uWeouxyphAWSczGF",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.uWeouxyphAWSczGF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "76381d3c24fe275a17a002e1aa6085250fcb6dbf"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Ubiquitous Grasp",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Lethallica’s Metalligrasp is active at all times rather than just on their turn, meaning they can use Reactive Strike from the pools’ spaces.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ExvQGlDWwWWR25g9",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.ExvQGlDWwWWR25g9",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "76381d3c24fe275a17a002e1aa6085250fcb6dbf"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Bursting Masks",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><span style=\"font-family:Arial,sans-serif\">When Lethallica is reduced to 0 HP and their worn mask is destroyed, before the usual effects, the mask bursts with metallic energy. Other creatures in a @Template[type:emanation|distance:35]{30-foot emanation} around Lethallica 8d12 damage with a basic save. The type of save and damage is determined by the mask’s metal.</span></p><ul><li><p>Abysium @Check[fortitude|dc:33|basic] @Damage[8d12[poison]]</p></li><li><p>Adamantine @Check[fortitude|dc:33|basic] @Damage[8d12[bludgeoning]]</p></li><li><p>Djezet @Check[will|dc:33|basic] @Damage[8d12[mental]]</p></li><li><p>Inubrix @Check[reflex|dc:33|basic] @Damage[8d12[slashing]]</p></li><li><p>Noqual @Check[will|dc:33|basic] @Damage[8d12[force]]</p></li><li><p>Oricalcum @Check[reflex|dc:33|basic] @Damage[8d12[piercing]]</p></li><li><p>Siccatite @Check[fortitude|dc:33|basic] @Damage[8d12[fire]] or @Damage[8d12[cold]]</p></li></ul>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "metal"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2dPSV1WQ4XEp5wcL",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.2dPSV1WQ4XEp5wcL",
+      "_stats": {
+        "compendiumSource": "Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Scene.OdZj1PmKNlbzTLtb.Token.1B6MfqXk0hQ0AAJi.Actor.97b0TVvRPhuMsS1t.Item.Azq2pjucW7yrdwOQ",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "96b39b8228499f07b696c79e01d09c0380c394af"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Metallic Ride",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> There is at least one Skymetal Pool that hasn't been completely disabled or destroyed.</p><hr /><p>Lethallica melds into the metal floor or walls and reappears in the space of a required Pool. They can then either Stand or Step up to 10 feet as a free action.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "magical",
+            "metal",
+            "teleportation"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "5d0PYSH8APdhKDrZ",
+      "_key": "!actors.items!42wCNdNLxye3fVZC.5d0PYSH8APdhKDrZ",
+      "_stats": {
+        "compendiumSource": "Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Scene.g7mQAqpGJfwzIYxt.Token.cjDxbvxvsCvyVS2n.Actor.97b0TVvRPhuMsS1t.Item.HXFULVaCfQxzkbRM",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "5a71fdfcf729ba6ec0e6ae2aebd9996a6b9615bb"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Metalsense 60 ft (Precise)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Lethallica can accurately sense objects made of metal, creatures wearing metal, and creatures touching metal (such as the ground of the throne room), and can distinguish objects from people.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Lethallica (T5)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "tagger": {},
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Lethallica",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 100,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.15,
+      "scaleY": 1.15,
+      "src": "modules/covalon/images/Fey%20Courts/lethallica_token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.932
+    },
+    "abilities": {
+      "cha": {
+        "mod": 8
+      },
+      "con": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 8
+      },
+      "int": {
+        "mod": 6
+      },
+      "str": {
+        "mod": 6
+      },
+      "wis": {
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 36
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "super regeneration 50",
+        "max": 100,
+        "temp": 0,
+        "value": 100
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "bleed"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "sleep"
+        },
+        {
+          "exceptions": [],
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "electricity",
+          "value": 18
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "value": 30
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "talican"
+        ]
+      },
+      "level": {
+        "value": 15
+      },
+      "privateNotes": "<ul><li><p><strong>Abysium Mask:</strong> Fortitude +6; Strikes can cause the Sickened condition. Resists void from non-abysium sources.</p></li><li><p><strong>Adamantine Mask:</strong> Fortitude +6; Strikes deal an extra 3d6 damage. Resists physical from non-adamantine sources.</p></li><li><p><strong>Djezet Mask:</strong> Will +6; Strikes <span style=\"font-family:Roboto, sans-serif\">deal an extra 1d6 damage and</span> can cause the Stupefied condition. Resists magic from non-djezet sources.</p></li><li><p><strong>Inubrix Mask:</strong> Reflex +6; Strikes deal an extra 2d6 damage, reduce circumstance bonuses to AC by 2 and can't trigger Shield Block</p></li><li><p><strong>Noqual Mask:</strong> Will +6; Strikes deal an extra 1d6 damage and can produce the effect of an 8th-rank <em>dispel magic. </em>Resists non-noqual spells.</p></li><li><p><strong>Orichalcum Mask:</strong> Reflex +6; Strikes deal an extra 1d6 damage and can cause the Clumsy or Slowed conditions. Resists all damage from non-orichalcum sources.</p></li><li><p><strong>Siccatite Mask:</strong> Reflex +6; Strikes deal an extra 3d6 persistent damage (either cold or fire, choose on each hit). Resists cold and fire from non-siccatite sources.</p></li><li><p><strong>Rust Form:</strong> Strikes deal an extra 2d12 persistent poison damage</p></li></ul>",
+      "publicNotes": "<p>Lethallica, the Sky Liege, is an arrogant and cocky individual who loves to show off. They have no qualms asking the party what they think of the Fey Courts' new \"decoration\", or exhibiting their expensive-looking garments obviously made from fey clothes. Nonetheless, they waste no time in attempting to destroy the party once the fight begins.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "metalsense 60 ft(precise)",
+      "mod": 26,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 24
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 26
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 26
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 33,
+        "special": []
+      },
+      "athletics": {
+        "base": 27,
+        "special": []
+      },
+      "crafting": {
+        "base": 23,
+        "special": []
+      },
+      "deception": {
+        "base": 33,
+        "special": []
+      },
+      "diplomacy": {
+        "base": 33,
+        "special": []
+      },
+      "intimidation": {
+        "base": 33,
+        "special": []
+      },
+      "nature": {
+        "base": 23,
+        "special": []
+      },
+      "society": {
+        "base": 25,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "elemental",
+        "metal"
+      ]
+    }
+  },
+  "type": "npc"
+}

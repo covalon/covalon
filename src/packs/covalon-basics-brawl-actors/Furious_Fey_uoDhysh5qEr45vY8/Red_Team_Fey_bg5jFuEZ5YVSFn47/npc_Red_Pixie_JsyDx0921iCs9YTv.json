@@ -1,0 +1,1708 @@
+{
+  "_id": "JsyDx0921iCs9YTv",
+  "_key": "!actors!JsyDx0921iCs9YTv",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/pixie.webp",
+  "items": [
+    {
+      "_id": "hFpiEAg9uOUfaval",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.hFpiEAg9uOUfaval",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 24,
+          "mod": 0,
+          "value": 16
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "wWQh6Woll8mxFFlQ",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.wWQh6Woll8mxFFlQ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/creatures/magical/construct-stone-earth-gray.webp",
+      "name": "Invisibility",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "uses": {
+            "max": 3,
+            "value": 3
+          },
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "invisibility",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "illusion",
+            "manipulate",
+            "subtle"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "UPhtE5tcz5A09fXa",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.UPhtE5tcz5A09fXa",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/glitterdust.webp",
+      "name": "Revealing Light",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 350000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "burst",
+          "value": 10
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>A wave of magical light washes over the area. You choose the appearance of the light, such as colorful, heatless flames or sparkling motes. A creature affected by <em>revealing light</em> is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. If the creature was @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}, it becomes @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} instead. If the creature was already concealed for any other reason, it is no longer concealed.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The light affects the creature for 2 rounds.</p>\n<p><strong>Failure</strong> The light affects the creature for 1 minute.</p>\n<p><strong>Critical Failure</strong> The light affects the creature for 10 minutes.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "revealing-light",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "light",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "dYmQ8Wd5gn24nx4h",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.dYmQ8Wd5gn24nx4h",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/detect-magic.webp",
+      "name": "Detect Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "emanation",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an @UUID[Compendium.pf2e.equipment-srd.Item.bikFUFRLwfdvX2x2]{Invisibility Potion}) typically are detected normally.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "detect-magic",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "detection",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "u0psV1t4RuymSbrN",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.u0psV1t4RuymSbrN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/ghost-sound.webp",
+      "name": "Figment",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You create a simple illusory sound or vision. A sound adds the auditory trait to the spell and the sound can't include intelligible words or elaborate music. A vision adds the visual trait, can be no larger than a 5-foot cube, and is clearly crude and undetailed if viewed from within 15 feet. When you Cast or Sustain the Spell, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} with the illusion, gaining a +2 circumstance bonus to your Deception check. If the attempt fails against a creature, that creature disbelieves the <em>figment</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{Spell Effect: Figment}</p>"
+        },
+        "duration": {
+          "sustained": true,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "figment",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "illusion",
+            "manipulate",
+            "subtle"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "OD564a6xvrEy4iuc",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.OD564a6xvrEy4iuc",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/light.webp",
+      "name": "Light",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until your next daily preparations"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "light",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "BQB70Acbs3mnalg8",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.BQB70Acbs3mnalg8",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/shield.webp",
+      "name": "Shield",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the start of your next turn"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "hFpiEAg9uOUfaval"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "shield",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "force"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "mK95kQngCqgjaCKp",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.mK95kQngCqgjaCKp",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.MVAWttmT0QDa7LsV",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/weapons/bows/longbow-recurve-leather-brown.webp",
+      "name": "Longbow",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "longbow",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 2
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d8",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This 5-foot-tall bow, usually made of a single piece of elm, hickory, or yew, has a powerful draw and is excellent at propelling arrows with great force and at an extreme distance. You must use two hands to fire a longbow, and it can't be used while mounted.</p>"
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "bow",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 6
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "quantity": 1,
+        "range": 100,
+        "reload": {
+          "value": "0"
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "longbow",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "deadly-d10",
+            "volley-30"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-plus-hands"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "1FWRq67RoHB7YE8M",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.1FWRq67RoHB7YE8M",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/weapons/swords/sword-guard-purple.webp",
+      "name": "Shortsword",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "shortsword",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 0.1
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d6",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>These blades come in a variety of shapes and styles, but they are typically 2 feet long.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "sword",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "sp": 9
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "shortsword",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "5aCzYCWmzF3SwFRC",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.5aCzYCWmzF3SwFRC",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/weapons/ammunition/arrows-broadhead-white.webp",
+      "name": "Arrows",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "category": "ammo",
+        "containerId": null,
+        "damage": null,
+        "description": {
+          "gm": "",
+          "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "per": 10,
+          "value": {
+            "sp": 1
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "quantity": 60,
+        "rules": [],
+        "size": "med",
+        "slug": "arrows",
+        "spell": null,
+        "stackGroup": "arrows",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "uses": {
+          "autoDestroy": true,
+          "max": 1,
+          "value": 1
+        }
+      },
+      "type": "consumable"
+    },
+    {
+      "_id": "y7q6NFl7HXFqMYWW",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.y7q6NFl7HXFqMYWW",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "1FWRq67RoHB7YE8M"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Shortsword",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "wfskpvpt04accujjowgm": {
+            "category": null,
+            "damage": "2d6+5",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "magical",
+            "versatile-s"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "jKUKY0ByHy5vvU8u",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.jKUKY0ByHy5vvU8u",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "mK95kQngCqgjaCKp"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Longbow",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "mr4p5ortdfqeobalmezf": {
+            "category": null,
+            "damage": "2d6+5",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10",
+            "magical",
+            "range-increment-100",
+            "reload-0",
+            "volley-20"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "0mf0RfMRzuYHP7t3",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.0mf0RfMRzuYHP7t3",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:magical"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "giE56Vm25ZKR3ZJm",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.giE56Vm25ZKR3ZJm",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Sprinkle Pixie Dust",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The pixie sprinkles pixie dust onto one of their arrows. If the pixie hits a creature with that arrow before the pixie's next turn, the arrow inflicts one of the following special effects of the pixie's choice instead of dealing damage. Each effect depends on the target's @Check[will|dc:24] save. On a critical hit, the target gets a result one degree worse than it rolled.</p><ul><li><strong>Sleepy</strong> (mental) The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for a round.</li><li><strong>Head Hurty</strong> (mental, nonlethal) The target takes @Damage[4d6[mental]] damage, depending on its basic Will save.</li></ul>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ajfx9s3KZ1x42O58",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.ajfx9s3KZ1x42O58",
+      "_stats": {
+        "compendiumSource": "Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Pixie Wings",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You've manifested wings that can flutter for brief spurts. You Fly, with a fly Speed of 40 feet. If you aren't on solid ground at the end of this movement, you fall.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "dIG9Lj4Q4HfRUrm5",
+      "_key": "!actors.items!JsyDx0921iCs9YTv.dIG9Lj4Q4HfRUrm5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Flit Back",
+      "ownership": {
+        "MnTIcQh7jQQBQ1dA": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature ends its movement in a square adjacent to the pixie;</p><p><strong>Effect</strong> The pixie Flies 10 feet away from the triggering creature.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Pixie",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Pixie",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/pf2e-tokens-monster-core/assets/subjects/Sprite%20Pixie.webp"
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "src": "modules/covalon/images/Furious%20Fey/red_pixie.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 3
+      },
+      "str": {
+        "mod": -1
+      },
+      "wis": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 25
+      },
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic"
+      },
+      "hp": {
+        "details": "",
+        "max": 65,
+        "temp": 0,
+        "value": 65
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 15
+      },
+      "weaknesses": [
+        {
+          "type": "cold-iron",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Insatiably curious, overly excitable, and just a bit puckish, pixies are wanderers and tricksters who use their pixie dust to create all sorts of whimsical situations, as well as to defend themselves. They take great pride in their skill at archery, even when not using their arrows to deliver magical ailments. They often practice by shooting drops of dew or severing vines and hairs. Other creatures often have trouble understanding a pixie's rapid, rambling way of speaking.</p>\n<hr />\n<p>Elusive, flighty, and ebullient, sprites are what many villagers first imagine when they hear the terms \"fey\" or \"fairy.\" While their dispositions vary, all sprites share a connection to magic and a diminutive size. This family of fey shares its name with its slightest and most populous member, the common sprite.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 15,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 10
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 14
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16,
+        "special": []
+      },
+      "deception": {
+        "base": 14,
+        "special": []
+      },
+      "nature": {
+        "base": 13,
+        "special": []
+      },
+      "stealth": {
+        "base": 14,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      },
+      "value": [
+        "fey",
+        "sprite"
+      ]
+    }
+  },
+  "type": "npc"
+}

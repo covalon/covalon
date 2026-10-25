@@ -1,0 +1,469 @@
+{
+  "_id": "PvPEypl2cclN32Qo",
+  "_key": "!actors!PvPEypl2cclN32Qo",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1770065060418,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175134615,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      },
+      "editMode": true
+    }
+  },
+  "folder": "T4QM9E34toi8e1TC",
+  "img": "modules/covalon/images/Briarmurk/twisted_magic_orb_mist_.Avatar.webp",
+  "items": [
+    {
+      "_id": "DQAWzOLJ6dpkEXEQ",
+      "_key": "!actors.items!PvPEypl2cclN32Qo.DQAWzOLJ6dpkEXEQ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Shifting Mists",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Terina becomes the Ritual Leader</p><p><strong>Effect</strong> The hazard rolls initiative.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "occult",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "L0cm1HrN5Ix68UH2",
+      "_key": "!actors.items!PvPEypl2cclN32Qo.L0cm1HrN5Ix68UH2",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "A Pleasant Dream",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Range</strong> 90ft, <strong>Targets</strong> 1 allied creature</p><p>The Orb glows brightly as it shimmers, imparting a blessing on an ally. The targeted ally is shrouded in mist, becoming @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}, gaining @Damage[50] Temporary HP, and Lesser Cover (@UUID[Compendium.pf2e.other-effects.I9lfZUiCwMiGogVi]{Effect: Cover}) for 1 round. This ability only provides 50 Temporary HP regardless of how many actions are used on one target.<br /></p><p>@UUID[Compendium.covalon.briarmurk-items.Item.SHnkFlDvLjY4U21t]{Shrouded in Mist T5}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "occult",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "pJGhia8ibpJiuBa5",
+      "_key": "!actors.items!PvPEypl2cclN32Qo.pJGhia8ibpJiuBa5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T5",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "14",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "14"
+              },
+              {
+                "label": "Level 13",
+                "value": "13"
+              },
+              {
+                "label": "Level 15",
+                "value": "15"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Twisted Magic Orb (Mist) (T5 Finale)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Twisted Magic Orb (Mist)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/twisted_magic_orb_mist_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 33
+      },
+      "emitsSound": false,
+      "hardness": 22,
+      "hp": {
+        "details": "BT counts as 1 disable.",
+        "max": 94,
+        "temp": 0,
+        "value": 94
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 28
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>An orb of condensed and cooled mists appears atop the altar in the center of the apex.</p>",
+      "disable": "<p>The orb can be disabled using @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} with @Check[occultism|dc:34|traits:action:disable-a-device]{Occultism}, @Check[perception|dc:34|traits:action:disable-a-device]{Perception}, @Check[religion|dc:34|traits:action:disable-a-device]{Religion}, or @Check[thievery|dc:34|traits:action:disable-a-device]{Thievery}.</p><p>Three successes are required to completely disable this hazard. Each success reduces the number of actions in the hazard's routine by one (a critical success to disable counts as two successes).</p><p>The hazard can also be disabled by a creature casting a prepared or spontaneous spell with the Air trait (that uses wind) while adjacent to the orb. The spell rank must be at least APL/2 -1 (round up), and this causes the spell to be consumed entirely by the orb. The spell has none of its usual effects. The caster attempts a Counteract check with the same DC as the Disable DC for the Religion skill, but they get one degree of success higher than they roll.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "<p>The orb is dormant for 24 hours.</p>",
+      "routine": "<p>(3 actions) The hazard spends each action on A Pleasant Dream.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 28
+      },
+      "reflex": {
+        "value": 22
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "occult",
+        "divine",
+        "trap",
+        "water",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

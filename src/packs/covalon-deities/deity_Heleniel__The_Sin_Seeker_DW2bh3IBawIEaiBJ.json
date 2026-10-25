@@ -1,0 +1,84 @@
+{
+  "_id": "DW2bh3IBawIEaiBJ",
+  "_key": "!items!DW2bh3IBawIEaiBJ",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.DW2bh3IBawIEaiBJ",
+    "coreVersion": "14.367",
+    "createdTime": 1680084328326,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807530,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+  "name": "Heleniel, The Sin Seeker",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1100000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Heleniel is a beacon of hope for those who have lost all. She protects the weak and absent, and encourages her faithful to fulfill their duty in doing the same. She represents balance and justice. She is a favorite of those with little means, and is at the heart of new civilizations and their expansion. Her symbol is an eye and a bleeding dagger.</p><p><br /><strong>Edicts</strong> protect the weak, encourage the righteous, vanquish evildoers, be a bastion of the people<br /><strong>Anathema</strong> abandon those in need, attack without just cause, allow sinners to go unrepented<br /></p>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "cities",
+        "duty",
+        "protection",
+        "zeal"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "society"
+    ],
+    "slug": "heleniel",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.0Dcd4iEXqCrkm4Jn",
+      "4": "Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt",
+      "7": "Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "bastard-sword"
+    ]
+  },
+  "type": "deity"
+}

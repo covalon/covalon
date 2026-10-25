@@ -1,0 +1,1285 @@
+{
+  "_id": "aU797oiRd8o7RXlY",
+  "_key": "!actors!aU797oiRd8o7RXlY",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1742091082139,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "8LDqhczRgTsuz6re",
+  "img": "modules/covalon/images/Varceta/eem_the_spirit_returned.Avatar.webp",
+  "items": [
+    {
+      "_id": "n6582ABDbRjqH7MV",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.n6582ABDbRjqH7MV",
+      "_stats": {
+        "compendiumSource": "Actor.CWRhubtGKzWEyftF.Item.Az10EhMNJiGt2xGl",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.CWRhubtGKzWEyftF.Item.Az10EhMNJiGt2xGl",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Phaselocked - Ethereal Plane",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>This entity is bound to the Ethereal Plane. It can only effect or be effected by creatures on the Ethereal Plane.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "eSkxiVtDrjax6NVD",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.eSkxiVtDrjax6NVD",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.4HwZ8Va65RxUCtg1",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "The Reaper's Blade",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Eem, the Spirit Returned wields a massive scythe. All of their strikes with The Reaper's Call affect a 15 foot cone. Roll the attack once and compare the result to the AC of all targets. The cone may be angled however you wish and a target does not need to be within 30ft to be struck by the cone. Eem is immune to their own strikes and is <strong>immune to being disarmed.</strong></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Dr5Zg76So2UtvMOS",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.Dr5Zg76So2UtvMOS",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Death Chill",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Reaper's Call is coated in a thin ghostly poison. Their first successful strike each round, even if that Strike does no damage (such as due to resistance) applies Death Chill. If several people are struck at once it affects them all.</p><p><strong>Saving Throw</strong> @Check[fortitude|dc:27|traits:poison];</p><p><strong>Maximum Duration</strong> 6 rounds;</p><p><strong>Stage 1</strong> @Damage[2d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round);</p><p><strong>Stage 2</strong> @Damage[3d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round);</p><p><strong>Stage 3</strong> @Damage[5d4[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "poison",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Cxweb3n5lXLryugM",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.Cxweb3n5lXLryugM",
+      "_stats": {
+        "compendiumSource": "Actor.q5MEybZHKABE0Nyi.Item.Cxweb3n5lXLryugM",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.q5MEybZHKABE0Nyi.Item.Cxweb3n5lXLryugM",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Soul Carver",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements </strong>Eem has Ready to Reap</p><p>At the start of their third turn and every two rounds after, Eem brings down their scythe on all enemy creatures on the Ethereal Plane. This is an automatic critical hit that deals half of each target's max HP in untyped damage. This damage cannot be mitigated in any way. After using this ability, their turn then ends.</p><p><strong>This ability does not hit creatures with the Dying condition.</strong></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "0acBgM4bwZCbnhID",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.0acBgM4bwZCbnhID",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "The Reaper's Call",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "modification-death-chill"
+          ]
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "Xlyjxq6A9hGqH0wv": {
+            "category": null,
+            "damage": "2d6+5",
+            "damageType": "slashing"
+          },
+          "iOXeNGlhixKiDJyv": {
+            "category": null,
+            "damage": "3d6",
+            "damageType": "spirit"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10",
+            "reach-30"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "LjLk8mnUfOKIA2r2",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.LjLk8mnUfOKIA2r2",
+      "_stats": {
+        "compendiumSource": "Actor.CWRhubtGKzWEyftF.Item.iP9I3HQPBoP3o3lx",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.CWRhubtGKzWEyftF.Item.iP9I3HQPBoP3o3lx",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "One Half of a Whole",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Eem, The Spirit Returned can not be brought below 1 HP. Once Tras and Eem are both brought to 1 HP, the volcano erupts and kills them both instantly.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "IwiN5V5Qysw9YDg0",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.IwiN5V5Qysw9YDg0",
+      "_stats": {
+        "compendiumSource": "Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Bound To The Spot",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>This creature cannot be moved by any means.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QHPEG3GSRQhr5NF4",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.QHPEG3GSRQhr5NF4",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.IJHcSrUsJiWFFT9l",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Trinkets Are Fickle",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature activates a magic item<br /><strong>Effect </strong>Eem attempts to snuff out the magic from the item. Eem rolls an Intimidation check against the triggering creature's Will DC.</p><p>On a success the activation is interrupted, expending the usage. On a critical success the triggering creature also takes @Damage[(4d8-2)[mental]].</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "X0FX9SohulfbrG73",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.X0FX9SohulfbrG73",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.LXF0o5NI6vgSz6jP",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Your Mind Will Shatter",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature targets Eem with a mental effect</p><p><strong>Effect </strong>Eem scoffs at attempts to influence their mind. The triggering creature must attempt a @Check[will|dc:25|traits:divine]. <br /><br /><strong>Critical Success</strong> The triggering creature is unaffected</p><p><strong>Success</strong> The triggering creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} as long as it is frightened.</p><p><strong>Failure</strong> As success, but the creature also takes @Damage[(4d8-2)[mental]] damage.</p><p><strong>Critical Failure</strong> As failure, but the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine",
+            "emotion",
+            "fear",
+            "mental",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "NrahNVlEJaauSAr9",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.NrahNVlEJaauSAr9",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.U2ZgT0VM3Ov80drk",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.U2ZgT0VM3Ov80drk",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Waves Crash In",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><span style=\"font-family:Roboto, sans-serif\">Ethereal waves crash over the battlefield. All creatures on the Ethereal Plane standing outside the ring of bones take </span>@Damage[6d6[cold]] damage with a @Check[fortitude|dc:29|basic|traits:cold,divine,area-effect] save. On a failure, creatures are also pulled 15 feet towards Eem, or adjacent to Eem on a critical failure. This never pulls a creature off the battlefield (ie into lava). This ability <strong>must</strong> be used on every turn Eem does not use Soul Carver.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "divine",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ish0AhgcIT1Z05nY",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.Ish0AhgcIT1Z05nY",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Reave Magic",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Eem targets a single magical effect with a duration and an area, or an ongoing magical effect on itself, and attempts a Reaper's Call attack roll against the effect's DC. On a success, the effect is dispelled. On a critical success, the creature the effect originated from also takes damage equal to a successful Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "uHSlDihEvu7GgyAE",
+      "_key": "!actors.items!aU797oiRd8o7RXlY.uHSlDihEvu7GgyAE",
+      "_stats": {
+        "compendiumSource": "Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.vdJZbTvamhAKqcby.Item.mj2KJgdEBNYdL1LH",
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1742091669176,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Prepare to Reap",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements </strong>Tras just used Kneel Forever on the previous turn</p><p>At the end of their turn, Eem raises their scythe high, preparing to unleash Soul Carver. They gain the @UUID[Compendium.covalon.varceta-items.Item.vpsOPIozi9jEb35A]{Ready to Reap}  effect.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Eem, The Spirit Returned (Tier 3)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 500
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "tagger": {
+        "tags": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Fascimile of Eem, The Spirit Returned",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": -1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Varceta/eem_the_spirit_returned.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      },
+      "con": {
+        "min": 3,
+        "mod": 6,
+        "value": 22
+      },
+      "dex": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "int": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      },
+      "str": {
+        "min": 3,
+        "mod": 6,
+        "value": 22
+      },
+      "wis": {
+        "min": 3,
+        "mod": 2,
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 28
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 210,
+        "temp": 0,
+        "value": 210
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "prone"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "label": "void",
+          "type": "void",
+          "value": 14
+        }
+      ],
+      "speed": {
+        "details": "Stationary",
+        "otherSpeeds": [],
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "Truespeech",
+        "value": [
+          "chthonian",
+          "diabolic",
+          "empyrean",
+          "requian"
+        ]
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "Lifesense (Precise)",
+      "mod": 21,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 16
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 23
+      }
+    },
+    "skills": {
+      "athletics": {
+        "attribute": "str",
+        "base": 20,
+        "breakdown": "Modifier +30",
+        "dc": 40,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 20,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 30,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 30,
+        "value": 20,
+        "visible": true
+      },
+      "intimidation": {
+        "attribute": "cha",
+        "base": 19,
+        "breakdown": "Modifier +28",
+        "dc": 38,
+        "itemId": null,
+        "label": "Intimidation",
+        "lore": false,
+        "mod": 19,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "intimidation",
+              "cha-based",
+              "skill-check",
+              "cha-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 28,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "intimidation",
+        "special": [],
+        "totalModifier": 28,
+        "value": 19,
+        "visible": true
+      },
+      "occultism": {
+        "attribute": "int",
+        "base": 20,
+        "breakdown": "Modifier +30",
+        "dc": 40,
+        "itemId": null,
+        "label": "Occultism",
+        "lore": false,
+        "mod": 20,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "occultism",
+              "int-based",
+              "skill-check",
+              "int-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 30,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "occultism",
+        "special": [],
+        "totalModifier": 30,
+        "value": 20,
+        "visible": true
+      },
+      "religion": {
+        "attribute": "wis",
+        "base": 20,
+        "breakdown": "Modifier +30",
+        "dc": 40,
+        "itemId": null,
+        "label": "Religion",
+        "lore": false,
+        "mod": 20,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "religion",
+              "wis-based",
+              "skill-check",
+              "wis-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 30,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "religion",
+        "special": [],
+        "totalModifier": 30,
+        "value": 20,
+        "visible": true
+      },
+      "society": {
+        "attribute": "int",
+        "base": 17,
+        "breakdown": "Modifier +26",
+        "dc": 36,
+        "itemId": null,
+        "label": "Society",
+        "lore": false,
+        "mod": 17,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "society",
+              "int-based",
+              "skill-check",
+              "int-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 26,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "society",
+        "special": [],
+        "totalModifier": 26,
+        "value": 17,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "monitor",
+        "psychopomp"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,412 @@
+{
+  "_id": "LQj4jNcbgaOQ0NB6",
+  "_key": "!actors!LQj4jNcbgaOQ0NB6",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "50yMHd3GQgdIJrc0",
+  "img": "modules/covalon/images/Whitespire/Minecart_Fullof_GIGA_METAL.webp",
+  "items": [
+    {
+      "_id": "WFOX4hoIqr1KVCTB",
+      "_key": "!actors.items!LQj4jNcbgaOQ0NB6.WFOX4hoIqr1KVCTB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Off to Work We Go",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>The party is attacked. </p><p><strong>Effect </strong>The Automagical Mine Cart is added to the bottom of the initiative order. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "VjLi9ccWhfdVQu7e",
+      "_key": "!actors.items!LQj4jNcbgaOQ0NB6.VjLi9ccWhfdVQu7e",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Minecart Drift",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Prerequisite </strong>None of the PCs (or their companions) have the @UUID[Compendium.pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} condition.</p><p><strong>Effect </strong>The Automagical Mine Cart moves 30 feet forward along the minecart tracks. Any creatures or objects in the path are pushed out of the way harmlessly.</p><hr /><p>Outside of combat, the Cart moves consistently along the tracks at 30 feet per round (as long as no PCs are Dying). Players cannot ride in the cart, the ore they're transporting is too delicate and reactive. </p><p><strong>Note: </strong>You can reduce the cart's speed to 20 feed per round if your PCs are particularly slow (ie: Tier 1 dwarves with full plate). </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "e3GRhzznuFKIfcPd",
+      "_key": "!actors.items!LQj4jNcbgaOQ0NB6.e3GRhzznuFKIfcPd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Runic Protections",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Creatures within 20 feet of the Automagical Mine Cart do not need to attempt saves against Stonewyrm's Breath, and automatically reduce the value of their Slowed condition by 1 at the end of each of their turns.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "appearance": {
+              "texture": {
+                "alpha": 0.2,
+                "src": "icons/magic/light/explosion-star-large-teal.webp"
+              }
+            },
+            "key": "Aura",
+            "radius": 20
+          },
+          {
+            "key": "TokenLight",
+            "value": {
+              "bright": 20,
+              "dim": 40
+            }
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Automagical Mine Cart (T5)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 30,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Automagical Mine Cart",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "src": "modules/covalon/images/Whitespire/Minecart_Fullof_GIGA_METAL.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 34
+      },
+      "emitsSound": "encounter",
+      "hardness": 25,
+      "hp": {
+        "details": "",
+        "max": 98,
+        "temp": 0,
+        "value": 98
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": null
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>An ancient Dwarven invention, this rune inscribed mine cart moves on its own, and has been enchanted to provide protection from the Stonewyrm’s Breath effect.</p><p>Stonewyrm's Breath is listed here for ease of reference.</p><hr /><p><strong>Stonewyrm’s Breath</strong></p><p><em>[Environmental][Primal][Magical][Poison]</em></p><p>Poisonous gas wells up from the bottom of the catacombs. Creatures that end their turn within the area of the hazard must attempt a <strong>#DC#</strong> (@Check[type:fortitude|dc:XX]) Fortitude Save or become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1}. If the creature was already Slowed, its Slowed value instead increases by 1 on a failed save. If a creature becomes unable to act due to the slowed condition from this effect, it becomes permanently @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Petrified}. A creature’s Slowed condition reduces by 1 each time it ends its turn outside the hazard’s area.</p><p>Stonewyrm’s Breath is a magical effect that cannot be counteracted. Spells or other abilities that would cleanse the air (such as Cleanse Air) have their durations reduced to 1 round. Effects that provide breathable air (such as an Everair Mask) do not protect from Stonewyrm’s Breath - this deep in the catacombs, it is not an inhaled effect.</p>",
+      "disable": "<p>n/a</p>",
+      "isComplex": true,
+      "level": {
+        "value": 15
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 29
+      },
+      "reflex": {
+        "value": 23
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "magical",
+        "mechanical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

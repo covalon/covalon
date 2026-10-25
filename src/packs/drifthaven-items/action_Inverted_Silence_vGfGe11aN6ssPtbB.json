@@ -1,0 +1,78 @@
+{
+  "_id": "vGfGe11aN6ssPtbB",
+  "_key": "!items!vGfGe11aN6ssPtbB",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1699317031475,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.11.3",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1703963331322,
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "name": "Inverted Silence",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "11.315",
+        "schema": 0.898,
+        "system": "5.11.3"
+      },
+      "version": 0.911
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature further than 20 ft would cast a spell or activate an ability with the Linguistic or Auditory trait.</p>\n<hr />\n<p><strong>Effect</strong> Lich Faltyr raises a boney finger and beckons the creature to come closer. Lich Faltyr silences the room, causing all creatures to be affected by @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{Silence}, except for Lich Faltyr and any creature within a @Template[type:emanation|distance:20]{20-foot} emanation of him until the end of the triggering creature’s next turn. Silenced creatures that enter the emanation stop being affected by Silence, and creatures that leave the emanation resume to be silenced.</p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "requirements": {
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion",
+        "manipulate"
+      ]
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "type": "action"
+}

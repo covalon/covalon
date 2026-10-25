@@ -1,0 +1,63 @@
+{
+  "_id": "2QgUMVN3o5X4gYDp",
+  "_key": "!items!2QgUMVN3o5X4gYDp",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.350",
+    "createdTime": 1757866982345,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763937901777,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "name": "Combat Ruse",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.942,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>Once per round</p><hr /><p>You hide your full combat potential, keeping your true capabilities concealed from our potential allies in Alatar Nova. Attempt a skill check related to your combat style. This is usually Athletics or Acrobatics for physical combat, a skill associated with a magic tradition to disguise your spellcasting, or Deception or Performance to bluff about your abilities. At the GM’s discretion, you may use another skill to create a suitable ruse. This action always has the Auditory or Visual trait and may gain the Linguistic trait, depending on the nature of your ruse.</p><p><strong>Critical Success</strong> Your ruse is exceptional! You gain 2 Ruse Points.</p><p><strong>Success</strong> You pull off the ruse, you gain 1 Ruse Point.</p><p><strong>Failure</strong> You fail to perform a convincing ruse.</p><p><strong>Critical Failure</strong> Your ruse is not only a failure, but an obvious one. You lose 1 Ruse Point.</p>"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    }
+  },
+  "type": "action"
+}

@@ -1,0 +1,248 @@
+{
+  "_id": "TLe1inPdNdVqK6qH",
+  "_key": "!actors!TLe1inPdNdVqK6qH",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1763939425294,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939425294,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "weDZVJ04VztJ0zHV",
+  "img": "systems/pf2e/icons/spells/wall-of-stone.webp",
+  "items": [],
+  "name": "Wall of Denial (T3)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Wall of Denial",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": true,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/spells/wall-of-stone.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.948,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 10
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hardness": {
+        "value": 7
+      },
+      "hp": {
+        "details": "",
+        "max": 30,
+        "temp": 0,
+        "value": 30
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        },
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 7
+      },
+      "privateNotes": "",
+      "publicNotes": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The wall blocks physical effects from passing through it, and because it's made of force, it blocks <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=222\"><span style=\"text-decoration:underline\">incorporeal</span></a> and <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Equipment.aspx?ID=284\"><span style=\"text-decoration:underline\">ethereal</span></a> creatures as well. <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=156\"><span style=\"text-decoration:underline\">Teleportation</span></a> effects can pass through the barrier, as can <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=163\"><span style=\"text-decoration:underline\">visual</span></a> effects (since the wall is transparent).<br /><br /><em>Wall of Denial </em>is immune to effects of its level or lower that attempt to <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Rules.aspx?ID=371\"><span style=\"text-decoration:underline\">counteract</span></a> it. The wall is automatically destroyed by a <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=76\"><em><span style=\"text-decoration:underline\">disintegrate</span></em></a> spell of any rank.</span></p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "skills": {},
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "construct"
+      ]
+    }
+  },
+  "type": "npc"
+}

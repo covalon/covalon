@@ -1,0 +1,3102 @@
+{
+  "_id": "MKH9we6eF46T391v",
+  "_key": "!actors!MKH9we6eF46T391v",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1771175135196,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175135196,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "T4QM9E34toi8e1TC",
+  "img": "modules/covalon/images/Briarmurk/terina_priestess_of_the_eternal_dream.Avatar.webp",
+  "items": [
+    {
+      "_id": "9Bm594CgbDcieSS8",
+      "_key": "!actors.items!MKH9we6eF46T391v.9Bm594CgbDcieSS8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "+1 Status to All Saves vs. Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:magical"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "IvYCp5qCtlFDYkQE",
+      "_key": "!actors.items!MKH9we6eF46T391v.IvYCp5qCtlFDYkQE",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shattered Hope Shard",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "QuXgeNe33mf5LUSn": {
+            "category": "persistent",
+            "damage": "4d4+4",
+            "damageType": "mental"
+          },
+          "v344JWV8kFNGh6Ge": {
+            "category": null,
+            "damage": "1",
+            "damageType": "mental"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 120
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "magical",
+            "occult"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "yWxWsmInuBjQ5nUJ",
+      "_key": "!actors.items!MKH9we6eF46T391v.yWxWsmInuBjQ5nUJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Broken Dream Blade",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "Y4ivSJ7WKlinsLkk": {
+            "category": "persistent",
+            "damage": "4d4+4",
+            "damageType": "mental"
+          },
+          "oJ5EC5Jn0jK2b8i6": {
+            "category": null,
+            "damage": "1",
+            "damageType": "mental"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "magical",
+            "occult"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "3WjsJR6MBL3dpS2d",
+      "_key": "!actors.items!MKH9we6eF46T391v.3WjsJR6MBL3dpS2d",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 35,
+          "value": 27
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "HPKtDOsJJMO4z7HO",
+      "_key": "!actors.items!MKH9we6eF46T391v.HPKtDOsJJMO4z7HO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "zDlxATrLAlbYA2Mv",
+      "img": "systems/pf2e/assets/icons/spells/spellwrack.webp",
+      "name": "Spellwrack",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You cause any spells cast on the target to spill out their energy in harmful surges. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> Whenever the target becomes affected by a spell with a duration, the target takes @Damage[2d12[persistent,force]] damage. Each time it takes persistent force damage from <em>spellwrack</em>, it reduces the remaining duration of spells affecting it by 1 round. Only a successful @Check[arcana] check against your spell DC can help the target recover from the persistent damage; the curse and the persistent damage end after 1 minute.</p>\n<p><strong>Failure</strong> As success, but the curse and persistent damage do not end on their own.</p>\n<p><strong>Critical Failure</strong> As failure, but the persistent force damage is @Damage[4d12[persistent,force]].</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "spellwrack",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "curse",
+            "force",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "JcuIyPzH6Wzj9ZZj",
+      "_key": "!actors.items!MKH9we6eF46T391v.JcuIyPzH6Wzj9ZZj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "zDlxATrLAlbYA2Mv",
+      "img": "core/icons/creatures/magical/spirit-fear-energy-pink.webp",
+      "name": "Anger of The Maw",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "tWN5RfwPcNH3ncNm": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "spirit"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Pain of Ages</strong></p><p>You pull energies from the Maw Vessel and attempt to unleash its power against your enemies, dealing 8d8 spirit damage. On a critical failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} for 1 round as it reels from the impact of so much anguish.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "area": 0,
+          "damage": {
+            "tWN5RfwPcNH3ncNm": "2d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Lost Omens Shining Kingdoms"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "pain-of-ages",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "spirit"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "WdDcmMyw9ZtVaW6b",
+      "_key": "!actors.items!MKH9we6eF46T391v.WdDcmMyw9ZtVaW6b",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "IfuYSF4ymX48CZnm",
+      "img": "systems/pf2e/assets/icons/spells/falling-sky.webp",
+      "name": "Startled Awake",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Falling Sky</strong></p><p>A dreamlike trance overtakes you as you feel as though you are falling. All flying creatures in the area descend to the bottom of the spell's area, taking twice as much bludgeoning damage as if they had fallen the distance moved, to a maximum of 60 falling Damage if they fall 60 feet. They take this falling damage even if the spell's area is entirely in the air and they don't hit the ground, as they concuss against the bottom of the spell's area at great speed. Creatures on the ground and within the spell's area, including flying creatures forced to the ground, must attempt Fortitude saves.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected, and if it was flying, it isn't knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} even though it took falling damage.</p><p><strong>Success</strong> The creature is knocked prone.</p><p><strong>Failure</strong> The creature is knocked prone and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p><p><strong>Critical Failure</strong> The creature is knocked prone and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} for 1 round.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 8
+        },
+        "location": {
+          "heightenedLevel": 8,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Dark Archive"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "falling-sky",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "r3KVLfq8tJT2KA6C",
+      "_key": "!actors.items!MKH9we6eF46T391v.r3KVLfq8tJT2KA6C",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "xqlqJ6eeiNtWb7bq",
+      "img": "core/icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+      "name": "Dreaming Memories",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "nd3XNs3JZLTqgaDv": {
+            "applyMod": false,
+            "category": null,
+            "formula": "12d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "spirit"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Attacked from Within</strong></p><p>You assert your power over the target's own spirit as you reach deep into its soul in order to discover a dream of excruciating anguish, debilitating humiliation, or abject despair. The target takes 12d8 spirit damage and must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The target takes no damage, with a brief sensation of pain followed by a pleasant memory.</p><p><strong>Success</strong> The target takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Critical Failure</strong> The target takes double damage and is frightened 2 and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "heightening": {
+          "area": 0,
+          "damage": {
+            "nd3XNs3JZLTqgaDv": "2d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 7
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Lost Omens Shining Kingdoms"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "attacked-from-within",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "spirit"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "qUmTxBpSRscwkOB5",
+      "_key": "!actors.items!MKH9we6eF46T391v.qUmTxBpSRscwkOB5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "systems/pf2e/assets/icons/spells/synesthesia.webp",
+      "name": "Synesthesia",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The target's senses are suddenly rewired in unexpected ways, causing them to process noises as bursts of color, smells as sounds, and so on. This has three effects, and the target must attempt a Will save.</p><ul><li>Due to the distraction, the target must succeed at a @Check[flat|dc:5] each time it uses a concentrate action, or the action fails and is wasted.</li><li>The target's difficulty processing visual input makes all creatures and objects @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from it.</li><li><p>The creature has trouble moving, making it @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3} and giving it a –10-foot status penalty to its Speeds.</p></li></ul><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is affected for 1 round.</p>\n<p><strong>Failure</strong> The target is affected for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} as it attempts to process the sensory shifts.</p><hr /><p><strong>Heightened (9th)</strong> You can target up to five creatures.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "heightening": {
+          "levels": {
+            "9": {
+              "target": {
+                "value": "5 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "synesthesia",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "SayjeCBYtt5TSnZQ",
+      "_key": "!actors.items!MKH9we6eF46T391v.SayjeCBYtt5TSnZQ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "zDlxATrLAlbYA2Mv",
+      "img": "core/icons/magic/earth/explosion-lava-stone-red.webp",
+      "name": "Phantasmal Calamity",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "11d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>A vision of apocalyptic destruction fills the mind of each creature in the area. The vision deals 11d6 mental damage (basic Will save). On a critical failure, the creature must also succeed at a @Check[reflex] save or believe it's trapped (stuck in a fissure, adrift at sea, or some other fate in keeping with its vision). If it fails the second save, it's also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} for 1 minute. It can attempt a new Will save at the end of each of its turns, and on a success, it disbelieves the illusion and recovers from the stunned condition.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "area": 0,
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "phantasmal-calamity",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "illusion",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "cMjNwC9fSQ2lmaud",
+      "_key": "!actors.items!MKH9we6eF46T391v.cMjNwC9fSQ2lmaud",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "A Pleasant Dream Taken",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature casts an occult spell anywhere atop the Apex of Terrateotl, or casts a divine spell within Terina's third of the Apex.</p><p>Dreams show the reality of magic and take on a new form. Terina attempts to counteract the spell cast by the triggering creature. If the spell would be counteracted, Terina instead gains the ability to Cast that Spell without expending a slot. On her next turn, she can spend the same number of actions to Cast the Spell as the triggering creature, but chooses the targets (if any) and uses her spell attack modifier or spell DC as appropriate. The spell is heightened to 8th rank. The mimicked spell is occult and divine. If the mimicked spell is not used by the end of Terina's next turn, it is lost.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine",
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "mE2SCtZIGPWughP7",
+      "_key": "!actors.items!MKH9we6eF46T391v.mE2SCtZIGPWughP7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Ritual Leader - Sleepwalker",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>While Terina is the Ritual Leader, a sleeping cursed mist falls over the Apex. Immediatly when Terina becomes the Ritual Leader, all creatures must attempt a Will save against Sleepwalker's Curse. Creatures that are not already afflicted with the curse are exposed again at the end of each of their turns. Any instances of Sleepwalker's Curse immediatly end when Terina stops being the ritual leader. Terina, Rashai, and Asira are immune to this curse. The effects granted by this curse only persist while cursed. If a player goes from Stage 1 to Stage 0 (or the Ritual Leader changes) then the Fatigue will be removed.</p><hr /><p><strong>Sleepwalker's Curse</strong></p><p>You suddenly feel drowsy, as if in a waking dream.</p><p><strong>Saving Throw</strong> @Check[will|dc:33|options:occult,divine,dream];</p><p><strong>Stage 1</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} (1 round);</p><p><strong>Stage 2</strong> The creature is fatigued and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 round);</p><p><strong>Stage 3</strong> The creature falls @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious} (but not dying), drops @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}, and drops whatever they are holding in their square. They can only be awoken by taking at least 20 points of damage from a single source. When they wake up, they are no longer afflicted by Sleepwalker's Curse.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "curse",
+            "divine",
+            "dream",
+            "emotion",
+            "fear",
+            "mental",
+            "occult",
+            "sleep",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Wl02vKcm3bPDN6KG",
+      "_key": "!actors.items!MKH9we6eF46T391v.Wl02vKcm3bPDN6KG",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "systems/pf2e/assets/icons/spells/dispel-magic.webp",
+      "name": "Dispel Magic",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": true,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, the item becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an artifact or similar item, you automatically fail.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dispel-magic",
+        "target": {
+          "value": "1 spell effect or unattended magic item"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "Xa4LN7Jc0cB47DDF",
+      "_key": "!actors.items!MKH9we6eF46T391v.Xa4LN7Jc0cB47DDF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "core/icons/creatures/reptiles/serpent-horned-green.webp",
+      "name": "Ophidiophobia",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "hBNB5kWrMV8T2CuH": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          },
+          "mY0vhGfbdzA69pIz": {
+            "applyMod": false,
+            "category": "persistent",
+            "formula": "1d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "poison"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Slither</strong></p><p>A mass of snakes made of shadow rise up to capture creatures in the area. Each creature in the area when you Cast the Spell takes @Damage[3d6[piercing]] damage and @Damage[1d6[persistent,poison]] damage from a biting snake, and it's @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} depending on its Reflex save. A creature that ends its turn in the area must also attempt this save, even if it's already grabbed or restrained by the snakes. You can Dismiss the spell.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature takes full damage and is grabbed by a snake. The snakes' @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC is equal to your spell DC. A creature can attack a snake to release the creature. A snake's AC is equal to your spell DC, and it's destroyed if it takes 12 or more damage at once. New snakes continually regrow as long as the spell lasts, so destroying snakes doesn't prevent slither from capturing more creatures.</p><p><strong>Critical Failure</strong> As failure, but the creature takes double damage and is restrained by a snake.</p><hr /><p><strong>Heightened (+2)</strong> The persistent poison damage increases by 1d6 and snake HP increases by 6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "area": 0,
+          "damage": {
+            "hBNB5kWrMV8T2CuH": "0",
+            "mY0vhGfbdzA69pIz": "1d6"
+          },
+          "interval": 2,
+          "type": "interval"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "slither",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "shadow"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "4ipERC9KTZ2QS27f",
+      "_key": "!actors.items!MKH9we6eF46T391v.4ipERC9KTZ2QS27f",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "7cyoYPoPYA01mErU",
+      "img": "systems/pf2e/assets/icons/spells/phantasmal-killer.webp",
+      "name": "Vision of Death",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You force the target to see a vision of its own death. It takes 8d6 mental damage with a Will save. If the target is reduced to 0 HP by this spell, its vision becomes reality and kills it instantly.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4} and is @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} for as long as it's frightened.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "vision-of-death",
+        "target": {
+          "value": "1 living creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "death",
+            "emotion",
+            "fear",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "XRUVvpuZUpQEUrC7",
+      "_key": "!actors.items!MKH9we6eF46T391v.XRUVvpuZUpQEUrC7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "7cyoYPoPYA01mErU",
+      "img": "core/icons/magic/death/skull-flames-white-blue.webp",
+      "name": "Whispers of the Void",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 10
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You whisper baleful secrets that transcend language and carry magically to the ears of your foes. The words take physical form, weakening the life force of the targets, each of which must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[(floor(@item.rank/2))d8[persistent,void]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(floor(@item.rank/2)*2)d8[persistent,void]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(floor(@item.rank/2)*2)d8[persistent,void]] damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p><hr /><p><strong>Heightened (+2)</strong> The persistent void damage increases by 1d8 on a success, or by 2d8 on a failure or critical failure.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {}
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "whispers-of-the-void",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "auditory",
+            "concentrate",
+            "manipulate",
+            "void"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "rvjT2UmTeVKl3VR7",
+      "_key": "!actors.items!MKH9we6eF46T391v.rvjT2UmTeVKl3VR7",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "core/icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+      "name": "Crisis of Faith",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You assault the target's faith, riddling the creature with doubt and mental turmoil that deal 6d6 mental damage, or 6d8 mental damage if it can cast divine spells. The effects are determined by its Will save.</p>\n<p>To many deities, casting this spell on a follower of your own deity without significant cause is anathema.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage; if the target can cast divine spells, it's @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round, and can't cast divine spells for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6 (or by 2d8 if the target is a divine spellcaster).</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 4,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "overlays": {
+          "Fs08rHTZAfROKKzu": {
+            "_id": "Fs08rHTZAfROKKzu",
+            "name": "Crisis of Faith (Vs. Divine)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "6d8"
+                }
+              },
+              "heightening": {
+                "damage": {
+                  "0": "2d8"
+                }
+              }
+            }
+          },
+          "noPVUX8Ocln52MKm": {
+            "_id": "noPVUX8Ocln52MKm",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "crisis-of-faith",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "RUeSaaB4y2rNfroI",
+      "_key": "!actors.items!MKH9we6eF46T391v.RUeSaaB4y2rNfroI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "core/icons/magic/life/ankh-gold-blue.webp",
+      "name": "Villainy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Heroism</strong></p><p>You unlock the target's inner villain, granting it a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.</p><hr /><p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p><p><strong>Heightened (9th)</strong> The status bonus increases to +3.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.l9HRQggofFGIxEse]{Spell Effect: Heroism}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "heroism",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "YIPXO8PkHoIc8Ada",
+      "_key": "!actors.items!MKH9we6eF46T391v.YIPXO8PkHoIc8Ada",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Unflinching Spellcasting",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>If a reaction would disrupt Terina's spellcasting action, Terina attempts a @Check[flat|dc:11]. On a success, the action isn't disrupted.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Pj1adRnNMcqnO8Pa",
+      "_key": "!actors.items!MKH9we6eF46T391v.Pj1adRnNMcqnO8Pa",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Your Magic Enhances Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 225000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nutrients for the Briars, Premonitions of a Dark Future, and A Pleasant Dream Taken can store spells for longer periods. Instead of losing the mimicked spell at the end of their next turn, the mimicked spell is stored indefinitely until cast. Additionally, up to two mimicked spells can be stored at once (though each priestess still only has one reaction).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "l1PLO5znurWilAfs",
+      "_key": "!actors.items!MKH9we6eF46T391v.l1PLO5znurWilAfs",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "IfuYSF4ymX48CZnm",
+      "img": "systems/pf2e/assets/icons/spells/canticle-of-everlasting-grief.webp",
+      "name": "Canticle of Everlasting Grief",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "XBFtljOdUx24bHoA": {
+            "applyMod": false,
+            "category": null,
+            "formula": "10d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You create a melody distilled from pure grief, conveying the inevitable loss of everything your target cherishes, audible to only them. The target takes 10d6 mental damage depending on its Will save. A creature cursed by this spell can't benefit from circumstance or status bonuses, for the duration noted in the degree of success.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage, is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}, and is cursed for 1 round.</p>\n<p><strong>Failure</strong> The target takes full damage, is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and is cursed for 1 week.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}, and is cursed for an unlimited duration. While the curse remains, the target's allies are also affected by the curse while within 15 feet of the creature.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "level": {
+          "value": 8
+        },
+        "location": {
+          "heightenedLevel": 8,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "canticle-of-everlasting-grief",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "auditory",
+            "concentrate",
+            "curse",
+            "emotion",
+            "fear",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "J18QrwIUwnYUZdIv",
+      "_key": "!actors.items!MKH9we6eF46T391v.J18QrwIUwnYUZdIv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "IfuYSF4ymX48CZnm",
+      "img": "systems/pf2e/assets/icons/spells/divine-inspiration.webp",
+      "name": "Sister's Gift",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Divine Inspiration</strong></p><p>You infuse a target with spiritual energy, refreshing its magic. It recovers one 6th-rank or lower spell it previously cast today and can cast that spell again.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 8
+        },
+        "location": {
+          "heightenedLevel": 8,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "divine-inspiration",
+        "target": {
+          "value": "1 willing creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "0ohIGt7TFJh5M2Yv",
+      "_key": "!actors.items!MKH9we6eF46T391v.0ohIGt7TFJh5M2Yv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "zDlxATrLAlbYA2Mv",
+      "img": "core/icons/magic/death/skull-energy-light-white.webp",
+      "name": "Missed Cue",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "7JuaSjPOenc3HtiT": {
+            "applyMod": false,
+            "category": null,
+            "formula": "12d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You make the spell's target remember a dream where they missed the chance to speak when it mattered. Sensations of overwhelming panic akin to stage fright flood the target's mind, causing them to suffer excruciating mental anguish and take 12d6 mental damage. The target might even become filled with the conviction that they've doomed themselves by missing their cue. The target must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The conviction of a missed cue is only a fleeting notion that passes quickly without any effect on the target.</p><p><strong>Success</strong> The target takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Failure</strong> The target takes full damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}. In addition, the target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for as long as they remain frightened.</p><p><strong>Critical Failure</strong> The target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}. In addition, the target is slowed 1 for as long as they remain frightened.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "7JuaSjPOenc3HtiT": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder #205: Singer, Stalker, Skinsaw Man"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "missed-cue",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "rare",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "emotion",
+            "fear",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "R8KpskP9CvvBsghA",
+      "_key": "!actors.items!MKH9we6eF46T391v.R8KpskP9CvvBsghA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "xqlqJ6eeiNtWb7bq",
+      "img": "core/icons/magic/air/weather-wind-gust.webp",
+      "name": "Tycheam's Indignation",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "DnKLI3UNhM9r5EwP": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "spirit"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Indolent Haze</strong></p><p>The faint scent of poppies and a soothing calm fill the area, urging creatures to lay down and take a rest, to do nothing at all, ever again. Creatures in the area when you Cast the Spell must attempt a Will save. Creatures who end their turn in the area must also attempt the save. You can Dismiss the spell.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature lies down to rest, becoming @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If they were already prone, they instead drift off to sleep, becoming @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p><p><strong>Failure</strong> As success, except that the creature is so happy lying down that they cannot attempt to Stand or otherwise maneuver themself off of the ground on their next turn, though they can @UUID[Compendium.pf2e.actionspf2e.Item.Tj055UcNm6UEgtCg]{Crawl} (potentially to escape the spell's area).</p><p><strong>Critical Failure</strong> The creature immediately lies down and drifts off to sleep, becoming prone and unconscious. Any creature in the area who is already unconscious when you Cast the Spell (or whose turn ends in the spell's area while they are unconscious) takes 6d4 spirit damage as their life force is drained away through their dreams. This damage does not automatically wake them.</p><hr /><p><strong>Heightened (+1)</strong> The spirit damage increases by 2d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "area": 0,
+          "damage": {
+            "DnKLI3UNhM9r5EwP": "2d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 7
+        },
+        "location": {
+          "heightenedLevel": 8,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Lost Omens Rival Academies"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "indolent-haze",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental",
+            "sleep"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "sen7Efv1vTG64jNO",
+      "_key": "!actors.items!MKH9we6eF46T391v.sen7Efv1vTG64jNO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Immobile",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 4800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Priestesses can not be moved by any means, and can not move beyond standing.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "iO8xAKi8qM4YReeU",
+      "_key": "!actors.items!MKH9we6eF46T391v.iO8xAKi8qM4YReeU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "A Pleasant Dream Taken",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "ability": {
+          "value": "wis"
+        },
+        "autoHeightenLevel": {
+          "value": 8
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 35,
+          "value": 27
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "FA7gnpV1QkYMhj1S",
+      "_key": "!actors.items!MKH9we6eF46T391v.FA7gnpV1QkYMhj1S",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "iDjm2cXyRAe4VZ35",
+      "img": "core/icons/magic/fire/barrier-shield-explosion-yellow.webp",
+      "name": "Synaptic Pulse",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "area": {
+          "type": "emanation",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You emit a pulsating mental blast that penetrates the minds of all enemies in the area. Each enemy in the area must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>\n<p><strong>Critical Failure</strong> The creature is Stunned for 1 round.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 round"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "3WjsJR6MBL3dpS2d"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "synaptic-pulse",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "WqUfTdWO0wBxKCRs",
+      "_key": "!actors.items!MKH9we6eF46T391v.WqUfTdWO0wBxKCRs",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Our Ritual Maintains Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 262500,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The three Twisted Magic Orbs hazards cannot be fully disabled. After two successful disable checks (or one critical success), the hazard persists with only one action in its routine, or reduced to minimum radius for the Bramble Orb. A success or critical success to disable any of the hazards at this point only causes them to skip their routine for one round. The hazards recover to half HP (The BT) when they skip their routine.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "htWDIM1Nte3aotYE",
+      "_key": "!actors.items!MKH9we6eF46T391v.htWDIM1Nte3aotYE",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - The Blood Protects Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 112500,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The lines of blood separating the three sections of the Apex of Terrateotl shimmer with magic. These lines block line of effect for any creature that is not Asira, Rashai, or Terina, nor does it affect the three orbs.</p><p>Line of Effect can be a complicated rule. For the purposes of this combat, pretend the blood line is a solid wall for any and all abilities, such as Battle Medicine, Haste, Area of Effect Spells, or ranged attacks. Players can only affect creatures in the same third of the battlemap as them. Creatures can still move through the lines normally.</p><p>At your discretion, you can allow certain abilities that do not need line of sight (such as @UUID[Compendium.pf2e.spells-srd.bfdiKEZQLVvslcDi]{Take Your Places} or Amped Message) to cross the blood lines.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "v28xm2eH7bfiN3kB",
+      "_key": "!actors.items!MKH9we6eF46T391v.v28xm2eH7bfiN3kB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Our Bond Maintains Us",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Asira, Rashai, and Terina are bonded by magic and share a life force. Each priestess has an HP threshold at 66% and 33% HP. The first time a priestess would take damage past a threshold, she becomes immune to all damage until her sisters also reach the same threshold (66% HP or 33% HP), at which point they all can take damage as normal again.</p><p>The priestesses are using their shared energy to power a ritual atop the apex. When combat begins, designate one priestess as the Ritual Leader, which activates her associated Ritual Leader effect (Boughbringer, Sleepwalker, or Moonrise), and Twisted Magic Orb (Bramble, Mist, or Moon). The two priestesses who are not the RItual Leader can use the leader as the point of origin for any of their spells.</p><p>When the priestesses all pass an HP threshold and can take damage again, the Ritual Leader changes, ending the current Ritual Leader effect and swapping to the new Ritual Leader's associated Ritual Leader effect and activating the associated Twisted Magic Orb hazard. Each priestess is the Ritual Leader for one HP section of the fight (100% HP to 66% HP, 66% HP to 33% HP, and 33% HP to death.)</p><p></p><p>In short:</p><ul><li><p>All 3 have their HP hit an immunity threshold</p></li><li><p>Apply a new Ritual Leader effect, remove the old one</p></li><li><p>Activate a new hazard (do not remove an old one)</p></li><li><p>Remove damage immunities</p></li><li><p>The current leader can now be the origin of any of the 3's spells</p></li></ul>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "label": "Our Bond Maintains Us (damage immunity)",
+            "option": "our-bond",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "Resistance",
+            "predicate": [
+              "our-bond"
+            ],
+            "type": "all-damage",
+            "value": 999
+          },
+          {
+            "key": "TokenLight",
+            "predicate": [
+              "our-bond"
+            ],
+            "value": {
+              "alpha": 0.25,
+              "animation": {
+                "intensity": 1,
+                "speed": 2,
+                "type": "wave"
+              },
+              "bright": 1,
+              "color": "#00ff2a",
+              "dim": 0
+            }
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Terina, Priestess of the Eternal Dream (T5)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Terina, Priestess of the Eternal Dream",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/terina_priestess_of_the_eternal_dream.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 9
+      },
+      "dex": {
+        "mod": 8
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 8
+      },
+      "wis": {
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 34
+      },
+      "adjustment": "elite",
+      "allSaves": {
+        "value": "+1 Status to All Saves vs. Magic"
+      },
+      "hp": {
+        "details": "66%, 33% Our Bond Maintains Us",
+        "max": 280,
+        "temp": 0,
+        "value": 300
+      },
+      "speed": {
+        "details": "Immobile",
+        "otherSpeeds": [],
+        "value": 0
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common"
+        ]
+      },
+      "level": {
+        "value": 15
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "Locke",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Covalon - Briarmurk"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "Precise Thoughtsense 120ft",
+      "mod": 26,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 25
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 27
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 28,
+        "special": []
+      },
+      "diplomacy": {
+        "base": 30,
+        "special": []
+      },
+      "occultism": {
+        "base": 30,
+        "special": []
+      },
+      "performance": {
+        "base": 28,
+        "special": []
+      },
+      "religion": {
+        "base": 30,
+        "special": []
+      },
+      "stealth": {
+        "base": 26,
+        "special": []
+      },
+      "thievery": {
+        "base": 26,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "divine",
+        "dream",
+        "humanoid",
+        "occult",
+        "magical"
+      ]
+    }
+  },
+  "type": "npc"
+}

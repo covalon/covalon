@@ -1,0 +1,22 @@
+{
+  "_id": "kcRI1CemgP4WI4yN",
+  "_key": "!folders!kcRI1CemgP4WI4yN",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1736018736430,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698454,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Dinosaurs",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

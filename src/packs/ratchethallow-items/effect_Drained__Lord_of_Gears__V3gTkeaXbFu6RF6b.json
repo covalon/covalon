@@ -1,0 +1,97 @@
+{
+  "_id": "V3gTkeaXbFu6RF6b",
+  "_key": "!items!V3gTkeaXbFu6RF6b",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1754841356540,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754841356540,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/conditions/drained.webp",
+  "name": "Drained (Lord of Gears)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.941
+    },
+    "badge": {
+      "labels": null,
+      "loop": false,
+      "max": null,
+      "min": null,
+      "type": "counter",
+      "value": 1
+    },
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>This is equivalent to the Drained condition. Use this effect to represent Drained on the Lord of Gears, as his construct trait makes him immune to the normal Drained condition.</p>"
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Drained",
+        "selector": "con-based",
+        "slug": "drained",
+        "type": "status",
+        "value": "-1 * @item.badge.value"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Drained",
+        "selector": "hp",
+        "slug": "drained",
+        "type": "status",
+        "value": "min(-1 * @actor.level,-1) * @item.badge.value"
+      },
+      {
+        "key": "LoseHitPoints",
+        "reevaluateOnUpdate": true,
+        "value": "max(1,@actor.level) * @item.badge.value"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

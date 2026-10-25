@@ -1,0 +1,546 @@
+{
+  "_id": "EE6yzIBKSpyYxxTy",
+  "_key": "!items!EE6yzIBKSpyYxxTy",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1775757996007,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775757996007,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "oGy4hhyMrasXHk5L",
+  "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+  "name": "Effect: Curse of Decay",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "badge": {
+      "labels": null,
+      "loop": false,
+      "max": 10,
+      "min": null,
+      "type": "counter",
+      "value": 1
+    },
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p></p><div data-visibility=\"gm\"><p>As the Stonewyrm draws closer to death, its enemies crumble into dust. This curse is activated by the Mawtouched Lifeforce and Death Throes abilties.</p><p><strong>Maximum Duration </strong>None, but the curse stops progressing immediatly when the Stonewyrm is killed. After its death, afflicted creatures stay permanently at whatever stage they reached until the curse is removed.</p><p><strong>Stage 1 - 2 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p><p><strong>Stage 3 - 4 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} (1 round)</p><p><strong>Stage 5 - 6 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 3} (1 round)</p><p><strong>Stage 7 - 8 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4} (1 round)</p><p><strong>Stage 9 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 5}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 5}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 5} (1 round)</p><p><strong>Stage 10 </strong>The creature's flesh crumbles to dust, leaving behind only its gear.</p></div>"
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 17
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 1
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict",
+          "granter": "detach"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              2
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 1
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              2
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 1
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              2
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict",
+          "granter": "detach"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              3
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              4
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              3
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              4
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              3
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              4
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 3
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict",
+          "granter": "detach"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              5
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              6
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 3
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              5
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              6
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 3
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              5
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              6
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 4
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict",
+          "granter": "detach"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              7
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              8
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 4
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              7
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              8
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 4
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              7
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              8
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 5
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict",
+          "granter": "detach"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              9
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              10
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 5
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              9
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              10
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm"
+      },
+      {
+        "allowDuplicate": false,
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 5
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "parent:badge:value",
+              9
+            ]
+          },
+          {
+            "lte": [
+              "parent:badge:value",
+              10
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

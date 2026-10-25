@@ -1,0 +1,84 @@
+{
+  "_id": "yas3TITq335LYhke",
+  "_key": "!items!yas3TITq335LYhke",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1691431522212,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807537,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/equipment/held-items/pathfinderss-coin.webp",
+  "name": "The Living Mandate",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 5300000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>The Living Mandate is an unseen manifestation of mortals' rejection of the natural world and all it entails. They have existed since the start of the very first civilization to stray from the wilds, to carve its place unto the world and rise above the rest, growing as more and more have followed. Called by many names or philosophies they exist as an ideal or guiding deity in various cultures. Long ago, many believed that they watched over all civilization, ensuring progress at any cost. Though lacking any major allegiances, they heavily favour those who seek to innovate, to change, to seize their destiny. They have come to be characterized by ambition, progress and liberty. However, there are always two sides to a coin and with unrestricted progress comes greed, destruction, war and more. Still, always, The Living Mandate always sides with unrestricted advancement regardless of consequences. Now their worshippers include a variety of individuals from all backgrounds, good or bad, each seeking to manifest their destiny.</p><p><strong>Edicts</strong> Create personal and societal improvement, grow your lands, accrue wealth</p><p><strong>Anathema</strong> give to charity, join a workers union, hoard wealth without use</p>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "ambition",
+        "destruction",
+        "freedom",
+        "wealth"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "intimidation"
+    ],
+    "slug": null,
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.0Dcd4iEXqCrkm4Jn",
+      "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+      "7": "Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "dueling-pistol"
+    ]
+  },
+  "type": "deity"
+}

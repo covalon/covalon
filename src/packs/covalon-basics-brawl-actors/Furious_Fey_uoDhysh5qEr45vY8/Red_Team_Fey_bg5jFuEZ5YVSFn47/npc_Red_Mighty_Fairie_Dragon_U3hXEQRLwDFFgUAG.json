@@ -1,0 +1,1190 @@
+{
+  "_id": "U3hXEQRLwDFFgUAG",
+  "_key": "!actors!U3hXEQRLwDFFgUAG",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/Fey_Dragonet.webp",
+  "items": [
+    {
+      "_id": "uj64Am9tI0929tfx",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.uj64Am9tI0929tfx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+      "name": "Arcane Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 24,
+          "mod": 0,
+          "value": 16
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "eN762ag1BwsEj2mG",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.eN762ag1BwsEj2mG",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/creatures/magical/construct-stone-earth-gray.webp",
+      "name": "Invisibility",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "10 minutes"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "value": "uj64Am9tI0929tfx"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "invisibility",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "illusion",
+            "manipulate",
+            "subtle"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "oEIxLIIp8al7E2xF",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.oEIxLIIp8al7E2xF",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/ghost-sound.webp",
+      "name": "Figment",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You create a simple illusory sound or vision. A sound adds the auditory trait to the spell and the sound can't include intelligible words or elaborate music. A vision adds the visual trait, can be no larger than a 5-foot cube, and is clearly crude and undetailed if viewed from within 15 feet. When you Cast or Sustain the Spell, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} with the illusion, gaining a +2 circumstance bonus to your Deception check. If the attempt fails against a creature, that creature disbelieves the <em>figment</em>.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{Spell Effect: Figment}</p>"
+        },
+        "duration": {
+          "sustained": true,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "uj64Am9tI0929tfx"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "figment",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "illusion",
+            "manipulate",
+            "subtle"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "qP7IntT2xowWGDvK",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.qP7IntT2xowWGDvK",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/grease.webp",
+      "name": "Grease",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You conjure grease, choosing an area or target.</p>\n<ul>\n<li><strong>Area</strong> <strong>[4 contiguous 5-foot squares]</strong> All solid ground in the area is covered with grease. Each creature standing on the greasy surface must succeed at a Reflex save or an Acrobatics check against your spell DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Creatures using an action to move onto the greasy surface during the spell's duration must attempt either a Reflex save or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}. A creature that Steps or Crawls doesn't have to attempt a check or save.</li>\n<li><strong>Target</strong> <strong>[1 object of Bulk 1 or less]</strong> If you Cast the Spell on an unattended object, anyone trying to pick up the object must succeed at an Acrobatics check or Reflex save against your spell DC to do so. If you target an attended object, the creature that has the object must attempt an Acrobatics check or Reflex save. On a failure, the holder or wielder takes a –2 circumstance penalty to all checks that involve using the object; on a critical failure, the holder or wielder releases the item. The object lands in an adjacent square of the GM's choice. If you Cast this Spell on a worn object, the wearer gains a +2 circumstance bonus to Fortitude saves against attempts to grapple them.</li>\n</ul>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 1,
+          "value": "uj64Am9tI0929tfx"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "grease",
+        "target": {
+          "value": "1 object of Bulk 1 or less"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "Snll9sxch5CAJk6v",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.Snll9sxch5CAJk6v",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/magic/symbols/runes-triangle-blue.webp",
+      "name": "Prestidigitation",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the spell. Each time you Sustain the spell, you can choose one of four options.</p>\n<ul>\n<li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li>\n<li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li>\n<li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or locus or cost for a spell.</li>\n<li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object a 1 minute per Bulk.</li>\n</ul>\n<p><em>Prestidigitation</em> can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the spell.</p>"
+        },
+        "duration": {
+          "sustained": true,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "uj64Am9tI0929tfx"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "10 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "prestidigitation",
+        "target": {
+          "value": "1 object (cook, lift, or tidy only)"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "XpcWHnvqjcngSTyK",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.XpcWHnvqjcngSTyK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "geue1zcmljrdpnrws91k": {
+            "category": null,
+            "damage": "2d8+9",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "HQToKWTC3drtqduN",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.HQToKWTC3drtqduN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Telepathy 100 feet",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "telepathy",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "magical",
+            "mental"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2vBMTexIigEtaKt3",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.2vBMTexIigEtaKt3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Euphoric Breath",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The dragonet breathes euphoric gas in a @Template[cone|distance:20]. Each creature in the area takes [[/r 8d6[poison]]] damage (@Check[fortitude|dc:24] basic save). On a Critical Failure, the creature is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for a round.</p><p>The fey dragonet can't use Euphoric Breath again for 2 rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "poison",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "3l4Net04HQPtNXdN",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.3l4Net04HQPtNXdN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "bWA8khYkEWvh0G5V": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "A2xGVcMfOG5xRrir",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.A2xGVcMfOG5xRrir",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "0KUjXYgHcQJdwYaW": {
+            "category": null,
+            "damage": "2d6+6",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "ZBSTLoqvZ3SuLzA1",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.ZBSTLoqvZ3SuLzA1",
+      "_stats": {
+        "compendiumSource": "Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.jo9NihMV7owMOiHD.Item.ajfx9s3KZ1x42O58",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Fairie Wings",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You Fly, with a fly Speed of 35 feet. If you aren't on solid ground at the end of this movement, you fall.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "AzvnfbweVw8sC9Yt",
+      "_key": "!actors.items!U3hXEQRLwDFFgUAG.AzvnfbweVw8sC9Yt",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Reactive Strike (Claws Only)",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Mighty Fairie Dragon",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Mighty Fairie Dragon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 2,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "src": "modules/covalon/images/Furious%20Fey/red_mighty_fairie_dragon.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 95,
+        "temp": 0,
+        "value": 95
+      },
+      "immunities": [
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "sleep"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "Telepathy 100 feet",
+        "value": [
+          "common",
+          "draconic",
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Although they are much smaller than their larger dragon cousins, fey dragonets have many of the same physiological attributes, including long necks, toothy maws, sinuous tails, and sharp claws. They flit about on iridescent butterfly wings, the coloring of which changes based on where they live, giving them a natural camouflage. Unlike their larger kin, an adult fey dragonet remains the same size throughout their lifespan. The only visual clue to the age of a fey dragonet is the sheen on their scales, a glimmer that becomes more lustrous the older they get.</p>\n<p>Fey dragonets usually exhibit pleasant and good-natured temperaments, though they have a mischievous streak that leads them to play tricks on those around them. In search of amusement, they prefer harmless annoyances over wounding malice. While often spontaneous, they may also spend months, if not years, planning the perfect prank. Especially responsive targets endear themselves to fey dragonets and may create a lifelong bond. A fey dragonet's reputation as a trickster leads many to associate them with fey, with whom the tiny dragons have cordial relationships, and this association gives them their name.</p>\n<p>Peaceful by nature, fey dragonets don't enjoy confrontation. If faced with hostility, they prefer to remain at a distance and breathe euphoric gas at their foes, diffusing the skirmish by creating an atmosphere of bliss. If conflict escalates, they target their opponents with spells, using their renowned trickery to escape. If their companions are in danger, however, their desire to remain out of combat changes. Fey dragonets protect their friends by any means available, including physical combat.</p>\n<p>Sometimes, as fey dragonets grow older, their connection to the First World grows stronger. In addition to growing more lustrous and vibrant in appearance, these fey dragonets gain an increasing amount of magical primal power. Such fey dragonets increase in strength as appropriate—a fey dragonet of 20th level or even higher is possible, but it's exceptionally unusual to encounter a fey dragonet of 9th level or higher beyond the most remote regions of the First World. When creating a more powerful fey dragonet, change their spellcasting tradition to primal and grant them primal spells appropriate for a druid of their level. Fey dragonets don't grow much larger, regardless of how powerful they become. It's often difficult to tell how powerful one of these tiny dragons truly is at a glance!</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 13,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 11
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 12,
+        "special": []
+      },
+      "athletics": {
+        "base": 15,
+        "special": []
+      },
+      "deception": {
+        "base": 13,
+        "special": []
+      },
+      "diplomacy": {
+        "base": 13,
+        "special": []
+      },
+      "nature": {
+        "base": 11,
+        "special": []
+      },
+      "stealth": {
+        "base": 12,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "dragon",
+        "fey"
+      ]
+    }
+  },
+  "type": "npc"
+}

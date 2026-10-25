@@ -1,0 +1,23 @@
+{
+  "_id": "ykgDqD1X3G4mxMx9",
+  "_key": "!folders!ykgDqD1X3G4mxMx9",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1773785299311,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760290470,
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Mission B",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Scene"
+}

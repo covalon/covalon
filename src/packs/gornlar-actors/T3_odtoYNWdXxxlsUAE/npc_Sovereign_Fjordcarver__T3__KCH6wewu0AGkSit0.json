@@ -1,0 +1,1395 @@
+{
+  "_id": "KCH6wewu0AGkSit0",
+  "_key": "!actors!KCH6wewu0AGkSit0",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405783873,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1765844761331,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "folder": "odtoYNWdXxxlsUAE",
+  "img": "modules/covalon/images/Gornlar/DragonImperial_Sovereign.webp",
+  "items": [
+    {
+      "_id": "VHimFMT8j3KN1JGT",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.VHimFMT8j3KN1JGT",
+      "_stats": {
+        "compendiumSource": "Actor.Hp9QLAgWO2Sn7di9.Item.oa61Q1W5rUGfesnT",
+        "coreVersion": "14.367",
+        "createdTime": 1676916724991,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1676916724991,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Jealousy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver's jealousy for his rival is unquenchable, and he refuses to be shown up. Regardless of his initiative roll, Fjordcarver always takes his turn directly after Ashgut. If another creature delays their turn to go in between Ashgut and Fjordcarver, Fjordcarver takes his turn first and that creature's initiative is delayed until after Fjordcarver. If a player's initiative would change to force them between Fjordcarver and Ashgut (such as from being knocked unconscious) the player should move above Ashgut instead. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "pmqefsGShf77p3Zd",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.pmqefsGShf77p3Zd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "eh4ekj7akfeymny3g66q": {
+            "category": null,
+            "damage": "2d4",
+            "damageType": "mental"
+          },
+          "v4enrkjx1vkly8li9k6n": {
+            "category": null,
+            "damage": "2d8 + 9",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-15"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "h6wQ76GXx0XhL0rW",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.h6wQ76GXx0XhL0rW",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "vhvxp389ejd864a4xzoy": {
+            "category": null,
+            "damage": "2d8 + 9",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical",
+            "reach-10"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "b4GFgu6HgDqvji6X",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.b4GFgu6HgDqvji6X",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Tail",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 19
+        },
+        "damageRolls": {
+          "tisdqy7tmlrqju4fwo6r": {
+            "category": null,
+            "damage": "2d10 + 9",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-20"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "7qULZEHZX6JmtrVP",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.7qULZEHZX6JmtrVP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Breath Weapon",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1050000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver lets out a psychically charged roar that deals @Damage[5d6[mental]] damage in a @Template[type:cone|distance:40]{40-foot cone} (@Check[type:will|dc:28|basic:true] save).</p><p>Unlike most Sovereign Dragons, Fjordcarver does not need to recharge his Breath Weapon.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "5f91Xz8RNeMhFyI4",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.5f91Xz8RNeMhFyI4",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Telekinetic Toss",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 19
+        },
+        "damageRolls": {
+          "g6f9guy2sarvui1trkd2": {
+            "category": null,
+            "damage": "2d6 + 7",
+            "damageType": "piercing"
+          },
+          "g7xh4g5s5uyfscifjwwx": {
+            "category": null,
+            "damage": "2d4",
+            "damageType": "mental"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": 60,
+          "max": null
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "yipsaDW5PAxHU2Hj",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.yipsaDW5PAxHU2Hj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Psychic Spears",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Fjordcarver's turn ends and Psychic Spears was not triggered last round. If Ashgut is alive, Ashgut must have triggered Lifewaster on her turn.</p><hr /><p>With a mighty roar, Fjordcarver wills spears of force into existence to pierce his foes. All creature in the arena in contact with the ground or a wall take @Damage[5d8[piercing]] damage with a @Check[type:will|dc:28|basic:true] save as ethereal stalagmites manifest in their squares. Each creature who makes a save can Step as a free action, unless they critically fail, in which case they are instead immobilized as they are impaled by the stalagmite. If there is no room for them to Step, the creature automatically critically fails their save.</p><p>The stalagmites are medium sized, have 27 AC, 40 hit points, 0 hardness, and are immune to critical hits and precision damage. They are immune to all of Ashgut and Fjordcarver's abilities, except for Lifewaster. When Ashgut uses Lifewaster, Fjordcarver loses focus on his Psychic Spears and they instantly disappear.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vaFK5QFrWA1emv9c",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.vaFK5QFrWA1emv9c",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Befuddling Gaze",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver's entrancing eyes cause his foes to fumble. The target takes <span style=\"font-family:var(--font-primary)\">@Damage[2d6[mental]] damage with a (@Check[type:reflex|dc:28|basic:false] save). Regardless of their save, the target is immune to Befuddling Gaze for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Success</strong> The target is unaffected.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Success</strong> The target takes half damage and has their Speeds halved for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Failure</strong> The target takes full damage, has their Speeds halved for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Failure</strong> The target takes double damage, has their Speeds halved for 1 round, and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "occult",
+            "visual",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "kMQd5gb4l5rbWsBV",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.kMQd5gb4l5rbWsBV",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Localized Telekinetic Storm",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A telekinetic storm follows Fjordcarver wherever he goes, which harries flying enemies. While Fjordcarver is alive, all other flying creatures in the arena must succeed at a @Check[type:acrobatics|dc:33|basic:false] check to Maneuver in Flight whenever they attempt to Fly. If the creature is not trained or better in Acrobatics, they automatically crit fail.</p>\n<p><strong>Critical Success </strong>The creature can fly normally.</p>\n<p><strong>Success </strong>The creature can fly at half speed.</p>\n<p><strong>Failure </strong>The creature doesn't fly, and wastes the action.</p>\n<p><strong>Critical Failure </strong>The creature falls.</p>\n<p>Additionally, the battering rubble makes it difficult to move one's arms. Flying and air-walking creatures in the storm take a -2 circumstance penalty to Strikes and must succeed at a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:flat|dc:5|basic:false]</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> when attempting any action with the manipulate trait. On a failure, the action is lost.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "q6mf5J9zjAqagJ2N",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.q6mf5J9zjAqagJ2N",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Conceited Mind",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver's belief in his own ability to defy his lifelong foe causes him to disbelieve her strongest abilities. Fjordcarver is immune to negative damage.</p>\n<p>Fjordcarver's legs are weak and brittle, but his wings are strong and powerful. While Fjordcarver is not immobilized, he hovers slightly above the ground, and he does need to spend an action to Fly each turn in order to maintain this slight hover. Fjordcarver prefers to be flying at all times, and is off-guard while he is touching the ground. When Fjordcarver uses the Stand action, he can also return to his slight hovering state as part of that action.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "lnkYAas1BJlEzqwg",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.lnkYAas1BJlEzqwg",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1763940850342,
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Mindbending Fields",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver's presence unsettles those around him. When a creature other than Fjordcarver ends their turn on Fjordcarver's side of the arena, they lose any negative weakness they have but gain weakness to mental equal to half their level (rounded up). If a creature is moved into the Mindbending Fields area outside of their turn, the effect applies at the end of that turn.</p><p>If Ashgut dies, Mindbending Fields expands to cover the entire arena.</p><p>@UUID[Compendium.covalon.gornlar-items.Item.nzqny6MIIZwzyjVM]{Effect: Blighted Fields / Mindbending Fields}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "hekxOC8KJLkC5Au4",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.hekxOC8KJLkC5Au4",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Clinging Energy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fjordcarver's will is especially forceful. Mental damage dealt by Fjordcarver's Strikes inflicts @Damage[2d4[persistent,mental]] damage. While a creature is standing within the area of Mindbending Fields, the flat check to end this persistent mental damage increases to 18.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "9Y9QSv5vvXZnKePD",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.9Y9QSv5vvXZnKePD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Ley Line Intersection",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The battle against Ashgut and Fjordcarver takes place on a ley line, amplifying the magical terrain created by the two dragons. The weakness to mental granted by Mindbending Fields stacks, incrementing at the end of a creature's turn as normal. All stacks are removed if a creature ends their turn within the area of Blighted Field or moves into Blighted Field outside of their turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "jny6UGV8OwEniRGL",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.jny6UGV8OwEniRGL",
+      "_stats": {
+        "compendiumSource": "Item.SaZttWSFJOlcV8gF",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Violent Retort",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within the Fjordcarver's reach critically hits him</p>\n<hr />\n<p><strong>Effect</strong> Fjordcarver makes a claw or tail Strike against the creature, after all the effects of the critical hit are applied to him.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "dVNI5h2oxYZu2IzY",
+      "_key": "!actors.items!KCH6wewu0AGkSit0.dVNI5h2oxYZu2IzY",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Energy Coalescence",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.941,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The ley energy both Ashgut and Fjordcarver feed on materialized into a shifting orb of raw primal energy the rival dragons are fighting over.</p><p>Place an Energy Coalescence in the middle of the arena as instructed by its Elemental Attunement ability.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Sovereign Fjordcarver (T3)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 3,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-little-details": {
+        "token-highlight": ""
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 3,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Facsimile of Fjordcarver",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Gornlar/fjordcarver_t5_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 3
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.941,
+        "system": "7.7.4"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 3,
+        "value": 14
+      },
+      "con": {
+        "min": 3,
+        "mod": 6,
+        "value": 20
+      },
+      "dex": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "min": 3,
+        "mod": 3,
+        "value": 14
+      },
+      "str": {
+        "min": 3,
+        "mod": 6,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 28
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": "+1 status to all saves vs. magic"
+      },
+      "hp": {
+        "details": "",
+        "max": 200,
+        "temp": 0,
+        "value": 200
+      },
+      "immunities": [
+        {
+          "type": "void"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "sleep"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "mental",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 120
+          }
+        ],
+        "value": 5
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "Dragon",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "draconic"
+        ]
+      },
+      "level": {
+        "value": 9
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>The most feral and least intelligent of all the chromatic dragons, white dragons are brutish, predatory, and chiefly motivated by self-preservation. Nearly all other dragons look down on white dragons as hopelessly hotheaded and dull, though this does not make them any less dangerous-in fact, it may mean the opposite. It's nearly impossible to treat with white dragons, not because they lack the capacity to do so, but because they just don't care to. They are as difficult to deal with as they are quick to anger, and they become incensed at almost anything. When a white dragon does speak, it spews threats, inane jokes, and incoherent babbling as a prelude to attacking-and when the attack comes, it's bloody and relentless.</p>\n<p>Thankfully, white dragons prefer very cold, remote locations that are far from people. Dwelling on glacial mountaintops or in ice caverns beneath forbidding tundra, they treat the lands around them as their own personal hunting grounds. They fly out to feed or terrorize other creatures, especially those who trespass near the dragon's territory, then bring any treasure back to be displayed in icy niches in their lairs. They collect all kinds of valuables, with a slight preference for items with high utility-such as tools, trade goods, and fine food-over coins or jewels. The ability to shape ice lets white dragons rearrange their lairs exactly to their specifications, and they take great pride in how they've decorated their homes over the years.</p>\n<hr />\n<p>While there are many types of dragons, from the powerful planar dragons to the strange esoteric dragons, few dragon varieties are as well-known and as rightly feared as the chromatic dragons. Differentiated by the hue of their scales, each color of dragon unleashes its own flavor of murderous cruelty-be it by claw, tooth, or breath-and unlike most creatures, dragons only become more powerful as they age. Their lust for treasure, food, bloodshed, and control are legendary. Physically powerful with egos to match, these dragons are often morally depraved and act as criminal masterminds, vicious tyrants, or voracious raiders.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Bestiary"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 21,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 60,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 18
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 18,
+        "special": []
+      },
+      "athletics": {
+        "base": 22,
+        "special": []
+      },
+      "deception": {
+        "base": 18,
+        "special": []
+      },
+      "intimidation": {
+        "base": 18,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "dragon",
+        "earth",
+        "evil",
+        "lawful"
+      ]
+    }
+  },
+  "type": "npc"
+}

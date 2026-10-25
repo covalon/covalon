@@ -1,0 +1,397 @@
+{
+  "_id": "WPxHoNrEy04UbbjW",
+  "_key": "!actors!WPxHoNrEy04UbbjW",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1758949337765,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939424938,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    }
+  },
+  "folder": "KTlTQOyTAPhXManC",
+  "img": "modules/covalon/images/Alatar/queen_of_alatar.Avatar.webp",
+  "items": [
+    {
+      "_id": "SMznGw5EjCOMurjF",
+      "_key": "!actors.items!WPxHoNrEy04UbbjW.SMznGw5EjCOMurjF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Outburst",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The Hazard is triggered.</p><hr /><p>The Queen of Alatar releases a magical blast charged with the energy of emotions, dealing @Damage[4d12+30] damage to all creatures in a @Template[cone|distance:30] with a @Check[reflex|dc:33|basic] Save, then escapes from combat, leaving the party to fight with her soldiers.</p><p>On a Failure, any targeted creature is also affected by a secondary condition based on her current emotion:</p><ul><li><p>Happiness: 3rd-rank @UUID[Compendium.pf2e.spells-srd.r8g7oSumKOHDqJsd]{Agitate} for 1 round.</p></li><li><p>Sadness: Unable to use Reactions for 1 round.</p></li><li><p>Fear: Frightened 1.</p></li><li><p>Disgust: Sickened.</p></li></ul>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "emotion",
+            "magical",
+            "mental"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "18RaDudp4ckXb2xz",
+      "_key": "!actors.items!WPxHoNrEy04UbbjW.18RaDudp4ckXb2xz",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.5.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Level Adjustment and Automation",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.947,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Do not edit, automation for Emotionally Unstable and level adjustment.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Emotionally Unstable",
+            "option": "emotion",
+            "selection": "fire",
+            "suboptions": [
+              {
+                "label": "Happiness",
+                "value": "fire"
+              },
+              {
+                "label": "Sadness",
+                "value": "cold"
+              },
+              {
+                "label": "Fear",
+                "value": "mental"
+              },
+              {
+                "label": "Disgust",
+                "value": "acid"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Level Adjustment",
+            "option": "adjustment",
+            "selection": "weak",
+            "suboptions": [
+              {
+                "label": "Elite",
+                "value": "elite"
+              },
+              {
+                "label": "Weak",
+                "value": "weak"
+              }
+            ],
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "adjustment:elite"
+            ],
+            "selector": [
+              "inline-damage",
+              "inline-dc"
+            ],
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "adjustment:weak"
+            ],
+            "selector": [
+              "inline-damage",
+              "inline-dc"
+            ],
+            "value": -2
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "override",
+            "property": "damage-type",
+            "selectors": [
+              "inline-damage"
+            ],
+            "value": "{item|flags.pf2e.rulesSelections.emotion}"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Glimpse of the Queen (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Queen of Alatar",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Alatar/queen_of_alatar.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.947,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 50
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 11
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0
+      },
+      "reflex": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

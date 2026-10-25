@@ -1,0 +1,401 @@
+{
+  "_id": "p1WuQLtkjy8x4lvH",
+  "_key": "!actors!p1WuQLtkjy8x4lvH",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "vIKZpoVxjjsnP0Wt",
+  "img": "systems/pf2e/icons/spells/gust-of-wind.webp",
+  "items": [
+    {
+      "_id": "tklpw9BQNqBUKCxL",
+      "_key": "!actors.items!p1WuQLtkjy8x4lvH.tklpw9BQNqBUKCxL",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T5",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.935,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "14",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "14"
+              },
+              {
+                "label": "Level 13",
+                "value": "13"
+              },
+              {
+                "label": "Level 15",
+                "value": "15"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": "damage",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "kNGWVkbLaC15jCqN",
+      "_key": "!actors.items!p1WuQLtkjy8x4lvH.kNGWVkbLaC15jCqN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Exhale",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature approaches within 15 feet of the hidden crack in the stonework.</p><p><strong>Effect</strong> A blast of thick, stale air is expelled, creating a 10 foot square of lingering poison (as per the inhaled trait) on the triggering creature. The triggering creature and any creatures that later enter the area must attempt a @Check[fortitude|dc:39|traits:earth,poison,inhaled].</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half of @Damage[(3d10+18)[poison]] and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p><strong>Failure</strong> The creature takes full damage, is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} and must attempt a @Check[fortitude|dc:34|traits:earth,poison,inhaled,incapacitation] at the end of each of its turns; this ongoing save has the incapacitation trait. On a failed save, the slowed condition increases by 1 (or 2 on a critical failure) as stone growths creep across their body. A successful save reduces the slowed condition by 1. When a creature becomes fully unable to act due to the slowed condition from this hazard, the effect then ends in a flash of gray light, leaving the target petrified permanently as they become a statue. The spell also ends if the slowed condition is removed, which causes the stone to break off harmlessly.</p><p><strong>Critical Failure</strong> As failure, but the creature takes double damage and is initially @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "inhaled",
+            "poison",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Stonewyrm's Gasp (T5)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Stonewyrm's Gasp",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/spells/gust-of-wind.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 33
+      },
+      "emitsSound": "encounter",
+      "hardness": 22,
+      "hp": {
+        "details": "",
+        "max": 90,
+        "temp": 0,
+        "value": 90
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 28
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>Concentrated poisonous gas is expelled from a crack in the stone of the catacombs. Creatures with the Stonewyrm Touched adjustment (Appendix A) are immune to this hazard.</p>",
+      "disable": "<p>@Check[nature|dc:38|traits:action:disable-a-device]{Nature}, @Check[survival|dc:38|traits:action:disable-a-device]{Survival}, @Check[crafting|dc:38|traits:action:disable-a-device]{Crafting}, or @Check[thievery|dc:38|traits:action:disable-a-device]{Thievery} to carefully block the gap or safely disperse the accumulated gas.</p>",
+      "isComplex": false,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Covalon: Whitespire Expedition"
+      },
+      "reset": "<p>The poisonous gas takes 1 day to reaccumulate. </p>",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 28
+      },
+      "reflex": {
+        "value": 22
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "earth",
+        "primal",
+        "poison",
+        "environmental",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

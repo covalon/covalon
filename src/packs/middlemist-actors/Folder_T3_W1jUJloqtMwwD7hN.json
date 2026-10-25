@@ -1,0 +1,22 @@
+{
+  "_id": "W1jUJloqtMwwD7hN",
+  "_key": "!folders!W1jUJloqtMwwD7hN",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1689334454491,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258487789,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "T3",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

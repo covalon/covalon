@@ -1,0 +1,923 @@
+{
+  "_id": "L4XsRiEzFEet1Q4J",
+  "_key": "!actors!L4XsRiEzFEet1Q4J",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/Redcap.webp",
+  "items": [
+    {
+      "_id": "O9hxfDDCxMPcAnmF",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.O9hxfDDCxMPcAnmF",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.dgWxsYm0DWHb27h6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/equipment/weapons/halberd.webp",
+      "name": "Halberd",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "halberd",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 2
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d10",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This polearm has a relatively short, 5-foot shaft. The business end is a long spike with an axe blade attached.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 2,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "polearm",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "halberd",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "reach",
+            "versatile-s"
+          ]
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "9K08qcNrvT5fefj0",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.9K08qcNrvT5fefj0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/equipment/worn-items/other-worn-items/hellfire-boots.webp",
+      "name": "Iron Boots",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "containerId": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {}
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "sm",
+        "slug": null,
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "equipment"
+    },
+    {
+      "_id": "qxeMxKzn8k64O7D0",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.qxeMxKzn8k64O7D0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/equipment/head/hat-belted-simple-grey.webp",
+      "name": "Red Cap",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "containerId": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {}
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "sm",
+        "slug": null,
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "equipment"
+    },
+    {
+      "_id": "r4Qkdy83VOkw6r0p",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.r4Qkdy83VOkw6r0p",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Iron Boot",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "n89wv4nda6w6jhgeny9y": {
+            "category": null,
+            "damage": "2d4+7",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "versatile-b"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "yAIj38QXWuDtirvf",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.yAIj38QXWuDtirvf",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "O9hxfDDCxMPcAnmF"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Halberd",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "ftsSEB45Q9bV5ZbB": {
+            "category": null,
+            "damage": "2d10+6",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "halberd",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10",
+            "versatile-s"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "ivsgBmmJjZW5Wr5S",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.ivsgBmmJjZW5Wr5S",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Blood Soak",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The redcap dips their cap in the blood of a slain foe, this can be their dead body or a puddle of blood that is left behind on the ground after they respawn. The foe must have died in the last minute, and the redcap must have helped kill it. The redcap gains a +4 status bonus to damage rolls for 1 minute.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.wPIGBcpCqCWgrCiq]{Effect: Blood Soak}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "manipulate"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Q9TQFtMzhVqywWrB",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.Q9TQFtMzhVqywWrB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Deadly Cleave",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The redcap reduces a creature to 0 Hit Points or critically hits with a halberd Strike</p><hr /><p><strong>Effect</strong> The redcap makes another halberd Strike against a different creature, using the same multiple attack penalty as the halberd Strike that triggered this reaction. This counts toward their multiple attack penalty as normal.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "P7S7nuGr7qWkygVT",
+      "_key": "!actors.items!L4XsRiEzFEet1Q4J.P7S7nuGr7qWkygVT",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Stomp",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The redcap Strides up to half its Speed and makes a boot Strike at any point during that movement. If the boot Strike hits a @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} creature, it deals an extra @Damage[2d6[bleed]].</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "stomp",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "damageType": "bleed",
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "stomp",
+              "target:condition:prone"
+            ],
+            "selector": "boot-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Redcap",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Redcap",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 2,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.6,
+      "scaleY": 1.6,
+      "src": "modules/covalon/images/Furious%20Fey/redcap.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 1
+      },
+      "str": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 23
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 105,
+        "temp": 0,
+        "value": 105
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 35
+      },
+      "weaknesses": [
+        {
+          "type": "cold-iron",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Redcaps are sadistic and capricious fey who thrill in bloodletting and murder. While they are most famous for appearing as wizened, bearded men, redcaps of other genders are no less fearsome or cruel. However, redcaps are ultimately craven bullies, cowed by anything more powerful than themselves, a trait that leads them to fear and despise the symbols of deities.</p>\n<p>Many fairy tales explain how the redcaps draw power from dipping the hats for which they are named in fresh blood. Just as iconic to these cruel little fey are their iron-clad boots, and the clanging sound of their metal soles clanking on stone floors is both discordant and disconcerting—especially to those who recognize the sound for what it is. Redcaps typically stand only 3 feet tall, with hunched frames, pointed ears, crooked teeth, and long, white, tangled hair.</p>\n<p>Though unlikely to share true affection, redcaps find camaraderie in murder. Small troupes of redcaps travel together, sharing bloody kills and reminiscing on their brutal exploits. They loathe the company of most other creatures, with the notable exception of the feline fey called elananxes.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 13
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 17
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 12
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 14,
+        "special": []
+      },
+      "athletics": {
+        "base": 17,
+        "special": []
+      },
+      "deception": {
+        "base": 12,
+        "special": []
+      },
+      "intimidation": {
+        "base": 14,
+        "special": []
+      },
+      "nature": {
+        "base": 11,
+        "special": []
+      },
+      "stealth": {
+        "base": 14,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "sm"
+      },
+      "value": [
+        "fey"
+      ]
+    }
+  },
+  "type": "npc"
+}

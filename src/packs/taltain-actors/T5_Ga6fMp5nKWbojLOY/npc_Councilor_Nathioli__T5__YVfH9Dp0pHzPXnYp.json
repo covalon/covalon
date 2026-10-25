@@ -1,0 +1,2356 @@
+{
+  "_id": "YVfH9Dp0pHzPXnYp",
+  "_key": "!actors!YVfH9Dp0pHzPXnYp",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1676818900788,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.5.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258602895,
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "Ga6fMp5nKWbojLOY",
+  "img": "modules/covalon/images/Taltain/councilor_trislyr.Token.webp",
+  "items": [
+    {
+      "_id": "uYnkH8lsUV7Ukw6Z",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.uYnkH8lsUV7Ukw6Z",
+      "_stats": {
+        "compendiumSource": "Actor.82jtmmvaKUO8vN30.Item.dR7AUcpQqtEl4WTA",
+        "coreVersion": "14.367",
+        "createdTime": 1677555583245,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677556034788,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Coagulating Council",
+      "ownership": {
+        "8r9upSVmE8c9fCYy": 3,
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>Each councilor belongs to a clumsy Maw Hivemind. When three councilors have been defeated, their corpses and all remaining councilors coagulate into The <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Assembled Council of Taltain.</span></p>\n<p>Remove all existing councilors from the arena and add the Assembled Council to the arena. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "JWyVZeFGvdFKSThc",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.JWyVZeFGvdFKSThc",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677555646753,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677558311431,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Master of Energy",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When Nathioli casts a spell that would deal cold or fire damage, he can choose for it to deal either energy type. He also gains a status bonus to spells that deal fire or cold damage equal to half his level. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "master-of-energy"
+            ],
+            "selector": "spell-damage",
+            "type": "status",
+            "value": "0.5*@actor.level"
+          },
+          {
+            "domain": "spell-damage",
+            "key": "RollOption",
+            "label": "Master of Energy Fire or Cold Spell Damage",
+            "option": "master-of-energy",
+            "toggleable": true,
+            "value": true
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "htOh3MwTwpjPteDp",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.htOh3MwTwpjPteDp",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677556036069,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677556628998,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Energetic Propulsion",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Fire and ice propel Nathioli through the air. He gains a fly speed equal to his speed. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "uBd7W1a5hGmvvuqX",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.uBd7W1a5hGmvvuqX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677556639103,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677556851951,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Staff",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "Ojs23HY9GTFdmbpK": {
+            "category": null,
+            "damage": "3d4+13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "two-hand-d8"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "83ALx95DnhE5knu4",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.83ALx95DnhE5knu4",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677556763377,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677726878107,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Ice Bolt",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "uitAwTE41NKH9ZRX": {
+            "category": null,
+            "damage": "3d6+11",
+            "damageType": "cold"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "occult",
+            "range-60",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "ltdzI7ai8lO7INRm",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.ltdzI7ai8lO7INRm",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677556800651,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677726887461,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fire Bolt",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "i5VjalSZAnNjUWvU": {
+            "category": null,
+            "damage": "3d6+11",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "occult",
+            "range-60",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "12R6BECx4a9AAirX",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.12R6BECx4a9AAirX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677557067204,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677634755056,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Spontaneous Spells",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "ability": {
+          "value": "int"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "prepared": {
+          "value": "spontaneous"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 2,
+            "prepared": [],
+            "value": 2
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 2,
+            "prepared": [],
+            "value": 2
+          },
+          "slot6": {
+            "max": 2,
+            "prepared": [],
+            "value": 2
+          },
+          "slot7": {
+            "max": 2,
+            "prepared": [],
+            "value": 2
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 33,
+          "value": 25
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "17NPLIfs2jM4Aj06",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.17NPLIfs2jM4Aj06",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.v4KzRPol5XQOOmk0",
+        "coreVersion": "14.367",
+        "createdTime": 1677557457539,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677557556663,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/heat-metal.webp",
+      "name": "Heat Metal",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "4d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          },
+          "ga830svjq2s25ahf": {
+            "applyMod": false,
+            "category": "persistent",
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This spell heats the targeted metal to become red-hot for a moment. This is usually harmless to an unattended metal item, which doesn't get a saving throw, though the GM might rule that flammable materials connected to the object catch fire or melt. If you target an item worn or carried by a creature, or you target a creature made primarily of metal, the heat deals [[/r 4d6[fire]]] damage and [[/r 2d4[persistent,fire]]] damage to the creature, which must attempt a Reflex saving throw.</p>\n<p>If you target an item held by the creature, the creature can @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{Release} the item to improve their degree of success by one step from the result of their saving throw. The persistent damage is associated with the object and damages whichever creature is holding or wearing it. It has no effect if no one is holding the item, but you continue to attempt flat checks to end the persistent damage as normal, since the item remains hot and can sear someone who picks it up.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and the object deals no persistent fire damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and the object deals full persistent damage.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature takes double damage and the object deals double persistent damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The initial damage increases by 2d6 and the persistent damage increases by 1d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6",
+            "ga830svjq2s25ahf": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Advanced Player's Guide"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "heat-metal",
+        "target": {
+          "value": "1 metal item or metal creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "nDEQCGqpK4Sho1n8",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.nDEQCGqpK4Sho1n8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677631880010,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677631955568,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "I'm Destabilizing My Timestream!",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Nathioli is about to roll initative.</p><p><strong>Effect </strong>Instead of rolling normally, Nathioli makes a @Check[type:flat|dc:11]. On a success, his initative value is set as though he rolled a 19 on the die. If he fails, his initative is set as though he rolled a 1. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "hV0MOEr0EavCertw",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.hV0MOEr0EavCertw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677631957296,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "NEpKBfKv6jRU1Lvu",
+        "modifiedTime": 1677632114428,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.3"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Manipulate Time",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.932,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nathioli targets one ally or enemy within 30 feet. If he targets an ally, that ally is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} on its next turn and can use its Quickened action to Stride or Strike. If he targets an enemy, that enemy must suceed at a @Check[type:fortitude|dc:31] or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for one round. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "HzOB4YSMeQqYsavQ",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.HzOB4YSMeQqYsavQ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+      "name": "Ignition",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "cQDyW0QpjJ38MlSi": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Fire Damage (Melee)}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "cQDyW0QpjJ38MlSi": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "12R6BECx4a9AAirX"
+        },
+        "overlays": {
+          "eOCNn2ohYAvsYZjn": {
+            "_id": "eOCNn2ohYAvsYZjn",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          },
+          "xYyA7CV1GaFTRjBQ": {
+            "_id": "xYyA7CV1GaFTRjBQ",
+            "name": "Ignition (Melee)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "cQDyW0QpjJ38MlSi": {
+                  "formula": "2d6"
+                }
+              },
+              "heightening": {
+                "damage": {
+                  "cQDyW0QpjJ38MlSi": "1d6"
+                }
+              },
+              "range": {
+                "value": "touch"
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "ignition",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "dsEYnH6dEwbUXIQF",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.dsEYnH6dEwbUXIQF",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+      "name": "Frostbite",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "3bsJUDEgedKhPx6T": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "cold"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>An orb of biting cold coalesces around your target, freezing its body. The target takes 2d4 cold damage with a basic Fortitude save. On a critical failure, the target also gains weakness 1 to bludgeoning until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.DdqWMj7cuf4S1bgr]{Spell Effect: Frostbite}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4 and the weakness on a critical failure increases by 1.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "3bsJUDEgedKhPx6T": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "frostbite",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "cold",
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "J3cV2xWdcMdjVo11",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.J3cV2xWdcMdjVo11",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/shield.webp",
+      "name": "Shield",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the start of your next turn"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "shield",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "force"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "ct8QW5wAuTN7nYgg",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.ct8QW5wAuTN7nYgg",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/haste.webp",
+      "name": "Haste",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Magic empowers the target to act faster. It gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round only for Strike and Stride actions.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 6 creatures.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell Effect: Haste}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "levels": {
+            "7": {
+              "target": {
+                "value": "6 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "value": "rituals"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "haste",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "s0dAepWhmAGsGKh4",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.s0dAepWhmAGsGKh4",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/haste.webp",
+      "name": "Haste",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Magic empowers the target to act faster. It gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round only for Strike and Stride actions.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 6 creatures.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell Effect: Haste}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "levels": {
+            "7": {
+              "target": {
+                "value": "6 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "haste",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "3H3npK18prhX31PZ",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.3H3npK18prhX31PZ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.qJGW6BbIcU6sfA1d",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/time-jump.webp",
+      "name": "Time Jump",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You leap forward a few seconds in time, appearing across the battlefield in the blink of an eye. You gain 2 actions, each of which must be used to Leap, Stand, Step, or Stride. If you have an appropriate Speed, you can add @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Burrow}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}, @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly}, or @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim} to this list. While you take these actions, time pauses. All other creatures are completely unaware of your actions, can't speak, and can't use any actions that would be triggered by your movement.</p>\n<p>While you're taking these actions, you can't take any other actions, including any that would be triggered by the move actions. Once the actions are complete, time starts again, and to onlookers, you seem to have suddenly teleported across the distance you traveled. Leaping forward through time is disorienting, so if you use <em>time jump</em> again within 1 minute of using the spell, you become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4} for 1 minute.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Secrets of Magic"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "time-jump",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "9nrayLgxfXK7QmLJ",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.9nrayLgxfXK7QmLJ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/synesthesia.webp",
+      "name": "Synesthesia",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The target's senses are suddenly rewired in unexpected ways, causing them to process noises as bursts of color, smells as sounds, and so on. This has three effects, and the target must attempt a Will save.</p><ul><li>Due to the distraction, the target must succeed at a @Check[flat|dc:5] each time it uses a concentrate action, or the action fails and is wasted.</li><li>The target's difficulty processing visual input makes all creatures and objects @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from it.</li><li><p>The creature has trouble moving, making it @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3} and giving it a –10-foot status penalty to its Speeds.</p></li></ul><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is affected for 1 round.</p>\n<p><strong>Failure</strong> The target is affected for 1 minute.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} as it attempts to process the sensory shifts.</p><hr /><p><strong>Heightened (9th)</strong> You can target up to five creatures.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "heightening": {
+          "levels": {
+            "9": {
+              "target": {
+                "value": "5 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "synesthesia",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "W9ZI8O4cUUvkNlTc",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.W9ZI8O4cUUvkNlTc",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/fire/projectile-fireball-orange-yellow.webp",
+      "name": "Fireball",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>A roaring blast of fire detonates at a spot you designate, dealing 6d6 fire damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "fireball",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "QIZN2eg13Ww3yTx2",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.QIZN2eg13Ww3yTx2",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/time/hourglass-tilted-gray.webp",
+      "name": "Slow",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You dilate the flow of time around the target, slowing its actions.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 minute.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> You can target up to 10 creatures.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "levels": {
+            "6": {
+              "target": {
+                "value": "10 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "slow",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "zI997CCCnDIVB54v",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.zI997CCCnDIVB54v",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/dispel-magic.webp",
+      "name": "Dispel Magic",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": true,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, the item becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an artifact or similar item, you automatically fail.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 2
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "dispel-magic",
+        "target": {
+          "value": "1 spell effect or unattended magic item"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "YKNxpwtfWBuywqGm",
+      "_key": "!actors.items!YVfH9Dp0pHzPXnYp.YKNxpwtfWBuywqGm",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/water/vortex-water-whirlpool.webp",
+      "name": "Howling Blizzard",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.933
+        },
+        "area": {
+          "type": "cone",
+          "value": 60
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "2YlEXgT93lbWXENb": {
+            "applyMod": false,
+            "category": null,
+            "formula": "10d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "cold"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Freezing winds extend from your hands, pushing away from you with great force. If you Cast this Spell with 2 actions, it has an area of a 60-foot cone; if you Cast this Spell with 3 actions, it has a range of 500 feet and an area of a 30-foot burst. Each creature in the area takes 10d6 cold damage with a basic Reflex save. Snowdrifts and icy gales fill the area until the start of your next turn, making the area difficult terrain.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "2YlEXgT93lbWXENb": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "12R6BECx4a9AAirX"
+        },
+        "overlays": {
+          "ZxbNsu1w4bhR2fCe": {
+            "_id": "ZxbNsu1w4bhR2fCe",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          },
+          "wUTd1CuL1B5jIquK": {
+            "_id": "wUTd1CuL1B5jIquK",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "area": {
+                "type": "burst",
+                "value": 30
+              },
+              "range": {
+                "value": "500 feet"
+              },
+              "time": {
+                "value": "3"
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "howling-blizzard",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "air",
+            "cold",
+            "concentrate",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    }
+  ],
+  "name": "Councilor Nathioli (T5)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-little-details": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Councilor Nathioli",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Taltain/councilor_trislyr.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.932,
+        "system": "6.5.0"
+      },
+      "version": 0.933
+    },
+    "abilities": {
+      "cha": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 5
+      },
+      "int": {
+        "mod": 7
+      },
+      "str": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 220,
+        "temp": 0,
+        "value": 220
+      },
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "fire",
+          "value": 10
+        },
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "cold",
+          "value": 10
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 25
+          }
+        ],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "<p>Nathioli starts the fight with I'm Destabilizing My Timestream! He then prioritizes staying safe while acting as a blaster caster with his fire and ice abilities. When possible, he buffs/debuffs with Manipulate Time.</p>",
+      "publicNotes": "<p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols'\">Nathioli is a Maw recreation of Arto Applefield (human psychic), who once served as Covalon's Magister of the Seekers of Secrets. Arto, with a long, studied background in wizardry and chronomancy, keeps careful control of his magic. Nathioli unleashes blasts of fire and ice with little care to his allies.</span></p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 23,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 26
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 26,
+        "special": []
+      },
+      "arcana": {
+        "base": 23,
+        "special": []
+      },
+      "occultism": {
+        "base": 26,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "aberration",
+        "evil",
+        "human",
+        "humanoid"
+      ]
+    }
+  },
+  "type": "npc"
+}

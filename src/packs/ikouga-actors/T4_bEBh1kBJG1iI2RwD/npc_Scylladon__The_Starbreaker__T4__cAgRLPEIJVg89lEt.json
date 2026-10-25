@@ -1,0 +1,1616 @@
+{
+  "_id": "cAgRLPEIJVg89lEt",
+  "_key": "!actors!cAgRLPEIJVg89lEt",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405798520,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.5.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1768088306373,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "folder": "bEBh1kBJG1iI2RwD",
+  "img": "modules/covalon/images/Ikouga/scylladon_the_starbreaker.Avatar.webp",
+  "items": [
+    {
+      "_id": "loRF30uO3e2NCO7U",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.loRF30uO3e2NCO7U",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "ability": {
+          "value": ""
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevel": {},
+        "displayLevels": {},
+        "item": {
+          "value": 0
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 33,
+          "item": 0,
+          "mod": 0,
+          "value": 23
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "FX1GZJoTSgtAlICB",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.FX1GZJoTSgtAlICB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Arm",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "8in75hzfdjxxrmw9p7g2": {
+            "category": null,
+            "damage": "3d10+13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-40"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "95k2q11INtOhFqCd",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.95k2q11INtOhFqCd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Double Attack",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon makes two Strikes with two different arms, each limb targeting a different creature. Double Attack counts as two attacks toward Scylladon's multiple attack penalty for further actions, but the penalty doesn't increase until after both attacks are made. If Scylladon subsequently uses the Grab action, it Grabs any number of creatures it hit with Double Attack.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ij8JDB5TbCV4uvkR",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.ij8JDB5TbCV4uvkR",
+      "_stats": {
+        "compendiumSource": "Actor.UgwBJlQPYyZt79kZ.Item.ij8JDB5TbCV4uvkR",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.UgwBJlQPYyZt79kZ.Item.ij8JDB5TbCV4uvkR",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Ink Jet",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": [
+            "kraken-ink"
+          ]
+        },
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "58kie7ggszl1kye0l0x3": {
+            "category": null,
+            "damage": "3d8+13",
+            "damageType": "acid"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": 100,
+          "max": null
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "w60WKiAv0acxnFIT",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.w60WKiAv0acxnFIT",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.JSqoHxaC0cLN94bD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.JSqoHxaC0cLN94bD",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Magical Kraken - Whirlpool",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon creates a sphere 30-foot radius sphere of swirling water within 120 feet. All creatures and unsecured objects in the area move towards the center, depending on their @Check[type:reflex|dc:33] saving throws. This follows the rules for <span style=\"font-family:var(--font-primary)\"><a style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\" href=\"https://2e.aonprd.com/Rules.aspx?ID=451\">forced movement.</a></span> Creatures that are Grabbed by a tentacle automatically critically succeed. If there’s not enough space near the center of the sphere, creatures and objects nearer to the center move first, and others move as far as they can without being blocked, up to the amount set by their saving throw outcomes.</p><p><br />Critical Success: The creature is unaffected.<br />Success: The creature moves 5 feet toward the center.<br />Failure: The creature moves 15 feet toward the center.<br />Critical Failure: The creature moves 30 feet toward the center.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xRx1FQQgV3B117XT",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.xRx1FQQgV3B117XT",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.6EICEk1z4ZiNLXqv",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.6EICEk1z4ZiNLXqv",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Magical Kraken - Water Jet",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 350000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon creates a swirling torrent in @Template[type:line|distance:150], dealing @Damage[14d6[bludgeoning]] damage to all creatures with a @Check[type:fortitude|dc:33|basic] save. Creatures and objects that fail the save are also knocked back 5 feet (10 feet on a critical failure).</p><p>Scylladon cannot use Water Jet again for [[/r 1d4]] rounds.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Cs8G7LNhYo7MVb72",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.Cs8G7LNhYo7MVb72",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.AHJyKThevpzZ3heV",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.AHJyKThevpzZ3heV",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Magical Kraken - Air Bubble",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 450000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A bubble of air 10 feet in diameter forms in an unoccupied space within 120 feet. This bubble of air must form underwater and remain underwater for the duration. When Scylladon first uses this ability, and each time they @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} it on subsequent turns, Scylladon can roll the orb up to 10 feet in any direction. The bubble can move through the spaces of any creatures or obstacles that can fit inside it.</p><p>The bubbles collects creatures it moves through, using the rules of @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.zU3Ovaet4xQ5Gmvy]{Engulf}. Any Large or smaller creature whose space the bubble tries to move through can attempt a @Check[type:reflex|dc:33] save to avoid being engulfed. If a creature succeeds at this save, it can either let the orb pass (remaining in its space or moving out of the bubble's path into a space of the creature's choice) or allow itself to be pushed in front of the bubble to the end of the bubble's movement. The bubble can try to Engulf a creature only once per turn. </p><p> </p><p>A creature that fails its save is pulled into the bubble. It becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, moves along with the orb and can breath normally. An engulfed creasture can get free either by Swimming with a successful @Check[type:athletics|dc:33] check or by @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escaping}, against the same DC as the Engulf. A creature that critically failed its initial Reflex Save is stuck and can <strong>not</strong> attempt to escape using a Swim check. The orb can contain as many creatures as can fit in its space. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "air",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "8qi3nUJCF7c4DTAI",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.8qi3nUJCF7c4DTAI",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 475000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A grabbed target takes @Damage[(2d8+13)[bludgeoning]] damage with a @Check[type:fortitude|dc:33|basic:true] save.</p><p>On a failed save, a creature that is holding its breath loses [[/r 1d4 # rounds]] rounds worth of air.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "constrict",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "o9SZzAY68Ul7HyTQ",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.o9SZzAY68Ul7HyTQ",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.heW1rCJfQ2KMmuqd",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.heW1rCJfQ2KMmuqd",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Ink Cloud",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon emits a cloud of black, venomous ink in a @Template[type:burst|distance:10] within 120 feet. This cloud has no effect outside water. Creatures inside the ink cloud are exposed to Scylladon Kraken Ink at the start of their turn and are @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to all observers. Creatures outside the Ink Cloud are also @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to creatures inside it. This is a visual effect, so alternative means of perception are not blocked.</p><p>Creatures in the initial burst of the Ink Cloud (not the lingering effect) must make a @Check[type:fortitude|dc:32] save or suffer the following effects:</p><p><strong>Success:</strong> The creature is unaffected by the ink.</p><p><strong>Failure:</strong> The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p><p><strong>Critical Failure:</strong> The creature is @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 3 rounds.</p><p>The Ink created by Scylladon's Ink Cloud ability is also considered Difficult Terrain. </p><p>Scylladon can't use Ink Cloud again until the start of its next turn, and the cloud dissipates after 1 minute.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "turn",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "d17vuteuytIUqJlD",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.d17vuteuytIUqJlD",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.EkSi5KM6hOWO5WxD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.EkSi5KM6hOWO5WxD",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Kraken Ink",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon and its Tentacles are immune to this poison. The sickened condition from this poison disappears on successfully reducing the stage of the poison to 1. It can also be removed by retching, but is reapplied when the poison deals damage if still on the respective stage.</p><p><strong>Saving Throw</strong> @Check[type:fortitude|dc:32] save; Maximum Duration 10 rounds.</p><p><strong>Stage 1</strong> @Damage[3d6[acid]] damage (1 round).</p><p><strong>Stage 2</strong> @Damage[4d6[acid]] damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 round).</p><p><strong>Stage 3</strong> @Damage[5d6[acid]] damage and @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1} (1 round).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "poison"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RbjGFJxrpBfoTlEz",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.RbjGFJxrpBfoTlEz",
+      "_stats": {
+        "compendiumSource": "Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.hlgvFwFvWShydrG7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Shipwreck Armour",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon is covered in the trophies of its past kills, and thick shipwreck armor covers many of its weak points. Scylladon and her tentacles have Construct Armor until damaged by a critical hit or falling below 50% health. Use the Construct Armour active toggle to turn it on.</p><p>Scylladon and her tentacles also have Hardness 10 as long as Construct Armor is active. To enable it, add the Construct trait to Scylladon and all tentacles, set the Hardness stat to 10, and remove the Construct trait.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "label": "Construct Armour active",
+            "option": "construct-armor",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "and": [
+                  "construct-armor",
+                  {
+                    "gt": [
+                      "hp-percent",
+                      50
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": "ac",
+            "value": 4
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "aBLgpAnYVfkEVmIM",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.aBLgpAnYVfkEVmIM",
+      "_stats": {
+        "compendiumSource": "Compendium.covalon-expeditions.covalon-expeditions-ikouga-actors.uICgVp903KPAzb5C.Item.DFT3Z9H8DKM5gGGp",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Siege Attacker",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -375000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon does double damage to objects, such as walls created by <em>wall of stone</em> (but does not include shields being used to Shield Block).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Vmsq3fUdHW2JGlFQ",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.Vmsq3fUdHW2JGlFQ",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.rFT4cRD1oc9kqvWB",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.rFT4cRD1oc9kqvWB",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Tentacular Surprise",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -362500,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>At the start of each of Scylladon's turns, Scylladon summons one tentacle up to a maximum of six tentacles at any one time. Scylladon may choose any unoccupied space in Scylladon's Lair to place a tentacle. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "YpJk0Vwtiince9md",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.YpJk0Vwtiince9md",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.yJqaoyTvBedB734F",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.yJqaoyTvBedB734F",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Modification - Magical Kraken",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Scylladon gains access to three additional magical abilities: Whirlpool, Water Jet and Air Bubble.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "E8JgPOGzt0HuSdQ5",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.E8JgPOGzt0HuSdQ5",
+      "_stats": {
+        "compendiumSource": "Actor.OfwDLyEIWiCFuJM6.Item.jB53RBwZY832VaA4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.OfwDLyEIWiCFuJM6.Item.jB53RBwZY832VaA4",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Tough Skin",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -350000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Skyclladon has an extremely tough skin, hardened under the constant pressure of the deep seas.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Resistance",
+            "type": "all-damage",
+            "value": "@actor.level + 6"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "E3fwewe6pGKFetfD",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.E3fwewe6pGKFetfD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification - Tentacular Absorption",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.4"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A damaging effect hits two or more targets, at least one of which is a tentacle.</p><hr /><p><strong>Effect</strong> One of the affected tentacles absorbs the damage into itself. The affected tentacle gets a result one degree of success worse against the save, or an attack gets an additional degree of success against it.</p><p>Targets other than that tentacle gain an additional degree of success against the save, or attacks against them get a result one degree of success worse.</p><p>For the purpose of chain lightning, as this reaction can only be triggered if the first tentacle does not critically succeed, when used treat it as the reaction being used on the first tentacle (i.e. reduce the degree of success of the first target by one, then increase the degree of success of all future saves against the spell) to avoid retroactive critical successes ending the spell.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "hvJgBPWmrzSdqi9F",
+      "_key": "!actors.items!cAgRLPEIJVg89lEt.hvJgBPWmrzSdqi9F",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Grab",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Scylladon, The Starbreaker (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 4,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "monks-little-details": {
+        "token-highlight": ""
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 4,
+    "light": {
+      "alpha": 0.25,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Facsimile of Scylladon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Ikouga/scylladon_the_starbreaker.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 4
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.948,
+        "system": "7.7.4"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "dex": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "int": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hardness": {
+        "value": 0
+      },
+      "hp": {
+        "details": "",
+        "max": 267,
+        "temp": 0,
+        "value": 267
+      },
+      "immunities": [
+        {
+          "type": "controlled"
+        },
+        {
+          "type": "emotion"
+        }
+      ],
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 0
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "Beast",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "thalassic"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Scylladon is a maw-cursed Kraken that roams the waters around the isles of Ikouga. Scylladon has been worshipped and feared for centuries as a mythical creature. What cursed power could corrupt such a powerful beast? </p>\n<p> </p>\n<p>Scylladon wears the hull of a shipwreck as armour. On one particularly large piece, you can see scraps of a purple and blue flag covered in stars.</p>",
+      "publication": {
+        "authors": "Arto Applefield",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Covalon Expeditions - Ikouga"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "wavesense (precise)",
+      "mod": 27,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 27
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 25
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 25,
+        "special": []
+      },
+      "intimidation": {
+        "base": 25,
+        "special": []
+      },
+      "nature": {
+        "base": 26,
+        "special": []
+      },
+      "stealth": {
+        "base": 25,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "aquatic",
+        "beast",
+        "evil"
+      ]
+    }
+  },
+  "type": "npc"
+}

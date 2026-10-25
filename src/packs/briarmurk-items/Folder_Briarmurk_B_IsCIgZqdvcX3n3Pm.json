@@ -1,0 +1,23 @@
+{
+  "_id": "IsCIgZqdvcX3n3Pm",
+  "_key": "!folders!IsCIgZqdvcX3n3Pm",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1765569721367,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "CsHicX4uI0fz4nW6",
+    "modifiedTime": 1765569721379,
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Briarmurk B",
+  "sort": 100000,
+  "sorting": "a",
+  "type": "Item"
+}

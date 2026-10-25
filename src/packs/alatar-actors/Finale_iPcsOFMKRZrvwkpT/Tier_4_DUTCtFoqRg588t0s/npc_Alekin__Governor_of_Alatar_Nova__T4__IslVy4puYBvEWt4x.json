@@ -1,0 +1,1649 @@
+{
+  "_id": "IslVy4puYBvEWt4x",
+  "_key": "!actors!IslVy4puYBvEWt4x",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1761068469943,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939424938,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {
+    "sequencer": {
+      "effects": []
+    }
+  },
+  "folder": "DUTCtFoqRg588t0s",
+  "img": "modules/covalon/images/Alatar/Alekin_Neutral.webp",
+  "items": [
+    {
+      "_id": "gRm4Sw9nCqs92O7g",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.gRm4Sw9nCqs92O7g",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Emotional Exposure",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": [
+            "emotional-affliction"
+          ]
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "strikeDamageID": {
+            "category": null,
+            "damage": "3d8+15",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Alekin focuses his current emotion into a powerful blast, firing a bolt of energy at his target and potentially causing additional effects.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 60
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "LaXu6kLr5qeo7eRc",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.LaXu6kLr5qeo7eRc",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotionally Unstable",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Alekin's emotions are starting to spiral out of control as the party confronts him, constantly altering his mood and affecting his abilities.</p><p>After Alekin uses an Emotionally Unstable ability, advance his Emotionally Unstable to the next stage (Happiness -&gt; Sadness -&gt; Fear -&gt; Disgust -&gt; Happiness), which alters the damage type and secondary effects of the next Emotionally Unstable ability he uses.</p><p>The following abilities count as Emotionally Unstable abilities:</p><ul><li><p>Emotional Exposure.</p></li><li><p>Emotional Jab.</p></li><li><p>Emotional Outburst.</p></li><li><p>Emotional Breakdown.</p></li></ul><p><strong>Special:</strong> Using Emotional Jab for Reactive Strike does not advance Emotionally Unstable.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "option": "emotion",
+            "selection": "fire",
+            "suboptions": [
+              {
+                "label": "Happiness",
+                "value": "fire"
+              },
+              {
+                "label": "Sadness",
+                "value": "cold"
+              },
+              {
+                "label": "Fear",
+                "value": "mental"
+              },
+              {
+                "label": "Disgust",
+                "value": "acid"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "override",
+            "property": "damage-type",
+            "selectors": [
+              "inline-damage",
+              "strike-damage"
+            ],
+            "value": "{item|flags.pf2e.rulesSelections.emotion}"
+          },
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "ring": {
+              "colors": {
+                "background": "#ff8800",
+                "ring": "#ffffff"
+              },
+              "subject": {
+                "texture": "resources/monsters/Alekin_Anger.webp"
+              }
+            },
+            "tint": "#ffffff",
+            "value": "modules/covalon/images/Alatar/Alekin_Anger.webp"
+          },
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:acid"
+            ],
+            "ring": {
+              "colors": {
+                "background": "#ff8800",
+                "ring": "#ffffff"
+              },
+              "subject": {
+                "texture": "resources/monsters/Alekin_Disgust.webp"
+              }
+            },
+            "tint": "#ffffff",
+            "value": "modules/covalon/images/Alatar/Alekin_Disgust.webp"
+          },
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:cold"
+            ],
+            "ring": {
+              "colors": {
+                "background": "#ff8800",
+                "ring": "#ffffff"
+              },
+              "subject": {
+                "texture": "resources/monsters/Alekin_Sadness.webp"
+              }
+            },
+            "tint": "#ffffff",
+            "value": "modules/covalon/images/Alatar/Alekin_Sadness.webp"
+          },
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:mental"
+            ],
+            "ring": {
+              "colors": {
+                "background": "#ff8800",
+                "ring": "#ffffff"
+              },
+              "subject": {
+                "texture": "resources/monsters/Alekin_Fear.webp"
+              }
+            },
+            "tint": "#ffffff",
+            "value": "modules/covalon/images/Alatar/Alekin_Fear.webp"
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Happiness",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "selector": "reflex",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Happiness",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "selector": "fortitude",
+            "type": "item",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Sadness",
+            "predicate": [
+              "emotion:cold"
+            ],
+            "selector": "will",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Sadness",
+            "predicate": [
+              "emotion:cold"
+            ],
+            "selector": "reflex",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Fear",
+            "predicate": [
+              "emotion:mental"
+            ],
+            "selector": "ac",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Fear",
+            "predicate": [
+              "emotion:mental"
+            ],
+            "selector": "will",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Disgust",
+            "predicate": [
+              "emotion:acid"
+            ],
+            "selector": "fortitude",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Disgust",
+            "predicate": [
+              "emotion:acid"
+            ],
+            "selector": "ac",
+            "value": -1
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "2jHItLsLIlDBvsJY",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.2jHItLsLIlDBvsJY",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Affliction",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The effects of Emotional Affliction depend on Alekin's current emotion.</p><p><strong>Happiness: </strong>@Check[reflex|dc:34] or affected by a 5th-rank @UUID[Compendium.pf2e.spells-srd.r8g7oSumKOHDqJsd]{Agitate} for 1 round.<br /><strong>Sadness: </strong>@Check[fortitude|dc:34] or can't use Reactions for 1 round.<br /><strong>Fear: </strong>@Check[will|dc:34] or @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.<br /><strong>Disgust: </strong>@Check[fortitude|dc:34|basic] or @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wxhbZXSTwha4jByd",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.wxhbZXSTwha4jByd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Outburst",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Alekin channels his emotions into a @Template[cone|distance:30], dealing @Damage[8d6] damage to all enemies with a Basic Save.</p><p><strong>Happiness:</strong></p><p>Emotional Outburst deals Fire damage with a @Check[reflex|dc:34|basic|options:damaging-effect]. On a failed save, targets are additionally affected by a 5th-rank @UUID[Compendium.pf2e.spells-srd.r8g7oSumKOHDqJsd]{Agitate} for 1 round.</p><p><strong>Sadness:</strong></p><p>Emotional Outburst deals Cold damage with a @Check[fortitude|dc:34|basic|options:damaging-effect]. On a failed save, targets are unable to use Reactions for 1 round.</p><p><strong>Fear:</strong></p><p>Emotional Outburst deals Mental damage with a @Check[will|dc:34|basic|options:damaging-effect]. On a failed save, targets become @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}.</p><p><strong>Disgust:</strong></p><p>Emotional Outburst deals Acid damage with a @Check[fortitude|dc:34|basic|options:damaging-effect]. On a failed save, targets become @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "788NOGGp7Tj50pzK",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.788NOGGp7Tj50pzK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Psychic Vampire",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement</strong> Alekin has at least one Decoy active.</p><hr /><p>Alekin sacrifices his Decoys to fuel his magic. Destroy one Decoy, then reduce the number of actions of his next action or activity by one.</p><p>If his next action originally would have taken one action, it becomes a Free Action instead.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "zRLiwjIZNrlnRiDu",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.zRLiwjIZNrlnRiDu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Grasp of Envy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 650000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement</strong> Alekin has at least one Decoy active.</p><hr /><p>Alekin sacrifices his Decoys to disrupt the flow of magic in his throne room. Destroy one Decoy, then attempt to Counteract a magical effect Alekin can see the origin of with a [[/r 1d20+23]]{+23} modifier.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "fqJqiNVBAOuP2PRA",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.fqJqiNVBAOuP2PRA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Breakdown",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement</strong> Alekin has at least one Decoy active.</p><hr /><p>Alekin sacrifices all of his Decoys to deal devastating damage to his enemies. Select one body for Alekin to move into, then destroy all other bodies, dealing @Damage[13d6] damage with a Basic Save to all enemies in a @Template[type:emanation|distance:15] around any of the destroyed Decoys. On a failed save, targeted creatures are affected by a condition, as listed below.</p><p>Targets standing in more than one emanation are only affected once, but the outcome of their save is considered to be one stage lower than the rolled result.</p><p>Then, Alekin is healed by half of the highest instance of damage dealt (After applying Resistances and Weaknesses).</p><p><strong>Happiness: </strong>Emotional Breakdown deals Fire damage with a @Check[reflex|dc:33|basic|options:damaging-effect].</p><p><strong>Sadness: </strong>Emotional Breakdown deals Cold damage with a @Check[fortitude|dc:33|basic|options:damaging-effect].</p><p><strong>Fear: </strong>Emotional Breakdown deals Mental damage with a @Check[will|dc:33|basic|options:damaging-effect].</p><p><strong>Disgust: </strong>Emotional Breakdown deals Acid damage with a @Check[fortitude|dc:33|basic|options:damaging-effect].</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "turn",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "qpj94TKPe5vQgTL1",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.qpj94TKPe5vQgTL1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Escapism",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Alekin rolls Initiative or his turn starts.</p><hr /><p>Alekin summons one Decoy in any unoccupied square he can see within 40 feet. If he has no active Decoys when using this ability, he may summon two Decoys instead, potentially using the first Decoy to calculate the range for the second Decoy.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "B1IFSHbUJ8eSZoUS",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.B1IFSHbUJ8eSZoUS",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Detachment",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 50000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Alekin takes damage that would bring him to or below one of his HP thresholds (320, 240, or 160 HP) for the first time.</p><hr /><p>Instead of taking the full blow, Alekin splits off an Aspect of himself to take the blow for him. Execute the following steps in this order:</p><ol><li><p>Prevent any damage of the triggering damage instance beyond the triggering threshold.</p></li><li><p>Alekin Steps into an unoccupied adjacent space. If there are no eligible spaces, he may teleport to the closest unoccupied space instead.</p></li><li><p>Summon an Aspect into Alekin's old square. The Aspect enters initiative immediately after the current actor's turn.</p></li><li><p>The newly summoned Aspect takes over all effects on Alekin. For the purpose of targeted abilities and immunities like Hunt Prey or Demoralize, the Aspect counts as the old creature, and Alekin counts as a new creature.</p></li></ol><p>Detachment can only trigger once for each threshold.</p><p><strong>Special:</strong> Alekin can use this ability even if an effect would otherwise prevent him from acting.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "SPHAvB8f9LfaxWYE",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.SPHAvB8f9LfaxWYE",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Reactive Strike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p><hr /><p>You lash out at a foe that leaves an opening. Make a melee Strike against the triggering creature. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p><p><strong>Special:</strong> Using Emotional Jab for Reactive Strike does not advance Emotionally Unstable.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "VRziPGNScij3Q5lr",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.VRziPGNScij3Q5lr",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Emotional Jab",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 24
+        },
+        "damageRolls": {
+          "B7lw5dMQRLXfEJas": {
+            "category": null,
+            "damage": "3d6+12",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Empowered by his current emotion, Alekin lashes out for a quick melee Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical",
+            "reach"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "2CBqJgal0XuijaE6",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.2CBqJgal0XuijaE6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "allAroundVision": {
+              "id": "L7dTePUWu2PvHbkI",
+              "onDelete": "detach"
+            },
+            "allAroundVision2": {
+              "id": "YH4JVmNJ5wv9TPh8",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Decoys",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Alekin's body is just an expendable shell he can summon or destroy at will. He can summon additional bodies to move between, which are called Decoys.</p><p>Whenever at least one Decoy is present, Alekin's soul rapidly moves back and forth between his current body and all Decoys. He is considered to be in all squares occupied by any of his Decoys for the purpose of targeting and effect ranges, and has All-Around Vision as long as at least one Decoy is present.</p><p>If Alekin is targeted by a hostile effect, roll 1d&lt;number of active Decoys + 1&gt;. On a 1, Alekin was inhabiting the targeted Decoy at that moment and takes all effects normally. On any other result, the target was merely a Decoy. If the triggering effect was a successful attack roll that would have dealt damage, or a failed save against a damaging effect, the Decoy is destroyed.</p><p>Some of Alekin's abilities allow him to use Decoys for other purposes. In most cases, any Decoys used for these abilities are then destroyed.</p><p>For the purpose of abilities, the number of active Decoys is always equal to the number of boss tokens on the map, minus 1.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "At Least 1 Decoy Active",
+            "option": "multiple-decoys",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.flanking.flankable",
+            "predicate": [
+              "multiple-decoys"
+            ],
+            "value": false
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "92w3brwnaQ4M0Mfj",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.92w3brwnaQ4M0Mfj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Arcane Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "ability": {
+          "value": "int"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 37,
+          "value": 28
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "Efv8BcepLSaLxLSK",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.Efv8BcepLSaLxLSK",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/agitate.webp",
+      "name": "Agitate (Emotionally Unstable Effect)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d8",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "mental"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You send the target's mind and body into overdrive, forcing it to become restless and hyperactive. During the duration, the target must Stride, Fly, or Swim at least once each turn or take 2d8 mental damage at the end of its turn. The GM might decide to add additional move actions to the list for creatures that possess only a more unusual form of movement. The duration of this effect depends on the target's Will save.</p><hr /><p><strong>Critical Success</strong> The spell has no effect.</p>\n<p><strong>Success</strong> The duration is 1 round.</p>\n<p><strong>Failure</strong> The duration is 2 rounds.</p>\n<p><strong>Critical Failure</strong> The duration is 4 rounds.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "varies"
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 5,
+          "uses": {
+            "max": 1,
+            "value": 1
+          },
+          "value": "92w3brwnaQ4M0Mfj"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Lost Omens Divine Mysteries"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "agitate",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental",
+            "nonlethal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "CXG5Ki8d8psBzfPu",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.CXG5Ki8d8psBzfPu",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Rigged Decoys",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When a Decoy is damaged, it explodes, dealing @Damage[5d8] damage in a @Template[type:emanation|distance:15] with a Basic Save.</p><p>The save depends on Alekin's current emotion:</p><p><strong>Happiness:</strong> @Check[reflex|dc:34|basic|options:damaging-effect].<br /><strong>Sadness:</strong> @Check[fortitude|dc:34|basic|options:damaging-effect].<br /><strong>Fear:</strong> @Check[will|dc:34|basic|options:damaging-effect].<br /><strong>Disgust:</strong> @Check[fortitude|dc:34|basic|options:damaging-effect].</p><p><em>Note: Effects that destroy a Decoy without damaging it (Like Psychic Vampire, Emotional Breakdown, Grasp of Envy, or any other abilities that can destroy a target without dealing damage) do not trigger Rigged Decoys.</em></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xdLo9RAgom3TgTLs",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.xdLo9RAgom3TgTLs",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.7.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Contingency",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 387500,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>After Alekin summons an Aspect, all Aspects are fully healed, and become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for one round. If Detachment is triggered during an Aspect's turn, the currently acting Aspect gains the additional action immediately instead of on their next turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "W7xNvk5k36oVBWXM",
+      "_key": "!actors.items!IslVy4puYBvEWt4x.W7xNvk5k36oVBWXM",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.7.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Environmentally Friendly",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 393750,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Alekin's Decoys are not destroyed when he uses Emotional Breakdown, and Alekin is not healed by Emotional Breakdown.</p><p>He still selects one body to move into during Emotional Breakdown, which does not deal damage around itself.</p><p>After using Emotional Breakdown, Alekin is unable to use Emotional Breakdown for [[/r 1 # Recharge Emotional Breakdown]] round.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Alekin, Governor of Alatar Nova (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Facsimile of Governor Alekin",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": "#ff8800",
+        "ring": "#ffffff"
+      },
+      "effects": 1,
+      "enabled": true,
+      "subject": {
+        "scale": 1,
+        "texture": "resources/monsters/Alekin_Neutral.webp"
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "tokenizer/npc-images/alekin_governor_of_alatar_nova.Token.xXH6pRnH7z0wmSdx.webp?1758151086647",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.948,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 6
+      },
+      "int": {
+        "mod": 6
+      },
+      "str": {
+        "mod": 3
+      },
+      "wis": {
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "HP Thresholds: 320, 240, 160",
+        "max": 400,
+        "temp": 0,
+        "value": 400
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 23,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 22
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 24,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "humanoid"
+      ]
+    }
+  },
+  "type": "npc"
+}

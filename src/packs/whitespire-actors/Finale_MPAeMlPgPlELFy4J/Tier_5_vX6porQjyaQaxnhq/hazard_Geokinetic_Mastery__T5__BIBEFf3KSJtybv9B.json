@@ -1,0 +1,859 @@
+{
+  "_id": "BIBEFf3KSJtybv9B",
+  "_key": "!actors!BIBEFf3KSJtybv9B",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1776101270503,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "WhYzoVrwPaCrANkH",
+    "modifiedTime": 1776101550419,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "vX6porQjyaQaxnhq",
+  "img": "icons/environment/wilderness/terrain-rocks-brown.webp",
+  "items": [
+    {
+      "_id": "CZI46RfGlx1zmGhP",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.CZI46RfGlx1zmGhP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Mountain's Wrath",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>The Stonewyrm rolls initiative.</p><p><strong>Effect </strong>Put Geokinetic Mastery in the initiative order <em>directly before the Stonewyrm. </em>Creatures cannot delay between Geokinetic Mastery and the Stonewyrm. If a creature's initiative would be moved before the Stonewyrm (such as if they go to dying), place them before Geokinetic Mastery instead.</p><p><strong>Special </strong>If the Stonewyrm does not roll highest in initiative, begin Geokinetic Mastery's routine as part of this reaction at the start of combat, before any PCs take their turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Lz9JgkpcIx7Xs1iZ",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.Lz9JgkpcIx7Xs1iZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.932,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "15",
+            "suboptions": [
+              {
+                "label": "APL 14",
+                "value": "14"
+              },
+              {
+                "label": "APL 13",
+                "value": "13"
+              },
+              {
+                "label": "APL 15",
+                "value": "15"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13",
+              {
+                "not": "flat"
+              }
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15",
+              {
+                "not": "flat"
+              }
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15",
+              {
+                "not": "flat"
+              }
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": 2
+          },
+          {
+            "critical": false,
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13",
+              {
+                "not": "flat"
+              }
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Qm2jVjTMOFSHkYzj",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.Qm2jVjTMOFSHkYzj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776101693043,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Routine: (Modification) Geokinetic Legend",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Stonewyrm's earthen battlefield effects are more dangerous. Use the upgraded effects below instead of the default ones. Changes are in <strong>bold.</strong></p><p>On its initiative, use one of four battlefield effects below. This ability must cycle through every effect before it can repeat. When this ability is used again, all ongoing effects from the previous instance immediately end.</p><hr /><p><strong>Spike Stones </strong>The Stonewyrm conjures long, sharp spikes of solid rock in <strong>three</strong> @Template[burst|distance:20]s. These areas are difficult terrain and hazardous terrain, and they disappear at the start of the Geokinetic Mastery's next turn.</p><p>Creatures on the ground take <strong>@Damage[(@actor.flags.pf2e.spikeDamageMod*1)[piercing]|options:flat,area-damage,hazardous-terrain]</strong> damage for each square of spiked stone they enter, combined and taken once at the end of the creature's movement action.</p><p>(Damage buttons below for ease, click what you need.)</p><p>@Damage[(@actor.flags.pf2e.spikeDamageMod*1)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*2)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*3)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*4)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*5)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*6)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*7)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*8)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*9)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*10)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*11)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamageMod*12)[piercing]|options:flat,area-damage,hazardous-terrain]</p><hr /><p><strong>Earthen Grasp </strong>Earthen claws erupt from the earth. <strong>All creatures take</strong> <strong>@Damage[7d6[piercing]|options:area-damage] with a @Check[reflex|dc:36|basic|traits:primal,earth,magical]</strong> <strong>save. The creature also</strong> becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} on a failure (or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on a critical failure) until the start of Geokinetic Mastery's next turn. [[/act escape dc=30 traits=primal,earth,magical]].</p><hr /><p><strong>Seismic Tremor </strong>The earth trembles and roils. All creatures<strong> take</strong> <strong>@Damage[7d6[bludgeoning]|options:area-damage] with a @Check[reflex|dc:36|basic|traits:primal,earth,magical]. A creature is also</strong> knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} on a failure.</p><hr /><p><strong>Scouring Sand </strong>Dirt and dust fills the arena. All creatures must attempt a @Check[fortitude|dc:36|traits:primal,earth,magical] save, becoming @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} on a <strong>success</strong> (or @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} on a <strong>failure or a critical failure</strong>) until the start of Geokinetic Mastery's next turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.spikeDamageMod",
+            "value": "5"
+          }
+        ],
+        "slug": "routine-modification-geokinetic-legend",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "magical",
+            "primal"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "lRVDiYxQucZ6BH6b",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.lRVDiYxQucZ6BH6b",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776101633575,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Routine: No Modification",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.11.3"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>On its initiative, use one of four battlefield effects below. This ability must cycle through every effect before it can repeat. When this ability is used again, all ongoing effects from the previous instance immediately end.</p><hr /><p><strong>Spike Stones </strong>The Stonewyrm conjures long, sharp spikes of solid rock in two @Template[burst|distance:20]s. These areas are difficult terrain and hazardous terrain, and they disappear at the start of the Geokinetic Mastery's next turn.</p><p>Creatures on the ground take @Damage[(@actor.flags.pf2e.spikeDamage*1)[piercing]|options:flat,area-damage,hazardous-terrain] damage for each square of spiked stone they enter, combined and taken once at the end of the creature's movement action.</p><p>(Damage buttons below for ease, click what you need.)</p><p>@Damage[(@actor.flags.pf2e.spikeDamage*1)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*2)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*3)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*4)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*5)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*6)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*7)[piercing]|options:flat,area-damage,hazardous-terrain] @Damage[(@actor.flags.pf2e.spikeDamage*8)[piercing]|options:flat,area-damage,hazardous-terrain]</p><hr /><p><strong>Earthen Grasp </strong>Earthen claws erupt from the earth. All creatures must succeed at a @Check[reflex|dc:36|traits:primal,earth,magical] save or become @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} (or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on a critical failure) until the start of Geokinetic Mastery's next turn. [[/act escape dc=30 traits=primal,earth,magical]]</p><hr /><p><strong>Seismic Tremor </strong>The earth trembles and roils. All creatures must succeed at a @Check[reflex|dc:36|traits:primal,earth,magical] save or be knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Scouring Sand </strong>Dirt and dust fills the arena. All creatures must attempt a @Check[fortitude|dc:36|traits:primal,earth,magical] save, becoming @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} on a failure (or @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} on a critical failure) until the start of Geokinetic Mastery's next turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.spikeDamage",
+            "value": "3"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "magical",
+            "primal"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "wYh9AIRr3QbbFIkh",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.wYh9AIRr3QbbFIkh",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
+      "name": "Spike Stones",
+      "ownership": {
+        "WhYzoVrwPaCrANkH": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.948,
+            "system": "7.12.1"
+          },
+          "version": 0.955
+        },
+        "badge": {
+          "labels": null,
+          "loop": false,
+          "max": null,
+          "min": 0,
+          "type": "counter",
+          "value": 0
+        },
+        "context": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "duration": {
+          "expiry": null,
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "fromSpell": false,
+        "level": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "start": {
+          "initiative": null,
+          "value": 0
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "unidentified": false
+      },
+      "type": "effect"
+    },
+    {
+      "_id": "0DHCKFZNXTh3un1c",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.0DHCKFZNXTh3un1c",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/earth/strike-fist-stone-light.webp",
+      "name": "Earthen Grasp",
+      "ownership": {
+        "WhYzoVrwPaCrANkH": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.948,
+            "system": "7.12.1"
+          },
+          "version": 0.955
+        },
+        "badge": {
+          "labels": null,
+          "loop": false,
+          "max": null,
+          "min": 0,
+          "type": "counter",
+          "value": 0
+        },
+        "context": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "duration": {
+          "expiry": null,
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "fromSpell": false,
+        "level": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "start": {
+          "initiative": null,
+          "value": 0
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "unidentified": false
+      },
+      "type": "effect"
+    },
+    {
+      "_id": "xI6Pbrs4CmTD4ZJX",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.xI6Pbrs4CmTD4ZJX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
+      "name": "Seismic Terror",
+      "ownership": {
+        "WhYzoVrwPaCrANkH": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.948,
+            "system": "7.12.1"
+          },
+          "version": 0.955
+        },
+        "badge": {
+          "labels": null,
+          "loop": false,
+          "max": null,
+          "min": 0,
+          "type": "counter",
+          "value": 0
+        },
+        "context": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "duration": {
+          "expiry": null,
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "fromSpell": false,
+        "level": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "start": {
+          "initiative": null,
+          "value": 0
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "unidentified": false
+      },
+      "type": "effect"
+    },
+    {
+      "_id": "Dgw95L9S26H55O58",
+      "_key": "!actors.items!BIBEFf3KSJtybv9B.Dgw95L9S26H55O58",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/air/fog-gas-smoke-brown.webp",
+      "name": "Scouring Sand",
+      "ownership": {
+        "WhYzoVrwPaCrANkH": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.948,
+            "system": "7.12.1"
+          },
+          "version": 0.955
+        },
+        "badge": {
+          "labels": null,
+          "loop": false,
+          "max": null,
+          "min": 0,
+          "type": "counter",
+          "value": 0
+        },
+        "context": null,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "duration": {
+          "expiry": null,
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "fromSpell": false,
+        "level": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "start": {
+          "initiative": null,
+          "value": 0
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "unidentified": false
+      },
+      "type": "effect"
+    }
+  ],
+  "name": "Geokinetic Mastery (T5)",
+  "ownership": {
+    "WhYzoVrwPaCrANkH": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Geokinetic Mastery",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/environment/wilderness/terrain-rocks-brown.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": null
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>The Stonewyrm's mastery over the element of earth manifests as environmental effects that occur every round. This is <strong>not </strong>a hazard that can be disabled, its an ongoing environmental effect that continues for the entire encounter.</p><p>Geokinetic Mastery's effects have the magical, primal, and earth traits, and are considered the same level as the Stonewyrm. Its effects to not affect the Stonewyrm. </p>",
+      "disable": "<p>Cannot be disabled. </p>",
+      "isComplex": true,
+      "level": {
+        "value": 16
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>On its initiative, use either Routine: No Modification or Routine (Modification) Geokinetic Legend.</p><p>You can use the effects on the hazard's token to track how many times you've used a routine action.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

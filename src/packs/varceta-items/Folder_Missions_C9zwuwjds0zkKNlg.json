@@ -1,0 +1,22 @@
+{
+  "_id": "C9zwuwjds0zkKNlg",
+  "_key": "!folders!C9zwuwjds0zkKNlg",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1739734029768,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742091548341,
+    "systemId": "pf2e",
+    "systemVersion": "6.9.0"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Missions",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Item"
+}

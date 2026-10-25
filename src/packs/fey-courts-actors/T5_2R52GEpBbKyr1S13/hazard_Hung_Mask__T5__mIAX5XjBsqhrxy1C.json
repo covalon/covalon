@@ -1,0 +1,445 @@
+{
+  "_id": "mIAX5XjBsqhrxy1C",
+  "_key": "!actors!mIAX5XjBsqhrxy1C",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1726525732338,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "scene-packer": {
+      "hash": "7eeb9d5a339a6f865e838a88720f11da6c59d36a",
+      "sourceId": "Actor.EXXQ7WJ6dNdMKwEk"
+    }
+  },
+  "folder": "2R52GEpBbKyr1S13",
+  "img": "modules/covalon/images/Fey%20Courts/masked_core_token.webp",
+  "items": [
+    {
+      "_id": "fIDihOYFmlx28GHC",
+      "_key": "!actors.items!mIAX5XjBsqhrxy1C.fIDihOYFmlx28GHC",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Mask's metal",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>This ability lets you track the mask's resistance to damage and changes the token's name once you check the Reveal Name box. You can set the metal type at the top of the sheet.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Mask's Metal",
+            "option": "mask-metal",
+            "selection": "abysium",
+            "suboptions": [
+              {
+                "label": "Abysium",
+                "value": "abysium"
+              },
+              {
+                "label": "Adamantine",
+                "value": "adamantine"
+              },
+              {
+                "label": "Djezet",
+                "value": "djezet"
+              },
+              {
+                "label": "Inubrix",
+                "value": "inubrix"
+              },
+              {
+                "label": "Noqual",
+                "value": "noqual"
+              },
+              {
+                "label": "Orichalcum",
+                "value": "orichalcum"
+              },
+              {
+                "label": "Siccatite",
+                "value": "siccatite"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "exceptions": [
+              "abysium"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:abysium"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "adamantine"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:adamantine"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "djezet"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:djezet"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "inubrix"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:inubrix"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "noqual"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:noqual"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "orichalcum"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:orichalcum"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "exceptions": [
+              "siccatite"
+            ],
+            "key": "Resistance",
+            "predicate": [
+              "mask-metal:siccatite"
+            ],
+            "type": "all-damage",
+            "value": 200
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Reveal Name? (Identified the metals)",
+            "option": "reveal-name",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "reveal-name"
+            ],
+            "value": "{item|flags.pf2e.rulesSelections.maskMetal} mask"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Hung Mask (T5)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "tagger": {},
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Hung Mask",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Fey%20Courts/masked_core_token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.932
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "emitsSound": "encounter",
+      "hardness": 7,
+      "hp": {
+        "details": "",
+        "max": 77,
+        "temp": 0,
+        "value": 77
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "<p>For APL 13, set the HP to 70 and reduce the saves by 2.</p><p>For APL 15, set the HP to 85 and increase the saves by 1.</p>",
+        "value": 0
+      }
+    },
+    "details": {
+      "description": "<p>Recall Knowledge: <strong>#DC# </strong>Arcana, Nature or Crafting.<br />These masks seem tied to Lethallica's life force. Even if they were defeated, they could use one of those masks to rise again.</p><p>Even on a failed Recall Knowledge check, someone at least expert in Arcana, Nature or Crafting recognizes the metal that each mask and pool is made of, revealing their names.</p><p>This mask is <strong>not</strong> automatically destroyed by effects such as <em>@UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em> and is instead affected as if it was a creature. It doesn't get <span style=\"font-family:Roboto, sans-serif\">a result one degree of success worse than the outcome of its save for being critically hit</span>. Resistance and hardness apply normally.</p>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 27
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

@@ -1,0 +1,470 @@
+{
+  "_id": "I76X2PzeyjMdnJoT",
+  "_key": "!actors!I76X2PzeyjMdnJoT",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "vIKZpoVxjjsnP0Wt",
+  "img": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
+  "items": [
+    {
+      "_id": "kNGWVkbLaC15jCqN",
+      "_key": "!actors.items!I76X2PzeyjMdnJoT.kNGWVkbLaC15jCqN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Consume",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature approaches within 10 feet of the hidden maw.</p><p><strong>Effect</strong> The stonework shifts into the jaws of a massive dragon, which makes a jaws attack at the triggering creature.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "yIc2fUF47D8OvCOr",
+      "_key": "!actors.items!I76X2PzeyjMdnJoT.yIc2fUF47D8OvCOr",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "U6CbrpWm8EaayIFM": {
+            "category": null,
+            "damage": "2d10+11",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<div data-visibility=\"gm\"><p>On a hit, the creature is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} in the earthen jaws (Escape DC 26) until it Escapes, or the hazard reaches its broken threshold. On a critical hit, the creature is instead @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}.</p><p>A creature that ends its turn grabbed or restrained by the jaws automatically takes half of the Jaws strike damage.</p></div>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "subjectToMAP": true,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "earth",
+            "primal",
+            "reach-10",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "CkTJxlfi5mH52lCB",
+      "_key": "!actors.items!I76X2PzeyjMdnJoT.CkTJxlfi5mH52lCB",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T3",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.935,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "8",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "8"
+              },
+              {
+                "label": "Level 7",
+                "value": "7"
+              },
+              {
+                "label": "Level 9",
+                "value": "9"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:7"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": -1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:7"
+            ],
+            "selector": "damage",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Earthen Maw (T3)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Earthen Maw",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/creatures/abilities/mouth-teeth-fire-orange.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 24
+      },
+      "emitsSound": "encounter",
+      "hardness": 15,
+      "hp": {
+        "details": "",
+        "max": 62,
+        "temp": 0,
+        "value": 62
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 18
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "bludgeoning",
+          "value": 15
+        }
+      ]
+    },
+    "details": {
+      "description": "<p>Hidden in the stonework, a draconic maw of earth waits to consume its next victim. </p>",
+      "disable": "<p>@Check[arcana|dc:28|traits:action:disable-a-device]{Arcana}, @Check[nature|dc:28|traits:action:disable-a-device]{Nature}, @Check[religion|dc:28|traits:action:disable-a-device]{Religion}, @Check[occultism|dc:28|traits:action:disable-a-device]{Occultism}, or @Check[thievery|dc:28|traits:action:disable-a-device]{Thievery} to banish the primal magics animating the stonework.</p>",
+      "isComplex": false,
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Covalon: Whitespire Expedition"
+      },
+      "reset": "<p>1 day. Upon a successful disable check or reaching its broken threshold, the jaws meld back into the stonework, leaving no sign of their presence.</p><p>If a creature Escapes but the hazard is still active, Consume can be triggered again if a creature moves within its Jaws range. This cannot trigger in the same turn as a creature escapes the jaws. </p>",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19
+      },
+      "reflex": {
+        "value": 13
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "earth",
+        "primal",
+        "trap",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

@@ -1,0 +1,488 @@
+{
+  "_id": "77IxhTdbxw6xtCsN",
+  "_key": "!actors!77IxhTdbxw6xtCsN",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1770065082861,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1771175134615,
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "folder": "GHmGSJ98ek88Z7gf",
+  "img": "modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Avatar.webp",
+  "items": [
+    {
+      "_id": "goXBMPcxcIARWgvk",
+      "_key": "!actors.items!77IxhTdbxw6xtCsN.goXBMPcxcIARWgvk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Bloody Radiance",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Rashai becomes the Ritual Leader</p><p><strong>Effect</strong> The hazard rolls initiative.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ra6D9KHYyIyDQKrq",
+      "_key": "!actors.items!77IxhTdbxw6xtCsN.ra6D9KHYyIyDQKrq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Bloody Wrath",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "fMZA2TeVxc7q4k6U": {
+            "category": null,
+            "damage": "2d6+3",
+            "damageType": "spirit"
+          },
+          "njzl4qB5iPXdjdzG": {
+            "category": null,
+            "damage": "2d6+3",
+            "damageType": "acid"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 90
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "acid",
+            "arcane",
+            "divine",
+            "spirit",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "60bIi6InVgzAW8fq",
+      "_key": "!actors.items!77IxhTdbxw6xtCsN.60bIi6InVgzAW8fq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.9.1"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T4",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "10",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "10"
+              },
+              {
+                "label": "Level 9",
+                "value": "9"
+              },
+              {
+                "label": "Level 11",
+                "value": "11"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:11"
+            ],
+            "selector": [
+              "inline-dc"
+            ],
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:11"
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:9"
+            ],
+            "selector": [
+              "damage"
+            ],
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Twisted Magic Orb (Moon) (T4 Finale)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Twisted Magic Orb (Moon)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Briarmurk/twisted_magic_orb_moon_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": "spin",
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 27
+      },
+      "emitsSound": false,
+      "hardness": 17,
+      "hp": {
+        "details": "BT counts as 1 disable.",
+        "max": 70,
+        "temp": 0,
+        "value": 70
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 22
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>An orb of brilliant white light appears atop the altar in the center of the apex.</p>",
+      "disable": "<p>The orb can be disabled using @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} with @Check[arcana|dc:28|traits:action:disable-a-device]{Arcana}, @Check[crafting|dc:28|traits:action:disable-a-device]{Crafting}, @Check[religion|dc:28|traits:action:disable-a-device]{Religion}, or@Check[thievery|dc:28|traits:action:disable-a-device]{Thievery}.</p><p><br>Three successes are required to completely disable this hazard. Each success reduces the number of actions in the hazard's routine by one (a critical success to disable counts as 2 successes).</p><p>The hazard can also be disabled by a creature casting a prepared or spontaneous spell with the Scrying trait while adjacent to the orb. The spell rank must be at least APL/2 -1 (round up), and this causes the spell to be consumed entirely by the orb. The spell has none of its usual effects. The caster attempts a Counteract check with the same DC as the Disable DC for the Religion skill, but they get one degree of success higher than they roll.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 10
+      },
+      "publication": {
+        "authors": "Locke",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Covalon - Briarmurk"
+      },
+      "reset": "<p>The orb is dormant for 24 hours.</p>",
+      "routine": "<p>(3 actions) The hazard spends each of its actions on Bloody Wrath. It prioritizes targeting the closest enemies, and will not target the same creature twice in the same round. The hazard's attacks do not increment MAP.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 22
+      },
+      "reflex": {
+        "value": 16
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "arcane",
+        "divine",
+        "trap",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

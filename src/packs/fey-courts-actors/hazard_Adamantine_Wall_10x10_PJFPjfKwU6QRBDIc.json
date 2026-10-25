@@ -1,0 +1,248 @@
+{
+  "_id": "PJFPjfKwU6QRBDIc",
+  "_key": "!actors!PJFPjfKwU6QRBDIc",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1726525732338,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "scene-packer": {
+      "hash": "63fee15b577d53c574f5b976bf264cde26869769",
+      "sourceId": "Actor.IPkHd4QoNn25w4du"
+    }
+  },
+  "folder": null,
+  "img": "icons/tools/smithing/plate-steel-grey.webp",
+  "items": [],
+  "name": "Adamantine Wall 10x10",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Adamantine Wall 10x10",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/tools/smithing/plate-steel-grey.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 300000,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.932
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "emitsSound": "encounter",
+      "hardness": 28,
+      "hp": {
+        "details": "",
+        "max": 112,
+        "temp": 0,
+        "value": 112
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "stealth": {
+        "details": "",
+        "value": 0
+      }
+    },
+    "details": {
+      "description": "<p>As the Adamantine Pool constantly uses Wall of Metal, this lets you keep track of the wall's sections in case your players attempt to damage it.</p><p>A new wall appears each time the Adamantine Pool acts, and the previous one disappears.</p><p>Remember that a broken (half HP, aka 56 HP) section can be moved through.</p>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

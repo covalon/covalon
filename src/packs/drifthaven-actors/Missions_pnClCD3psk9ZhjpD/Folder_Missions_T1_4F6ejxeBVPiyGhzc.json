@@ -1,0 +1,22 @@
+{
+  "_id": "4F6ejxeBVPiyGhzc",
+  "_key": "!folders!4F6ejxeBVPiyGhzc",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1737840148693,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840148693,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "pnClCD3psk9ZhjpD",
+  "name": "Missions T1",
+  "sort": 100000,
+  "sorting": "a",
+  "type": "Actor"
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "FMVJrsUtvw6dZ7Tj",
+  "_key": "!items!FMVJrsUtvw6dZ7Tj",
+  "_stats": {
+    "compendiumSource": "Actor.DIuI8j0qKx9KRcYG.Item.ePJ0zpe2z8VSwApH",
+    "coreVersion": "13.346",
+    "createdTime": 1731258567740,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.4.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258567740,
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2"
+  },
+  "effects": [],
+  "flags": {
+    "LocknKey": {
+      "IDKeysFlag": "",
+      "LBFormulaFlag": "",
+      "LBFormulaOverrideFlag": false,
+      "LPFormulaFlag": "",
+      "LPFormulaOverrideFlag": false,
+      "RemoveKeyonUseFlag": false,
+      "ReplacementItemFlag": ""
+    },
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "name": "Pestilence Fangs Form: Wild Bites",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.932,
+        "system": "6.6.2"
+      },
+      "version": 0.933
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p>The Assembled Council's many limbs sprout rows and rows of fangs dripping with deadly poison. <br /><br />The Assembled Council makes three Slam strikes, each at different creature. The Council's multiple attack penalty does not increase until all strikes are made. <br /><br />Creatures hit with strikes from Wild Bites also take persistent poison damage. </p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "Pestilence Fangs: Wild Bites",
+        "option": "wild-bites",
+        "predicate": [
+          "shifting-form:pestilence-fangs"
+        ],
+        "toggleable": true,
+        "value": false
+      },
+      {
+        "category": "persistent",
+        "damageType": "poison",
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "item:slug:slam",
+          "wild-bites",
+          "shifting-form:pestilence-fangs"
+        ],
+        "selector": "strike-damage",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "end": 12,
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 13,
+              "value": {
+                "diceNumber": 3
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    }
+  },
+  "type": "action"
+}

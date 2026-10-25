@@ -1,0 +1,64 @@
+{
+  "_id": "P00pIth8tnEgJKy1",
+  "_key": "!items!P00pIth8tnEgJKy1",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1692546749860,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840397035,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "name": "Clausible Deniability",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": null,
+        "system": "6.8.4"
+      },
+      "version": 0.935
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per round <strong>Requirements</strong> You are in control of the Infernal Contract</p>\n<p>You attempt to rewrite the clauses of the Contract to better suit your needs. Choose one of the currently active clauses and reroll it. You must take the new clause. </p>\n<p> </p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.85DosliujNsRNI8l]{Basic Rules - IF Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.oU6zKAUO50NOzcuH]{Basic Rules - THEN Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.HG5wf8SGpcDYhfga]{Advanced Rules - IF Clauses}</p>\n<p>@UUID[Compendium.covalon.verndhelt-rolltables.RollTable.lv5HfG0tSBhmWSc6]{Advanced Rules - THEN Clauses}</p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate"
+      ]
+    }
+  },
+  "type": "action"
+}

@@ -1,0 +1,1698 @@
+{
+  "_id": "zy3lyESx9q2ogruE",
+  "_key": "!scenes!zy3lyESx9q2ogruE",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1692540212368,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1693167894014,
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2"
+  },
+  "active": false,
+  "drawings": [
+    {
+      "_id": "mfbBWs9EV0WpiARe",
+      "_key": "!scenes.drawings!zy3lyESx9q2ogruE.mfbBWs9EV0WpiARe",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Modesto Condensed",
+      "fontSize": 100,
+      "hidden": false,
+      "interface": true,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 116,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 555
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "B: (1 / TURN)",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 3824,
+      "y": 8800
+    },
+    {
+      "_id": "t8XCtYGio6bybhGZ",
+      "_key": "!scenes.drawings!zy3lyESx9q2ogruE.t8XCtYGio6bybhGZ",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Modesto Condensed",
+      "fontSize": 100,
+      "hidden": false,
+      "interface": true,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 92,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 427
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "A: (NO LIMIT)",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 3888,
+      "y": 9056
+    },
+    {
+      "_id": "NZAx3PO6dIponkef",
+      "_key": "!scenes.drawings!zy3lyESx9q2ogruE.NZAx3PO6dIponkef",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Modesto Condensed",
+      "fontSize": 100,
+      "hidden": false,
+      "interface": true,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 92,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 427
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "A: (NO LIMIT)",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 3888,
+      "y": 9312
+    },
+    {
+      "_id": "CNJEhV0W8qG9ZHyD",
+      "_key": "!scenes.drawings!zy3lyESx9q2ogruE.CNJEhV0W8qG9ZHyD",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Modesto Condensed",
+      "fontSize": 100,
+      "hidden": false,
+      "interface": true,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 92,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 427
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "A: (NO LIMIT)",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 3888,
+      "y": 9536
+    }
+  ],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {}
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1,
+    "reset": 1692540212367
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 256,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 7680,
+  "initial": {
+    "scale": 0.25,
+    "x": 2962,
+    "y": 3730
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!zy3lyESx9q2ogruE.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Verndhelt/Vernheldt_Finale.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Verndhelt War Room",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Verndhelt War Room",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "default": 0
+  },
+  "padding": 0.3,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/verndhelt-scenes-zy3lyESx9q2ogruE-thumb.webp",
+  "tiles": [
+    {
+      "_id": "YWQBXDqkj2JFRPA5",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.YWQBXDqkj2JFRPA5",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/BASIC2.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 1024,
+      "y": 9984
+    },
+    {
+      "_id": "r404nxLvDYApkkj8",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.r404nxLvDYApkkj8",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/ADVANCED2.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3584,
+      "y": 9984
+    },
+    {
+      "_id": "YPHFexdNyO6hYDXy",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.YPHFexdNyO6hYDXy",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youActivateanItem.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 10240
+    },
+    {
+      "_id": "V7vJgezl5fg4Ah5u",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.V7vJgezl5fg4Ah5u",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youattemptaskillcheck.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 10496
+    },
+    {
+      "_id": "dU1I8iIoMfAhnOwC",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.dU1I8iIoMfAhnOwC",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youCastaSpell.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 10752
+    },
+    {
+      "_id": "FovoPaIwGGVKgbbq",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.FovoPaIwGGVKgbbq",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youcriticallysucceed.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 11008
+    },
+    {
+      "_id": "EMQNiUWnkaXsgHNT",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.EMQNiUWnkaXsgHNT",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youInteract.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 11264
+    },
+    {
+      "_id": "SS5Ux2mV2Nx1jeog",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.SS5Ux2mV2Nx1jeog",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/yourecievehealing.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 11520
+    },
+    {
+      "_id": "ecG6UQUR2QrkTb9P",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.ecG6UQUR2QrkTb9P",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20IF/youStrike.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 0,
+      "y": 11776
+    },
+    {
+      "_id": "WSewO3spT59JTnbU",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.WSewO3spT59JTnbU",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/IgainacircimstancebonustoAC.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 10240
+    },
+    {
+      "_id": "LpsY1czLzpTfDeh8",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.LpsY1czLzpTfDeh8",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/Iheal.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 10496
+    },
+    {
+      "_id": "KM1uri0jhtmQZhKV",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.KM1uri0jhtmQZhKV",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/ImeleeStrike.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 10752
+    },
+    {
+      "_id": "0TEZOMYDUGJ0r98B",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.0TEZOMYDUGJ0r98B",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youareaffectedbytanglefoot.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 11008
+    },
+    {
+      "_id": "aB34ebJsgEsO6YwT",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.aB34ebJsgEsO6YwT",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomeoffguard.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 11264
+    },
+    {
+      "_id": "EWYubmiUB40pMONc",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.EWYubmiUB40pMONc",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youbecomesickened.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 11520
+    },
+    {
+      "_id": "Q8eWRLej2UIIYCZh",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.Q8eWRLej2UIIYCZh",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Basic%20Clauses%20THEN/youtaketierdamage.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 1792,
+      "y": 11776
+    },
+    {
+      "_id": "UBnZH63UcXbskLnv",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.UBnZH63UcXbskLnv",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youeatordrinksomething.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 10240
+    },
+    {
+      "_id": "MLdoxFzOSjVlhvrs",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.MLdoxFzOSjVlhvrs",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youendyourturnadjacent.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 10496
+    },
+    {
+      "_id": "LhNuftKDDdcXVaYQ",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.LhNuftKDDdcXVaYQ",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealoneofmyotherenemies.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 10752
+    },
+    {
+      "_id": "93MEkkBfWgzcrSef",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.93MEkkBfWgzcrSef",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youhealyourself.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 11008
+    },
+    {
+      "_id": "5asqEEnb0xkMIGYw",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.5asqEEnb0xkMIGYw",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youkilloneofmyallies.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 11264
+    },
+    {
+      "_id": "lcfAEFNXcydveoHh",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.lcfAEFNXcydveoHh",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youoryoureffectcausemetobecomegrabbed.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 11520
+    },
+    {
+      "_id": "VpcJ6jC1HUxza43I",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.VpcJ6jC1HUxza43I",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youstartandendyourturn.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 11776
+    },
+    {
+      "_id": "igF3Wwxaj7g1O0nj",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.igF3Wwxaj7g1O0nj",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20IF/youuseareaction.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1776,
+      "x": 3328,
+      "y": 12032
+    },
+    {
+      "_id": "czgezMmjGfHE0eYu",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.czgezMmjGfHE0eYu",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/igainsanctuary.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 10240
+    },
+    {
+      "_id": "vHcsXVhIVyiDUAEZ",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.vHcsXVhIVyiDUAEZ",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ihealandremovenegativeeffects.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 10496
+    },
+    {
+      "_id": "q1GQeUqLslREG4GX",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.q1GQeUqLslREG4GX",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/ImayteleportthenStrike.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 10752
+    },
+    {
+      "_id": "iY4wpLsUBAjQePtS",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.iY4wpLsUBAjQePtS",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/Isummonanally.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 11008
+    },
+    {
+      "_id": "CMtPur7ZVW2nAtPl",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.CMtPur7ZVW2nAtPl",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youandallofmyenemiesadjacenttoyoutakedamage.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 11264
+    },
+    {
+      "_id": "NIjoZckCavAwoL56",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.NIjoZckCavAwoL56",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youareeffectedbyboneshaker.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 11520
+    },
+    {
+      "_id": "0wts4OrrYfrj748g",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.0wts4OrrYfrj748g",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomeconfused.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 11776
+    },
+    {
+      "_id": "YU3tzmwCC5oRGtra",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.YU3tzmwCC5oRGtra",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youbecomefleeing.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 5120,
+      "y": 12032
+    },
+    {
+      "_id": "IYX0JAYAjROitkVO",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.IYX0JAYAjROitkVO",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougainnegativehealing.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 6656,
+      "y": 10240
+    },
+    {
+      "_id": "tPPgVQnAvRcbAiiW",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.tPPgVQnAvRcbAiiW",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yougaintheeffectofpestform.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 6656,
+      "y": 10496
+    },
+    {
+      "_id": "8YjcbRfHc94THnMm",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.8YjcbRfHc94THnMm",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/yourspeedsarereduced.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 6656,
+      "y": 10752
+    },
+    {
+      "_id": "3wErD8IUR5BIzxnZ",
+      "_key": "!scenes.tiles!zy3lyESx9q2ogruE.3wErD8IUR5BIzxnZ",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 240,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/Advanced%20Clauses%20THEN/youtakepersistentbleed.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1520,
+      "x": 6656,
+      "y": 11008
+    }
+  ],
+  "tokenVision": true,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 5120
+}

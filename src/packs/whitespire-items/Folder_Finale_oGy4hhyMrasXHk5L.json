@@ -1,0 +1,23 @@
+{
+  "_id": "oGy4hhyMrasXHk5L",
+  "_key": "!folders!oGy4hhyMrasXHk5L",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1775757995975,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775757995975,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Finale",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Item"
+}

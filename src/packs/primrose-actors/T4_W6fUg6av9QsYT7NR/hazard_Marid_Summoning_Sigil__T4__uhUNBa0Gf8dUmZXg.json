@@ -1,0 +1,290 @@
+{
+  "_id": "uhUNBa0Gf8dUmZXg",
+  "_key": "!actors!uhUNBa0Gf8dUmZXg",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405806571,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726524501153,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "folder": "W6fUg6av9QsYT7NR",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "9svCr9OwF7V3OHK1",
+      "_key": "!actors.items!uhUNBa0Gf8dUmZXg.9svCr9OwF7V3OHK1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Defend the Sultan!",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.4.0"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Saddam Syed rolls initiative. <strong>Effect </strong>The Marid summoning sigil summons two @Compendium[pf2e.pathfinder-bestiary.vmN9SCUJxN1MIXwp]{Elemental Tsunami}, then rolls initiative. The summoned elemental does not act on its own initiative; it is commanded by the sigil as part of the sigil's routine. Any creatures summoned by the Marid summoning sigil lose the Water-Bound ability if they have it.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Marid Summoning Sigil (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": 0,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Marid Summoning Sigil",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.4.0"
+      },
+      "version": 0.932
+    },
+    "attributes": {
+      "ac": {
+        "value": 36
+      },
+      "emitsSound": "encounter",
+      "hardness": 23,
+      "hasHealth": true,
+      "hp": {
+        "details": "",
+        "max": 95,
+        "temp": 0,
+        "tempmax": 0,
+        "value": 95
+      },
+      "stealth": {
+        "details": "<p>(master)</p>",
+        "value": 38
+      }
+    },
+    "creatureType": "",
+    "details": {
+      "description": "<p>A large arcane sigil carved into sandstone tile glows with a sapphire hue.</p>",
+      "disable": "<p>Thievery DC 38 (expert) to erase the rune (requires thieves' tools and two successes), or <em>dispel magic</em> (6th level; counteract DC 36) to counteract the rune</p>",
+      "isComplex": true,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "<p>After 10 minutes of the sultan no longer being in danger, the sigil destroys its currently summoned elemental and resets.</p>",
+      "routine": "<p>(1 action) the sigil commands its summoned water elemental, giving it two actions (the water elemental does not have its own initiative). If the sigil's summoned water elemental was destroyed, it summons a new one instead (of the same type listed in the Defend the Sultan! reaction), but can't command it until next turn.&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">Any creatures summoned by the Marid summoning sigil lose the Water-Bound ability if they have it.</span></p>"
+    },
+    "flavourText": "",
+    "nethysUrl": "",
+    "recallKnowledgeText": "",
+    "saves": {
+      "fortitude": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 28
+      },
+      "reflex": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 28
+      },
+      "will": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "sidebarText": "",
+    "statusEffects": [],
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

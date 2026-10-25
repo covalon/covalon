@@ -1,0 +1,742 @@
+{
+  "_id": "XjI7Ep4rMvFYBIrV",
+  "_key": "!scenes!XjI7Ep4rMvFYBIrV",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1775760290847,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760290847,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "active": false,
+  "drawings": [
+    {
+      "_id": "YDehr2XSlJHlRxf0",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.YDehr2XSlJHlRxf0",
+      "author": "NEpKBfKv6jRU1Lvu",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.5,
+      "fillColor": "#2889cc",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 1138,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 1146
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ff0000",
+      "strokeWidth": 15,
+      "text": "",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 1951,
+      "y": 1251
+    },
+    {
+      "_id": "9aQMmLWbbetrHSLV",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.9aQMmLWbbetrHSLV",
+      "author": "NEpKBfKv6jRU1Lvu",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.5,
+      "fillColor": "#2889cc",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 561,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 1148
+      },
+      "sort": 1,
+      "strokeAlpha": 1,
+      "strokeColor": "#ff0000",
+      "strokeWidth": 15,
+      "text": "",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 1942.5,
+      "y": 5040
+    },
+    {
+      "_id": "TVWX3FPft4uxrTNn",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.TVWX3FPft4uxrTNn",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.5,
+      "fillColor": "#ff0000",
+      "fillType": 1,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 560,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 289
+      },
+      "sort": 2,
+      "strokeAlpha": 1,
+      "strokeColor": "#ff0000",
+      "strokeWidth": 8,
+      "text": "",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2380,
+      "y": 5040
+    },
+    {
+      "_id": "58Rc2yRtWCkr4aj9",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.58Rc2yRtWCkr4aj9",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 219,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 368
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "Stonewyrm start",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2318.75,
+      "y": 1732.5
+    },
+    {
+      "_id": "rFOtwTxmwqSJKeUo",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.rFOtwTxmwqSJKeUo",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 193,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 193
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "Den Mother Start",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2432.5,
+      "y": 5215
+    },
+    {
+      "_id": "FwUXTrytyZ9syoMX",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.FwUXTrytyZ9syoMX",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 193,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 193
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "PCs",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2074,
+      "y": 5206
+    },
+    {
+      "_id": "1wQFlYKkDajCUrNs",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.1wQFlYKkDajCUrNs",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 193,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 193
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "PCs",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2782.5,
+      "y": 5206.25
+    },
+    {
+      "_id": "71E1xV9Z3tFXaU8w",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.71E1xV9Z3tFXaU8w",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 219,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 368
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "Escape",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 2345,
+      "y": 5573.75
+    },
+    {
+      "_id": "XXiu1iiyR9k1OvWZ",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.XXiu1iiyR9k1OvWZ",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 270,
+      "shape": {
+        "height": 219,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 368
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "Escape",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 4086.25,
+      "y": 3535
+    },
+    {
+      "_id": "1iTJc0t4zOdhIU7n",
+      "_key": "!scenes.drawings!XjI7Ep4rMvFYBIrV.1iTJc0t4zOdhIU7n",
+      "author": "H9FXC8g0quO6QRgw",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 90,
+      "shape": {
+        "height": 219,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 368
+      },
+      "sort": 3,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "Escape",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 577.5,
+      "y": 3543.75
+    }
+  ],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "monks-wall-enhancement": {
+      "use-one-way-door": false
+    },
+    "multi-token-edit": {
+      "blackBars": false
+    },
+    "pf2e": {
+      "environmentTypes": [],
+      "hearingRange": null,
+      "rulesBasedVision": null,
+      "syncDarkness": "default"
+    },
+    "storyframe": {
+      "data": {
+        "activeChallenges": [],
+        "activeJournal": null,
+        "activeSpeaker": null,
+        "participants": [],
+        "pendingRolls": [],
+        "rollHistory": [],
+        "speakers": [],
+        "version": 4
+      }
+    },
+    "terrainmapper": {
+      "backgroundElevation": null,
+      "constrainElevation": false
+    },
+    "wall-height": {
+      "advancedVision": true
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#ffffff",
+    "distance": 5,
+    "size": 140,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 4480,
+  "initial": {
+    "scale": null,
+    "x": null,
+    "y": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!XjI7Ep4rMvFYBIrV.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Whitespire/stonewrought%20den%20final.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Stonewrought Den",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Stonewrought Den",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": false,
+  "notes": [],
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "padding": 0.25,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/XjI7Ep4rMvFYBIrV-thumb.webp",
+  "tiles": [],
+  "tokenVision": true,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [
+    {
+      "_id": "wnZyn5Bz271iVh5Z",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.wnZyn5Bz271iVh5Z",
+      "animation": null,
+      "c": [
+        840,
+        1934,
+        1400,
+        1680
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "eAeozbi5oSPKrDIb",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.eAeozbi5oSPKrDIb",
+      "animation": null,
+      "c": [
+        1400,
+        1680,
+        1820,
+        1540
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "fiF05fXBEkRL0wK4",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.fiF05fXBEkRL0wK4",
+      "animation": null,
+      "c": [
+        1820,
+        1540,
+        3080,
+        1540
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "6td3X2IBuEcRNxES",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.6td3X2IBuEcRNxES",
+      "animation": null,
+      "c": [
+        3080,
+        1540,
+        3500,
+        1680
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "8SiaTemRKBx8RzR0",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.8SiaTemRKBx8RzR0",
+      "animation": null,
+      "c": [
+        3500,
+        1680,
+        4209,
+        2048
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "DkPcQJnmVV854t8a",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.DkPcQJnmVV854t8a",
+      "animation": null,
+      "c": [
+        4209,
+        2048,
+        4200,
+        1120
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "MmHYU1nEXdOjo8eq",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.MmHYU1nEXdOjo8eq",
+      "animation": null,
+      "c": [
+        4200,
+        1120,
+        840,
+        1120
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    },
+    {
+      "_id": "mDjNtIaUrZO4tfI2",
+      "_key": "!scenes.walls!XjI7Ep4rMvFYBIrV.mDjNtIaUrZO4tfI2",
+      "animation": null,
+      "c": [
+        840,
+        1120,
+        840,
+        1934
+      ],
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "flags": {},
+      "levels": [],
+      "light": 10,
+      "move": 20,
+      "sight": 10,
+      "sound": 10,
+      "threshold": {
+        "attenuation": false,
+        "light": null,
+        "sight": null,
+        "sound": null
+      }
+    }
+  ],
+  "weather": "",
+  "width": 3360
+}

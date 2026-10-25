@@ -1,0 +1,1165 @@
+{
+  "_id": "pToLSwkgA7TUKPP8",
+  "_key": "!actors!pToLSwkgA7TUKPP8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "Yx72egMCLEbbs5rR",
+  "img": "modules/covalon/images/Furious%20Fey/Unicorn.webp",
+  "items": [
+    {
+      "_id": "bQaD3ryddLU1MPFx",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.bQaD3ryddLU1MPFx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 24,
+          "mod": 0,
+          "value": 16
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "Djva170z7MbhOEdN",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.Djva170z7MbhOEdN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/magic/life/cross-worn-green.webp",
+      "name": "Heal",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage",
+              "healing"
+            ],
+            "materials": [],
+            "type": "vitality"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong> The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentrate)</strong> You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "uses": {
+            "max": 1,
+            "value": 1
+          },
+          "value": "bQaD3ryddLU1MPFx"
+        },
+        "overlays": {
+          "37gy7l19tik74o4s": {
+            "_id": "37gy7l19tik74o4s",
+            "name": "Heal (vs. Living)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "1d8+8",
+                  "kinds": [
+                    "healing"
+                  ]
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "0": "1d8+8"
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          },
+          "7qdtetowq348s9oc": {
+            "_id": "7qdtetowq348s9oc",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "range": {
+                "value": "touch"
+              },
+              "time": {
+                "value": "1"
+              }
+            }
+          },
+          "7vbvdrv2cl87sqta": {
+            "_id": "7vbvdrv2cl87sqta",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              },
+              "range": {
+                "value": ""
+              },
+              "target": {
+                "value": "all living and undead creatures"
+              },
+              "time": {
+                "value": "3"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          },
+          "lfxcoz2d3f8j2zq1": {
+            "_id": "lfxcoz2d3f8j2zq1",
+            "name": "Heal (vs. Undead)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "kinds": [
+                    "damage"
+                  ]
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 undead"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "varies"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "heal",
+        "target": {
+          "value": "1 willing living creature or 1 undead"
+        },
+        "time": {
+          "value": "1 to 3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "primal"
+          ],
+          "value": [
+            "healing",
+            "manipulate",
+            "vitality"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "tmtbAzkurYA51P6E",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.tmtbAzkurYA51P6E",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/light.webp",
+      "name": "Light",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until your next daily preparations"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "bQaD3ryddLU1MPFx"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "light",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "2OIVJJBOOtBD6Bce",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.2OIVJJBOOtBD6Bce",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Horn",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "n9g8wdodgmeouod1wimu": {
+            "category": null,
+            "damage": "1d8+9",
+            "damageType": "piercing"
+          },
+          "o25q1diiu1fxpv64siml": {
+            "category": null,
+            "damage": "1d8",
+            "damageType": "spirit"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "holy",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "PAY2I7fJGT3XbkIX",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.PAY2I7fJGT3XbkIX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Hoof",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "1s3symdn1w1vk237l05x": {
+            "category": null,
+            "damage": "2d6+6",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "QL3594a7048GPCem",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.QL3594a7048GPCem",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Animal Empathy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "gm": "",
+          "value": "<p>The unicorn has a connection to the creatures of the natural world that allows them to communicate with animals. They can ask questions of, receive answers from, and use the Diplomacy skill with animals.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Av5F60Xe1vXr81pb",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.Av5F60Xe1vXr81pb",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kquBnQ0kObZztnBc",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "+1 to Will Saves vs. Mental",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "mental"
+            ],
+            "selector": "will",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "slug": "1-status-to-all-saves-vs-magic",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vNaUr8lkk7o1zXWJ",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.vNaUr8lkk7o1zXWJ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Ghost Touch",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>A unicorn's Strikes have the effects of a <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}</em> property rune.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "key": "AdjustStrike",
+            "mode": "add",
+            "property": "property-runes",
+            "value": "ghost-touch"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "65E6IqqYN0IW2HsH",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.65E6IqqYN0IW2HsH",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/TwoActions.webp",
+      "name": "Powerful Charge",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The unicorn Strides up to double its Speed in a straight line and then makes a horn Strike. If the unicorn moved at least 20 feet, it deals an additional 2d6 damage on a hit. This counts as two attacks for MAP.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "powerful-charge",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "powerful-charge"
+            ],
+            "selector": "horn-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Q8pZ69amWHIPypg3",
+      "_key": "!actors.items!pToLSwkgA7TUKPP8.Q8pZ69amWHIPypg3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Halting Hoof",
+      "ownership": {
+        "MnTIcQh7jQQBQ1dA": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature within your reach uses a move action or leaves a square during a move action it’s using.<br /></p><p><strong>Effect</strong> You strike out when your foe tries to flee. Make a hoof Strike against the triggering creature. If the attack is a critical hit and the trigger was a move action, you disrupt that action.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Blue Unicorn",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Unicorn",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/pf2e-tokens-monster-core/assets/subjects/Unicorn.webp"
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "src": "modules/covalon/images/Furious%20Fey/blue_unicorn.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": "+2 to will saves vs. mental"
+      },
+      "hp": {
+        "details": "",
+        "max": 95,
+        "temp": 0,
+        "value": 95
+      },
+      "immunities": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 35
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Symbols of grace and purity, unicorns resemble proud and noble horses. They typically have pure white coats, but they are best known for the single, delicate horn that extends from the center of their forehead. While unicorns often serve as protectors of unspoiled wilderness and sacred places, they are themselves highly sought after for their horns, which are said to possess potent magical properties. To many, the mere idea of hunting such a magnificent creature in the hopes of severing its horn is utterly reprehensible. Indeed, a dehorned unicorn is a sorry sight, and few such unicorns survive much longer in the wild.</p>\n<p>Unicorns are found almost exclusively in remote, unsullied areas of wilderness. Sometimes associated with good-aligned deities, other times associated with nature and the fey, unicorns are always known for their righteousness and nobility. They are wary, at best, of most humanoid creatures, due in large part to poachers' tendency to hunt them for their horns, but unicorns are often rumored to have a weakness for those who are pure of both heart and spirit. Despite some tales, unicorns are equally likely to recognize purity in people of all genders.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 13
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 11
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 14
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 15,
+        "special": []
+      },
+      "athletics": {
+        "base": 15,
+        "special": []
+      },
+      "diplomacy": {
+        "base": 16,
+        "special": []
+      },
+      "stealth": {
+        "base": 12,
+        "special": []
+      },
+      "survival": {
+        "base": 13,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "beast",
+        "fey",
+        "holy"
+      ]
+    }
+  },
+  "type": "npc"
+}

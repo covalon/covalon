@@ -1,0 +1,433 @@
+{
+  "_id": "7krEC0WU1Kn2fLhu",
+  "_key": "!actors!7krEC0WU1Kn2fLhu",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "0AjFUjrw7ZBxGaUQ",
+  "img": "icons/tools/hand/pickaxe-worn-steel-grey.webp",
+  "items": [
+    {
+      "_id": "kNGWVkbLaC15jCqN",
+      "_key": "!actors.items!7krEC0WU1Kn2fLhu.kNGWVkbLaC15jCqN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Neverending Toil",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Living creatures enter the area of the haunt.</p><p><strong>Effect</strong> The dwarven spirits shout profanities and insist that the PCs join in the work. All living creatures in the area of the haunt must attempt a @Check[will|dc:18|traits:mental] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Off-Guard} for one round.</p><p><strong>Failure</strong> The creature is compelled to join the miners' work. At the end of its next turn, it takes @Damage[(1d6+2)[mental]] damage unless it spends at least one action to Strike a stone surface.</p><p><strong>Critical Failure</strong> As failure, but the creature takes the mental damage unless it spends two actions to Strike a stone surface.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Immunity",
+            "mode": "remove",
+            "type": [
+              "object-immunities"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mental",
+            "occult",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "eq5wG1FsIhICQfRY",
+      "_key": "!actors.items!7krEC0WU1Kn2fLhu.eq5wG1FsIhICQfRY",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": "HBrMkhSgQHASo1pW",
+      "img": "systems/pf2e/assets/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch) - T1",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.935,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "2",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "2"
+              },
+              {
+                "label": "Level 1",
+                "value": "1"
+              },
+              {
+                "label": "Level 3",
+                "value": "3"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:1"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:3"
+            ],
+            "selector": [
+              "inline-dc",
+              "attack-roll"
+            ],
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:3"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:1"
+            ],
+            "selector": "damage",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Manic Miners (T1)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Manic Miners",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/tools/hand/pickaxe-worn-steel-grey.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 15
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "1/3 HP = 1 success to disable",
+        "max": 30,
+        "temp": 0,
+        "value": 30
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "disease"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        },
+        {
+          "exceptions": [],
+          "type": "void"
+        },
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [
+            "non-magical"
+          ],
+          "exceptions": [
+            "ghost-touch",
+            "force",
+            "vitality",
+            "spirit"
+          ],
+          "type": "all-damage",
+          "value": 3
+        }
+      ],
+      "stealth": {
+        "details": "",
+        "value": 8
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>The spirits of ancient dwarven miners lingers in the catacombs over their rusty and broken tools, driven to madness by their neverending work.</p>",
+      "disable": "<p>@Check[religion|dc:15|traits:action:disable-a-device]{Religion} or @Check[occultism|dc:15|traits:action:disable-a-device]{Occultism} to exorcise the spirits.</p><p>@Check[diplomacy|dc:15|traits:action:disable-a-device]{Diplomacy}, @Check[deception|dc:15|traits:action:disable-a-device]{Deception}, @Check[intimidation|dc:15|traits:action:disable-a-device]{Intimidation} or another social skill (at the GM's discretion) to calm, trick, or scare off the spirits.</p><p>Three total successes are required to completely disable the hazard. A critical success to disable counts as two successes.</p><p>One success is also earned towards disabling the hazard if the haunt takes damage equal to one third of its total HP.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 2
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Covalon: Whitespire Expedition"
+      },
+      "reset": "<p>The spirits return after 1 day, unless their broken mining equipment is recovered and repaired. </p>",
+      "routine": "<p>(1 action) The dwarves continue to urge all nearby creatures to join their work. The haunt uses Neverending Toil on any creatures in the area that are not currently affected.</p><p>Creatures that are already affected must attempt a @Check[will|dc:18|traits:mental] save with the below effects. The DC is lowered by 2 for each success completed towards disabling the hazard.</p><p>One success: @Check[will|dc:16|traits:mental], Two successs: @Check[will|dc:14|traits:mental]</p><hr><p><strong>Critical Success</strong> The amount of actions a creature must spend striking a stone surface to avoid taking damage decreases by 2.</p><p><strong>Success</strong> The amount of actions a creature must spend striking a stone surface to avoid taking damage decreases by 1.</p><p><strong>Failure</strong> The amount of actions a creature must spend striking a stone surface to avoid taking damage increases by 1.</p><p>If a creature would ever need to spend more actions than it has, the damage it takes at the end of its turn is doubled unless it spends all its actions to Strike stone surfaces.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 5
+      },
+      "reflex": {
+        "value": 11
+      },
+      "will": {
+        "value": 5
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "haunt"
+      ]
+    }
+  },
+  "type": "hazard"
+}

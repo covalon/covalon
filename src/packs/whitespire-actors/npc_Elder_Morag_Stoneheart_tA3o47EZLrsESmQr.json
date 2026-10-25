@@ -1,0 +1,351 @@
+{
+  "_id": "tA3o47EZLrsESmQr",
+  "_key": "!actors!tA3o47EZLrsESmQr",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sheetClass": "pf2e.SimpleNPCSheet"
+    }
+  },
+  "folder": null,
+  "img": "modules/covalon/images/Whitespire/Spirit_Priest.webp",
+  "items": [
+    {
+      "_id": "LpOdMeZ7Ko8cKcj0",
+      "_key": "!actors.items!tA3o47EZLrsESmQr.LpOdMeZ7Ko8cKcj0",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Whitespire Lore",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "D8aW8CrSWYTSWE2x",
+      "_key": "!actors.items!tA3o47EZLrsESmQr.D8aW8CrSWYTSWE2x",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Dwarf Lore",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "lore"
+    }
+  ],
+  "name": "Elder Morag Stoneheart",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 30,
+    "disposition": 1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Elder Morag Stoneheart",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.49,
+      "anchorY": 0.51,
+      "fit": "contain",
+      "scaleX": 1.85,
+      "scaleY": 1.85,
+      "src": "modules/covalon/images/Whitespire/A_Friendly_Dwarf2.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.955
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 10
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 80,
+        "temp": 0,
+        "value": 80
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "alliance": "party",
+      "blurb": "he/him grizzled dwarf history keeper",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 5
+      },
+      "privateNotes": "<p>Morag is not explicitly used for any of the Whitespire missions. This stat block and brief description/background have been provided in case you'd like to include him as an NPC in the Whitespire Camp. </p><p><strong>The Stonewyrm</strong></p><p>A legendary draconic beast that was subdued generations and generations ago before Whitespire was founded. Said to be larger than mountains, the ancient dwarven clans forced it to retreat into its impenetrable nest of adamantine, where it slumbers even now.</p><p><strong>Whitespire’s Demise</strong></p><p>During the Cataclysm, Morag experienced firsthand the crazed draconic frenzy that fell upon Whitespire. As a guardian of ancient knowledge, he led survivors into the secret catacombs below the city. This kept them safe for a time, until a strange magical gas began to flow upwards from the depths. All those who encountered it turned to stone. Remembering the myths of Whitespire’s founding, Morag believes this gas to be exhalations of the Stoneworm itself, deep in slumber. Faced with unending draconic hordes above, and the Stonewyrm’s Breath below, the dwarven survivors in the Catacombs slowly dwindled and all hope was lost. The last of the survivors were scattered in a draconic attack and turned to stone, including Morag, and that’s the last thing he remembers before the Covalonians arrived and saved him.</p><p></p>",
+      "publicNotes": "<p>The last stoneteller of the famous Stoneheart clan, one of the founding families of Whitespire that created the Sons of the Iron Fathers, the republic that ran the city. Morag is very knowledgeable about the history, myths, and legends, including the myth of the Stonewyrm. </p>",
+      "publication": {
+        "authors": "Covalon",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Whitespire Expedition"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "greater darkvision",
+      "mod": 12,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 12
+      }
+    },
+    "skills": {
+      "performance": {
+        "base": 13,
+        "special": []
+      },
+      "society": {
+        "base": 13,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "dwarf",
+        "humanoid"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,105 @@
+{
+  "_id": "6vwg8yzYDgQeCnOc",
+  "_key": "!items!6vwg8yzYDgQeCnOc",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.350",
+    "createdTime": 1763937901788,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763937901788,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "name": "Effect: Empower Emotion",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.948,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "bonus:slug:courageous-anthem",
+                  "courageous-anthem:origin:signature:{item|origin.signature}"
+                ]
+              },
+              {
+                "and": [
+                  "bonus:slug:rallying-anthem",
+                  "rallying-anthem:origin:signature:{item|origin.signature}"
+                ]
+              }
+            ]
+          }
+        ],
+        "selectors": [
+          "ac",
+          "saving-throw",
+          "attack-roll",
+          "damage",
+          "athletics",
+          "fortitude",
+          "reflex"
+        ],
+        "value": "2"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

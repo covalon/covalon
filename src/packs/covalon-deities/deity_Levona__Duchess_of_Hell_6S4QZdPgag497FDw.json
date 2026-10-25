@@ -1,0 +1,82 @@
+{
+  "_id": "6S4QZdPgag497FDw",
+  "_key": "!items!6S4QZdPgag497FDw",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1691431009494,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807529,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/infernal-pact.webp",
+  "name": "Levona, Duchess of Hell",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 600000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>The Duchess of Hell worked her way through the ranks, proving to all with the right deals power can be grasped. However, though power can be grasped, Levona keeps a tight grip on Hell, showing no mercy to those that would attempt to wrest it from her.<br /><strong>Edicts</strong> come out ahead in contracts, show no mercy to those beneath your station, be subservient to those above you<br /><strong>Anathema</strong> break a contract, show mercy, insult Levona in any way</p>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "confidence",
+        "fire",
+        "trickery",
+        "tyranny"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "skill": [
+      "deception"
+    ],
+    "slug": null,
+    "spells": {
+      "2": "Compendium.pf2e.spells-srd.Item.hoR6w8BqX2F35Tdx",
+      "4": "Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu",
+      "6": "Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "whip"
+    ]
+  },
+  "type": "deity"
+}

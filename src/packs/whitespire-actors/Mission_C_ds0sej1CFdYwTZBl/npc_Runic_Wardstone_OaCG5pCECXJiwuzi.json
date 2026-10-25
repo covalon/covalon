@@ -1,0 +1,402 @@
+{
+  "_id": "OaCG5pCECXJiwuzi",
+  "_key": "!actors!OaCG5pCECXJiwuzi",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1773786819893,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760269348,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "ds0sej1CFdYwTZBl",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+  "items": [
+    {
+      "_id": "OqVNMCqjYqVPHfe9",
+      "_key": "!actors.items!OaCG5pCECXJiwuzi.OqVNMCqjYqVPHfe9",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1773788634325,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Runic Wardstone",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>An ancient stone covered in dwarven protection runes.</p><p>The wardstone is immune to all damage except for the @UUID[Compendium.covalon.whitespire-items.Item.LSaaqMuNBFgPl478]{Stonewyrm's Ire} action.</p><p>The wardstone cannot be healed or repaired.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "rKnDPafjfVgZSBzb",
+      "_key": "!actors.items!OaCG5pCECXJiwuzi.rKnDPafjfVgZSBzb",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Wardstone Aura",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The wardstone is surrounded by a 10 foot aura. Allied creatures within the area are affected by @UUID[Compendium.pf2e.spells-srd.HGSCofGACf1TVH55]{Benediction}.</p><p>If the wardstone is destroyed, all allied creatures are instead affected by @UUID[Compendium.pf2e.spells-srd.AdZ2rWJStZ5unxzq]{Malediction}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "appearance": {
+              "texture": {
+                "alpha": 0.2,
+                "src": "icons/magic/symbols/runes-star-pentagon-blue.webp"
+              }
+            },
+            "effects": [
+              {
+                "affects": "allies",
+                "includesSelf": false,
+                "uuid": "Compendium.pf2e.spell-effects.Item.GogALNdgQ7Fn5oMG"
+              }
+            ],
+            "key": "Aura",
+            "predicate": [
+              {
+                "not": "destroyed"
+              }
+            ],
+            "radius": 10
+          },
+          {
+            "key": "RollOption",
+            "label": "Wardstone is Destroyed",
+            "option": "destroyed",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "appearance": {
+              "texture": {
+                "alpha": 0.2,
+                "src": "icons/magic/symbols/runes-star-pentagon-magenta.webp"
+              }
+            },
+            "effects": [
+              {
+                "affects": "allies",
+                "includesSelf": false,
+                "uuid": "Compendium.pf2e.spell-effects.Item.1jX8W0eyMPJ0MFKY"
+              }
+            ],
+            "key": "Aura",
+            "predicate": [
+              "destroyed"
+            ],
+            "radius": 10
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Runic Wardstone",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Runic Wardstone",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/magic/defensive/shield-barrier-glowing-triangle-orange.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 0
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "Runic Wardstone",
+        "max": 3,
+        "temp": 0,
+        "value": 3
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 0
+      }
+    },
+    "details": {
+      "alliance": "party",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 20
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 0
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "skills": {},
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "npc"
+}

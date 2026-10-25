@@ -1,0 +1,1458 @@
+{
+  "_id": "n03DIu55JkaWZJJG",
+  "_key": "!scenes!n03DIu55JkaWZJJG",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.varceta-scenes.Scene.n03DIu55JkaWZJJG",
+    "coreVersion": "14.367",
+    "createdTime": 1742662296704,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742667816849,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "active": true,
+  "drawings": [
+    {
+      "_id": "9PmK8piYbmXa8hrx",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.9PmK8piYbmXa8hrx",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3200
+    },
+    {
+      "_id": "794xPuAboxbnTdJV",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.794xPuAboxbnTdJV",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "align": "center",
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Right Tether Immunity",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4535.596735123447,
+      "y": 3096.662806082177
+    },
+    {
+      "_id": "aKFphw5E2WtrsCHu",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.aKFphw5E2WtrsCHu",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "align": "center",
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Left Tether Immunity",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4044.3801013696147,
+      "y": 3097.7752040547844
+    },
+    {
+      "_id": "1VsTrTVG4dX4EPrk",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.1VsTrTVG4dX4EPrk",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3300
+    },
+    {
+      "_id": "U5Eo6njNBcWUdle2",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.U5Eo6njNBcWUdle2",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3400
+    },
+    {
+      "_id": "cZfPFvFW8KFOTtlP",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.cZfPFvFW8KFOTtlP",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3500
+    },
+    {
+      "_id": "5SxsiCjkoi2dLoQc",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.5SxsiCjkoi2dLoQc",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3600
+    },
+    {
+      "_id": "FidU6dfaTEhFzWRF",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.FidU6dfaTEhFzWRF",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": true,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 100,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 400
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Player",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4300,
+      "y": 3700
+    },
+    {
+      "_id": "ihttUAfyj2tvQcyA",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.ihttUAfyj2tvQcyA",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "align": "center",
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": false,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 75,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 475
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Last Used Tide Ability",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4288,
+      "y": 4000
+    },
+    {
+      "_id": "vNzg11mwov0333Zz",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.vNzg11mwov0333Zz",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "align": "center",
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": false,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 75,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 475
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Waves Crash In",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 4525,
+      "y": 4100
+    },
+    {
+      "_id": "k7TvBMEDL1tUX1NY",
+      "_key": "!scenes.drawings!n03DIu55JkaWZJJG.k7TvBMEDL1tUX1NY",
+      "author": "wIOTBCOlihhXbUqQ",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#000000",
+      "fillType": 0,
+      "flags": {
+        "advanced-drawing-tools": {
+          "textStyle": {
+            "align": "center",
+            "dropShadow": false,
+            "fontVariant": "small-caps",
+            "fontWeight": "bold"
+          }
+        },
+        "tagger": {}
+      },
+      "fontFamily": "Eczar",
+      "fontSize": 48,
+      "hidden": false,
+      "interface": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 75,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 475
+      },
+      "sort": 6,
+      "strokeAlpha": 0,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 6,
+      "text": "Tides Rush Out",
+      "textAlpha": 1,
+      "textColor": "#000000",
+      "texture": null,
+      "x": 3987.5,
+      "y": 4100
+    }
+  ],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "pf2e": {
+      "environmentTypes": [],
+      "hearingRange": null,
+      "rulesBasedVision": null
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 1,
+    "units": "ft"
+  },
+  "height": 3000,
+  "initial": {
+    "scale": 0.5,
+    "x": null,
+    "y": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!n03DIu55JkaWZJJG.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Varceta/Varceta%20Finale.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Varceta Finale",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Varceta Finale",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "padding": 0.25,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/n03DIu55JkaWZJJG-thumb.webp",
+  "tiles": [
+    {
+      "_id": "P7HVkmJSXt3XokdH",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.P7HVkmJSXt3XokdH",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 800,
+      "hidden": false,
+      "levels": [],
+      "locked": true,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 0,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Open%20Scroll.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1100,
+      "x": 3941,
+      "y": 3023
+    },
+    {
+      "_id": "m2sNn4oZZCqSbgIt",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.m2sNn4oZZCqSbgIt",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4300,
+      "y": 3800
+    },
+    {
+      "_id": "7kHpqv3HGZWucx2s",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.7kHpqv3HGZWucx2s",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4800,
+      "y": 3800
+    },
+    {
+      "_id": "jUr0ADpzDZ1roEWp",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.jUr0ADpzDZ1roEWp",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4100,
+      "y": 3800
+    },
+    {
+      "_id": "wEpt1NjE2ZK3ZcsR",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.wEpt1NjE2ZK3ZcsR",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4600,
+      "y": 3800
+    },
+    {
+      "_id": "uprfiLiXKP8KqKGc",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.uprfiLiXKP8KqKGc",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4200,
+      "y": 3800
+    },
+    {
+      "_id": "JayUFmgKxWjX7493",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.JayUFmgKxWjX7493",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4700,
+      "y": 3800
+    },
+    {
+      "_id": "pqaxlowrJMhNV7mR",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.pqaxlowrJMhNV7mR",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 450,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 0,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Open%20Scroll.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 1200,
+      "x": 3900,
+      "y": 3950
+    },
+    {
+      "_id": "Dzelmp80rfCEml08",
+      "_key": "!scenes.tiles!n03DIu55JkaWZJJG.Dzelmp80rfCEml08",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 100,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 1,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/Black%20X.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 100,
+      "x": 4450,
+      "y": 4200
+    }
+  ],
+  "tokenVision": true,
+  "tokens": [
+    {
+      "_id": "StdiqVL8BMStqJqM",
+      "_key": "!scenes.tokens!n03DIu55JkaWZJJG.StdiqVL8BMStqJqM",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "BvFF7oCEEZLeMMtd",
+      "actorLink": true,
+      "alpha": 1,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "TAe9zlD1Gee02Ry8",
+        "_key": "!scenes.tokens.delta!n03DIu55JkaWZJJG.StdiqVL8BMStqJqM.TAe9zlD1Gee02Ry8",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {
+        "basicSight": {
+          "enabled": true,
+          "range": 500
+        }
+      },
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "healthEstimate": {
+          "dontMarkDead": false,
+          "hideHealthEstimate": false,
+          "hideName": false
+        },
+        "monks-combat-marker": {
+          "token-combat-animation": "",
+          "token-highlight": "",
+          "token-highlight-scale": 1.5
+        },
+        "pf2e": {
+          "autoscale": false,
+          "linkToActorSize": true
+        },
+        "tagger": {},
+        "token-auras": {
+          "aura1": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          },
+          "aura2": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          }
+        }
+      },
+      "height": 1,
+      "hidden": false,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Fascimile of  Traseem, The Great Seabird",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 0,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 1,
+        "color": null,
+        "contrast": 0,
+        "enabled": true,
+        "range": 500,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 25,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1.2,
+        "scaleY": 1.2,
+        "src": "modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 2800,
+      "y": 2100
+    },
+    {
+      "_id": "csQ5GF7IQrynq4Gc",
+      "_key": "!scenes.tokens!n03DIu55JkaWZJJG.csQ5GF7IQrynq4Gc",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "BvFF7oCEEZLeMMtd",
+      "actorLink": true,
+      "alpha": 1,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "2p7AfmVZYBpcFT2J",
+        "_key": "!scenes.tokens.delta!n03DIu55JkaWZJJG.csQ5GF7IQrynq4Gc.2p7AfmVZYBpcFT2J",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {
+        "basicSight": {
+          "enabled": true,
+          "range": 500
+        }
+      },
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "healthEstimate": {
+          "dontMarkDead": false,
+          "hideHealthEstimate": false,
+          "hideName": false
+        },
+        "monks-combat-marker": {
+          "token-combat-animation": "",
+          "token-highlight": "",
+          "token-highlight-scale": 1.5
+        },
+        "pf2e": {
+          "autoscale": false,
+          "linkToActorSize": true
+        },
+        "tagger": {},
+        "token-auras": {
+          "aura1": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          },
+          "aura2": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          }
+        }
+      },
+      "height": 1,
+      "hidden": false,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Fascimile of  Traseem, The Great Seabird",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 0,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 1,
+        "color": null,
+        "contrast": 0,
+        "enabled": true,
+        "range": 500,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 26,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1.2,
+        "scaleY": 1.2,
+        "src": "modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 5800,
+      "y": 2100
+    },
+    {
+      "_id": "C9Jk4kAdIB0qpbpR",
+      "_key": "!scenes.tokens!n03DIu55JkaWZJJG.C9Jk4kAdIB0qpbpR",
+      "_movementHistory": [],
+      "_regions": [],
+      "actorId": "u6sjssMlFZ5s8SJM",
+      "actorLink": true,
+      "alpha": 1,
+      "bar1": {
+        "attribute": null
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "delta": {
+        "_id": "NbsX3EanaEtPwufu",
+        "_key": "!scenes.tokens.delta!n03DIu55JkaWZJJG.C9Jk4kAdIB0qpbpR.NbsX3EanaEtPwufu",
+        "effects": [],
+        "flags": {},
+        "img": null,
+        "items": [],
+        "name": null,
+        "ownership": null,
+        "system": {},
+        "type": null
+      },
+      "depth": 1,
+      "detectionModes": {
+        "basicSight": {
+          "enabled": true,
+          "range": 500
+        }
+      },
+      "displayBars": 20,
+      "displayName": 20,
+      "disposition": -1,
+      "elevation": 0,
+      "flags": {
+        "healthEstimate": {
+          "dontMarkDead": false,
+          "hideHealthEstimate": false,
+          "hideName": false
+        },
+        "monks-combat-marker": {
+          "token-combat-animation": "",
+          "token-highlight": "",
+          "token-highlight-scale": 1.5
+        },
+        "pf2e": {
+          "autoscale": false,
+          "linkToActorSize": false
+        },
+        "tagger": {},
+        "token-auras": {
+          "aura1": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          },
+          "aura2": {
+            "colour": "#ffffff",
+            "distance": null,
+            "opacity": 0.5,
+            "permission": "all",
+            "square": false
+          }
+        }
+      },
+      "height": 1,
+      "hidden": true,
+      "level": "defaultLevel0000",
+      "light": {
+        "alpha": 0.5,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 5,
+          "type": null
+        },
+        "attenuation": 0.5,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 0,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "lockRotation": false,
+      "locked": false,
+      "movementAction": null,
+      "name": "Paltry Trinkets",
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "colors": {
+          "background": null,
+          "ring": null
+        },
+        "effects": 0,
+        "enabled": false,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "rotation": 0,
+      "shape": 4,
+      "sight": {
+        "angle": 360,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "color": null,
+        "contrast": 0,
+        "enabled": false,
+        "range": 0,
+        "saturation": 0,
+        "visionMode": "basic"
+      },
+      "sort": 27,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Varceta/paltry_trinkets.Token.webp",
+        "tint": "#ffffff"
+      },
+      "turnMarker": {
+        "animation": null,
+        "disposition": false,
+        "mode": 1,
+        "src": null
+      },
+      "width": 1,
+      "x": 4449,
+      "y": 3101
+    }
+  ],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 6000
+}

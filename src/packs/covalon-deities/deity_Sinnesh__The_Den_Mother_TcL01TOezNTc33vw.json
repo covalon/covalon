@@ -1,0 +1,86 @@
+{
+  "_id": "TcL01TOezNTc33vw",
+  "_key": "!items!TcL01TOezNTc33vw",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.3gZ02u8lYgtFpVNL",
+    "coreVersion": "14.367",
+    "createdTime": 1725307134087,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807532,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/passwall.webp",
+  "name": "Sinnesh, The Den Mother",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 2700000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p>The Den Mother is an ancient being who originally gained power due to the worship of warren dwelling Ysoki. She is a deity of earth, family, and crafting, usually depicted as either a matronly Ysoki woman or as a massive subterranean rat. Though still somewhat of a patron diety to many Ysoki clans, she has also become popular with all folk who live or travel beneath the surface, mine and utilize underground resources, or value strong familial ties. Her holy symbol is a rat, curled up as though sleeping in a snug den.</p><p><strong>Edicts</strong> respect natural caves and underground spaces, value the knowledge of your elders, utilize the resources you gather, assist underground travellers<br /><strong>Anathema</strong> end the life of a child, let precious minerals or metals go to waste, abandon a family member who cherishes and respects you</p></div></div>"
+    },
+    "domains": {
+      "alternate": [
+        "travel"
+      ],
+      "primary": [
+        "creation",
+        "earth",
+        "family",
+        "protection"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "crafting"
+    ],
+    "slug": "sinnesh",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.0uRpypf1Hi7ahvTl",
+      "3": "Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H",
+      "5": "Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "light-hammer"
+    ]
+  },
+  "type": "deity"
+}

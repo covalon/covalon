@@ -1,0 +1,834 @@
+{
+  "_id": "8itzXslnJhi0yvJV",
+  "_key": "!actors!8itzXslnJhi0yvJV",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1676129216886,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840791034,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "sN9Gbp9nF9UYIf7u",
+  "img": "modules/covalon/images/Ratchethallow/RatchetPillar.webp",
+  "items": [
+    {
+      "_id": "unNUoZYsolpD3I6G",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.unNUoZYsolpD3I6G",
+      "_stats": {
+        "compendiumSource": "Actor.nCLV08TacL3IncNP.Item.dtNZ2SEooQS9WT9u",
+        "coreVersion": "14.367",
+        "createdTime": 1676128908119,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678552583802,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Boiling Burst",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "VH4xMOLmRr9DCiO5": {
+            "category": "splash",
+            "damage": "15",
+            "damageType": "fire"
+          },
+          "tQm7T8ezY0ebL7bg": {
+            "category": null,
+            "damage": "6d6",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears is immune to splash damage from this ability.</p><p>Each pillar only has one action per turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-60"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "q6N4OMdihXwOLBjX",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.q6N4OMdihXwOLBjX",
+      "_stats": {
+        "compendiumSource": "Actor.nCLV08TacL3IncNP.Item.fe3l5D54EwTGGn5q",
+        "coreVersion": "14.367",
+        "createdTime": 1676128967531,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678552593908,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Shocking Burst",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "BO55ekBnNGQsOq0Q": {
+            "category": null,
+            "damage": "6d6",
+            "damageType": "electricity"
+          },
+          "VSK0HKy8jJ9lm1wv": {
+            "category": "splash",
+            "damage": "15",
+            "damageType": "electricity"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Lord of Gears is immune to splash damage from this ability.</p><p>Each pillar only has one action per turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-60"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "WgF0hodp8uDY5C3v",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.WgF0hodp8uDY5C3v",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676129491702,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678593898319,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Steam Aura",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:25]{25 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>\n<p>Any creature starting their turn in or entering the area take [[/r 4d6[fire]]] on a @Check[type:reflex|dc:30|basic:true].</p>\n<p>The Lord of Gears is immune to damage from Steam Aura.</p>\n<p>If a creature is in the Steam Aura from multiple sources at the same time, it still only needs to make a single save. The aura is no more potent from coming from multiple sources.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 25,
+            "slug": "steam-aura",
+            "traits": [
+              "aura",
+              "fire"
+            ]
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "fire"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xuhxCwwnYUSmKbwd",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.xuhxCwwnYUSmKbwd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1676855478328,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678552348078,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Disable",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>On a successful disable, the Pillar is deactivated for two rounds. This is the same disable effect as The Lord of Gears' Shocking Siphon ability.</p>\n<p>All hardness is removed until reactivation, and the steam aura and burst attacks don't occur.</p>\n<p> </p>\n<p>To disable a Pillar, 1 success is required on either a @Check[type:crafting|dc:31|name:Disable Pillar|traits:action:disable-a-device] (expert), @Check[type:arcana|dc:31|name:Disable Pillar 2|traits:action:disable-a-device] (expert), or @Check[type:thievery|dc:31|name:Disable Pillar 2|traits:action:disable-a-device] (expert) check.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ujjp4W2r5nAhiku5",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.ujjp4W2r5nAhiku5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1677977362360,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1677977394996,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Clockwork Core",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>For the purposes of the Disintigrate spell, Pillars are treated as creatures instead of objects.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WkY0WAkyIH8D8UQ7",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.WkY0WAkyIH8D8UQ7",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.9qV49KjZujZnSp6w",
+        "coreVersion": "14.367",
+        "createdTime": 1678060918904,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678060918904,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "All-Around Vision",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Bestiary"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.flanking.flankable",
+            "value": false
+          }
+        ],
+        "slug": "all-around-vision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "aO5yFYL8gcOt3lRC",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.aO5yFYL8gcOt3lRC",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1678491124232,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "oqapokMmSpkCEHw7",
+        "modifiedTime": 1678491166619,
+        "systemId": "pf2e",
+        "systemVersion": "4.8.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Solid Construction",
+      "ownership": {
+        "default": 0,
+        "oqapokMmSpkCEHw7": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.94,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>As the Pillars are built into the workshop, forced movement doesn't work on the Pillar unless already destroyed.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "uV6Vi2Df71bBfDcA",
+      "_key": "!actors.items!8itzXslnJhi0yvJV.uV6Vi2Df71bBfDcA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.3.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Cannot Flank",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": null,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The pillars cannot flank creatures, as they do not have any melee attacks. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.flanking.canFlank",
+            "value": false
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Pillars (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Pillar",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Ratchethallow/RatchetPillar.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.346",
+        "schema": 0.94,
+        "system": "7.3.1"
+      },
+      "version": 0.941
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      },
+      "con": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      },
+      "dex": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      },
+      "int": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      },
+      "str": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      },
+      "wis": {
+        "min": 3,
+        "mod": 0,
+        "value": 8
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 30
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hardness": {
+        "value": 16
+      },
+      "hp": {
+        "details": "",
+        "max": 65,
+        "temp": 0,
+        "value": 65
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "electricity"
+        },
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        },
+        {
+          "exceptions": [],
+          "type": "prone"
+        },
+        {
+          "exceptions": [],
+          "type": "mental"
+        }
+      ],
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 0
+      },
+      "vulnerabilities": []
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 20,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "skills": {},
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "construct"
+      ]
+    }
+  },
+  "type": "npc"
+}

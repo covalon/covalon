@@ -1,0 +1,267 @@
+{
+  "_id": "yW8eU0SrZ9JJ8pw1",
+  "_key": "!actors!yW8eU0SrZ9JJ8pw1",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1679535060458,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.8.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1754840791034,
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "ANCbuUfV6RWPqZ1p",
+      "_key": "!actors.items!yW8eU0SrZ9JJ8pw1.ANCbuUfV6RWPqZ1p",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": 1679536221761,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "jKtQ3yoc8rnYa4Xt",
+        "modifiedTime": 1687866004790,
+        "systemId": "pf2e",
+        "systemVersion": "4.12.9"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Power On!",
+      "ownership": {
+        "default": 0,
+        "pc8bXOzEQL218kyT": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.346",
+            "schema": 0.932,
+            "system": "7.3.1"
+          },
+          "version": 0.941
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The encounter starts; </p>\n<p><strong>Effect</strong> The floor begins to shift as a massive machine turns on. All non-construct creatures in the room must succeed a @Check[type:reflex|dc:18|basic:false] or fall prone.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Shifting Floor",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Shifting Floor",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.346",
+        "schema": 0.932,
+        "system": "7.3.1"
+      },
+      "version": 0.941
+    },
+    "attributes": {
+      "ac": {
+        "value": 0
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 11
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>A 10x10 section of the floor moves horizontally moving any creatures on it with it. If it moves a creature so that it would trigger another hazard, that hazard will activate at the start of the creatures turn.</p>",
+      "disable": "<p>On a successful disable, the Shifting Floor is deactivated for one round. Once all enemies have been defeated the Shifting Floor is Disabled Permanently.</p>\n<p>To disable the Hazard, 2 successes are required on either a @Check[type:Athletics|dc:21|name:Disable Shifting Floor|traits:action:disable-a-device] (untrained), @Check[type:crafting|dc:21|name:Shifting Floor|traits:action:disable-a-device] (trained), or @Check[type:Theivery|dc:21|name:Disable Shifting Floor|traits:action:disable-a-device] (trained) check.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 2
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p><strong>Routine</strong> A single 10x10 section of the floor slides up to 30 feet in a straight line moving any creatures on it with it. Creatures that are large in size or greater fall prone and do not move as the floor slides out from under them.</p>\n<p>This is a forced movement effect and DOES NOT provoke attacks of opportunity or other reactions triggered by a \"movement\" action.</p>\n<p>The area where the floor was is replaced with new flooring and does not create a pit or hole.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0
+      },
+      "reflex": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

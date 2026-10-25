@@ -1,0 +1,164 @@
+{
+  "_id": "3Iy4iDXkqZkq2xiJ",
+  "_key": "!items!3Iy4iDXkqZkq2xiJ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1770064254835,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "CsHicX4uI0fz4nW6",
+    "modifiedTime": 1770064254845,
+    "systemId": "pf2e",
+    "systemVersion": "7.9.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "nNfukLcvj9CG3Zdx",
+  "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+  "name": "Shrouded in Mist T4",
+  "ownership": {
+    "CsHicX4uI0fz4nW6": 3,
+    "default": 0
+  },
+  "sort": 50000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.953,
+        "system": "7.9.1"
+      },
+      "version": 0.954
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>The creature gains 20 temp HP that last for one round, and Cover.</p>"
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "20"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.SpecificRule.Cover.Lesser",
+            "sort": 0,
+            "value": {
+              "bonus": 1,
+              "level": "lesser"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.Cover.Standard",
+            "sort": 1,
+            "value": {
+              "bonus": 2,
+              "level": "standard"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.Cover.Greater",
+            "sort": 2,
+            "value": {
+              "bonus": 4,
+              "level": "greater"
+            }
+          },
+          {
+            "label": "PF2E.SpecificRule.Cover.Prone",
+            "predicate": [
+              "self:condition:prone"
+            ],
+            "sort": 3,
+            "value": {
+              "bonus": 4,
+              "level": "greater-prone"
+            }
+          }
+        ],
+        "flag": "cover",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Cover.Prompt"
+      },
+      {
+        "key": "RollOption",
+        "option": "self:cover-bonus:{item|flags.pf2e.rulesSelections.cover.bonus}"
+      },
+      {
+        "key": "RollOption",
+        "option": "self:cover-level:{item|flags.pf2e.rulesSelections.cover.level}"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              {
+                "and": [
+                  "self:condition:prone",
+                  "item:ranged"
+                ]
+              },
+              {
+                "not": "self:cover-level:greater-prone"
+              }
+            ]
+          }
+        ],
+        "selector": "ac",
+        "type": "circumstance",
+        "value": "@item.flags.pf2e.rulesSelections.cover.bonus"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "area-effect",
+          {
+            "not": "self:cover-level:greater-prone"
+          }
+        ],
+        "selector": "reflex",
+        "type": "circumstance",
+        "value": "@item.flags.pf2e.rulesSelections.cover.bonus"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

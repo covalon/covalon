@@ -1,0 +1,22 @@
+{
+  "_id": "OAP214kI3PMkgBCd",
+  "_key": "!folders!OAP214kI3PMkgBCd",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1737838476726,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698454,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "C310WGRXIPyxSFak",
+  "name": "Blue Team Dragons",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

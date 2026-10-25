@@ -1,0 +1,125 @@
+{
+  "_id": "Xqw7cjlj5am239Pi",
+  "_key": "!items!Xqw7cjlj5am239Pi",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1726525710474,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619787857,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "282109fd4db2014d6cd0c95f81bd714340efa327",
+      "sourceId": "Item.lQsbbMalXphRZiPz"
+    }
+  },
+  "folder": "jyExZxJ5qxTEMF27",
+  "img": "icons/magic/water/vortex-water-whirlpool.webp",
+  "name": "Effect: Inuchalcum Spell/Infusion",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.932
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>If your next action is to Cast a Spell or use an impulse, it counts as both inubrix and orichalcum (for the purpose of immunities, weaknesses and resistances).</p>"
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 0
+    },
+    "level": {
+      "value": 14
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "domain": "spell-damage",
+        "key": "RollOption",
+        "option": "damage:material:orichalcum"
+      },
+      {
+        "domain": "inline-damage",
+        "key": "RollOption",
+        "option": "damage:material:orichalcum",
+        "predicate": [
+          {
+            "or": [
+              "class:kineticist",
+              "feat:kineticist-dedication"
+            ]
+          }
+        ]
+      },
+      {
+        "domain": "impulse-damage",
+        "key": "RollOption",
+        "option": "damage:material:orichalcum"
+      },
+      {
+        "domain": "spell-damage",
+        "key": "RollOption",
+        "option": "damage:material:inubrix"
+      },
+      {
+        "domain": "inline-damage",
+        "key": "RollOption",
+        "option": "damage:material:inubrix",
+        "predicate": [
+          {
+            "or": [
+              "class:kineticist",
+              "feat:kineticist-dedication"
+            ]
+          }
+        ]
+      },
+      {
+        "domain": "impulse-damage",
+        "key": "RollOption",
+        "option": "damage:material:inubrix"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

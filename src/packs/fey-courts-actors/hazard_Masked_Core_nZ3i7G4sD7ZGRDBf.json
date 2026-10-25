@@ -1,0 +1,458 @@
+{
+  "_id": "nZ3i7G4sD7ZGRDBf",
+  "_key": "!actors!nZ3i7G4sD7ZGRDBf",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1723994655442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.16.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "folder": null,
+  "img": "icons/equipment/head/mask-carved-gargoyle-grey.webp",
+  "items": [
+    {
+      "_id": "Sr0WkI9l8M3Yj1S8",
+      "_key": "!actors.items!nZ3i7G4sD7ZGRDBf.Sr0WkI9l8M3Yj1S8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/chain-lightning.webp",
+      "name": "It's Electric",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Masked Core overcharges one ally within 30 feet. The target becomes @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round, and can only use the extra action to Stride or Step. In T3 and above, it can also use the extra action to Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "magical",
+            "metal"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "aTthrhiMSXycQFWC",
+      "_key": "!actors.items!nZ3i7G4sD7ZGRDBf.aTthrhiMSXycQFWC",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1723994725434,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/thunderburst.webp",
+      "name": "Lightning Strikes",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Masked Core invigorates an ally within 30 feet. The target gains temporary Hit Points, and its Strikes deal additional electricity damage. This effect lasts 1 round.</p><p>@UUID[Compendium.covalon.fey-courts-item.Item.0k80GpQBPLix2CA8]{Effect: Lightning Strikes}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nrOrC26sTT8yUSVk",
+      "_key": "!actors.items!nZ3i7G4sD7ZGRDBf.nrOrC26sTT8yUSVk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/electrified-crystal-ward.webp",
+      "name": "Thunderstruck",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>An enemy within 30 feet uses a move action or leaves a square during a move action it's using.</p>\n<hr />\n<p>The creature must succeed at a <strong>#Hazard 2-16 HDC#</strong> @Check[type:fortitude|dc:HDC] save or its move action is disrupted. It takes a -1 circumstance penalty to this save if it's wearing metal armor or holding a metal object, and on a critical failure is pushed 10 feet away from the Masked Core.</p>\n<div data-visibility=\"gm\">\n<p>In Tier 5, the masked core gains an extra reaction at the start of its turn, which it can only use for Thunderstruck.</p>\n</div>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "magical",
+            "metal"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Masked Core",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "image-hover": {
+        "hideArt": false,
+        "specificArt": "path/image.png"
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-colour": "",
+        "bloodsplat-type": ""
+      },
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Masked Core",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Fey%20Courts/masked_core_token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 100000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.926,
+        "system": "6.2.2"
+      },
+      "version": 0.932
+    },
+    "attributes": {
+      "ac": {
+        "value": 15
+      },
+      "emitsSound": true,
+      "hardness": 7,
+      "hp": {
+        "details": "",
+        "max": 34,
+        "temp": 0,
+        "value": 34
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "electricity"
+        }
+      ],
+      "stealth": {
+        "details": "<p>Level:&nbsp;<strong>Average Party Level (rounded down)</strong></p>\n<p>HP: &nbsp;<strong>#Hazard 2-15 HP#&nbsp;</strong>(use the maximum value)</p>\n<p>Hardness: &nbsp;<strong>#Hazard 2-15 Hardness#&nbsp;</strong>(use the minimum value)</p>\n<p>AC: <strong>#Hazard 2-15 LAC#</strong></p>\n<p>Fortitude: <strong>#Hazard 2-15 L save#</strong></p>\n<p>Reflex: <strong>#Hazard 2-15 H Save#</strong></p>\n<p>Initiative: Set its iniative bonus to&nbsp;<strong>#Hazard 2-13 High# minus 10</strong>, which will affect its Stealth DC. <em>Its actual Stealth DC is 0.</em></p>",
+        "value": 11
+      }
+    },
+    "details": {
+      "description": "<p>An orb charged with magnetic energy floats behind a large metallic mask.</p>\n<p>Upon being disabled or destroyed, the orb goes dormant or crumbles, but the mask remains intact, totally impervious to the players' onslaught.</p>",
+      "disable": "<p>Arcana, Nature or Thievery DC <strong>#Hazard 2-13 High#</strong>. <br>Three successes are required to disable this hazard.</p>\n<p>Two successes make it lose the <strong>Its Electric</strong> action, it will use <strong>Lightning Strikes</strong> a second time instead.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 2
+      },
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>(2 actions) The trap uses its first action to use <strong>It's Electric</strong> on an ally, and its second action to use <strong>Lightning Strikes</strong> on a different ally.</p>\n<p>In Tier 4 and 5, the trap uses a third action to @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} up to 30 feet toward an ally or away from an enemy.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 5
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 11
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "electricity",
+        "metal",
+        "trap",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

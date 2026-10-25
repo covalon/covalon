@@ -1,0 +1,71 @@
+{
+  "_id": "OStLpe2eSDO0K8Ug",
+  "_key": "!items!OStLpe2eSDO0K8Ug",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1739734029787,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742091548361,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "C9zwuwjds0zkKNlg",
+  "img": "systems/pf2e/icons/spells/forbidding-ward.webp",
+  "name": "HORSE Ability: Sonic Damper",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p>Gain Temp HP for one minute. @UUID[Compendium.covalon.varceta-items.Item.U4neml3WvtnLHG6e]{Effect: Sonic Damper}</p>"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day",
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "selfEffect": {
+      "name": "Effect: Sonic Damper",
+      "uuid": "Item.sEZwRfgsjbIScryS"
+    },
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    }
+  },
+  "type": "action"
+}

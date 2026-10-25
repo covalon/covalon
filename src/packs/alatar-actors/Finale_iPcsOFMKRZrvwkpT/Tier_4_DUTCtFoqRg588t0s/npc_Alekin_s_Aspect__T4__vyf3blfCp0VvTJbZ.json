@@ -1,0 +1,839 @@
+{
+  "_id": "vyf3blfCp0VvTJbZ",
+  "_key": "!actors!vyf3blfCp0VvTJbZ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1761068469943,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939424938,
+    "systemId": "pf2e",
+    "systemVersion": "7.7.3"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "DUTCtFoqRg588t0s",
+  "img": "modules/covalon/images/Alatar/queen_of_alatar.Avatar.webp",
+  "items": [
+    {
+      "_id": "oq0ouXbsnrWmnD8a",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.oq0ouXbsnrWmnD8a",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Projected Emotion",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 23
+        },
+        "damageRolls": {
+          "strikeDamageID": {
+            "category": null,
+            "damage": "2d10+11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Aspect focuses its emotions into a powerful blast, firing a bolt of energy at its target.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": {
+          "increment": null,
+          "max": 60
+        },
+        "rules": [],
+        "slug": "projected-aspect",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "IBBkqc0cHWekv7ZD",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.IBBkqc0cHWekv7ZD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Aspect",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When Alekin's Aspect spawns, it gains an emotional attunement based on Alekin's current HP.</p><p>This determines the damage type of the Aspect's attack and the bonus granted by their Manifest Emotion and Emotional Aura abilities.</p><table><tbody><tr><td data-colwidth=\"224\"><p><strong>Boss HP Percentage</strong></p></td><td><p><strong>Aspect</strong></p></td></tr><tr><td data-colwidth=\"224\"><p>80%</p></td><td><p>Aspect of Anger</p></td></tr><tr><td data-colwidth=\"224\"><p>60%</p></td><td><p>Aspect of Bargain</p></td></tr><tr><td data-colwidth=\"224\"><p>40%</p></td><td><p>Aspect of Denial</p></td></tr></tbody></table>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Aspect of",
+            "option": "emotion",
+            "selection": "fire",
+            "suboptions": [
+              {
+                "label": "Anger",
+                "value": "fire"
+              },
+              {
+                "label": "Bargain",
+                "value": "void"
+              },
+              {
+                "label": "Denial",
+                "value": "force"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "override",
+            "property": "damage-type",
+            "selectors": [
+              "inline-damage",
+              "strike-damage"
+            ],
+            "value": "{item|flags.pf2e.rulesSelections.emotion}"
+          },
+          {
+            "alpha": 0.9,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#ff7777",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:void"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#77ff77",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "alpha": 1,
+            "key": "TokenImage",
+            "predicate": [
+              "emotion:force"
+            ],
+            "ring": null,
+            "scale": 1,
+            "tint": "#7777ff",
+            "value": "{actor|prototypeToken.texture.src}"
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "value": "Aspect of Anger"
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "emotion:void"
+            ],
+            "value": "Aspect of Bargain"
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "emotion:force"
+            ],
+            "value": "Aspect of Denial"
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Anger",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "selector": "reflex",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Anger",
+            "predicate": [
+              "emotion:fire"
+            ],
+            "selector": "will",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Bargain",
+            "predicate": [
+              "emotion:void"
+            ],
+            "selector": "fortitude",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Bargain",
+            "predicate": [
+              "emotion:void"
+            ],
+            "selector": "reflex",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Denial",
+            "predicate": [
+              "emotion:force"
+            ],
+            "selector": "will",
+            "value": 3
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Aspect of Denial",
+            "predicate": [
+              "emotion:force"
+            ],
+            "selector": "fortitude",
+            "value": -2
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "6Hp536B2Qo1esSgx",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.6Hp536B2Qo1esSgx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Manifest Emotion",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The effect of this ability depends on the Aspect's emotion.</p><p><strong>Aspect of Anger</strong></p><p>Select up to 4 unoccupied consecutive squares within the Aspect's Emotional Aura and set them on fire. Any creature entering or starting their turn in one of these squares takes @Damage[8d6] with a @Check[reflex|dc:29|basic|options:damaging-effect].</p><p>For the purpose of Aspect of Bargain, each set of four squares counts as a single effect.</p><p><strong>Aspect of Bargain</strong></p><p>The Aspect counteracts up to 2 magical effects created by Alekin or an Aspect within the Aspect's Emotional Aura, and then heal Alekin by two times the counteracted effect's level for each counteracted effect.</p><p><strong>Aspect of Denial</strong></p><p>Select up to 2 unoccupied consecutive squares within in the Aspect's Emotional Aura. Each of these squares becomes surrounded by a transparent wall of force (See Wall of Denial for stats). All four walls surrounding any of these squares count as a single segment for the purpose of tracking HP.</p><p>For the purpose of Aspect of Bargain, each set of two squares squares counts as a single effect.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "manifest-aspect",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ANfmk3JW7MDQzhly",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.ANfmk3JW7MDQzhly",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Empower Emotion",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Aspect empowers its Emotional Aura. Until the start of its next turn, all numeric effects of this Aspect's Emotional Aura are doubled.</p><p>Only one Empower Emotion can be active at any given time, any subsequent uses of Empower Emotion (Even by other Aspects) override any existing Empower Emotion effects.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "empower-emotion",
+            "toggleable": true,
+            "value": false
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RDsBybjaRShD3mrD",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.RDsBybjaRShD3mrD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Emotional Aura",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Aspect's attunement to its emotions is so powerful, its influence expands far beyond its own body. Creatures within 60 feet of the Aspect are constantly under an effect depending on the Aspect's emotion.</p><p>These effects end immediately when the Aspect is destroyed, or when an affected creatures leaves the aura.</p><p><strong>Aspect of Anger: </strong>All allies are under the effect of @UUID[Compendium.pf2e.spells-srd.IAjvwqgiDr3qGYxY]{Courageous Anthem}.</p><p><strong>Aspect of Bargain: </strong>All enemies gain a Weakness to all damage equal to half their level.</p><p><strong>Aspect of Denial: </strong>All allies are under the effect of @UUID[Compendium.pf2e.spells-srd.bH0kPuf7UKxRvi2P]{Rallying Anthem}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "effects": [
+              {
+                "affects": "allies",
+                "includesSelf": false,
+                "predicate": [
+                  "emotion:fire"
+                ],
+                "uuid": "Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83"
+              },
+              {
+                "affects": "allies",
+                "includesSelf": false,
+                "predicate": [
+                  "emotion:force"
+                ],
+                "uuid": "Compendium.pf2e.spell-effects.Item.DLwTvjjnqs2sNGuG"
+              },
+              {
+                "affects": "enemies",
+                "predicate": [
+                  "emotion:void",
+                  {
+                    "not": "empower-emotion"
+                  }
+                ],
+                "uuid": "Compendium.covalon.alatar-items.Item.jBoGMrZF5F2j4841"
+              },
+              {
+                "includesSelf": false,
+                "predicate": [
+                  "empower-emotion"
+                ],
+                "uuid": "Compendium.covalon.alatar-items.Item.6vwg8yzYDgQeCnOc"
+              },
+              {
+                "affects": "enemies",
+                "predicate": [
+                  "emotion:void",
+                  "empower-emotion"
+                ],
+                "uuid": "Compendium.covalon.alatar-items.Item.BaAXrewiOQNquqlJ"
+              }
+            ],
+            "key": "Aura",
+            "level": "@actor.level/2",
+            "mergeExisting": false,
+            "predicate": [
+              "aura-enabled"
+            ],
+            "radius": 40,
+            "traits": []
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Aura Enabled",
+            "option": "aura-enabled",
+            "toggleable": true,
+            "value": true
+          }
+        ],
+        "slug": "emotional-aura",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "U1Ro3yU0CKRhlkOA",
+      "_key": "!actors.items!vyf3blfCp0VvTJbZ.U1Ro3yU0CKRhlkOA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.6.3"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Emotional Jab",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.350",
+            "schema": 0.948,
+            "system": "7.7.3"
+          },
+          "version": 0.953
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 22
+        },
+        "damageRolls": {
+          "JQxDggmTstEE76iC": {
+            "category": null,
+            "damage": "2d8+9",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>The Aspect focuses its emotions into a melee blast.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    }
+  ],
+  "name": "Alekin's Aspect (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Alekin's Aspect",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Alatar/queen_of_alatar.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.350",
+        "schema": 0.948,
+        "system": "7.7.3"
+      },
+      "version": 0.953
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 0
+      },
+      "str": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 30
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 175,
+        "temp": 0,
+        "value": 175
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      }
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 10
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 19,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 19
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 19
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 19,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "humanoid",
+        "mindless"
+      ]
+    }
+  },
+  "type": "npc"
+}

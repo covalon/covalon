@@ -1,0 +1,92 @@
+{
+  "_id": "uMeKQGLpwcyxWw0u",
+  "_key": "!items!uMeKQGLpwcyxWw0u",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.lL9rGHsxlh5pOyJ6",
+    "coreVersion": "14.367",
+    "createdTime": 1725307134087,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807536,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/magic-aura.webp",
+  "name": "Xan'zyk, The First Incantation",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 4900000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p>When the first spell was uttered and the first runes were cast it created neither fire nor force; it created Xan’Zyk. As the first incantation entered the world, it did so in an avalanche of magical energy so potent that the spell itself gained not only sentience but also divinity. Xan’Zyk, named after the first two syllables of the primordial spell which birthed them, is the pursuit of magical power incarnate. They seek only to see magic used with little regard to the purpose it serves. They are just as content to see a fireball engulf a town square as they are to see a tyrannical lich disintegrated to ash. All spells are prayers to Xan’Zyk and it is said that with every spell uttered and every new ritual discovered their power expands. They are most commonly depicted as an ornate magical sigil or alternatively a spellbook shimmering with prismatic light. Xan’Zyk accepts the worship of any who can cast spells of their own power, however wizards in particular naturally gravitate towards The First Incantation. Legends claim that should the entirety of the incantation which birthed Xan’Zyk be uttered once more, they along with all spells which have followed them, would be undone.</p><p><strong>Edicts</strong> strive to gain magical power, research new spells and rituals, use magic to solve problems<br /><strong>Anathema</strong> curtail magical research, destroy magical knowledge or spells, refuse to let another learn a spell from you</p></div></div><div class=\"item d-flex flex-wrap\" data-markdown=\"1\"><div class=\"flex-even column\" data-markdown=\"1\"><p class=\"hang\"> </p></div></div>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "ambition",
+        "destruction",
+        "glyph",
+        "magic"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "arcana"
+    ],
+    "slug": "xanzyk",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM",
+      "2": "Compendium.pf2e.spells-srd.Item.eIQ86FOXK34HiNLs",
+      "3": "Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo",
+      "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+      "5": "Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld",
+      "6": "Compendium.pf2e.spells-srd.Item.7Iela4GgVeO3LfAo",
+      "7": "Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs",
+      "8": "Compendium.pf2e.spells-srd.Item.JAaETUBg0xlttpCH",
+      "9": "Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "stiletto-pen"
+    ]
+  },
+  "type": "deity"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Ga6fMp5nKWbojLOY",
+  "_key": "!folders!Ga6fMp5nKWbojLOY",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1689334478067,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258602446,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "T5",
+  "sort": 300000,
+  "sorting": "a",
+  "type": "Actor"
+}

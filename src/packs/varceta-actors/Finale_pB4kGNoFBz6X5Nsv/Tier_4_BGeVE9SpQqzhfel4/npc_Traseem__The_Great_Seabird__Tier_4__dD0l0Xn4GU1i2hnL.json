@@ -1,0 +1,1416 @@
+{
+  "_id": "dD0l0Xn4GU1i2hnL",
+  "_key": "!actors!dD0l0Xn4GU1i2hnL",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1742091082139,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "BGeVE9SpQqzhfel4",
+  "img": "modules/covalon/images/Varceta/traseem_the_great_seabird.Avatar.webp",
+  "items": [
+    {
+      "_id": "4HwZ8Va65RxUCtg1",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.4HwZ8Va65RxUCtg1",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "The Reaper's Blade",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Traseem, The Great Seabird wields a massive scythe. All of their strikes with The Reaper's Call affect a 15 foot cone. Roll the attack once and compare the result to the AC of all targets. The cone may be angled however you wish and a target does not need to be within 30ft to be struck by the cone. Traseem is immune to their own strikes and is <strong>immune to being disarmed.</strong></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "4zG0oBA8m1AGg7Iv",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.4zG0oBA8m1AGg7Iv",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Mortals And Their Paltry Trinkets",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>As they are bound, Traseem shrieks in frustration, unbinding players from their items. All players attempt a @Check[will|dc:32|traits:aura,divine,teleportation]. This affects all PCs only once, at the beginning of the encounter. Uninvested items can not include armour. If a Tattoo, Graft or similar item is targeted it is simply turned off for the day (this should not destroy any items). See the Varceta Finale journal entry for how these items can be retrieved.</p><p>(This ability can be modified by Modification: Trifling Trinkets)</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> One of the creature's invested items (at random) is uninvested and teleported to the Ethereal Plane.</p><p><strong>Failure</strong> One of the creature's held weapons, shields, or items (at random) is teleported to the Ethereal Plane. One of their invested items (at random) is also uninvested teleported.</p><p><strong>Critical Failure</strong> Two of the creature's held weapons, shields, or items (at random) are teleported to the Ethereal Plane. Two of their invested items (at random) are also uninvested teleported.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "divine",
+            "teleportation",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bAvDFOluqTgYPXOs",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.bAvDFOluqTgYPXOs",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Trifling Trinkets",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Double the quantity of affected items for all degrees of success of Mortals And Their Paltry Trinkets.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "gfLNobOqNK1IFzNt",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.gfLNobOqNK1IFzNt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Unstable Tethers",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The connection of the Lava Tethers is tenuous. Players cannot use Phaseshift or Phaselocked Phaseshift at the same tether twice in a row, they must alternate between the two. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "8gfjH6ApeurKaEYD",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.8gfjH6ApeurKaEYD",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.8gfjH6ApeurKaEYD",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Death Chill",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Reaper's Call is coated in a thin ghostly poison. Their first successful strike each round, even if that Strike does no damage (such as due to resistance) applies Death Chill. If several people are struck at once it affects them all.</p><p>While a creature is clumsy from Death Chill, it is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} with the same value;</p><p><strong>Saving Throw</strong> @Check[fortitude|dc:31|traits:poison];</p><p><strong>Maximum Duration</strong> 6 rounds;</p><p><strong>Stage 1</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round);</p><p><strong>Stage 2</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1 round);</p><p><strong>Stage 3</strong> @Damage[5d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (1 round).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "poison",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QPsm15oELPvAiAjN",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.QPsm15oELPvAiAjN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "The Reaper's Call",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "modification-death-chill"
+          ]
+        },
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "3oGlIWvf5f01gF81": {
+            "category": null,
+            "damage": "4d6",
+            "damageType": "spirit"
+          },
+          "CoQ1eHp106HGgmoF": {
+            "category": null,
+            "damage": "3d6+5",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10",
+            "reach-30"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "U2ZgT0VM3Ov80drk",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.U2ZgT0VM3Ov80drk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Waves Crash In",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement </strong>It is Traseem's first turn, OR Traseem used Tides Rush Out last round. Either Waves Crash In or Tides Rush Out <strong>MUST </strong>be used on each of Traseem's turns, and never both.</p><p><span style=\"font-family:Roboto, sans-serif\">Ethereal waves crash over the battlefield. All creatures on either plane standing outside the circle of bones take </span>@Damage[8d6[cold]] damage with a @Check[fortitude|dc:33|basic|traits:cold,divine,area-effect] save. On a failure, creatures are also pulled 15 feet towards Traseem, or adjacent to Traseem on a critical failure. This never pulls a creature off the battlefield (ie into lava).</p>"
+        },
+        "frequency": null,
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "divine",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "zdsi6BK3BEy0y57i",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.zdsi6BK3BEy0y57i",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Ever Present",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Traseem, The Great Seabird is present on both the Material and Ethereal planes at the same time, and can equally affect or be affected on both.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "918FgqpEfg2jvWhO",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.918FgqpEfg2jvWhO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Death Is Never The End",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>When Traseem dies, the Maw's corruption reanimates them into Tras and Eem. Allow the player that slew Traseem to finish their turn. Then, add Tras to the map on the Material Plane, and Eem to the map on the Ethereal Plane. Add Tras to the initiative directly after the player who killed Traseem, and Eem directly after Tras.</p><p>Before Tras's first turn, three players are forcibly sent to the ethereal plane (the first, third, and fifth player in initiative) along with their summons/companions, gaining the Phaselocked - Ethereal Plane effect. The remaining three players are forcibly locked to the Material Plane. Replace the Phaseshift action on their character sheets with Phaselocked Phaseshift.</p><p>On Tras's first turn, they do nothing except prepare to use Kneel Forever on their second turn, gaining the Ready to Reap effect. When this happens, read the following aloud to your players: \"<span style=\"font-family:Roboto, sans-serif\">As Traseem breaks into two, the body remaining on the material plane lifts its scythe in the stance of a farmer ready to cut down wheat</span><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\">. The creature is clearly preparing for an incredibly powerful attack.</span><span style=\"font-family:Roboto, sans-serif\">\"</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "IJHcSrUsJiWFFT9l",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.IJHcSrUsJiWFFT9l",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Trinkets Are Fickle",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature activates a magic item<br /><strong>Effect </strong>Traseem attempts to snuff out the magic from the item. Traseem rolls an Intimidation check against the triggering creature's Will DC.</p><p>On a success the activation is interrupted, expending the usage. On a critical success the triggering creature also takes @Damage[(5d8-2)[mental]].</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "LXF0o5NI6vgSz6jP",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.LXF0o5NI6vgSz6jP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Your Mind Will Shatter",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature targets Traseem with a mental effect</p><p><strong>Effect </strong>Traseem scoffs at attempts to influence their mind. The triggering creature must attempt a @Check[will|dc:31|traits:divine]. <br /><br /><strong>Critical Success</strong> The triggering creature is unaffected</p><p><strong>Success</strong> The triggering creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} as long as it is frightened.</p><p><strong>Failure</strong> As success, but the creature also takes @Damage[(5d8-2)[mental]] damage.</p><p><strong>Critical Failure</strong> As failure, but the creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "divine",
+            "emotion",
+            "fear",
+            "mental",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "nwQpgNY73RdWquDT",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.nwQpgNY73RdWquDT",
+      "_stats": {
+        "compendiumSource": "Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.QGNT3h4Fvkj7lvfc.Item.yMWCs9sx7Semuy3N",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Tides Rush Out",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement </strong>Traseem used Waves Crash In last round. Either Tides Rush Out or Waves Crash In <strong>MUST </strong>be used on each of Traseem's turns, and never both.</p><p>The ethereal waves rush back out to sea. All creatures on either plane standing within the ring of bones take @Damage[8d6[bludgeoning]] damage with a @Check[reflex|dc:33|basic|traits:divine,water,area-effect]. On a failure, creatures are pushed 15 feet away from Traseem, or to the edge of the 40 foot ring on a critical failure. This effect never pushes a creature off the battlefield (ie into lava).</p>"
+        },
+        "frequency": null,
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "divine",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "e5GXyJSek9G5Dx1h",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.e5GXyJSek9G5Dx1h",
+      "_stats": {
+        "compendiumSource": "Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.bs1KtuMgWX7BcdYT.Item.Ish0AhgcIT1Z05nY",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Reave Magic",
+      "ownership": {
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Traseem targets a single magical effect with a duration and an area, or an ongoing magical effect on itself, and attempts a Reaper's Call attack roll against the effect's DC. On a success, the effect is dispelled. On a critical success, the creature the effect originated from also takes damage equal to a successful Strike.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "R6r60YFHeW061z1w",
+      "_key": "!actors.items!dD0l0Xn4GU1i2hnL.R6r60YFHeW061z1w",
+      "_stats": {
+        "compendiumSource": "Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Scene.xeOBUpHo4jA46QDI.Token.LDpmp3QHQQoDAbvl.Actor.QGNT3h4Fvkj7lvfc.Item.l1sGqBxu2dkHWNC4",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Bound To The Spot",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0,
+        "wIOTBCOlihhXbUqQ": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>This creature cannot be moved by any means.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Traseem, The Great Seabird (Tier 4)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 500
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "tagger": {
+        "tags": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Fascimile of  Traseem, The Great Seabird",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "src": "modules/covalon/images/Varceta/traseem_the_great_seabird.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "con": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "dex": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "int": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "str": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      },
+      "wis": {
+        "min": 3,
+        "mod": 7,
+        "value": 24
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 35
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 345,
+        "temp": 0,
+        "value": 345
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "prone"
+        },
+        {
+          "exceptions": [],
+          "type": "poison"
+        },
+        {
+          "exceptions": [],
+          "type": "bleed"
+        },
+        {
+          "exceptions": [],
+          "type": "death-effects"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "void",
+          "value": 15
+        }
+      ],
+      "speed": {
+        "details": "Stationary",
+        "otherSpeeds": [],
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "Truespeech",
+        "value": [
+          "chthonian",
+          "diabolic",
+          "empyrean",
+          "requian"
+        ]
+      },
+      "level": {
+        "value": 14
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "Lifesense (Precise)",
+      "mod": 27,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 21
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 24
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 27
+      }
+    },
+    "skills": {
+      "athletics": {
+        "attribute": "str",
+        "base": 27,
+        "breakdown": "Modifier +32",
+        "dc": 42,
+        "itemId": null,
+        "label": "Athletics",
+        "lore": false,
+        "mod": 27,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 32,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "athletics",
+        "special": [],
+        "totalModifier": 32,
+        "value": 27,
+        "visible": true
+      },
+      "intimidation": {
+        "attribute": "cha",
+        "base": 25,
+        "breakdown": "Modifier +30",
+        "dc": 40,
+        "itemId": null,
+        "label": "Intimidation",
+        "lore": false,
+        "mod": 25,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "intimidation",
+              "cha-based",
+              "skill-check",
+              "cha-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 30,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "intimidation",
+        "special": [],
+        "totalModifier": 30,
+        "value": 25,
+        "visible": true
+      },
+      "occultism": {
+        "attribute": "int",
+        "base": 27,
+        "breakdown": "Modifier +32",
+        "dc": 42,
+        "itemId": null,
+        "label": "Occultism",
+        "lore": false,
+        "mod": 27,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "occultism",
+              "int-based",
+              "skill-check",
+              "int-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 32,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "occultism",
+        "special": [],
+        "totalModifier": 32,
+        "value": 27,
+        "visible": true
+      },
+      "religion": {
+        "attribute": "wis",
+        "base": 27,
+        "breakdown": "Modifier +32",
+        "dc": 42,
+        "itemId": null,
+        "label": "Religion",
+        "lore": false,
+        "mod": 27,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "religion",
+              "wis-based",
+              "skill-check",
+              "wis-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 32,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "religion",
+        "special": [],
+        "totalModifier": 32,
+        "value": 27,
+        "visible": true
+      },
+      "society": {
+        "attribute": "int",
+        "base": 23,
+        "breakdown": "Modifier +28",
+        "dc": 38,
+        "itemId": null,
+        "label": "Society",
+        "lore": false,
+        "mod": 23,
+        "modifiers": [
+          {
+            "ability": null,
+            "adjustments": [],
+            "critical": null,
+            "custom": false,
+            "damageCategory": null,
+            "damageType": null,
+            "domains": [
+              "society",
+              "int-based",
+              "skill-check",
+              "int-skill-check",
+              "all"
+            ],
+            "enabled": true,
+            "force": false,
+            "hideIfDisabled": false,
+            "ignored": false,
+            "kind": "modifier",
+            "label": "Modifier",
+            "modifier": 28,
+            "predicate": [],
+            "slug": "base",
+            "source": null,
+            "tags": [],
+            "type": "untyped"
+          }
+        ],
+        "slug": "society",
+        "special": [],
+        "totalModifier": 28,
+        "value": 23,
+        "visible": true
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "monitor",
+        "psychopomp"
+      ]
+    }
+  },
+  "type": "npc"
+}

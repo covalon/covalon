@@ -1,0 +1,83 @@
+{
+  "_id": "d3dWu1GkJMokUJw7",
+  "_key": "!items!d3dWu1GkJMokUJw7",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1781457429625,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807533,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/merchant-scale.webp",
+  "name": "Abhirash, the Final Verdict",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 3400000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>The Final Verdict, The All Seeing Arbiter, The Living Law; Abhirash is known by many names and takes many forms but always is. He is the Law incarnate, the stern judge of the deities, meting just punishment to those both mortal and divine. Victims call upon him to find and cast down the guilty, who in turn pray for leniency before his impartial gaze. His priests are often judges and lawmakers, though more than a few are bounty hunters and roaming inquisitors. The church also keeps close ties with the faithful of Novissime, particularly in Varceta.</p><p>As a faith steeped in law and tradition, the clergy of Abhirash have many strange rituals but most feared is their devotion to upholding punishment even beyond death. The most powerful of priests call the souls of the untried, those who fell to vigilante violence or other misfortune, back to the realm of the living to face a just trial.</p><p>His symbol is a sword dripping blood, from which a rose blooms. His faithful often tattoo themselves with their favourite laws and unblinking eyes, their devotion observed in eternal ink.</p><p><strong>Edicts</strong> obey local laws, enforce punishments, commit rules and contracts to ink, remember the dead</p><p><strong>Anathema</strong> take actions with irrevocable consequences without evidence, argue in bad faith, dispense punishment outside the local legal frameworks</p>"
+    },
+    "domains": {
+      "alternate": [
+        "undeath",
+        "time"
+      ],
+      "primary": [
+        "death",
+        "pain",
+        "vigil",
+        "zeal"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "society"
+    ],
+    "slug": null,
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh",
+      "4": "Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n",
+      "7": "Compendium.pf2e.spells-srd.Item.uc4I1diSSX6XYzb3"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "bastard-sword"
+    ]
+  },
+  "type": "deity"
+}

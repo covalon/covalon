@@ -1,0 +1,419 @@
+{
+  "_id": "nYYIjE10JCZ1sTzk",
+  "_key": "!actors!nYYIjE10JCZ1sTzk",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1739725312442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "gauzes-godforsakens"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      }
+    }
+  },
+  "folder": "wVFeEO5j3MBBPjgX",
+  "img": "modules/covalon/images/Varceta/balista.webp",
+  "items": [
+    {
+      "_id": "Dy8DnFo5BAzFryMi",
+      "_key": "!actors.items!nYYIjE10JCZ1sTzk.Dy8DnFo5BAzFryMi",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "FIRE!!!",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You use the Semi-Automatic Psychannon to fire a volley of bolts in a 5 foot burst. Creatures in the area take @Damage[(6D6)[piercing]] damage with a @Check[type:reflex|dc:24|basic:true]. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "fire"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "rumFdavQfNWKU4K5",
+      "_key": "!actors.items!nYYIjE10JCZ1sTzk.rumFdavQfNWKU4K5",
+      "_stats": {
+        "compendiumSource": "Actor.Ja1vrqLVd6IEz6X4.Item.rumFdavQfNWKU4K5",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.Ja1vrqLVd6IEz6X4.Item.rumFdavQfNWKU4K5",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "FIRE!!! Caster Assist I",
+      "ownership": {
+        "default": 0,
+        "v4LFPU3R5WEcZUP1": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You use the Semi-Automatic Psychannon to fire a volley of bolts in a 5 foot burst. Creatures in the area take @Damage[(4D6)[piercing],2d6+8[force]]{4d6 piercing damage and 2d6+8 force damage} damage with a @Check[type:reflex|dc:25|basic:true]. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "fire",
+            "force",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "cNLvW4iTvcrXi0R1",
+      "_key": "!actors.items!nYYIjE10JCZ1sTzk.cNLvW4iTvcrXi0R1",
+      "_stats": {
+        "compendiumSource": "Actor.Ja1vrqLVd6IEz6X4.Item.cNLvW4iTvcrXi0R1",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.Ja1vrqLVd6IEz6X4.Item.cNLvW4iTvcrXi0R1",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "FIRE!!! Caster Assist II",
+      "ownership": {
+        "default": 0,
+        "v4LFPU3R5WEcZUP1": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.7.2"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>You use the Semi-Automatic Psychannon to fire a volley of bolts in a 5 foot burst. Creatures in the area take @Damage[(4D6)[piercing],2d8+9[force]]{4d6 piercing damage and 2d8+9 force damage} damage with a @Check[type:reflex|dc:26|basic:true]. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "fire",
+            "force",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Semi-Automatic Psychannon (T3)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Semi-Automatic Psychannon",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Varceta/balista.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.933,
+        "system": "6.8.1"
+      },
+      "version": 0.935
+    },
+    "attributes": {
+      "ac": {
+        "value": 24
+      },
+      "emitsSound": "encounter",
+      "hardness": 15,
+      "hp": {
+        "details": "",
+        "max": 66,
+        "temp": 0,
+        "value": 66
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>This ramshackle cannon provides a powerful attack against the corrupted psychopomp forces in Varceta!</p><p>A player with two free hands can wield the cannon to use the FIRE!!! action.  </p><p>The Semi-Automatic Psychannon can be fired twice, and then requires three actions to reload. These actions don't need to be provided all at once, and can be provided by any adjacent creature with at least one free hand. </p><p>A creature wielding the Psychannon does not need to regrip after providing actions to reload, as normal for reload weapons. </p>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": 19
+      },
+      "reflex": {
+        "value": 13
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

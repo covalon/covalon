@@ -1,0 +1,23 @@
+{
+  "_id": "vX6porQjyaQaxnhq",
+  "_key": "!folders!vX6porQjyaQaxnhq",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1775757985773,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760268923,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "MPAeMlPgPlELFy4J",
+  "name": "Tier 5",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

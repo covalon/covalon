@@ -1,0 +1,1616 @@
+{
+  "_id": "aB12RzbmJ39CKLG9",
+  "_key": "!actors!aB12RzbmJ39CKLG9",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737840149390,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.313",
+      "systemId": "pf2e",
+      "systemVersion": "5.7.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840149390,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "5cc648811a6e851424c49e5be49042e795425ce8",
+      "sourceId": "Actor.YbaeZTbplX21bcUD"
+    }
+  },
+  "folder": "4sBaSGhTT2gjJsDP",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "items": [
+    {
+      "_id": "Usuq1lTFnGGNGmOW",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.Usuq1lTFnGGNGmOW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.dUC8Fsa6FZtVikS3",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/weapons/composite-longbow.webp",
+      "name": "Composite Longbow",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "composite-longbow",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 2
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "piercing",
+          "dice": 1,
+          "die": "d8",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This projectile weapon is made from horn, wood, and sinew laminated together to increase the power of its pull and the force of its projectile. Like all longbows, its great size also increases the bow's range and power. You must use two hands to fire it, and it cannot be used while mounted. Any time an ability is specifically restricted to a longbow, such as Erastil's favored weapon, it also applies to composite longbows unless otherwise stated.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "bow",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 20
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "range": 100,
+        "reload": {
+          "value": "0"
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "composite-longbow",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "deadly-d10",
+            "propulsive",
+            "volley-30"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-plus-hands"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "yfLr23zjUHGPyekK",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.yfLr23zjUHGPyekK",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.UX71GkWBL9g41VwM",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
+      "name": "Greatsword",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "ammo": null,
+        "baseItem": "greatsword",
+        "bonus": {
+          "value": 0
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 2
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "slashing",
+          "dice": 1,
+          "die": "d12",
+          "persistent": null
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This immense two-handed sword is nearly as tall as its wielder. Its lower blade is often somewhat dulled to allow it to be gripped for extra leverage in close-quarter fights.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 2,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "sword",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "damageType": "",
+          "dice": 0,
+          "die": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+          "value": ""
+        },
+        "rules": [],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "greatsword",
+        "specific": null,
+        "splashDamage": {
+          "value": 0
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "versatile-p"
+          ]
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "vYamsmUJUWGVxqsL",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.vYamsmUJUWGVxqsL",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/equipment/chest/breastplate-layered-steel-green.webp",
+      "name": "+1 Resilient Full Plate",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "acBonus": 6,
+        "baseItem": "full-plate",
+        "bulk": {
+          "value": 4
+        },
+        "category": "heavy",
+        "checkPenalty": -3,
+        "containerId": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Plate mail consists of interlocking plates that encase nearly the entire body in a carapace of steel. It is costly and heavy, and the wearer often requires help to don it correctly, but it provides some of the best defense armor can supply. A suit of this armor comes with an undercoat of padded armor and a pair of gauntlets.</p>"
+        },
+        "dexCap": 0,
+        "equipped": {
+          "carryType": "worn",
+          "inSlot": true,
+          "invested": false
+        },
+        "grade": null,
+        "group": "plate",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 2
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 1,
+        "rules": [],
+        "runes": {
+          "potency": 1,
+          "property": [],
+          "resilient": 1
+        },
+        "size": "med",
+        "slug": "full-plate",
+        "speedPenalty": -10,
+        "strength": 4,
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "bulwark"
+          ]
+        }
+      },
+      "type": "armor"
+    },
+    {
+      "_id": "DSpF3QNsGXCQO5Re",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.DSpF3QNsGXCQO5Re",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/weapons/arrows.webp",
+      "name": "Arrows",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "category": "ammo",
+        "containerId": null,
+        "damage": null,
+        "description": {
+          "gm": "",
+          "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+        },
+        "equipped": {
+          "carryType": "held",
+          "handsHeld": 1
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "per": 10,
+          "value": {
+            "sp": 1
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "quantity": 20,
+        "rules": [],
+        "size": "med",
+        "slug": "arrows",
+        "spell": null,
+        "stackGroup": "arrows",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "uses": {
+          "autoDestroy": true,
+          "max": 1,
+          "value": 1
+        }
+      },
+      "type": "consumable"
+    },
+    {
+      "_id": "12LD6QHUzml95C9n",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.12LD6QHUzml95C9n",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "yfLr23zjUHGPyekK"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Frost Greatsword",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 30
+        },
+        "damageRolls": {
+          "c9q7yk08hwk9j37lggiq": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "cold"
+          },
+          "eohgyhvhtgrdtl2k7kua": {
+            "category": null,
+            "damage": "3d8+14",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "magical",
+            "versatile-p"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "4adEu2Sh2OYsvkLV",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.4adEu2Sh2OYsvkLV",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "eu9brchkzus9k057651g": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "cold"
+          },
+          "mgs4izgeqgvoi3r4d3r2": {
+            "category": null,
+            "damage": "3d6+13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "cold",
+            "unarmed"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "XCfMmPXvB7LJznlU",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.XCfMmPXvB7LJznlU",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "Usuq1lTFnGGNGmOW"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Frost Composite Longbow",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 26
+        },
+        "damageRolls": {
+          "xrpg5ubgqwg6hoeo84gu": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "cold"
+          },
+          "ykeryqhp11mn21lxueou": {
+            "category": null,
+            "damage": "3d6+9",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cold",
+            "deadly-d10",
+            "magical",
+            "propulsive",
+            "range-increment-100",
+            "reload-0",
+            "volley-30"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "yp7FDjO7715BHNPw",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.yp7FDjO7715BHNPw",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "8R3jmOcyIfgNNdKr",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.8R3jmOcyIfgNNdKr",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Negative Healing",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 900000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "negative-healing",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "0Pe1uBGVehRLhBim",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.0Pe1uBGVehRLhBim",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.hFtNbo1LKYCoDy2O",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Attack of Opportunity",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1000000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "attack-of-opportunity",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "xH6NrBw4bYEHU7e3",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.xH6NrBw4bYEHU7e3",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.bTJnxBQjr7G8yr30",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sacrilegious Aura",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1200000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:30]{30 feet} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>When a creature in the aura uses a positive spell or ability, the graveknight automatically attempts to counteract it, with a counteract modifier of [[/r 15d6+17 #Counteract]]{+25}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 30,
+            "slug": "sacrilegious-aura",
+            "traits": [
+              "aura",
+              "divine"
+            ]
+          }
+        ],
+        "slug": "graveknight-sacrilegious-aura",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura",
+            "divine",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "1UmNfowZ4HWxS9rx",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.1UmNfowZ4HWxS9rx",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.IxJbFJ8dG5RbZWBD",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Devastating Blast",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The graveknight unleashes a @Template[type:cone|distance:30] of energy. Creatures in the area take @Damage[15d6[cold]] damage (@Check[type:reflex|dc:34|basic:true] save).</p>\n<p>The graveknight can use this ability once every [[/br 1d4 #Recharge Devastating Blast]]{1d4 rounds}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "graveknight-devastating-blast",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "cold",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "t6KHJCiZXdNJnqxB",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.t6KHJCiZXdNJnqxB",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-family-ability-glossary.Item.6isn9nqnvfRrC1wW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Weapon Master",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 1600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The graveknight has access to the critical specialization effects of any weapons it wields.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "CriticalSpecialization"
+          }
+        ],
+        "slug": "graveknight-weapon-master",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "8CznKBBokxBMcUVf",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.8CznKBBokxBMcUVf",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Warfare Lore",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 2000000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "mod": {
+          "value": 27
+        },
+        "proficient": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "lore"
+    },
+    {
+      "_id": "P6598RFBKiJvtHiI",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.P6598RFBKiJvtHiI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "5e05e2189badde47fd97b15e8b8724a2c8b9775a"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Coalesced Void Armor",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The graveknight-captain wears armor plating formed out of coalesced void energy, making him immune to all damage. If the graveknight-captain is targeted with a Strike from a hacked Vestibule, the Strike automatically succeeds, the Coalesced Void Armor is immediately destroyed, and then the hacked Vestibule is destroyed after the Strike resolves.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BdEOZdiPSPkw9iTW",
+      "_key": "!actors.items!aB12RzbmJ39CKLG9.BdEOZdiPSPkw9iTW",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "5e05e2189badde47fd97b15e8b8724a2c8b9775a"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Troop Commander",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.933,
+            "system": "6.8.4"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The graveknight-captain can move through the squares of allied Gravesquire Troops, and can share squares with them.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Graveknight-Captain",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Graveknight",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 2.5,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.933,
+        "system": "6.8.4"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "con": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "dex": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "int": {
+        "min": 3,
+        "mod": 3,
+        "value": 16
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 37
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "negative healing, rejuvenation",
+        "max": 315,
+        "temp": 0,
+        "value": 315
+      },
+      "immunities": [
+        {
+          "type": "cold"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 25
+      },
+      "vulnerabilities": []
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "Undead",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "necril"
+        ]
+      },
+      "level": {
+        "value": 14
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Graveknights are undead warriors granted unlife by a cursed suit of armor.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 25,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 27
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 25
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 24
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 29
+      },
+      "intimidation": {
+        "base": 28
+      },
+      "religion": {
+        "base": 25
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "evil",
+        "lawful",
+        "undead",
+        "unholy"
+      ]
+    }
+  },
+  "type": "npc"
+}

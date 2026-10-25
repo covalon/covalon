@@ -1,0 +1,175 @@
+{
+  "_id": "0k80GpQBPLix2CA8",
+  "_key": "!items!0k80GpQBPLix2CA8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1723994646946,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.16.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619787857,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/thunderburst.webp",
+  "name": "Effect: Lightning Strikes",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.926,
+        "system": "6.2.2"
+      },
+      "version": 0.932
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>The Masked Core invigorates an ally within 30 feet. The target gains temporary Hit Points, and its Strikes deal additional electricity damage. This effect lasts 1 round.</p>"
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "ORC",
+      "remaster": true,
+      "title": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Tier 1",
+            "value": "1"
+          },
+          {
+            "label": "Tier 2",
+            "value": "2"
+          },
+          {
+            "label": "Tier 3",
+            "value": "3"
+          },
+          {
+            "label": "Tier 4",
+            "value": "4"
+          },
+          {
+            "label": "Tier 5",
+            "value": "5"
+          }
+        ],
+        "flag": "tier",
+        "key": "ChoiceSet",
+        "prompt": "Choose a tier."
+      },
+      {
+        "key": "TempHP",
+        "value": "@item.flags.pf2e.rulesSelections.tier * 5"
+      },
+      {
+        "damageType": "electricity",
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "gte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              2
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "value": 1
+      },
+      {
+        "damageType": "electricity",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          {
+            "gte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              3
+            ]
+          },
+          {
+            "lte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              4
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      },
+      {
+        "damageType": "electricity",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          {
+            "gte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              5
+            ]
+          },
+          {
+            "lte": [
+              "{item|flags.pf2e.rulesSelections.tier}",
+              5
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "electricity",
+        "magical"
+      ]
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

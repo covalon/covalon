@@ -1,5 +1,5 @@
 # Let Git detect text files and normalize their line endings
-* text=auto
+* text=auto eol=lf
 
 # Image assets handled by Git LFS
 *.webp filter=lfs diff=lfs merge=lfs -text

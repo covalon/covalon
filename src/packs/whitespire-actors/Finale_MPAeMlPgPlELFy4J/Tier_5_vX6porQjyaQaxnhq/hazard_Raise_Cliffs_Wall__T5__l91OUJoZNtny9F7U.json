@@ -1,0 +1,307 @@
+{
+  "_id": "l91OUJoZNtny9F7U",
+  "_key": "!actors!l91OUJoZNtny9F7U",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1775757986608,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "WhYzoVrwPaCrANkH",
+    "modifiedTime": 1776101318371,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": true
+      },
+      "editMode": true
+    }
+  },
+  "folder": "vX6porQjyaQaxnhq",
+  "img": "systems/pf2e/icons/spells/wall-of-stone.webp",
+  "items": [
+    {
+      "_id": "wc17osTIWmcqsCVR",
+      "_key": "!actors.items!l91OUJoZNtny9F7U.wc17osTIWmcqsCVR",
+      "_stats": {
+        "compendiumSource": "Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy.Item.ptZqTGRQ5BH0i7VM",
+        "coreVersion": "14.367",
+        "createdTime": 1776101341398,
+        "duplicateSource": "Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy.Item.ptZqTGRQ5BH0i7VM",
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776101423816,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Obsidian Spikes",
+      "ownership": {
+        "WhYzoVrwPaCrANkH": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><em>The walls from Raise Cliffs are covered in dangerous spikes.</em></p><p>Increase each wall's HP to 100 (instead of 70).</p><p>If a creature deals damage to a wall from within 10 feet, the spikes automatically deal @Damage[@actor.system.attributes.hardness[piercing]] damage back to that creature equal to its hardness.</p><p><strong>Make sure to edit the hazard's current health when using the toggle.</strong></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Modification - Obsidian Spikes",
+            "option": "obsidian-spikes",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.max",
+            "predicate": [
+              "obsidian-spikes"
+            ],
+            "value": 100
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.max",
+            "predicate": [
+              {
+                "not": "obsidian-spikes"
+              }
+            ],
+            "value": 70
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Raise Cliffs Wall (T5)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 30,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Raise Cliffs Wall",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "systems/pf2e/icons/spells/wall-of-stone.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 400000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "attributes": {
+      "ac": {
+        "value": 10
+      },
+      "emitsSound": "encounter",
+      "hardness": 15,
+      "hp": {
+        "details": "",
+        "max": 70,
+        "temp": 0,
+        "value": 70
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": null
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "bludgeoning",
+          "value": 10
+        }
+      ]
+    },
+    "details": {
+      "description": "<p>A 1 inch thick, 30 feet long segment of wall, reaching from the floor to the ceiling (60 ft up), conjured by the Stonewyrm.</p><p>HP is tracked for an entire 30 foot segment, and the entire segment is destroyed when the wall reaches 0 HP.</p><p>The wall automatically fails any saving throw it makes.</p>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 15
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

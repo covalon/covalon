@@ -1,0 +1,1128 @@
+{
+  "_id": "74dSEpMeyhLW03eX",
+  "_key": "!actors!74dSEpMeyhLW03eX",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405802716,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.5.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258488208,
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "ioy5JimDEb1Dsts5",
+  "img": "modules/covalon/images/Middlemist/shadowhead_nobrow.webp",
+  "items": [
+    {
+      "_id": "XUcmfD9MgrQbfbPC",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.XUcmfD9MgrQbfbPC",
+      "_stats": {
+        "compendiumSource": "Item.s7731lcuqbdthlg7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Tenebrous Bolt",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 29
+        },
+        "damageRolls": {
+          "ayrTDU2QPCkqE9h3": {
+            "category": "splash",
+            "damage": "10",
+            "damageType": "void"
+          },
+          "s4s7kt4biv1j2qx6lt2o": {
+            "category": null,
+            "damage": "3d8+5",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-200"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "G71X13AVPFfRFp1g",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.G71X13AVPFfRFp1g",
+      "_stats": {
+        "compendiumSource": "Item.uuqbtnx841upb5wr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Fountain of Shadow",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Wisps of shadow constantly fall from the Shadow Titan and find form in the oppressive darkness of Middlemist. At the start of each turn, spawn 2 @Actor[DVPaRtvg8Asp1c1P]{Clinging Shadows (T4)} in different places on the airship. Where possible, this should be at least 15 feet from another creature. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ZRkaGLz73UybDc73",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.ZRkaGLz73UybDc73",
+      "_stats": {
+        "compendiumSource": "Item.6h7ipneifvdkbcv8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Anchored",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan is immune to any effects that would move it, including teleportation effects. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "XiAzc0b1nSTk9xy0",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.XiAzc0b1nSTk9xy0",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.cLZrOihPht5M7eTw",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/alchemists-fire.webp",
+      "name": "Alchemist's Fire (Major)",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "ammo": null,
+        "baseItem": "alchemical-bomb",
+        "bonus": {
+          "value": 3
+        },
+        "bonusDamage": {
+          "value": 0
+        },
+        "bulk": {
+          "value": 0.1
+        },
+        "category": "martial",
+        "containerId": null,
+        "damage": {
+          "damageType": "fire",
+          "dice": 4,
+          "die": "d8",
+          "persistent": null,
+          "value": ""
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"pf2-icon\">A</span> Strike</p>\n<p>Alchemist's fire is a combination of volatile liquids that ignite when exposed to air. Alchemist's fire deals 4d8 fire damage, 4 persistent fire damage, and 4 fire splash damage. You gain a +3 item bonus to attack rolls.</p>"
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "invested": null
+        },
+        "expend": null,
+        "grade": null,
+        "group": "bomb",
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "identification": {
+          "misidentified": {},
+          "status": "identified",
+          "unidentified": {
+            "data": {
+              "description": {
+                "value": ""
+              }
+            },
+            "img": "",
+            "name": ""
+          }
+        },
+        "level": {
+          "value": 17
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 2500
+          }
+        },
+        "property1": {
+          "critDamage": "",
+          "critDamageType": "",
+          "critDice": null,
+          "critDie": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "damageType": "",
+          "dice": null,
+          "die": "",
+          "strikeConditionType": "",
+          "strikeConditionValue": null,
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "quantity": 1,
+        "range": 20,
+        "reload": {
+          "value": "-"
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "outcome": [
+              "success"
+            ],
+            "selector": "{item|_id}-damage",
+            "text": "PF2E.BombNotes.AlchemistsFire.Major.success"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess"
+            ],
+            "selector": "{item|_id}-damage",
+            "text": "PF2E.BombNotes.AlchemistsFire.Major.criticalSuccess"
+          }
+        ],
+        "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+        },
+        "size": "med",
+        "slug": "alchemists-fire-major",
+        "specific": null,
+        "splashDamage": {
+          "value": 4
+        },
+        "subitems": [],
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "alchemical",
+            "bomb",
+            "consumable",
+            "fire",
+            "splash"
+          ]
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        }
+      },
+      "type": "weapon"
+    },
+    {
+      "_id": "jKyNXMNvkYTf3G67",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.jKyNXMNvkYTf3G67",
+      "_stats": {
+        "compendiumSource": "Item.ghc0rokqf4ag1hzu",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Soulrending Gaze",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan focuses its gaze on a single creature within 300 ft. bearing its titanic weight upon the creature's very essence. The creature must make a <span style=\"font-family:var(--font-primary)\">@Check[type:will|dc:30|basic:false] save with the following effects:</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Success</strong> the creature is unaffected</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Success </strong>the creature takes @Damage[4d6[mental]] damage and is @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Failure </strong>the creature takes @Damage[8d6[mental]] damage and is   @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}</span></p><p><span style=\"font-family:var(--font-primary)\"><strong>Critical Failure</strong> the creature takes @Damage[8d6[mental]] damage, becomes @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 3} and @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Fleeing}</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "flourish",
+            "shadow",
+            "visual"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QxpISF92bYBx3Phe",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.QxpISF92bYBx3Phe",
+      "_stats": {
+        "compendiumSource": "Item.7sphppctvwddq5lx",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Coalesced Darkness",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan has Total Cover from any creature greater than 80ft from it. It is immune to all damage and effects originating from further than 80 feet away, as the shadowy essence it exudes swallows projectiles, magic and sound.  </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Jq4KK1VEqmEiLWAv",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.Jq4KK1VEqmEiLWAv",
+      "_stats": {
+        "compendiumSource": "Item.tboiryqe9lgibx0z",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Titanic Siege Attacker",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan tears through unliving structures with ease. When attacking a non-moving object such as a wall, the Shadow Titan ignores the object's hardness and deals double damage. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "oqXnoTiXGGeUpd82",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.oqXnoTiXGGeUpd82",
+      "_stats": {
+        "compendiumSource": "Item.i97it8xru6ha2c40",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Solid Shadows",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Clinging Shadows lose their Shadow Dispersal ability. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "fWRMOwslMx821Wyt",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.fWRMOwslMx821Wyt",
+      "_stats": {
+        "compendiumSource": "Item.wri29kpve5iiqeue",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Oppressive Gloom",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The light from the Ship's central device only lasts for 2 rounds. It must be re-ignited with a 2 action Interact activity. While the device is not lit, all non-shadow creatures gain Weakness 5 to Void.</p><p>@UUID[Compendium.covalon.middlemist-items.Item.5kUiWMCG7tZC1Koc]{Oppressive Gloom}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "oPRQsPdS30ko5VaM",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.oPRQsPdS30ko5VaM",
+      "_stats": {
+        "compendiumSource": "Item.0i6x9lnus77fgaxq",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification - Tether Malfunction",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The auto-release mechanism of the tether has been sabotaged!</p>\n<p> </p>\n<p>When players use the Interact function of their Tether to be pulled to the centre of the ship, they become @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} until they spend another Interact action to disable to pulling mechanism. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "PjFpq70R4taPqjLn",
+      "_key": "!actors.items!74dSEpMeyhLW03eX.PjFpq70R4taPqjLn",
+      "_stats": {
+        "compendiumSource": "Item.cul9pgtm8mdhu69c",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Bind Shadows [VARIABLE]",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan commands shadows to do its bidding. When it uses this action, it may choose to spend 1-3 actions with the following effects:</p><p><span class=\"pf2-icon\">a  </span>The Shadow Titan wrests control of one creature's shadow, and commands it to take a single action that creature can take. </p><p><span class=\"pf2-icon\">2 </span>The Shadow Titan wrests control of one creature's shadow, and commands it to take up to two actions at once. </p><p><span class=\"pf2-icon\">3 </span>The Shadow Titan wrests control of two creatures' shadows, and commands both of them to take up to two actions at once. </p><p> </p><p>The shadows created from Bind Shadow use the host creatures statistics, equipment, abilities and modifiers to resolve their actions. After the shadows resolve their actions, they return to their host. Shadows cannot take two single actions for the <span class=\"pf2-icon\">2</span> and <span class=\"pf2-icon\">3</span> action versions. </p><p>The resources used by the shadows do not remove the resource from the host creature. </p><p>The Shadow Titan cannot use Bind Shadows again for [[/br 1d4 #Recharge Bind Shadows]]{1d4 rounds}.</p><p> </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "shadow"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Shadow Titan (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 7,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 7,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Shadow Titan",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Middlemist/shadowhead_nobrow.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 7
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.5.0"
+      },
+      "version": 0.933
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 10
+      },
+      "dex": {
+        "mod": 9
+      },
+      "int": {
+        "mod": 9
+      },
+      "str": {
+        "mod": 10
+      },
+      "wis": {
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 280,
+        "temp": 0,
+        "value": 280
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "void"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "petrified"
+        },
+        {
+          "type": "prone"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 0
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "jotun",
+          "shadowtongue"
+        ]
+      },
+      "level": {
+        "value": 14
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 28,
+      "senses": [
+        {
+          "type": "greater-darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 28
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 25
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 28
+      },
+      "deception": {
+        "base": 26
+      },
+      "intimidation": {
+        "base": 26
+      },
+      "occultism": {
+        "base": 26
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "evil",
+        "shadow",
+        "titan"
+      ]
+    }
+  },
+  "type": "npc"
+}

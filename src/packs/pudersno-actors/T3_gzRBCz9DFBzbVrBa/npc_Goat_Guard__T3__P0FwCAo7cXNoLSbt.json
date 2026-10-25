@@ -1,0 +1,447 @@
+{
+  "_id": "P0FwCAo7cXNoLSbt",
+  "_key": "!actors!P0FwCAo7cXNoLSbt",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1673484179608,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "10.291",
+      "systemId": "pf2e",
+      "systemVersion": "4.6.8",
+      "uuid": null,
+      "worldId": "ziggy"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1736019552967,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "gzRBCz9DFBzbVrBa",
+  "img": "modules/covalon/images/Pudersno/goat_guard_t5_.Avatar.webp",
+  "items": [
+    {
+      "_id": "fjpsuop0jg66vui3",
+      "_key": "!actors.items!P0FwCAo7cXNoLSbt.fjpsuop0jg66vui3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "GlvvIehDY7BHTmwu",
+        "modifiedTime": 1675008770191,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.8"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Horn",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "HChwZViaKSQKxx6q": {
+            "category": null,
+            "damage": "2d6+8",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "electricity",
+            "reach-10",
+            "versatile-p"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Iceo8lRDkdq75Yoj",
+      "_key": "!actors.items!P0FwCAo7cXNoLSbt.Iceo8lRDkdq75Yoj",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ysjstn1162a1nei5",
+      "_key": "!actors.items!P0FwCAo7cXNoLSbt.ysjstn1162a1nei5",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "hcWh9kuYosSIErIR",
+        "modifiedTime": 1673490406788,
+        "systemId": "pf2e",
+        "systemVersion": "4.6.5"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Charging Leap",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The goat guard leaps up to 40 feet in any direction, including straight up. The goat guard makes a horn Strike at any point during this leap.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Goat Guard (T3)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Goat Guard",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Pudersno/goat_guard_t5_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.8.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 0,
+        "value": 10
+      },
+      "con": {
+        "mod": 8,
+        "value": 18
+      },
+      "dex": {
+        "mod": 3,
+        "value": 14
+      },
+      "int": {
+        "mod": -2,
+        "value": 6
+      },
+      "str": {
+        "mod": 8,
+        "value": 22
+      },
+      "wis": {
+        "mod": 6,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 25,
+        "temp": 0,
+        "value": 25
+      },
+      "immunities": [
+        {
+          "type": "electricity"
+        }
+      ],
+      "resistances": [],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      }
+    },
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 8
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>In the heights of the world, where the hills and mountains reach up to touch the clouds, mpeshis fall to the earth in flashes of lightning and thunder. Most return to the heavens on the gossamer strands of web on which they descend, but those few that remain cry out, lamenting their inability to return to their homes in the sky.</p>\n<p>A mpeshi appears to be a monstrous goat with the foreclaws, hindquarters, and tail of a crocodile. Electricity arcs around its sharp horns, which it can use to both batter and gore with equal facility. Although mpeshis are always seeking methods to return to their homes in the clouds, they aggressively defend their earthbound lairs from outsiders.</p>\n<p>Mpeshis are generally solitary, though some congregate as pairs or small groups that watch cloud movements together. They can sometimes be seen trying to join reach the storm clouds, leaping from high places such as hills, mountains, or cliffs. Though these attempts are rarely successful, the mpeshis always resolve to try again-and some do manage succeed at returning to their mysterious homes amongst the clouds.</p>\n<p>Mpeshis are utterly unafraid of rocs, dragons, or other monstrous flying creatures, usually seeing them as competition. Mpeshis are crafty, though, and sometimes try to negotiate transportation back to the clouds from flying creatures larger than they are.</p>",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder #170: Spoken on the Song Wind"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 14
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 14
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 16
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "sm"
+      },
+      "value": [
+        "beast",
+        "cold"
+      ]
+    }
+  },
+  "type": "npc"
+}

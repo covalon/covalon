@@ -1,0 +1,610 @@
+{
+  "_id": "fcJ52gDFdKyniMIZ",
+  "_key": "!actors!fcJ52gDFdKyniMIZ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/Elananx.webp",
+  "items": [
+    {
+      "_id": "kTCYz9Dnx9Zw1RHa",
+      "_key": "!actors.items!fcJ52gDFdKyniMIZ.kTCYz9Dnx9Zw1RHa",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "fb25txh7l35iny60p6ko": {
+            "category": null,
+            "damage": "2d6+8",
+            "damageType": "piercing"
+          },
+          "uk10dpcnrjqggp6eb3q1": {
+            "category": null,
+            "damage": "1d6",
+            "damageType": "fire"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "ohDZuFtUD8Y2pTMN",
+      "_key": "!actors.items!fcJ52gDFdKyniMIZ.ohDZuFtUD8Y2pTMN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Claw",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "01s4c5xes3sqsk8aqq6k": {
+            "category": null,
+            "damage": "2d6+8",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "grrOo0mi2kz2urJF",
+      "_key": "!actors.items!fcJ52gDFdKyniMIZ.grrOo0mi2kz2urJF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Cinder Dispersal",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The elananx takes damage from a hostile source</p><hr /><p><strong>Effect</strong> The elananx conjures a cloud of smoke and cinders, filling its space and a @Template[emanation|distance:10]. Anything inside this cloud is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}. The cloud lasts until the end of the elanax's next turn. The elanax can use the concealment from this smoke to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} and @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}.</p>"
+        },
+        "frequency": null,
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "izty6IGZL6BowyUS",
+      "_key": "!actors.items!fcJ52gDFdKyniMIZ.izty6IGZL6BowyUS",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Pack Attack",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The elananx's Strikes deal an extra 1d4 damage to creatures within the reach of at least one of its allies.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "damage",
+            "key": "RollOption",
+            "option": "pack-attack",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "key": "DamageDice",
+            "predicate": [
+              "pack-attack"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "ST2LDOW64VO0qAVl",
+      "_key": "!actors.items!fcJ52gDFdKyniMIZ.ST2LDOW64VO0qAVl",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/OneAction.webp",
+      "name": "Pounce",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The elananx Strides and makes a Strike at the end of that movement. If the elananx began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after the attack.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Red Elananx",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Elananx",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/pf2e-tokens-monster-core/assets/subjects/Elananx.webp"
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "src": "modules/covalon/images/Furious%20Fey/red_elananx.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": -2
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -3
+      },
+      "str": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 95,
+        "temp": 0,
+        "value": 95
+      },
+      "immunities": [
+        {
+          "type": "fire"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [],
+        "value": 30
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "cold-iron",
+          "value": 5
+        },
+        {
+          "exceptions": [],
+          "type": "water",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "(Can't Speak Any Language)",
+        "value": [
+          "fey"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>These strange, fey felines resemble large, broad bobcats from a distance, but a closer view reveals something amiss. Their forms ripple and billow with heat, and their eyes glow from within as if they contained tiny, flickering flames. The pungent scent of rotting leaves smoldering in a bonfire clings to their fur. Yet those who have the chance to watch elananxes hunt or attack prey witness the greatest indication that these creatures are something more than mere predators, for they act with cruel and savvy instincts, reveling in the pain they inflict.</p>\n<p>Elananxes typically hunt alone, but sometimes these cunning and malicious hunters of the First World roam in packs called billows to take down large prey. Like many house cats, elananxes are not content to merely track and devour prey, but prefer to toy with their victims, drawing joy from the fear and pain of those they capture. To this end, elananxes rarely use their cinder dispersal ability to evade their targets, instead opting to foil their quarry just before the end of the hunt—though, as selfish creatures who wish to live to hunt again, elananxes often reserve one use of this ability, just in case.</p>\n<p>Because of their clever and malicious ways, elananxes are favored as hunting companions by redcaps, who go out of their way to befriend or make deals with these creatures. Redcaps also find great sport in hunts where competing elananxes chase a single creature. Although they're large enough to serve as mounts for redcaps, elananxes despise being ridden and resist such attempts—little is as sure to cause a supposedly friendly elananx to turn on its redcap ally as a foolhardy attempt to treat the fey cat as a horse!</p>\n<p>Elananxes have a strange affinity with forest fires. Because they are immune to the damage caused by flickering flames, they enjoy capering and caterwauling through the smoky, burning ruins of forest infernos. Some have even been known to use their burning bites to deliberately light undergrowth on fire, simply so they might experience the beauty of the flames combined with the inevitable pain such disasters inflict on other creatures.</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "Smoke Vision",
+      "mod": 14,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 12
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 16
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 12
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 14,
+        "special": []
+      },
+      "athletics": {
+        "base": 14,
+        "special": []
+      },
+      "stealth": {
+        "base": 15,
+        "special": []
+      },
+      "survival": {
+        "base": 14,
+        "special": [
+          {
+            "base": 17,
+            "label": "to Track",
+            "predicate": [
+              "action:track"
+            ]
+          }
+        ]
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "fey",
+        "fire"
+      ]
+    }
+  },
+  "type": "npc"
+}

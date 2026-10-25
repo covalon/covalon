@@ -1,0 +1,86 @@
+{
+  "_id": "5UgSUmBHmM9oXsB9",
+  "_key": "!items!5UgSUmBHmM9oXsB9",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.5UgSUmBHmM9oXsB9",
+    "coreVersion": "14.367",
+    "createdTime": 1680077583506,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807528,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/wordsmith.webp",
+  "name": "Gunvald",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 300000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Gunvald is one of the first gods and a somewhat enigmatic figure. He is the god concerned with the formalities of war—especially treaties, and sacrificed his hand for humanity's future.</p><p><br /><strong>Edicts</strong> fulfill your duties, oppose those who unjustly lord power over others, act with dignity<br /><strong>Anathema</strong> refuse to give aid to an ally, enforce an unjust law</p>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "duty",
+        "freedom",
+        "might",
+        "protection"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "deception"
+    ],
+    "slug": "gunvald",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.EUMjrJJwSgsqNidi",
+      "3": "Compendium.pf2e.spells-srd.Item.ovx7O2FHvkjXhMcA",
+      "7": "Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "spear",
+      "longsword"
+    ]
+  },
+  "type": "deity"
+}

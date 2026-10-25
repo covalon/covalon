@@ -1,0 +1,1385 @@
+{
+  "_id": "GYh6QcGiPpdxLb76",
+  "_key": "!actors!GYh6QcGiPpdxLb76",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1775757986608,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "WhYzoVrwPaCrANkH",
+    "modifiedTime": 1776095200643,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.1"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "jl6ejcceZZDGXgcx",
+  "img": "modules/covalon/images/Whitespire/stonewyrm%20art%20full.webp",
+  "items": [
+    {
+      "_id": "1PagXAM2GUizfPnr",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.1PagXAM2GUizfPnr",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Indomitable Presence",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Stonewyrm is truly massive. The entire battle arena is encircled by the Stonewyrm's coils. </p><p>Players can only target the head of the beast (its token). </p><p>The Stonewyrm is immune to forced movement and cannot be knocked Prone. </p><p>The Stonewyrm's head cannot move, and stays at its position on the north end of the arena.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "dKhBkulE7hkDaBOI",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.dKhBkulE7hkDaBOI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Modification: Curse of Greater Decay",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Modification: The Stonewyrm's death curse is much more potent. Use Curse of Greater Decay instead of Curse of Decay.</strong></p><hr /><p>As the Stonewyrm draws closer to death, its enemies crumble into dust. This curse is activated by the Mawtouched Lifeforce and Death Throes abilties.</p><p><strong>Saving Throw </strong>@Check[will|dc:29]</p><p><strong>Maximum Duration </strong>None, but the curse stops progressing immediatly when the Stonewyrm is killed. After its death, afflicted creatures stay permanently at whatever stage they reached until the curse is removed.</p><p>Use @UUID[Compendium.covalon.whitespire-items.Item.SRRbA7aR6kOoWtrS]{Effect: Curse of Greater Decay} to track the stages of this curse, it will automatically apply and increment the associated conditions.</p><p><strong>Stage 1 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p><p><strong>Stage 2 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} (1 round)</p><p><strong>Stage 3 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 3} (1 round)</p><p><strong>Stage 4 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4} (1 round)</p><p><strong>Stage 5 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 5}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 5}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 5} (1 round)</p><p><strong>Stage 6 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 6}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 6}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 6} (1 round)</p><p><strong>Stage 7 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 7}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 7}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 7} (1 round)</p><p><strong>Stage 8 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 8}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 8}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 8} (1 round)</p><p><strong>Stage 9 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 9}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 9}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 9} (1 round)</p><p><strong>Stage 10 </strong>The creature's flesh crumbles to dust, leaving behind only its gear.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "curse",
+            "earth",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "bvcOhAUR3BHyYcqx",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.bvcOhAUR3BHyYcqx",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776094405456,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.1"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Poisonous Exhalation",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Stonewyrm exhales a poisonus gas that turns flesh to stone. </p><p>Creatures in an @Template[cone|distance:80] take @Damage[11d6[poison]|options:area-damage] (@Check[fortitude|dc:32|basic|options:area-effect] save) with the following additional effects. </p><p>The Stonewyrm can't use this ability again for [[/gmr 1d4 #Recharge Poisonous Exhalation]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage.</p><p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} and @UUID[Compendium.covalon.whitespire-items.Item.dW8603EhXd6F1tgY]{Turning to Stone}.</p><p>The target must attempt a @Check[fortitude|dc:29] save at the end of each of its turns. On a failed save, the slowed condition increases by 1 (or 2 on a critical failure). A successful save reduces the slowed condition by 1.</p><p>If a creature becomes fully unable to act due to the slowed condition, they become petrified permanently as a stone statue.</p><p><strong>Critical Failure</strong> The creature takes double damage, and then as Failure, except it is initially @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>"
+        },
+        "frequency": null,
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "poison",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "zziu60RgR2Vko3EX",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.zziu60RgR2Vko3EX",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Stonewrought Venom",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:30]</p><p><strong>Maximum Duration</strong> 10 rounds</p><p><strong>Stage 1</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1}</p><p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "poison"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "TKZTVLerWfXgURdD",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.TKZTVLerWfXgURdD",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": [
+            "stonewrought-venom"
+          ]
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "UKACXxsUHr1IN9ZH": {
+            "category": null,
+            "damage": "3d10+14",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [
+          {
+            "category": "persistent",
+            "damageType": "poison",
+            "diceNumber": 1,
+            "dieSize": "d8",
+            "key": "DamageDice",
+            "predicate": [
+              "self:effect:maw-frenzy"
+            ],
+            "selector": "{item|id}-damage"
+          }
+        ],
+        "slug": null,
+        "subjectToMAP": true,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-40",
+            "unarmed"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Or5viI37SXWGohng",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.Or5viI37SXWGohng",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Earthen Spike",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "action": "strike",
+        "area": null,
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 25
+        },
+        "damageRolls": {
+          "LfsAz2gLaY5VVJC7": {
+            "category": null,
+            "damage": "3d6+12",
+            "damageType": "piercing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "range": null,
+        "rules": [
+          {
+            "category": "persistent",
+            "damageType": "bleed",
+            "diceNumber": 1,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "self:effect:maw-frenzy"
+            ],
+            "selector": "{item|id}-damage"
+          }
+        ],
+        "slug": null,
+        "subjectToMAP": true,
+        "traits": {
+          "config": {},
+          "otherTags": [],
+          "value": [
+            "earth",
+            "magical",
+            "reach-200",
+            "versatile-b"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "m46AIQCKc3mODXjq",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.m46AIQCKc3mODXjq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Reactive Strike (Earthen Spike Only)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "reactive-strike",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "fPtKCeaSkgayfAHA",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.fPtKCeaSkgayfAHA",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776102133913,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Mawtouched Lifeforce",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 250000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>The Stonewyrm would die.</p><p><strong>Effect </strong>The Maw refuses to let its vessel die. Do the following.</p><ul><li><p>Set the Stonewyrm to 1 hp and apply the @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw Frenzy (T4)} effect. The Stonewyrm gains buffs and abilities as noted in the effect.</p></li><li><p>Every creature in the arena is exposed to @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.sq9MApGhtk78pp5P]{Curse of Decay} (or @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.dKhBkulE7hkDaBOI]{Modification: Curse of Greater Decay}, if that modification is in effect).</p></li><li><p>Describe how the enchantments on @UUID[Compendium.covalon.whitespire-actors.Actor.PWGNOSjOBcIt2Qvv]{The Den Mother (T4)} drill whirr to life, recovering from the initial push through the Stonewyrm's maw-adamantine cocoon. Perform the Den Mother's reaction and add it to the initiative tracker.</p></li><li><p>Add @UUID[Compendium.covalon.whitespire-items.Item.B1qFNjfOX1dACQpL]{Power the Den Mother} to your PC's sheets. Remember to tell the players they <em>must</em> use the drill to kill the Stonewyrm, as it cannot die any other way.</p></li></ul>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "gEoxaStnDV9CnjsF",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.gEoxaStnDV9CnjsF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776102332403,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "(Maw Frenzy) Earthen Frenzy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement </strong>The Stonewyrm must be in a @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw Frenzy (T4)} (see @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched Lifeforce})</p><hr /><p>The Stonewyrm makes three Earthen Spike attacks. Apply multiple attack penalty to the Strikes as normal. Creatures hit by these attacks are @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=26]]).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "83ehnKlVYuKwnwpO",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.83ehnKlVYuKwnwpO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776102388539,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "(Maw Frenzy) Death Throes",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirement </strong>The Stonewyrm must be in a @UUID[Compendium.covalon.whitespire-items.Item.thPuoO4lUmH8v63g]{Maw Frenzy (T4)} (see @UUID[Compendium.covalon.whitespire-actors.Actor.GYh6QcGiPpdxLb76.Item.fPtKCeaSkgayfAHA]{Mawtouched Lifeforce})</p><hr /><p>The Stonewyrm roars, defying death. All creatures in the arena that are not already afflicted by @UUID[Compendium.covalon.whitespire-items.Item.EE6yzIBKSpyYxxTy]{Curse of Decay} (or @UUID[Compendium.covalon.whitespire-items.Item.SRRbA7aR6kOoWtrS]{Curse of Greater Decay}, if that Modification is in play) are exposed again.</p><p>Creatures already afflicted by @UUID[Compendium.covalon.whitespire-items.Item.EE6yzIBKSpyYxxTy]{Curse of Decay} (or @UUID[Compendium.covalon.whitespire-items.Item.SRRbA7aR6kOoWtrS]{Curse of Greater Decay}) must attempt another save immediately, though if they succeed or critically succeed, they do not decrease their stage (just like multiple exposures to a poison).</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "E6LMTWBx9xTeBzGt",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.E6LMTWBx9xTeBzGt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776102117603,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Resilience of Mountains",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 50000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Stonewyrm calls upon earthen magic, targetting a single magical effect with <strong>a duration and an area</strong>, or an ongoing <strong>magical effect or curse on itself,</strong> and attempts to counteract it.</p><p>Its counteract modifier for this is [[/r 1d20+25 #Resilience of Mountains]]{+25}, and its counteract level is half its creature level, rounded up ([[/r ceil(@actor.level/2)]]).</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "earth",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ceb5OAhtjwW9xjWt",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.Ceb5OAhtjwW9xjWt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "WhYzoVrwPaCrANkH",
+        "modifiedTime": 1776100628597,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Raise Cliffs",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": null,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Stonewyrm raises up to three @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy]{Raise Cliffs Wall (T4)} from the earth anywhere in the arena. Each wall is 1 inch thick, 30 feet long, and reaches from the floor to the ceiling (60 ft up).</p><p>Walls are placed on the border between squares, must be conjured in an open space in a straight line, and cannot pass through creatures or objects. You cannot form a closed triangle with this ability (you can make three walls of a box). When placed in parallel, each wall must be at least 10 feet apart.</p><p>You can use the drawing tool or a @Template[line|distance:30|width:0.25] template to mark the location of each wall. Track each wall's HP using a separate @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy]{Raise Cliffs Wall (T4)} actor.</p><p>Walls automatically fail their saving throws. When a wall is destroyed, it destroys the entire 30 foot segment.</p><div data-visibility=\"gm\"><p>If using the Obsidian Spikes modification: when a wall takes damage from a creature within 10 feet, it deals piercing damage back. See @UUID[Compendium.covalon.whitespire-actors.Actor.1S5SJtiUINUpn3wy.Item.ptZqTGRQ5BH0i7VM]{Modification: Obsidian Spikes}.</p></div><p>If the Stonewyrm uses this ability again, any previous walls disappear.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "earth",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "vsXEnUPtB7kcZrPw",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.vsXEnUPtB7kcZrPw",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.955
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 32,
+          "value": 24
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "GOHKhCAsGjXtPmsO",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.GOHKhCAsGjXtPmsO",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "core/icons/tools/smithing/furnace-fire-metal-orange.webp",
+      "name": "Mythic Heat Metal",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.955
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "14d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>This spell heats the targeted metal to become red-hot for a moment. This is usually harmless to an unattended metal item, which doesn't get a saving throw, though the GM might rule that flammable materials connected to the object catch fire or melt. If you target an item worn or carried by a creature, or you target a creature made primarily of metal, the heat deals @Damage[(@item.level*2)d6[fire]] damage and @Damage[(@item.level)d4[persistent,fire]] damage to the creature, which must attempt a Reflex saving throw.</p><p>If you target an item held by the creature, the creature can @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{Release} the item to improve their degree of success by one step from the result of their saving throw. The persistent damage is associated with the object and damages whichever creature is holding or wearing it. It has no effect if no one is holding the item, but you continue to attempt flat checks to end the persistent damage as normal, since the item remains hot and can sear someone who picks it up.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes half damage and the object deals no persistent fire damage.</p><p><strong>Failure</strong> The creature takes full damage and the object deals full persistent damage.</p><p><strong>Critical Failure</strong> As failure, but the creature takes double damage and the object deals double persistent damage.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 7
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "uses": {
+            "max": 2,
+            "value": 2
+          },
+          "value": "vsXEnUPtB7kcZrPw"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Advanced Player's Guide"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "heat-metal",
+        "target": {
+          "value": "Up to 6 metal worn or held items"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "sq9MApGhtk78pp5P",
+      "_key": "!actors.items!GYh6QcGiPpdxLb76.sq9MApGhtk78pp5P",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Curse of Decay",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "13.351",
+            "schema": 0.954,
+            "system": "7.10.1"
+          },
+          "version": 0.955
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>As the Stonewyrm draws closer to death, its enemies crumble into dust. This curse is activated by the Mawtouched Lifeforce and Death Throes abilties.</p><p><strong>Saving Throw </strong>@Check[will|dc:29]</p><p><strong>Maximum Duration </strong>None, but the curse stops progressing immediatly when the Stonewyrm is killed. After its death, afflicted creatures stay permanently at whatever stage they reached until the curse is removed.</p><p>Use @UUID[Compendium.covalon.whitespire-items.Item.EE6yzIBKSpyYxxTy]{Effect: Curse of Decay} to track the stages of this curse, it will automatically apply and increment the associated conditions.</p><p><strong>Stage 1 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p><p><strong>Stage 2 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p><p><strong>Stage 3 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} (1 round)</p><p><strong>Stage 4 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 2} (1 round)</p><p><strong>Stage 5 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 3} (1 round)</p><p><strong>Stage 6 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 3}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 3}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 3} (1 round)</p><p><strong>Stage 7 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4} (1 round)</p><p><strong>Stage 8 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 4}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 4}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 4} (1 round)</p><p><strong>Stage 9 </strong>@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 5}, @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 5}, and @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Drained 5} (1 round)</p><p><strong>Stage 10 </strong>The creature's flesh crumbles to dust, leaving behind only its gear.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "curse",
+            "earth",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "The Stonewyrm (T4)",
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 8,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 8,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "The Stonewyrm",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "src": "modules/covalon/images/Whitespire/stonewyrm%20token%20final.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 8
+  },
+  "sort": 300000,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.954,
+        "system": "7.10.1"
+      },
+      "version": 0.955
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 4
+      },
+      "str": {
+        "mod": 8
+      },
+      "wis": {
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 33
+      },
+      "adjustment": "elite",
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "Mawtouched Lifeforce",
+        "max": 380,
+        "temp": 0,
+        "value": 400
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "petrified"
+        },
+        {
+          "exceptions": [],
+          "type": "curse"
+        },
+        {
+          "exceptions": [],
+          "type": "paralyzed"
+        },
+        {
+          "exceptions": [],
+          "type": "sleep"
+        },
+        {
+          "exceptions": [],
+          "type": "prone"
+        }
+      ],
+      "speed": {
+        "details": "Indomitable Presence",
+        "otherSpeeds": [],
+        "value": 0
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "cold-iron",
+          "value": 15
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "draconic",
+          "petran",
+          "dwarven"
+        ]
+      },
+      "level": {
+        "value": 13
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 26,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "acuity": "precise",
+          "range": 500,
+          "type": "tremorsense"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 26
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 20
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 23
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 27,
+        "special": []
+      },
+      "intimidation": {
+        "base": 23,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "rare",
+      "size": {
+        "value": "grg"
+      },
+      "value": [
+        "dragon",
+        "earth",
+        "elemental",
+        "kaiju"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "a3ff6fOESOCGRDxw",
+  "_key": "!folders!a3ff6fOESOCGRDxw",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.350",
+    "createdTime": 1758949337536,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1763939424553,
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "Mission C",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

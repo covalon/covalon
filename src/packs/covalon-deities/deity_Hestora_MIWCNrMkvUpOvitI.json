@@ -1,0 +1,84 @@
+{
+  "_id": "MIWCNrMkvUpOvitI",
+  "_key": "!items!MIWCNrMkvUpOvitI",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.MIWCNrMkvUpOvitI",
+    "coreVersion": "14.367",
+    "createdTime": 1680084531015,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807531,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/wall-of-fire.webp",
+  "name": "Hestora",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1700000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Hestora is a deity of the home, of earth and flames. She grants guidance to those who wish to provide safety and rest to others. She prefers to let her actions, and food speak for her. Stories say Hestora was formed from the ashes of the first flames. It was there she built the first fireplace and where she calls home. Inviting all for safety and comfort.</p><p><br /><strong>Edicts</strong> appreciate a warm hearth, protect the home, teach communities to defend themselves, harvest with skill<br /><strong>Anathema</strong> deny support to loved ones, sow discord in a community, allow harm to come to children, refuse to provide for the family or community</p>"
+    },
+    "domains": {
+      "alternate": [],
+      "primary": [
+        "family",
+        "earth",
+        "fire",
+        "protection"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "diplomacy"
+    ],
+    "slug": "hestora",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.X9dkmh23lFwMjrYd",
+      "2": "Compendium.pf2e.spells-srd.Item.CXICME10TkEJxz0P",
+      "4": "Compendium.pf2e.spells-srd.Item.e36Z2t6tLdW3RUzZ"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "shears"
+    ]
+  },
+  "type": "deity"
+}

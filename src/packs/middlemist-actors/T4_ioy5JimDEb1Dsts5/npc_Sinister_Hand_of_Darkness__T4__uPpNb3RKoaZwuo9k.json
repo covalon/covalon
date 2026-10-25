@@ -1,0 +1,828 @@
+{
+  "_id": "uPpNb3RKoaZwuo9k",
+  "_key": "!actors!uPpNb3RKoaZwuo9k",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405802711,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.5.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1731258488208,
+    "systemId": "pf2e",
+    "systemVersion": "6.6.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "ioy5JimDEb1Dsts5",
+  "img": "modules/covalon/images/Middlemist/hand_scaryleft.webp",
+  "items": [
+    {
+      "_id": "UXkjROwSkl50A3Uj",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.UXkjROwSkl50A3Uj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Slam",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": [
+            "improved-grab"
+          ]
+        },
+        "bonus": {
+          "value": 28
+        },
+        "damageRolls": {
+          "vir8kib4acu6i8xvjssm": {
+            "category": null,
+            "damage": "3d8 + 13",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "forceful",
+            "sweep"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "apXNJ2KQq5YlJ5R3",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.apXNJ2KQq5YlJ5R3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Titan-Bound",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Hand of Darkness is immune to any effect that would disjoint it from the Titan's body. This includes all teleportation effects such as <em>maze. </em>The Hand of Darkness can be Shoved and Pushed as normal. </p>\n<p> </p>\n<p>The Hand of Darkness does not fall at the end of its turn if it does not use a Fly action. The Hand of Darkness does not fall if it becomes @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "WEZ1rPWCaknYj00i",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.WEZ1rPWCaknYj00i",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Titanic Fortitude",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": true,
+        "description": {
+          "gm": "",
+          "value": "<p>The Shadow Titan is too large to simply destroy. When the Hand of Darkness is brought to 0 hit points, it is not destroyed. Instead, it becomes @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 4}. When its Stunned value reduces to 0, it regains half of its maximum hitpoints. </p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "93J7tonpXjmIflPb",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.93J7tonpXjmIflPb",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shadow Ray",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 28
+        },
+        "damageRolls": {
+          "9db2t3fq049xxenczrzt": {
+            "category": null,
+            "damage": "3d6 + 11",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-60"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "TBQKtvPBwMDR31dH",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.TBQKtvPBwMDR31dH",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Grab",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "improved-grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ap4FZ4Ezvu2HY8XL",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.Ap4FZ4Ezvu2HY8XL",
+      "_stats": {
+        "compendiumSource": "Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.5WUSbxSOwwD4RYWq.Item.9L5FGnBuWHOMU0n7",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Clap [4 Actions]",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Clap can only be used if both hands can act simultaneously. Instead of using actions for other abilities, each hand can commit up to three actions to Clap, readying itself for a Clap until the end of the current round.</p><p>When a total of 4 actions have been committed to Clap in a single round, both hands immediately execute the following routine:</p><ol><li><p>Both hands may Fly up to 100 feet. They have to move for the same distance in the same direction if they choose to, and can not change the distance to each other during this movement.</p></li><li><p>The hands then slam together in a @Template[type:square|distance:10] centered around any point between them. Creatures in the square take @Damage[8d6[bludgeoning]] damage with a @Check[type:reflex|dc:30|basic:true] save. On a failure, creatures fall @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p></li><li><p>The reverberations of the Clap create a @Template[type:emanation|distance:30]. Creatures in the emanation take @Damage[8d6[sonic]] damage with a @Check[type:fortitude|dc:30|basic:true] save. On a failure, creatures are @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Deafened} for 1 round. </p></li><li><p>After slamming together, each hand may Fly to any point within the emanation.</p></li></ol><p>After using Clap, the hands can not use this ability again for [[/br 1d4 # rounds]]{1d4 rounds}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "move"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "EXo6MQamHk1xN1v1",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.EXo6MQamHk1xN1v1",
+      "_stats": {
+        "compendiumSource": "Item.rQVfc5bR7Xpe25cT",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Fling",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Hand of Darkness flings a @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} creature into the air, up to 30 feet overhead and up to 30 feet away from the Hand (the creature takes damage from the fall as normal). If the flung creature lands on another creature, the creature it lands on takes the same amount of bludgeoning damage. The creature being landed on can attempt a @Check[type:reflex|dc:31|basic:true] save to avoid taking damage.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "czHTleBVVY6wvIaK",
+      "_key": "!actors.items!uPpNb3RKoaZwuo9k.czHTleBVVY6wvIaK",
+      "_stats": {
+        "compendiumSource": "Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.5WUSbxSOwwD4RYWq.Item.mgStdZUgFztAo7zu",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.6.2"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Umbral Wave",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.5.0"
+          },
+          "version": 0.933
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A cascading wave of shadow bursts from the Hand of Darkness in a @Template[type:cone|distance:20]. Each non-shadow creature in the area takes @Damage[6d6[mental]] damage and must succeed at a @Check[type:will|dc:30|basic:true] save with the following effects:</p><p><strong>Critical Success:</strong> The creature is unaffected</p><p><strong>Success:</strong> The creature takes half damage.</p><p><strong>Failure:</strong> The creature takes full damage and is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round</p><p><strong>Critical Failure:</strong> The creature takes double damage and is @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Sinister Hand of Darkness (T4)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Sinister Hand of Darkness",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Middlemist/hand_scaryleft.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.5.0"
+      },
+      "version": 0.933
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 10
+      },
+      "dex": {
+        "mod": 9
+      },
+      "int": {
+        "mod": 9
+      },
+      "str": {
+        "mod": 10
+      },
+      "wis": {
+        "mod": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 34
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 280,
+        "temp": 0,
+        "value": 280
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "void"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "petrified"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "speed": {
+        "details": "Titan-bound",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 100
+          }
+        ],
+        "value": 100
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "jotun",
+          "shadowtongue"
+        ]
+      },
+      "level": {
+        "value": 14
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 28,
+      "senses": [
+        {
+          "type": "greater-darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 25
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 28
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 22
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 28
+      },
+      "deception": {
+        "base": 26
+      },
+      "intimidation": {
+        "base": 26
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "evil",
+        "shadow",
+        "spirit",
+        "titan"
+      ]
+    }
+  },
+  "type": "npc"
+}

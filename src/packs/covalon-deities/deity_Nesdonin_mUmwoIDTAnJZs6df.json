@@ -1,0 +1,86 @@
+{
+  "_id": "mUmwoIDTAnJZs6df",
+  "_key": "!items!mUmwoIDTAnJZs6df",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.mUmwoIDTAnJZs6df",
+    "coreVersion": "14.367",
+    "createdTime": 1680097254312,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807535,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/magic-fang.webp",
+  "name": "Nesdonin",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 4200000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Nesdonin is the bringer of plagues and poisons. It appears as swarms of snakes, insects, rats, and other beings that bring pestilince or venom. It was worshipped by many cults across Elleaterra. People would also give offerings and prayers in hopes that it would spare them from dying to disease and sickness.</p><p><br /><strong>Edicts</strong> spread and nuture disease, use poisons<br /><strong>Anathema</strong> bury or burn the dead, kill a harmless pest, aid in ending a plague or infection</p>"
+    },
+    "domains": {
+      "alternate": [
+        "death"
+      ],
+      "primary": [
+        "decay",
+        "pain",
+        "swarm",
+        "plague"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "skill": [
+      "medicine"
+    ],
+    "slug": "nesdonin",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.zJQnkKEKbJqGB3iB",
+      "2": "Compendium.pf2e.spells-srd.Item.cB17yFc9456Pyfec",
+      "5": "Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "dagger"
+    ]
+  },
+  "type": "deity"
+}

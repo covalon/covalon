@@ -1,0 +1,580 @@
+{
+  "_id": "gcu7cHPgChAK0O7B",
+  "_key": "!scenes!gcu7cHPgChAK0O7B",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405838384,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "pGJOYrzHQ5eIdrmI",
+    "modifiedTime": 1689265715649,
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2"
+  },
+  "active": false,
+  "drawings": [],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 1,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {},
+    "perfect-vision": {
+      "darknessColor": "",
+      "daylightColor": "",
+      "saturation": null,
+      "sightLimit": null
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 0,
+    "reset": 1646425998014
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 200,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 0,
+    "units": "ft"
+  },
+  "height": 5120,
+  "initial": {
+    "scale": 0.27,
+    "x": 2689,
+    "y": 2496
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!gcu7cHPgChAK0O7B.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Taltain/Taltain%20Outpost.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Taltain Outpost",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [
+    {
+      "_id": "kYZMuJzK6iM3dBZq",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.kYZMuJzK6iM3dBZq",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 3256,
+      "y": 3229
+    },
+    {
+      "_id": "Aj7csLE3M6bZhbS2",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.Aj7csLE3M6bZhbS2",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 4200,
+      "y": 3400
+    },
+    {
+      "_id": "cvbkVhWet2xmF1WE",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.cvbkVhWet2xmF1WE",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 4800,
+      "y": 3074
+    },
+    {
+      "_id": "ZOALClvocyxKPfKx",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.ZOALClvocyxKPfKx",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 4363,
+      "y": 2730
+    },
+    {
+      "_id": "19Lhib3GWjEdAc4D",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.19Lhib3GWjEdAc4D",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 4752,
+      "y": 2211
+    },
+    {
+      "_id": "Vb71MDDWN6yZ0lJE",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.Vb71MDDWN6yZ0lJE",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 943,
+      "y": 2050
+    },
+    {
+      "_id": "B2oGdbjJRxY1Dp7k",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.B2oGdbjJRxY1Dp7k",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 471,
+      "y": 3755
+    },
+    {
+      "_id": "qleZ3G8KwCeDSoKu",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.qleZ3G8KwCeDSoKu",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 2178,
+      "y": 531
+    },
+    {
+      "_id": "6XrPf0awjPtFriNG",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.6XrPf0awjPtFriNG",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 2317,
+      "y": 353
+    },
+    {
+      "_id": "U90G9w1FIDjUpbZ6",
+      "_key": "!scenes.lights!gcu7cHPgChAK0O7B.U90G9w1FIDjUpbZ6",
+      "config": {
+        "alpha": 0.3,
+        "angle": 360,
+        "animation": {
+          "intensity": 5,
+          "reverse": false,
+          "speed": 3,
+          "type": "torch"
+        },
+        "attenuation": 0.5,
+        "bright": 20,
+        "color": "#e88b21",
+        "coloration": 1,
+        "contrast": 0,
+        "darkness": {
+          "max": 1,
+          "min": 0
+        },
+        "dim": 40,
+        "luminosity": 0.5,
+        "negative": false,
+        "priority": 0,
+        "saturation": 0,
+        "shadows": 0
+      },
+      "elevation": 0,
+      "flags": {
+        "core": {},
+        "perfect-vision": {}
+      },
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "vision": false,
+      "walls": true,
+      "x": 3200,
+      "y": 400
+    }
+  ],
+  "name": "Taltain Outpost",
+  "navName": "",
+  "navOrder": 0,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "padding": 0,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/taltain-scenes-gcu7cHPgChAK0O7B-thumb.webp",
+  "tiles": [],
+  "tokenVision": false,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 5120
+}

@@ -1,0 +1,652 @@
+{
+  "_id": "mMDSfjKE0rUkxl2S",
+  "_key": "!actors!mMDSfjKE0rUkxl2S",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1739725312442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "mMcmtNMgK3cpxOLU",
+  "img": "modules/covalon/images/Varceta/Reaper_Minion.webp",
+  "items": [
+    {
+      "_id": "7GaoOYEdLzuDzNIN",
+      "_key": "!actors.items!mMDSfjKE0rUkxl2S.7GaoOYEdLzuDzNIN",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shadow Tendril",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "improved-grab"
+          ]
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "54mzjxo0knbzdtut9pf5": {
+            "category": null,
+            "damage": "2d8+9",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "Darl9p35ldAK2Ew6",
+      "_key": "!actors.items!mMDSfjKE0rUkxl2S.Darl9p35ldAK2Ew6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Shadow Bolt",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": [
+            "embrace-of-death"
+          ]
+        },
+        "bonus": {
+          "value": 21
+        },
+        "damageRolls": {
+          "u2xlXMRgOA2R159X": {
+            "category": null,
+            "damage": "2d6+8",
+            "damageType": "cold"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "range-increment-60"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "s8kU4T4feDGeNiq6",
+      "_key": "!actors.items!mMDSfjKE0rUkxl2S.s8kU4T4feDGeNiq6",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.g26YiEIfSHCpLocV",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        },
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Constrict",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Damage[(2d8+9)[bludgeoning]]], @Check[type:fortitude|dc: 26|basic:true]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": "constrict",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "XfNt3J3ABqLR8a3Y",
+      "_key": "!actors.items!mMDSfjKE0rUkxl2S.XfNt3J3ABqLR8a3Y",
+      "_stats": {
+        "compendiumSource": "Actor.mrqCBHdcpEaX6CRF.Item.YMJT0YeH6QZkQpPX",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.mrqCBHdcpEaX6CRF.Item.YMJT0YeH6QZkQpPX",
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1739734340917,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Embrace of Death",
+      "ownership": {
+        "GlvvIehDY7BHTmwu": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>When a creature is hit by Shadow Bolt, reduce all of their speeds by 10ft. This effect is cumulative. If this ability would bring a creatures speed below 0, the creature also has to succeed on a @Check[type:fortitude|dc:26] save or become @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned 1}.</p><p>A creature affected by Embrace of Death can remove all penalties to their speed with a single Interact action.</p><p>@UUID[Compendium.covalon.varceta-items.Item.s7gWKgXAEZjNcnN7]{Effect: Embrace of Death}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "NOQVV0Q9OWfz28UZ",
+      "_key": "!actors.items!mMDSfjKE0rUkxl2S.NOQVV0Q9OWfz28UZ",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.i18TlebMzwONyPhI",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Improved Grab",
+      "ownership": {
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core"
+        },
+        "rules": [],
+        "slug": "improved-grab",
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Reaper Minion (T3)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "LocknKey": {
+        "LBFormulaFlag": "",
+        "LBFormulaOverrideFlag": false,
+        "LPFormulaFlag": "",
+        "LPFormulaOverrideFlag": false,
+        "LootFormulaFlag": "",
+        "PickPocketDCFlag": null,
+        "PickPocketFormulaFlag": "",
+        "PickPocketFormulaOverrideFlag": false
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Reaper Minion",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Varceta/reaper%20minion%20token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.934,
+        "system": "6.7.1"
+      },
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 8
+      },
+      "dex": {
+        "mod": 9
+      },
+      "int": {
+        "mod": 5
+      },
+      "str": {
+        "mod": 8
+      },
+      "wis": {
+        "mod": 5
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 24
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 130,
+        "temp": 0,
+        "value": 130
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "disease"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "cold",
+          "value": 5
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "value": 40
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "fire",
+          "value": 5
+        }
+      ]
+    },
+    "customModifiers": {},
+    "details": {
+      "blurb": "",
+      "creatureType": "",
+      "languages": {
+        "details": "",
+        "value": []
+      },
+      "level": {
+        "value": 8
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 15,
+      "senses": [
+        {
+          "acuity": "precise",
+          "range": 60,
+          "type": "lifesense"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 18
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 15
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 12
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 18
+      },
+      "intimidation": {
+        "base": 18
+      }
+    },
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "sm"
+      },
+      "value": [
+        "evil",
+        "monitor"
+      ]
+    }
+  },
+  "type": "npc"
+}

@@ -1,0 +1,1085 @@
+{
+  "_id": "PKDP0r23xgtC08XH",
+  "_key": "!actors!PKDP0r23xgtC08XH",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1739725312442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742875219884,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "TyJgQVc9E43C7sj1",
+  "img": "modules/covalon/images/Varceta/shark%20diver%20art.avif",
+  "items": [
+    {
+      "_id": "H6AP2zVJMsfJVrWF",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.H6AP2zVJMsfJVrWF",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Prepare / Unleash Electricity",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": -3125,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Special </strong>This action can only be taken at the port and starboard control mechanisms.</p><p><strong>Frequency</strong> once per ten minutes; <strong>Effect</strong> A crew member must use this activity on their turn to prepare the electrical components at one of the Jolt Gun control stations, and then a second crew member can use this ability again within a round at the other Jolt Gun control station to unleash a huge electrical blast, dealing @Damage[6d12[electricity]] damage to all creatures within 15 feet of the shark diver. Crew and passengers of the shark diver are unaffected. Affected creatures must attempt a @Check[reflex|dc:26|basic] save.<br /></p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "PT10M",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "MAUbGqzV7K8ucN1q",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.MAUbGqzV7K8ucN1q",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Submersible",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The shark diver can travel beneath the surface of the water, carrying an air reservoir suitable to sustain 6 Medium creatures for up to 12 hours. If broken, the shark diver loses air from its reservoir, reducing the stored air by 10 minutes per round.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BY1UkK6LBkJdhDTb",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.BY1UkK6LBkJdhDTb",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Jaws Strike",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": -100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Melee (1a) Jaws [[/r 1d20+19]] (reach 15 feet, grapple) @Damage[(2d10+13)[piercing]]</p><p>Athletics [[/r 1d20+19]]</p><p>The shark diver's Jaws can only hit enemies in a 180 degree arc in the same direction as the vehicle's heading.</p><p><span style=\"font-family:Roboto, sans-serif\">A crew member may Strike using the Shark Diver's jaws attack - this counts as a simple weapon melee strike for the crew member for any abilities they may have (ie ranger Precision damage, Power Attack, Reactive Strike, etc)</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "YVAYhYu8oJY8L26E",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.YVAYhYu8oJY8L26E",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Tail Strike",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": -1562,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Melee (1a) Tail [[/r 1d20+19]] (reach 25 feet, shove) Damage @Damage[(2d8+11)[bludgeoning]] plus @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push} 15 feet</p><p>Athletics [[/r 1d20+19]]</p><p>The shark diver's Tail can only hit enemies in a 180 degree radius behind its heading.</p><p>A crew member may Strike using the Shark Diver's tail attack - this counts as a simple weapon melee strike for the crew member for any abilities they may have (ie ranger Precision damage, Power Attack, etc)</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "crzUHGkl1GJcSU4R",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.crzUHGkl1GJcSU4R",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Control Mechanisms",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>There are four control mechanisms located in each quadrant of the Shark Diver. The Jaws, Port Guns, Starboard Guns, and the Tail. There is space for two PCs at each control mechanism, and a PC must be adjacent to a control mechanism to use it. Abilities used at a control mechanism can only affect targets in a 180 degree hemisphere around that mechanism's side of the shark. IE, the Jaws attack can only target enemies in reach in a 180 degree arc in the direction of the shark's current heading.</p><p>Strikes made from the control mechanisms count as either melee (Jaws/Tail) or ranged (Jolt Gun) simple weapon Strikes for the purposes of any abilities the player using it may have, such as the Precision ranger edge, Sneak Attack, Reactive Strike, Power Attack, etc. </p><p>The control mechanisms can transmit spells and any other auditory effects (Demoralize, Bon Mot) to the outside. A PC must be adjacent to a control mechanism to use this effect, and can only target creatures in a 180 arc around whatever side of the shark their mechanism is, at whatever the range of their spell or ability is.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BnjdVGlflqdbqMsI",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.BnjdVGlflqdbqMsI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Jolt Gun Strike",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": -6250,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Ranged (1a) Jolt Gun [[/r 1d20+19]] (range 60 feet) @Damage[(2d6+9)[electricity]]</p><p>There are two electrical jolt firing mechanisms on the shark diver - one on the port side, and one on the starboard side. Each firing mechanism can only fire at enemies in a 180 degree angle from its side.</p><p>A crew member may Strike using the Shark Diver's electrical jolt attack - this counts as a simple weapon ranged strike for the crew member for any abilities they may have (ie ranger precision damage, sneak attack, etc).</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "0ViDNtnaBEbGSTv3",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.0ViDNtnaBEbGSTv3",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Piloting Check DCs",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>APL 9</strong></p><p>@Check[type:crafting|dc:26]</p><p>@Check[type:arcana|dc:26]</p><p>@Check[type:nature|dc:26]</p><p>@Check[type:religion|dc:26]</p><p>@Check[type:occultism|dc:26]</p><p>@Check[type:piloting|dc:21] or other relevant lore</p><p><strong>APL 8</strong></p><p>@Check[type:crafting|dc:24]</p><p>@Check[type:arcana|dc:24]</p><p>@Check[type:nature|dc:24]</p><p>@Check[type:religion|dc:24]</p><p>@Check[type:occultism|dc:24]</p><p>@Check[type:piloting|dc:19] or other relevant lore</p><p><strong>APL 7</strong></p><p>@Check[type:crafting|dc:23]</p><p>@Check[type:arcana|dc:23]</p><p>@Check[type:nature|dc:23]</p><p>@Check[type:religion|dc:23]</p><p>@Check[type:occultism|dc:23]</p><p>@Check[type:piloting|dc:18] or other relevant lore</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "EgfnqMJTdLUDhFpd",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.EgfnqMJTdLUDhFpd",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Sharp Turn",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Special </strong>This action can only be taken at the Tail control mechanism.</p><p>A crew member at the Tail can prepare to activate the tail's extra turning mechanisms, allowing a pilot to take the \"Spin\" action. This preparation lasts until the start of your next turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "IJtjwGYbKTLReDJt",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.IJtjwGYbKTLReDJt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Spin",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": -37500,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements</strong> You are at the piloting/jaws control mechanism. The Sharp Turn action must have been taken.</p><p>Attempt a piloting check, with the following effects. If the Shields! ability is active, half all the angles. </p><p><strong>Critical Success</strong> You can spin the shark's heading up to 180 degrees.</p><p><strong>Success </strong>You can spin the shark's heading up to 90 degrees.</p><p><strong>Failure </strong>You can spin the shark's heading up to 90 degrees, but you either over or undershoot by up to 45 degrees.</p><p><strong>Critical Failure </strong>The shark spins to a random angle and becomes <em>uncontrolled.</em></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "move"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "Ye8Z6T4M4dEMksA2",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.Ye8Z6T4M4dEMksA2",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1739734621744,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Shields!",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency </strong>Once per round</p><p><strong>Effect </strong>A crew member at any control station can activate the shark's built in shields, granting it a +2 circumstance bonus to AC for the round, but reducing its speed by half. This effect lasts one round, ending at the start of the turn it was activated.</p><p>@UUID[Compendium.covalon.varceta-items.Item.XsiTJXUJWb8cEu9l]{Shields!}</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "3PPpH8XwYjbHjqj8",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.3PPpH8XwYjbHjqj8",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Dual Piloting",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.934,
+            "system": "6.7.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Thanks to the dual control mechanisms, the Shark Diver can take two move actions per round instead of only one, though not twice on the same turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "RhK2XZ1Y2RSLBeBv",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.RhK2XZ1Y2RSLBeBv",
+      "_stats": {
+        "compendiumSource": "Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.7Z1ARfuG3L9elayj.Item.RhK2XZ1Y2RSLBeBv",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Basic Vehicle Actions",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>These actions work as per the normal <a href=\"https://2e.aonprd.com/Rules.aspx?ID=3116\">Vehicle Rules.</a></p><p>@UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{Drive}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.9gDMkIfDifh61yLz]{Stop}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.lID4rJHAVZB6tavf]{Run Over}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{Take Control}</p><p>@UUID[Compendium.pf2e.actionspf2e.Item.bG91dbtbgOnw7Ofx]{Board}</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "FaDToECnHQJoYzEk",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.FaDToECnHQJoYzEk",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1739734637483,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Initiate Self Repair Sequence",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency </strong>Once per round</p><p>A crew member at any control station can activate the Shark Diver's self repair function. Attempt a Piloting check with the following effects:</p><p><strong>Critical Success </strong>You restore [[/r 40]] HP to the Shark Diver.</p><p><strong>Success </strong>You restore [[/r 20]] HP to the Shark Diver.</p><p>Out of combat, you can use this action as a 10 minute exploration activity to automatically restore the shark diver to full HP without the need for a check.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "1R10YhLuEtpUtS4I",
+      "_key": "!actors.items!PKDP0r23xgtC08XH.1R10YhLuEtpUtS4I",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.9.0"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Easy to Repair",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.8.1"
+          },
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The Dungeoneering Society's best have designed this vehicle to be especially easy to patch up from the inside. If you have the @UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{Quick Repair} feat, you count as one proficiency rank higher when you use it on the Shark Diver. If you're already Legendary in crafting, you restore an additional 5 hit points, or 10 hit points on a critical success to Repair. The DC to Repair the Shark Diver is equal to its Piloting DC.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "T3 Shark Diver",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 4,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 8,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Shark Diver",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.4,
+      "fit": "height",
+      "scaleX": 2.4,
+      "scaleY": 2.4,
+      "src": "modules/covalon/images/Varceta/Shark%20Diver%20Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 4
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.934,
+        "system": "6.7.1"
+      },
+      "version": 0.935
+    },
+    "attributes": {
+      "ac": {
+        "value": 23
+      },
+      "collisionDC": {
+        "value": 26
+      },
+      "collisionDamage": {
+        "value": "6d10"
+      },
+      "emitsSound": true,
+      "hardness": 12,
+      "hp": {
+        "details": "",
+        "max": 180,
+        "temp": 0,
+        "value": 180
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "object-immunities"
+        },
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        },
+        {
+          "exceptions": [],
+          "type": "precision"
+        }
+      ],
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "electricity",
+          "value": 10
+        }
+      ],
+      "weaknesses": []
+    },
+    "details": {
+      "AC": 0,
+      "crew": "1 or 2 pilots",
+      "description": "",
+      "level": {
+        "value": 9
+      },
+      "passengers": "6",
+      "pilotingCheck": "See \"Piloting Check DCs\" under passives",
+      "price": 0,
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "space": {
+        "high": 20,
+        "long": 40,
+        "wide": 20
+      },
+      "speed": "40 feet (alchemical, magical)"
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "huge"
+      },
+      "value": [
+        "magical"
+      ]
+    }
+  },
+  "type": "vehicle"
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "YrogQv48in6Cki4o",
+  "_key": "!folders!YrogQv48in6Cki4o",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1723994655311,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619776948,
+    "systemId": "pf2e",
+    "systemVersion": "6.2.2"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": null,
+  "name": "T3",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

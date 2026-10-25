@@ -1,0 +1,2048 @@
+{
+  "_id": "mncYm39pnCiZla0k",
+  "_key": "!actors!mncYm39pnCiZla0k",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1723994655442,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.16.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": "2R52GEpBbKyr1S13",
+  "img": "modules/covalon/images/Fey%20Courts/fallen_noble_artwork.webp",
+  "items": [
+    {
+      "_id": "oMAwzisS1Q9YCfy6",
+      "_key": "!actors.items!mncYm39pnCiZla0k.oMAwzisS1Q9YCfy6",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+      "name": "Razor Wing",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 27
+        },
+        "damageRolls": {
+          "8ORL5adhAaqSrWc6": {
+            "category": null,
+            "damage": "3d10+13",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "PjItqvalZpaVpWMW",
+      "_key": "!actors.items!mncYm39pnCiZla0k.PjItqvalZpaVpWMW",
+      "_stats": {
+        "compendiumSource": "Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/magic/lightning/barrier-wall-shield-gray.webp",
+      "name": "Polarized Terrain",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Using the surrounding metal, the fallen noble turns a @Template[type:burst|distance:10] within 60 feet into difficult terrain for 1 minute (including the air). Creatures in the area must attempt a @Check[type:fortitude|dc:33] or be <span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\">moved up to 10 feet in a direction chosen by the fallen noble (15 feet if they're wearing metal armor).</span></p>\n<p><span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\"></span></p>\n<p><span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\"></span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "metal",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "63xG4zxibtiBKdNr",
+      "_key": "!actors.items!mncYm39pnCiZla0k.63xG4zxibtiBKdNr",
+      "_stats": {
+        "compendiumSource": "Actor.cg3Pwi3pK9kYK9F5.Item.PjItqvalZpaVpWMW",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/magic/lightning/barrier-wall-shield-gray.webp",
+      "name": "Greater Polarized Terrain",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Using the surrounding metal, <span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\">the fallen noble turns a @Template[type:burst|distance:30] within 60 feet into difficult terrain for 1 minute (including the air). Creatures in the area take @Damage[(8d6+6)[electricity]] with a @Check[type:fortitude|dc:33|basic:true]. </span></p>\n<p>On a critical failure, the creature is either knocked @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}, or pulled up to 15 feet in a direction chosen by the fallen noble (20 feet if they're wearing metal armor).</p>\n<p><span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\"></span></p>\n<p><span id=\"docs-internal-guid-ad8eebde-7fff-3046-4a8a-89c2b809fdc8\"></span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "electricity",
+            "metal",
+            "primal",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "iEADtmDe0DjVVwSI",
+      "_key": "!actors.items!mncYm39pnCiZla0k.iEADtmDe0DjVVwSI",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/control/debuff-chains-shackles-movement-purple.webp",
+      "name": "Futile Struggle",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>A creature can spend an action to reason with the fallen noble. A successful @Check[type:diplomacy|dc:resolve(@actor.saves.will.dc.value)|showDC:gm] check against the fallen noble’s Will DC that incorporates the fact that the creature will cleanse or save the Fey Courts deals @Damage[(3d10 + 14)[mental]] damage as the noble attempts to break free of its corruption. </p>\n<p>The fallen noble can only take this damage once per round.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "key": "TokenImage",
+            "predicate": [
+              "broken-mask"
+            ],
+            "tint": null,
+            "value": "modules/covalon/images/Fey%20Courts/fallen_noble_damaged_token.webp"
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Took damage from Futile Struggle",
+            "option": "broken-mask",
+            "toggleable": true,
+            "value": false
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "C1oY84lS3Ryw5qUC",
+      "_key": "!actors.items!mncYm39pnCiZla0k.C1oY84lS3Ryw5qUC",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Demoralize",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 200000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>With a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an <span data-pf2-action=\"demoralize\" data-pf2-glyph=\"A\">Intimidation</span> check against that target's Will DC. If the target doesn't understand the language you are speaking, or you're not speaking a language, you take a –4 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes.</p>\n<hr />\n<p><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "slug": "demoralize",
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "auditory",
+            "concentrate",
+            "emotion",
+            "fear",
+            "mental",
+            "skill"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "w9jOtS2RVRz7AqGZ",
+      "_key": "!actors.items!mncYm39pnCiZla0k.w9jOtS2RVRz7AqGZ",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "ability": {
+          "value": "int"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "prepared": {
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "showUnpreparedSpells": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 33,
+          "value": 25
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "pHkRPr7eVJ8GTP3T",
+      "_key": "!actors.items!mncYm39pnCiZla0k.pHkRPr7eVJ8GTP3T",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/magic/lightning/bolt-strike-forked-blue.webp",
+      "name": "Electric Arc",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "electricity"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>An arc of lightning leaps from one target to another. Each target takes 2d4 electricity damage with a basic Reflex save.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "electric-arc",
+        "target": {
+          "value": "1 or 2 creatures"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "electricity",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "zA1DdEXKNnB4YezC",
+      "_key": "!actors.items!mncYm39pnCiZla0k.zA1DdEXKNnB4YezC",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.iYRDFxeVpJ5KIjmr",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/magic/light/projectile-needles-salvo-white.webp",
+      "name": "Needle Darts",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "71hLuboTBYkwkqiR": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You shape three needles out of a piece of metal in your possession and send them flying in a tight group toward one target. Make a spell attack roll against your target's AC. The needles deal 3d4 piercing damage and might cause bleeding.</p>\n<p>The needles impart any special properties of the metal that forms them; for instance, cold iron needles deal additional damage to creatures with weakness to cold iron. All the needles are made of the same metal, and the metal returns to you after the attack.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes double damage and [[/r (@item.level)[bleed]]] damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> You send one additional needle, increasing the regular damage by 1d4 and increasing the persistent bleed damage on a critical hit by 1.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "71hLuboTBYkwkqiR": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "overlays": {
+          "1gZuxDZYlG9YSzyW": {
+            "_id": "1gZuxDZYlG9YSzyW",
+            "name": "Needle Darts (Adamantine)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "adamantine"
+                  ]
+                }
+              }
+            }
+          },
+          "E2DbTTDjNlTp0ztA": {
+            "_id": "E2DbTTDjNlTp0ztA",
+            "name": "Needle Darts (Silver)",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "silver"
+                  ]
+                }
+              }
+            }
+          },
+          "ZbRcMkLoWzgq5XvU": {
+            "_id": "ZbRcMkLoWzgq5XvU",
+            "name": "Needle Darts (Cold Iron)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "cold-iron"
+                  ]
+                }
+              }
+            }
+          },
+          "hk5Z57VxDZI5WAgq": {
+            "_id": "hk5Z57VxDZI5WAgq",
+            "name": "Needle Darts",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "needle-darts",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "metal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "vQc4qBArhrwAKAJv",
+      "_key": "!actors.items!mncYm39pnCiZla0k.vQc4qBArhrwAKAJv",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.fHawnhOHwzr4Mwr7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/elemental-counter.webp",
+      "name": "Elemental Counter",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> You or a creature within 60 feet rolls a saving throw against a spell with the earth, fire, metal, plant, water, or wood trait, or are targeted by a spell attack with such a trait.</p>\n<p><strong>Requirements</strong> You have a spell slot from which you could Cast a Spell of the triggering spell's countering element; see text.</p>\n<hr />\n<p>Each element in the elemental cycle counters another, and you can use your elemental spells to protect against elements they counter. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell, using the rank of the spell you lost for the counteract rank. You can lose a plant or wood spell to counter earth, an earth spell to counter water, a water spell to counter fire, a fire spell to counter metal, or a metal spell to counter plant or wood.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "elemental-counter",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "reaction"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "8IcmCwkDC6lcH7iA",
+      "_key": "!actors.items!mncYm39pnCiZla0k.8IcmCwkDC6lcH7iA",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/guidance.webp",
+      "name": "Guidance",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the start of your next turn"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "guidance",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "nio58q5CbF8WY779",
+      "_key": "!actors.items!mncYm39pnCiZla0k.nio58q5CbF8WY779",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/electrified-crystal-ward.webp",
+      "name": "Glass Shield",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "dtpQLfwMi5qU2XEa": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You summon a layer of clear glass to keep you from harm. This cantrip functions as the @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Shield} spell, except it has Hardness 2 and 4 Hit Points. If this shield breaks, provided the breaker is within 5 feet, they must succeed at a basic Reflex save or take @Damage[1d4[piercing]] damage from the glass shards.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.oDDS6D2KTjpbA491]{Spell Effect: Glass Shield}</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The shield has Hardness 4 and 8 Hit Points, and the damage increases to 1d4 + your spellcasting attribute modifier.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 7 and 16 Hit Points, and the damage increases to 2d4 + your spellcasting attribute modifier.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 10 and 24 Hit Points, and the damage increases to 3d4 + your spellcasting attribute modifier.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 12 and 32 Hit Points, and the damage increases to 4d4 + your spellcasting attribute modifier.eld</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the start of your next turn"
+        },
+        "heightening": {
+          "levels": {
+            "3": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": true,
+                  "category": null,
+                  "formula": "1d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "5": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": true,
+                  "category": null,
+                  "formula": "2d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "7": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": true,
+                  "category": null,
+                  "formula": "3d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "9": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": true,
+                  "category": null,
+                  "formula": "4d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "glass-shield",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "earth"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "J5aasrmNbNXObPIm",
+      "_key": "!actors.items!mncYm39pnCiZla0k.J5aasrmNbNXObPIm",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.dKWc83KKiXoIJkhp",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/environment/traps/saw-steel-grey.webp",
+      "name": "Beheading Buzz Saw",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "line",
+          "value": 60
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "5d10",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "slashing"
+          },
+          "1": {
+            "applyMod": false,
+            "category": "persistent",
+            "formula": "4d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bleed"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You compress molten scraps pulled from the Plane of Metal into a spinning disc with gruesome blades protruding from its edges. It wheels forward, slicing through anyone in its path. Each creature in the area takes 5d10 slashing damage and 4d6 persistent bleed damage, with a Reflex save.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage. If the creature has a head, it must succeed at a @Check[type:fortitude|dc:resolve(@actor.system.attributes.spellDC.value)|traits:death,incapacitation] save or be decapitated; this kills any creature except ones that don't require a head to live. For creatures with multiple heads, this usually kills the creature only if you sever its last head. This second save has the death and incapacitation traits.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The slashing damage increases by 1d10, and the persistent bleed damage increases by 1d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d10",
+            "1": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 7
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "beheading-buzz-saw",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "metal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "rZqbcapmNzX138B3",
+      "_key": "!actors.items!mncYm39pnCiZla0k.rZqbcapmNzX138B3",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.CB5TlGv5ZghtMifi",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "icons/tools/smithing/plate-steel-grey.webp",
+      "name": "Wall of Metal",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You call forth a sheet of metal, forming a wall of iron, low-grade cold iron, or standard-grade silver up to 60 feet long, 30 feet high, and 1/4 inch thick. The wall doesn't need to stand vertically but must form a straight line in an unbroken open space so it doesn't pass through any creatures or objects, or the spell is lost. Each 10-foot-by-10- foot section of the wall has AC 10 and is immune to critical hits and precision damage. The wall's Hardness, HP, and BT use the statistics of a structure of the material you chose. Creatures can move through a section of the wall that's broken.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> The wall is high-grade silver or standard-grade dawnsilver.</p>\n<p><strong>Heightened (8th)</strong> The wall is standard-grade cold iron.</p>\n<p><strong>Heightened (9th)</strong> The wall is high-grade dawnsilver.</p>\n<p><strong>Heightened (10th)</strong> The wall is high-grade cold iron or standard-grade adamantine.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "wall-of-metal",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "metal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "wfy90xv2OS1md3Z4",
+      "_key": "!actors.items!mncYm39pnCiZla0k.wfy90xv2OS1md3Z4",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.oXeEbcUdgJGWHGEJ",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+      "name": "Impaling Spike",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "8d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [
+              "cold-iron"
+            ],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You conjure a spike that thrusts up from the earth beneath a target creature, potentially impaling it. The spike is made of cold iron and deals 8d6 piercing damage. The target must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target dodges the spike and is unaffected.</p>\n<p><strong>Success</strong> The target is struck by the spike and takes half damage.</p>\n<p><strong>Failure</strong> The target is impaled through a leg or another nonvital body part. The creature takes full damage and, if it's standing on solid ground, becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}. It can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (the DC is your spell DC). While it remains impaled, it takes damage from any weakness to cold iron it has at the end of each of its turns.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature is impaled through a vital organ or its center of mass, taking double damage, and it is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} as long as it's impaled.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 minute"
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 5
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "impaling-spike",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "metal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "75ZtTTxW58gMqE5f",
+      "_key": "!actors.items!mncYm39pnCiZla0k.75ZtTTxW58gMqE5f",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.MLYTWHfewOpI3Cz7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/field-of-razors.webp",
+      "name": "Field of Razors",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "fiGNEgajuvkIMj7d": {
+            "applyMod": false,
+            "category": null,
+            "formula": "5",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "slashing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You grind a chunk of your choice of metal to fine dust between your hands and blow it into the air, where it grows into a tangle of wires covered in razor-sharp prongs. The metal must be of a type you currently have in your possession. The covered area is difficult terrain. A creature that moves through the area takes @Damage[5[slashing]] damage per square traversed.</p>\n<p>If a creature takes slashing, piercing, or persistent bleed damage while inside the thicket, you can spend a reaction to grow the iron in the shed blood into additional wires, expanding the burst by 5 feet. You can grow the area four times in this way, to a maximum of a @Template[type:burst|distance:40].</p>\n<p>The barbed wires are made of the metal you chose and activate resistances, weaknesses, and the like normally. The metal reforms in your possession when the spell ends.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage per square increases by 2.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "fiGNEgajuvkIMj7d": "2"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 6
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "w9jOtS2RVRz7AqGZ"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "field-of-razors",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "metal"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "a5sqf9rtxr4TR68j",
+      "_key": "!actors.items!mncYm39pnCiZla0k.a5sqf9rtxr4TR68j",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "icons/magic/lightning/bolt-strike-explosion-blue.webp",
+      "name": "True Polymerization",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Requirement</strong> there is difficult terrain created by Polarized Terrain or Greater Polarized Terrain within 60 feet</p>\n<hr />\n<p>The fallen noble absorbs some of the surrounding polarized metal, temporarily growing in size as it empowers its next spell. If its next action is to cast a metal or electricity spell, the fallen noble reduces the number of actions to cast it by 1 (minimum 1 action), and one of the required areas of difficult terrain disappears.</p>"
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "electricity",
+            "metal",
+            "spellshape"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "0oTldcU1LDOlKlpG",
+      "_key": "!actors.items!mncYm39pnCiZla0k.0oTldcU1LDOlKlpG",
+      "_stats": {
+        "compendiumSource": "Actor.jzV6hsJqkIYjwpUY.Item.IZaMlCzUSfeh6WJ8",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.2.2"
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "True Polarized Master",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.926,
+            "system": "6.2.2"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>The fallen noble and its allies ignore difficult terrain from Polarized Terrain and Greater Polarized Terrain.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Fallen Noble (Tier 5)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "core": {},
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "image-hover": {
+        "hideArt": false,
+        "specificArt": "path/image.png"
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-colour": "",
+        "bloodsplat-type": ""
+      },
+      "monks-combat-marker": {
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "token-highlight-scale": 1.5
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Fallen Noble",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 100,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "src": "modules/covalon/images/Fey%20Courts/fallen_noble_token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.926,
+        "system": "6.2.2"
+      },
+      "version": 0.932
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      },
+      "con": {
+        "min": 3,
+        "mod": 6,
+        "value": 22
+      },
+      "dex": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "int": {
+        "min": 3,
+        "mod": 5,
+        "value": 20
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 26
+      },
+      "wis": {
+        "min": 3,
+        "mod": 4,
+        "value": 18
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 36
+      },
+      "adjustment": null,
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 343,
+        "temp": 0,
+        "value": 343
+      },
+      "perception": {
+        "value": 23
+      },
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "label": "electricity 3",
+          "type": "electricity",
+          "value": "9"
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 30
+          }
+        ],
+        "value": 20
+      },
+      "vulnerabilities": [
+        {
+          "exceptions": [],
+          "label": "cold iron 3",
+          "type": "cold-iron",
+          "value": "9"
+        }
+      ],
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "cold-iron",
+          "value": 9
+        }
+      ]
+    },
+    "details": {
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "fey",
+          "talican"
+        ]
+      },
+      "level": {
+        "value": 15
+      },
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "low-light vision",
+      "mod": 6,
+      "senses": [],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 29
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 26
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 20
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 27
+      },
+      "intimidation": {
+        "base": 30
+      },
+      "stealth": {
+        "base": 30
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "fey",
+        "metal"
+      ]
+    }
+  },
+  "type": "npc"
+}

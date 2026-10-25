@@ -1,0 +1,22 @@
+{
+  "_id": "lItNFpy1gC3sl4CO",
+  "_key": "!folders!lItNFpy1gC3sl4CO",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "createdTime": 1737840148693,
+    "duplicateSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1737840148693,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "76WaZKSiUWxAeo7p",
+  "name": "Finale T3",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

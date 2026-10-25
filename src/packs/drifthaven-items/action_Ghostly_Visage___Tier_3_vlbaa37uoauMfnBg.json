@@ -1,0 +1,78 @@
+{
+  "_id": "vlbaa37uoauMfnBg",
+  "_key": "!items!vlbaa37uoauMfnBg",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1699317190238,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.11.3",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1703963331322,
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "name": "Ghostly Visage | Tier 3",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "11.315",
+        "schema": 0.898,
+        "system": "5.11.3"
+      },
+      "version": 0.911
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Trigger</strong> Lich Faltyr is targeted by a ranged strike.</p>\n<hr />\n<p dir=\"ltr\"><strong>Effect</strong> Lich Faltyr waves a hand over his face revealing a ghostly mask. Each enemy must succeed at a @Check[type:Reflex|dc:26|name:Ghostly Visage] save to avert their gaze or find that a mask has formed on their face as well.</p>\n<p><strong id=\"docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1\"> Critical Success </strong>The creature is unaffected.<strong id=\"docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1\"><br />Success </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.<strong id=\"docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1\"><br />Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.<strong id=\"docs-internal-guid-170b8fb6-7fff-d7ca-73b7-2ee4bf34fea1\"><br />Critical Failure </strong>The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute.</p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "requirements": {
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion",
+        "manipulate"
+      ]
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "type": "action"
+}

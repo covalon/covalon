@@ -1,0 +1,80 @@
+{
+  "_id": "cBbfs75i4RZSszle",
+  "_key": "!items!cBbfs75i4RZSszle",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1781457429625,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807533,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/wall-of-flesh.webp",
+  "name": "Valexxia, the Flesh Crafter",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 3300000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Once a mortal priestess renowned for her medical prowess, her practice became an obsession after the loss of a loved one. An intrigue into physiology and how to enhance, preserve, or renew a mortal’s condition grew, until she began incorporating darker magic to achieve the results she longed for. Shortly thereafter she was excommunicated from society with a penance of death, her eagerness and inquisitive ambition propelling her forward until obtaining a deific status. Referred to as crazy, delusional or unnatural; her mentality barricaded the negative inquiries in order to pave the way for self-preservation. She transfigured her own form beyond the commonly perceived mortal shackles, standing as a beacon for others pursuing transcendence.</p><p><strong>Edicts</strong> Encourage the development or mutation of physiology, embrace grief or pain as constructive lessons, delight in the freedom of not being in control</p><p><strong>Anathema</strong> Speak of sorrow or pain in a negative way, discriminate based on physical appearance, curb your research due to other’s opinions.</p>"
+    },
+    "domains": {
+      "alternate": [
+        "pain"
+      ],
+      "primary": [
+        "abomination",
+        "creation",
+        "delirium",
+        "sorrow"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "medicine"
+    ],
+    "slug": null,
+    "spells": {
+      "3": "Compendium.pf2e.spells-srd.Item.xabHqik5SoyDc5Db",
+      "5": "Compendium.pf2e.spells-srd.Item.d9sBzPOXX3KT8uTu",
+      "7": "Compendium.pf2e.spells-srd.Item.jBGAYmR0BkkbpJvG"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "kama"
+    ]
+  },
+  "type": "deity"
+}

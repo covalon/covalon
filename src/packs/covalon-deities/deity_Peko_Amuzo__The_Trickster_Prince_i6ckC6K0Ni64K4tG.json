@@ -1,0 +1,84 @@
+{
+  "_id": "i6ckC6K0Ni64K4tG",
+  "_key": "!items!i6ckC6K0Ni64K4tG",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1691431373155,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807535,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/devil-form.webp",
+  "name": "Peko-Amuzo, The Trickster Prince",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 3900000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Self-proclaimed prince of everything that is, was, and will be fun in this world, Peko-Amuzo is the \"son\" of a terrifying amount of different fiends. Or so he says. How he was conceived remains a mystery, but this amalgamation of different kinds of evil has made him mighty and utterly chaotic — so much so that his power steadily decreases whenever he isn't entertained. Therefore, he often tries to switch things up. That is the reason why he enjoys creation so much: there's always something new and exciting to make! While he may seem somewhat reasonable at first, helpful, even, it turns out that he only gives his knowledge to those who will either entertain him greatly, or who simply have ill intent and will cause trouble.<br />He has declared being quarter-demon, which is partly why he was mostly worshipped in Garn. Whether this is accurate is uncertain — after all, he also claims to be the creator of many things like trees, hedonism, or even pancakes, but that is most likely a tactic to draw the ire of many — one of his favorite hobbies.</p><p><br /><strong>Edicts</strong> Gossip, live a hedonistic existence, summon fiends<br /><strong>Anathema</strong> Soothe someone's ire, put someone's needs over your own, grow complacent and follow the same routine</p>"
+    },
+    "domains": {
+      "alternate": [
+        "abomination"
+      ],
+      "primary": [
+        "change",
+        "indulgence",
+        "passion",
+        "trickery"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "skill": [
+      "crafting"
+    ],
+    "slug": null,
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.r8g7oSumKOHDqJsd",
+      "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+      "5": "Compendium.pf2e.spells-srd.Item.OAt2ZEns1gIOCgrn"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "polytool"
+    ]
+  },
+  "type": "deity"
+}

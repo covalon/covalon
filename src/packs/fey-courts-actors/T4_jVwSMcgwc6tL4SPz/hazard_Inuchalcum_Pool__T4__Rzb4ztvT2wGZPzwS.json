@@ -1,0 +1,389 @@
+{
+  "_id": "Rzb4ztvT2wGZPzwS",
+  "_key": "!actors!Rzb4ztvT2wGZPzwS",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1726532065246,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619777007,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "scene-packer": {
+      "hash": "c17614e43c4fdc1d64778623ba4235c849404994",
+      "sourceId": "Actor.GvopBbJwm8NDscEf"
+    }
+  },
+  "folder": "jVwSMcgwc6tL4SPz",
+  "img": "icons/magic/water/vortex-water-whirlpool.webp",
+  "items": [
+    {
+      "_id": "sQI3sV2Zecat0gTS",
+      "_key": "!actors.items!Rzb4ztvT2wGZPzwS.sQI3sV2Zecat0gTS",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "scene-packer": {
+          "hash": "450afc37bbfc9c8776e95a374691a3a884f3608b"
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Level Adjustment (Don't Touch)",
+      "ownership": {
+        "a9sZN3uhtQmGhiGE": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Nothing to see here.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "alwaysActive": true,
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Adjust Level",
+            "option": "pool-adjustment",
+            "selection": "14",
+            "suboptions": [
+              {
+                "label": "No adjustment",
+                "value": "14"
+              },
+              {
+                "label": "Level 10",
+                "value": "13"
+              },
+              {
+                "label": "Level 12",
+                "value": "15"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Weak Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": -2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": "inline-dc",
+            "type": "circumstance",
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:15"
+            ],
+            "selector": "damage",
+            "value": 2
+          },
+          {
+            "critical": false,
+            "key": "FlatModifier",
+            "label": "Elite Adjustment",
+            "predicate": [
+              "pool-adjustment:13"
+            ],
+            "selector": "damage",
+            "value": -2
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "Reveal Name? (Identified the metals)",
+            "option": "reveal-name",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "TokenName",
+            "predicate": [
+              "reveal-name"
+            ],
+            "value": "Inuchalcum Pool"
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Inuchalcum Pool (T4)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {
+      "basicSight": {
+        "enabled": true,
+        "range": 100
+      }
+    },
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        }
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      },
+      "tagger": {},
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Skymetal Pool",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 100,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 0.85,
+      "scaleY": 0.85,
+      "src": "icons/magic/water/vortex-water-whirlpool.webp",
+      "tint": "#893727"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.932
+    },
+    "attributes": {
+      "ac": {
+        "value": 32
+      },
+      "emitsSound": "encounter",
+      "hardness": 22,
+      "hp": {
+        "details": "",
+        "max": 92,
+        "temp": 0,
+        "value": 92
+      },
+      "resistances": [],
+      "stealth": {
+        "details": "<p>For APL 10, set the AC to 26 and reduce the saves by 2.</p><p>For APL 12, set the AC to 29, increase the saves by 1, and increase the Hardness <em>to</em> 21.</p><p>Make sure to use the dropdown above to adjust the rest of the sheet.</p>",
+        "value": 31
+      }
+    },
+    "details": {
+      "description": "<p>A pool is filled with liquid <strong>inubrix </strong>and<strong> orichalcum</strong> agitated by the Maw's influence, with a control panel next to it. It doesn't hinder movement.</p><p>This pool is <strong>not</strong> automatically destroyed by effects such as <em>@UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em> and is instead affected as if it was a creature.</p><hr /><p>While adjacent to this pool, players gain the @UUID[Compendium.covalon.fey-courts-items.Item.tBc6dWmVXcJUjX8p]{Sky Coating} action, even if it's disabled or destroyed.</p><hr /><p>A creature other than Lethallica that enters the pool becomes @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p>Once fully disabled or destroyed this pool can be traversed safely, and it can't be used for Lethallica's Metalligrasp.</p>",
+      "disable": "<p>Arcana, Crafting, Nature, Thievery or <em>dispel magic</em>. A total of two successes are required to disable it. <br>A thieves's toolkit is required for Thievery, and either a thieves's toolkit or a repair toolkit is required for Crafting.<br>@Check[arcana|dc:27|traits:action:disable-a-device] @Check[nature|dc:27|traits:action:disable-a-device] @Check[thievery|dc:28|traits:action:disable-a-device] @Check[crafting|dc:29|traits:action:disable-a-device]</p><p>The counteract DC for <em>dispel magic </em>is <strong>#DC#</strong> and the Pool's counteract rank is <strong>APL/2 rounded up</strong>. A successful counteract counts as one successful disable, unless the counteract check was a critical success in which case it fully disables the Pool.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 14
+      },
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>(1 action) The pool causes Lethallica to become @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Quickened} for 1 round; they can use the extra action for any action.</p><p>Other creatures in a @Template[type:burst|distance:5] within 120 feet must attempt a @Check[fortitude|dc:30|traits:metal,magical]. This is a magical and metal effect.</p><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p><p><strong>Failure</strong> The creature is Clumsy 1 and @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round, and Clumsy 1 for 1 minute.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 27
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 22
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "magical",
+        "mechanical",
+        "metal"
+      ]
+    }
+  },
+  "type": "hazard"
+}

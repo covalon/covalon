@@ -1,0 +1,242 @@
+{
+  "_id": "08dAtHOkrI29wjyf",
+  "_key": "!scenes!08dAtHOkrI29wjyf",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1687448347252,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.305",
+      "systemId": "pf2e",
+      "systemVersion": "5.1.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1693167894014,
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2"
+  },
+  "active": false,
+  "drawings": [
+    {
+      "_id": "DXR1dC5xtB5sgfht",
+      "_key": "!scenes.drawings!08dAtHOkrI29wjyf.DXR1dC5xtB5sgfht",
+      "author": "aNDEqRNv3n6sqn54",
+      "bezierFactor": 0,
+      "elevation": 0,
+      "fillAlpha": 0.1,
+      "fillColor": "#ffffff",
+      "fillType": 0,
+      "flags": {},
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "hidden": false,
+      "interface": true,
+      "levels": [],
+      "locked": false,
+      "rotation": 0,
+      "shape": {
+        "height": 20,
+        "points": [],
+        "radius": null,
+        "type": "r",
+        "width": 352
+      },
+      "sort": 0,
+      "strokeAlpha": 1,
+      "strokeColor": "#ffffff",
+      "strokeWidth": 0,
+      "text": "I'M A TILE, YOU CAN MOVE ME!!!",
+      "textAlpha": 1,
+      "textColor": "#ffffff",
+      "texture": null,
+      "x": 1103,
+      "y": 1002
+    }
+  ],
+  "environment": {
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "cycle": true,
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "enabled": false,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "flags": {
+    "core": {},
+    "perfect-vision": {
+      "darknessColor": "",
+      "daylightColor": "",
+      "fogRevealed": false
+    },
+    "wall-height": {
+      "advancedVision": true
+    }
+  },
+  "fog": {
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    },
+    "mode": 1,
+    "reset": 1687448344734
+  },
+  "folder": null,
+  "grid": {
+    "alpha": 0.2,
+    "color": "#000000",
+    "distance": 5,
+    "size": 150,
+    "style": "solidLines",
+    "thickness": 1,
+    "type": 0,
+    "units": "ft"
+  },
+  "height": 1674,
+  "initial": {
+    "scale": null,
+    "x": null,
+    "y": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "journal": null,
+  "journalEntryPage": null,
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "_key": "!scenes.levels!08dAtHOkrI29wjyf.defaultLevel0000",
+      "background": {
+        "alphaThreshold": 0.75,
+        "color": "#999999",
+        "src": "modules/covalon/images/Verndhelt/Verndhelt-Mission-C-Map.webp",
+        "tint": "#ffffff"
+      },
+      "elevation": {
+        "bottom": 0,
+        "top": 20
+      },
+      "flags": {},
+      "fog": {
+        "src": null
+      },
+      "foreground": {
+        "alphaThreshold": 0.75,
+        "src": null,
+        "tint": "#ffffff"
+      },
+      "name": "Vernheldt C: Hex Map",
+      "sort": 0,
+      "textures": {
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "fill",
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "visibility": {
+        "levels": []
+      }
+    }
+  ],
+  "lights": [],
+  "name": "Vernheldt C: Hex Map",
+  "navName": "",
+  "navOrder": 100000,
+  "navigation": true,
+  "notes": [],
+  "ownership": {
+    "default": 0
+  },
+  "padding": 0.1,
+  "playlist": null,
+  "playlistSound": null,
+  "regions": [],
+  "shiftX": 0,
+  "shiftY": 0,
+  "sort": 0,
+  "sounds": [],
+  "templates": [],
+  "thumb": "modules/covalon/assets/scenes/verndhelt-scenes-08dAtHOkrI29wjyf-thumb.webp",
+  "tiles": [
+    {
+      "_id": "yfz3hleCl71rIxZk",
+      "_key": "!scenes.tiles!08dAtHOkrI29wjyf.yfz3hleCl71rIxZk",
+      "alpha": 1,
+      "elevation": 0,
+      "flags": {},
+      "height": 139,
+      "hidden": false,
+      "levels": [],
+      "locked": false,
+      "occlusion": {
+        "alpha": 0,
+        "modes": []
+      },
+      "restrictions": {
+        "light": false,
+        "weather": false
+      },
+      "rotation": 0,
+      "sort": 100,
+      "texture": {
+        "alphaThreshold": 0.75,
+        "anchorX": 0,
+        "anchorY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "src": "modules/covalon/images/Verndhelt/VerndheltToken.webp",
+        "tint": "#ffffff"
+      },
+      "video": {
+        "autoplay": true,
+        "loop": true,
+        "volume": 0
+      },
+      "width": 130,
+      "x": 1212,
+      "y": 1020
+    }
+  ],
+  "tokenVision": false,
+  "tokens": [],
+  "transition": {
+    "activeOnly": false,
+    "duration": 1500,
+    "type": null
+  },
+  "walls": [],
+  "weather": "",
+  "width": 1365
+}

@@ -1,0 +1,92 @@
+{
+  "_id": "KHdjzvgjMwe69QHj",
+  "_key": "!items!KHdjzvgjMwe69QHj",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1742668568307,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.10.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807531,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "icons/skills/ranged/target-bullseye-arrow-blue.webp",
+  "name": "Zegarek",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1600000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p>Zegarek was most often followed by the more bold of the hunters from the earlier days of Gornlar. His teachings encouraged his clerics to join the rangers and fighters in their hunting trips and bounty hunts. His Favored Weapon is the hornbow as it was often crafted from the pieces, usually the horn, of the largest of prey and forced their users to hunt from horseback or close by. The temples to Zegarek were often used as early hunting lodges where his followers would share stories of their hunts be they beast or humanoid in nature. They were also places where anyone could drop off bounties to be claimed or where merchants could make requests when certain animal meats were in short supply.</p><p></p><p><strong>Edicts</strong> hunt with short ranged weapons, use every part of your kill, give your enemy a quick end, use eye contact to strike fear in your enemy<strong><br />Anathema</strong> engage your enemy from further than 60ft, let your enemy suffer in pain, use torture to get what you want, forget your enemy’s face</p>"
+    },
+    "domains": {
+      "alternate": [
+        "earth",
+        "zeal"
+      ],
+      "primary": [
+        "confidence",
+        "death",
+        "might",
+        "nature"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "skill": [
+      "intimidation"
+    ],
+    "slug": null,
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.KcLVELhCUcKXxiKE",
+      "4": "Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n",
+      "7": "Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "hongali-hornbow"
+    ]
+  },
+  "type": "deity"
+}

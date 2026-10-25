@@ -1,0 +1,113 @@
+{
+  "_id": "wXSk0Wyev1d5t4id",
+  "_key": "!items!wXSk0Wyev1d5t4id",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1726525710474,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "megacovania"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726619787857,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "c24584cec20dcbb6bfe8ffb52e1e18d16899e437",
+      "sourceId": "Item.FtTxwNsLL0PpwfCR"
+    }
+  },
+  "folder": "jyExZxJ5qxTEMF27",
+  "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+  "name": "Effect: Adamantine Coating",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.932
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<p>Your next successful Strike with the coated weapon or unarmed strike counts as adamantine (for the purpose of immunities, weaknesses and resistances), after which this effect ends.</p>"
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 14
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "choices": {
+          "attacks": true
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "domain": "strike-damage",
+        "key": "RollOption",
+        "option": "damage:material:adamantine",
+        "predicate": [
+          {
+            "or": [
+              "item:slug:{item|flags.pf2e.rulesSelections.weapon}",
+              "item:category:{item|flags.pf2e.rulesSelections.weapon}"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "damage:material:adamantine"
+        ],
+        "selector": "strike-damage",
+        "text": "{item|description}",
+        "title": "{item|name}"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

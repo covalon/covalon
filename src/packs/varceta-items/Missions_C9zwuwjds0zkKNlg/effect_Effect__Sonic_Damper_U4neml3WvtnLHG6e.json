@@ -1,0 +1,104 @@
+{
+  "_id": "U4neml3WvtnLHG6e",
+  "_key": "!items!U4neml3WvtnLHG6e",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1739734029787,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.9.0",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742091548361,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": "C9zwuwjds0zkKNlg",
+  "img": "systems/pf2e/icons/spells/forbidding-ward.webp",
+  "name": "Effect: Sonic Damper",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "version": 0.935
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": {
+          "brackets": [
+            {
+              "end": 3,
+              "value": 10
+            },
+            {
+              "end": 6,
+              "start": 4,
+              "value": 15
+            },
+            {
+              "end": 9,
+              "start": 7,
+              "value": 20
+            },
+            {
+              "end": 12,
+              "start": 10,
+              "value": 20
+            },
+            {
+              "start": 13,
+              "value": 25
+            }
+          ]
+        }
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

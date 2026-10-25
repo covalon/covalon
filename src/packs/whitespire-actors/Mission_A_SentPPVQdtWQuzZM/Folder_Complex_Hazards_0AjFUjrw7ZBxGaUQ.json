@@ -1,0 +1,23 @@
+{
+  "_id": "0AjFUjrw7ZBxGaUQ",
+  "_key": "!folders!0AjFUjrw7ZBxGaUQ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.351",
+    "createdTime": 1773786819494,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1775760268923,
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3"
+  },
+  "color": null,
+  "description": "",
+  "flags": {},
+  "folder": "SentPPVQdtWQuzZM",
+  "name": "Complex Hazards",
+  "sort": 0,
+  "sorting": "a",
+  "type": "Actor"
+}

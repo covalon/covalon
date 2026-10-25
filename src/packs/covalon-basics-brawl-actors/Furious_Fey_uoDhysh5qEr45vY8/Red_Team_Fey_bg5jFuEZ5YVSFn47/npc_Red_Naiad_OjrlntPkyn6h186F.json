@@ -1,0 +1,1994 @@
+{
+  "_id": "OjrlntPkyn6h186F",
+  "_key": "!actors!OjrlntPkyn6h186F",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1737838381156,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.8.4",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1742668698651,
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {}
+  },
+  "folder": "bg5jFuEZ5YVSFn47",
+  "img": "modules/covalon/images/Furious%20Fey/Naiad.webp",
+  "items": [
+    {
+      "_id": "uv0UDH4jDwetNZol",
+      "_key": "!actors.items!OjrlntPkyn6h186F.uv0UDH4jDwetNZol",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Innate Spells",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 24,
+          "mod": 0,
+          "value": 16
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "i3Fpsz6r2TG0qeA2",
+      "_key": "!actors.items!OjrlntPkyn6h186F.i3Fpsz6r2TG0qeA2",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/hydraulic-push.webp",
+      "name": "Hydraulic Push",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 400000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You call forth a powerful blast of pressurized water that bludgeons the target and knocks it back. Make a ranged spell attack roll.</p>\n<hr />\n<p><strong>Critical Success</strong> The target takes 6d6 bludgeoning damage and is knocked back 10 feet.</p>\n<p><strong>Success</strong> The target takes 3d6 bludgeoning damage and is knocked back 5 feet.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The bludgeoning damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "hydraulic-push",
+        "target": {
+          "value": "1 creature or unattended object"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "EzMf1ygDaQq42MG6",
+      "_key": "!actors.items!OjrlntPkyn6h186F.EzMf1ygDaQq42MG6",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.iAnpxrLaBU4V6Sej",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/tidal-surge.webp",
+      "name": "Tidal Surge (At Will)",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 500000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You call forth a tremendous wave to move the target either in a body of water or on the ground. You move the target up to 10 feet in any direction along the ground or 20 feet through a body of water. An unwilling target can attempt a Fortitude save, and it avoids being moved if it succeeds.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "BOtLO2BChzmmWLdP"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "tidal-surge",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "uncommon",
+          "traditions": [],
+          "value": [
+            "cleric",
+            "focus",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "WIHK77N13bnY09Iq",
+      "_key": "!actors.items!OjrlntPkyn6h186F.WIHK77N13bnY09Iq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Aqueous Fist",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 600000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "9xmac8i3pxrnbdqtrxr9": {
+            "category": null,
+            "damage": "2d6+7",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "magical",
+            "water"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "mwp4IZXtO7uw523C",
+      "_key": "!actors.items!OjrlntPkyn6h186F.mwp4IZXtO7uw523C",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/default-icons/melee.svg",
+      "name": "Water Orb",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 700000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "jC3HSgTmohBBOe8t": {
+            "category": null,
+            "damage": "2d4+7",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "range-60",
+            "water"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "rL7A4RH2uX8GGbWM",
+      "_key": "!actors.items!OjrlntPkyn6h186F.rL7A4RH2uX8GGbWM",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Passive.webp",
+      "name": "Animal Empathy",
+      "ownership": {
+        "default": 0
+      },
+      "sort": 800000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "description": {
+          "gm": "",
+          "value": "<p>The naiad can ask questions of, receive answers from, and use the Diplomacy skill with animals.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BOtLO2BChzmmWLdP",
+      "_key": "!actors.items!OjrlntPkyn6h186F.BOtLO2BChzmmWLdP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Primal Focus Spells",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "version": 0.935
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "prepared": {
+          "value": "focus"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 24,
+          "value": 16
+        },
+        "tradition": {
+          "value": "primal"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "KkPkNi273X96mnDe",
+      "_key": "!actors.items!OjrlntPkyn6h186F.KkPkNi273X96mnDe",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.eSL5hVT9gXrnRLtd",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/magic/fire/beam-jet-stream-blue.webp",
+      "name": "Spout",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "cube",
+          "value": 5
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d4",
+            "kinds": [
+              "damage"
+            ],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>Water blasts upward, coming out of the ground, rising from a pool, or even manifesting from thin air. Any creatures in the area take 2d4 bludgeoning damage, with a basic Reflex saving throw. A creature that critically fails its save is disoriented by the explosion of water, becoming @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the end of your next turn.</p>\n<p>You can change this spell's area to a @Template[burst|distance:5], provided you center the burst in a body of water. This body of water can be as small as a pond or creek, but not as small as a puddle or bathtub.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "spout",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "My7Qbpu9193j5iaW",
+      "_key": "!actors.items!OjrlntPkyn6h186F.My7Qbpu9193j5iaW",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.zhDIiQlJmrd4UDNC",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/create-water.webp",
+      "name": "Rousing Splash",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You cause a splash of cold water to descend on an ally's head, granting some temporary vigor. The target gains 1d4 temporary Hit Points, which last for 1 minute. The target is then temporarily immune to the temporary Hit Points from <em>rousing splash</em> for 10 minutes. The target can also attempt an immediate flat check to recover from a single source of persistent acid or fire damage, with the DC reduction from appropriate assistance.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of temporary Hit Points granted increases by 1d4.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.IYvzqymG4xOhqFir]{Spell Effect: Rousing Splash}</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "rousing-splash",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "jRF6JUWsnV2h7apy",
+      "_key": "!actors.items!OjrlntPkyn6h186F.jRF6JUWsnV2h7apy",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.cgfl9Qr46bKaA59e",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/electrified-crystal-ward.webp",
+      "name": "Glass Shield",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "dtpQLfwMi5qU2XEa": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You summon a layer of clear glass to keep you from harm. This counts as using the @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} action, giving you a +1 cirumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use. You can @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} with the glass shield. It has Hardness 2. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. When you Shield Block, the shield explodes in a shower of glass. If creature that broke it is within 5 feet, the shards deal 1d4 piercing damage to that creature with a basic Reflex save. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.oDDS6D2KTjpbA491]{Spell Effect: Glass Shield}</p><hr /><p><strong>Heightened (3rd)</strong> The shield has Hardness 4, and the damage increases to 3d4.</p>\n<p><strong>Heightened (5th)</strong> The shield has Hardness 7, and the damage increases to 4d4.</p>\n<p><strong>Heightened (7th)</strong> The shield has Hardness 10, and the damage increases to 5d4.</p>\n<p><strong>Heightened (9th)</strong> The shield has Hardness 12, and the damage increases to 6d4.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "until the start of your next turn"
+        },
+        "heightening": {
+          "levels": {
+            "3": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": false,
+                  "category": null,
+                  "formula": "3d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "5": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": false,
+                  "category": null,
+                  "formula": "4d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "7": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": false,
+                  "category": null,
+                  "formula": "5d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            },
+            "9": {
+              "damage": {
+                "dtpQLfwMi5qU2XEa": {
+                  "applyMod": false,
+                  "category": null,
+                  "formula": "6d4",
+                  "materials": [],
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "glass-shield",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "earth"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "38B3EnkMtrDG6RHc",
+      "_key": "!actors.items!OjrlntPkyn6h186F.38B3EnkMtrDG6RHc",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/magic/life/cross-worn-green.webp",
+      "name": "Heal",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 100000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d8",
+            "kinds": [
+              "damage",
+              "healing"
+            ],
+            "materials": [],
+            "type": "vitality"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong> The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> <strong>(concentrate)</strong> You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d8"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "overlays": {
+          "37gy7l19tik74o4s": {
+            "_id": "37gy7l19tik74o4s",
+            "name": "Heal (vs. Living)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "formula": "1d8+8",
+                  "kinds": [
+                    "healing"
+                  ]
+                }
+              },
+              "defense": null,
+              "heightening": {
+                "damage": {
+                  "0": "1d8+8"
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          },
+          "7qdtetowq348s9oc": {
+            "_id": "7qdtetowq348s9oc",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "range": {
+                "value": "touch"
+              },
+              "time": {
+                "value": "1"
+              }
+            }
+          },
+          "7vbvdrv2cl87sqta": {
+            "_id": "7vbvdrv2cl87sqta",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              },
+              "range": {
+                "value": ""
+              },
+              "target": {
+                "value": "all living and undead creatures"
+              },
+              "time": {
+                "value": "3"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          },
+          "lfxcoz2d3f8j2zq1": {
+            "_id": "lfxcoz2d3f8j2zq1",
+            "name": "Heal (vs. Undead)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "kinds": [
+                    "damage"
+                  ]
+                }
+              },
+              "range": {
+                "value": "30 feet"
+              },
+              "target": {
+                "value": "1 undead"
+              },
+              "time": {
+                "value": "2"
+              },
+              "traits": {
+                "value": [
+                  "concentrate",
+                  "healing",
+                  "manipulate",
+                  "vitality"
+                ]
+              }
+            }
+          }
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": "varies"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "heal",
+        "target": {
+          "value": "1 willing living creature or 1 undead"
+        },
+        "time": {
+          "value": "1 to 3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "primal"
+          ],
+          "value": [
+            "healing",
+            "manipulate",
+            "vitality"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "tTCvLhqlet9AuSGs",
+      "_key": "!actors.items!OjrlntPkyn6h186F.tTCvLhqlet9AuSGs",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.T4QKmtYPeCgYxVGe",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "core/icons/magic/water/pseudopod-swirl-blue.webp",
+      "name": "Crashing Wave",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 300000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": {
+          "type": "cone",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You summon a crashing wave that sweeps away from you. You deal 6d6 bludgeoning damage to creatures in the area. The water also extinguishes non-magical fires in the area.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 3,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "crashing-wave",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "mFL5wJglodngn1K5",
+      "_key": "!actors.items!OjrlntPkyn6h186F.mFL5wJglodngn1K5",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/jump.webp",
+      "name": "Jump",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Your legs surge with strength, ready to leap high and far. You jump 30 feet in any direction without touching the ground. You must land on a space of solid ground within 30 feet of you, or else you fall after using your next action.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The range becomes touch, the target changes to one touched creature, and the duration becomes 1 minute, allowing the target to jump as described whenever it takes the @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} action.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "levels": {
+            "3": {
+              "range": {
+                "value": "touch"
+              },
+              "target": {
+                "value": "1 creature"
+              }
+            }
+          },
+          "type": "fixed"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 1,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "jump",
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "1"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "manipulate",
+            "move"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "9Ig1O1rcEVyHaJqN",
+      "_key": "!actors.items!OjrlntPkyn6h186F.9Ig1O1rcEVyHaJqN",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.iohRnd4gUCmJlh54",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/lose-the-path.webp",
+      "name": "Lose the Path",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature in range Strides</p>\n<hr />\n<p>You surround a moving creature with lifelike illusions, shifting their perception of the terrain to subtly lead them off course. The target must attempt a Will save. Regardless of the result, the creature is immune to lose the path for 1 hour.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature treats all squares as difficult terrain for its Stride.</p>\n<p><strong>Critical Failure</strong> As failure, except that you determine where the target moves during the Stride, though you can't move it into hazardous terrain or to a place it can't stand.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 1,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Secrets of Magic"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "lose-the-path",
+        "target": {
+          "value": "the triggering creature"
+        },
+        "time": {
+          "value": "reaction"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "occult",
+            "primal"
+          ],
+          "value": [
+            "illusion",
+            "manipulate",
+            "mental",
+            "visual"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "gm4lTrGulwS4DOC7",
+      "_key": "!actors.items!OjrlntPkyn6h186F.gm4lTrGulwS4DOC7",
+      "_stats": {
+        "compendiumSource": "Actor.TdSbJTt5RkLtDJMe.Item.1Nzt9YANcjiUjxZu",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.TdSbJTt5RkLtDJMe.Item.1Nzt9YANcjiUjxZu",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/actions/Reaction.webp",
+      "name": "Liquefy",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 1300000,
+      "system": {
+        "_migration": {
+          "previous": null,
+          "version": 0.935
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> The naiad takes physical damage.</p><hr /><p><strong>Effect</strong> The naiad liquefies, turning entirely to water while maintaining their shape, for a split second. Against the triggering effect, they gain resistance 10 to all physical damage and fire.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "liquefy",
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "key": "Resistance",
+            "predicate": [
+              "liquefy"
+            ],
+            "type": [
+              "fire",
+              "physical"
+            ],
+            "value": 10
+          }
+        ],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "primal",
+            "water",
+            "magical"
+          ]
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "slr7ibyBXmlSCQow",
+      "_key": "!actors.items!OjrlntPkyn6h186F.slr7ibyBXmlSCQow",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.8lZhUreL1bRk1v4Z",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.8.4"
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/assets/icons/spells/acid-storm.webp",
+      "name": "Briny Bolt",
+      "ownership": {
+        "NEpKBfKv6jRU1Lvu": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": null,
+          "version": 0.935
+        },
+        "area": null,
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "YLzufF5UKRGjT83M": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>You hurl a bolt of saltwater from your extended hand. Make a ranged spell attack against a target within range.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes 4d6 bludgeoning damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute as saltwater sprays into its eyes. The creature can spend an Interact action to rub its eyes and end the blinded condition, but not the dazzled condition.</p>\n<p><strong>Success</strong> The creature takes 2d6 bludgeoning damage and is blinded for 1 round. The creature can spend an Interact action wiping the salt water from its eyes to end the blinded condition.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "YLzufF5UKRGjT83M": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 1
+        },
+        "location": {
+          "heightenedLevel": 2,
+          "value": "uv0UDH4jDwetNZol"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #188: They Watched the Stars"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "briny-bolt",
+        "target": {
+          "value": "1 creature"
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "attack",
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    }
+  ],
+  "name": "Red Naiad",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Naiad",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1.98,
+        "texture": "modules/pf2e-tokens-monster-core/assets/subjects/Nymph%20Naiad.webp"
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "src": "modules/covalon/images/Furious%20Fey/red_naiad.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.935
+    },
+    "abilities": {
+      "cha": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 3
+      },
+      "str": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "details": "",
+        "value": 23
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "details": "",
+        "max": 90,
+        "temp": 0,
+        "value": 90
+      },
+      "resistances": [
+        {
+          "doubleVs": [],
+          "exceptions": [],
+          "type": "fire",
+          "value": 5
+        }
+      ],
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 25
+          }
+        ],
+        "value": 25
+      },
+      "weaknesses": [
+        {
+          "exceptions": [],
+          "type": "cold-iron",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "alliance": "opposition",
+      "blurb": "",
+      "languages": {
+        "details": "",
+        "value": [
+          "common",
+          "elven",
+          "fey",
+          "thalassic"
+        ]
+      },
+      "level": {
+        "value": 6
+      },
+      "privateNotes": "",
+      "publicNotes": "<p>Naiads protect streams, ponds, springs, and other natural bodies of fresh water. While most naiads lead solitary lives close to their chosen home, sometimes they congregate in coven-like groups where river tributaries meet, performing great magic and blessing the waters of the land. Because naiads' bonds to their bodies of water permit more flexibility, they are the nymphs most likely to interact with humanoids—and even visit their settlements on occasion. Unlike other nymphs, naiads occasionally become adventurers, especially when dark forces seek to despoil nature or otherwise threaten the land, joining forces with others to prevent the corruption of the natural world.</p>\n<hr />\n<p>Nymphs are a family of fey that take the form of beautiful humanoids with elven features and have a deep association with the natural world. The most common of their kind are the dryads, which are spirits that embody great trees, but many other kinds of nymphs exist, including naiads, who watch over bodies of water. All nymphs are guardians of some element of nature, typically a specific tree or pond, or even-in the case of nymph queens-whole forests or massive bodies of water</p>",
+      "publication": {
+        "authors": "",
+        "license": "ORC",
+        "remaster": true,
+        "title": "Pathfinder Monster Core"
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "details": "",
+      "mod": 14,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "saveDetail": "",
+        "value": 11
+      },
+      "reflex": {
+        "saveDetail": "",
+        "value": 14
+      },
+      "will": {
+        "saveDetail": "",
+        "value": 17
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 13,
+        "special": []
+      },
+      "athletics": {
+        "base": 10,
+        "special": []
+      },
+      "diplomacy": {
+        "base": 15,
+        "special": []
+      },
+      "nature": {
+        "base": 13,
+        "special": []
+      },
+      "stealth": {
+        "base": 13,
+        "special": []
+      },
+      "survival": {
+        "base": 12,
+        "special": []
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "amphibious",
+        "fey",
+        "nymph",
+        "water"
+      ]
+    }
+  },
+  "type": "npc"
+}

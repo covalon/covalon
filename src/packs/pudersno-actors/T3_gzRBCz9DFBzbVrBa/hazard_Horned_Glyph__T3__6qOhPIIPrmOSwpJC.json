@@ -1,0 +1,220 @@
+{
+  "_id": "6qOhPIIPrmOSwpJC",
+  "_key": "!actors!6qOhPIIPrmOSwpJC",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1673492020255,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.7.2",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1736019552967,
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "editHazard": {
+        "value": false
+      }
+    },
+    "pf2e_updatednpcsheet": {
+      "npcNotes": {
+        "value": ""
+      }
+    }
+  },
+  "folder": "gzRBCz9DFBzbVrBa",
+  "img": "modules/covalon/images/Pudersno/horned_glyph_t5_.Avatar.webp",
+  "items": [],
+  "name": "Horned Glyph (T3)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": 0,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Horned Glyph",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Pudersno/horned_glyph_t5_.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.7.2"
+      },
+      "version": 0.935
+    },
+    "attributes": {
+      "ac": {
+        "value": 22
+      },
+      "emitsSound": "encounter",
+      "hardness": 14,
+      "hasHealth": true,
+      "hp": {
+        "details": "",
+        "max": 55,
+        "temp": 0,
+        "tempmax": 0,
+        "value": 55
+      },
+      "stealth": {
+        "details": "<p>(expert)</p>",
+        "value": 24
+      }
+    },
+    "creatureType": "",
+    "details": {
+      "description": "<p>A large primal glyph stamped into solid stone and glowing with electric blue light.</p>",
+      "disable": "<p>@Check[type:thievery|dc:24|basic:true] (trained) to erase the rune (requires thieves' tools and two successes)</p><p>@Check[type:nature|dc:24|basic:true] (expert) to direct the goats to be summoned at the bottom of the mountain.</p><p><em>Dispel Magic</em> (4th level; counteract DC 24) to counteract the glyph.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 7
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>(1 action) If there are less than two Goat Guards on the board, the glyph summons enough Goat Guards that there are two Goat Guards. The new Goat Guards appear within 10 feet of the glyph and can act this turn.</p>\n<p>(1 action) Both Goat Guards can take their turns.&nbsp;&nbsp;</p>"
+    },
+    "flavourText": "",
+    "nethysUrl": "",
+    "recallKnowledgeText": "",
+    "saves": {
+      "fortitude": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 16
+      },
+      "reflex": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 16
+      },
+      "will": {
+        "rank": 0,
+        "saveDetail": "",
+        "value": 0
+      }
+    },
+    "sidebarText": "",
+    "statusEffects": [],
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      },
+      "value": [
+        "primal",
+        "magical"
+      ]
+    }
+  },
+  "type": "hazard"
+}

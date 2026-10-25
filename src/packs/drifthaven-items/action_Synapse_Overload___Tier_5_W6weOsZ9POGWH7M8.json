@@ -1,0 +1,78 @@
+{
+  "_id": "W6weOsZ9POGWH7M8",
+  "_key": "!items!W6weOsZ9POGWH7M8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1699318545137,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.11.3",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1703963331322,
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "name": "Synapse Overload | Tier 5",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "11.315",
+        "schema": 0.898,
+        "system": "5.11.3"
+      },
+      "version": 0.911
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A creature ends a move action within 10 ft of Lich Faltyr.</p>\n<hr />\n<p><strong>Effect</strong> Lich Faltyr sends a mental blast in a wave that assaults all enemies in the area. Each enemy in a @Template[type:emanation|distance:30]{30-foot} emanation must succeed at a @Check[type:will|dc:34|name:Synapse Overload] save and suffer the following effects.</p>\n<p><br /><strong>Critical Success</strong> The creature is unaffected.<br /><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} 1.<br /><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} 2.<br /><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round.</p>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "requirements": {
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate",
+        "mental"
+      ]
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "type": "action"
+}

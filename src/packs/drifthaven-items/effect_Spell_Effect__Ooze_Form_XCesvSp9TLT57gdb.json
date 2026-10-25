@@ -1,0 +1,89 @@
+{
+  "_id": "XCesvSp9TLT57gdb",
+  "_key": "!items!XCesvSp9TLT57gdb",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "13.346",
+    "createdTime": 1699317557708,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "11.315",
+      "systemId": "pf2e",
+      "systemVersion": "5.11.3",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1703963331322,
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/ooze-form.webp",
+  "name": "Spell Effect: Ooze Form",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "11.315",
+        "schema": 0.898,
+        "system": "5.11.3"
+      },
+      "version": 0.911
+    },
+    "badge": null,
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "Immunity",
+        "type": [
+          "critical-hits",
+          "precision",
+          "visual"
+        ]
+      }
+    ],
+    "slug": "spell-effect-ooze-form",
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

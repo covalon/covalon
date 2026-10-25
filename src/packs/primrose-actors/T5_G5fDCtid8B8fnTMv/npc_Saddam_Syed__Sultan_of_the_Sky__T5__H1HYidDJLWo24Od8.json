@@ -1,0 +1,2030 @@
+{
+  "_id": "H1HYidDJLWo24Od8",
+  "_key": "!actors!H1HYidDJLWo24Od8",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.367",
+    "createdTime": 1688405806544,
+    "duplicateSource": null,
+    "exportSource": {
+      "coreVersion": "12.331",
+      "systemId": "pf2e",
+      "systemVersion": "6.3.1",
+      "uuid": null,
+      "worldId": "covalon"
+    },
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1726524501153,
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0"
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "lootable": false
+    }
+  },
+  "folder": "G5fDCtid8B8fnTMv",
+  "img": "modules/covalon/images/Primrose/al_kujani_sultan_of_the_sky.Avatar.webp",
+  "items": [
+    {
+      "_id": "zq8gVSNFzmX6dpvq",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.zq8gVSNFzmX6dpvq",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Sultan's Scimitar",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 33
+        },
+        "damageRolls": {
+          "0": {
+            "category": null,
+            "damage": "3d10+16",
+            "damageType": "slashing"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "forceful",
+            "reach-10",
+            "sweep"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "GbuHJ5l4FSatWRYj",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.GbuHJ5l4FSatWRYj",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Hurricane Fist",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "previous": {
+            "foundry": "12.331",
+            "schema": null,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 33
+        },
+        "damageRolls": {
+          "xtpzja3537a417etnhy7": {
+            "category": null,
+            "damage": "3d6 + 16",
+            "damageType": "bludgeoning"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "air",
+            "finesse",
+            "range-30",
+            "unarmed"
+          ]
+        }
+      },
+      "type": "melee"
+    },
+    {
+      "_id": "i6oRhmaJwVdu2lKP",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.i6oRhmaJwVdu2lKP",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Sandstorm Armor",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> Saddam takes damage.</p>\n<hr />\n<p>Saddam is protected by a constant sandstorm that whips into a brief frenzy when he is attacked. Saddam becomes concealed until the end of the turn, or hidden if he was already concealed. This effect can be counteracted by an appropriately leveled <em>dispel magic</em>, which disables it for 10 minutes.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "air",
+            "arcane",
+            "magical"
+          ]
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "PRu3dwzxhMr4EsXm",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.PRu3dwzxhMr4EsXm",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Sudden Squall",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Saddam takes damage.</p>\n<hr />\n<p>Saddam whips the whirlwind surrounding him into a frenzied squall. All other creatures in the whirlwind must attempt a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:38|basic:false] save. Creatures with the air trait are immune.</span></p>\n<p> </p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is unaffected.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 5 feet away from Saddam.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 20 feet away from Saddam.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is pushed 20 feet away from Saddam and falls prone.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "air",
+            "arcane",
+            "magical"
+          ]
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "GdETVstixMk4QoXc",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.GdETVstixMk4QoXc",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Arcane Innate Spells",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "autoHeightenLevel": {
+          "value": null
+        },
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "displayLevels": {},
+        "item": {
+          "value": 0
+        },
+        "prepared": {
+          "flexible": false,
+          "value": "innate"
+        },
+        "proficiency": {
+          "value": 1
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "rules": [],
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "showUnpreparedSpells": {
+          "value": true
+        },
+        "slots": {
+          "slot0": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot1": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot10": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot11": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot2": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot3": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot4": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot5": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot6": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot7": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot8": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          },
+          "slot9": {
+            "max": 0,
+            "prepared": [],
+            "value": 0
+          }
+        },
+        "slug": null,
+        "spelldc": {
+          "dc": 34,
+          "item": 0,
+          "mod": 0,
+          "value": 26
+        },
+        "tradition": {
+          "value": "arcane"
+        },
+        "traits": {
+          "otherTags": []
+        }
+      },
+      "type": "spellcastingEntry"
+    },
+    {
+      "_id": "zTrBx9NqhA6dCd9m",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.zTrBx9NqhA6dCd9m",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/fireball.webp",
+      "name": "Fireball",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>A roaring blast of fire appears at a spot you designate, dealing 6d6 fire damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "uses": {
+            "value": 1
+          },
+          "value": "GdETVstixMk4QoXc"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+          "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "fireball",
+        "spellCategory": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "fire",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "UpaiqYBHIy6Mm8MV",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.UpaiqYBHIy6Mm8MV",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.T4QKmtYPeCgYxVGe",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/crashing-wave.webp",
+      "name": "Crashing Wave",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "cone",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You summon a crashing wave that sweeps away from you. You deal 6d6 bludgeoning damage to creatures in the area. The water also extinguishes non-magical fires in the area.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "GdETVstixMk4QoXc"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Advanced Player's Guide"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "crashing-wave",
+        "spellCategory": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "2RXWhlatabvOJkRX",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.2RXWhlatabvOJkRX",
+      "_stats": {
+        "compendiumSource": "Item.aD6MGcEF5IHZE5vn",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Whirlwind",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 1700000,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>@Template[type:emanation|distance:20]{20 feet} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Aura}</p>\n<hr />\n<p>All squares in the djinni's aura are difficult terrain for Striding and Flying creatures. Creatures with the air trait are immune.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "air",
+            "arcane",
+            "aura",
+            "magical"
+          ]
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "jquesl9soDT9XMQp",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.jquesl9soDT9XMQp",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification: Vizier of Flames",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Saddam Syed has mastered efreeti fire magic. He begins combat with a flame vortex within 20 feet of him. The vortex is a cylinder with a radius of 5 feet and a height of 40 feet, and any flying creatures treat the squares occupied by the vortex as difficult terrain.</p>\n<p>Once per turn, as a free action, Saddam can direct the flame vortex to move up to 20 feet in a straight line. Each creature the vortex moves through takes [[/r 4d4[bludgeoning]]] damage and [[/r 4d6[fire]]] damage with a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:reflex|dc:38|basic:true] save as gusts of fiery winds buffet them. Creatures who move through the vortex on their turn also take the damage with a basic Reflex save, but each individual creature can take damage from the vortex only once per round.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "BCaTMPAq9TmAYj1U",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.BCaTMPAq9TmAYj1U",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification: Vizier of Stone",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Saddam Syed has mastered shaitan earth magic. As a single action, he can touch a creature to inflict them with a petrifying curse. The target must succed at a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:38|basic:false] save or be afflicted with the shaitan noble's curse.</span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The curse progresses in stages, similar to a disease. Only one creature may be afflicted with the shaitan noble's curse at a time.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Shaitan Noble's Curse</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> (curse, arcane, transmutation) A successful or critically successful save does not reduce the stage of the curse; it only prevents the curse from progressing, and a critical failure is treated as a failure instead. The curse ends automatically when Saddam dies, the afflicted creature moves at least 100 feet away from Saddam, or if the creature ends their turn next to a creature who has not been afflicted with the shaitan noble's curse in the past 10 minutes. In the latter case, that adjacent creature is immediately afflicted with stage 1 of the curse (if multiple qualifying creatures are adjacent, the GM chooses 1). <strong>Saving Throw </strong></span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:38|basic:false]; <strong>Stage 1 </strong>slowed 1 (1 round); <strong>Stage 2 </strong>slowed 2 (1 round); <strong>Stage 3 </strong>petrified for 3 rounds and the curse ends</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "q0VPMPExjcmrPR2t",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.q0VPMPExjcmrPR2t",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Modification: Vizier of Waves",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p>Saddam Syed has mastered marid water magic. A marid summoning sigil hazard is placed within 50 feet of him.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "QfyMP9swtDPX10ga",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.QfyMP9swtDPX10ga",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "name": "Return to Dust",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency </strong>once per day</p>\n<p><strong>Special </strong>Saddam Syed can use this ability if he has less than three actions due to being slowed, stunned, or a similar effect, using all of his available actions for the turn instead.</p>\n<hr />\n<p><em>\"You mortals who dare to oppose me are born from dust, and to dust, I shall return you!\"</em></p>\n<p> </p>\n<p>Saddam Syed invokes his strongest air magic to temporarily disintegrate his enemies into dust clouds. All creatures in the arena that don't have the elemental trait must attempt a <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Check[type:fortitude|dc:38|basic:false].</span></p>\n<p> </p>\n<p>After using this ability, Saddam Syed may immediately use Sudden Squall, though this consumes his reaction as normal. </p>\n<p> </p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature is unaffected.</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Success</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> The creature disintegrates into a sentient dust cloud. The creature becomes affected by a 6th-level @Item[jAGp3eFGVP4wNtPb]{Spell Effect: Elemental Form (Air)} spell, except they must choose air for the elemental form, they cannot dismiss the effect, the effect lasts until the end of Saddam Syed's next turn, and the creature gains weakness 20 to attacks and effects with the air trait (excluding this one).</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> As success, but the creature gains weakness 25 to attacks and effects with the air trait (excluding this one).</span></p>\n<p><strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Critical Failure</span></strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> As success, but the creautre gains weakness 40 to attacks and effects with the air trait (excluding this one).</span></p>\n<div data-visibility=\"gm\">\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">As this is a polymorph effect, it can only affect creatures who are already under a polymorph effect by counteracting it. Return to Dust's counteract modifier is +28. [[/r 1d20+28]]</span></p>\n</div>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "air",
+            "arcane",
+            "polymorph",
+            "magical"
+          ]
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "AzqgHYFYBtTiuWFt",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.AzqgHYFYBtTiuWFt",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {},
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Three Wishes",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger </strong>Saddam Syed is reduced to 225 or fewer hit points.</p>\n<hr />\n<p><em>\"I wish for power! I wish for immortality! I wish to become a god!\"</em></p>\n<p> </p>\n<p>In an act of desperation, Saddam Syed grants himself three wishes, but in true genie fashion, the wishes become twisted. Read the following to your players,</p>\n<p> </p>\n<p><em>Saddam Syed's hands and eyes crackle with blue lightning before arcing to a large crystal in the overhead chandelier, forming a conduit of energy between the two. With a bright flash and a horrific CRACK, the lightning turns green - along with Saddam's body. He howls in agony as his flesh begins to rot and fall to the ground, and with a final flash and CRACK, the conduit dissipates. The crystal from the chandelier drops to the floor and sprouts arms and legs, while the skeletal remains of the djinn rise, brandishing his scimitar. \"I am Al-Kujani, the rightful ruler of mortalkind. Submit to me, or I will erase you from the annals of history!\"</em></p>\n<p> </p>\n<p>Remove Saddam Syed's token and initiative from the encounter and replace him with Al-Kujani's token at the same locaiton in initiative. Al-Kujani has full hit points, but does not restore any uses of limited use abilities or spells that were used by Saddam Syed. Negative effects do not carry over from Saddam Syed to Al-Kujani, but positive effects (if any are applicable) do.</p>\n<p>Finally, add a crystal elemental to the encounter near the center of the arena and place it into initiative between the end of the current turn and the start of the next turn.</p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": [
+            "arcane",
+            "polymorph",
+            "magical"
+          ]
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    },
+    {
+      "_id": "LnLp6RketOoBT0rT",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.LnLp6RketOoBT0rT",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.NyxQAazFBdBAqZGX",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/elemental-annihilation-wave.webp",
+      "name": "Elemental Annihilation Wave",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "cone",
+          "value": 30
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "1d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "fire"
+          },
+          "1": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "bludgeoning"
+          }
+        },
+        "defense": {
+          "passive": null,
+          "save": {
+            "basic": true,
+            "statistic": "reflex"
+          }
+        },
+        "description": {
+          "gm": "",
+          "value": "<p>You draw elemental power from your surroundings, and combining it with your own magical energy, unleash a wave of utter destruction and swirling colors that deals 1d6 fire damage and 3d6 bludgeoning damage with a basic Reflex save. The number of actions you spend when Casting this Spell determines the area and other parameters.</p>\n<p><span class=\"pf2-icon\">2</span> <strong>(somatic, verbal)</strong> The spell is a 30-foot cone.</p>\n<p><span class=\"pf2-icon\">3</span> <strong>(material, somatic, verbal)</strong> The spell is a 30-foot cone. On a failed saving throw, creatures are pushed 5 feet away from you, and on a critical failure they are pushed 10 feet away and are knocked prone.</p>\n<p><strong>Two Rounds</strong> If you spend 3 actions Casting the Spell, you can avoid finishing the spell and spend another 3 actions on your next turn to empower the spell even further. If you do, the spell is as 3 actions, but the area is a @Template[type:cone|distance:60], and for 1 round, the elements linger in the cone, racing off into the distance and making approaching you difficult, with the effects of gust of wind.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 2d6, and the distance that enemies are pushed back if you spent 3 actions or 2 rounds increases by 5 feet on a failed save and 10 feet on a critical failure.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": ""
+        },
+        "heightening": {
+          "damage": {
+            "0": "1d6",
+            "1": "1d6"
+          },
+          "interval": 2,
+          "type": "interval"
+        },
+        "level": {
+          "value": 3
+        },
+        "location": {
+          "heightenedLevel": 6,
+          "value": "GdETVstixMk4QoXc"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Secrets of Magic"
+        },
+        "range": {
+          "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "elemental-annihilation-wave",
+        "spellCategory": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "2 to 2 rounds"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "primal"
+          ],
+          "value": [
+            "air",
+            "concentrate",
+            "earth",
+            "fire",
+            "manipulate",
+            "water"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "wf2m6FBIF5qSLvmp",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.wf2m6FBIF5qSLvmp",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.3xD8DYrr8YDVYGg7",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": null,
+        "systemVersion": null
+      },
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/spells/spike-stones.webp",
+      "name": "Spike Stones",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "area": {
+          "type": "burst",
+          "value": 20
+        },
+        "cost": {
+          "value": ""
+        },
+        "counteraction": false,
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": null,
+        "description": {
+          "gm": "",
+          "value": "<p>Long, sharp spikes of solid rock thrust up from the ground in the area. The area becomes difficult terrain and hazardous terrain. A creature that moves on the ground through the area takes 3 piercing damage for every square of that area it moves into.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the damage by 1.</p>"
+        },
+        "duration": {
+          "sustained": false,
+          "value": "1 hour"
+        },
+        "heightening": {
+          "damage": {
+            "0": "1"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "level": {
+          "value": 4
+        },
+        "location": {
+          "heightenedLevel": 7,
+          "value": "GdETVstixMk4QoXc"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Advanced Player's Guide"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "slug": "spike-stones",
+        "spellCategory": {
+          "value": ""
+        },
+        "target": {
+          "value": ""
+        },
+        "time": {
+          "value": "3"
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "traditions": [
+            "primal"
+          ],
+          "value": [
+            "concentrate",
+            "earth",
+            "manipulate"
+          ]
+        }
+      },
+      "type": "spell"
+    },
+    {
+      "_id": "FAJ8zh2iSPD0Udbf",
+      "_key": "!actors.items!H1HYidDJLWo24Od8.FAJ8zh2iSPD0Udbf",
+      "_stats": {
+        "compendiumSource": "Actor.I1F9YJn81k692HdD.Item.abqZoM0ZywCJTWYp",
+        "coreVersion": "14.367",
+        "createdTime": null,
+        "duplicateSource": "Actor.I1F9YJn81k692HdD.Item.abqZoM0ZywCJTWYp",
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.4.0"
+      },
+      "effects": [],
+      "flags": {
+        "LocknKey": {
+          "IDKeysFlag": "",
+          "LBFormulaFlag": "",
+          "LBFormulaOverrideFlag": false,
+          "LPFormulaFlag": "",
+          "LPFormulaOverrideFlag": false,
+          "RemoveKeyonUseFlag": false,
+          "ReplacementItemFlag": ""
+        }
+      },
+      "folder": null,
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Sultan's Resonance",
+      "ownership": {
+        "7RtLbrlfn9D7fL4K": 3,
+        "default": 0,
+        "mqymE3yW5E90IiHw": 3
+      },
+      "sort": 0,
+      "system": {
+        "_migration": {
+          "lastMigration": null,
+          "previous": {
+            "foundry": "12.331",
+            "schema": 0.845,
+            "system": "6.3.1"
+          },
+          "version": 0.932
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false,
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Requirements </strong>Saddam's last action or spell this turn had the fire, air, water, or earth trait.</p><hr /><p>Saddam imbues his scimitar with the force of the elements. The weapon deals @Damage[4d6] additional damage until the start of his next turn. This damage type is fire if the triggering action or spell had the fire trait, or bludgeoning for any other damage type. On a critical hit, the weapon also adds <span style=\"font-family:var(--font-primary)\">@Damage[1d10[persistent]] damage of the same type.</span></p>"
+        },
+        "publication": {
+          "authors": "",
+          "license": "OGL",
+          "remaster": false,
+          "title": ""
+        },
+        "rarity": {
+          "value": "common"
+        },
+        "requirements": {
+          "value": ""
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "resonance",
+            "selection": "fire",
+            "suboptions": [
+              {
+                "label": "Fire",
+                "value": "fire"
+              },
+              {
+                "label": "Bludgeoning",
+                "value": "bludgeoning"
+              }
+            ],
+            "toggleable": true,
+            "value": false
+          },
+          {
+            "damageType": "{item|flags.pf2e.rulesSelections.resonance}",
+            "diceNumber": 4,
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "resonance"
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "category": "persistent",
+            "critical": true,
+            "damageType": "{item|flags.pf2e.rulesSelections.resonance}",
+            "diceNumber": 1,
+            "dieSize": "d10",
+            "key": "DamageDice",
+            "predicate": [
+              "resonance"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "skill_requirements": {
+          "rank": "",
+          "skill": ""
+        },
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action"
+    }
+  ],
+  "name": "Saddam Syed, Sultan of the Sky (T5)",
+  "ownership": {
+    "default": 0,
+    "pGJOYrzHQ5eIdrmI": 3
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 2,
+    "detectionModes": {},
+    "displayBars": 0,
+    "displayName": 0,
+    "disposition": -1,
+    "flags": {
+      "core": {
+        "priority": null
+      },
+      "monks-little-details": {
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "perfect-vision": {
+        "light": {},
+        "monoVisionColor": "",
+        "sightLimit": null,
+        "visionRules": "default"
+      },
+      "pf2e": {
+        "autoscale": true,
+        "linkToActorSize": true
+      },
+      "token-auras": {
+        "aura1": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        },
+        "aura2": {
+          "colour": "#ffffff",
+          "distance": null,
+          "opacity": 0.5,
+          "permission": "all",
+          "square": false
+        }
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Saddam Syed, Sultan of the Sky",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 1,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 1,
+      "color": null,
+      "contrast": 0,
+      "enabled": true,
+      "range": 500,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Primrose/al_kujani_sultan_of_the_sky.Token.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "12.331",
+        "schema": 0.845,
+        "system": "6.3.1"
+      },
+      "version": 0.932
+    },
+    "abilities": {
+      "cha": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      },
+      "con": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      },
+      "dex": {
+        "min": 3,
+        "mod": 5,
+        "value": 10
+      },
+      "int": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      },
+      "str": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      },
+      "wis": {
+        "min": 3,
+        "mod": 8,
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "check": 0,
+        "details": "",
+        "dex": 0,
+        "item": 0,
+        "min": 0,
+        "value": 39
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "flatbonushp": 0,
+      "flatbonussp": 0,
+      "hp": {
+        "details": "",
+        "max": 450,
+        "min": 0,
+        "temp": 0,
+        "tempmax": 0,
+        "value": 450
+      },
+      "init": {
+        "bonus": 0,
+        "value": 0
+      },
+      "levelbonushp": 0,
+      "levelbonussp": 0,
+      "resolve": {
+        "value": 0
+      },
+      "sp": {
+        "details": "",
+        "max": 0,
+        "min": 0,
+        "value": 0
+      },
+      "speed": {
+        "details": "",
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "special": "",
+        "value": 25
+      }
+    },
+    "currency": {
+      "cp": {
+        "value": 0
+      },
+      "gp": {
+        "value": 0
+      },
+      "pp": {
+        "value": 0
+      },
+      "sp": {
+        "value": 0
+      }
+    },
+    "customModifiers": {},
+    "details": {
+      "ancestry": {
+        "value": ""
+      },
+      "biography": {
+        "public": "",
+        "value": ""
+      },
+      "blurb": "",
+      "class": {
+        "value": ""
+      },
+      "creatureType": "",
+      "deity": {
+        "image": "systems/pf2e/assets/sheet/deity.png",
+        "value": ""
+      },
+      "flavourText": "",
+      "heritage": {
+        "value": ""
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "languages": {
+        "details": "",
+        "value": [
+          "aklo",
+          "common",
+          "petran",
+          "pyric",
+          "sussuran",
+          "thalassic"
+        ]
+      },
+      "level": {
+        "min": 1,
+        "value": 17
+      },
+      "nethysUrl": "",
+      "privateNotes": "",
+      "publicNotes": "",
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "recallKnowledgeText": "",
+      "sidebarText": ""
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "martial": {
+      "advanced": {
+        "rank": 0,
+        "value": 0
+      },
+      "heavy": {
+        "rank": 0,
+        "value": 0
+      },
+      "light": {
+        "rank": 0,
+        "value": 0
+      },
+      "martial": {
+        "rank": 0,
+        "value": 0
+      },
+      "medium": {
+        "rank": 0,
+        "value": 0
+      },
+      "simple": {
+        "rank": 0,
+        "value": 0
+      },
+      "unarmed": {
+        "rank": 0,
+        "value": 0
+      },
+      "unarmored": {
+        "rank": 0,
+        "value": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 32,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "resources": {},
+    "saves": {
+      "fortitude": {
+        "ability": "con",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 32
+      },
+      "reflex": {
+        "ability": "dex",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 29
+      },
+      "will": {
+        "ability": "wis",
+        "item": 0,
+        "rank": 0,
+        "saveDetail": "",
+        "value": 32
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 33
+      },
+      "athletics": {
+        "base": 33
+      },
+      "deception": {
+        "base": 33
+      },
+      "intimidation": {
+        "base": 33
+      },
+      "nature": {
+        "base": 33
+      },
+      "stealth": {
+        "base": 30
+      }
+    },
+    "spells": {
+      "spell0": {
+        "max": 0
+      },
+      "spell1": {
+        "max": 0
+      },
+      "spell10": {
+        "max": 0
+      },
+      "spell11": {
+        "max": 0
+      },
+      "spell2": {
+        "max": 0
+      },
+      "spell3": {
+        "max": 0
+      },
+      "spell4": {
+        "max": 0
+      },
+      "spell5": {
+        "max": 0
+      },
+      "spell6": {
+        "max": 0
+      },
+      "spell7": {
+        "max": 0
+      },
+      "spell8": {
+        "max": 0
+      },
+      "spell9": {
+        "max": 0
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "rarity": "uncommon",
+      "size": {
+        "value": "lg"
+      },
+      "value": [
+        "air",
+        "elemental",
+        "evil",
+        "genie",
+        "lawful"
+      ]
+    }
+  },
+  "type": "npc"
+}

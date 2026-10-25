@@ -1,0 +1,87 @@
+{
+  "_id": "Uz2wiA8WOcaYl3mp",
+  "_key": "!items!Uz2wiA8WOcaYl3mp",
+  "_stats": {
+    "compendiumSource": "Compendium.covalon.covalon-deities.Item.DBVqan2uxi3Si1J9",
+    "coreVersion": "14.367",
+    "createdTime": 1725307134087,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1789406807532,
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2"
+  },
+  "effects": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "img": "systems/pf2e/icons/spells/string-of-fate.webp",
+  "name": "Kohtalo, Patron of Fate Forgers",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 2800000,
+  "system": {
+    "_migration": {
+      "lastMigration": null,
+      "previous": {
+        "foundry": "13.351",
+        "schema": 0.935,
+        "system": "7.12.2"
+      },
+      "version": 0.955
+    },
+    "attribute": [],
+    "category": "deity",
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:BookInsanityRemake\">Kohtalo is the goddess of ambitious souls. Being one of the oldest and initially, most obscure Goddesses, through her own efforts and the efforts of her followers she’s gained greater recognition. Kohtalo was a Goddess of dreams, who was often overshadowed by other deities, but through completing a set of several challenges and tasks she was granted greater influence and sway. Through this experience she gained an appreciation for ambition. She blesses those who seek to forge their own fate and defy the odds, especially underdogs. Unlike many deities that effect fate, she gets a great deal of amusement from those who don’t accept their fate and actively fight against it, often putting her end goals and involvement in the lives of mortals at odds with other fate deities. Kohtalo’s favored weapon is the pick, signifying the desire to create a new life and path for oneself. She resents anyone who chooses a life of complacency or takes advantage of those weaker then themselves as it poses no challenge and doesn’t better anyone.</span></p><p><strong>Edicts</strong> <span style=\"font-family:BookInsanityRemake\">bettering yourself by your own efforts, pursuing fame and glory for your achievements, crafting, rewarding yourself for your achievements.</span><br /><strong>Anathema</strong> <span style=\"font-family:BookInsanityRemake\">abandoning projects or work, accepting charity, victimizing the weak or helpless, accepting bad circumstances, complacency or not having an ambitious life goal</span></p>"
+    },
+    "domains": {
+      "alternate": [
+        "confidence"
+      ],
+      "primary": [
+        "ambition",
+        "creation",
+        "fate",
+        "zeal"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "skill": [
+      "crafting"
+    ],
+    "slug": "kohtalo",
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh",
+      "4": "Compendium.pf2e.spells-srd.Item.11haL5O9KMpY5Fv7",
+      "7": "Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw"
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "weapons": [
+      "pick"
+    ]
+  },
+  "type": "deity"
+}
