@@ -2,7 +2,7 @@ import { compilePack } from '@foundryvtt/foundryvtt-cli';
 import { promises as fs } from 'fs';
 
 const PACKAGE_ID = process.cwd();
-const yaml = true;
+const yaml = false;
 const folders = true;
 
 const packs = await fs.readdir('./src/packs');

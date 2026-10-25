@@ -16,7 +16,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/pf2e/icons/spells/wall-of-flesh.webp",
-  "name": "Valexxia, the Flesh Crafter",
+  "name": "Valexia, the Flesh Crafter",
   "ownership": {
     "H9FXC8g0quO6QRgw": 3,
     "default": 0
@@ -57,7 +57,7 @@
     "sanctification": {
       "modal": "must",
       "what": [
-        "holy"
+        "unholy"
       ]
     },
     "skill": [
