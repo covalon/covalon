@@ -3,7 +3,7 @@
   "_key": "!scenes!BrP11OSwdqMGK28H",
   "_stats": {
     "compendiumSource": "Compendium.covalon.whitespire-scenes.Scene.BrP11OSwdqMGK28H",
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "createdTime": 1775688601271,
     "duplicateSource": null,
     "exportSource": null,
@@ -87,6 +87,17 @@
     {
       "_id": "defaultLevel0000",
       "_key": "!scenes.levels!BrP11OSwdqMGK28H.defaultLevel0000",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
       "background": {
         "alphaThreshold": 0.75,
         "color": "#615a5f",

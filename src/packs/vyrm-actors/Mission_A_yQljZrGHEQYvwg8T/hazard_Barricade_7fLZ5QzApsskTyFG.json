@@ -1,0 +1,188 @@
+{
+  "_id": "7fLZ5QzApsskTyFG",
+  "_key": "!actors!7fLZ5QzApsskTyFG",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698071959,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698110180,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "yQljZrGHEQYvwg8T",
+  "img": "icons/environment/settlement/fence-stone-brick.webp",
+  "items": [],
+  "name": "Barricade",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 20,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Barricade",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "fill",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/environment/settlement/fence-stone-brick.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.961
+    },
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": null
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>The barricade is a 10 foot tall wall, spread across the entirely of one side of the map. </p><p>Each 10 foot section of the wall can be broken, and has stats as per <strong>#Table 2–15: Defenses#</strong> (LAC, Hardness, and HP equal to the APL).</p><p><a href=\"https://2e.aonprd.com/Rules.aspx?ID=2864\">https://2e.aonprd.com/Rules.aspx?ID=2864</a></p>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

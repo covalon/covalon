@@ -3,7 +3,7 @@
   "_key": "!scenes!9a1SKcR38NFnMiY8",
   "_stats": {
     "compendiumSource": "Compendium.covalon.covalon-basics-scenes.Scene.9a1SKcR38NFnMiY8",
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "createdTime": 1788224017373,
     "duplicateSource": null,
     "exportSource": null,
@@ -86,6 +86,17 @@
     {
       "_id": "defaultLevel0000",
       "_key": "!scenes.levels!9a1SKcR38NFnMiY8.defaultLevel0000",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2"
+      },
       "background": {
         "alphaThreshold": 0.75,
         "color": "#999999",

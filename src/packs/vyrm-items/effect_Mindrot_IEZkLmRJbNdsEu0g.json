@@ -1,0 +1,91 @@
+{
+  "_id": "IEZkLmRJbNdsEu0g",
+  "_key": "!items!IEZkLmRJbNdsEu0g",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698065767,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698065768,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/spells/mind-probe.webp",
+  "name": "Mindrot",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "14.369",
+        "schema": 0.959,
+        "system": "8.7.0"
+      },
+      "version": 0.961
+    },
+    "badge": {
+      "labels": null,
+      "loop": false,
+      "max": 10,
+      "min": null,
+      "type": "counter",
+      "value": 1
+    },
+    "context": null,
+    "description": {
+      "gm": "",
+      "value": "<h3>Mindrot</h3><p><em>[Curse][Magical][Occult][Mental]</em></p><p>A deadly curse that causes a creature to entirely lose their ability to think, eventually reducing them to a mindless, puppetlike husk.</p><div data-visibility=\"gm\"><p><strong>Special </strong>The effective level of this curse is equal to the APL of the party.</p><p><strong>Saving Throw </strong>@Check[will|dc:0|options:curse,magical,occult,mental] ( <strong>#DC#</strong> for APL)</p><p><strong>Effect </strong>The afflicted creature has a -1 untyped penalty to saves against mental affects, increasing per stage of the affliction to a maximum of 10. At stage 10, the creature loses the ability to think entirely, becoming a mindless husk that is considered dead (though the body technically remains living).</p></div>"
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "fromSpell": false,
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "mental"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "status",
+        "value": "-1 * @item.badge.value"
+      }
+    ],
+    "slug": null,
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "unidentified": false
+  },
+  "type": "effect"
+}

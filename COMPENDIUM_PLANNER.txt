@@ -23,6 +23,12 @@
   # /Events
 
   /Expeditions
+    /Vyrm
+      actors
+      items
+      journals
+      scenes
+      
     /Whitespire
       actors
       items

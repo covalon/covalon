@@ -1,0 +1,196 @@
+{
+  "_id": "PNX2cMXBZfxbiAD2",
+  "_key": "!actors!PNX2cMXBZfxbiAD2",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698071963,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698071967,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "b15ndQhAwsvaAxT3",
+  "img": "modules/covalon/images/Vyrm/vyrm_shell.webp",
+  "items": [],
+  "name": "Control Node (T3)",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": false,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 20,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false
+      },
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 1,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": true,
+    "movementAction": null,
+    "name": "Control Node (T3)",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "modules/covalon/images/Vyrm/vyrm_shell.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": "https://assets.forge-vtt.com/62879371a786eb4476374da8/Token_Selector.webp"
+    },
+    "width": 1
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "14.369",
+        "schema": 0.959,
+        "system": "8.7.0"
+      },
+      "version": 0.961
+    },
+    "attributes": {
+      "ac": {
+        "value": 29
+      },
+      "emitsSound": "encounter",
+      "hardness": 8,
+      "hp": {
+        "details": "",
+        "max": 128,
+        "temp": 0,
+        "value": 128
+      },
+      "immunities": [],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": 0
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>For APL 7, set the HP to 120 and reduce the AC by 2.</p><p>For APL 9, set the HP to 136 and increase the AC by 1.</p><p>The Control Node automatically fails any reflex or fortitude saves.</p>",
+      "disable": "<p>The Control Node can be disabled via the @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} action from an adjacent creature.</p><p>A number of successes equal to <strong>#Party Size-2#</strong> are required.</p><p>The hazard also ceases to function if it is Destroyed. It functions as usual when Broken. For the purpose of the Disintegrate spell and similar effects, the Control Node is considered a creature that automatically fails its saving throw.</p><p>The Control Node can be disabled with any of the following checks, with a minimum proficiency requirement of Trained:</p><p><strong>APL 7:</strong> @Check[type:crafting|dc:26|basic:false], @Check[type:occultism|dc:26|basic:false], @Check[type:thievery|dc:26|basic:false], @Check[type:arcana|dc:28|basic:false],@Check[type:nature|dc:28|basic:false], or @Check[type:religion|dc:28|basic:false] check.</p><p><strong>APL 8:</strong> @Check[type:crafting|dc:28|basic:false], @Check[type:occultism|dc:28|basic:false], @Check[type:thievery|dc:28|basic:false], @Check[type:arcana|dc:30|basic:false],@Check[type:nature|dc:30|basic:false], or @Check[type:religion|dc:30|basic:false] check.</p><p><strong>APL 9:</strong> @Check[type:crafting|dc:30|basic:false], @Check[type:occultism|dc:30|basic:false], @Check[type:thievery|dc:30|basic:false], @Check[type:arcana|dc:32|basic:false],@Check[type:nature|dc:32|basic:false], or @Check[type:religion|dc:32|basic:false] check.</p>",
+      "isComplex": true,
+      "level": {
+        "value": 8
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": "<p>Once per round:</p><p>Hostile creatures within 10 feet of the Control Node are shoved away by a burst of air.</p><p>Any enemies within the area must succeed a <strong>#DC#</strong> Reflex Save or be shoved 20 feet away. On a critical failure, they land prone.</p>"
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

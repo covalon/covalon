@@ -1,0 +1,193 @@
+{
+  "_id": "c4Hwn0En2vcTnlUQ",
+  "_key": "!actors!c4Hwn0En2vcTnlUQ",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698071960,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698071965,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {
+    "pf2e": {
+      "editMode": true
+    }
+  },
+  "folder": "yQljZrGHEQYvwg8T",
+  "img": "icons/environment/settlement/wagon.webp",
+  "items": [],
+  "name": "Transport Cart",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "prototypeToken": {
+    "actorLink": true,
+    "alpha": 1,
+    "appendNumber": false,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "depth": 1,
+    "detectionModes": {},
+    "displayBars": 50,
+    "displayName": 30,
+    "disposition": -1,
+    "flags": {
+      "pf2e": {
+        "autoscale": false,
+        "linkToActorSize": false
+      }
+    },
+    "height": 2,
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "animation": {
+        "intensity": 5,
+        "reverse": false,
+        "speed": 5,
+        "type": null
+      },
+      "attenuation": 0.5,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "contrast": 0,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "dim": 0,
+      "luminosity": 0.5,
+      "negative": false,
+      "priority": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "lockRotation": false,
+    "movementAction": null,
+    "name": "Transport Cart",
+    "occludable": {
+      "radius": 0
+    },
+    "prependAdjective": false,
+    "randomImg": false,
+    "ring": {
+      "colors": {
+        "background": null,
+        "ring": null
+      },
+      "effects": 0,
+      "enabled": false,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "rotation": 0,
+    "sight": {
+      "angle": 360,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "color": null,
+      "contrast": 0,
+      "enabled": false,
+      "range": 0,
+      "saturation": 0,
+      "visionMode": "basic"
+    },
+    "texture": {
+      "alphaThreshold": 0.75,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "src": "icons/environment/settlement/wagon.webp",
+      "tint": "#ffffff"
+    },
+    "turnMarker": {
+      "animation": null,
+      "disposition": false,
+      "mode": 1,
+      "src": null
+    },
+    "width": 2
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.961
+    },
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "emitsSound": "encounter",
+      "hardness": 0,
+      "hp": {
+        "details": "Tier*10 HP",
+        "max": 0,
+        "temp": 0,
+        "value": 0
+      },
+      "immunities": [
+        {
+          "exceptions": [],
+          "type": "critical-hits"
+        }
+      ],
+      "resistances": [],
+      "stealth": {
+        "details": "",
+        "value": null
+      },
+      "weaknesses": []
+    },
+    "details": {
+      "description": "<p>The Cart is an object (with object immunities and immunity to critical hits) with an AC of <strong>#DC#</strong>, reflex and fort of <strong>#Hazard 2-15 L Save#</strong>, Hardness of <strong>#Hazard 2-15 Hardness#</strong> (middle of the range), and HP of <strong>#Hazard 2-15 HP#</strong> (middle of the range).</p><ol><li><p><a href=\"https://2e.aonprd.com/Rules.aspx?ID=2864\">https://2e.aonprd.com/Rules.aspx?ID=2864</a></p></li></ol><p>Players can use the following action to move the cart.</p><p>@UUID[Item.0nfLf14ra8ZRER8N]{Drive the Cart}</p><ol><li><p>If the cart is destroyed during Encounter 2 or 3, the captive puppet dies, but the party can still bring the corpse back to complete the mission (only missing out on the possible +10% gold reward bonus and information - see Recommended Loot).</p></li></ol>",
+      "disable": "",
+      "isComplex": false,
+      "level": {
+        "value": 1
+      },
+      "publication": {
+        "authors": "",
+        "license": "OGL",
+        "remaster": false,
+        "title": ""
+      },
+      "reset": "",
+      "routine": ""
+    },
+    "saves": {
+      "fortitude": {
+        "value": null
+      },
+      "reflex": {
+        "value": null
+      },
+      "will": {
+        "value": null
+      }
+    },
+    "traits": {
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      },
+      "value": []
+    }
+  },
+  "type": "hazard"
+}

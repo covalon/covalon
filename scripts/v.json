@@ -1,5 +1,5 @@
 {
-  "SCHEMA_VERSION": 4,
+  "SCHEMA_VERSION": 5,
   "folders": {
     "Covalon": {
       "name": "Covalon",
@@ -48,6 +48,7 @@
       "color": "#3e3123",
       "packs": [],
       "folders": [
+        "Vyrm",
         "Whitespire",
         "Alatar",
         "Briarmurk",
@@ -63,6 +64,18 @@
         "Gornlar",
         "Ikouga"
       ]
+    },
+    "Vyrm": {
+      "name": "Vyrm",
+      "sorting": "a",
+      "color": "#473624",
+      "packs": [
+        "vyrm-actors",
+        "vyrm-items",
+        "vyrm-journals",
+        "vyrm-scenes"
+      ],
+      "folders": []
     },
     "Whitespire": {
       "name": "Whitespire",

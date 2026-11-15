@@ -1,0 +1,66 @@
+{
+  "_id": "0nfLf14ra8ZRER8N",
+  "_key": "!items!0nfLf14ra8ZRER8N",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698065766,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698065768,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "https://assets.forge-vtt.com/bazaar/systems/pf2e/assets/icons/actions/OneAction.webp",
+  "name": "Drive the Cart",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": {
+        "foundry": "14.369",
+        "schema": 0.959,
+        "system": "8.7.0"
+      },
+      "version": 0.961
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>Once per round</p><p><strong>Prerequisite </strong>You are adjacent to the Cart</p><p>Attempt an Athletics check of <strong>#DC#</strong>, a Survival, Crafting, or Diplomacy check of <strong>#DC-2#</strong> or a related lore check (Driving, Piloting, etc) of <strong>#DC-5#</strong>.</p><p>Each PC can attempt this check once per round, and at the end of the round, the cart moves according to the highest degree of success obtained by any PC that round.</p><p><strong>Critical Success</strong> At the end of the round, the cart will move 30 feet.</p><p><strong>Success</strong> At the end of the round, the cart will move 20 feet.</p><p><strong>Failure</strong> At the end of the round, the cart will move 10 feet.</p><p><strong>Critical Failure</strong> At the end of the round, the cart does not move.</p>"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ]
+    }
+  },
+  "type": "action"
+}

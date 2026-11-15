@@ -3,7 +3,7 @@
   "_key": "!scenes!W4eHB59ZSPkt7jQd",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "createdTime": 1688410857761,
     "duplicateSource": null,
     "exportSource": null,
@@ -81,6 +81,17 @@
     {
       "_id": "defaultLevel0000",
       "_key": "!scenes.levels!W4eHB59ZSPkt7jQd.defaultLevel0000",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "5.1.0"
+      },
       "background": {
         "alphaThreshold": 0.75,
         "color": "#999999",

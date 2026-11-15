@@ -3,7 +3,7 @@
   "_key": "!scenes!n03DIu55JkaWZJJG",
   "_stats": {
     "compendiumSource": "Compendium.covalon.varceta-scenes.Scene.n03DIu55JkaWZJJG",
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "createdTime": 1742662296704,
     "duplicateSource": null,
     "exportSource": {
@@ -582,6 +582,17 @@
     {
       "_id": "defaultLevel0000",
       "_key": "!scenes.levels!n03DIu55JkaWZJJG.defaultLevel0000",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": null,
+        "modifiedTime": null,
+        "systemId": "pf2e",
+        "systemVersion": "6.10.2"
+      },
       "background": {
         "alphaThreshold": 0.75,
         "color": "#999999",

@@ -1,0 +1,72 @@
+{
+  "_id": "5YSWKCFcWipXwMck",
+  "_key": "!items!5YSWKCFcWipXwMck",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794698065768,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794698065769,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Vyrm Creature Adjustment: Maw-Touched Mind",
+  "ownership": {
+    "H9FXC8g0quO6QRgw": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "system": {
+    "_migration": {
+      "previous": null,
+      "version": 0.961
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false,
+    "description": {
+      "gm": "",
+      "value": "<p>All humanoid \"puppets\" that have succumbed to Mindrot in Vyrm's expeditions should have this adjustment.</p><ul><li><p>As all of their minds are connected and reinforced, puppets gain a +2 status bonus to saves against mental effects.</p></li><li><p>All puppets have limited telepathy to other nearby puppets. Within 60 feet, they can communicate constantly without being overheard.</p><ul><li><p>Note: This is still very limited. Assume they can pass information equivalent to one free casting of the @UUID[Compendium.pf2e.spells-srd.vLzFcIaSXs7YTIqJ]{Message} cantrip per round of combat. It's enough to coordinate, but they don't share all information.</p></li><li><p>Note 2: The Puppets within Vyrm <strong>do not</strong> count as undead. The minds were erased by the Mindrot, and the original inhabitants are gone, but the bodies themselves count as living.</p></li></ul></li></ul>"
+    },
+    "publication": {
+      "authors": "",
+      "license": "OGL",
+      "remaster": false,
+      "title": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Maw-Touched Mind",
+        "predicate": [
+          "mental"
+        ],
+        "selector": [
+          "saving-throw"
+        ],
+        "type": "status",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mental",
+        "occult"
+      ]
+    }
+  },
+  "type": "action"
+}

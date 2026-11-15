@@ -86,6 +86,52 @@
       }
     },
     {
+      "label": "Vyrm Actors",
+      "name": "vyrm-actors",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/vyrm-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Vyrm Items",
+      "name": "vyrm-items",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "path": "packs/vyrm-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Vyrm Journals",
+      "name": "vyrm-journals",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "path": "packs/vyrm-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Vyrm Scenes",
+      "name": "vyrm-scenes",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "path": "packs/vyrm-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "label": "Whitespire Actors",
       "name": "whitespire-actors",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",

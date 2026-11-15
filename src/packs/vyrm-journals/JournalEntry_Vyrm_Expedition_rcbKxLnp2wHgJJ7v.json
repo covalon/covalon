@@ -1,0 +1,218 @@
+{
+  "_id": "rcbKxLnp2wHgJJ7v",
+  "_key": "!journal!rcbKxLnp2wHgJJ7v",
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "14.370",
+    "createdTime": 1794761754354,
+    "duplicateSource": null,
+    "exportSource": null,
+    "lastModifiedBy": "H9FXC8g0quO6QRgw",
+    "modifiedTime": 1794761754354,
+    "systemId": "pf2e",
+    "systemVersion": "8.7.0"
+  },
+  "categories": [],
+  "flags": {
+    "core": {}
+  },
+  "folder": null,
+  "name": "Vyrm Expedition",
+  "ownership": {
+    "default": 0
+  },
+  "pages": [
+    {
+      "_id": "gMi1BSgJLEIVU4On",
+      "_key": "!journal.pages!rcbKxLnp2wHgJJ7v.gMi1BSgJLEIVU4On",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": 1794761754354,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1794761754354,
+        "systemId": "pf2e",
+        "systemVersion": "8.7.0"
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Vyrm Briefing",
+      "ownership": {
+        "default": -1
+      },
+      "sort": 100000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>Background</h2><p>The Kingdom of Vyrm had a storied history of success due to its unique partnership between its nobility and common citizens. Working hand-in-hand to secure better lives for their future generations, Vyrm prospered economically for dozens of generations, until recent years. Once the Misty Shores were captured by pirates, the king of Vyrm became increasingly uncooperative with the people’s council, sealing himself and the nobility inside his palace right before the Cataclysm reached the nation. Taking the form of a plague referred to as “mindrot,” citizens gradually dropped dead in the streets, only to rise moments later as mindless husks that continued carrying out their menial tasks for some unseen purpose.</p><p></p><p>For more information on Vyrm, see its entry in the <a href=\"https://covalon.github.io/guide/\">Covalon Player's Guide</a>.</p><h2>Mission Overview</h2><img src=\"modules/covalon/images/Vyrm/vyrm%20travel%20overview.png\" width=\"500\"><p>Covalon travelled to Vyrm via a specialized vehicle - the Surface Tension Insectoid Crawler for Kicking, Blasting, and Unnecessary Gallivanting, or STICKBUG! In the STICKBUG, we travelled over the plains of Drifthaven, walked across water, and then through the forests to reach the Kingdom of Vyrm. Other than a slight hiccup with the Levitation Core, our travels went smoothly. However, as we approached Vyrm, we began to see signs of Mindrot infection; first insects acting strangely, then the STICKBUG's built in Mind Blank aura began reacting. So, in the forest beyond the city, we set up camp, making ourselves a safe place from which to launch further investigations into the Mindrot, and determine how best to take back Vyrm from its clutches.</p><h2>Vyrm Required Elements</h2><p>All Vyrm missions require the @UUID[Compendium.covalon.vyrm-items.Item.5YSWKCFcWipXwMck]{Vyrm Creature Adjustment: Maw-Touched Mind} creature adjustment.</p><h2>How to Run an Expedition</h2><p>Expeditions are composed of two subtypes: missions and finales. Missions are a set of three dungeon-like adventures that are narratively linked, but can be completed in any order. Each mission must include predetermined narrative and mechanical elements while sticking to a theme of locations, creatures, and loot, which are included in its associated journal entry, with the specifics of the blanks to be filled in by the GM of the adventure. Like other adventure types, Dungeon Guides must submit their expedition missions for approval.</p><p>When reading the instructions for an expedition, you may see key terms surrounded by number signs. These indicate that the term should be replaced by a value that's dependent on the adventure's average party level.  If you have any questions about how to apply these terms or any of the required elements, be sure to ask about them during your submission for approval. Here is a list of terms:</p><ul><li><p><strong>#Creature [Table Number] [Modifier]#</strong> should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=995\">Building Creatures</a> section of the Gamemastery Guide. For example, \"#Creature 2-8 Minimum# means that you should reference the Building Creatures rules, look for Table 2-8, and use the value in the Minimum column for the creature's level (adjusted for elite or weak as appropriate).</p></li><li><p><strong>#Hazard [Table Number] [Modifier]# </strong>should be replaced by a value according to a table in the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=1043\">Building Hazards</a> section of the Gamemastery Guide. For example, \"#Hazard 2-16 Simple Damage# means that you should reference the Building Hazards rules, look for table 2-16, and use the value in the Simple Damage column for the hazard's level.</p></li><li><p><strong>#DC [Modifier]# </strong>should be replaced by a value according to the <a href=\"https://2e.aonprd.com/Rules.aspx?ID=554\" target=\"_blank\" rel=\"noopener\">DCs by Level</a> table in the Core Rulebook. If a modifier is included, the value should be adjusted accordingly. For example, \"#DC +5#\" means that you should reference the DCs by Level table, find the value appropriate for the party's average level, then add 5 to it.</p></li></ul><p>Finales are singular encounters against a narratively significant threat that conclude an expedition. They come in two versions: normal mode and hard mode. Before a finale is cleared for the first time, it can only be run by Covalon administrators and moderators, and is ran at hard mode. Afterwards, the finale can be ran by any Dungeon Guide at normal mode (though players can request hard mode if they'd like). Normal mode can be run in Tier 2 or above, and hard mode can only be run at the highest tier, intended for max level characters. Unlike missions, finales use a specific map and specific creatures, included with this module.</p><p>Each finale comes with three variant modifications. When running a normal mode finale, a GM choose one of the three modifications to use, or can roll [[/r 1d3]] to randomly determine which modification to use. When running a hard mode finale, the GM uses all three modifications. There are no additional rewards for completing hard mode.</p><h2>Reporting a Completed Expedition</h2><p>When reporting a completed expedition in the Dungeon Summaries channel, use the <strong>exact name</strong> of the adventure as the adventure's title. For example, if you ran the first mission of Ikouga, the summary's title should be \"Ikouga Mission A: Retame the Island\" exactly. The summary should otherwise follow the same format as dungeons. </p><p>Finally, any narrative-based knowledge or intrigue that the players gain as a result of the expedition should be left out of the summary. For example, if the players complete a bonus objective that allows them to learn special information as detailed in the Required Elements or Recommended Loot section of each journal entry, that should be left out of the dungeon summary.</p><p></p><h3>Special Thanks</h3><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, ui-sans-serif, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Special thanks to Sresk and Ateia for providing art assets for use in Vyrm!</span></p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "yRVWIvc5afvCBY1s",
+      "_key": "!journal.pages!rcbKxLnp2wHgJJ7v.yRVWIvc5afvCBY1s",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": 1794761754354,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1794761754354,
+        "systemId": "pf2e",
+        "systemVersion": "8.7.0"
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Vyrm Expedition A: Capture the Puppet",
+      "ownership": {
+        "default": -1
+      },
+      "sort": 200000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>Hook</h2><p><em>Our researchers need to understand the Mindrot so that we can devise countermeasures. We're sending out groups of adventurers to capture one of the puppets and bring them back to our camp!</em></p><h2>Required Elements</h2><ol><li><p>Each encounter should have <strong>at least one Troop</strong>, as the bulk of the challenge in Vyrm comes from the horde that fell to the Mindrot.</p></li><li><p>The players are given a @UUID[Compendium.covalon.vyrm-actors.Actor.c4Hwn0En2vcTnlUQ]{Transport Cart} to contain the captive mindrot puppet. The Cart is an object (with object immunities and immunity to critical hits) with an AC of <strong>#DC#</strong>, reflex and fort of <strong>#Hazard 2-15 L Save#</strong>, Hardness of <strong>#Hazard 2-15 Hardness#</strong> (middle of the range), and HP of <strong>#Hazard 2-15 HP#</strong> (middle of the range). Players can use the following action to move the cart.</p><p>@UUID[Compendium.covalon.vyrm-items.Item.0nfLf14ra8ZRER8N]{Drive the Cart}</p><p>If the cart is destroyed during Encounter 2 or 3, the captive puppet dies, but the party can still bring the corpse back to complete the mission (only missing out on the possible +10% gold reward bonus and information - see Recommended Loot).</p></li><li><p>All enemy creatures (\"puppets\") should have the Maw-Touched Mind creature adjustment.</p></li></ol><h3>Summary</h3><p>This expedition contains <strong>three moderate combat encounters</strong>. In the first encounter, the party needs to <strong>nonlethally</strong> subdue an enemy and capture them in the Transport Cart. The second and third encounter consist of the party attempting to escort the captive alive out of the city, while enemies focus on either retrieving or killing the captive over slaying the party.</p><h3>Capture the Puppet (Encounter 1)</h3><p><span>The party finds a group of relatively isolated puppets within the city, ideal for retrieving a captive. This should be a moderate encounter, with at least one Troop. The goal is to nonlethally subdue a captive and return them to our camp for study.</span></p><p>Should the Troop be non-lethally reduced to 0 hp, this can be flavored as a single survivor, or many, but the Transport Container only has room for a single medium creature. The same restriction follows if the captive is a creature external to the Troop.</p><h3>Escaping Pursuit (Encounter 2)</h3><p><span>All puppets within the city follow a distinct purpose, and one of their number being captured and taken out of the city runs directly against their goals. Other nearby puppets are automatically alerted when the first group is taken out. This can be directly explained to the players; feel free to foreshadow that the puppets seem to have some way of communicating information between them aside from speech. As a note, this should not be played as a hive mind; all information is not automatically transferred, just what they can reasonably communicate.</span></p><p>The party is attacked by a group of puppets (moderate encounter) soon after they capture the first (give 10 minutes to rest/begin moving before they are caught, or 20 minutes in Tiers 1-3). The goal for this encounter should be keeping the puppet alive, and the attacking puppets should primarily be aiming to retrieve or kill the captive rather than attacking the party. This encounter should go until the enemies are dead, as the puppets can outrun the cart on the streets.</p><h3>Breaking Out (Encounter 3)</h3><p><span>Not all of the puppets in the immediate vicinity immediately went to chase after the party. A group of them used the delay caused by the attackers to get ahead and set up a @UUID[Compendium.covalon.vyrm-actors.Actor.7fLZ5QzApsskTyFG]{Barricade}.</span></p><p>This is a moderate encounter, and similar to the last one, the attackers primary goal is the retrieval or death of the captive. The goal for the party should be getting the Transport Cart through the barricade; assume that once the Container crosses the barricade the party is outside of the city and beyond pursuit (as such, it may make sense to set the barricade to the edge of the map you are using).</p><p>As a note, try to use maps with at least 100 feet for the Container to move for this encounter. If the map is larger, simply move the Container up to 100 feet away from the barricade before starting the encounter. This should be lowered to 80 feet for Tiers 1-3.</p><p>This encounter ends either with the death of all enemies or when the Container leaves the map.</p><p><span>@UUID[Compendium.covalon.vyrm-actors.Actor.7fLZ5QzApsskTyFG]{Barricade}</span> Stats:</p><p>The barricade is a 10 foot tall wall, spread across the entirely of one side of the map. Each 10 foot section of the wall can be broken, and has stats as per <strong>#Table 2–15: Defenses#</strong> (LAC, L Save Reflex, H Save Fortitude, Hardness, and HP equal to the APL).</p><h2>Recommended Locations</h2><p><span>For the first encounter: City Streets, Alleyways, Urban Buildings</span></p><p>For the second and third encounters: City Streets, Alleyways, City Walls</p><h2>Recommended Creatures</h2><p><span>Troops, Humanoids. Ideally Humanoid Troops, but feel free to take other types of Troops and reskin them as Humanoids if limited selection gets in the way.</span></p><h2>Recommended Loot</h2><p><span>Entirely gold. +10% bonus gold is available for keeping the puppet alive (as we still get some information for a dead puppet, so the party still receives a normal reward if they fail this).</span></p><p>Additionally, if the puppet is captured alive, the party learns that there seems to be a single mind directing all of them.</p>",
+        "format": 1
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "Y1YtjaLH7DQ0aKJY",
+      "_key": "!journal.pages!rcbKxLnp2wHgJJ7v.Y1YtjaLH7DQ0aKJY",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": 1794761754354,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1794761754354,
+        "systemId": "pf2e",
+        "systemVersion": "8.7.0"
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Vyrm Expedition B: Map the Ritual",
+      "ownership": {
+        "default": -1
+      },
+      "sort": 200000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>Hook</h2><p><em>Through our research into the Mindrot, we've identified the palace as the source of the corruption. Our scouts have determined that the barrier around the palace is being sustained by a massive ritual spread throughout the city. We need to send teams out to map out the key sites for the ritual and clear them out!</em></p><h2>Required Elements</h2><ol><li><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Each encounter should have at least one Troop, as the bulk of the challenge in Vyrm comes from the horde that fell to the Mindrot.</span></p></li><li><p>All enemy creatures (\"puppets\") should have the Maw-Touched Mind creature adjustment.</p></li></ol><h3>Summary</h3><p>This expedition consists of rounds of skill checks interspersed with combat encounters. The party makes checks as they navigate the city, searching for control nodes of the ritual. As the party spends time in the city, they become increasingly exposed to @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}. </p><p>When the party finds a control node, they can attack it and break it. Should the party go too long without finding one, puppets within the city find the party and attack, causing them to have to flee to a different part of the city and losing track of their investigation. After a total of three encounters (either from finding control nodes or being found by enemies), the party needs to retreat from the city, preventing them from growing too exposed to @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}.</p><h3>Encounters</h3><p><span>The bulk of this expedition is managed through Victory Points. The party will spend substantial amounts of time in Vyrm, and will become increasingly exposed to the </span>@UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}<span> the longer they take.</span></p><p>Exploration within the city takes place in 1 hour chunks of searching for ritual sites. When the party finds an external node, they should clear out the defenders and break the Control Node at the center of that section of the ritual. Breaking a Control Node sends a surge of magic along the ritual, which can be traced to further ritual sites.</p><p>Note: As these are subnodes and not the central node, breaking the nodes should be trivial. A successful strike against an AC of <strong>#DC#</strong> should break the nodes. This can be done during combat, or after clearing all enemies out.</p><p>For each hour of tracking the ritual, a round of checks need to be made. After each round, the party needs to make a Will Save of <strong>#DC#</strong> against @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}, gaining one stage on a failure, or two stages on a critical failure. Each stage of Mindrot gives an additional -1 to saves against mental effects, and at -10 the character is effectively dead. @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot} is considered a curse as if given by a creature at the APL of the party, and a creature's stage not reduced by successful saves. Normal methods of reducing curses affect Mindrot. If a PC ends this expedition afflicted by @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}, make a thread in Affliction Tracking as normal.</p><p>Every (# of players in the party * 2, or * 1.5 for Tiers 1-3) Victory Points allows the party to find another ritual site. Each site is guarded by enough enemies to constitute a moderate encounter. Tracking the site can be accomplished with any of the following checks. Feel free to allow other creative use of skills or abilities to grant a bonus to these checks, or an automatic Victory Point for expedning an appropriate resource.</p><ul><li><p>Perception, Occultism, or Survival at <strong>#DC#</strong> to track the ritual.</p></li><li><p>Arcana, Religion, or Nature at <strong>#DC+2#</strong>, as it is more difficult to track the ritual with other types of magic.</p></li><li><p>Diplomacy, Deception, or Intimidation at <strong>#DC+2#</strong> to get nearby puppets to reveal the location of another ritual site.</p></li><li><p>Any applicable lore at <strong>#DC-5#</strong>.</p></li></ul><p>As usual, a Critical Success adds 2 Victory Points, a Success adds 1 Victory Point, and a Critical Failure removes 1 Victory Point.</p><p>Additionally, the party is being hunted by puppets within the city. Should the party go 3 hours without finding a ritual site, they are attacked. This is also a moderate encounter, although in this case the party begins the encounter off-guard until their first turns. Being attacked in this manner reduces the current count of Victory Points to 0, as the party is forced to abandon the line of their investigation to avoid being swarmed by puppets.</p><p>This expedition can go for a maximum of 3 encounters, regardless of how many ritual sites the party finds. After destroying a Control Node, allow the party 10 minutes to recover without consequence (this time does not count towards advancing the stages of @UUID[Compendium.covalon.vyrm-items.Item.IEZkLmRJbNdsEu0g]{Mindrot}).</p><h2>Recommended Locations</h2><p><span>If the party finds a ritual site: Urban Buildings</span></p><p>If the party is attacked: <span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">City Streets, Alleyways</span></p><h2>Recommended Creatures</h2><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Troops, Humanoids. </span><span>Ideally Humanoid Troops, but feel free to take other types of Troops and reskin them as Humanoids if limited selection gets in the way.</span></p><h2>Recommended Loot</h2><p>0 Control Nodes destroyed: 0 gp</p><p>1 Control Node destroyed: 90% of the gold reward in a mixture of gold and suitable loot found at ritual sites (things that can be explained as 'ritual supplies', or weapons for the guards)</p><p>2 Control Nodes destroyed: 100% of the gold reward in a mixture of gold and suitable loot found at ritual sites (things that can be explained as 'ritual supplies', or weapons for the guards)</p><p>3 Control Nodes destroyed: 100% of the gold reward in a mixture of gold and suitable loot found at ritual sites (things that can be explained as 'ritual supplies', or weapons for the guards) + 10% extra gold to be paid by the Dungeoneering Society.</p>",
+        "format": 1
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "hmRhXt0g982odVSe",
+      "_key": "!journal.pages!rcbKxLnp2wHgJJ7v.hmRhXt0g982odVSe",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": 1794761754354,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1794761754354,
+        "systemId": "pf2e",
+        "systemVersion": "8.7.0"
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Vyrm Expedition C: Destroy the Node",
+      "ownership": {
+        "default": -1
+      },
+      "sort": 200000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<h2>Hook</h2><p><em>We've been mapping out the ritual sites around the city and found one that seems strangely well guarded. We need to send groups out to take the node down.</em></p><h2>Required Elements</h2><ol><li><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Each encounter should have at least one Troop, as the bulk of the challenge in Vyrm comes from the horde that fell to the Mindrot.</span></p></li><li><p>All enemy creatures (\"puppets\") should have the Maw-Touched Mind creature adjustment.</p></li></ol><h3>Summary</h3><p>This expedition consists of two encounters. The first is a moderate encounter, where the party attacks the guards around the control node. The second encounter begins shortly after, with waves of enemies attacking the party in an attempt to defend the node. This encounter goes until the party either flees or successfully destroys the node.</p><h3>Take out the Defenders (Encounter 1)</h3><p><span>The party breaks into the room containing the Control Node hazard. Guarding the room, they find a large group of puppets (moderate encounter). The goal for this encounter is simply to deal with the puppets in the room before they can call for support. As this room is slightly isolated from the surroundings, puppets outside the room will not immediately know something is wrong, but once combat begins start a <strong>5 round counter.</strong></span></p><p>At the end of either the fifth round of combat, or when the party touches the Control Node, the next encounter begins. <span>Make sure the party is aware that touching the Control Node will immediately summon backup from nearby puppets.</span></p><p>Should the encounter end and the party not immediately attempt to break/disable the Control Node, in Tiers 1-3, the reinforcements are slightly delayed (the party can take 10 minutes to recover). In Tiers 4-5, the reinforcements arrive a maximum of 1 full round after combat ends.</p><p><strong>Note:</strong> If the reinforcements arrive to find the entrances to the Control Room blocked by walls, have them come in through a 'hidden entrance' in the side of the room. The encounter shouldn't be able to be trivialized by blocking off the sides of the map.</p><h3>Breaking the Control Node (Encounter 2)</h3><p><span>The goal for this encounter is to break the control node. While attempting to do this, the party is attacked by <strong>waves of enemies at APL-1</strong>. This starts as a moderate encounter, and all enemies in this encounter should be Troops. Then, at the start of each round of combat after the first, an additional APL-1 Troop enters the room and rolls initiative. It should be trivial for the party to flee if required; the puppets primary goal is defending the node. They will not chase if the party runs due to fear of leaving the node vulnerable to more attackers.</span></p><p><strong>Note:</strong> Make sure that the players are aware that their goal is not to kill the enemies. It is to break the Control Node. Once the Control Node is broken, fleeing is trivial; all puppets immediately exit the room and begin heading towards the palace (in an orderly fashion) the second the barrier falls, although they will stop and fight if the party continues the confrontation. No further reinforcements arrive after the Control Node is broken.</p><p><strong>Control Node:</strong></p><p>Place the tier-appropriate Control Node hazard from the Covalon module in the center of the map you're using for this expedition. The hazard should be added to the bottom of the initiative order once Encounter 2 begins.</p><h2>Recommended Locations</h2><p><span>A large room, preferably one that looks like it's being used in a ritual.</span></p><h2>Recommended Creatures</h2><p><span>Troops, Humanoids. Ideally Humanoid Troops, but feel free to take other types of Troops and reskin them as Humanoids if limited selection gets in the way.</span></p><h2>Recommended Loot</h2><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Entirely gold. +10% bonus gold is available for efficiently breaking the Control Node.</span></p><p><span style=\"color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype', sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11, 10, 19, 0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Breaking the Node within the first 3 rounds of combat (in the wave encounter) lets us attack the Palace sooner, and so the Dungeoneering Society is willing to pay a bonus.</span></p>",
+        "format": 1
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    },
+    {
+      "_id": "QWWOwesAkDd04Eay",
+      "_key": "!journal.pages!rcbKxLnp2wHgJJ7v.QWWOwesAkDd04Eay",
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "14.370",
+        "createdTime": 1794761754354,
+        "duplicateSource": null,
+        "exportSource": null,
+        "lastModifiedBy": "H9FXC8g0quO6QRgw",
+        "modifiedTime": 1794761754354,
+        "systemId": "pf2e",
+        "systemVersion": "8.7.0"
+      },
+      "category": null,
+      "flags": {},
+      "image": {},
+      "name": "Vyrm Appendix: Creature Adjustments",
+      "ownership": {
+        "default": -1
+      },
+      "sort": 900000,
+      "src": null,
+      "system": {},
+      "text": {
+        "content": "<p>As each puppet in Vyrm has fallen to the Mindrot, this leads to some required changes.</p><p>@UUID[Compendium.covalon.vyrm-items.Item.5YSWKCFcWipXwMck]{Vyrm Creature Adjustment: Maw-Touched Mind}</p><h3>Maw-Touched Mind</h3><ul><li><p>As all of their minds are connected and reinforced, puppets gain a +2 status bonus to saves against mental effects.</p></li><li><p>All puppets have limited telepathy to other nearby puppets. Within 60 feet, they can communicate constantly without being overheard.</p><ul><li><p>Note: This is still very limited. Assume they can pass information equivalent to one free casting of the message cantrip per round of combat. It's enough to coordinate, but they don't share all information.</p></li><li><p>Note 2: The Puppets within Vyrm do not count as undead. The minds were erased by the Mindrot, and the original inhabitants are gone, but the bodies themselves count as living.</p></li></ul></li></ul><p></p><p>All of these expeditions need Troops. If none of the default troops work for your game, see the troop designing rules here:</p><p><a href=\"https://2e.aonprd.com/Rules.aspx?ID=3427&amp;NoRedirect=1\">Designing Troops - Rules - Archives of Nethys: Pathfinder 2nd Edition Database</a></p>",
+        "format": 1
+      },
+      "title": {
+        "level": 1,
+        "show": true
+      },
+      "type": "text",
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      }
+    }
+  ],
+  "sort": 0
+}
