@@ -8,7 +8,7 @@
     "duplicateSource": null,
     "exportSource": null,
     "lastModifiedBy": "H9FXC8g0quO6QRgw",
-    "modifiedTime": 1794698071967,
+    "modifiedTime": 1794928308362,
     "systemId": "pf2e",
     "systemVersion": "8.7.0"
   },
@@ -159,7 +159,7 @@
     },
     "details": {
       "description": "<p>For APL 10, set the HP to 144 and reduce the AC by 1.</p><p>For APL 12, set the HP to 168 and increase the AC by 2.</p><p>The Control Node automatically fails any reflex or fortitude saves.</p>",
-      "disable": "<p>The Control Node can be disabled via the @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} action from an adjacent creature.</p><p>A number of successes equal to <strong>#Party Size-2#</strong> are required.</p><p>The hazard also ceases to function if it is Destroyed. It functions as usual when Broken. For the purpose of the Disintegrate spell and similar effects, the Control Node is considered a creature that automatically fails its saving throw.</p><p>The Control Node can be disabled with any of the following checks, with a minimum proficiency requirement of Expert:</p><p><strong>APL 10:</strong> @Check[type:crafting|dc:31|basic:false], @Check[type:occultism|dc:31|basic:false], @Check[type:thievery|dc:31|basic:false], @Check[type:arcana|dc:33|basic:false],@Check[type:nature|dc:33|basic:false], or @Check[type:religion|dc:33|basic:false] check.</p><p><strong>APL 11:</strong> @Check[type:crafting|dc:33|basic:false], @Check[type:occultism|dc:33|basic:false], @Check[type:thievery|dc:33|basic:false], @Check[type:arcana|dc:35|basic:false],@Check[type:nature|dc:35|basic:false], or @Check[type:religion|dc:35|basic:false] check.</p><p><strong>APL 12:</strong> @Check[type:crafting|dc:35|basic:false], @Check[type:occultism|dc:35|basic:false], @Check[type:thievery|dc:35|basic:false], @Check[type:arcana|dc:37|basic:false],@Check[type:nature|dc:37|basic:false], or @Check[type:religion|dc:37|basic:false] check.</p>",
+      "disable": "<p>The Control Node can be disabled via the @UUID[Compendium.pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable a Device} action from an adjacent creature.</p><p>A number of successes equal to <strong>#Party Size#</strong> are required.</p><p>The hazard also ceases to function if it is Destroyed. It functions as usual when Broken. For the purpose of the Disintegrate spell and similar effects, the Control Node is considered a creature that automatically fails its saving throw.</p><p>The Control Node can be disabled with any of the following checks, with a minimum proficiency requirement of Expert:</p><p><strong>APL 10:</strong> @Check[type:crafting|dc:31|basic:false], @Check[type:occultism|dc:31|basic:false], @Check[type:thievery|dc:31|basic:false], @Check[type:arcana|dc:33|basic:false],@Check[type:nature|dc:33|basic:false], or @Check[type:religion|dc:33|basic:false] check.</p><p><strong>APL 11:</strong> @Check[type:crafting|dc:33|basic:false], @Check[type:occultism|dc:33|basic:false], @Check[type:thievery|dc:33|basic:false], @Check[type:arcana|dc:35|basic:false],@Check[type:nature|dc:35|basic:false], or @Check[type:religion|dc:35|basic:false] check.</p><p><strong>APL 12:</strong> @Check[type:crafting|dc:35|basic:false], @Check[type:occultism|dc:35|basic:false], @Check[type:thievery|dc:35|basic:false], @Check[type:arcana|dc:37|basic:false],@Check[type:nature|dc:37|basic:false], or @Check[type:religion|dc:37|basic:false] check.</p>",
       "isComplex": true,
       "level": {
         "value": 11

@@ -3,7 +3,7 @@
   "_key": "!actors!YiYsds0utoFbm89o",
   "_stats": {
     "compendiumSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "createdTime": 1676818887420,
     "duplicateSource": null,
     "exportSource": {
@@ -14,9 +14,9 @@
       "worldId": "covalon"
     },
     "lastModifiedBy": "H9FXC8g0quO6QRgw",
-    "modifiedTime": 1731258602895,
+    "modifiedTime": 1794928329485,
     "systemId": "pf2e",
-    "systemVersion": "6.6.2"
+    "systemVersion": "8.7.0"
   },
   "effects": [],
   "flags": {
@@ -641,7 +641,7 @@
     "attributes": {
       "ac": {
         "details": "",
-        "value": 24
+        "value": 34
       },
       "adjustment": null,
       "allSaves": {
